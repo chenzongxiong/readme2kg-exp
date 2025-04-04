@@ -27,15 +27,24 @@ class OpenAIPredictor(BasePredictor):
         if not os.path.isfile(f'{path}/{sid}.txt'):
             self.do_prediction(sentence, tokens, f'{path}/{sid}.txt')
 
-        start_char = random.randint(tokens[0].start, tokens[-1].end - 1)
-        end_char = random.randint(start_char + 1, tokens[-1].end)
-        # NOTE: Since our NER task is character-level, we need handle the tokens at the edge of span carefully.
-        span_tokens = utils.make_span_tokens(tokens, start_char, end_char)
-        if span_tokens is None:
-            return None, None
-        # Random select a label from LABELS
-        label = random.choice(LABELS)
-        return span_tokens, label
+        with open(f'{path}/{sid}.txt', 'r') as fd:
+            predicted_text = fd.read()
+
+        return self.post_process(predicted_text, tokens)
+
+    def post_process(self, predicted_text, tokens):
+        # TODO: return the span tokens, and predicted label
+        # start_char = random.randint(tokens[0].start, tokens[-1].end - 1)
+        # end_char = random.randint(start_char + 1, tokens[-1].end)
+        # # NOTE: Since our NER task is character-level, we need handle the tokens at the edge of span carefully.
+        # span_tokens = utils.make_span_tokens(tokens, start_char, end_char)
+        # if span_tokens is None:
+        #     return None, None
+        # # Random select a label from LABELS
+        # label = random.choice(LABELS)
+        # return span_tokens, label
+        import sys
+        sys.exit(0)
 
     def do_prediction(self, sentence, tokens, sid_path):
         try:
