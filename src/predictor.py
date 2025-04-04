@@ -18,10 +18,6 @@ LABELS = [
 
 
 class BasePredictor:
-    pass
-
-
-class DummpyPredictor(BasePredictor):
     def __call__(self, doc: Document):
         annotations = []
         for sent in doc.sentences:
@@ -43,6 +39,8 @@ class DummpyPredictor(BasePredictor):
         result = utils.replace_webanno_annotations(doc, annotations=annotations)
         return result
 
+
+class DummpyPredictor(BasePredictor):
     def predict(self, sentence, tokens):
         '''
         Only predict one label for each sentence
