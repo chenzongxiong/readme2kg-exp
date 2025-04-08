@@ -65,7 +65,7 @@ class OpenAIPredictor(BasePredictor):
             tokens = doc.sentence_tokens(sent)
             args_list.append((sent, tokens))
 
-        with mp.Pool(32) as pool:
+        with mp.Pool(64) as pool:
             span_tokens_to_label_list = pool.map(self._predict_wrapper, args_list)
             span_tokens_to_label_list = reduce(op.concat, span_tokens_to_label_list)
 
@@ -145,13 +145,11 @@ class OpenAIPredictor(BasePredictor):
                     {"role": "user", "content": prompt},
                 ]
             )
+            print(f"Process-{os.getpid()} predict {colored(sentence.text, 'cyan')} successfully...")
             result = response.choices[0].message.content
             with open(sid_path, 'w') as file:
                 file.write(result)
-
-            # sys.exit(1)
         except Exception as ex:
-            # raise f"Error: {e}"
             raise ex
 
     def set_file_name(self, file_name):
