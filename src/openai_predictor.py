@@ -1,6 +1,8 @@
+import re
 import sys
 import os
 import random
+from collections import defaultdict
 from openai import OpenAI
 import hashlib
 from predictor import BasePredictor, LABELS
@@ -21,16 +23,30 @@ class OpenAIPredictor(BasePredictor):
             self.prompt_template = ''
 
     def predict(self, sentence, tokens):
-        path = f'results/{self.model_name}/prompt-{self.prompt_id}/{self.file_name}'
+        path = f'results/{self.model_name}/prompt-{self.prompt_id}/zzz_{self.file_name}' # NOTE: prefix zzz for directory sorting, non-sense
         os.makedirs(path, exist_ok=True)
-        sid = hashlib.sha256(sentence.text.encode()).hexdigest()
+        sid = hashlib.sha256(sentence.text.encode()).hexdigest()[:8]
         if not os.path.isfile(f'{path}/{sid}.txt'):
             self.do_prediction(sentence, tokens, f'{path}/{sid}.txt')
 
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
-        return self.post_process(predicted_text, tokens)
+        label_to_text_list = self.post_process(predicted_text, tokens)
+        # NOTE: sanity checking
+        for label, text_list in label_to_text_list.items():
+            for text in text_list:
+                if text['text'] != sentence.text[text['start']:text['end']]:
+                    print(f"[WARN] BUG? The predicted text is not exact the same as the original text. \n\nOriginal: {sentence.text}\nGenerated: {text['text]}")
+
+        span_tokens_to_label_list = []
+        for label, text_list in label_to_text_list.items():
+            for text in text_list:
+                span_tokens_to_label_list.append({
+                    'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end']),
+                    'label': label
+                })
+        return span_tokens_to_label_list
 
     def post_process(self, predicted_text, tokens):
         # TODO: return the span tokens, and predicted label
@@ -43,12 +59,35 @@ class OpenAIPredictor(BasePredictor):
         # # Random select a label from LABELS
         # label = random.choice(LABELS)
         # return span_tokens, label
-        import sys
-        sys.exit(0)
+        # import ipdb; ipdb.set_trace()
+        # import sys
+        # TODO: how to clean up introductionary and explanation sentences if needed
+        cleaned_text = self.remove_markdown_quotes_if_needed(predicted_text)
+        label_to_text_list = self.extract_annotation_labels_if_possible(cleaned_text)
+        return label_to_text_list
+
+    def remove_markdown_quotes_if_needed(self, raw_text):
+        text = re.sub(r'^```markdown\n|```$', '', raw_text.strip(), flags=re.MULTILINE)
+        return text.strip()
+
+    def extract_annotation_labels_if_possible(self, predicted_text):
+        label_to_text_list = defaultdict(list)
+        acc_adjusted_pos = 0
+        for label in LABELS:
+            regex = f'<{label}>(.*?)</{label}>'
+            matches = re.finditer(regex, predicted_text, flags=re.IGNORECASE | re.DOTALL)
+            for m in matches:
+                adjusted_pos = len(label) + 2
+                label_to_text_list[label].append({
+                    'text': m.group(1),
+                    'start': m.start(1) - adjusted_pos - acc_adjusted_pos,
+                    'end': m.end(1) - adjusted_pos - acc_adjusted_pos,
+                })
+                acc_adjusted_pos += adjusted_pos * 2 + 1
+        return label_to_text_list
 
     def do_prediction(self, sentence, tokens, sid_path):
         try:
-            import ipdb; ipdb.set_trace()
             prompt = self.prompt_template.replace('{input_text}', sentence.text)
             response = self.client.chat.completions.create(
                 model=self.model_name,
@@ -69,6 +108,7 @@ class OpenAIPredictor(BasePredictor):
     def set_file_name(self, file_name):
         self.file_name = file_name
 
+
 if __name__ == "__main__":
     base_path = './data/train'
     file_names = [fp for fp in os.listdir(base_path) if os.path.isfile(os.path.join(base_path, fp)) and fp.endswith('.tsv')]
@@ -87,18 +127,23 @@ if __name__ == "__main__":
         file_path = os.path.join(base_path, file_name)
         ref_doc = webanno_tsv_read_file(file_path)
         predicted_doc = predictor(ref_doc)
-        break
         # Verify
-        # assert ref_doc.text == predicted_doc.text, 'content changed'
-        # assert len(ref_doc.sentences) == len(predicted_doc.sentences), 'sentences changed'
-        # assert len(ref_doc.tokens) == len(predicted_doc.tokens), 'tokens changed'
-        # for s1, s2 in zip(ref_doc.sentences, predicted_doc.sentences):
-        #     assert s1 == s2, f'sentence changed, \n{s1}\n{s2}'
+        if ref_doc.text != predicted_doc.text:
+            print('[WARN] content changed')
+        if len(ref_doc.sentences) == len(predicted_doc.sentences):
+            print('[WARN] sentences changed')
+        if len(ref_doc.tokens) == len(predicted_doc.tokens):
+            print('[WARN] tokens changed')
+        for s1, s2 in zip(ref_doc.sentences, predicted_doc.sentences):
+            if s1 == s2:
+                print(f'[WARN] sentence changed, \n{s1}\n{s2}')
 
-        # for t1, t2 in zip(ref_doc.tokens, predicted_doc.tokens):
-        #     assert t1 == t2, f'token changed: \n{t1}\n{t2}'
+        for t1, t2 in zip(ref_doc.tokens, predicted_doc.tokens):
+            if t1 == t2:
+                print(f'[WARN] token changed: \n{t1}\n{t2}')
 
-        # print(f"Predicted {len(predicted_doc.annotations)} annotations")
-        # prediction_path = os.path.join(output_folder, file_name)
-        # with open(prediction_path, 'w') as fd:
-        #     fd.write(predicted_doc.tsv())
+        print(f"Predicted {len(predicted_doc.annotations)} annotations")
+        prediction_path = os.path.join(output_folder, file_name)
+        with open(prediction_path, 'w') as fd:
+            fd.write(predicted_doc.tsv())
+        break

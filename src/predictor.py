@@ -35,11 +35,6 @@ class BasePredictor:
                 annotation = utils.make_annotation(tokens=span_tokens, label=label)
                 annotations.append(annotation)
 
-        # result = utils.make_webanno_document(
-        #     annotations=annotations,
-        #     sentences=doc.sentences,
-        #     tokens=doc.tokens
-        # )
         result = utils.replace_webanno_annotations(doc, annotations=annotations)
         return result
 
@@ -64,7 +59,7 @@ if __name__ == "__main__":
     import os
     base_path = './data/train'
     file_names = [fp for fp in os.listdir(base_path) if os.path.isfile(os.path.join(base_path, fp)) and fp.endswith('.tsv')]
-    output_folder = './results/prediction'
+    output_folder = './results/dummy'
     os.makedirs(output_folder, exist_ok=True)
 
     predictor = DummpyPredictor()
