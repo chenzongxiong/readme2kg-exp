@@ -9,10 +9,17 @@ from functools import partial, reduce
 import operator as op
 import hashlib
 import multiprocessing as mp
+import logging
+
 from predictor import BasePredictor, LABELS
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 import utils
 import cleaner
+
+logging.basicConfig(
+    filename='logs/deepseek-chat.log',
+    level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 class OpenAIPredictor(BasePredictor):
     def __init__(self, api_key: str, base_url: str, model_name: str):
@@ -95,7 +102,7 @@ class OpenAIPredictor(BasePredictor):
             for text in text_list:
                 if text['text'] != sentence.text[text['start']:text['end']]:
                     prompt = self.prompt_template.replace('{input_text}', sentence.text)
-                    print(f"[WARN] BUG? The predicted text is not exact the same as the original text. \n\nPrompt: {prompt}\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n--------------------------------------------------------------------------------")
+                    logging.warning(f"BUG? The predicted text is not exact the same as the original text. \n\nPrompt: {prompt}\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n--------------------------------------------------------------------------------")
 
         span_tokens_to_label_list = []
         for label, text_list in label_to_text_list.items():
@@ -152,11 +159,12 @@ class OpenAIPredictor(BasePredictor):
 
 
 if __name__ == "__main__":
-    mp.set_start_method('fork')
-    base_path = './data/train'
+    # mp.set_start_method('fork')
+    phase = 'val'
+    base_path = f'./data/{phase}'
     file_names = [fp for fp in os.listdir(base_path) if os.path.isfile(os.path.join(base_path, fp)) and fp.endswith('.tsv')]
     model_name = 'deepseek-chat'
-    output_folder = f'./results/{model_name}'
+    output_folder = f'./results/{model_name}/{phase}'
     os.makedirs(output_folder, exist_ok=True)
     # DeepSeek Chat
     predictor = OpenAIPredictor(
@@ -172,21 +180,20 @@ if __name__ == "__main__":
         predicted_doc = predictor(ref_doc)
         # Verify
         if ref_doc.text != predicted_doc.text:
-            print('[WARN] content changed')
+            logging.warning('content changed')
         if len(ref_doc.sentences) == len(predicted_doc.sentences):
-            print('[WARN] sentences changed')
+            logging.warning('sentences changed')
         if len(ref_doc.tokens) == len(predicted_doc.tokens):
-            print('[WARN] tokens changed')
+            logging.warning('tokens changed')
         for s1, s2 in zip(ref_doc.sentences, predicted_doc.sentences):
             if s1 == s2:
-                print(f'[WARN] sentence changed, \n{s1}\n{s2}')
+                logging.warning(f'sentence changed, \n{s1}\n{s2}')
 
         for t1, t2 in zip(ref_doc.tokens, predicted_doc.tokens):
             if t1 == t2:
-                print(f'[WARN] token changed: \n{t1}\n{t2}')
+                logging.warning(f'token changed: \n{t1}\n{t2}')
 
-        print(f"Predicted {len(predicted_doc.annotations)} annotations")
+        logging.warning(f"Predicted {len(predicted_doc.annotations)} annotations")
         prediction_path = os.path.join(output_folder, file_name)
         with open(prediction_path, 'w') as fd:
             fd.write(predicted_doc.tsv())
-        break
