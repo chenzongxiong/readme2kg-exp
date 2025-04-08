@@ -5,7 +5,8 @@ import random
 from collections import defaultdict
 from termcolor import colored
 from openai import OpenAI
-from functools import partial
+from functools import partial, reduce
+import operator as op
 import hashlib
 import multiprocessing as mp
 from predictor import BasePredictor, LABELS
@@ -28,7 +29,7 @@ class OpenAIPredictor(BasePredictor):
         self.parallel = True
 
     def __call__(self, doc: Document):
-        if hasattr(self, 'parallel'):
+        if getattr(self, 'parallel', False):
             return self.__call__parallel(doc)
 
         return self.__call__serial(doc)
@@ -58,10 +59,22 @@ class OpenAIPredictor(BasePredictor):
             tokens = doc.sentence_tokens(sent)
             args_list.append((sent, tokens))
 
-        with mp.Pool(1) as pool:
-            results = pool.map(self._predict_wrapper, args_list)
+        with mp.Pool(32) as pool:
+            span_tokens_to_label_list = pool.map(self._predict_wrapper, args_list)
+            span_tokens_to_label_list = reduce(op.concat, span_tokens_to_label_list)
 
-        return results
+        annotations = []
+        for span_tokens_to_label in span_tokens_to_label_list:
+            span_tokens = span_tokens_to_label['span_tokens']
+            label = span_tokens_to_label['label']
+            if span_tokens is None:
+                continue
+
+            annotation = utils.make_annotation(tokens=span_tokens, label=label)
+            annotations.append(annotation)
+
+        result = utils.replace_webanno_annotations(doc, annotations=annotations)
+        return result
 
     def _predict_wrapper(self, args):
         sentence, tokens = args
@@ -83,7 +96,7 @@ class OpenAIPredictor(BasePredictor):
             for text in text_list:
                 if text['text'] != sentence.text[text['start']:text['end']]:
                     prompt = self.prompt_template.replace('{input_text}', sentence.text)
-                    print(f"[WARN] BUG? The predicted text is not exact the same as the original text. \n\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n\nPrompt: {prompt}")
+                    print(f"[WARN] BUG? The predicted text is not exact the same as the original text. \n\nPrompt: {prompt}\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n--------------------------------------------------------------------------------")
 
         span_tokens_to_label_list = []
         for label, text_list in label_to_text_list.items():
@@ -144,8 +157,7 @@ class OpenAIPredictor(BasePredictor):
         self.file_name = file_name
 
 
-# if __name__ == "__main__":
-if True:
+if __name__ == "__main__":
     mp.set_start_method('fork')
     base_path = './data/train'
     file_names = [fp for fp in os.listdir(base_path) if os.path.isfile(os.path.join(base_path, fp)) and fp.endswith('.tsv')]
