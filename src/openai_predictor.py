@@ -3,8 +3,11 @@ import sys
 import os
 import random
 from collections import defaultdict
+from termcolor import colored
 from openai import OpenAI
+from functools import partial
 import hashlib
+import multiprocessing as mp
 from predictor import BasePredictor, LABELS
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 import utils
@@ -12,7 +15,8 @@ import utils
 
 class OpenAIPredictor(BasePredictor):
     def __init__(self, api_key: str, base_url: str, model_name: str):
-        self.client = OpenAI(api_key=api_key, base_url=base_url)
+        self.api_key = api_key
+        self.base_url = base_url
         self.model_name = model_name
         self.prompt_id = 0
         prompt_template_path = f'config/{model_name}-prompt-{self.prompt_id}.txt'
@@ -21,6 +25,47 @@ class OpenAIPredictor(BasePredictor):
                 self.prompt_template = fd.read()
         else:
             self.prompt_template = ''
+        self.parallel = True
+
+    def __call__(self, doc: Document):
+        if hasattr(self, 'parallel'):
+            return self.__call__parallel(doc)
+
+        return self.__call__serial(doc)
+
+    def __call__serial(self, doc: Document):
+        annotations = []
+        for sent in doc.sentences:
+            tokens = doc.sentence_tokens(sent)
+            # NOTE: PUT YOUR PREDICTION LOGIC HERE
+            span_tokens_to_label_list = self.predict(sentence=sent, tokens=tokens)
+            # create the annotation instances
+            for span_tokens_to_label in span_tokens_to_label_list:
+                span_tokens = span_tokens_to_label['span_tokens']
+                label = span_tokens_to_label['label']
+                if span_tokens is None:
+                    continue
+
+                annotation = utils.make_annotation(tokens=span_tokens, label=label)
+                annotations.append(annotation)
+
+        result = utils.replace_webanno_annotations(doc, annotations=annotations)
+        return result
+
+    def __call__parallel(self, doc: Document):
+        args_list = []
+        for sent in doc.sentences:
+            tokens = doc.sentence_tokens(sent)
+            args_list.append((sent, tokens))
+
+        with mp.Pool(1) as pool:
+            results = pool.map(self._predict_wrapper, args_list)
+
+        return results
+
+    def _predict_wrapper(self, args):
+        sentence, tokens = args
+        return self.predict(sentence, tokens)
 
     def predict(self, sentence, tokens):
         path = f'results/{self.model_name}/prompt-{self.prompt_id}/zzz_{self.file_name}' # NOTE: prefix zzz for directory sorting, non-sense
@@ -37,7 +82,8 @@ class OpenAIPredictor(BasePredictor):
         for label, text_list in label_to_text_list.items():
             for text in text_list:
                 if text['text'] != sentence.text[text['start']:text['end']]:
-                    print(f"[WARN] BUG? The predicted text is not exact the same as the original text. \n\nOriginal: {sentence.text}\nGenerated: {text['text]}")
+                    prompt = self.prompt_template.replace('{input_text}', sentence.text)
+                    print(f"[WARN] BUG? The predicted text is not exact the same as the original text. \n\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n\nPrompt: {prompt}")
 
         span_tokens_to_label_list = []
         for label, text_list in label_to_text_list.items():
@@ -49,18 +95,6 @@ class OpenAIPredictor(BasePredictor):
         return span_tokens_to_label_list
 
     def post_process(self, predicted_text, tokens):
-        # TODO: return the span tokens, and predicted label
-        # start_char = random.randint(tokens[0].start, tokens[-1].end - 1)
-        # end_char = random.randint(start_char + 1, tokens[-1].end)
-        # # NOTE: Since our NER task is character-level, we need handle the tokens at the edge of span carefully.
-        # span_tokens = utils.make_span_tokens(tokens, start_char, end_char)
-        # if span_tokens is None:
-        #     return None, None
-        # # Random select a label from LABELS
-        # label = random.choice(LABELS)
-        # return span_tokens, label
-        # import ipdb; ipdb.set_trace()
-        # import sys
         # TODO: how to clean up introductionary and explanation sentences if needed
         cleaned_text = self.remove_markdown_quotes_if_needed(predicted_text)
         label_to_text_list = self.extract_annotation_labels_if_possible(cleaned_text)
@@ -87,6 +121,7 @@ class OpenAIPredictor(BasePredictor):
         return label_to_text_list
 
     def do_prediction(self, sentence, tokens, sid_path):
+        self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)
         try:
             prompt = self.prompt_template.replace('{input_text}', sentence.text)
             response = self.client.chat.completions.create(
@@ -109,7 +144,9 @@ class OpenAIPredictor(BasePredictor):
         self.file_name = file_name
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
+if True:
+    mp.set_start_method('fork')
     base_path = './data/train'
     file_names = [fp for fp in os.listdir(base_path) if os.path.isfile(os.path.join(base_path, fp)) and fp.endswith('.tsv')]
     model_name = 'deepseek-chat'
