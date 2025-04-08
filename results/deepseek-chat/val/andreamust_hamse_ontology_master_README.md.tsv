@@ -25,8 +25,8 @@
 1-20	127-129	at	_	_
 1-21	130-133	the	_	_
 1-22	134-144	University	_	_
-1-23	145-147	of	*[5]	PUBLICATION[5]
-1-24	148-155	Bologna	*[5]	PUBLICATION[5]
+1-23	145-147	of	*[28]	PUBLICATION[28]
+1-24	148-155	Bologna	*[28]	PUBLICATION[28]
 1-25	155-156	,	_	_
 1-26	157-162	under	_	_
 1-27	163-166	the	_	_
