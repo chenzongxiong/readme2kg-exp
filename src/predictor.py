@@ -23,13 +23,17 @@ class BasePredictor:
         for sent in doc.sentences:
             tokens = doc.sentence_tokens(sent)
             # NOTE: PUT YOUR PREDICTION LOGIC HERE
-            span_tokens, label = self.predict(sentence=sent, tokens=tokens)
-            # create the annotation instances
-            if span_tokens is None:
-                continue
 
-            annotation = utils.make_annotation(tokens=span_tokens, label=label)
-            annotations.append(annotation)
+            span_tokens_to_label_list = self.predict(sentence=sent, tokens=tokens)
+            # create the annotation instances
+            for span_tokens_to_label in span_tokens_to_label_list:
+                span_tokens = span_tokens_to_label['span_tokens']
+                label = span_tokens_to_label['label']
+                if span_tokens is None:
+                    continue
+
+                annotation = utils.make_annotation(tokens=span_tokens, label=label)
+                annotations.append(annotation)
 
         # result = utils.make_webanno_document(
         #     annotations=annotations,
@@ -50,10 +54,10 @@ class DummpyPredictor(BasePredictor):
         # NOTE: Since our NER task is character-level, we need handle the tokens at the edge of span carefully.
         span_tokens = utils.make_span_tokens(tokens, start_char, end_char)
         if span_tokens is None:
-            return None, None
+            return []
         # Random select a label from LABELS
         label = random.choice(LABELS)
-        return span_tokens, label
+        return [{'span_tokens': span_tokens, 'label': label}]
 
 
 if __name__ == "__main__":
