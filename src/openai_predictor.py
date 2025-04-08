@@ -12,7 +12,7 @@ import multiprocessing as mp
 from predictor import BasePredictor, LABELS
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 import utils
-
+import cleaner
 
 class OpenAIPredictor(BasePredictor):
     def __init__(self, api_key: str, base_url: str, model_name: str):
@@ -38,7 +38,6 @@ class OpenAIPredictor(BasePredictor):
         annotations = []
         for sent in doc.sentences:
             tokens = doc.sentence_tokens(sent)
-            # NOTE: PUT YOUR PREDICTION LOGIC HERE
             span_tokens_to_label_list = self.predict(sentence=sent, tokens=tokens)
             # create the annotation instances
             for span_tokens_to_label in span_tokens_to_label_list:
@@ -108,14 +107,9 @@ class OpenAIPredictor(BasePredictor):
         return span_tokens_to_label_list
 
     def post_process(self, predicted_text, tokens):
-        # TODO: how to clean up introductionary and explanation sentences if needed
-        cleaned_text = self.remove_markdown_quotes_if_needed(predicted_text)
+        cleaned_text = cleaner.Cleaner(predicted_text).clean()
         label_to_text_list = self.extract_annotation_labels_if_possible(cleaned_text)
         return label_to_text_list
-
-    def remove_markdown_quotes_if_needed(self, raw_text):
-        text = re.sub(r'^```markdown\n|```$', '', raw_text.strip(), flags=re.MULTILINE)
-        return text.strip()
 
     def extract_annotation_labels_if_possible(self, predicted_text):
         label_to_text_list = defaultdict(list)
