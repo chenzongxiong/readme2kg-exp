@@ -4,9 +4,9 @@
 
 #Text=## Fully Convolutional Instance-aware Semantic Segmentation  The major contributors of this repository include \[Haozhi Qi\](https://github.com/Oh233), \[Yi Li\](https://github.com/liyi14), \[Guodong Zhang\](https://github.com/gd-zhang), \[Haochen Zhang\](https://github.com/Braininvat), \[Jifeng Dai\](https://github.com/daijifeng001), and \[Yichen Wei\](https://github.com/YichenWei).  ### Introduction  \*\*FCIS\*\* is a fully convolutional end-to-end solution for instance segmentation, which won the first place in COCO segmentation challenge 2016.
 1-1	0-1	#	_	_
-1-2	1-2	#	*[12]	PUBLICATION[12]
-1-3	3-8	Fully	*[12]	PUBLICATION[12]
-1-4	9-22	Convolutional	*[12]	PUBLICATION[12]
+1-2	1-2	#	*[6]	PUBLICATION[6]
+1-3	3-8	Fully	*[6]	PUBLICATION[6]
+1-4	9-22	Convolutional	*[6]	PUBLICATION[6]
 1-5	23-37	Instance-aware	_	_
 1-6	38-46	Semantic	_	_
 1-7	47-59	Segmentation	_	_
@@ -100,7 +100,7 @@
 1-95	352-362	github.com	_	_
 1-96	362-363	/	_	_
 1-97	363-372	YichenWei	_	_
-1-98	372-373	)	*[9]	SOFTWARE[9]
+1-98	372-373	)	*[2]	SOFTWARE[2]
 1-99	373-374	.	_	_
 1-100	376-377	#	_	_
 1-101	377-378	#	_	_

@@ -137,6 +137,7 @@ class OpenAIPredictor(BasePredictor):
     def do_prediction(self, sentence, tokens, sid_path):
         self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)
         try:
+            print(f"Process-{os.getpid()} processing {colored(sentence.text, 'red')} ...")
             prompt = self.prompt_template.replace('{input_text}', sentence.text)
             response = self.client.chat.completions.create(
                 model=self.model_name,
@@ -145,7 +146,7 @@ class OpenAIPredictor(BasePredictor):
                     {"role": "user", "content": prompt},
                 ]
             )
-            print(f"Process-{os.getpid()} predict {colored(sentence.text, 'cyan')} successfully...")
+            print(f"Process-{os.getpid()} predict {colored(sentence.text, 'cyan')} successfully")
             result = response.choices[0].message.content
             with open(sid_path, 'w') as file:
                 file.write(result)
