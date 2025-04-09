@@ -83,10 +83,9 @@ def process_original_file(base_path, file_name):
 
 
 def process_generated_files(df_original, model_name, file_name):
-    """Process generated text files and return a DataFrame with three columns:
-    1. de_annotated_content - cleaned text without labels (for matching with original_sentence)
-    2. cleaned_content - generated text with labels (for comparing with annotated_sentence)
-    3. source_file - path to the generated file (for tracking differences)
+    """
+    de_annotated_content - cleaned text without labels (for matching with original_sentence)
+    cleaned_content - generated text with labels (for comparing with annotated_sentence)
     """
     generated_folder_path = f"../results/{model_name}/prompt-0/zzz_{file_name}"
 
@@ -135,7 +134,7 @@ def find_best_matches(df_original, df_generated):
     for idx, row in df_original.iterrows():
         original_text = row['original_sentence']
         best_match = None
-        best_score = 0.5  # Ignore matches with similarity below 0.5
+        best_score = 0  # Ignore matches with similarity
 
         for gen_idx, gen_row in df_generated.iterrows():
             similarity = SequenceMatcher(None, original_text, gen_row['de_annotated_content']).ratio()
@@ -148,9 +147,10 @@ def find_best_matches(df_original, df_generated):
                 'sentence_idx': row['sentence_idx'],
                 'original_sentence': original_text,
                 'original_annotated': row['annotated_sentence'],
+                'de_annotated_content':best_match['de_annotated_content'],
                 'generated_annotated': best_match['cleaned_content'],
                 'source_file': best_match['source_file'],
-                'similarity_score': best_score
+                'similarity_score': best_score   # the similarity score between "original sentence" and "de_annotated_content"
             })
 
     return pd.DataFrame(matched_data)
@@ -197,6 +197,10 @@ def main():
     # Create diff directory if it doesn't exist
     os.makedirs('../diff', exist_ok=True)
 
+    # Initialize total counters
+    total_matched = 0
+    total_diff = 0
+
     # Process each TSV file
     for file_name in tsv_files:
         print(f"\nProcessing file: {file_name}")
@@ -222,9 +226,23 @@ def main():
             # Compare annotations and get only rows with differences
             df_diff = compare_annotations(df_matched)
 
+            # Update total counters
+            matched_count = len(df_matched)
+            diff_count = len(df_diff)
+            total_matched += matched_count
+            total_diff += diff_count
+
+            # Calculate difference percentage for this file
+            diff_percentage = (diff_count / matched_count) * 100 if matched_count > 0 else 0
+
+            print(f"\nStatistics for {file_name}:")
+            print(f"- Total matched sentences: {matched_count}")
+            print(f"- Sentences with differences: {diff_count}")
+            print(f"- Difference percentage: {diff_percentage:.2f}%")
+
             # Save results with base filename (without .tsv extension)
             base_name = os.path.splitext(file_name)[0]
-            # df_matched.to_csv(f'../diff/matched_{base_name}.csv', index=False)
+            df_matched.to_csv(f'../diff/matched_{base_name}.csv', index=False)
             df_diff.to_csv(f'../diff/diff_{base_name}.csv', index=False)
 
             # Print differences in tabular format
@@ -243,6 +261,15 @@ def main():
             print(f"Error processing file {file_name}: {str(e)}")
             continue
 
+    # Print overall statistics
+    if total_matched > 0:
+        overall_diff_percentage = (total_diff / total_matched) * 100
+        print("\n=== Overall Statistics ===")
+        print(f"Total matched sentences across all files: {total_matched}")
+        print(f"Total sentences with differences: {total_diff}")
+        print(f"Overall difference percentage: {overall_diff_percentage:.2f}%")
+    else:
+        print("\nNo sentences were matched across all files")
 
 if __name__ == "__main__":
     main()
