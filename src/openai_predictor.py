@@ -33,7 +33,7 @@ class OpenAIPredictor(BasePredictor):
                 self.prompt_template = fd.read()
         else:
             self.prompt_template = ''
-        self.parallel = True
+        self.parallel = False
 
     def __call__(self, doc: Document):
         if getattr(self, 'parallel', False):
@@ -111,6 +111,7 @@ class OpenAIPredictor(BasePredictor):
                     'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end']),
                     'label': label
                 })
+                import ipdb; ipdb.set_trace()
         return span_tokens_to_label_list
 
     def post_process(self, predicted_text, tokens):
@@ -151,7 +152,7 @@ class OpenAIPredictor(BasePredictor):
             with open(sid_path, 'w') as file:
                 file.write(result)
         except Exception as ex:
-            raise ex
+            logging.error(f'[do_prediction] got exception: {ex}')
 
     def set_file_name(self, file_name):
         self.file_name = file_name

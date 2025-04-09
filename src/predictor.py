@@ -39,20 +39,20 @@ class BasePredictor:
         return result
 
 
-class DummpyPredictor(BasePredictor):
-    def predict(self, sentence, tokens):
-        '''
-        Only predict one label for each sentence
-        '''
-        start_char = random.randint(tokens[0].start, tokens[-1].end - 1)
-        end_char = random.randint(start_char + 1, tokens[-1].end)
-        # NOTE: Since our NER task is character-level, we need handle the tokens at the edge of span carefully.
-        span_tokens = utils.make_span_tokens(tokens, start_char, end_char)
-        if span_tokens is None:
-            return []
-        # Random select a label from LABELS
-        label = random.choice(LABELS)
-        return [{'span_tokens': span_tokens, 'label': label}]
+# class DummpyPredictor(BasePredictor):
+#     def predict(self, sentence, tokens):
+#         '''
+#         Only predict one label for each sentence
+#         '''
+#         start_char = random.randint(tokens[0].start, tokens[-1].end - 1)
+#         end_char = random.randint(start_char + 1, tokens[-1].end)
+#         # NOTE: Since our NER task is character-level, we need handle the tokens at the edge of span carefully.
+#         span_tokens = utils.make_span_tokens(tokens, start_char, end_char)
+#         if span_tokens is None:
+#             return []
+#         # Random select a label from LABELS
+#         label = random.choice(LABELS)
+#         return [{'span_tokens': span_tokens, 'label': label}]
 
 
 if __name__ == "__main__":
