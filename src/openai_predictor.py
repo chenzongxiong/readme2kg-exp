@@ -159,7 +159,7 @@ class OpenAIPredictor(BasePredictor):
 
 if __name__ == "__main__":
     # mp.set_start_method('fork')
-    phase = 'val'
+    phase = 'test_unlabeled'
     base_path = f'./data/{phase}'
     file_names = [fp for fp in os.listdir(base_path) if os.path.isfile(os.path.join(base_path, fp)) and fp.endswith('.tsv')]
     model_name = 'deepseek-chat'
