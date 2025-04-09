@@ -33,7 +33,7 @@ class OpenAIPredictor(BasePredictor):
                 self.prompt_template = fd.read()
         else:
             self.prompt_template = ''
-        self.parallel = False
+        self.parallel = True
 
     def __call__(self, doc: Document):
         if getattr(self, 'parallel', False):
