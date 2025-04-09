@@ -111,7 +111,6 @@ class OpenAIPredictor(BasePredictor):
                     'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end']),
                     'label': label
                 })
-                import ipdb; ipdb.set_trace()
         return span_tokens_to_label_list
 
     def post_process(self, predicted_text, tokens):
