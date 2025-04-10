@@ -7,6 +7,7 @@ import cleaner
 from predictor import BasePredictor, LABELS
 from difflib import SequenceMatcher
 from tabulate import tabulate
+import logging
 
 
 def get_min_starts_from_objects(tokens):
@@ -63,11 +64,6 @@ def clean_annotation_tags(text, labels):
     return text
 
 
-def remove_backticks(text):
-    """Remove backticks from text while preserving annotation tags"""
-    return text.replace('`', '')
-
-
 def process_original_file(base_path, file_name):
     """Load and process the TSV file to create annotated DataFrame"""
     file_path = os.path.join(base_path, file_name)
@@ -105,7 +101,6 @@ def process_generated_files(df_original, model_name, file_name):
                 content = f.read()
 
             cleaned = cleaner.Cleaner(content).clean()
-            cleaned = remove_backticks(cleaned)  # Remove backticks while preserving annotations
             de_annotated = clean_annotation_tags(cleaned, LABELS)
 
             processed_data.append({
@@ -156,28 +151,28 @@ def find_best_matches(df_original, df_generated):
     return pd.DataFrame(matched_data)
 
 
-def compare_annotations(df_matched):
-    """Compare original and generated annotations and return only rows with differences"""
-    diff_rows = []
-
-    for idx, row in df_matched.iterrows():
-        original = row['original_annotated']
-        generated = row['generated_annotated']
-
-        # Compare the text with annotations removed
-        original_clean = clean_annotation_tags(original, LABELS)
-        generated_clean = clean_annotation_tags(generated, LABELS)
-
-        if original_clean != generated_clean:
-            diff_rows.append(row)
-        else:
-            # Also check if the annotations themselves are different
-            original_anno_only = original.replace(original_clean, '')
-            generated_anno_only = generated.replace(generated_clean, '')
-            if original_anno_only != generated_anno_only:
-                diff_rows.append(row)
-
-    return pd.DataFrame(diff_rows)
+# def compare_annotations(df_matched):
+#     """Compare original human-annotated sentence and deepseek-generated annotated sentence and return only rows with differences"""
+#     diff_rows = []
+#
+#     for idx, row in df_matched.iterrows():
+#         original = row['original_annotated']
+#         generated = row['generated_annotated']
+#
+#         # Compare the text with annotations removed
+#         original_clean = clean_annotation_tags(original, LABELS)
+#         generated_clean = clean_annotation_tags(generated, LABELS)
+#
+#         if original_clean != generated_clean:
+#             diff_rows.append(row)
+#         else:
+#             # Also check if the annotations themselves are different
+#             original_anno_only = original.replace(original_clean, '')
+#             generated_anno_only = generated.replace(generated_clean, '')
+#             if original_anno_only != generated_anno_only:
+#                 diff_rows.append(row)
+#
+#     return pd.DataFrame(diff_rows)
 
 
 def main():
@@ -185,6 +180,19 @@ def main():
     phase = 'train'
     base_path = f'../data/{phase}'
     model_name = 'deepseek-chat'
+
+    # Initialize logging
+    log_path = '../diff/comparison.log'
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_path, mode='w'),
+            logging.StreamHandler()
+        ]
+    )
 
     # Get all TSV files in the directory
     tsv_files = [fp for fp in os.listdir(base_path)
@@ -198,51 +206,50 @@ def main():
     os.makedirs('../diff', exist_ok=True)
 
     # Initialize total counters
-    total_matched = 0
+    total_sentences = 0
     total_diff = 0
 
     # Process each TSV file
     for file_name in tsv_files:
-        print(f"\nProcessing file: {file_name}")
+        logging.info(f"\nProcessing file: {file_name}")
 
         try:
-            # Process original TSV file
             df_original = process_original_file(base_path, file_name)
-
-            # Process generated files
             df_generated = process_generated_files(df_original, model_name, file_name)
 
             if df_generated.empty:
-                print(f"No generated content found for {file_name}")
+                logging.warning(f"No generated content found for {file_name}")
                 continue
 
             # Find best matches between original and generated content
             df_matched = find_best_matches(df_original, df_generated)
 
             if df_matched.empty:
-                print(f"No matches found for {file_name}")
+                logging.warning(f"No matches found for {file_name}")
                 continue
 
             # Compare annotations and get only rows with differences
-            df_diff = compare_annotations(df_matched)
+            # df_diff = compare_annotations(df_matched)
+            df_diff = df_matched[df_matched['similarity_score'] != 1.0]
 
             # Update total counters
             matched_count = len(df_matched)
             diff_count = len(df_diff)
-            total_matched += matched_count
+            total_sentences += matched_count
             total_diff += diff_count
 
             # Calculate difference percentage for this file
-            diff_percentage = (diff_count / matched_count) * 100 if matched_count > 0 else 0
+            diff_percentage = (diff_count / matched_count * 100) if matched_count > 0 else 0
 
-            print(f"\nStatistics for {file_name}:")
-            print(f"- Total matched sentences: {matched_count}")
-            print(f"- Sentences with differences: {diff_count}")
-            print(f"- Difference percentage: {diff_percentage:.2f}%")
+            # Log file statistics
+            logging.info(f"\nStatistics for {file_name}:")
+            logging.info(f"- Total sentences: {matched_count}")
+            logging.info(f"- Changed sentences: {diff_count}")
+            logging.info(f"- Difference percentage: {diff_percentage:.2f}%")
 
             # Save results with base filename (without .tsv extension)
             base_name = os.path.splitext(file_name)[0]
-            df_matched.to_csv(f'../diff/matched_{base_name}.csv', index=False)
+            df_matched.to_csv(f'../diff/all_{base_name}.csv', index=False)
             df_diff.to_csv(f'../diff/diff_{base_name}.csv', index=False)
 
             # Print differences in tabular format
@@ -261,15 +268,16 @@ def main():
             print(f"Error processing file {file_name}: {str(e)}")
             continue
 
-    # Print overall statistics
-    if total_matched > 0:
-        overall_diff_percentage = (total_diff / total_matched) * 100
-        print("\n=== Overall Statistics ===")
-        print(f"Total matched sentences across all files: {total_matched}")
-        print(f"Total sentences with differences: {total_diff}")
-        print(f"Overall difference percentage: {overall_diff_percentage:.2f}%")
+    # Final summary
+    logging.info("\n\n=== FINAL SUMMARY ===")
+    logging.info(f"Total processed sentences: {total_sentences}")
+    logging.info(f"Total changed sentences: {total_diff}")
+
+    if total_sentences > 0:
+        overall_diff_percent = (total_diff / total_sentences) * 100
+        logging.info(f"Overall difference percentage: {overall_diff_percent:.2f}%")
     else:
-        print("\nNo sentences were matched across all files")
+        logging.info("No sentences processed - cannot calculate overall percentage")
 
 if __name__ == "__main__":
     main()
