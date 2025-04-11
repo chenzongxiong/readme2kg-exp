@@ -1,0 +1,29 @@
+sentence_idx,original_sentence,original_annotated,de_annotated_content,generated_annotated,source_file,similarity_score
+8,```shell git clone https://github.com/kshitij3112/EvPSNet.git cd EvPSNet conda env create -n EvPSnet_env --file=environment.yml conda activate EvPSnet_env ``` b.,```shell git clone https://github.com/kshitij3112/<PROJECT>EvPSNet</PROJECT>.git cd <PROJECT>EvPSNet</PROJECT> conda env create -n <PROJECT>EvPSnet</PROJECT>_env --file=environment.yml conda activate <PROJECT>EvPSnet</PROJECT>_env ``` b.,"```shell git clone https://github.com/kshitij3112/EvPSNet.git cd EvPSNet conda env create -n EvPSnet_env --file=environment.yml conda activate EvPSnet_env ``` b.
+```","```shell git clone https://github.com/kshitij3112/<SOFTWARE>EvPSNet</SOFTWARE>.git cd <SOFTWARE>EvPSNet</SOFTWARE> conda env create -n EvPSnet_env --file=environment.yml conda activate EvPSnet_env ``` b.
+```",../results/deepseek-chat/prompt-0/zzz_kshitij3112_evpsnet_main_README.md.tsv\41e3a641.txt,0.9877300613496932
+23,"We especially thank the authors of: - [EfficientPS](https://github.com/DeepSceneSeg/EfficientPS) - [mmdetection](https://github.com/open-mmlab/mmdetection) - [gen-efficientnet-pytorch](https://github.com/rwightman/gen-efficientnet-pytorch) - [seamseg](https://github.com/mapillary/seamseg.git)  ## Contacts * [Kshitij Sirohi](http://www2.informatik.uni-freiburg.de/~sirohik/) * [Sajad Marvi](http://www2.informatik.uni-freiburg.de/~sirohik/) * [Daniel Büscher](http://www2.informatik.uni-freiburg.de/~buescher/)  ## License For academic usage, the code is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.","We especially thank the authors of: - [<PROJECT>EfficientPS</PROJECT>](https://github.com/DeepSceneSeg/<PROJECT>EfficientPS</PROJECT>) - [<PROJECT>mmdetection</PROJECT>](https://github.com/open-mmlab/<PROJECT>mmdetection</PROJECT>) - [<PROJECT>gen-efficientnet-pytorch</PROJECT><SOFTWARE>pytorch</SOFTWARE>](https://github.com/rwightman/<PROJECT>gen-efficientnet-pytorch</PROJECT><SOFTWARE>pytorch</SOFTWARE>) - [<PROJECT>seamseg</PROJECT>](https://github.com/mapillary/<PROJECT>seamseg</PROJECT>.git)  ## Contacts * [Kshitij Sirohi](http://www2.informatik.uni-freiburg.de/~sirohik/) * [Sajad Marvi](http://www2.informatik.uni-freiburg.de/~sirohik/) * [Daniel Büscher](http://www2.informatik.uni-freiburg.de/~buescher/)  ## License For academic usage, the code is released under the [<LICENSE>GPLv3</LICENSE>](https://www.gnu.org/licenses/<LICENSE>gpl-3.0</LICENSE>.en.html) license.","We especially thank the authors of: 
+- [EfficientPS](https://github.com/DeepSceneSeg/EfficientPS) 
+- [mmdetection](https://github.com/open-mmlab/mmdetection) 
+- [gen-efficientnet-pytorch](https://github.com/rwightman/gen-efficientnet-pytorch) 
+- [seamseg](https://github.com/mapillary/seamseg.git)  
+
+## Contacts 
+* [Kshitij Sirohi](http://www2.informatik.uni-freiburg.de/~sirohik/) 
+* [Sajad Marvi](http://www2.informatik.uni-freiburg.de/~sirohik/) 
+* [Daniel Büscher](http://www2.informatik.uni-freiburg.de/~buescher/)  
+
+## License 
+For academic usage, the code is released under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.","We especially thank the authors of: 
+- [<SOFTWARE>EfficientPS</SOFTWARE>](https://github.com/DeepSceneSeg/<SOFTWARE>EfficientPS</SOFTWARE>) 
+- [<SOFTWARE>mmdetection</SOFTWARE>](https://github.com/open-mmlab/<SOFTWARE>mmdetection</SOFTWARE>) 
+- [<SOFTWARE>gen-efficientnet-pytorch</SOFTWARE>](https://github.com/rwightman/<SOFTWARE>gen-efficientnet-pytorch</SOFTWARE>) 
+- [<SOFTWARE>seamseg</SOFTWARE>](https://github.com/mapillary/<SOFTWARE>seamseg</SOFTWARE>.git)  
+
+## Contacts 
+* [Kshitij Sirohi](http://www2.informatik.uni-freiburg.de/~sirohik/) 
+* [Sajad Marvi](http://www2.informatik.uni-freiburg.de/~sirohik/) 
+* [Daniel Büscher](http://www2.informatik.uni-freiburg.de/~buescher/)  
+
+## License 
+For academic usage, the code is released under the [<LICENSE>GPLv3</LICENSE>](https://www.gnu.org/licenses/<LICENSE>gpl-3.0</LICENSE>.en.html) license.",../results/deepseek-chat/prompt-0/zzz_kshitij3112_evpsnet_main_README.md.tsv\943ccd60.txt,0.8989113530326595
