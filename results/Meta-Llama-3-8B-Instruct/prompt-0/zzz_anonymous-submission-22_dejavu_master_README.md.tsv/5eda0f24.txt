@@ -1,0 +1,15 @@
+# DejaVu ## Table of Contents =================
+    * [Code](#code)
+     * [Install Requirements](#install-requirements)
+     * [Usage](#usage)
+     * [Example](#example)
+   * [Datasets](#datasets)
+     `<DATASET>DejaVu</DATASET>`
+   * [Deployment and Failure Injection Scripts of Train-Ticket](#deployment-and-failure-injection-scripts-of-train-ticket)
+     * [Script 1](https://github.com/DejaVu/DejaVu/blob/master/train-ticket/deployment_scripts/script1.py)
+     * [Script 2](https://github.com/DejaVu/DejaVu/blob/master/train-ticket/deployment_scripts/script2.py)
+   * [Citation](#citation)
+     `<PUBLICATION>DejaVu: A Declarative Model for Efficient and Effective Learning</PUBLICATION>` in `<PUBLICATION>Journal of Machine Learning Research</PUBLICATION>`
+   * [Supplementary details](#supplementary-details)
+     The evaluation metrics used are `<EVALMETRIC>F1-Score</EVALMETRIC>` and `<EVALMETRIC>Accuracy</EVALMETRIC>`.
+     The `<SOFTWARE>
