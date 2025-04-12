@@ -1,14 +1,1 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+`Although a regulariser is certainly feasible in utilize the <PROJECT>class hierarchy</PROJECT>, it is curiously rare in practice and these two methods are the only two examples we know of. - Add "<PROJECT>Distillation Decision Tree</PROJECT>" [[<PUBLICATION>Paper</PUBLICATION>]](https://arxiv.org/pdf/2206.04661.pdf), which interprets the black-box model by distilling its knowledge into decision trees, belonging to section 2.2.  ### Citation  If you find this survey useful for your research, please consider citing ``` <PUBLICATION>@article{li2022survey,   title={A Survey of Neural Trees},   author={Li, Haoling and Song, Jie and Xue, Mengqi and Zhang, Haofei and Ye, Jingwen and Cheng, Lechao and Song, Mingli},   journal={arXiv preprint arXiv:2209.03415},   year={2022} } ```  Thanks

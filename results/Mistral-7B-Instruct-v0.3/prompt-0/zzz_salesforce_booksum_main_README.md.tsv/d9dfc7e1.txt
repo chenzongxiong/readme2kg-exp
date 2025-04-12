@@ -1,14 +1,18 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+```
+[Get Involved](#get-involved)  ## Updates #### 4/15/2021 Initial commit   ## Citation
+```
+`@article{kryscinski2021booksum,
+       title={<PUBLICATION>BookSum: A Collection of Datasets for Long-form Narrative Summarization</PUBLICATION>},
+        author={Wojciech Kry{\'s}ci{\'n}ski and Nazneen Rajani and Divyansh Agarwal and Caiming Xiong and Dragomir Radev},
+       year={2021},
+       eprint={2105.08209},
+       archivePrefix={arXiv},
+       primaryClass={cs.CL} }
+```
 
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+```
+## Legal Note
+By downloading or using the resources, including any code or scripts, shared in this code repository, you hereby agree to the following terms, and your use of the resources is conditioned on and subject to these terms.
+1.
+```
+`<LICENSE>Your Agreement to Terms

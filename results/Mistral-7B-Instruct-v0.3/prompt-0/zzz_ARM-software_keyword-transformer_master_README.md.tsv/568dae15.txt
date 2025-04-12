@@ -1,14 +1,14 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`There are three variants of the Keyword-Transformer model: \
+* **Time-domain attention**: each time-window is treated as a patch, self-attention is computed between time-windows \
+* **Frequency-domain attention**: each frequency is treated as a patch, self-attention is computed between frequencies \
+* **Combination of both**: The signal is fed into both a time- and a frequency-domain transformer and the outputs are combined \
+* **Patch-wise attention**: Similar to the vision transformer, it extracts rectangular patches from the spectrogram, so attention happens both in the time and frequency domain simultaneously. \
+## Training a model from scratch To train KWT-3 from scratch on Speech Commands V2, run \
+```shell sh train.sh ``` \
+Please note that the train directory (given by the argument `--train_dir`) cannot exist prior to start script.`
 
-To annotate text with NER, I follow these steps:
+In this example, the following entities have been annotated:
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+- `Keyword-Transformer` (PROJECT)
+- `Time-domain attention` (CONFERENCE)
+- `Frequency-domain attention` (CON

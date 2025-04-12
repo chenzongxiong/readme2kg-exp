@@ -1,14 +1,7 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`[weights](https://img.shields.io/badge/weights-34a0a4?)` is a color-coded badge representing an unknown entity class.
 
-To annotate text with NER, I follow these steps:
+The following text contains entities that can be annotated:
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+The `<PROGLANG>PyTorch</PROGLANG>` framework is an open-source machine learning library based on the `<PROGLANG>Torch</PROGLANG>` library. It provides a flexible and efficient way to build and train deep learning models. The `<PROJECT>Pytorch-Lightning</PROJECT>` project is a popular library for building and training PyTorch models. It provides a simple and consistent interface for building, training, and deploying deep learning models.
 
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+The `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>` contains the paper "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths". This paper proposes a new method for handling sequences of excessive or insufficient lengths in knowledge tracing.

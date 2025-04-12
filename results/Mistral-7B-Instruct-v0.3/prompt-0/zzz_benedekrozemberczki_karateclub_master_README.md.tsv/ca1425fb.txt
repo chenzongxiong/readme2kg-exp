@@ -1,14 +1,1 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+`The <CONFERENCE>ACM Multimedia Conference on Multimedia Retrieval (<CONFERENCE>MMR</CONFERENCE>)</CONFERENCE> 2023</CONFERENCE> will be held in <CITY>New York</CITY>, <COUNTRY>USA</COUNTRY> from <DATE>October 22-26, 2023</DATE>.</DATE> The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/) is a platform for sharing and evaluating research papers in computer vision, NLP, and other fields. The <SOFTWARE>Protege ontology editor</SOFTWARE> is widely used for creating ontologies. You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the <DATASET>Intelligence Task Ontology</DATASET>. The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-

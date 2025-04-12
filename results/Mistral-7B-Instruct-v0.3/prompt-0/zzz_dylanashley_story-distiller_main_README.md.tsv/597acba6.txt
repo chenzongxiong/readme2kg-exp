@@ -1,14 +1,14 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`To run the web app, simply execute the `<PROGLANG>Python</PROGLANG>` `<SOFTWARE>app.py</SOFTWARE>` file: ```bash
+<PROGLANG>bash</PROGLANG>
+```
+`The web app is accessible at <SOFTWARE>http://localhost:5000</SOFTWARE>`
 
-To annotate text with NER, I follow these steps:
+`The dataset used for this project is the <DATASET>UCI Machine Learning Repository - Adult Income Dataset</DATASET>`
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+`The evaluation metrics used are <EVALMETRIC>Accuracy</EVALMETRIC> and <EVALMETRIC>F1-Score</EVALMETRIC>`
 
-Here's an example of how I might annotate a sentence:
+`The project is based on the <ONTOLOGY>OWL Web Ontology Language (OWL)</ONTOLOGY>`
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+`The <SOFTWARE>Jupyter Notebook</SOFTWARE> is used for data analysis and visualization`
 
-Annot
+`The <SOFTWARE>GitHub</SOFTWARE> repository for this project can be found at <URL>https://github.com/username/repo</URL

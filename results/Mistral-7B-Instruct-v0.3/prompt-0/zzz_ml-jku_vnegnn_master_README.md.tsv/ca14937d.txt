@@ -1,14 +1,9 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+```
+Clone the repo:  ``` `git clone <PROJECT>ml-jku/vnegnn</PROJECT>`` `  Setup dependencies:  ``` `conda create --name vnegnn python=3.9` `  ``` `conda activate vnegnn` `  ``` `conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=12.1 -c pytorch -c nvidia` `  ``` `conda install pyg==2.4.0 -c pyg` `  ``` `conda env update --name vnegnn --file environment.yaml` ```  Activate the environment:  ``` `conda activate vnegnn` ```
 
-To annotate text with NER, I follow these steps:
+## Usage Examples
+Following commands can be executed in the directory of the cloned repository.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+### Predict
+Provide your protein in `.pdb` format.
+```python predict.py -i protein.pdb -o output -c model.ckpt -d cuda:0               # run prediction on

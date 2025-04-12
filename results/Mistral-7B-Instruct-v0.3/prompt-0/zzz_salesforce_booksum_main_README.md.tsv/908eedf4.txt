@@ -1,14 +1,12 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+The script needs to be run separately for each split as the matched file `<SOFTWARE>gather_data.py</SOFTWARE>` needs to be called `<CD>cd paragraph-level-summary-alignments</CD>` and executed with the following command: `<SOFTWARE>python gather_data.py</SOFTWARE> --matched_file /path/to/chapter_summary_aligned_{train/test/val}_split.jsonl --split_paragraphs`.
 
-To annotate text with NER, I follow these steps:
+Generate alignments of the paragraphs with sentences from the summary using the bi-encoder `<PROGLANG>paraphrase-distilroberta-base-v1</PROGLANG>`.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+```python
+<SOFTWARE>align_data_bi_encoder_paraphrase.py</SOFTWARE> --data_path /path/to/chapter_summary_aligned_{train/test/val}_split.jsonl.gathered --stable_alignment
+```
 
-Here's an example of how I might annotate a sentence:
+## Troubleshooting
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+1.
+- If the script fails to run, ensure that the required Python packages are installed and the paths to the files are correct.

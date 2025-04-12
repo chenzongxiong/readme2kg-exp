@@ -1,14 +1,10 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+The given text contains two commands, each with different entities. Here's the annotated text in Markdown format:
 
-To annotate text with NER, I follow these steps:
+```
+**Evaluate recall on critical objects:** ``` PYTHONPATH=$PWD python tools/eval_proposal_ctx_recall.py --m <loss_type> --dataset <DATASET>refcoco</DATASET> --split-by unc --tid <tid> --conf <conf> ```
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+**Evaluate REG Performance Save MAttNet-style detection file:** ``` PYTHONPATH=$PWD python tools/save_matt_dets.py --dataset <DATASET>refcoco</DATASET> --split-by unc --m <loss_type> --tid <tid> --conf <conf> ```
 
-Here's an example of how I might annotate a sentence:
+This script will save all the detection information needed for downstream REG evaluation to `output/matt_dets_<loss_type>_<tid>_<dataset>_<split_by>_<top_N>.json`.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+In this example, the entities `refcoco` and `matt_dets` are annotated as `<DATASET>`.

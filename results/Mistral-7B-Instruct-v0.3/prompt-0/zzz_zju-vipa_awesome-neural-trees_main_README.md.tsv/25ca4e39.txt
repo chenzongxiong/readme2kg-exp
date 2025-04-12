@@ -1,14 +1,1 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+`_sg%5B0%5D=started_experiment_milestone&origin=journalDetail)   - **"<PUBLICATION>Trepan-Plus: An Extension of a Decision Tree Extraction Algorithm Utilizing Artificial Neural Networks</PUBLICATION>"**, <ONTOLOGY>Intelligent Engineering Systems Through Artificial Neural Networks</ONTOLOGY>, 2007     - <PROJECT>M Rangwala *et al.*</PROJECT> *(extend TREPAN to multi-class regression problems)*     - [[<PUBLICATION>Paper</PUBLICATION>]](https://d1wqtxts1xzle7.cloudfront.net/47121083/TREPAN-PLUS_AN_EXTENSION_OF_A_DECISION_T20160708-16395-1sj4ete-with-cover-page-v2.pdf?`

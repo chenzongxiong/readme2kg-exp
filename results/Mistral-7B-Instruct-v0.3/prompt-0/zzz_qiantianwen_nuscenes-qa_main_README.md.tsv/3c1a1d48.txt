@@ -1,14 +1,25 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+```
+The folder structure should be organized as follows before training.  ```
+NuScenes-QA +-- **CONFERENCE**[NuScenes-QA] +-- configs/
+    |   +-- butd.yaml
+    +-- data/
+        |   +-- questions/    # downloaded
+            +-- **DATASET**[NuScenes_train_questions.json]
+            +-- **DATASET**[NuScenes_val_questions.json]
+        +-- features/     # downloaded or extracted
+            +-- CenterPoint/
+                +-- **SOFTWARE**[xxx.npz]
+            +-- BEVDet/
+                +-- **SOFTWARE**[xxx.npz]
+            +-- MSMDFusion/
+                +-- **SOFTWARE**[xxx.npz]
+    +-- src/
+    +-- run.py
+```
 
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+```
+### Installation
+The following packages are required to build the project:
+```bash
+**PROGLANG**[python] >= 3.5
+**PROGLANG**

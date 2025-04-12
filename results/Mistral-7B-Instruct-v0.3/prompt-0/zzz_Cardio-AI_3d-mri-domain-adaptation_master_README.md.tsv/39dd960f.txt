@@ -1,14 +1,1 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+The `<SOFTWARE>ImageJ</SOFTWARE>` software is used for image analysis. The `<DATASET>MRI Brain</DATASET>` dataset is used for the experiment. The results are evaluated using the `<EVALMETRIC>Dice Coefficient</EVALMETRIC>`. The `<PUBLICATION>Improving Brain Tumor Segmentation with Deep Learning</PUBLICATION>` is a relevant publication on the topic. The `<WORKSHOP>Medical Image Analysis Workshop</WORKSHOP>` is a related event. The `<ONTOLOGY>Medical Imaging Ontology</ONTOLOGY>` can be used for further knowledge representation. The `<PROGLANG>Python</PROGLANG>` programming language is commonly used for implementing deep learning models. The `<LICENSE>CC BY-NC 4.0</LICENSE>` is the license for the dataset. The `<CONFERENCE>MICCAI 2023</CONFERENCE>` is a relevant conference for this research.

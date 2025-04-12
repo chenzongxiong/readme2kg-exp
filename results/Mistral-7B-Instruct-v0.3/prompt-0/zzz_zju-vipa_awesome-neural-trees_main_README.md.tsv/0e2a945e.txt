@@ -1,14 +1,9 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+The `<PROGLANG>NNs</PROGLANG>` in the `<CONFERENCE>tree design</CONFERENCE>` are exploited by making the `<EVALMETRIC>routing functions</EVALMETRIC>` differentiable. This allows `<EVALMETRIC>gradient descent-based methods</EVALMETRIC>` to optimize.
 
-To annotate text with NER, I follow these steps:
+#### 3.1 `<PROJECT>Neural Decision Trees with Class Hierarchies</PROJECT>`.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+The core idea is to exploit `<PROGLANG>NNs</PROGLANG>` in the `<CONFERENCE>tree design</CONFERENCE>` by making the `<EVALMETRIC>routing functions</EVALMETRIC>` differentiable. This allows `<EVALMETRIC>gradient descent-based methods</EVALMETRIC>` to optimize.
 
-Here's an example of how I might annotate a sentence:
+#### 3.1 `<PROJECT>Neural Decision Trees with Class Hierarchies</PROJECT>`.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+The core idea is to exploit `<PROGLANG>NNs</PROGLANG>

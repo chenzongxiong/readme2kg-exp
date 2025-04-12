@@ -1,14 +1,13 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+Here's the annotated text in Markdown format:
 
-To annotate text with NER, I follow these steps:
+```
+A basic sample run using default parameters would like this:  ``` python train.py --experiment <CONFERENCE>margin_loss_resnet50</CONFERENCE> \
+                 --dataset=<DATASET>sop</DATASET> -i=$NAME -seed=4 \
+                 --sz-embedding=512 --mod-epoch=2 --nb-clusters=32 --nb-epochs=180 \
+                 --batch-size=80 --num-samples-per-class=2 --backend=faiss-gpu \
+                 --lr-gamma=0.3 --mod-epoch-freeze=1 --sampler=distanceweighted \
+                 --weight-decay=1e-4 --batch-sampler=adaptbalanced \
+                 --force-full-embedding-epoch=80 --mask-lr-mult=100 \
+                 --masking-lambda=0.01 --mask-wd-mult=1 --dataset-dir=$datadir ```
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+- **--experiment <

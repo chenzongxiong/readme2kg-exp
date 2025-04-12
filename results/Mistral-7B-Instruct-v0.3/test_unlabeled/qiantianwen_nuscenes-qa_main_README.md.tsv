@@ -4,13 +4,13 @@
 
 #Text=# \[AAAI 2024\] NuScenes-QA  Official repository for the AAAI 2024 paper \*\*\[NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario\](https://arxiv.org/pdf/2305.14836.pdf)\*\*.  !
 1-1	0-1	#	_	_
-1-2	2-3	\[	_	_
-1-3	3-7	AAAI	_	_
-1-4	8-12	2024	_	_
-1-5	12-13	\]	_	_
-1-6	14-25	NuScenes-QA	_	_
-1-7	27-35	Official	_	_
-1-8	36-46	repository	_	_
+1-2	2-3	\[	*[6]	PUBLICATION[6]
+1-3	3-7	AAAI	*[6]	PUBLICATION[6]
+1-4	8-12	2024	*[6]	PUBLICATION[6]
+1-5	12-13	\]	*[6]	PUBLICATION[6]
+1-6	14-25	NuScenes-QA	*[6]	PUBLICATION[6]
+1-7	27-35	Official	*[6]	PUBLICATION[6]
+1-8	36-46	repository	*[6]	PUBLICATION[6]
 1-9	47-50	for	_	_
 1-10	51-54	the	_	_
 1-11	55-59	AAAI	_	_

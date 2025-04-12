@@ -1,14 +1,9 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+```
+Move `<SOFTWARE>VOCdevit</SOFTWARE>` `<FOLDER>inst</FOLDER>`, `<FOLDER>cls</FOLDER>`, and `<FOLDER>img</FOLDER>` folders to `<SOFTWARE>VOCdevit</SOFTWARE>` and make sure it looks like this:
 
-To annotate text with NER, I follow these steps:
+Please use the `<DATASET>train&val split</DATASET>` in this repo, which follows the `<PUBLICATION>protocol of SDS</PUBLICATION>` (https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/sds/).
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+```
+.data/<SOFTWARE>VOCdevkit</SOFTWARE>/<DATASET>VOCSDS</DATASET>/<FOLDER>img</FOLDER>
+.data/<SOFTWARE>VOCdevkit</SOFTWARE>/<DATASET>VOCSDS</DATASET>/<FOLDER>inst</FOLDER>
+.data/<SOFTWARE>VOCdevkit</SOFTWARE>/

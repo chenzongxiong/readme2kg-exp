@@ -1,14 +1,17 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+Here's the annotated text in Markdown format:
 
-To annotate text with NER, I follow these steps:
+```markdown
+You can now run the tool by directly executing the `<PROGRAMLANG>__main__.py</PROGRAMLANG>` file, or—if you're using <PROGLANG>Linux</PROGRAMLANG> or <PROGLANG>macOS</PROGRAMLANG>—you can use the `makefile` to compile and then install an executable Python zip archive: ```bash make all sudo make install ```
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+## Command-line Tool Usage
+To run the program, execute it while passing the audio files as command-line arguments: ```bash sdistil <FILE> [files ...] >> playlist.txt ```
 
-Here's an example of how I might annotate a sentence:
+[librosa](https://librosa.org/doc/latest/index.html) is used to process the audio files, so most common audio file types are supported.
+```
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+In this example, the annotated entities are:
 
-Annot
+- `__main__.py`: PROGRAMLANG
+- Linux, macOS: PROGLANG
+- makefile: PROGRAMLANG
+- s

@@ -1,14 +1,15 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+- SciDocs is obtained from: [link](https://github.com/<ORGANIZATION>allenai</ORGANIZATION>/<PROJECT>scidocs</PROJECT>).
 
-To annotate text with NER, I follow these steps:
+- The <SOFTWARE>scidocs</SOFTWARE> package provides a set of tools for processing scientific documents.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+- The <DATASET>scidocs</DATASET> dataset contains a collection of scientific documents.
 
-Here's an example of how I might annotate a sentence:
+- The <ONTOLOGY>scidocs</ONTOLOGY> ontology defines the concepts and relationships within the scientific document domain.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+- The <LICENSE>MIT License</LICENSE> is used for the scidocs project.
 
-Annot
+- The <PROGLANG>Python</PROGLANG> and <PROGLANG>JavaScript</PROGLANG> programming languages are used in the scidocs project.
+
+- The <CONFERENCE>AAAI</CONFERENCE> conference proceedings include papers related to the scidocs project.
+
+- The <PUBLICATION>A Systematic Review of Scientific Document Processing Systems</PUBLICATION> discusses the scidoc

@@ -1,14 +1,11 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+These can be tried out by running the `<SOFTWARE>example scripts</SOFTWARE>`.
 
-To annotate text with NER, I follow these steps:
+The `<DATASET>Maules Creek</DATASET>` dataset can be downloaded from (<https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>)
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
 
-Here's an example of how I might annotate a sentence:
+The `<PROJECT>Paper With Code</PROJECT>` project (<https://<PROJECT>paperswithcode</PROJECT>.com/>)
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+The `<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>` (<https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html>)
 
-Annot
+The `<ONTOLOGY>Int

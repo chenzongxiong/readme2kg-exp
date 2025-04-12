@@ -1,14 +1,10 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+```markdown
+View example usage and sample document matches here: [`examples/demo-contextualsentence-multim.ipynb`](https://github.com/allenai/aspire/blob/main/examples/demo-contextualsentence-multim.ipynb)  ##### `<PROJECT>SPECTER-CoCite</PROJECT>`  The `<PROJECT>SPECTER-CoCite</PROJECT>` bi-encoder model can be used via the `transformers` library as:
+  ````python
+  from transformers import AutoModel, AutoTokenizer
+  aspire_bienc = AutoModel.from_pretrained('allenai/aspire-biencoder-compsci-spec')
+  aspire_tok = AutoTokenizer.from_pretrained('allenai/aspire-biencoder-compsci-spec')
+  title = "Multi-Vector Models with Textual Guidance for Fine-Grained Scientific "
+           "Document Similarity"
+  abstract = "We present a new scientific document similarity model based on matching "
+              "fine-grained

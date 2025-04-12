@@ -1,14 +1,15 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+The model is initialized with weights of the `<SOFTWARE>Initial Model</SOFTWARE>`.
 
-To annotate text with NER, I follow these steps:
+The `<PROGLANG>Python</PROGLANG>` script trains the model using the `<DATASET>Training Dataset</DATASET>`.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+The trained model is evaluated using the `<EVALMETRIC>Accuracy</EVALMETRIC>` and `<EVALMETRIC>F1-Score</EVALMETRIC>`.
 
-Here's an example of how I might annotate a sentence:
+The `<PUBLICATION>Paper on Model Training</PUBLICATION>` provides more details about the training process.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+The `<PROJECT>Model Training Project</PROJECT>` is open-source and available on GitHub.
 
-Annot
+The project uses the `<SOFTWARE>GitHub</SOFTWARE>` platform for version control and collaboration.
+
+The `<ONTOLOGY>Ontology for Model Training</ONTOLOGY>` is used to represent the concepts and relationships in the project.
+
+The project also organizes a `<WORKSHOP>Model Training Workshop</WORKSHOP>` annually to discuss the latest developments in model

@@ -1,14 +1,9 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+# [AAAI 2024] NuScenes-QA  Official repository for the AAAI 2024 paper **[<PUBLICATION>NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario</PUBLICATION></URL>]**.
 
-To annotate text with NER, I follow these steps:
+The repository contains the data and code for the **<PUBLICATION>NuScenes-QA</PUBLICATION>** paper.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+You can find the **<DATASET>NuScenes</DATASET>** dataset in the following link: **<URL>https://nuscenes.org/</URL>**
 
-Here's an example of how I might annotate a sentence:
+The evaluation metrics used are **<EVALMETRIC>Accuracy</EVALMETRIC>**, **<EVALMETRIC>F1-Score</EVALMETRIC>**, and **<EVALMETRIC>Mean Reciprocal Rank</EVALMETRIC>**.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+The **<CONFERENCE>AAAI 2024</CONFERENCE>** conference will be held in **<CITY>New York

@@ -1,14 +1,14 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+```
+Please find the example pipeline shown below.
 
-To annotate text with NER, I follow these steps:
+### Models + LSTM - <PROJECT>lstm_luong_wmt_en_de</PROJECT> + Transformer - <PROJECT>transformer_iwslt_de_en</PROJECT> + Dynamic Conv. - <PROJECT>lightconv_iwslt_de_en</PROJECT>
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+### BPE
+``` examples/translation/subword-nmt/apply_bpe.py -c iwslt14.tokenized.de-en/code <iwslt14.tokenized.de-en/iwslt14.vocab.en> iwslt14.tokenized.de-en/iwslt14.vocab.en.bpe ```
 
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+### Preprocessing
+```
+TEXT=examples/translation/iwslt14.tokenized.de-en
+fairseq-preprocess --source-lang en --target-lang de
+     --trainpref $TEXT/train --validpref $TEXT/valid --testpref $TEXT/test
+     --destdir

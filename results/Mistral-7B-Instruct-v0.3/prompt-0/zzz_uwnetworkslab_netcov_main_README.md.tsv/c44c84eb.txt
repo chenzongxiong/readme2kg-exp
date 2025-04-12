@@ -1,14 +1,14 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`To save the coverage report to file, you can customize logger by: ```python import logging fh = logging.FileHandler('<FILEHANDLER>cov.log</FILEHANDLER>) logging.getLogger('<LOGGER>netcov</LOGGER>').addHandler(fh) ```
 
-To annotate text with NER, I follow these steps:
+## References
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+```
+@inproceedings {<PUBLICATION>netcov-nsdi-2023</PUBLICATION>,
+   author = {Xieyang Xu and Weixin Deng and Ryan Beckett and Ratul Mahajan and David Walker},
+   title = {Test Coverage for Network Configurations},
+   booktitle = {<CONFERENCE>20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)</CONFERENCE>},
+   year = {2023},
+   isbn = {<ISBN>978-1-939133-33-5</ISBN>},
+   address = {Boston, MA},
+   pages = {1717--1732},
+  

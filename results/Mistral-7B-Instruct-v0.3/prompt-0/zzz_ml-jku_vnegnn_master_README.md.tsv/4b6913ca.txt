@@ -1,14 +1,7 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`[lightning](https://img.shields.io/badge/-Lightning_2.2.1-792ee5?)`
 
-To annotate text with NER, I follow these steps:
+The <PROGLANG>Python</PROGLANG> code for the <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/) is available on GitHub (https://github.com/<PROJECT>paperswithcode</PROJECT>/<SOFTWARE>pwc-pytorch</SOFTWARE>). The project uses the <SOFTWARE>PyTorch</SOFTWARE> library.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+The <CONFERENCE>International Conference on Learning Representations (ICLR)</CONFERENCE> 2023 will take place from May 7 to May 12 in <CITY>New Orleans</CITY>, <COUNTRY>USA</COUNTRY>. The conference will feature presentations on various topics, including <ONTOLOGY>Knowledge Graphs</ONTOLOGY> and <ONTOLOGY>Semantic Web</ONTOLOGY>.
 
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+The <DATASET>Maules Creek

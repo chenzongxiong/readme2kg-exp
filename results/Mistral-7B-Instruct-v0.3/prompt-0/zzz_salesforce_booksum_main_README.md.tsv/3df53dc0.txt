@@ -1,14 +1,8 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+The updates for the 2nd time are as follows:
 
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+- The [**CONFERENCE**](CONFERENCE) `<CONFERENCE>International Conference on Learning Representations (ICLR) 2023</CONFERENCE>` will be held from May 29 to June 3, 2023.
+- The [**DATASET**](DATASET) `<DATASET>Stanford Sentiment Treebank (SST)</DATASET>` is a large annotated corpus of movie reviews.
+- The [**EVALMETRIC**](EVALMETRIC) used for evaluating the performance of the models is the `<EVALMETRIC>F1-Score</EVALMETRIC>`.
+- The [**LICENSE**](LICENSE) for using the resource is `<LICENSE>CC BY-NC 4.0</LICENSE>`.
+- The [**ONTOLOGY**](ONTOLOGY) used in the project is the `<ONTOLOGY>WordNet</ONTOLOGY>`.
+- The [**PROGLANG**](PROGLANG) used for the

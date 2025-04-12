@@ -1,14 +1,13 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+# Improving Deep Metric Learning by Divide and Conquer
 
-To annotate text with NER, I follow these steps:
+## About PyTorch implementation for the paper _Improving Deep Metric Learning by Divide and Conquer_ accepted to **<CONFERENCE>TPAMI</CONFERENCE>** (Sep. 2021), which is our follow-up paper of [_Divide and Conquer the Embedding Space for Metric Learning (CVPR 2019)_](https://github.com/<PROJECT>CompVis</PROJECT>/<PUBLICATION>metric-learning-divide-and-conquer</PUBLICATION>))
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+**Links**:
 
-Here's an example of how I might annotate a sentence:
+- arxiv: <URL>https://arxiv.org/abs/2109.04003</URL> or
+- TPAMI early access: <URL>https://ieeexplore.ieee.org/document/9540303</URL>
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+## Requirements
 
-Annot
+- PyTorch 1.1.0
+- Faiss-GPU >= 1.5.0, [<PROJECT>Link</PROJECT

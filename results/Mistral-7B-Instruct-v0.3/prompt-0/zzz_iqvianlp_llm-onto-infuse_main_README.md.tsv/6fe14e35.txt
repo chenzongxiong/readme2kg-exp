@@ -1,14 +1,7 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+This script will perform the following actions:
+- read real definitions of concepts from the `<ONTOLOGY>MONDO ontology</ONTOLOGY>`, together with synthetically generated ones (as described at step 3)
+- ontology-driven generation of positive pairs of definitions by synonym substitution
+- ontology-driven generation of hard-negative pairs of definitions by:
+  (i) indexing all definitions in a collection of the `<DATASET>Chroma DB embedding database</DATASET>`
+  (ii) identifying for each definition the associated hard-negative one(s), relying on the is-a relations specified by the `<ONTOLOGY>MONDO ontology</ONTOLOGY>`
+- infuse disease knowledge from the `<ONTOLOGY>MONDO ontology</ONTOLOGY>` in the embedding-LLM selected through command-line `<ARGUMENT 1>`: this is obtained by relying on a contrastive learning framework relying on InfoNCE loss (for more details refer the [paper on ontological knowledge infusion](https://arxiv.org/abs/2405.

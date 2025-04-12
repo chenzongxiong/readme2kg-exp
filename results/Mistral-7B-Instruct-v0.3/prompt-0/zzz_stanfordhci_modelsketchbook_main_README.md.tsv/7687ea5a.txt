@@ -1,14 +1,26 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+```
+/docs/media/create_sketch_model.png" alt="create_sketch_model widgets" width="50%">
 
-To annotate text with NER, I follow these steps:
+## 2: Other functions
+### Tune concepts (optional)
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+You may optionally tune your existing concepts by binarizing them at a threshold, normalizing the values, or calibrating them between specified values.
 
-Here's an example of how I might annotate a sentence:
+<PROGLANG>Python</PROGLANG> code for binarizing concepts:
+```python
+def binarize_concepts(concepts, threshold):
+    binarized_concepts = []
+    for concept in concepts:
+        if concept > threshold:
+            binarized_concepts.append(1)
+        else:
+            binarized_concepts.append(0)
+    return binarized_concepts
+```
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+<PROGLANG>Python</PROGLANG> code for normalizing values:
+```python
+def normalize_values(values, min_value, max_value):
+    normalized_values = []
+    for value in values:
+        normalized_value = (

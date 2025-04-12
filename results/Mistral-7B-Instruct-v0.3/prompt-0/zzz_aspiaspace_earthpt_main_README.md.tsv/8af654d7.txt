@@ -1,14 +1,19 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`We release this code under the <LICENSE>MIT</LICENSE> licence in the hope that it will prove useful to others working on EO and timeseries large observation models.
 
-To annotate text with NER, I follow these steps:
+## install
+Dependencies:
+- `pip install -r requirements.txt`
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+## results
+Our EarthPT-700M model is able to predict future satellite passes well into the future, and also learns semantically meaningful information about the timeseries that it is fed:
+<p align="center">
+     <img src="assets/3d.gif" alt="embeddings" width="400"/>
+</p>
+You can find a plot with less angular momentum and further results in our paper [here](https://arxiv.org/abs/2309.07207).
 
-Here's an example of how I might annotate a sentence:
+## pretrained weights
+You can find our weights for all the EarthPT models on [HuggingFace](https://doi.org/10.57967/hf/1598) 🤗 .
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+## citation
+If you find EarthPT useful in your work please do drop us a cite:
+``

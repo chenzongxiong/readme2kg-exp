@@ -97,8 +97,8 @@
 4-2	444-450	models	_	_
 4-3	451-454	and	_	_
 4-4	455-463	datasets	_	_
-4-5	464-468	will	_	_
-4-6	469-471	be	_	_
+4-5	464-468	will	*[2]	SOFTWARE[2]
+4-6	469-471	be	*[2]	SOFTWARE[2]
 4-7	472-482	downloaded	_	_
 4-8	483-496	automatically	_	_
 4-9	497-501	when	_	_

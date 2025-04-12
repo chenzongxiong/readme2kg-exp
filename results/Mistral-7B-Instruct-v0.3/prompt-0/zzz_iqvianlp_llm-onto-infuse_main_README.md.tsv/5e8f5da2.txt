@@ -1,14 +1,1 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+`RESOURCE_FOLDER<PROJECT>where all the data / models generated to support and evaluate ontological knowledge infusion will be stored</PROJECT>: inside the resource-folder create three sub-folders <PROJECT>with the following names: ONTO_FUSE_SYNTH_DATA, CHROMA_DB, EVAL_RESULT</PROJECT>. - Modify the line 3 of the file [constant_config.py](constant_config.py) by setting the value of <LICENSE>BASE_DATA_FOLDER_PATH</LICENSE> equal to the absolute local path of the resource-folder.`

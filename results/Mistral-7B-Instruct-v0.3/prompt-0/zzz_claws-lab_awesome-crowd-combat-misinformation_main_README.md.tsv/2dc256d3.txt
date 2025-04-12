@@ -1,14 +1,9 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+In each assigned role, we conduct a detailed analysis to categorize the specific utilization of the `<PROJECT>crowd</PROJECT>`.
 
-To annotate text with NER, I follow these steps:
+The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is used to represent the knowledge about the roles.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+The `<SOFTWARE>Protege ontology editor</SOFTWARE>` can be used to explore and edit the ontology.
 
-Here's an example of how I might annotate a sentence:
+The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+The `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`

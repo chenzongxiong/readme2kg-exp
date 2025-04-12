@@ -1,14 +1,13 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+```
+Please find more details in the <DATASET>config files</DATASET> and in our <SOFTWARE>code</SOFTWARE>.
 
-To annotate text with NER, I follow these steps:
+### Misc.
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is available at (<URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</URL>).
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+You can use the <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
 
-Here's an example of how I might annotate a sentence:
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> (<URL>https://iswc2019.semanticweb.org/</URL>) is a well-known event in the field.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+The <PROJECT>Paper With Code</PROJECT> project (<URL>https://<PROJECT>paperswithcode</PROJECT>.com/</URL>) is a valuable resource for researchers.
 
-Annot
+The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> (<URL>https://

@@ -1,14 +1,5 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
-
-To annotate text with NER, I follow these steps:
-
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+```
+- /<DATASET>trial</DATASET>/<DATASET>tsar2022_en_trial_none</DATASET>.tsv - /<DATASET>trial</DATASET>/<DATASET>tsar2022_en_trial_gold</DATASET>.tsv - /<DATASET>trial</DATASET>/<DATASET>tsar2022_es_trial_none</DATASET>.tsv - /<DATASET>trial</DATASET>/<DATASET>tsar2022_es_trial_gold</DATASET>.tsv - /<DATASET>trial</DATASET>/<DATASET>tsar2022_pt_trial_none</DATASET>.tsv - /<DATASET>trial</DATASET>/<DATASET>tsar2022_pt_trial_gold</DATASET>.tsv  <br/>
+    ### Test dataset
+    The *test_none* files (used for the evaluation benchmark) contain the instances with the sentences and target complex words
+```

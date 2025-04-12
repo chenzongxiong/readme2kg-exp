@@ -1,14 +1,21 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+# TAG-CF: Test-time Aggregation for CF  Source code for the paper **[How Does Message Passing Improve Collaborative Filtering?]**
 
-To annotate text with NER, I follow these steps:
+The source code for the paper `<PUBLICATION>How Does Message Passing Improve Collaborative Filtering?</PUBLICATION>` can be found at [this link](https://github.com/<PROJECT>tag-cf</PROJECT>).
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+The project `<PROJECT>tag-cf</PROJECT>` is a collaborative filtering approach that uses message passing to improve its performance.
 
-Here's an example of how I might annotate a sentence:
+The project's `<SOFTWARE>source code</SOFTWARE>` is written in `<PROGLANG>Python</PROGLANG>`.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+To run the code, you'll need to have `<SOFTWARE>Python</SOFTWARE>` installed on your machine.
 
-Annot
+You can install the required dependencies using the following command:
+
+```
+pip install -r requirements.txt
+```
+
+After installing the dependencies, you can run the code using the following command:
+
+```
+python main.py
+```

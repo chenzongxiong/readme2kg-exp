@@ -1,14 +1,13 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+The repository contains all code, instructions and model weights necessary to `<PROJECT>run the method</PROJECT>` or to `<PROJECT>retrain a model</PROJECT>`.
 
-To annotate text with NER, I follow these steps:
+The `<SOFTWARE>PyTorch</SOFTWARE>` framework is used for implementing the code.
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+You can find the `<DATASET>CIFAR-10</DATASET>` dataset in the `<DATASET>datasets</DATASET>` folder.
 
-Here's an example of how I might annotate a sentence:
+The `<PUBLICATION>Deep Residual Learning for Image Recognition</PUBLICATION>` paper provides more information about the method.
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+The `<ONTOLOGY>WordNet</ONTOLOGY>` ontology is used for word sense disambiguation.
 
-Annot
+The `<LICENSE>MIT License</LICENSE>` applies to the entire repository.
+
+The `<CONFERENCE>ICML 2022</CONFERENCE>` workshop on "Deep Learning for Computer Vision" is related to this project.

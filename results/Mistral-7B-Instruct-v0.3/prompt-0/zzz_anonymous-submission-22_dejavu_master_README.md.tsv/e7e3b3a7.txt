@@ -1,14 +1,7 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+The similarity function to compare `<PUBLICATION>$T_1$</PUBLICATION>` and `<PUBLICATION>$T_2$</PUBLICATION>` can be formalized as follows:
 
-To annotate text with NER, I follow these steps:
+$$
+d(<PUBLICATION>T_1</PUBLICATION>, <PUBLICATION>T_2</PUBLICATION>) = \frac{1}{|V|} \sum_{v \in V} s_{T_1}(v) (\min_{v' \in N_c(v;G)} ||\boldsymbol{\hat{f}}^{(T_1, v)} - \boldsymbol{\hat{f}}^{(T_2, v')} ||_1)
+$$
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+where `<ONTOLOGY>$N_c(v;G)$</ONTOLOGY>` denotes the failure units of the same class as `$v$` in `$G$`, and `$||\cdot||_1$` denotes `$L1$` norm.

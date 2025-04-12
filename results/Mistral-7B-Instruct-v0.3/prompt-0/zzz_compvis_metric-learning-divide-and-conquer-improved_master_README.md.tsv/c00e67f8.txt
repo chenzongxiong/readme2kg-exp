@@ -1,14 +1,10 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`You can print a summary of the results with `python browse_results <log path>`.
 
-To annotate text with NER, I follow these steps:
+### Datasets:
+* `<DATASET>CUB200-2011</DATASET>` (http://www.vision.caltech.edu/visipedia/CUB-200.html)
+* `<DATASET>CARS196</DATASET>` (https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+* `<DATASET>Stanford Online Products</DATASET>` (http://cvgl.stanford.edu/projects/lifted_struct/)
+* `<DATASET>In-shop Clothes Retrieval Benchmark</DATASET>` (http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
+* `<DATASET>PKU VehicleID</DATASET>` (https://www.pkuml.org/resources/pku-vehicleid.html)
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
-
-Here's an example of how I might annotate a sentence:
-
-Original text: "John Smith, a software engineer at Google, was born in New York City."
-
-Annot
+Assuming your folder is placed in e.g.

@@ -1,14 +1,17 @@
-As a helpful Named Entity Recognition (NER) annotator, I can assist you in identifying and classifying named entities in text. Named entities can include people, organizations, locations, expressions of times, quantities, and more.
+`citation_graph.py`: create `<PROJECT>citation_graph</PROJECT>`
 
-To annotate text with NER, I follow these steps:
+- `<PROGLANG>Python</PROGLANG>` script for creating `<SOFTWARE>citation graph</SOFTWARE>`
 
-1. Tokenize the text: Break the text into individual words or tokens.
-2. Part-of-speech tagging: Assign a part-of-speech tag to each token, such as noun, verb, adjective, etc.
-3. Named Entity Recognition: Identify and classify named entities in the text, such as "O" for other (non-named entity), "B-PERSON" for the beginning of a person's name, "I-ORG" for the continuation of an organization's name, etc.
-4. Post-processing: Clean up the annotations and ensure they are consistent and accurate.
+- `<DATASET>Citation Network</DATASET>` used to generate the graph
 
-Here's an example of how I might annotate a sentence:
+- `<EVALMETRIC>Citation Impact</EVALMETRIC>` as the primary evaluation metric
 
-Original text: "John Smith, a software engineer at Google, was born in New York City."
+- `<LICENSE>MIT License</LICENSE>` for using the project
 
-Annot
+- `<ONTOLOGY>Citation Ontology</ONTOLOGY>` used for representing the relationships between publications
+
+- `<CONFERENCE>ACM SIGIR Conference on Research and Development in Information Retrieval</CONFERENCE>` where the project was presented
+
+- `<PUBLICATION>Creating a Citation Graph for Analyzing the Impact of Research Publications</PUBLICATION>` is the related publication
+
+- `<WORKSHOP>Data Mining and Information Retrieval Workshop</WORKSHOP>` where the presentation took place
