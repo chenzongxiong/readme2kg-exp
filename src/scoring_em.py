@@ -5,7 +5,9 @@ from collections import defaultdict
 from functools import reduce
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation
 from typing import List, Union
-from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, confusion_matrix
+from seqeval.metrics import classification_report, f1_score, precision_score, recall_score
+from seqeval.scheme import IOB2
+
 
 
 LABELS = [
@@ -81,8 +83,9 @@ def get_parse():
     parser = argparse.ArgumentParser(description="")
     parser.add_argument('--reference_dir', type=str, help='Path to the reference data, e.g. training/validation/test data', required=True)
     parser.add_argument('--prediction_dir', type=str, help='Path to save the prediction results', required=True)
-    parser.add_argument('--score_dir', type=str, help='Path to store scores', default='./results/scores')
-    parser.add_argument('--average', type=str, choices=['macro', 'micro', 'weighted'], help='Type of averaging for metrics calculation', default='macro')
+    parser.add_argument('--score_dir', type=str, help='Path to store scores', default='./results/scores_em')
+    parser.add_argument('--average', type=str, choices=['macro', 'micro', 'weighted'], 
+                       help='Type of averaging for metrics calculation', default='macro')
     return parser
 
 
@@ -130,57 +133,45 @@ if __name__ == "__main__":
         for label_idx, (ref, pred) in enumerate(zip(ref_list, pred_list)):
             assert len(ref) == len(pred), f'ERROR: {ref_file_names[idx]}, label: {LABELS[label_idx]}, reference length: {len(ref)}, prediction length: {len(pred)}'
 
+
+    ################################################################################
+    # Evaluation: merge labels into full sequences and use classification_report
+    ################################################################################
+    # Transpose: regroup by document
+    all_ref_grouped = list(zip(*[label_seq for label_seq in all_ref_bio_tags_list]))
+    all_pred_grouped = list(zip(*[label_seq for label_seq in all_pred_bio_tags_list]))
+
+    # Rebuild full label sequence per document
+    merged_ref = [flatten(doc_labels) for doc_labels in all_ref_grouped]
+    merged_pred = [flatten(doc_labels) for doc_labels in all_pred_grouped]
+
+    # Compute full classification report with the specified average type
+    report = classification_report(merged_ref, merged_pred, output_dict=True, mode='strict', scheme=IOB2)
+
+
+    # Extract individual scores
     scores = {}
-    ################################################################################
-    # Consider whole dataset
-    ################################################################################
-    ref_bio_tags_list = flatten(flatten(all_ref_bio_tags_list))
-    pred_bio_tags_list = flatten(flatten(all_pred_bio_tags_list))
+    for label in LABELS:
+        if label in report:
+            scores[f"{label}_precision"] = report[label]["precision"]
+            scores[f"{label}_recall"] = report[label]["recall"]
+            scores[f"{label}_f1"] = report[label]["f1-score"]
+        else:
+            scores[f"{label}_precision"] = 0.0
+            scores[f"{label}_recall"] = 0.0
+            scores[f"{label}_f1"] = 0.0
 
-    accuracy = accuracy_score(ref_bio_tags_list, pred_bio_tags_list)
-    scores['overall_accuracy'] = accuracy
-    
-    # Use the specified average type instead of looping through all options
-    ref_bio_tags_list = flatten(flatten(all_ref_bio_tags_list))
-    pred_bio_tags_list = flatten(flatten(all_pred_bio_tags_list))
+    # Add overall scores based on the specified average type
+    scores[f"overall_{average_type}_precision"] = report[f"{average_type} avg"]["precision"]
+    scores[f"overall_{average_type}_recall"] = report[f"{average_type} avg"]["recall"]
+    scores[f"overall_{average_type}_f1"] = report[f"{average_type} avg"]["f1-score"]
 
-    f1 = f1_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
-    precision = precision_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
-    recall = recall_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
-    scores[f"overall_{average_type}_precision"] = precision
-    scores[f"overall_{average_type}_recall"] = recall
-    scores[f"overall_{average_type}_f1"] = f1
-
-
-    ################################################################################
-    # For each class
-    ################################################################################
-    label_to_ref_bio_tags_list = defaultdict(list)
-    label_to_pred_bio_tags_list = defaultdict(list)
-    for ref_bio_tags_list, pred_bio_tags_list in zip(all_ref_bio_tags_list, all_pred_bio_tags_list):
-        if len(ref_bio_tags_list) != len(LABELS):
-            print('ERROR: ref bio tags list')
-        if len(pred_bio_tags_list) != len(LABELS):
-            print('ERROR: pred bio tags list')
-
-        for label, ref_bio_tags, pred_bio_tags in zip(LABELS, ref_bio_tags_list, pred_bio_tags_list):
-            label_to_ref_bio_tags_list[label].extend(ref_bio_tags)
-            label_to_pred_bio_tags_list[label].extend(pred_bio_tags)
-            if len(label_to_ref_bio_tags_list[label]) != len(label_to_pred_bio_tags_list[label]):
-                print('ERROR: label_to_ref_pred_bio_tags')
-
-
-    for label in label_to_ref_bio_tags_list.keys():
-        ref_bio_tags_list = label_to_ref_bio_tags_list[label]
-        pred_bio_tags_list = label_to_pred_bio_tags_list[label]
-        accuracy = accuracy_score(ref_bio_tags_list, pred_bio_tags_list)
-        # Calculate scores using the specified average type
-        f1 = f1_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
-        precision = precision_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
-        recall = recall_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
-        scores[f"{label}_{average_type}_precision"] = precision
-        scores[f"{label}_{average_type}_recall"] = recall
-        scores[f"{label}_{average_type}_f1"] = f1
+    # Also include all average types for reference
+    for avg_type in ['micro', 'macro', 'weighted']:
+        if f"{avg_type} avg" in report:
+            scores[f"overall_{avg_type}_precision"] = report[f"{avg_type} avg"]["precision"]
+            scores[f"overall_{avg_type}_recall"] = report[f"{avg_type} avg"]["recall"]
+            scores[f"overall_{avg_type}_f1"] = report[f"{avg_type} avg"]["f1-score"]
 
     print("Scores:\n", json.dumps(scores, indent=2))
 

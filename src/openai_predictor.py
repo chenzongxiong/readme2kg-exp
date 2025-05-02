@@ -114,6 +114,7 @@ class OpenAIPredictor(BasePredictor):
         return span_tokens_to_label_list
 
     def post_process(self, predicted_text, tokens):
+        # TODO: Debug the span of generated files
         cleaned_text = cleaner.Cleaner(predicted_text).clean()
         label_to_text_list = self.extract_annotation_labels_if_possible(cleaned_text)
         return label_to_text_list
