@@ -8,9 +8,9 @@
 
 #Text=\[License: MIT\](https://img.shields.io/badge/license-MIT-blue.svg?
 2-1	2-3	\[	_	_
-2-2	3-10	License	*[7]	LICENSE[7]
-2-3	10-11	:	*[7]	LICENSE[7]
-2-4	12-15	MIT	*[7]	LICENSE[7]
+2-2	3-10	License	*[12]	LICENSE[12]
+2-3	10-11	:	*[12]	LICENSE[12]
+2-4	12-15	MIT	*[12]	LICENSE[12]
 2-5	15-16	\]	_	_
 2-6	16-17	(	_	_
 2-7	17-22	https	_	_
@@ -40,9 +40,9 @@
 3-12	109-110	/	_	_
 3-13	110-118	licenses	_	_
 3-14	118-119	/	_	_
-3-15	119-122	MIT	*[8]	LICENSE[8]
-3-16	122-123	)	_	_
-3-17	124-125	\[	_	_
+3-15	119-122	MIT	_	_
+3-16	122-123	)	*[13]	LICENSE[13]
+3-17	124-125	\[	*[13]	LICENSE[13]
 3-18	125-126	!	_	_
 
 #Text=\[DOI\](https://zenodo.org/badge/DOI/10.48550/arXiv.2404.13971.svg)\](https://doi.org/10.48550/arXiv.2404.13971)  # !
@@ -96,9 +96,9 @@
 6-2	260-267	figures	_	_
 6-3	267-268	/	_	_
 6-4	268-287	HamilToniQ\_logo.png	_	_
-6-4	268-278	HamilToniQ	*[609]	SOFTWARE[609]
+6-4	268-278	HamilToniQ	*[291]	SOFTWARE[291]
 6-5	287-288	)	_	_
-6-6	288-298	HamilToniQ	*[200]	SOFTWARE[200]
+6-6	288-298	HamilToniQ	*[292]	SOFTWARE[292]
 6-7	298-299	:	_	_
 6-8	300-302	An	_	_
 6-9	303-314	Open-Source	_	_
@@ -184,7 +184,7 @@
 11-22	550-551	#	_	_
 11-23	551-552	#	_	_
 11-24	553-565	Introduction	_	_
-11-25	568-578	HamilToniQ	*[610]	SOFTWARE[610]
+11-25	568-578	HamilToniQ	*[293]	SOFTWARE[293]
 11-26	579-581	is	_	_
 11-27	582-584	an	_	_
 11-28	585-605	application-oriented	_	_
@@ -238,8 +238,8 @@
 12-37	853-858	score	_	_
 12-38	858-859	,	_	_
 12-39	860-866	termed	_	_
-12-40	867-874	H-Score	*[150]	EVALMETRIC[150]
-12-41	874-875	,	_	_
+12-40	867-874	H-Score	_	_
+12-41	874-875	,	*[74]	EVALMETRIC[74]
 12-42	876-885	capturing	_	_
 12-43	886-889	all	_	_
 12-44	890-898	relevant	_	_
@@ -265,7 +265,7 @@
 12-64	1014-1024	comparable	_	_
 12-65	1025-1032	results	_	_
 12-66	1032-1033	:	_	_
-12-67	1034-1042	H-Scores	*[151]	EVALMETRIC[151]
+12-67	1034-1042	H-Scores	_	_
 12-68	1043-1049	ensure	_	_
 12-69	1050-1060	consistent	_	_
 12-70	1061-1064	and	_	_
@@ -331,8 +331,8 @@
 13-20	1376-1388	Installation	_	_
 13-21	1390-1397	Install	_	_
 13-22	1398-1401	the	_	_
-13-23	1402-1403	\*	_	_
-13-24	1403-1413	HamilToniQ	*[201]	SOFTWARE[201]
+13-23	1402-1403	\*	*[294]	SOFTWARE[294]
+13-24	1403-1413	HamilToniQ	_	_
 13-25	1413-1414	\*	_	_
 13-26	1415-1422	toolkit	_	_
 13-27	1423-1425	by	_	_
@@ -370,9 +370,9 @@
 14-22	1536-1545	FelixXu35	_	_
 14-23	1545-1546	/	_	_
 14-24	1546-1560	hamiltoniq.git	_	_
-14-24	1546-1556	hamiltoniq	*[611]	SOFTWARE[611]
+14-24	1546-1556	hamiltoniq	*[295]	SOFTWARE[295]
 14-25	1561-1563	cd	_	_
-14-26	1564-1574	hamiltoniq	*[612]	SOFTWARE[612]
+14-26	1564-1574	hamiltoniq	*[296]	SOFTWARE[296]
 14-27	1575-1578	pip	_	_
 14-28	1579-1586	install	_	_
 14-29	1587-1588	-	_	_
@@ -393,21 +393,21 @@
 14-44	1637-1640	run	_	_
 14-45	1641-1644	the	_	_
 14-46	1645-1654	following	_	_
-14-47	1655-1661	Python	*[159]	PROGLANG[159]
+14-47	1655-1661	Python	*[99]	PROGLANG[99]
 14-48	1662-1666	code	_	_
 14-49	1666-1667	:	_	_
 14-50	1669-1670	`	_	_
 14-51	1670-1671	`	_	_
 14-52	1671-1672	`	_	_
-14-53	1672-1678	python	_	_
+14-53	1672-1678	python	*[100]	PROGLANG[100]
 14-54	1679-1683	from	_	_
 14-55	1684-1703	hamiltoniq.bechmark	_	_
-14-55	1684-1694	hamiltoniq	*[613]	SOFTWARE[613]
+14-55	1684-1694	hamiltoniq	*[297]	SOFTWARE[297]
 14-56	1704-1710	import	_	_
-14-57	1711-1716	Toniq	*[614]	SOFTWARE[614]
-14-58	1718-1723	toniq	*[615]	SOFTWARE[615]
+14-57	1711-1716	Toniq	*[298]	SOFTWARE[298]
+14-58	1718-1723	toniq	*[299]	SOFTWARE[299]
 14-59	1724-1725	=	_	_
-14-60	1726-1731	Toniq	*[616]	SOFTWARE[616]
+14-60	1726-1731	Toniq	*[300]	SOFTWARE[300]
 14-61	1731-1732	(	_	_
 14-62	1732-1733	)	_	_
 14-63	1734-1741	backend	_	_
@@ -469,7 +469,7 @@
 15-1	2032-2033	/	_	_
 15-2	2033-2037	docs	_	_
 15-3	2037-2038	/	_	_
-15-4	2038-2056	example\_code.ipynb	*[204]	SOFTWARE[204]
+15-4	2038-2056	example\_code.ipynb	*[302]	SOFTWARE[302]
 15-5	2056-2057	)	_	_
 15-6	2057-2058	.	_	_
 
@@ -736,8 +736,8 @@
 21-50	2771-2776	visit	_	_
 21-51	2777-2780	our	_	_
 21-52	2781-2782	\[	_	_
-21-53	2782-2787	arXiv	*[280]	PUBLICATION[280]
-21-54	2788-2793	Paper	*[280]	PUBLICATION[280]
+21-53	2782-2787	arXiv	*[328]	PUBLICATION[328]
+21-54	2788-2793	Paper	*[328]	PUBLICATION[328]
 21-55	2793-2794	\]	_	_
 21-56	2794-2795	(	_	_
 21-57	2795-2800	https	_	_
@@ -754,8 +754,8 @@
 
 #Text=The HamilToniQ’s benchmarking workflow, shown in the figure below, commences with the characterization of QPUs, where each QPU is classified according to its type, topology, and multi-QPU system.
 22-1	2831-2834	The	_	_
-22-2	2835-2845	HamilToniQ	*[180]	PROJECT[180]
-22-3	2845-2846	’	_	_
+22-2	2835-2845	HamilToniQ	_	_
+22-3	2845-2846	’	*[82]	PROJECT[82]
 22-4	2846-2847	s	_	_
 22-5	2848-2860	benchmarking	_	_
 22-6	2861-2869	workflow	_	_
@@ -847,12 +847,12 @@
 25-3	3336-3339	the	_	_
 25-4	3340-3348	workflow	_	_
 25-5	3349-3351	is	_	_
-25-6	3352-3359	Quantum	*[617]	SOFTWARE[617]
-25-7	3360-3365	Error	*[617]	SOFTWARE[617]
-25-8	3366-3376	Mitigation	*[617]	SOFTWARE[617]
-25-9	3377-3378	(	*[617]	SOFTWARE[617]
-25-10	3378-3381	QEM	*[617]	SOFTWARE[617]
-25-11	3381-3382	)	*[617]	SOFTWARE[617]
+25-6	3352-3359	Quantum	*[303]	SOFTWARE[303]
+25-7	3360-3365	Error	*[303]	SOFTWARE[303]
+25-8	3366-3376	Mitigation	*[303]	SOFTWARE[303]
+25-9	3377-3378	(	*[303]	SOFTWARE[303]
+25-10	3378-3381	QEM	*[303]	SOFTWARE[303]
+25-11	3381-3382	)	*[303]	SOFTWARE[303]
 25-12	3382-3383	,	_	_
 25-13	3384-3389	which	_	_
 25-14	3390-3403	strategically	_	_
@@ -897,11 +897,11 @@
 26-22	3628-3651	reliability—represented	_	_
 26-23	3652-3654	by	_	_
 26-24	3655-3658	the	_	_
-26-25	3659-3666	H-Score	*[152]	EVALMETRIC[152]
+26-25	3659-3666	H-Score	_	_
 26-26	3667-3670	and	_	_
-26-27	3671-3680	Execution	*[153]	EVALMETRIC[153]
-26-28	3681-3685	Time	*[153]	EVALMETRIC[153]
-26-29	3685-3686	.	_	_
+26-27	3671-3680	Execution	_	_
+26-28	3681-3685	Time	*[77]	EVALMETRIC[77]
+26-29	3685-3686	.	*[77]	EVALMETRIC[77]
 
 #Text=These metrics provide a quantitative and objective measure of the QPU’s performance, reflecting the effectiveness of the benchmarking process implemented by HamilToniQ.
 27-1	3687-3692	These	_	_
@@ -928,14 +928,14 @@
 27-22	3821-3828	process	_	_
 27-23	3829-3840	implemented	_	_
 27-24	3841-3843	by	_	_
-27-25	3844-3854	HamilToniQ	*[181]	PROJECT[181]
+27-25	3844-3854	HamilToniQ	*[83]	PROJECT[83]
 27-26	3854-3855	.	_	_
 
 #Text=Additionally, the H-score can help manage computational resources in a Quantum-HPC system.
 28-1	3856-3868	Additionally	_	_
 28-2	3868-3869	,	_	_
 28-3	3870-3873	the	_	_
-28-4	3874-3881	H-score	*[154]	EVALMETRIC[154]
+28-4	3874-3881	H-score	_	_
 28-5	3882-3885	can	_	_
 28-6	3886-3890	help	_	_
 28-7	3891-3897	manage	_	_
@@ -943,7 +943,7 @@
 28-9	3912-3921	resources	_	_
 28-10	3922-3924	in	_	_
 28-11	3925-3926	a	_	_
-28-12	3927-3938	Quantum-HPC	*[618]	SOFTWARE[618]
+28-12	3927-3938	Quantum-HPC	_	_
 28-13	3939-3945	system	_	_
 28-14	3945-3946	.	_	_
 
@@ -983,7 +983,7 @@
 30-19	4037-4038	/	_	_
 30-20	4038-4039	p	_	_
 30-21	4039-4040	>	_	_
-30-22	4042-4052	HamilToniQ	*[619]	SOFTWARE[619]
+30-22	4042-4052	HamilToniQ	*[305]	SOFTWARE[305]
 30-23	4053-4062	primarily	_	_
 30-24	4063-4072	comprises	_	_
 30-25	4073-4076	two	_	_
@@ -1057,13 +1057,13 @@
 33-4	4387-4391	part	_	_
 33-5	4391-4392	,	_	_
 33-6	4393-4396	the	_	_
-33-7	4397-4404	Quantum	*[620]	SOFTWARE[620]
-33-8	4405-4416	Approximate	*[620]	SOFTWARE[620]
-33-9	4417-4429	Optimization	*[620]	SOFTWARE[620]
-33-10	4430-4439	Algorithm	*[620]	SOFTWARE[620]
-33-11	4440-4441	(	*[620]	SOFTWARE[620]
-33-12	4441-4445	QAOA	*[620]	SOFTWARE[620]
-33-13	4445-4446	)	*[620]	SOFTWARE[620]
+33-7	4397-4404	Quantum	*[306]	SOFTWARE[306]
+33-8	4405-4416	Approximate	*[306]	SOFTWARE[306]
+33-9	4417-4429	Optimization	*[306]	SOFTWARE[306]
+33-10	4430-4439	Algorithm	*[306]	SOFTWARE[306]
+33-11	4440-4441	(	*[306]	SOFTWARE[306]
+33-12	4441-4445	QAOA	*[306]	SOFTWARE[306]
+33-13	4445-4446	)	*[306]	SOFTWARE[306]
 33-14	4447-4449	is	_	_
 33-15	4450-4458	executed	_	_
 33-16	4459-4460	a	_	_
@@ -1094,7 +1094,7 @@
 #Text=The final H-Score is computed as the average of all individual scores.
 34-1	4580-4583	The	_	_
 34-2	4584-4589	final	_	_
-34-3	4590-4597	H-Score	*[155]	EVALMETRIC[155]
+34-3	4590-4597	H-Score	_	_
 34-4	4598-4600	is	_	_
 34-5	4601-4609	computed	_	_
 34-6	4610-4612	as	_	_
@@ -1185,15 +1185,15 @@
 36-62	4887-4892	title	_	_
 36-63	4892-4893	=	_	_
 36-64	4893-4894	{	_	_
-36-65	4894-4904	HamilToniQ	*[281]	PUBLICATION[281]
-36-66	4904-4905	:	*[281]	PUBLICATION[281]
-36-67	4906-4908	An	*[281]	PUBLICATION[281]
-36-68	4909-4920	Open-Source	*[281]	PUBLICATION[281]
-36-69	4921-4930	Benchmark	*[281]	PUBLICATION[281]
-36-70	4931-4938	Toolkit	*[281]	PUBLICATION[281]
-36-71	4939-4942	for	*[281]	PUBLICATION[281]
-36-72	4943-4950	Quantum	*[281]	PUBLICATION[281]
-36-73	4951-4960	Computers	*[281]	PUBLICATION[281]
+36-65	4894-4904	HamilToniQ	*[329]	PUBLICATION[329]
+36-66	4904-4905	:	*[329]	PUBLICATION[329]
+36-67	4906-4908	An	*[329]	PUBLICATION[329]
+36-68	4909-4920	Open-Source	*[329]	PUBLICATION[329]
+36-69	4921-4930	Benchmark	*[329]	PUBLICATION[329]
+36-70	4931-4938	Toolkit	*[329]	PUBLICATION[329]
+36-71	4939-4942	for	*[329]	PUBLICATION[329]
+36-72	4943-4950	Quantum	*[329]	PUBLICATION[329]
+36-73	4951-4960	Computers	*[329]	PUBLICATION[329]
 36-74	4960-4961	}	_	_
 36-75	4961-4962	,	_	_
 36-76	4965-4971	author	_	_
@@ -1215,11 +1215,11 @@
 36-92	5029-5036	journal	_	_
 36-93	5036-5037	=	_	_
 36-94	5037-5038	{	_	_
-36-95	5038-5043	arXiv	*[282]	PUBLICATION[282]
-36-96	5044-5052	preprint	*[282]	PUBLICATION[282]
-36-97	5053-5058	arXiv	*[282]	PUBLICATION[282]
-36-98	5058-5059	:	*[282]	PUBLICATION[282]
-36-99	5059-5069	2404.13971	*[282]	PUBLICATION[282]
+36-95	5038-5043	arXiv	*[330]	PUBLICATION[330]
+36-96	5044-5052	preprint	*[330]	PUBLICATION[330]
+36-97	5053-5058	arXiv	*[330]	PUBLICATION[330]
+36-98	5058-5059	:	*[330]	PUBLICATION[330]
+36-99	5059-5069	2404.13971	*[330]	PUBLICATION[330]
 36-100	5069-5070	}	_	_
 36-101	5070-5071	,	_	_
 36-102	5074-5078	year	_	_

@@ -6,8 +6,8 @@
 1-1	0-1	#	_	_
 1-2	1-2	#	_	_
 1-3	2-3	#	_	_
-1-4	4-10	Aspire	*[152]	PROJECT[152]
-1-5	11-21	Repository	*[152]	PROJECT[152]
+1-4	4-10	Aspire	*[59]	PROJECT[59]
+1-5	11-21	Repository	*[59]	PROJECT[59]
 1-6	22-34	accompanying	_	_
 1-7	35-40	paper	_	_
 1-8	41-44	for	_	_
@@ -92,11 +92,11 @@
 2-16	462-465	the	_	_
 2-17	466-475	full-text	_	_
 2-18	476-478	of	_	_
-2-19	479-485	papers	*[480]	PUBLICATION[480]
+2-19	479-485	papers	*[2]	PUBLICATION[2]
 2-20	486-490	that	_	_
 2-21	491-495	cite	_	_
 2-22	496-504	multiple	_	_
-2-23	505-511	papers	*[481]	PUBLICATION[481]
+2-23	505-511	papers	*[3]	PUBLICATION[3]
 2-24	512-520	together	_	_
 2-25	521-522	(	_	_
 2-26	522-534	co-citations	_	_
@@ -216,8 +216,8 @@
 6-8	1171-1176	tasks	_	_
 6-9	1177-1179	in	_	_
 6-10	1180-1184	four	_	_
-6-11	1185-1193	datasets	*[225]	DATASET[225]
-6-12	1193-1194	.	_	_
+6-11	1185-1193	datasets	_	_
+6-12	1193-1194	.	*[7]	DATASET[7]
 
 #Text=Further, our fast single-match method achieves competitive results, paving the way for applying fine-grained similarity to large scientific corpora.
 7-1	1195-1202	Further	_	_
@@ -272,9 +272,9 @@
 8-26	1440-1444	been	_	_
 8-27	1445-1453	accepted	_	_
 8-28	1454-1456	to	_	_
-8-29	1457-1462	NAACL	*[90]	CONFERENCE[90]
-8-30	1463-1467	2022	*[90]	CONFERENCE[90]
-8-31	1467-1468	,	_	_
+8-29	1457-1462	NAACL	_	_
+8-30	1463-1467	2022	*[1]	CONFERENCE[1]
+8-31	1467-1468	,	*[1]	CONFERENCE[1]
 8-32	1469-1473	stay	_	_
 8-33	1474-1479	tuned	_	_
 8-34	1480-1483	for	_	_
@@ -305,8 +305,8 @@
 
 #Text=\[HF Models\](#models)     1.
 10-1	1581-1582	\[	_	_
-10-2	1582-1584	HF	*[1]	PROJECT[1]
-10-3	1585-1591	Models	*[1]	PROJECT[1]
+10-2	1582-1584	HF	*[2]	PROJECT[2]
+10-3	1585-1591	Models	*[2]	PROJECT[2]
 10-4	1591-1592	\]	_	_
 10-5	1592-1593	(	_	_
 10-6	1593-1594	#	_	_
@@ -318,7 +318,7 @@
 #Text=\[Evaluation Datasets\](#evaldata) 1.
 11-1	1609-1610	\[	_	_
 11-2	1610-1620	Evaluation	_	_
-11-3	1621-1629	Datasets	*[226]	DATASET[226]
+11-3	1621-1629	Datasets	*[8]	DATASET[8]
 11-4	1629-1630	\]	_	_
 11-5	1630-1631	(	_	_
 11-6	1631-1632	#	_	_
@@ -657,9 +657,9 @@
 16-280	3198-3199	`	_	_
 16-281	3199-3200	`	_	_
 16-282	3200-3201	`	_	_
-16-283	3201-3207	python	*[75]	PROGLANG[75]
+16-283	3201-3207	python	*[0]	PROGLANG[0]
 16-284	3208-3212	from	_	_
-16-285	3213-3225	transformers	*[494]	SOFTWARE[494]
+16-285	3213-3225	transformers	_	_
 16-286	3226-3232	import	_	_
 16-287	3233-3246	AutoTokenizer	_	_
 16-288	3247-3251	from	_	_
@@ -977,7 +977,7 @@
 16-600	5301-5304	via	_	_
 16-601	5305-5308	the	_	_
 16-602	5309-5310	`	_	_
-16-603	5310-5322	transformers	_	_
+16-603	5310-5322	transformers	*[9]	SOFTWARE[9]
 16-604	5322-5323	`	_	_
 16-605	5324-5331	library	_	_
 16-606	5331-5332	,	_	_
@@ -1024,9 +1024,9 @@
 17-21	5563-5564	/	_	_
 17-22	5564-5574	github.com	_	_
 17-23	5574-5575	/	_	_
-17-24	5575-5582	allenai	*[2]	PROJECT[2]
+17-24	5575-5582	allenai	*[3]	PROJECT[3]
 17-25	5582-5583	/	_	_
-17-26	5583-5589	aspire	*[3]	PROJECT[3]
+17-26	5583-5589	aspire	*[4]	PROJECT[4]
 17-27	5589-5590	/	_	_
 17-28	5590-5594	blob	_	_
 17-29	5594-5595	/	_	_
@@ -1042,11 +1042,11 @@
 17-39	5651-5652	#	_	_
 17-40	5652-5653	#	_	_
 17-41	5654-5655	`	_	_
-17-42	5655-5669	SPECTER-CoCite	*[9]	SOFTWARE[9]
+17-42	5655-5669	SPECTER-CoCite	*[10]	SOFTWARE[10]
 17-43	5669-5670	`	_	_
 17-44	5672-5675	The	_	_
 17-45	5676-5677	`	_	_
-17-46	5677-5691	SPECTER-CoCite	*[10]	SOFTWARE[10]
+17-46	5677-5691	SPECTER-CoCite	*[11]	SOFTWARE[11]
 17-47	5691-5692	`	_	_
 17-48	5693-5703	bi-encoder	_	_
 17-49	5704-5709	model	_	_
@@ -1056,7 +1056,7 @@
 17-53	5722-5725	via	_	_
 17-54	5726-5729	the	_	_
 17-55	5730-5731	`	_	_
-17-56	5731-5743	transformers	*[11]	SOFTWARE[11]
+17-56	5731-5743	transformers	*[12]	SOFTWARE[12]
 17-57	5743-5744	`	_	_
 17-58	5745-5752	library	_	_
 17-59	5753-5755	as	_	_
@@ -1064,21 +1064,21 @@
 17-61	5758-5759	`	_	_
 17-62	5759-5760	`	_	_
 17-63	5760-5761	`	_	_
-17-64	5761-5767	python	*[76]	PROGLANG[76]
+17-64	5761-5767	python	*[1]	PROGLANG[1]
 17-65	5768-5772	from	_	_
-17-66	5773-5785	transformers	*[495]	SOFTWARE[495]
+17-66	5773-5785	transformers	*[13]	SOFTWARE[13]
 17-67	5786-5792	import	_	_
-17-68	5793-5802	AutoModel	*[496]	SOFTWARE[496]
+17-68	5793-5802	AutoModel	*[14]	SOFTWARE[14]
 17-69	5802-5803	,	_	_
-17-70	5804-5817	AutoTokenizer	*[497]	SOFTWARE[497]
+17-70	5804-5817	AutoTokenizer	*[15]	SOFTWARE[15]
 17-71	5818-5830	aspire\_bienc	_	_
 17-72	5831-5832	=	_	_
 17-73	5833-5858	AutoModel.from\_pretrained	_	_
 17-74	5858-5859	(	_	_
 17-75	5859-5860	'	_	_
-17-76	5860-5867	allenai	*[4]	PROJECT[4]
+17-76	5860-5867	allenai	*[5]	PROJECT[5]
 17-77	5867-5868	/	_	_
-17-78	5868-5897	aspire-biencoder-compsci-spec	*[13]	SOFTWARE[13]
+17-78	5868-5897	aspire-biencoder-compsci-spec	*[17]	SOFTWARE[17]
 17-79	5897-5898	'	_	_
 17-80	5898-5899	)	_	_
 17-81	5900-5910	aspire\_tok	_	_
@@ -1086,9 +1086,9 @@
 17-83	5913-5942	AutoTokenizer.from\_pretrained	_	_
 17-84	5942-5943	(	_	_
 17-85	5943-5944	'	_	_
-17-86	5944-5951	allenai	*[5]	PROJECT[5]
+17-86	5944-5951	allenai	*[6]	PROJECT[6]
 17-87	5951-5952	/	_	_
-17-88	5952-5981	aspire-biencoder-compsci-spec	*[15]	SOFTWARE[15]
+17-88	5952-5981	aspire-biencoder-compsci-spec	*[19]	SOFTWARE[19]
 17-89	5981-5982	'	_	_
 17-90	5982-5983	)	_	_
 17-91	5984-5989	title	_	_
@@ -1188,8 +1188,8 @@
 17-185	6449-6453	note	_	_
 17-186	6454-6458	that	_	_
 17-187	6459-6462	the	_	_
-17-188	6463-6470	Hugging	*[498]	SOFTWARE[498]
-17-189	6471-6475	Face	*[498]	SOFTWARE[498]
+17-188	6463-6470	Hugging	*[20]	SOFTWARE[20]
+17-189	6471-6475	Face	*[20]	SOFTWARE[20]
 17-190	6476-6482	models	_	_
 17-191	6483-6488	don't	_	_
 17-192	6489-6493	have	_	_
@@ -1223,7 +1223,7 @@
 18-3	6653-6657	used	_	_
 18-4	6658-6660	in	_	_
 18-5	6661-6664	our	_	_
-18-6	6665-6670	paper	*[482]	PUBLICATION[482]
+18-6	6665-6670	paper	*[4]	PUBLICATION[4]
 18-7	6671-6674	and	_	_
 18-8	6675-6678	are	_	_
 18-9	6679-6688	important	_	_
@@ -1231,7 +1231,7 @@
 18-11	6693-6704	performance	_	_
 18-12	6705-6707	in	_	_
 18-13	6708-6712	some	_	_
-18-14	6713-6721	datasets	*[227]	DATASET[227]
+18-14	6713-6721	datasets	*[9]	DATASET[9]
 18-15	6721-6722	.	_	_
 
 #Text=Obtain the model zip files:  - \[`aspire-biencoder-biomed-scib-full`\](https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-biomed-scib-full.zip) - \[`aspire-biencoder-biomed-spec-full`\](https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-biomed-spec-full.zip) - \[`aspire-biencoder-compsci-spec-full`\](https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-compsci-spec-full.zip)  ```bash wget -O aspire-biencoder-compsci-spec-full.zip https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-compsci-spec-full.zip unzip aspire-biencoder-compsci-spec-full.zip ```  Now it may be used as:  ```python  import os, json, codecs, torch from transformers import AutoTokenizer from examples.ex\_aspire\_bienc import AspireBiEnc  # Directory where zipped model was downloaded and unzipped. model\_path = '.
@@ -1244,8 +1244,8 @@
 19-7	6752-6753	-	_	_
 19-8	6754-6755	\[	_	_
 19-9	6755-6756	`	_	_
-19-10	6756-6789	aspire-biencoder-biomed-scib-full	*[16]	SOFTWARE[16]
-19-11	6789-6790	`	_	_
+19-10	6756-6789	aspire-biencoder-biomed-scib-full	_	_
+19-11	6789-6790	`	*[21]	SOFTWARE[21]
 19-12	6790-6791	\]	_	_
 19-13	6791-6792	(	_	_
 19-14	6792-6797	https	_	_
@@ -1271,10 +1271,10 @@
 19-34	6889-6890	-	_	_
 19-35	6891-6892	\[	_	_
 19-36	6892-6893	`	_	_
-19-37	6893-6926	aspire-biencoder-biomed-spec-full	*[17]	SOFTWARE[17]
-19-38	6926-6927	`	_	_
-19-39	6927-6928	\]	_	_
-19-40	6928-6929	(	_	_
+19-37	6893-6926	aspire-biencoder-biomed-spec-full	_	_
+19-38	6926-6927	`	*[22]	SOFTWARE[22]
+19-39	6927-6928	\]	*[22]	SOFTWARE[22]
+19-40	6928-6929	(	*[22]	SOFTWARE[22]
 19-41	6929-6934	https	_	_
 19-42	6934-6935	:	_	_
 19-43	6935-6936	/	_	_
@@ -1298,10 +1298,10 @@
 19-61	7026-7027	-	_	_
 19-62	7028-7029	\[	_	_
 19-63	7029-7030	`	_	_
-19-64	7030-7064	aspire-biencoder-compsci-spec-full	*[18]	SOFTWARE[18]
-19-65	7064-7065	`	_	_
-19-66	7065-7066	\]	_	_
-19-67	7066-7067	(	_	_
+19-64	7030-7064	aspire-biencoder-compsci-spec-full	_	_
+19-65	7064-7065	`	*[23]	SOFTWARE[23]
+19-66	7065-7066	\]	*[23]	SOFTWARE[23]
+19-67	7066-7067	(	*[23]	SOFTWARE[23]
 19-68	7067-7072	https	_	_
 19-69	7072-7073	:	_	_
 19-70	7073-7074	/	_	_
@@ -1351,9 +1351,9 @@
 19-114	7279-7317	aspire-biencoder-compsci-spec-full.zip	_	_
 19-115	7318-7323	unzip	_	_
 19-116	7324-7362	aspire-biencoder-compsci-spec-full.zip	_	_
-19-117	7363-7364	`	_	_
-19-118	7364-7365	`	_	_
-19-119	7365-7366	`	_	_
+19-117	7363-7364	`	*[25]	SOFTWARE[25]
+19-118	7364-7365	`	*[25]	SOFTWARE[25]
+19-119	7365-7366	`	*[25]	SOFTWARE[25]
 19-120	7368-7371	Now	_	_
 19-121	7372-7374	it	_	_
 19-122	7375-7378	may	_	_
@@ -1380,10 +1380,10 @@
 19-143	7473-7477	from	_	_
 19-144	7478-7502	examples.ex\_aspire\_bienc	_	_
 19-145	7503-7509	import	_	_
-19-146	7510-7521	AspireBiEnc	*[499]	SOFTWARE[499]
+19-146	7510-7521	AspireBiEnc	_	_
 19-147	7523-7524	#	_	_
 19-148	7525-7534	Directory	_	_
-19-149	7535-7540	where	_	_
+19-149	7535-7540	where	*[26]	SOFTWARE[26]
 19-150	7541-7547	zipped	_	_
 19-151	7548-7553	model	_	_
 19-152	7554-7557	was	_	_
@@ -1495,17 +1495,17 @@
 20-96	8144-8149	title	_	_
 20-97	8150-8151	=	_	_
 20-98	8152-8153	"	_	_
-20-99	8153-8165	Multi-Vector	_	_
-20-100	8166-8172	Models	_	_
-20-101	8173-8177	with	_	_
-20-102	8178-8185	Textual	_	_
-20-103	8186-8194	Guidance	_	_
-20-104	8195-8198	for	_	_
-20-105	8199-8211	Fine-Grained	_	_
-20-106	8212-8222	Scientific	_	_
-20-107	8223-8224	"	_	_
-20-108	8233-8234	"	_	_
-20-109	8234-8242	Document	_	_
+20-99	8153-8165	Multi-Vector	*[5]	PUBLICATION[5]
+20-100	8166-8172	Models	*[5]	PUBLICATION[5]
+20-101	8173-8177	with	*[5]	PUBLICATION[5]
+20-102	8178-8185	Textual	*[5]	PUBLICATION[5]
+20-103	8186-8194	Guidance	*[5]	PUBLICATION[5]
+20-104	8195-8198	for	*[5]	PUBLICATION[5]
+20-105	8199-8211	Fine-Grained	*[5]	PUBLICATION[5]
+20-106	8212-8222	Scientific	*[5]	PUBLICATION[5]
+20-107	8223-8224	"	*[5]	PUBLICATION[5]
+20-108	8233-8234	"	*[5]	PUBLICATION[5]
+20-109	8234-8242	Document	*[5]	PUBLICATION[5]
 20-110	8243-8253	Similarity	_	_
 20-111	8253-8254	"	_	_
 20-112	8255-8263	abstract	_	_
@@ -1598,17 +1598,17 @@
 20-199	8647-8657	evaluation	_	_
 20-200	8658-8666	datasets	_	_
 20-201	8666-8667	:	_	_
-20-202	8669-8670	-	_	_
-20-203	8671-8677	RELISH	*[228]	DATASET[228]
-20-204	8678-8681	was	_	_
+20-202	8669-8670	-	*[6]	PUBLICATION[6]
+20-203	8671-8677	RELISH	*[6]	PUBLICATION[6]
+20-204	8678-8681	was	*[6]	PUBLICATION[6]
 20-205	8682-8689	created	_	_
 20-206	8690-8692	in	_	_
 20-207	8693-8694	\[	_	_
-20-208	8694-8699	Brown	*[2]	PUBLICATION[2]
-20-209	8700-8702	et	*[2]	PUBLICATION[2]
-20-210	8703-8705	al	*[2]	PUBLICATION[2]
-20-211	8705-8706	.	*[2]	PUBLICATION[2]
-20-212	8707-8711	2019	*[2]	PUBLICATION[2]
+20-208	8694-8699	Brown	_	_
+20-209	8700-8702	et	_	_
+20-210	8703-8705	al	_	_
+20-211	8705-8706	.	_	_
+20-212	8707-8711	2019	_	_
 20-213	8711-8712	\]	_	_
 20-214	8712-8713	(	_	_
 20-215	8713-8718	https	_	_
@@ -1650,8 +1650,8 @@
 22-8	8838-8842	link	_	_
 22-9	8843-8845	in	_	_
 22-10	8846-8849	the	_	_
-22-11	8850-8861	publication	*[483]	PUBLICATION[483]
-22-12	8861-8862	.	_	_
+22-11	8850-8861	publication	_	_
+22-12	8861-8862	.	*[7]	PUBLICATION[7]
 
 #Text=I was able to obtain a copy of the dataset from: \[link\](http://pubannotation.org/projects/RELISH-DB).
 23-1	8863-8864	I	_	_
@@ -1678,18 +1678,18 @@
 23-22	8943-8944	/	_	_
 23-23	8944-8952	projects	_	_
 23-24	8952-8953	/	_	_
-23-25	8953-8962	RELISH-DB	*[5]	DATASET[5]
+23-25	8953-8962	RELISH-DB	_	_
 23-26	8962-8963	)	_	_
 23-27	8963-8964	.	_	_
 
 #Text=Dataset splits are created in `pre\_proc\_relish.py`
-24-1	8965-8972	Dataset	*[229]	DATASET[229]
-24-2	8973-8979	splits	*[229]	DATASET[229]
+24-1	8965-8972	Dataset	*[12]	DATASET[12]
+24-2	8973-8979	splits	*[12]	DATASET[12]
 24-3	8980-8983	are	_	_
 24-4	8984-8991	created	_	_
 24-5	8992-8994	in	_	_
 24-6	8995-8996	`	_	_
-24-7	8996-9014	pre\_proc\_relish.py	*[0]	PROGLANG[0]
+24-7	8996-9014	pre\_proc\_relish.py	*[2]	PROGLANG[2]
 24-8	9014-9015	`	_	_
 
 #Text=.
@@ -1697,7 +1697,7 @@
 
 #Text=- TRECCOVID presents an ad-hoc search dataset.
 26-1	9018-9019	-	_	_
-26-2	9020-9029	TRECCOVID	*[230]	DATASET[230]
+26-2	9020-9029	TRECCOVID	_	_
 26-3	9030-9038	presents	_	_
 26-4	9039-9041	an	_	_
 26-5	9042-9048	ad-hoc	_	_
@@ -1710,7 +1710,7 @@
 27-2	9069-9077	versions	_	_
 27-3	9078-9080	of	_	_
 27-4	9081-9084	the	_	_
-27-5	9085-9092	dataset	*[231]	DATASET[231]
+27-5	9085-9092	dataset	_	_
 27-6	9093-9097	used	_	_
 27-7	9098-9101	may	_	_
 27-8	9102-9104	be	_	_
@@ -1771,15 +1771,15 @@
 27-63	9319-9323	from	_	_
 27-64	9324-9327	the	_	_
 27-65	9328-9329	\[	_	_
-27-66	9329-9333	CORD	*[6]	DATASET[6]
-27-67	9333-9334	-	*[6]	DATASET[6]
-27-68	9334-9336	19	*[6]	DATASET[6]
-27-69	9336-9337	\]	_	_
-27-70	9337-9338	(	_	_
+27-66	9329-9333	CORD	_	_
+27-67	9333-9334	-	*[15]	DATASET[15]
+27-68	9334-9336	19	*[15]	DATASET[15]
+27-69	9336-9337	\]	*[15]	DATASET[15]
+27-70	9337-9338	(	*[15]	DATASET[15]
 27-71	9338-9343	https	_	_
-27-72	9343-9344	:	_	_
-27-73	9344-9345	/	_	_
-27-74	9345-9346	/	_	_
+27-72	9343-9344	:	*[16]	DATASET[16]
+27-73	9344-9345	/	*[16]	DATASET[16]
+27-74	9345-9346	/	*[16]	DATASET[16]
 27-75	9346-9349	ai2	_	_
 27-76	9349-9350	-	_	_
 27-77	9350-9370	semanticscholar-cord	_	_
@@ -1796,15 +1796,15 @@
 27-88	9400-9401	/	_	_
 27-89	9401-9425	historical\_releases.html	_	_
 27-90	9425-9426	)	_	_
-27-91	9427-9434	dataset	*[232]	DATASET[232]
+27-91	9427-9434	dataset	_	_
 27-92	9435-9437	in	_	_
 27-93	9438-9441	the	_	_
 27-94	9442-9443	\[	_	_
-27-95	9443-9447	2021	*[7]	DATASET[7]
-27-96	9447-9448	-	*[7]	DATASET[7]
-27-97	9448-9450	06	*[7]	DATASET[7]
-27-98	9450-9451	-	*[7]	DATASET[7]
-27-99	9451-9453	21	*[7]	DATASET[7]
+27-95	9443-9447	2021	_	_
+27-96	9447-9448	-	_	_
+27-97	9448-9450	06	_	_
+27-98	9450-9451	-	_	_
+27-99	9451-9453	21	_	_
 27-100	9453-9454	\]	_	_
 27-101	9454-9455	(	_	_
 27-102	9455-9460	https	_	_
@@ -1840,17 +1840,17 @@
 28-1	9552-9555	The	_	_
 28-2	9556-9564	function	_	_
 28-3	9565-9566	`	_	_
-28-4	9566-9579	get\_qbe\_pools	*[1]	PROGLANG[1]
+28-4	9566-9579	get\_qbe\_pools	*[3]	PROGLANG[3]
 28-5	9579-9580	`	_	_
 28-6	9581-9583	in	_	_
 28-7	9584-9585	`	_	_
-28-8	9585-9606	pre\_proc\_treccovid.py	*[2]	PROGLANG[2]
-28-8	9594-9603	treccovid	*[2]	PROGLANG[2]
+28-8	9585-9606	pre\_proc\_treccovid.py	*[4]	PROGLANG[4]
+28-8	9594-9603	treccovid	*[4]	PROGLANG[4]
 28-9	9606-9607	`	_	_
 28-10	9607-9608	,	_	_
 28-11	9609-9617	converts	_	_
 28-12	9618-9621	the	_	_
-28-13	9622-9629	dataset	*[233]	DATASET[233]
+28-13	9622-9629	dataset	_	_
 28-14	9630-9632	in	_	_
 28-15	9633-9636	its	_	_
 28-16	9637-9645	original	_	_
@@ -1860,24 +1860,24 @@
 28-20	9658-9670	reformulated	_	_
 28-21	9671-9675	form	_	_
 28-22	9675-9676	,	_	_
-28-23	9677-9689	TRECCOVID-RF	*[8]	DATASET[8]
-28-23	9677-9686	TRECCOVID	*[8]	DATASET[8]
-28-24	9689-9690	,	_	_
+28-23	9677-9689	TRECCOVID-RF	_	_
+28-23	9677-9686	TRECCOVID	_	_
+28-24	9689-9690	,	*[19]	DATASET[19]
 28-25	9691-9695	used	_	_
 28-26	9696-9698	in	_	_
 28-27	9699-9702	the	_	_
-28-28	9703-9708	paper	*[484]	PUBLICATION[484]
-28-29	9708-9709	.	_	_
+28-28	9703-9708	paper	_	_
+28-29	9708-9709	.	*[8]	PUBLICATION[8]
 
 #Text=Dataset splits are created in `pre\_proc\_treccovid.py`
-29-1	9710-9717	Dataset	*[234]	DATASET[234]
-29-2	9718-9724	splits	*[234]	DATASET[234]
+29-1	9710-9717	Dataset	*[20]	DATASET[20]
+29-2	9718-9724	splits	*[20]	DATASET[20]
 29-3	9725-9728	are	_	_
 29-4	9729-9736	created	_	_
 29-5	9737-9739	in	_	_
 29-6	9740-9741	`	_	_
-29-7	9741-9762	pre\_proc\_treccovid.py	*[3]	PROGLANG[3]
-29-7	9750-9759	treccovid	*[3]	PROGLANG[3]
+29-7	9741-9762	pre\_proc\_treccovid.py	*[5]	PROGLANG[5]
+29-7	9750-9759	treccovid	*[5]	PROGLANG[5]
 29-8	9762-9763	`	_	_
 
 #Text=.
@@ -1885,7 +1885,7 @@
 
 #Text=- SciDocs is obtained from: \[link\](https://github.com/allenai/scidocs).
 31-1	9766-9767	-	_	_
-31-2	9768-9775	SciDocs	*[153]	PROJECT[153]
+31-2	9768-9775	SciDocs	_	_
 31-3	9776-9778	is	_	_
 31-4	9779-9787	obtained	_	_
 31-5	9788-9792	from	_	_
@@ -1902,19 +1902,19 @@
 31-16	9819-9820	/	_	_
 31-17	9820-9827	allenai	_	_
 31-18	9827-9828	/	_	_
-31-19	9828-9835	scidocs	*[6]	PROJECT[6]
-31-20	9835-9836	)	_	_
-31-21	9836-9837	.	_	_
+31-19	9828-9835	scidocs	_	_
+31-20	9835-9836	)	*[8]	PROJECT[8]
+31-21	9836-9837	.	*[8]	PROJECT[8]
 
 #Text=The dataset splits supplied alongside the original dataset are used as is
 32-1	9838-9841	The	_	_
-32-2	9842-9849	dataset	*[235]	DATASET[235]
-32-3	9850-9856	splits	*[235]	DATASET[235]
+32-2	9842-9849	dataset	_	_
+32-3	9850-9856	splits	*[21]	DATASET[21]
 32-4	9857-9865	supplied	_	_
 32-5	9866-9875	alongside	_	_
 32-6	9876-9879	the	_	_
 32-7	9880-9888	original	_	_
-32-8	9889-9896	dataset	*[236]	DATASET[236]
+32-8	9889-9896	dataset	_	_
 32-9	9897-9900	are	_	_
 32-10	9901-9905	used	_	_
 32-11	9906-9908	as	_	_
@@ -1925,7 +1925,7 @@
 
 #Text=- CSFCube is obtained from: \[link\](https://github.com/iesl/CSFCube).
 34-1	9914-9915	-	_	_
-34-2	9916-9923	CSFCube	*[154]	PROJECT[154]
+34-2	9916-9923	CSFCube	*[9]	PROJECT[9]
 34-3	9924-9926	is	_	_
 34-4	9927-9935	obtained	_	_
 34-5	9936-9940	from	_	_
@@ -1942,19 +1942,19 @@
 34-16	9967-9968	/	_	_
 34-17	9968-9972	iesl	_	_
 34-18	9972-9973	/	_	_
-34-19	9973-9980	CSFCube	*[7]	PROJECT[7]
+34-19	9973-9980	CSFCube	*[10]	PROJECT[10]
 34-20	9980-9981	)	_	_
 34-21	9981-9982	.	_	_
 
 #Text=The dataset splits supplied alongside the original dataset are used as is.
 35-1	9983-9986	The	_	_
-35-2	9987-9994	dataset	*[237]	DATASET[237]
-35-3	9995-10001	splits	*[237]	DATASET[237]
+35-2	9987-9994	dataset	_	_
+35-3	9995-10001	splits	*[23]	DATASET[23]
 35-4	10002-10010	supplied	_	_
 35-5	10011-10020	alongside	_	_
 35-6	10021-10024	the	_	_
 35-7	10025-10033	original	_	_
-35-8	10034-10041	dataset	*[238]	DATASET[238]
+35-8	10034-10041	dataset	_	_
 35-9	10042-10045	are	_	_
 35-10	10046-10050	used	_	_
 35-11	10051-10053	as	_	_
@@ -1964,7 +1964,7 @@
 #Text=Complete evaluation datasets used in the paper can be downloaded here: \[`datasets/datasets.md`\](https://github.com/allenai/aspire/blob/main/datasets/datasets.md)   ### Repository Contents <a name="repocontents"></a>      ├── bin     ├── config     │             └── models\_config     │                 ├── s2orcbiomed     │                 ├── s2orccompsci     │                 └── s2orcscidocs     ├── scripts     └── src         ├── evaluation         │             ├── utils         │             │             ├── datasets.py         │             │             ├── metrics.py         │             │             ├── models.py         │             │             └── utils.py         │             └── evaluate.py         ├── learning         │             ├── facetid\_models         │             │             ├── disent\_models.py         │             │             ├── pair\_distances.py         │             │             └── sentsim\_models.py         │             ├── main\_fsim.py         │             ├── batchers.py         │             └── trainer.py         └── pre\_process             ├── extract\_entities.py             ├── pp\_settings.py             ├── pre\_proc\_cocits.py             ├── pre\_proc\_gorc.py             ├── pre\_proc\_relish.py             ├── pre\_proc\_scidocs.py             ├── pre\_proc\_treccovid.py             ├── pp\_gen\_nearest.py             └── pre\_proc\_buildreps.py   \*\*The repository is organized broadly as:\*\*  `src/pre\_process/`: Scripts to 1) generate gather and filter co-citations data from the \[S2ORC\](https://github.com/allenai/s2orc) corpus 2) generate training examples with co-citation data 3) pre-process the evaluation datasets into apt formats for use with models 4) extract NER entities from datasets.
 36-1	10059-10067	Complete	_	_
 36-2	10068-10078	evaluation	_	_
-36-3	10079-10087	datasets	*[239]	DATASET[239]
+36-3	10079-10087	datasets	*[25]	DATASET[25]
 36-4	10088-10092	used	_	_
 36-5	10093-10095	in	_	_
 36-6	10096-10099	the	_	_
@@ -1976,9 +1976,9 @@
 36-12	10128-10129	:	_	_
 36-13	10130-10131	\[	_	_
 36-14	10131-10132	`	_	_
-36-15	10132-10140	datasets	*[9]	DATASET[9]
-36-16	10140-10141	/	*[9]	DATASET[9]
-36-17	10141-10152	datasets.md	*[9]	DATASET[9]
+36-15	10132-10140	datasets	*[26]	DATASET[26]
+36-16	10140-10141	/	*[26]	DATASET[26]
+36-17	10141-10152	datasets.md	*[26]	DATASET[26]
 36-18	10152-10153	`	_	_
 36-19	10153-10154	\]	_	_
 36-20	10154-10155	(	_	_
@@ -1996,9 +1996,9 @@
 36-32	10193-10194	/	_	_
 36-33	10194-10198	main	_	_
 36-34	10198-10199	/	_	_
-36-35	10199-10207	datasets	*[10]	DATASET[10]
+36-35	10199-10207	datasets	*[27]	DATASET[27]
 36-36	10207-10208	/	_	_
-36-37	10208-10219	datasets.md	*[11]	DATASET[11]
+36-37	10208-10219	datasets.md	*[28]	DATASET[28]
 36-38	10219-10220	)	_	_
 36-39	10223-10224	#	_	_
 36-40	10224-10225	#	_	_
@@ -2034,17 +2034,17 @@
 36-70	10361-10362	├	_	_
 36-71	10362-10363	─	_	_
 36-72	10363-10364	─	_	_
-36-73	10365-10376	s2orcbiomed	*[240]	DATASET[240]
+36-73	10365-10376	s2orcbiomed	*[29]	DATASET[29]
 36-74	10381-10382	│	_	_
 36-75	10399-10400	├	_	_
 36-76	10400-10401	─	_	_
 36-77	10401-10402	─	_	_
-36-78	10403-10415	s2orccompsci	*[241]	DATASET[241]
+36-78	10403-10415	s2orccompsci	*[30]	DATASET[30]
 36-79	10420-10421	│	_	_
 36-80	10438-10439	└	_	_
 36-81	10439-10440	─	_	_
 36-82	10440-10441	─	_	_
-36-83	10442-10454	s2orcscidocs	*[242]	DATASET[242]
+36-83	10442-10454	s2orcscidocs	*[31]	DATASET[31]
 36-84	10459-10460	├	_	_
 36-85	10460-10461	─	_	_
 36-86	10461-10462	─	_	_
@@ -2067,30 +2067,30 @@
 36-103	10574-10575	├	_	_
 36-104	10575-10576	─	_	_
 36-105	10576-10577	─	_	_
-36-106	10578-10589	datasets.py	*[500]	SOFTWARE[500]
+36-106	10578-10589	datasets.py	*[27]	SOFTWARE[27]
 36-107	10598-10599	│	_	_
 36-108	10612-10613	│	_	_
 36-109	10626-10627	├	_	_
 36-110	10627-10628	─	_	_
 36-111	10628-10629	─	_	_
-36-112	10630-10640	metrics.py	*[501]	SOFTWARE[501]
+36-112	10630-10640	metrics.py	*[28]	SOFTWARE[28]
 36-113	10649-10650	│	_	_
 36-114	10663-10664	│	_	_
 36-115	10677-10678	├	_	_
 36-116	10678-10679	─	_	_
 36-117	10679-10680	─	_	_
-36-118	10681-10690	models.py	*[502]	SOFTWARE[502]
+36-118	10681-10690	models.py	*[29]	SOFTWARE[29]
 36-119	10699-10700	│	_	_
 36-120	10713-10714	│	_	_
 36-121	10727-10728	└	_	_
 36-122	10728-10729	─	_	_
 36-123	10729-10730	─	_	_
-36-124	10731-10739	utils.py	*[503]	SOFTWARE[503]
+36-124	10731-10739	utils.py	*[30]	SOFTWARE[30]
 36-125	10748-10749	│	_	_
 36-126	10762-10763	└	_	_
 36-127	10763-10764	─	_	_
 36-128	10764-10765	─	_	_
-36-129	10766-10777	evaluate.py	*[504]	SOFTWARE[504]
+36-129	10766-10777	evaluate.py	*[31]	SOFTWARE[31]
 36-130	10786-10787	├	_	_
 36-131	10787-10788	─	_	_
 36-132	10788-10789	─	_	_
@@ -2105,34 +2105,34 @@
 36-141	10876-10877	├	_	_
 36-142	10877-10878	─	_	_
 36-143	10878-10879	─	_	_
-36-144	10880-10896	disent\_models.py	*[505]	SOFTWARE[505]
+36-144	10880-10896	disent\_models.py	*[32]	SOFTWARE[32]
 36-145	10905-10906	│	_	_
 36-146	10919-10920	│	_	_
 36-147	10933-10934	├	_	_
 36-148	10934-10935	─	_	_
 36-149	10935-10936	─	_	_
-36-150	10937-10954	pair\_distances.py	*[506]	SOFTWARE[506]
+36-150	10937-10954	pair\_distances.py	*[33]	SOFTWARE[33]
 36-151	10963-10964	│	_	_
 36-152	10977-10978	│	_	_
 36-153	10991-10992	└	_	_
 36-154	10992-10993	─	_	_
 36-155	10993-10994	─	_	_
-36-156	10995-11012	sentsim\_models.py	*[507]	SOFTWARE[507]
+36-156	10995-11012	sentsim\_models.py	*[34]	SOFTWARE[34]
 36-157	11021-11022	│	_	_
 36-158	11035-11036	├	_	_
 36-159	11036-11037	─	_	_
 36-160	11037-11038	─	_	_
-36-161	11039-11051	main\_fsim.py	*[508]	SOFTWARE[508]
+36-161	11039-11051	main\_fsim.py	*[35]	SOFTWARE[35]
 36-162	11060-11061	│	_	_
 36-163	11074-11075	├	_	_
 36-164	11075-11076	─	_	_
 36-165	11076-11077	─	_	_
-36-166	11078-11089	batchers.py	*[509]	SOFTWARE[509]
+36-166	11078-11089	batchers.py	*[36]	SOFTWARE[36]
 36-167	11098-11099	│	_	_
 36-168	11112-11113	└	_	_
 36-169	11113-11114	─	_	_
 36-170	11114-11115	─	_	_
-36-171	11116-11126	trainer.py	*[510]	SOFTWARE[510]
+36-171	11116-11126	trainer.py	*[37]	SOFTWARE[37]
 36-172	11135-11136	└	_	_
 36-173	11136-11137	─	_	_
 36-174	11137-11138	─	_	_
@@ -2140,39 +2140,39 @@
 36-176	11163-11164	├	_	_
 36-177	11164-11165	─	_	_
 36-178	11165-11166	─	_	_
-36-179	11167-11186	extract\_entities.py	*[511]	SOFTWARE[511]
+36-179	11167-11186	extract\_entities.py	*[38]	SOFTWARE[38]
 36-180	11199-11200	├	_	_
 36-181	11200-11201	─	_	_
 36-182	11201-11202	─	_	_
-36-183	11203-11217	pp\_settings.py	*[512]	SOFTWARE[512]
+36-183	11203-11217	pp\_settings.py	*[39]	SOFTWARE[39]
 36-184	11230-11231	├	_	_
 36-185	11231-11232	─	_	_
 36-186	11232-11233	─	_	_
-36-187	11234-11252	pre\_proc\_cocits.py	*[513]	SOFTWARE[513]
+36-187	11234-11252	pre\_proc\_cocits.py	*[40]	SOFTWARE[40]
 36-188	11265-11266	├	_	_
 36-189	11266-11267	─	_	_
 36-190	11267-11268	─	_	_
-36-191	11269-11285	pre\_proc\_gorc.py	*[514]	SOFTWARE[514]
+36-191	11269-11285	pre\_proc\_gorc.py	*[41]	SOFTWARE[41]
 36-192	11298-11299	├	_	_
 36-193	11299-11300	─	_	_
 36-194	11300-11301	─	_	_
-36-195	11302-11320	pre\_proc\_relish.py	*[515]	SOFTWARE[515]
+36-195	11302-11320	pre\_proc\_relish.py	*[42]	SOFTWARE[42]
 36-196	11333-11334	├	_	_
 36-197	11334-11335	─	_	_
 36-198	11335-11336	─	_	_
-36-199	11337-11356	pre\_proc\_scidocs.py	*[516]	SOFTWARE[516]
+36-199	11337-11356	pre\_proc\_scidocs.py	*[43]	SOFTWARE[43]
 36-200	11369-11370	├	_	_
 36-201	11370-11371	─	_	_
 36-202	11371-11372	─	_	_
-36-203	11373-11394	pre\_proc\_treccovid.py	*[517]	SOFTWARE[517]
+36-203	11373-11394	pre\_proc\_treccovid.py	*[44]	SOFTWARE[44]
 36-204	11407-11408	├	_	_
 36-205	11408-11409	─	_	_
 36-206	11409-11410	─	_	_
-36-207	11411-11428	pp\_gen\_nearest.py	*[518]	SOFTWARE[518]
+36-207	11411-11428	pp\_gen\_nearest.py	*[45]	SOFTWARE[45]
 36-208	11441-11442	└	_	_
 36-209	11442-11443	─	_	_
 36-210	11443-11444	─	_	_
-36-211	11445-11466	pre\_proc\_buildreps.py	*[519]	SOFTWARE[519]
+36-211	11445-11466	pre\_proc\_buildreps.py	*[46]	SOFTWARE[46]
 36-212	11469-11470	\*	_	_
 36-213	11470-11471	\*	_	_
 36-214	11471-11474	The	_	_
@@ -2185,10 +2185,10 @@
 36-221	11510-11511	\*	_	_
 36-222	11511-11512	\*	_	_
 36-223	11514-11515	`	_	_
-36-224	11515-11518	src	*[21]	SOFTWARE[21]
-36-225	11518-11519	/	*[21]	SOFTWARE[21]
-36-226	11519-11530	pre\_process	*[21]	SOFTWARE[21]
-36-227	11530-11531	/	*[21]	SOFTWARE[21]
+36-224	11515-11518	src	*[47]	SOFTWARE[47]
+36-225	11518-11519	/	*[47]	SOFTWARE[47]
+36-226	11519-11530	pre\_process	*[47]	SOFTWARE[47]
+36-227	11530-11531	/	*[47]	SOFTWARE[47]
 36-228	11531-11532	`	_	_
 36-229	11532-11533	:	_	_
 36-230	11534-11541	Scripts	_	_
@@ -2204,7 +2204,7 @@
 36-240	11593-11597	from	_	_
 36-241	11598-11601	the	_	_
 36-242	11602-11603	\[	_	_
-36-243	11603-11608	S2ORC	*[12]	DATASET[12]
+36-243	11603-11608	S2ORC	*[32]	DATASET[32]
 36-244	11608-11609	\]	_	_
 36-245	11609-11610	(	_	_
 36-246	11610-11615	https	_	_
@@ -2215,7 +2215,7 @@
 36-251	11628-11629	/	_	_
 36-252	11629-11636	allenai	_	_
 36-253	11636-11637	/	_	_
-36-254	11637-11642	s2orc	*[13]	DATASET[13]
+36-254	11637-11642	s2orc	*[33]	DATASET[33]
 36-255	11642-11643	)	_	_
 36-256	11644-11650	corpus	_	_
 36-257	11651-11652	2	_	_
@@ -2231,7 +2231,7 @@
 36-267	11706-11717	pre-process	_	_
 36-268	11718-11721	the	_	_
 36-269	11722-11732	evaluation	_	_
-36-270	11733-11741	datasets	*[243]	DATASET[243]
+36-270	11733-11741	datasets	*[34]	DATASET[34]
 36-271	11742-11746	into	_	_
 36-272	11747-11750	apt	_	_
 36-273	11751-11758	formats	_	_
@@ -2245,7 +2245,7 @@
 36-281	11790-11793	NER	_	_
 36-282	11794-11802	entities	_	_
 36-283	11803-11807	from	_	_
-36-284	11808-11816	datasets	*[244]	DATASET[244]
+36-284	11808-11816	datasets	*[35]	DATASET[35]
 36-285	11816-11817	.	_	_
 
 #Text=`src/learning/`: Classes for implementing models, training, batching data, and a main script to train and save the model.
@@ -2294,7 +2294,7 @@
 38-13	12000-12002	on	_	_
 38-14	12003-12010	various	_	_
 38-15	12011-12021	evaluation	_	_
-38-16	12022-12030	datasets	*[245]	DATASET[245]
+38-16	12022-12030	datasets	*[36]	DATASET[36]
 38-17	12030-12031	.	_	_
 
 #Text=See `src/evaluation/evaluate.md` for help.
@@ -2331,10 +2331,10 @@
 40-18	12169-12173	code	_	_
 40-19	12174-12176	in	_	_
 40-20	12177-12178	`	_	_
-40-21	12178-12181	src	*[4]	PROGLANG[4]
-40-22	12181-12182	/	*[4]	PROGLANG[4]
-40-23	12182-12190	learning	*[4]	PROGLANG[4]
-40-24	12190-12191	/	*[4]	PROGLANG[4]
+40-21	12178-12181	src	*[6]	PROGLANG[6]
+40-22	12181-12182	/	*[6]	PROGLANG[6]
+40-23	12182-12190	learning	*[6]	PROGLANG[6]
+40-24	12190-12191	/	*[6]	PROGLANG[6]
 40-25	12191-12192	`	_	_
 40-26	12192-12193	.	_	_
 
@@ -2348,25 +2348,25 @@
 41-7	12227-12230	the	_	_
 41-8	12231-12241	Biomedical	_	_
 41-9	12242-12243	(	_	_
-41-10	12243-12249	RELISH	*[14]	DATASET[14]
-41-11	12249-12250	,	_	_
-41-12	12251-12263	TRECCOVID-RF	*[15]	DATASET[15]
-41-12	12251-12260	TRECCOVID	*[15]	DATASET[15]
-41-13	12263-12264	)	_	_
-41-14	12264-12265	,	_	_
+41-10	12243-12249	RELISH	_	_
+41-11	12249-12250	,	*[37]	DATASET[37]
+41-12	12251-12263	TRECCOVID-RF	_	_
+41-12	12251-12260	TRECCOVID	_	_
+41-13	12263-12264	)	*[38]	DATASET[38]
+41-14	12264-12265	,	*[38]	DATASET[38]
 41-15	12266-12274	Computer	_	_
 41-16	12275-12282	Science	_	_
 41-17	12283-12284	(	_	_
-41-18	12284-12291	CSFCube	*[16]	DATASET[16]
-41-19	12291-12292	)	_	_
-41-20	12292-12293	,	_	_
+41-18	12284-12291	CSFCube	_	_
+41-19	12291-12292	)	*[39]	DATASET[39]
+41-20	12292-12293	,	*[39]	DATASET[39]
 41-21	12294-12297	and	_	_
 41-22	12298-12303	mixed	_	_
 41-23	12304-12311	domains	_	_
 41-24	12312-12313	(	_	_
-41-25	12313-12320	SciDocs	*[17]	DATASET[17]
-41-26	12320-12321	)	_	_
-41-27	12322-12324	we	_	_
+41-25	12313-12320	SciDocs	_	_
+41-26	12320-12321	)	*[40]	DATASET[40]
+41-27	12322-12324	we	*[40]	DATASET[40]
 41-28	12325-12330	train	_	_
 41-29	12331-12339	separate	_	_
 41-30	12340-12346	models	_	_
@@ -2428,7 +2428,7 @@
 
 #Text=`scripts`: Miscellaneous glue code.
 43-1	12620-12621	`	_	_
-43-2	12621-12628	scripts	*[5]	PROGLANG[5]
+43-2	12621-12628	scripts	*[7]	PROGLANG[7]
 43-3	12628-12629	`	_	_
 43-4	12629-12630	:	_	_
 43-5	12631-12644	Miscellaneous	_	_
@@ -2458,7 +2458,7 @@
 44-19	12733-12734	/	_	_
 44-20	12734-12742	learning	_	_
 44-21	12742-12743	/	_	_
-44-22	12743-12755	main\_fsim.py	*[22]	SOFTWARE[22]
+44-22	12743-12755	main\_fsim.py	*[48]	SOFTWARE[48]
 44-23	12755-12756	`	_	_
 44-24	12756-12757	:	_	_
 44-25	12758-12761	The	_	_
@@ -2471,7 +2471,7 @@
 44-32	12790-12791	/	_	_
 44-33	12791-12799	learning	_	_
 44-34	12799-12800	/	_	_
-44-35	12800-12820	run\_main\_fsim-ddp.sh	*[23]	SOFTWARE[23]
+44-35	12800-12820	run\_main\_fsim-ddp.sh	*[49]	SOFTWARE[49]
 44-36	12820-12821	`	_	_
 44-37	12822-12824	to	_	_
 44-38	12825-12835	initialize	_	_
@@ -2528,11 +2528,11 @@
 46-23	13037-13044	follows	_	_
 46-24	13044-13045	:	_	_
 46-25	13047-13048	`	_	_
-46-26	13048-13051	src	*[24]	SOFTWARE[24]
-46-27	13051-13052	/	*[24]	SOFTWARE[24]
-46-28	13052-13062	evaluation	*[24]	SOFTWARE[24]
-46-29	13062-13063	/	*[24]	SOFTWARE[24]
-46-30	13063-13074	evaluate.py	*[24]	SOFTWARE[24]
+46-26	13048-13051	src	*[50]	SOFTWARE[50]
+46-27	13051-13052	/	*[50]	SOFTWARE[50]
+46-28	13052-13062	evaluation	*[50]	SOFTWARE[50]
+46-29	13062-13063	/	*[50]	SOFTWARE[50]
+46-30	13063-13074	evaluate.py	*[50]	SOFTWARE[50]
 46-31	13074-13075	`	_	_
 46-32	13075-13076	:	_	_
 46-33	13077-13084	Contain	_	_
@@ -2598,7 +2598,7 @@
 49-15	13368-13372	from	_	_
 49-16	13373-13376	the	_	_
 49-17	13377-13378	\[	_	_
-49-18	13378-13383	S2ORC	*[18]	DATASET[18]
+49-18	13378-13383	S2ORC	*[41]	DATASET[41]
 49-19	13383-13384	\]	_	_
 49-20	13384-13385	(	_	_
 49-21	13385-13390	https	_	_
@@ -2609,7 +2609,7 @@
 49-26	13403-13404	/	_	_
 49-27	13404-13411	allenai	_	_
 49-28	13411-13412	/	_	_
-49-29	13412-13417	s2orc	*[19]	DATASET[19]
+49-29	13412-13417	s2orc	*[42]	DATASET[42]
 49-30	13417-13418	)	_	_
 49-31	13419-13425	corpus	_	_
 49-32	13425-13426	,	_	_
@@ -2649,16 +2649,16 @@
 50-9	13590-13592	28	_	_
 50-10	13593-13600	release	_	_
 50-11	13601-13603	of	_	_
-50-12	13604-13609	S2ORC	*[246]	DATASET[246]
-50-13	13609-13610	.	_	_
+50-12	13604-13609	S2ORC	_	_
+50-13	13609-13610	.	*[43]	DATASET[43]
 
 #Text=`src/pre\_process/pre\_proc\_cocits.py:` Generate training data for the models reported in the paper.
 51-1	13613-13614	`	_	_
-51-2	13614-13617	src	*[25]	SOFTWARE[25]
-51-3	13617-13618	/	*[25]	SOFTWARE[25]
-51-4	13618-13629	pre\_process	*[25]	SOFTWARE[25]
-51-5	13629-13630	/	*[25]	SOFTWARE[25]
-51-6	13630-13648	pre\_proc\_cocits.py	*[25]	SOFTWARE[25]
+51-2	13614-13617	src	*[51]	SOFTWARE[51]
+51-3	13617-13618	/	*[51]	SOFTWARE[51]
+51-4	13618-13629	pre\_process	*[51]	SOFTWARE[51]
+51-5	13629-13630	/	*[51]	SOFTWARE[51]
+51-6	13630-13648	pre\_proc\_cocits.py	*[51]	SOFTWARE[51]
 51-7	13648-13649	:	_	_
 51-8	13649-13650	`	_	_
 51-9	13651-13659	Generate	_	_
@@ -2709,11 +2709,11 @@
 53-2	13896-13899	are	_	_
 53-3	13900-13903	the	_	_
 53-4	13904-13905	`	_	_
-53-5	13905-13932	filter\_cocitation\_sentences	*[26]	SOFTWARE[26]
+53-5	13905-13932	filter\_cocitation\_sentences	*[52]	SOFTWARE[52]
 53-6	13932-13933	`	_	_
 53-7	13934-13937	and	_	_
 53-8	13938-13939	`	_	_
-53-9	13939-13963	filter\_cocitation\_papers	*[27]	SOFTWARE[27]
+53-9	13939-13963	filter\_cocitation\_papers	*[53]	SOFTWARE[53]
 53-10	13963-13964	`	_	_
 53-11	13965-13974	functions	_	_
 53-12	13975-13987	respectively	_	_
@@ -2724,7 +2724,7 @@
 54-2	13999-14005	listed	_	_
 54-3	14006-14011	under	_	_
 54-4	14012-14013	`	_	_
-54-5	14013-14027	write\_examples	*[28]	SOFTWARE[28]
+54-5	14013-14027	write\_examples	*[54]	SOFTWARE[54]
 54-6	14027-14028	`	_	_
 54-7	14029-14037	generate	_	_
 54-8	14038-14046	training	_	_
@@ -2767,13 +2767,13 @@
 55-20	14211-14214	the	_	_
 55-21	14215-14225	evaluation	_	_
 55-22	14226-14234	datasets	_	_
-55-23	14235-14236	(	_	_
-55-24	14236-14242	RELISH	*[20]	DATASET[20]
-55-25	14242-14243	,	_	_
-55-26	14244-14253	TRECCOVID	*[247]	DATASET[247]
-55-27	14253-14254	,	_	_
+55-23	14235-14236	(	*[45]	DATASET[45]
+55-24	14236-14242	RELISH	*[45]	DATASET[45]
+55-25	14242-14243	,	*[45]	DATASET[45]
+55-26	14244-14253	TRECCOVID	_	_
+55-27	14253-14254	,	*[46]	DATASET[46]
 55-28	14255-14258	and	_	_
-55-29	14259-14266	SciDocs	*[248]	DATASET[248]
+55-29	14259-14266	SciDocs	_	_
 55-30	14266-14267	)	_	_
 55-31	14268-14272	into	_	_
 55-32	14273-14274	a	_	_
@@ -2788,7 +2788,7 @@
 55-41	14331-14332	.	_	_
 
 #Text=CSFCube data format matches the assumed format.
-56-1	14333-14340	CSFCube	*[249]	DATASET[249]
+56-1	14333-14340	CSFCube	_	_
 56-2	14341-14345	data	_	_
 56-3	14346-14352	format	_	_
 56-4	14353-14360	matches	_	_
@@ -2801,7 +2801,7 @@
 57-1	14381-14388	Details	_	_
 57-2	14389-14394	about	_	_
 57-3	14395-14399	each	_	_
-57-4	14400-14407	dataset	*[250]	DATASET[250]
+57-4	14400-14407	dataset	*[48]	DATASET[48]
 57-5	14408-14411	are	_	_
 57-6	14412-14414	as	_	_
 57-7	14415-14422	follows	_	_
@@ -2811,13 +2811,13 @@
 57-11	14429-14430	/	_	_
 57-12	14430-14441	pre\_process	_	_
 57-13	14441-14442	/	_	_
-57-14	14442-14461	extract\_entities.py	*[6]	PROGLANG[6]
+57-14	14442-14461	extract\_entities.py	*[8]	PROGLANG[8]
 57-15	14461-14462	`	_	_
 57-16	14462-14463	:	_	_
 57-17	14465-14468	Use	_	_
-57-18	14469-14475	PURE's	*[520]	SOFTWARE[520]
-57-19	14476-14482	Entity	*[520]	SOFTWARE[520]
-57-20	14483-14488	Model	*[520]	SOFTWARE[520]
+57-18	14469-14475	PURE's	*[55]	SOFTWARE[55]
+57-19	14476-14482	Entity	*[55]	SOFTWARE[55]
+57-20	14483-14488	Model	*[55]	SOFTWARE[55]
 57-21	14489-14490	(	_	_
 57-22	14490-14491	)	_	_
 57-23	14492-14494	to	_	_
@@ -3135,11 +3135,11 @@
 59-281	16342-16346	from	_	_
 59-282	16347-16350	the	_	_
 59-283	16351-16352	\[	_	_
-59-284	16352-16360	Semantic	*[21]	DATASET[21]
-59-285	16361-16368	Scholar	*[21]	DATASET[21]
-59-286	16369-16373	Open	*[21]	DATASET[21]
-59-287	16374-16382	Research	*[21]	DATASET[21]
-59-288	16383-16389	Corpus	*[21]	DATASET[21]
+59-284	16352-16360	Semantic	*[49]	DATASET[49]
+59-285	16361-16368	Scholar	*[49]	DATASET[49]
+59-286	16369-16373	Open	*[49]	DATASET[49]
+59-287	16374-16382	Research	*[49]	DATASET[49]
+59-288	16383-16389	Corpus	*[49]	DATASET[49]
 59-289	16389-16390	\]	_	_
 59-290	16390-16391	(	_	_
 59-291	16391-16396	https	_	_
@@ -3153,13 +3153,13 @@
 59-299	16418-16423	s2orc	_	_
 59-300	16423-16424	)	_	_
 59-301	16425-16426	(	_	_
-59-302	16426-16431	S2ORC	*[22]	DATASET[22]
+59-302	16426-16431	S2ORC	*[50]	DATASET[50]
 59-303	16431-16432	)	_	_
 59-304	16433-16436	and	_	_
 59-305	16437-16440	the	_	_
 59-306	16441-16451	evaluation	_	_
 59-307	16452-16460	datasets	_	_
-59-308	16461-16467	RELISH	*[251]	DATASET[251]
+59-308	16461-16467	RELISH	*[51]	DATASET[51]
 59-309	16468-16469	(	_	_
 59-310	16469-16475	kindly	_	_
 59-311	16476-16482	shared	_	_
@@ -3178,12 +3178,12 @@
 59-324	16533-16534	)	_	_
 59-325	16534-16535	)	_	_
 59-326	16535-16536	,	_	_
-59-327	16537-16546	TRECCOVID	*[252]	DATASET[252]
+59-327	16537-16546	TRECCOVID	*[52]	DATASET[52]
 59-328	16546-16547	,	_	_
-59-329	16548-16555	SciDocs	*[253]	DATASET[253]
+59-329	16548-16555	SciDocs	*[53]	DATASET[53]
 59-330	16555-16556	,	_	_
 59-331	16557-16560	and	_	_
-59-332	16561-16568	CSFCube	*[254]	DATASET[254]
+59-332	16561-16568	CSFCube	*[54]	DATASET[54]
 59-333	16569-16575	linked	_	_
 59-334	16576-16581	above	_	_
 59-335	16581-16582	.	_	_
@@ -3195,7 +3195,7 @@
 59-341	16603-16609	models	_	_
 59-342	16610-16612	of	_	_
 59-343	16613-16614	\[	_	_
-59-344	16614-16621	SPECTER	_	_
+59-344	16614-16621	SPECTER	*[56]	SOFTWARE[56]
 59-345	16621-16622	\]	_	_
 59-346	16622-16623	(	_	_
 59-347	16623-16628	https	_	_
@@ -3217,7 +3217,7 @@
 59-363	16677-16685	packages	_	_
 59-364	16685-16686	:	_	_
 59-365	16687-16688	\[	_	_
-59-366	16688-16696	GeomLoss	*[31]	SOFTWARE[31]
+59-366	16688-16696	GeomLoss	*[57]	SOFTWARE[57]
 59-367	16696-16697	\]	_	_
 59-368	16697-16698	(	_	_
 59-369	16698-16703	https	_	_
@@ -3232,7 +3232,7 @@
 59-378	16750-16751	)	_	_
 59-379	16752-16755	and	_	_
 59-380	16756-16757	\[	_	_
-59-381	16757-16778	sentence-transformers	*[32]	SOFTWARE[32]
+59-381	16757-16778	sentence-transformers	*[58]	SOFTWARE[58]
 59-382	16778-16779	\]	_	_
 59-383	16779-16780	(	_	_
 59-384	16780-16785	https	_	_
@@ -3263,8 +3263,8 @@
 59-409	16852-16856	cite	_	_
 59-410	16857-16860	the	_	_
 59-411	16861-16862	\[	_	_
-59-412	16862-16868	Aspire	*[3]	PUBLICATION[3]
-59-413	16869-16874	paper	*[3]	PUBLICATION[3]
+59-412	16862-16868	Aspire	*[9]	PUBLICATION[9]
+59-413	16869-16874	paper	*[9]	PUBLICATION[9]
 59-414	16874-16875	\]	_	_
 59-415	16875-16876	(	_	_
 59-416	16876-16881	https	_	_
@@ -3395,7 +3395,7 @@
 61-21	17425-17429	used	_	_
 61-22	17430-17432	in	_	_
 61-23	17433-17436	the	_	_
-61-24	17437-17442	paper	_	_
+61-24	17437-17442	paper	*[10]	PUBLICATION[10]
 61-25	17442-17443	.	_	_
 
 #Text=The coming months will also see release of domain independent models trained on data across different scientific domains. 2.
