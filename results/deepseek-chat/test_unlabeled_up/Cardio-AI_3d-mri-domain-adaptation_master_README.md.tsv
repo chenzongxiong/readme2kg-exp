@@ -4,8 +4,8 @@
 
 #Text=# 3D CMR-Domain-Adaptation  This repo contains code to train a deep learning model for \*\*Unsupervised Domain Adaptation (UDA)\*\* of 3D cardiac magnetic resonance (CMR) cine images to \*\*transform from axial to short-axis orientation\*\*.
 1-1	0-1	#	_	_
-1-2	2-4	3D	*[164]	PROJECT[164]
-1-3	5-26	CMR-Domain-Adaptation	*[164]	PROJECT[164]
+1-2	2-4	3D	*[41]	PROJECT[41]
+1-3	5-26	CMR-Domain-Adaptation	*[41]	PROJECT[41]
 1-4	28-32	This	_	_
 1-5	33-37	repo	_	_
 1-6	38-46	contains	_	_
@@ -165,11 +165,11 @@
 
 #Text=\[Unsupervised Domain adaptation learning\](https://github.com/Cardio-AI/3d-mri-domain-adaption/blob/master/reports/ax\_sax\_learning\_example.gif "learning progress")   Each temporal frame shows the AX2SAX prediction of the model after successive epochs.
 7-1	803-804	\[	_	_
-7-2	804-816	Unsupervised	*[30]	PROJECT[30]
-7-3	817-823	Domain	*[30]	PROJECT[30]
-7-4	824-834	adaptation	*[30]	PROJECT[30]
-7-5	835-843	learning	*[30]	PROJECT[30]
-7-6	843-844	\]	_	_
+7-2	804-816	Unsupervised	_	_
+7-3	817-823	Domain	*[42]	PROJECT[42]
+7-4	824-834	adaptation	*[42]	PROJECT[42]
+7-5	835-843	learning	*[42]	PROJECT[42]
+7-6	843-844	\]	*[42]	PROJECT[42]
 7-7	844-845	(	_	_
 7-8	845-850	https	_	_
 7-9	850-851	:	_	_
@@ -177,10 +177,10 @@
 7-11	852-853	/	_	_
 7-12	853-863	github.com	_	_
 7-13	863-864	/	_	_
-7-14	864-873	Cardio-AI	*[31]	PROJECT[31]
-7-15	873-874	/	_	_
-7-16	874-896	3d-mri-domain-adaption	*[32]	PROJECT[32]
-7-17	896-897	/	_	_
+7-14	864-873	Cardio-AI	_	_
+7-15	873-874	/	*[43]	PROJECT[43]
+7-16	874-896	3d-mri-domain-adaption	_	_
+7-17	896-897	/	*[44]	PROJECT[44]
 7-18	897-901	blob	_	_
 7-19	901-902	/	_	_
 7-20	902-908	master	_	_
@@ -224,8 +224,8 @@
 8-13	1108-1110	to	_	_
 8-14	1111-1120	transform	_	_
 8-15	1121-1124	the	_	_
-8-16	1125-1129	data	*[260]	DATASET[260]
-8-17	1130-1133	set	*[260]	DATASET[260]
+8-16	1125-1129	data	_	_
+8-17	1130-1133	set	*[72]	DATASET[72]
 8-18	1134-1138	such	_	_
 8-19	1139-1143	that	_	_
 8-20	1144-1146	it	_	_
@@ -294,10 +294,10 @@
 #Text=A special \*\*Euler2Affine Layer\*\* was implemented to restrict the transform of the spatial transformer network to be rigid and invertible
 11-1	1502-1503	A	_	_
 11-2	1504-1511	special	_	_
-11-3	1512-1513	\*	_	_
-11-4	1513-1514	\*	_	_
-11-5	1514-1526	Euler2Affine	*[131]	SOFTWARE[131]
-11-6	1527-1532	Layer	*[131]	SOFTWARE[131]
+11-3	1512-1513	\*	*[183]	SOFTWARE[183]
+11-4	1513-1514	\*	*[183]	SOFTWARE[183]
+11-5	1514-1526	Euler2Affine	*[183]	SOFTWARE[183]
+11-6	1527-1532	Layer	_	_
 11-7	1532-1533	\*	_	_
 11-8	1533-1534	\*	_	_
 11-9	1535-1538	was	_	_
@@ -351,10 +351,10 @@
 15-8	1774-1777	are	_	_
 15-9	1778-1783	build	_	_
 15-10	1784-1788	with	_	_
-15-11	1789-1791	TF	*[89]	PROGLANG[89]
-15-12	1792-1793	2	*[89]	PROGLANG[89]
-15-13	1793-1794	.	*[89]	PROGLANG[89]
-15-14	1794-1795	X	*[89]	PROGLANG[89]
+15-11	1789-1791	TF	*[26]	PROGLANG[26]
+15-12	1792-1793	2	*[26]	PROGLANG[26]
+15-13	1793-1794	.	*[26]	PROGLANG[26]
+15-14	1794-1795	X	*[26]	PROGLANG[26]
 15-15	1795-1796	.	_	_
 15-16	1797-1798	-	_	_
 15-17	1799-1804	Setup	_	_
@@ -377,7 +377,7 @@
 15-34	1882-1883	/	_	_
 15-35	1883-1893	github.com	_	_
 15-36	1893-1894	/	_	_
-15-37	1894-1903	Cardio-AI	*[33]	PROJECT[33]
+15-37	1894-1903	Cardio-AI	*[45]	PROJECT[45]
 15-38	1903-1904	/	_	_
 15-39	1904-1928	3d-mri-domain-adaptation	_	_
 15-40	1928-1929	#	_	_
@@ -407,7 +407,7 @@
 15-64	2064-2065	/	_	_
 15-65	2065-2075	github.com	_	_
 15-66	2075-2076	/	_	_
-15-67	2076-2085	Cardio-AI	*[34]	PROJECT[34]
+15-67	2076-2085	Cardio-AI	*[46]	PROJECT[46]
 15-68	2085-2086	/	_	_
 15-69	2086-2110	3d-mri-domain-adaptation	_	_
 15-70	2110-2111	#	_	_
@@ -440,10 +440,10 @@
 15-97	2244-2245	.	_	_
 
 #Text=Koehler, T.
-16-1	2246-2253	Koehler	*[490]	PUBLICATION[490]
-16-2	2253-2254	,	*[490]	PUBLICATION[490]
-16-3	2255-2256	T	*[490]	PUBLICATION[490]
-16-4	2256-2257	.	*[490]	PUBLICATION[490]
+16-1	2246-2253	Koehler	_	_
+16-2	2253-2254	,	*[67]	PUBLICATION[67]
+16-3	2255-2256	T	*[67]	PUBLICATION[67]
+16-4	2256-2257	.	*[67]	PUBLICATION[67]
 
 #Text=Hussain, Z.
 17-1	2258-2265	Hussain	_	_
@@ -458,10 +458,10 @@
 18-4	2278-2279	.	_	_
 
 #Text=Huffaker, F.
-19-1	2280-2288	Huffaker	*[491]	PUBLICATION[491]
-19-2	2288-2289	,	*[491]	PUBLICATION[491]
-19-3	2290-2291	F	*[491]	PUBLICATION[491]
-19-4	2291-2292	.	*[491]	PUBLICATION[491]
+19-1	2280-2288	Huffaker	_	_
+19-2	2288-2289	,	*[68]	PUBLICATION[68]
+19-3	2290-2291	F	*[68]	PUBLICATION[68]
+19-4	2291-2292	.	*[68]	PUBLICATION[68]
 
 #Text=Ritzmann, A.
 20-1	2293-2301	Ritzmann	_	_
@@ -470,10 +470,10 @@
 20-4	2304-2305	.	_	_
 
 #Text=Tandon, T.
-21-1	2306-2312	Tandon	*[492]	PUBLICATION[492]
-21-2	2312-2313	,	*[492]	PUBLICATION[492]
-21-3	2314-2315	T	*[492]	PUBLICATION[492]
-21-4	2315-2316	.	*[492]	PUBLICATION[492]
+21-1	2306-2312	Tandon	*[69]	PUBLICATION[69]
+21-2	2312-2313	,	*[69]	PUBLICATION[69]
+21-3	2314-2315	T	*[69]	PUBLICATION[69]
+21-4	2315-2316	.	*[69]	PUBLICATION[69]
 
 #Text=Pickardt, S.
 22-1	2317-2325	Pickardt	_	_
@@ -488,10 +488,10 @@
 23-4	2342-2343	.	_	_
 
 #Text=Latus, G.
-24-1	2344-2349	Latus	*[493]	PUBLICATION[493]
-24-2	2349-2350	,	*[493]	PUBLICATION[493]
-24-3	2351-2352	G	*[493]	PUBLICATION[493]
-24-4	2352-2353	.	*[493]	PUBLICATION[493]
+24-1	2344-2349	Latus	*[70]	PUBLICATION[70]
+24-2	2349-2350	,	*[70]	PUBLICATION[70]
+24-3	2351-2352	G	*[70]	PUBLICATION[70]
+24-4	2352-2353	.	*[70]	PUBLICATION[70]
 
 #Text=Greil, I.
 25-1	2354-2359	Greil	_	_
@@ -500,42 +500,42 @@
 25-4	2362-2363	.	_	_
 
 #Text=Wolf, S.
-26-1	2364-2368	Wolf	*[494]	PUBLICATION[494]
-26-2	2368-2369	,	*[494]	PUBLICATION[494]
-26-3	2370-2371	S	*[494]	PUBLICATION[494]
-26-4	2371-2372	.	*[494]	PUBLICATION[494]
+26-1	2364-2368	Wolf	*[71]	PUBLICATION[71]
+26-2	2368-2369	,	*[71]	PUBLICATION[71]
+26-3	2370-2371	S	*[71]	PUBLICATION[71]
+26-4	2371-2372	.	*[71]	PUBLICATION[71]
 
 #Text=Engelhardt, "Unsupervised Domain Adaptation from Axial to Short-Axis Multi-Slice Cardiac MR Images by Incorporating Pretrained Task Networks," in IEEE Transactions on Medical Imaging (TMI), early access, doi: 10.1109/TMI.2021.3052972
 27-1	2373-2383	Engelhardt	_	_
 27-2	2383-2384	,	_	_
 27-3	2385-2386	"	_	_
-27-4	2386-2398	Unsupervised	*[62]	PUBLICATION[62]
-27-5	2399-2405	Domain	*[62]	PUBLICATION[62]
-27-6	2406-2416	Adaptation	*[62]	PUBLICATION[62]
-27-7	2417-2421	from	*[62]	PUBLICATION[62]
-27-8	2422-2427	Axial	*[62]	PUBLICATION[62]
-27-9	2428-2430	to	*[62]	PUBLICATION[62]
-27-10	2431-2441	Short-Axis	*[62]	PUBLICATION[62]
-27-11	2442-2453	Multi-Slice	*[62]	PUBLICATION[62]
-27-12	2454-2461	Cardiac	*[62]	PUBLICATION[62]
-27-13	2462-2464	MR	*[62]	PUBLICATION[62]
-27-14	2465-2471	Images	*[62]	PUBLICATION[62]
-27-15	2472-2474	by	*[62]	PUBLICATION[62]
-27-16	2475-2488	Incorporating	*[62]	PUBLICATION[62]
-27-17	2489-2499	Pretrained	*[62]	PUBLICATION[62]
-27-18	2500-2504	Task	*[62]	PUBLICATION[62]
-27-19	2505-2513	Networks	*[62]	PUBLICATION[62]
+27-4	2386-2398	Unsupervised	*[72]	PUBLICATION[72]
+27-5	2399-2405	Domain	*[72]	PUBLICATION[72]
+27-6	2406-2416	Adaptation	*[72]	PUBLICATION[72]
+27-7	2417-2421	from	*[72]	PUBLICATION[72]
+27-8	2422-2427	Axial	*[72]	PUBLICATION[72]
+27-9	2428-2430	to	*[72]	PUBLICATION[72]
+27-10	2431-2441	Short-Axis	*[72]	PUBLICATION[72]
+27-11	2442-2453	Multi-Slice	*[72]	PUBLICATION[72]
+27-12	2454-2461	Cardiac	*[72]	PUBLICATION[72]
+27-13	2462-2464	MR	*[72]	PUBLICATION[72]
+27-14	2465-2471	Images	*[72]	PUBLICATION[72]
+27-15	2472-2474	by	*[72]	PUBLICATION[72]
+27-16	2475-2488	Incorporating	*[72]	PUBLICATION[72]
+27-17	2489-2499	Pretrained	*[72]	PUBLICATION[72]
+27-18	2500-2504	Task	*[72]	PUBLICATION[72]
+27-19	2505-2513	Networks	*[72]	PUBLICATION[72]
 27-20	2513-2514	,	_	_
 27-21	2514-2515	"	_	_
 27-22	2516-2518	in	_	_
-27-23	2519-2523	IEEE	*[495]	PUBLICATION[495]
-27-24	2524-2536	Transactions	*[495]	PUBLICATION[495]
-27-25	2537-2539	on	*[495]	PUBLICATION[495]
-27-26	2540-2547	Medical	*[495]	PUBLICATION[495]
-27-27	2548-2555	Imaging	*[495]	PUBLICATION[495]
-27-28	2556-2557	(	*[495]	PUBLICATION[495]
-27-29	2557-2560	TMI	*[495]	PUBLICATION[495]
-27-30	2560-2561	)	*[495]	PUBLICATION[495]
+27-23	2519-2523	IEEE	*[73]	PUBLICATION[73]
+27-24	2524-2536	Transactions	*[73]	PUBLICATION[73]
+27-25	2537-2539	on	*[73]	PUBLICATION[73]
+27-26	2540-2547	Medical	*[73]	PUBLICATION[73]
+27-27	2548-2555	Imaging	*[73]	PUBLICATION[73]
+27-28	2556-2557	(	*[73]	PUBLICATION[73]
+27-29	2557-2560	TMI	*[73]	PUBLICATION[73]
+27-30	2560-2561	)	*[73]	PUBLICATION[73]
 27-31	2561-2562	,	_	_
 27-32	2563-2568	early	_	_
 27-33	2569-2575	access	_	_
@@ -558,9 +558,9 @@
 29-5	2628-2633	paper	_	_
 29-6	2633-2634	:	_	_
 29-7	2635-2636	\[	_	_
-29-8	2636-2640	IEEE	*[496]	PUBLICATION[496]
-29-9	2641-2644	TMI	*[496]	PUBLICATION[496]
-29-10	2645-2650	paper	*[496]	PUBLICATION[496]
+29-8	2636-2640	IEEE	*[74]	PUBLICATION[74]
+29-9	2641-2644	TMI	*[74]	PUBLICATION[74]
+29-10	2645-2650	paper	*[74]	PUBLICATION[74]
 29-11	2651-2655	link	_	_
 29-12	2655-2656	\]	_	_
 29-13	2656-2657	(	_	_
@@ -587,7 +587,7 @@
 29-34	2759-2763	here	_	_
 29-35	2763-2764	:	_	_
 29-36	2765-2766	\[	_	_
-29-37	2766-2780	arxiv-Preprint	*[65]	PUBLICATION[65]
+29-37	2766-2780	arxiv-Preprint	*[75]	PUBLICATION[75]
 29-38	2780-2781	\]	_	_
 29-39	2781-2782	(	_	_
 29-40	2782-2786	http	_	_
@@ -686,11 +686,11 @@
 29-133	3127-3134	journal	_	_
 29-134	3134-3135	=	_	_
 29-135	3135-3136	{	_	_
-29-136	3136-3140	IEEE	*[66]	PUBLICATION[66]
-29-137	3141-3153	Transactions	*[66]	PUBLICATION[66]
-29-138	3154-3156	on	*[66]	PUBLICATION[66]
-29-139	3157-3164	Medical	*[66]	PUBLICATION[66]
-29-140	3165-3172	Imaging	*[66]	PUBLICATION[66]
+29-136	3136-3140	IEEE	*[76]	PUBLICATION[76]
+29-137	3141-3153	Transactions	*[76]	PUBLICATION[76]
+29-138	3154-3156	on	*[76]	PUBLICATION[76]
+29-139	3157-3164	Medical	*[76]	PUBLICATION[76]
+29-140	3165-3172	Imaging	*[76]	PUBLICATION[76]
 29-141	3172-3173	}	_	_
 29-142	3173-3174	,	_	_
 29-143	3174-3175	<	_	_
@@ -700,15 +700,15 @@
 29-147	3183-3192	publisher	_	_
 29-148	3192-3193	=	_	_
 29-149	3193-3194	{	_	_
-29-150	3194-3203	Institute	*[35]	PROJECT[35]
-29-151	3204-3206	of	*[35]	PROJECT[35]
-29-152	3207-3217	Electrical	*[35]	PROJECT[35]
-29-153	3218-3221	and	*[35]	PROJECT[35]
-29-154	3222-3233	Electronics	*[35]	PROJECT[35]
-29-155	3234-3243	Engineers	*[35]	PROJECT[35]
-29-156	3244-3245	(	*[35]	PROJECT[35]
-29-157	3245-3249	IEEE	*[35]	PROJECT[35]
-29-158	3249-3250	)	*[35]	PROJECT[35]
+29-150	3194-3203	Institute	*[47]	PROJECT[47]
+29-151	3204-3206	of	*[47]	PROJECT[47]
+29-152	3207-3217	Electrical	*[47]	PROJECT[47]
+29-153	3218-3221	and	*[47]	PROJECT[47]
+29-154	3222-3233	Electronics	*[47]	PROJECT[47]
+29-155	3234-3243	Engineers	*[47]	PROJECT[47]
+29-156	3244-3245	(	*[47]	PROJECT[47]
+29-157	3245-3249	IEEE	*[47]	PROJECT[47]
+29-158	3249-3250	)	*[47]	PROJECT[47]
 29-159	3250-3251	}	_	_
 29-160	3251-3252	,	_	_
 29-161	3252-3253	<	_	_
@@ -800,19 +800,19 @@
 29-247	3582-3583	>	_	_
 29-248	3583-3584	-	_	_
 29-249	3585-3586	\[	_	_
-29-250	3586-3596	Heidelberg	*[36]	PROJECT[36]
-29-251	3597-3607	University	*[36]	PROJECT[36]
-29-252	3608-3616	Hospital	*[36]	PROJECT[36]
-29-253	3616-3617	,	*[36]	PROJECT[36]
-29-254	3618-3628	Artificial	*[36]	PROJECT[36]
-29-255	3629-3641	Intelligence	*[36]	PROJECT[36]
-29-256	3642-3644	in	*[36]	PROJECT[36]
-29-257	3645-3659	Cardiovascular	*[36]	PROJECT[36]
-29-258	3660-3668	Medicine	*[36]	PROJECT[36]
-29-259	3669-3670	(	*[36]	PROJECT[36]
-29-260	3670-3674	AICM	*[36]	PROJECT[36]
-29-261	3674-3675	)	*[36]	PROJECT[36]
-29-262	3676-3681	Group	*[36]	PROJECT[36]
+29-250	3586-3596	Heidelberg	*[48]	PROJECT[48]
+29-251	3597-3607	University	*[48]	PROJECT[48]
+29-252	3608-3616	Hospital	*[48]	PROJECT[48]
+29-253	3616-3617	,	*[48]	PROJECT[48]
+29-254	3618-3628	Artificial	*[48]	PROJECT[48]
+29-255	3629-3641	Intelligence	*[48]	PROJECT[48]
+29-256	3642-3644	in	*[48]	PROJECT[48]
+29-257	3645-3659	Cardiovascular	*[48]	PROJECT[48]
+29-258	3660-3668	Medicine	*[48]	PROJECT[48]
+29-259	3669-3670	(	*[48]	PROJECT[48]
+29-260	3670-3674	AICM	*[48]	PROJECT[48]
+29-261	3674-3675	)	*[48]	PROJECT[48]
+29-262	3676-3681	Group	*[48]	PROJECT[48]
 29-263	3681-3682	\]	_	_
 29-264	3682-3683	(	_	_
 29-265	3683-3688	https	_	_
@@ -832,13 +832,13 @@
 29-279	3829-3830	>	_	_
 29-280	3830-3831	-	_	_
 29-281	3832-3833	\[	_	_
-29-282	3833-3839	German	*[37]	PROJECT[37]
-29-283	3840-3850	Competence	*[37]	PROJECT[37]
-29-284	3851-3858	network	*[37]	PROJECT[37]
-29-285	3859-3862	for	*[37]	PROJECT[37]
-29-286	3863-3873	Congenital	*[37]	PROJECT[37]
-29-287	3874-3879	heart	*[37]	PROJECT[37]
-29-288	3880-3887	defects	*[37]	PROJECT[37]
+29-282	3833-3839	German	*[49]	PROJECT[49]
+29-283	3840-3850	Competence	*[49]	PROJECT[49]
+29-284	3851-3858	network	*[49]	PROJECT[49]
+29-285	3859-3862	for	*[49]	PROJECT[49]
+29-286	3863-3873	Congenital	*[49]	PROJECT[49]
+29-287	3874-3879	heart	*[49]	PROJECT[49]
+29-288	3880-3887	defects	*[49]	PROJECT[49]
 29-289	3887-3888	\]	_	_
 29-290	3888-3889	(	_	_
 29-291	3889-3894	https	_	_
@@ -857,13 +857,13 @@
 29-304	3955-3956	>	_	_
 29-305	3956-3957	-	_	_
 29-306	3958-3959	\[	_	_
-29-307	3959-3961	UT	*[38]	PROJECT[38]
-29-308	3962-3974	Southwestern	*[38]	PROJECT[38]
-29-309	3975-3982	Medical	*[38]	PROJECT[38]
-29-310	3983-3989	Center	*[38]	PROJECT[38]
-29-311	3989-3990	,	*[38]	PROJECT[38]
-29-312	3991-4000	Pediatric	*[38]	PROJECT[38]
-29-313	4001-4011	Cardiology	*[38]	PROJECT[38]
+29-307	3959-3961	UT	*[50]	PROJECT[50]
+29-308	3962-3974	Southwestern	*[50]	PROJECT[50]
+29-309	3975-3982	Medical	*[50]	PROJECT[50]
+29-310	3983-3989	Center	*[50]	PROJECT[50]
+29-311	3989-3990	,	*[50]	PROJECT[50]
+29-312	3991-4000	Pediatric	*[50]	PROJECT[50]
+29-313	4001-4011	Cardiology	*[50]	PROJECT[50]
 29-314	4011-4012	\]	_	_
 29-315	4012-4013	(	_	_
 29-316	4013-4018	https	_	_
@@ -888,16 +888,16 @@
 29-335	4115-4116	>	_	_
 29-336	4116-4117	-	_	_
 29-337	4118-4119	\[	_	_
-29-338	4119-4129	Department	*[39]	PROJECT[39]
-29-339	4130-4132	of	*[39]	PROJECT[39]
-29-340	4133-4141	Computer	*[39]	PROJECT[39]
-29-341	4142-4149	Science	*[39]	PROJECT[39]
-29-342	4149-4150	,	*[39]	PROJECT[39]
-29-343	4151-4161	University	*[39]	PROJECT[39]
-29-344	4162-4164	Of	*[39]	PROJECT[39]
-29-345	4165-4172	Applied	*[39]	PROJECT[39]
-29-346	4173-4180	Science	*[39]	PROJECT[39]
-29-347	4181-4189	Mannheim	*[39]	PROJECT[39]
+29-338	4119-4129	Department	*[51]	PROJECT[51]
+29-339	4130-4132	of	*[51]	PROJECT[51]
+29-340	4133-4141	Computer	*[51]	PROJECT[51]
+29-341	4142-4149	Science	*[51]	PROJECT[51]
+29-342	4149-4150	,	*[51]	PROJECT[51]
+29-343	4151-4161	University	*[51]	PROJECT[51]
+29-344	4162-4164	Of	*[51]	PROJECT[51]
+29-345	4165-4172	Applied	*[51]	PROJECT[51]
+29-346	4173-4180	Science	*[51]	PROJECT[51]
+29-347	4181-4189	Mannheim	*[51]	PROJECT[51]
 29-348	4189-4190	\]	_	_
 29-349	4190-4191	(	_	_
 29-350	4191-4196	https	_	_
@@ -936,7 +936,7 @@
 29-383	4375-4376	)	_	_
 29-384	4376-4377	,	_	_
 29-385	4379-4380	-	_	_
-29-386	4381-4387	python	*[90]	PROGLANG[90]
+29-386	4381-4387	python	*[27]	PROGLANG[27]
 29-387	4388-4394	source	_	_
 29-388	4395-4402	modules	_	_
 29-389	4403-4404	(	_	_
@@ -1001,7 +1001,7 @@
 30-31	4711-4722	predictions	_	_
 30-32	4723-4724	-	_	_
 30-33	4725-4730	Three	_	_
-30-34	4731-4742	tensorboard	*[548]	SOFTWARE[548]
+30-34	4731-4742	tensorboard	_	_
 30-35	4743-4751	logfiles	_	_
 30-36	4752-4755	per	_	_
 30-37	4756-4764	training	_	_
@@ -1028,7 +1028,7 @@
 32-4	4853-4858	which	_	_
 32-5	4859-4871	orchestrates	_	_
 32-6	4872-4875	the	_	_
-32-7	4876-4880	nrrd	*[261]	DATASET[261]
+32-7	4876-4880	nrrd	_	_
 32-8	4881-4886	files	_	_
 32-9	4887-4891	with	_	_
 32-10	4892-4895	the	_	_
@@ -1048,9 +1048,9 @@
 34-4	4950-4961	description	_	_
 34-5	4962-4968	either	_	_
 34-6	4969-4971	as	_	_
-34-7	4972-4976	json	*[91]	PROGLANG[91]
+34-7	4972-4976	json	_	_
 34-8	4977-4979	or	_	_
-34-9	4980-4990	tensorflow	*[92]	PROGLANG[92]
+34-9	4980-4990	tensorflow	_	_
 34-10	4991-4999	protobuf	_	_
 34-11	5000-5004	file	_	_
 34-12	5005-5008	and	_	_
@@ -1059,13 +1059,13 @@
 34-15	5027-5032	model	_	_
 34-16	5033-5040	weights	_	_
 34-17	5041-5043	as	_	_
-34-18	5044-5046	h5	*[93]	PROGLANG[93]
+34-18	5044-5046	h5	_	_
 34-19	5047-5051	file	_	_
 34-20	5051-5052	.	_	_
 
 #Text=The tensorflow model and layer definitions are within /src/models.
 35-1	5054-5057	The	_	_
-35-2	5058-5068	tensorflow	*[549]	SOFTWARE[549]
+35-2	5058-5068	tensorflow	*[185]	SOFTWARE[185]
 35-3	5069-5074	model	_	_
 35-4	5075-5078	and	_	_
 35-5	5079-5084	layer	_	_
@@ -1086,7 +1086,7 @@
 36-5	5150-5155	built	_	_
 36-6	5156-5158	on	_	_
 36-7	5159-5162	the	_	_
-36-8	5163-5169	neuron	*[165]	PROJECT[165]
+36-8	5163-5169	neuron	_	_
 36-9	5170-5177	project	_	_
 36-10	5177-5178	,	_	_
 36-11	5179-5184	which	_	_
@@ -1096,7 +1096,7 @@
 36-15	5198-5200	of	_	_
 36-16	5201-5204	the	_	_
 36-17	5205-5212	current	_	_
-36-18	5213-5223	Voxelmorph	*[550]	SOFTWARE[550]
+36-18	5213-5223	Voxelmorph	_	_
 36-19	5224-5232	approach	_	_
 36-20	5233-5234	(	_	_
 36-21	5234-5239	https	_	_
@@ -1105,11 +1105,11 @@
 36-24	5241-5242	/	_	_
 36-25	5242-5252	github.com	_	_
 36-26	5252-5253	/	_	_
-36-27	5253-5263	voxelmorph	*[132]	SOFTWARE[132]
-36-28	5263-5264	/	_	_
-36-29	5264-5274	voxelmorph	*[133]	SOFTWARE[133]
-36-30	5274-5275	)	_	_
-36-31	5275-5276	.	_	_
+36-27	5253-5263	voxelmorph	_	_
+36-28	5263-5264	/	*[187]	SOFTWARE[187]
+36-29	5264-5274	voxelmorph	_	_
+36-30	5274-5275	)	*[188]	SOFTWARE[188]
+36-31	5275-5276	.	*[188]	SOFTWARE[188]
 
 #Text=Use the Notebooks to interact (train, predict or evaluate) with the python functions.   ## Repository Structure      ├── LICENSE     ├── Makefile           <- Makefile with commands like 'make environment'     ├── README.md          <- The top-level README for developers using this project.     ├── data     │   ├── metadata       <- Excel and csv files with additional metadata are stored here     │   ├── interim        <- Intermediate data that has been transformed
 37-1	5278-5281	Use	_	_
@@ -1126,7 +1126,7 @@
 37-12	5335-5336	)	_	_
 37-13	5337-5341	with	_	_
 37-14	5342-5345	the	_	_
-37-15	5346-5352	python	*[94]	PROGLANG[94]
+37-15	5346-5352	python	*[31]	PROGLANG[31]
 37-16	5353-5362	functions	_	_
 37-17	5362-5363	.	_	_
 37-18	5366-5367	#	_	_
@@ -1136,7 +1136,7 @@
 37-22	5395-5396	├	_	_
 37-23	5396-5397	─	_	_
 37-24	5397-5398	─	_	_
-37-25	5399-5406	LICENSE	*[32]	LICENSE[32]
+37-25	5399-5406	LICENSE	*[6]	LICENSE[6]
 37-26	5411-5412	├	_	_
 37-27	5412-5413	─	_	_
 37-28	5413-5414	─	_	_
@@ -1261,7 +1261,7 @@
 41-19	6006-6015	notebooks	_	_
 41-20	6025-6026	<	_	_
 41-21	6026-6027	-	_	_
-41-22	6028-6035	Jupyter	*[95]	PROGLANG[95]
+41-22	6028-6035	Jupyter	_	_
 41-23	6036-6045	notebooks	_	_
 
 #Text=.
@@ -1272,7 +1272,7 @@
 43-2	6056-6057	├	_	_
 43-3	6057-6058	─	_	_
 43-4	6058-6059	─	_	_
-43-5	6060-6067	Dataset	*[262]	DATASET[262]
+43-5	6060-6067	Dataset	*[74]	DATASET[74]
 43-6	6075-6076	<	_	_
 43-7	6076-6077	-	_	_
 43-8	6078-6084	Create	_	_
@@ -1283,7 +1283,7 @@
 43-13	6097-6099	or	_	_
 43-14	6100-6111	pre-process	_	_
 43-15	6112-6115	the	_	_
-43-16	6116-6123	dataset	*[263]	DATASET[263]
+43-16	6116-6123	dataset	*[75]	DATASET[75]
 43-17	6128-6129	│	_	_
 43-18	6132-6133	├	_	_
 43-19	6133-6134	─	_	_
@@ -1473,7 +1473,7 @@
 45-60	7192-7193	├	_	_
 45-61	7193-7194	─	_	_
 45-62	7194-7195	─	_	_
-45-63	7196-7212	environment.yaml	*[551]	SOFTWARE[551]
+45-63	7196-7212	environment.yaml	*[189]	SOFTWARE[189]
 45-64	7215-7216	<	_	_
 45-65	7216-7217	-	_	_
 45-66	7218-7223	Conda	_	_
@@ -1485,7 +1485,7 @@
 46-1	7243-7252	Generated	_	_
 46-2	7253-7257	with	_	_
 46-3	7258-7259	`	_	_
-46-4	7259-7264	conda	*[96]	PROGLANG[96]
+46-4	7259-7264	conda	*[33]	PROGLANG[33]
 46-5	7265-7268	env	_	_
 46-6	7269-7275	export	_	_
 46-7	7276-7277	>	_	_
@@ -1520,7 +1520,7 @@
 46-36	7411-7414	src	_	_
 46-37	7430-7431	<	_	_
 46-38	7431-7432	-	_	_
-46-39	7433-7439	Python	*[97]	PROGLANG[97]
+46-39	7433-7439	Python	*[34]	PROGLANG[34]
 46-40	7440-7447	modules	_	_
 46-41	7448-7452	with	_	_
 46-42	7453-7460	classes	_	_
@@ -1540,7 +1540,7 @@
 46-56	7531-7535	data	_	_
 46-57	7546-7547	<	_	_
 46-58	7547-7548	-	_	_
-46-59	7549-7555	Python	*[98]	PROGLANG[98]
+46-59	7549-7555	Python	*[35]	PROGLANG[35]
 46-60	7556-7563	modules	_	_
 46-61	7564-7565	-	_	_
 46-62	7566-7576	Generators	_	_
@@ -1555,7 +1555,7 @@
 46-71	7627-7633	models	_	_
 46-72	7642-7643	<	_	_
 46-73	7643-7644	-	_	_
-46-74	7645-7651	Python	*[99]	PROGLANG[99]
+46-74	7645-7651	Python	*[36]	PROGLANG[36]
 46-75	7652-7659	modules	_	_
 46-76	7660-7661	-	_	_
 46-77	7662-7670	TF.keras	_	_
@@ -1572,7 +1572,7 @@
 46-88	7714-7719	utils	_	_
 46-89	7729-7730	<	_	_
 46-90	7730-7731	-	_	_
-46-91	7732-7738	Python	*[100]	PROGLANG[100]
+46-91	7732-7738	Python	*[37]	PROGLANG[37]
 46-92	7739-7746	modules	_	_
 46-93	7747-7748	-	_	_
 46-94	7749-7756	Metrics	_	_
@@ -1593,7 +1593,7 @@
 46-109	7833-7846	visualization	_	_
 46-110	7848-7849	<	_	_
 46-111	7849-7850	-	_	_
-46-112	7851-7857	Python	*[101]	PROGLANG[101]
+46-112	7851-7857	Python	*[38]	PROGLANG[38]
 46-113	7858-7865	modules	_	_
 46-114	7866-7867	-	_	_
 46-115	7868-7872	Plot	_	_
@@ -1606,7 +1606,7 @@
 46-122	7911-7922	description	_	_
 46-123	7924-7925	#	_	_
 46-124	7925-7926	#	_	_
-46-125	7927-7934	Dataset	*[264]	DATASET[264]
+46-125	7927-7934	Dataset	*[76]	DATASET[76]
 46-126	7935-7938	For	_	_
 46-127	7939-7943	this	_	_
 46-128	7944-7948	work	_	_
@@ -1616,8 +1616,8 @@
 46-132	7979-7989	cine-SSFPs	_	_
 46-133	7990-7993	CMR	_	_
 46-134	7994-7997	TOF	_	_
-46-135	7998-8002	data	*[265]	DATASET[265]
-46-136	8003-8006	set	*[265]	DATASET[265]
+46-135	7998-8002	data	*[77]	DATASET[77]
+46-136	8003-8006	set	*[77]	DATASET[77]
 46-137	8007-8011	from	_	_
 46-138	8012-8015	the	_	_
 46-139	8016-8017	\[	_	_
@@ -1680,7 +1680,7 @@
 
 #Text=This TOF dataset constitutes one of the largest compiled data set of this pathology to date.
 47-1	8330-8334	This	_	_
-47-2	8335-8338	TOF	*[266]	DATASET[266]
+47-2	8335-8338	TOF	*[78]	DATASET[78]
 47-3	8339-8346	dataset	_	_
 47-4	8347-8358	constitutes	_	_
 47-5	8359-8362	one	_	_
@@ -1745,9 +1745,9 @@
 48-45	8640-8641	)	_	_
 48-46	8641-8642	,	_	_
 48-47	8643-8644	\[	_	_
-48-48	8644-8650	eprint	*[67]	PUBLICATION[67]
-48-49	8651-8659	previous	*[67]	PUBLICATION[67]
-48-50	8660-8664	work	*[67]	PUBLICATION[67]
+48-48	8644-8650	eprint	*[77]	PUBLICATION[77]
+48-49	8651-8659	previous	*[77]	PUBLICATION[77]
+48-50	8660-8664	work	*[77]	PUBLICATION[77]
 48-51	8664-8665	\]	_	_
 48-52	8665-8666	(	_	_
 48-53	8666-8671	https	_	_
@@ -1802,15 +1802,15 @@
 50-28	8803-8811	Beerbaum	_	_
 50-29	8812-8813	P	_	_
 50-30	8813-8814	\;	_	_
-50-31	8815-8821	German	*[166]	PROJECT[166]
-50-32	8822-8832	Competence	*[166]	PROJECT[166]
-50-33	8833-8840	Network	*[166]	PROJECT[166]
-50-34	8841-8844	for	*[166]	PROJECT[166]
-50-35	8845-8855	Congenital	*[166]	PROJECT[166]
-50-36	8856-8861	Heart	*[166]	PROJECT[166]
-50-37	8862-8869	Defects	*[166]	PROJECT[166]
-50-38	8870-8883	Investigators	*[166]	PROJECT[166]
-50-39	8883-8884	.	_	_
+50-31	8815-8821	German	_	_
+50-32	8822-8832	Competence	*[53]	PROJECT[53]
+50-33	8833-8840	Network	*[53]	PROJECT[53]
+50-34	8841-8844	for	*[53]	PROJECT[53]
+50-35	8845-8855	Congenital	*[53]	PROJECT[53]
+50-36	8856-8861	Heart	*[53]	PROJECT[53]
+50-37	8862-8869	Defects	*[53]	PROJECT[53]
+50-38	8870-8883	Investigators	*[53]	PROJECT[53]
+50-39	8883-8884	.	*[53]	PROJECT[53]
 
 #Text=Impact of gender and age on cardiovascular function late after repair of tetralogy of Fallot: percentiles based on cardiac magnetic resonance.
 51-1	8885-8891	Impact	_	_
@@ -1838,10 +1838,10 @@
 51-23	9026-9027	.	_	_
 
 #Text=Circ Cardiovasc Imaging. 2011 Nov\;4(6):703-11. doi: 10.1161/CIRCIMAGING.111.963637.
-52-1	9028-9032	Circ	*[497]	PUBLICATION[497]
-52-2	9033-9043	Cardiovasc	*[497]	PUBLICATION[497]
-52-3	9044-9051	Imaging	*[497]	PUBLICATION[497]
-52-4	9051-9052	.	_	_
+52-1	9028-9032	Circ	_	_
+52-2	9033-9043	Cardiovasc	*[78]	PUBLICATION[78]
+52-3	9044-9051	Imaging	*[78]	PUBLICATION[78]
+52-4	9051-9052	.	*[78]	PUBLICATION[78]
 52-5	9053-9057	2011	_	_
 52-6	9058-9061	Nov	_	_
 52-7	9061-9062	\;	_	_
@@ -1919,10 +1919,10 @@
 60-4	9248-9249	.	_	_
 
 #Text=Greil, S.
-61-1	9250-9255	Greil	*[498]	PUBLICATION[498]
-61-2	9255-9256	,	*[498]	PUBLICATION[498]
-61-3	9257-9258	S	*[498]	PUBLICATION[498]
-61-4	9258-9259	.	*[498]	PUBLICATION[498]
+61-1	9250-9255	Greil	*[79]	PUBLICATION[79]
+61-2	9255-9256	,	*[79]	PUBLICATION[79]
+61-3	9257-9258	S	*[79]	PUBLICATION[79]
+61-4	9258-9259	.	*[79]	PUBLICATION[79]
 
 #Text=Engelhardt and Ivo Wolf.
 62-1	9260-9270	Engelhardt	_	_
@@ -1959,14 +1959,14 @@
 63-25	9447-9448	”	_	_
 
 #Text=Medical Imaging: Image-Guided Procedures (2020).  ## Setup instructions (Ubuntu)  ### Preconditions:  - Python 3.6 locally installed  (e.g.:  <a target="\_blank" href="https://www.anaconda.com/download/#macos">Anaconda</a>) - Installed nvidia drivers, cuda and cudnn  (e.g.:  <a target="\_blank" href="https://www.tensorflow.org/install/gpu">Tensorflow</a>)  ### Local setup Clone repository ``` git clone %repo-name% cd %repo-name% ``` Create a conda environment from environment.yaml (environment name will be ax2sax) ``` conda env create --file environment.yaml ```  Activate environment ``` conda activate ax2sax ``` Install a helper to automatically change the working directory to the project root directory ``` pip install --extra-index-url https://test.pypi.org/simple/ ProjectRoot ``` Create a jupyter kernel from the activated environment, this kernel will be visible in the jupyter lab ``` python -m ipykernel install --user --name ax2sax --display-name "ax2sax kernel" ```   ### Enable interactive widgets in Jupyterlab  Pre-condition: nodejs installed globally or into the conda environment. e.g.: ``` conda install -c conda-forge nodejs ``` Install the jupyterlab-manager which enables the use of interactive widgets ``` jupyter labextension install @jupyter-widgets/jupyterlab-manager ```  Further infos on how to enable the jupyterlab-extensions: \[JupyterLab\](https://ipywidgets.readthedocs.io/en/latest/user\_install.html#installing-the-jupyterlab-extension)
-64-1	9449-9456	Medical	*[499]	PUBLICATION[499]
-64-2	9457-9464	Imaging	*[499]	PUBLICATION[499]
-64-3	9464-9465	:	*[499]	PUBLICATION[499]
-64-4	9466-9478	Image-Guided	*[499]	PUBLICATION[499]
-64-5	9479-9489	Procedures	*[499]	PUBLICATION[499]
-64-6	9490-9491	(	*[499]	PUBLICATION[499]
-64-7	9491-9495	2020	*[499]	PUBLICATION[499]
-64-8	9495-9496	)	*[499]	PUBLICATION[499]
+64-1	9449-9456	Medical	*[80]	PUBLICATION[80]
+64-2	9457-9464	Imaging	*[80]	PUBLICATION[80]
+64-3	9464-9465	:	*[80]	PUBLICATION[80]
+64-4	9466-9478	Image-Guided	*[80]	PUBLICATION[80]
+64-5	9479-9489	Procedures	*[80]	PUBLICATION[80]
+64-6	9490-9491	(	*[80]	PUBLICATION[80]
+64-7	9491-9495	2020	*[80]	PUBLICATION[80]
+64-8	9495-9496	)	*[80]	PUBLICATION[80]
 64-9	9496-9497	.	_	_
 64-10	9499-9500	#	_	_
 64-11	9500-9501	#	_	_
@@ -1981,8 +1981,8 @@
 64-20	9535-9548	Preconditions	_	_
 64-21	9548-9549	:	_	_
 64-22	9551-9552	-	_	_
-64-23	9553-9559	Python	*[102]	PROGLANG[102]
-64-24	9560-9563	3.6	*[102]	PROGLANG[102]
+64-23	9553-9559	Python	*[39]	PROGLANG[39]
+64-24	9560-9563	3.6	*[39]	PROGLANG[39]
 64-25	9564-9571	locally	_	_
 64-26	9572-9581	installed	_	_
 64-27	9583-9584	(	_	_
@@ -2013,7 +2013,7 @@
 64-51	9651-9656	macos	_	_
 64-52	9656-9657	"	_	_
 64-53	9657-9658	>	_	_
-64-54	9658-9666	Anaconda	*[135]	SOFTWARE[135]
+64-54	9658-9666	Anaconda	*[191]	SOFTWARE[191]
 64-55	9666-9667	<	_	_
 64-56	9667-9668	/	_	_
 64-57	9668-9669	a	_	_
@@ -2054,7 +2054,7 @@
 64-91	9784-9787	gpu	_	_
 64-92	9787-9788	"	_	_
 64-93	9788-9789	>	_	_
-64-94	9789-9799	Tensorflow	*[136]	SOFTWARE[136]
+64-94	9789-9799	Tensorflow	*[192]	SOFTWARE[192]
 64-95	9799-9800	<	_	_
 64-96	9800-9801	/	_	_
 64-97	9801-9802	a	_	_
@@ -2149,7 +2149,7 @@
 64-186	10216-10217	/	_	_
 64-187	10217-10223	simple	_	_
 64-188	10223-10224	/	_	_
-64-189	10225-10236	ProjectRoot	*[552]	SOFTWARE[552]
+64-189	10225-10236	ProjectRoot	*[193]	SOFTWARE[193]
 64-190	10237-10238	`	_	_
 64-191	10238-10239	`	_	_
 64-192	10239-10240	`	_	_
@@ -2206,7 +2206,7 @@
 64-243	10468-10478	Jupyterlab	_	_
 64-244	10480-10493	Pre-condition	_	_
 64-245	10493-10494	:	_	_
-64-246	10495-10501	nodejs	*[553]	SOFTWARE[553]
+64-246	10495-10501	nodejs	*[194]	SOFTWARE[194]
 64-247	10502-10511	installed	_	_
 64-248	10512-10520	globally	_	_
 64-249	10521-10523	or	_	_
@@ -2226,7 +2226,7 @@
 64-263	10576-10577	-	_	_
 64-264	10577-10578	c	_	_
 64-265	10579-10590	conda-forge	_	_
-64-266	10591-10597	nodejs	*[554]	SOFTWARE[554]
+64-266	10591-10597	nodejs	*[195]	SOFTWARE[195]
 64-267	10598-10599	`	_	_
 64-268	10599-10600	`	_	_
 64-269	10600-10601	`	_	_
@@ -2264,7 +2264,7 @@
 64-300	10787-10797	jupyterlab	_	_
 64-301	10808-10809	:	_	_
 64-302	10810-10811	\[	_	_
-64-303	10811-10821	JupyterLab	*[137]	SOFTWARE[137]
+64-303	10811-10821	JupyterLab	*[196]	SOFTWARE[196]
 64-304	10821-10822	\]	_	_
 64-305	10822-10823	(	_	_
 64-306	10823-10828	https	_	_
