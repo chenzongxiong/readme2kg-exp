@@ -10,6 +10,3 @@ if [ "$mode" = "-debug" ]; then
     python src/scoring.py --reference_dir ./data/val --prediction_dir ./results/dummy_all_sent_all_label --average "$average_type"
     python src/scoring.py --reference_dir ./data/val --prediction_dir ./results/dummy_all_doc_2_Software --average "$average_type"
 fi
-
-
-python src/scoring_em.py --reference_dir ./data/test_labeled --prediction_dir ./results/deepseek-chat/test_unlabeled_up --average "macro"
