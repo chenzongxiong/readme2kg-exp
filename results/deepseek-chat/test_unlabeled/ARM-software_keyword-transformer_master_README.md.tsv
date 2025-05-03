@@ -5,7 +5,7 @@
 #Text=# Keyword Transformer: A Self-Attention Model for Keyword Spotting  <img src="kwt.png" alt="drawing" width="200"/>  This is the official repository for the paper \[Keyword Transformer: A Self-Attention Model for Keyword Spotting\](https://arxiv.org/abs/2104.00769), presented at Interspeech 2021.
 1-1	0-1	#	_	_
 1-2	2-9	Keyword	_	_
-1-3	10-21	Transformer	_	_
+1-3	10-21	Transformer	*[97]	SOFTWARE[97]
 1-4	21-22	:	_	_
 1-5	23-24	A	_	_
 1-6	25-39	Self-Attention	_	_
@@ -40,15 +40,15 @@
 1-35	148-151	for	_	_
 1-36	152-155	the	_	_
 1-37	156-161	paper	_	_
-1-38	162-163	\[	*[23]	PUBLICATION[23]
-1-39	163-170	Keyword	*[23]	PUBLICATION[23]
-1-40	171-182	Transformer	*[23]	PUBLICATION[23]
-1-41	182-183	:	*[23]	PUBLICATION[23]
-1-42	184-185	A	*[23]	PUBLICATION[23]
-1-43	186-200	Self-Attention	*[23]	PUBLICATION[23]
-1-44	201-206	Model	*[23]	PUBLICATION[23]
-1-45	207-210	for	*[23]	PUBLICATION[23]
-1-46	211-218	Keyword	*[23]	PUBLICATION[23]
+1-38	162-163	\[	_	_
+1-39	163-170	Keyword	*[47]	PUBLICATION[47]
+1-40	171-182	Transformer	*[47]	PUBLICATION[47]
+1-41	182-183	:	*[47]	PUBLICATION[47]
+1-42	184-185	A	*[47]	PUBLICATION[47]
+1-43	186-200	Self-Attention	*[47]	PUBLICATION[47]
+1-44	201-206	Model	*[47]	PUBLICATION[47]
+1-45	207-210	for	*[47]	PUBLICATION[47]
+1-46	211-218	Keyword	*[47]	PUBLICATION[47]
 1-47	219-227	Spotting	_	_
 1-48	227-228	\]	_	_
 1-49	228-229	(	_	_
@@ -57,9 +57,9 @@
 1-52	235-236	/	_	_
 1-53	236-237	/	_	_
 1-54	237-246	arxiv.org	_	_
-1-55	246-247	/	_	_
-1-56	247-250	abs	_	_
-1-57	250-251	/	_	_
+1-55	246-247	/	*[8]	CONFERENCE[8]
+1-56	247-250	abs	*[8]	CONFERENCE[8]
+1-57	250-251	/	*[8]	CONFERENCE[8]
 1-58	251-261	2104.00769	_	_
 1-59	261-262	)	_	_
 1-60	262-263	,	_	_

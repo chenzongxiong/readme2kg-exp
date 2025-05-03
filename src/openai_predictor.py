@@ -33,7 +33,7 @@ class OpenAIPredictor(BasePredictor):
                 self.prompt_template = fd.read()
         else:
             self.prompt_template = ''
-        self.parallel = True
+        self.parallel = False
 
     def __call__(self, doc: Document):
         if getattr(self, 'parallel', False):
@@ -122,7 +122,17 @@ class OpenAIPredictor(BasePredictor):
     def extract_annotation_labels_if_possible(self, predicted_text):
         label_to_text_list = defaultdict(list)
         acc_adjusted_pos = 0
+
+        matched_labels = {}
+
         for label in LABELS:
+            regex = f'<{label}>(.*?)</{label}>'
+            matches = re.finditer(regex, predicted_text, flags=re.IGNORECASE | re.DOTALL)
+            for m in matches:
+                matched_labels[m.start(1)] = label
+
+        for pos in sorted(matched_labels):
+            label = matched_labels[pos]
             regex = f'<{label}>(.*?)</{label}>'
             matches = re.finditer(regex, predicted_text, flags=re.IGNORECASE | re.DOTALL)
             for m in matches:
@@ -133,6 +143,7 @@ class OpenAIPredictor(BasePredictor):
                     'end': m.end(1) - adjusted_pos - acc_adjusted_pos,
                 })
                 acc_adjusted_pos += adjusted_pos * 2 + 1
+
         return label_to_text_list
 
     def do_prediction(self, sentence, tokens, sid_path):
@@ -174,6 +185,8 @@ if __name__ == "__main__":
     )
 
     for file_name in file_names:
+        # if 'ARM-software_keyword-transformer_master_README.md.tsv' not in file_name:
+        #     continue
         predictor.set_file_name(file_name)
         file_path = os.path.join(base_path, file_name)
         ref_doc = webanno_tsv_read_file(file_path)

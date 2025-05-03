@@ -139,7 +139,7 @@ if __name__ == "__main__":
 
     accuracy = accuracy_score(ref_bio_tags_list, pred_bio_tags_list)
     scores['overall_accuracy'] = accuracy
-    
+
     # Use the specified average type instead of looping through all options
     ref_bio_tags_list = flatten(flatten(all_ref_bio_tags_list))
     pred_bio_tags_list = flatten(flatten(all_pred_bio_tags_list))
@@ -184,5 +184,5 @@ if __name__ == "__main__":
 
     print("Scores:\n", json.dumps(scores, indent=2))
 
-    with open(os.path.join(score_dir, 'scores.json'), 'w') as fd:
+    with open(os.path.join(score_dir, f'scores_{average_type}.json'), 'w') as fd:
         json.dump(scores, fd, indent=2)
