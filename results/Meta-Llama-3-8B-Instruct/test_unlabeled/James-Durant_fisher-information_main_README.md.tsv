@@ -51,7 +51,7 @@
 1-46	230-240	github.com	_	_
 1-47	240-241	/	_	_
 1-48	241-253	James-Durant	_	_
-1-49	253-254	/	*[19]	DATASET[19]
+1-49	253-254	/	*[16]	DATASET[16]
 1-50	254-273	experimental-design	_	_
 1-51	273-274	)	_	_
 1-52	275-285	repository	_	_
@@ -96,10 +96,10 @@
 2-34	430-439	framework	_	_
 2-35	440-443	for	_	_
 2-36	444-455	determining	_	_
-2-37	456-459	the	*[21]	PUBLICATION[21]
-2-38	460-467	maximum	*[21]	PUBLICATION[21]
-2-39	468-479	information	*[21]	PUBLICATION[21]
-2-40	480-484	gain	*[21]	PUBLICATION[21]
+2-37	456-459	the	*[20]	PUBLICATION[20]
+2-38	460-467	maximum	*[20]	PUBLICATION[20]
+2-39	468-479	information	*[20]	PUBLICATION[20]
+2-40	480-484	gain	*[20]	PUBLICATION[20]
 2-41	485-488	and	_	_
 2-42	489-499	optimising	_	_
 2-43	500-512	experimental	_	_

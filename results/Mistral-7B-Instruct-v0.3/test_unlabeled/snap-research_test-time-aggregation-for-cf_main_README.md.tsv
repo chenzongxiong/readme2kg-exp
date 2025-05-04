@@ -24,8 +24,8 @@
 1-19	86-93	Passing	_	_
 1-20	94-101	Improve	_	_
 1-21	102-115	Collaborative	_	_
-1-22	116-125	Filtering	*[5]	PUBLICATION[5]
-1-23	125-126	?	*[5]	PUBLICATION[5]
+1-22	116-125	Filtering	_	_
+1-23	125-126	?	_	_
 1-24	126-127	\]	_	_
 
 #Text=(https://arxiv.org/abs/2404.08660)\*\* accepted at NeurIPS 2024.
@@ -53,16 +53,16 @@
 3-2	191-193	by	_	_
 3-3	194-195	\[	_	_
 3-4	195-203	Mingxuan	_	_
-3-5	204-206	Ju	_	_
-3-6	206-207	\]	_	_
-3-7	207-208	(	_	_
-3-8	208-213	https	_	_
-3-9	213-214	:	_	_
+3-5	204-206	Ju	*[40]	PROJECT[40]
+3-6	206-207	\]	*[40]	PROJECT[40]
+3-7	207-208	(	*[40]	PROJECT[40]
+3-8	208-213	https	*[40]	PROJECT[40]
+3-9	213-214	:	*[40]	PROJECT[40]
 3-10	214-215	/	_	_
 3-11	215-216	/	_	_
 3-12	216-234	scholar.google.com	_	_
-3-13	234-235	/	_	_
-3-14	235-244	citations	_	_
+3-13	234-235	/	*[9]|*[41]	CONFERENCE[9]|PROJECT[41]
+3-14	235-244	citations	*[0]|*[9]	WORKSHOP[0]|CONFERENCE[9]
 3-15	244-245	?	_	_
 
 #Text=user=qNoO67AAAAAJ&hl=en&oi=ao), \[William Shiao\](https://scholar.google.com/citations?

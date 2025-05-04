@@ -100,7 +100,7 @@
 1-92	219-223	Cell	_	_
 1-93	224-238	Transcriptomic	_	_
 1-94	239-243	Data	_	_
-1-95	244-248	with	*[28]	DATASET[28]
+1-95	244-248	with	*[36]	DATASET[36]
 1-96	249-260	Split-Merge	_	_
 1-97	261-269	Sampling	_	_
 1-98	270-272	on	_	_
@@ -149,11 +149,11 @@
 3-4	417-419	In	_	_
 3-5	420-423	the	_	_
 3-6	424-432	datasets	_	_
-3-7	433-439	folder	*[4]	PUBLICATION[4]
-3-8	439-440	,	*[4]	PUBLICATION[4]
-3-9	441-443	we	*[4]	PUBLICATION[4]
-3-10	444-452	included	*[4]	PUBLICATION[4]
-3-11	453-456	the	*[4]	PUBLICATION[4]
+3-7	433-439	folder	*[8]	PUBLICATION[8]
+3-8	439-440	,	*[8]	PUBLICATION[8]
+3-9	441-443	we	*[8]	PUBLICATION[8]
+3-10	444-452	included	*[8]	PUBLICATION[8]
+3-11	453-456	the	*[8]	PUBLICATION[8]
 3-12	457-460	mat	_	_
 3-13	461-466	files	_	_
 3-14	467-471	that	_	_

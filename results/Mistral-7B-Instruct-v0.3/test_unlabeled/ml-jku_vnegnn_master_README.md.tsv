@@ -7,24 +7,24 @@
 
 #Text=# VN-EGNN: E(3)-Equivariant Graph Neural Networks with Virtual Nodes Enhance Protein Binding Site Identification  \[!
 1-1	1-2	#	_	_
-1-2	3-10	VN-EGNN	*[18]	PUBLICATION[18]
-1-3	10-11	:	*[18]	PUBLICATION[18]
-1-4	12-13	E	*[18]	PUBLICATION[18]
-1-5	13-14	(	*[18]	PUBLICATION[18]
-1-6	14-15	3	*[18]	PUBLICATION[18]
-1-7	15-16	)	*[18]	PUBLICATION[18]
-1-8	16-17	-	*[18]	PUBLICATION[18]
-1-9	17-28	Equivariant	*[18]	PUBLICATION[18]
-1-10	29-34	Graph	*[18]	PUBLICATION[18]
-1-11	35-41	Neural	*[18]	PUBLICATION[18]
-1-12	42-50	Networks	*[18]	PUBLICATION[18]
-1-13	51-55	with	*[18]	PUBLICATION[18]
-1-14	56-63	Virtual	*[18]	PUBLICATION[18]
-1-15	64-69	Nodes	*[18]	PUBLICATION[18]
-1-16	70-77	Enhance	*[18]	PUBLICATION[18]
-1-17	78-85	Protein	*[18]	PUBLICATION[18]
-1-18	86-93	Binding	*[18]	PUBLICATION[18]
-1-19	94-98	Site	*[18]	PUBLICATION[18]
+1-2	3-10	VN-EGNN	_	_
+1-3	10-11	:	_	_
+1-4	12-13	E	_	_
+1-5	13-14	(	_	_
+1-6	14-15	3	_	_
+1-7	15-16	)	_	_
+1-8	16-17	-	_	_
+1-9	17-28	Equivariant	_	_
+1-10	29-34	Graph	_	_
+1-11	35-41	Neural	_	_
+1-12	42-50	Networks	_	_
+1-13	51-55	with	_	_
+1-14	56-63	Virtual	_	_
+1-15	64-69	Nodes	_	_
+1-16	70-77	Enhance	_	_
+1-17	78-85	Protein	_	_
+1-18	86-93	Binding	_	_
+1-19	94-98	Site	_	_
 1-20	99-113	Identification	_	_
 1-21	115-116	\[	_	_
 1-22	116-117	!	_	_
@@ -41,7 +41,7 @@
 2-9	145-146	/	_	_
 2-10	146-147	/	_	_
 2-11	147-161	huggingface.co	_	_
-2-12	161-162	/	*[10]	PROJECT[10]
+2-12	161-162	/	*[38]	PROJECT[38]
 2-13	162-170	datasets	_	_
 2-14	170-171	/	_	_
 2-15	171-182	huggingface	_	_
@@ -114,14 +114,14 @@
 
 #Text=\[\](https://img.shields.io/badge/model-pink?
 5-1	396-397	\[	_	_
-5-2	397-398	\]	_	_
-5-3	398-399	(	_	_
-5-4	399-404	https	_	_
-5-5	404-405	:	_	_
-5-6	405-406	/	_	_
-5-7	406-407	/	_	_
-5-8	407-421	img.shields.io	_	_
-5-9	421-422	/	_	_
+5-2	397-398	\]	*[7]	CONFERENCE[7]
+5-3	398-399	(	*[7]	CONFERENCE[7]
+5-4	399-404	https	*[7]	CONFERENCE[7]
+5-5	404-405	:	*[7]	CONFERENCE[7]
+5-6	405-406	/	*[7]	CONFERENCE[7]
+5-7	406-407	/	*[7]	CONFERENCE[7]
+5-8	407-421	img.shields.io	*[7]	CONFERENCE[7]
+5-9	421-422	/	*[7]	CONFERENCE[7]
 5-10	422-427	badge	_	_
 5-11	427-428	/	_	_
 5-12	428-438	model-pink	_	_

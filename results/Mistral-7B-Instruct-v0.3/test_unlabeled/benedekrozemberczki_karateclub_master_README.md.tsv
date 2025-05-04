@@ -20,8 +20,8 @@
 2-9	21-34	badge.fury.io	_	_
 2-10	34-35	/	_	_
 2-11	35-37	py	_	_
-2-12	37-38	/	*[5]	PROGLANG[5]
-2-13	38-52	karateclub.svg	*[5]	PROGLANG[5]
+2-12	37-38	/	*[1]	PROGLANG[1]
+2-13	38-52	karateclub.svg	*[1]	PROGLANG[1]
 2-13	38-48	karateclub	_	_
 2-14	52-53	?	_	_
 
@@ -38,9 +38,9 @@
 4-3	78-79	\]	_	_
 4-4	79-80	(	_	_
 4-5	80-85	https	_	_
-4-6	85-86	:	*[4]	LICENSE[4]
-4-7	86-87	/	*[4]	LICENSE[4]
-4-8	87-88	/	*[4]	LICENSE[4]
+4-6	85-86	:	*[0]	LICENSE[0]
+4-7	86-87	/	*[0]	LICENSE[0]
+4-8	87-88	/	*[0]	LICENSE[0]
 4-9	88-102	img.shields.io	_	_
 4-10	102-103	/	_	_
 4-11	103-109	github	_	_

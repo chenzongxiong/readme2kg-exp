@@ -4,23 +4,23 @@
 
 #Text=# `LinConGauss` ### \_Integrals and samples of Gaussians under linear domain constraints\_  !
 1-1	0-1	#	_	_
-1-2	2-3	`	_	_
-1-3	3-14	LinConGauss	_	_
-1-4	14-15	`	_	_
-1-5	16-17	#	_	_
-1-6	17-18	#	_	_
-1-7	18-19	#	_	_
-1-8	20-21	\_	_	_
-1-9	21-30	Integrals	_	_
-1-10	31-34	and	_	_
-1-11	35-42	samples	_	_
-1-12	43-45	of	_	_
-1-13	46-55	Gaussians	_	_
-1-14	56-61	under	_	_
-1-15	62-68	linear	_	_
-1-16	69-75	domain	_	_
-1-17	76-87	constraints	_	_
-1-18	87-88	\_	_	_
+1-2	2-3	`	*[4]	PROJECT[4]
+1-3	3-14	LinConGauss	*[4]	PROJECT[4]
+1-4	14-15	`	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-5	16-17	#	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-6	17-18	#	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-7	18-19	#	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-8	20-21	\_	*[0]|*[3]|*[4]	PROJECT[0]|PROJECT[3]|PROJECT[4]
+1-9	21-30	Integrals	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-10	31-34	and	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-11	35-42	samples	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-12	43-45	of	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-13	46-55	Gaussians	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-14	56-61	under	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-15	62-68	linear	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-16	69-75	domain	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-17	76-87	constraints	*[3]|*[4]	PROJECT[3]|PROJECT[4]
+1-18	87-88	\_	*[2]|*[3]|*[4]	PROJECT[2]|PROJECT[3]|PROJECT[4]
 1-19	90-91	!	_	_
 
 #Text=\[Multilevel Splitting\](https://repository-images.githubusercontent.com/243241472/797da100-5891-11ea-857f-0cca52af9239 "Multilevel Splitting")   ## Setup Clone the repository and run `setup.py` ```bash git clone https://github.com/alpiges/LinConGauss.git ~/LinConGauss cd ~/LinConGauss python setup.py install ```  ## Usage For usage, please refer to the tutorials in the `notebook` section.  ## How to cite If you are using `LinConGauss` for your research, consider citing the \[paper\](https://arxiv.org/abs/1910.09328)  ``` @inproceedings{GessnerKH2020,     title     = {Integrals over Gaussians under Linear Domain Constraints},     author    = {Alexandra Gessner and Oindrila Kanjilal and Philipp Hennig},     booktitle = {Proceedings of Machine Learning Research},     publisher = {PMLR},     year      = {2020},     url       = {https://arxiv.org/abs/1910.09328} } ```

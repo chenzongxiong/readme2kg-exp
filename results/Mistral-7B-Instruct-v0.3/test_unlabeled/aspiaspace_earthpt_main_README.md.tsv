@@ -64,12 +64,12 @@
 1-59	174-175	=	_	_
 1-60	175-176	"	_	_
 1-61	176-179	600	_	_
-1-62	179-180	"	*[1]	PROJECT[1]
-1-63	180-181	/	*[1]	PROJECT[1]
-1-64	181-182	>	*[1]	PROJECT[1]
-1-65	183-184	<	*[1]	PROJECT[1]
-1-66	184-185	/	*[1]	PROJECT[1]
-1-67	185-186	p	*[1]	PROJECT[1]
+1-62	179-180	"	_	_
+1-63	180-181	/	_	_
+1-64	181-182	>	_	_
+1-65	183-184	<	_	_
+1-66	184-185	/	_	_
+1-67	185-186	p	_	_
 1-68	186-187	>	_	_
 1-69	189-190	A	_	_
 1-70	191-197	simple	_	_
@@ -80,7 +80,7 @@
 1-75	227-233	series	_	_
 1-76	234-239	large	_	_
 1-77	240-251	observation	_	_
-1-78	252-258	models	_	_
+1-78	252-258	models	*[0]	PROGLANG[0]
 1-79	258-259	.	_	_
 
 #Text=This repository began its life as Andrej Karpathy's \[nanoGPT\](https://github.com/karpathy/nanoGPT), and has been altered so that it is usable for time series data.

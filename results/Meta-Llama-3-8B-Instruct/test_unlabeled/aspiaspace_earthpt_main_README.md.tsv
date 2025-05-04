@@ -124,12 +124,12 @@
 
 #Text=`train.py` reproduces \[EarthPT-700M\](https://arxiv.org/abs/2309.07207) when trained on 14B time series 'tokens' of ClearSky EO data within the TL UK National Grid tile.
 3-1	424-425	`	_	_
-3-2	425-433	train.py	*[6]	PUBLICATION[6]
-3-3	433-434	`	*[6]	PUBLICATION[6]
-3-4	435-445	reproduces	*[6]	PUBLICATION[6]
-3-5	446-447	\[	*[6]	PUBLICATION[6]
-3-6	447-454	EarthPT	*[6]	PUBLICATION[6]
-3-7	454-455	-	*[6]	PUBLICATION[6]
+3-2	425-433	train.py	*[5]	PUBLICATION[5]
+3-3	433-434	`	*[5]	PUBLICATION[5]
+3-4	435-445	reproduces	*[5]	PUBLICATION[5]
+3-5	446-447	\[	*[5]	PUBLICATION[5]
+3-6	447-454	EarthPT	*[5]	PUBLICATION[5]
+3-7	454-455	-	*[5]	PUBLICATION[5]
 3-8	455-459	700M	_	_
 3-9	459-460	\]	_	_
 3-10	460-461	(	_	_

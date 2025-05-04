@@ -15,20 +15,20 @@
 
 #Text=\[paper\](https://img.shields.io/badge/paper-52b69a?
 2-1	39-40	\[	_	_
-2-2	40-45	paper	*[16]	PUBLICATION[16]
-2-3	45-46	\]	*[16]	PUBLICATION[16]
-2-4	46-47	(	*[16]	PUBLICATION[16]
-2-5	47-52	https	*[16]	PUBLICATION[16]
-2-6	52-53	:	*[16]	PUBLICATION[16]
-2-7	53-54	/	*[16]	PUBLICATION[16]
-2-8	54-55	/	*[16]	PUBLICATION[16]
-2-9	55-69	img.shields.io	*[16]	PUBLICATION[16]
-2-10	69-70	/	*[16]	PUBLICATION[16]
-2-11	70-75	badge	*[16]	PUBLICATION[16]
-2-12	75-76	/	*[16]	PUBLICATION[16]
-2-13	76-81	paper	*[16]	PUBLICATION[16]
-2-14	81-82	-	*[16]	PUBLICATION[16]
-2-15	82-88	52b69a	*[16]	PUBLICATION[16]
+2-2	40-45	paper	_	_
+2-3	45-46	\]	_	_
+2-4	46-47	(	_	_
+2-5	47-52	https	_	_
+2-6	52-53	:	_	_
+2-7	53-54	/	_	_
+2-8	54-55	/	_	_
+2-9	55-69	img.shields.io	_	_
+2-10	69-70	/	*[9]	PUBLICATION[9]
+2-11	70-75	badge	*[9]	PUBLICATION[9]
+2-12	75-76	/	*[9]	PUBLICATION[9]
+2-13	76-81	paper	*[9]	PUBLICATION[9]
+2-14	81-82	-	*[9]	PUBLICATION[9]
+2-15	82-88	52b69a	*[9]	PUBLICATION[9]
 2-16	88-89	?	_	_
 
 #Text=style=for-the-badge&logo=arxiv&logoColor=white)\](https://arxiv.org/abs/2206.13263) \[!
@@ -65,15 +65,15 @@
 4-3	182-183	\]	_	_
 4-4	183-184	(	_	_
 4-5	184-189	https	_	_
-4-6	189-190	:	*[2]	PROGLANG[2]
-4-7	190-191	/	*[2]	PROGLANG[2]
-4-8	191-192	/	*[2]	PROGLANG[2]
+4-6	189-190	:	*[3]	PROGLANG[3]
+4-7	190-191	/	*[3]	PROGLANG[3]
+4-8	191-192	/	*[3]	PROGLANG[3]
 4-9	192-206	img.shields.io	_	_
 4-10	206-207	/	_	_
 4-11	207-212	badge	_	_
 4-12	212-213	/	_	_
 4-13	213-220	weights	_	_
-4-14	220-221	-	_	_
+4-14	220-221	-	*[4]	PROGLANG[4]
 4-15	221-227	34a0a4	_	_
 4-16	227-228	?	_	_
 
@@ -101,19 +101,19 @@
 #Text=\[presentation\](https://img.shields.io/badge/presentation-168aad?
 6-1	302-303	\[	_	_
 6-2	303-315	presentation	_	_
-6-3	315-316	\]	_	_
-6-4	316-317	(	_	_
-6-5	317-322	https	_	_
+6-3	315-316	\]	*[2]	EVALMETRIC[2]
+6-4	316-317	(	*[2]	EVALMETRIC[2]
+6-5	317-322	https	*[2]	EVALMETRIC[2]
 6-6	322-323	:	_	_
 6-7	323-324	/	_	_
 6-8	324-325	/	_	_
 6-9	325-339	img.shields.io	_	_
-6-10	339-340	/	_	_
-6-11	340-345	badge	_	_
-6-12	345-346	/	_	_
-6-13	346-358	presentation	_	_
-6-14	358-359	-	_	_
-6-15	359-365	168aad	_	_
+6-10	339-340	/	*[6]	CONFERENCE[6]
+6-11	340-345	badge	*[6]	CONFERENCE[6]
+6-12	345-346	/	*[6]	CONFERENCE[6]
+6-13	346-358	presentation	*[6]	CONFERENCE[6]
+6-14	358-359	-	*[6]	CONFERENCE[6]
+6-15	359-365	168aad	*[6]	CONFERENCE[6]
 6-16	365-366	?	_	_
 
 #Text=style=for-the-badge&logo=youtube&logoColor=white)\](https://www.youtube.com/watch?
@@ -150,20 +150,20 @@
 
 #Text=\[cite\](https://img.shields.io/badge/bibtex-1a759f?
 9-1	464-465	\[	_	_
-9-2	465-469	cite	*[17]	PUBLICATION[17]
-9-3	469-470	\]	*[17]	PUBLICATION[17]
-9-4	470-471	(	*[17]	PUBLICATION[17]
-9-5	471-476	https	*[17]	PUBLICATION[17]
-9-6	476-477	:	*[17]	PUBLICATION[17]
-9-7	477-478	/	*[17]	PUBLICATION[17]
-9-8	478-479	/	*[17]	PUBLICATION[17]
-9-9	479-493	img.shields.io	*[17]	PUBLICATION[17]
-9-10	493-494	/	*[17]	PUBLICATION[17]
-9-11	494-499	badge	*[17]	PUBLICATION[17]
-9-12	499-500	/	*[17]	PUBLICATION[17]
-9-13	500-506	bibtex	*[17]	PUBLICATION[17]
-9-14	506-507	-	*[17]	PUBLICATION[17]
-9-15	507-513	1a759f	*[17]	PUBLICATION[17]
+9-2	465-469	cite	_	_
+9-3	469-470	\]	_	_
+9-4	470-471	(	_	_
+9-5	471-476	https	_	_
+9-6	476-477	:	_	_
+9-7	477-478	/	_	_
+9-8	478-479	/	_	_
+9-9	479-493	img.shields.io	_	_
+9-10	493-494	/	_	_
+9-11	494-499	badge	_	_
+9-12	499-500	/	_	_
+9-13	500-506	bibtex	_	_
+9-14	506-507	-	_	_
+9-15	507-513	1a759f	_	_
 9-16	513-514	?	_	_
 
 #Text=style=for-the-badge&logo=overleaf&logoColor=white)\](#cite)   A PyTorch implementation of the Scaffolding Learning Regime (SLR) for training obstacle detection models for aquatic domains.
