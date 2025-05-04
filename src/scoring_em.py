@@ -166,14 +166,7 @@ if __name__ == "__main__":
     scores[f"overall_{average_type}_recall"] = report[f"{average_type} avg"]["recall"]
     scores[f"overall_{average_type}_f1"] = report[f"{average_type} avg"]["f1-score"]
 
-    # Also include all average types for reference
-    for avg_type in ['micro', 'macro', 'weighted']:
-        if f"{avg_type} avg" in report:
-            scores[f"overall_{avg_type}_precision"] = report[f"{avg_type} avg"]["precision"]
-            scores[f"overall_{avg_type}_recall"] = report[f"{avg_type} avg"]["recall"]
-            scores[f"overall_{avg_type}_f1"] = report[f"{avg_type} avg"]["f1-score"]
-
     print("Scores:\n", json.dumps(scores, indent=2))
 
-    with open(os.path.join(score_dir, 'scores.json'), 'w') as fd:
+    with open(os.path.join(score_dir, f'scores_{average_type}.json'), 'w') as fd:
         json.dump(scores, fd, indent=2)
