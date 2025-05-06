@@ -81,69 +81,12 @@ def get_parse():
     parser = argparse.ArgumentParser(description="")
     parser.add_argument('--reference_dir', type=str, help='Path to the reference data, e.g. training/validation/test data', required=True)
     parser.add_argument('--prediction_dir', type=str, help='Path to save the prediction results', required=True)
-    parser.add_argument('--score_dir', type=str, help='Path to store scores', default='./results/scores')
-    parser.add_argument('--average', type=str, choices=['macro', 'micro', 'weighted'], help='Type of averaging for metrics calculation', default='macro')
+    # parser.add_argument('--score_dir', type=str, help='Path to store scores', default='./results/scores')
+    # parser.add_argument('--average', type=str, choices=['macro', 'micro', 'weighted'], help='Type of averaging for metrics calculation', default='macro')
     return parser
 
-
-if __name__ == "__main__":
-    parser = get_parse()
-    args = parser.parse_args()
-
-    ref_dir = args.reference_dir
-    pred_dir = args.prediction_dir
-    score_dir = args.score_dir
-    average_type = args.average  # Get the average type from command line
-
-    os.makedirs(pred_dir, exist_ok=True)
-    os.makedirs(score_dir, exist_ok=True)
-
-    ref_file_names = sorted([fp for fp in os.listdir(ref_dir) if os.path.isfile(f'{ref_dir}/{fp}') and fp.endswith('.tsv')])
-
-    if len(ref_file_names) == 0:
-        raise Exception("ERROR: No reference files found, configuration error?")
-
-    all_ref_bio_tags_list = []
-    for ref_file_name in ref_file_names:
-        src_path = os.path.join(ref_dir, ref_file_name)
-        ref_path = src_path
-        all_ref_bio_tags_list.append(to_char_bio(src_path, ref_path))
-
-    pred_file_names = sorted([fp for fp in os.listdir(pred_dir) if os.path.isfile(f'{pred_dir}/{fp}') and fp.endswith('.tsv')])
-    all_pred_bio_tags_list = []
-    for idx, ref_file_name in enumerate(ref_file_names):
-        try:
-            src_path = os.path.join(pred_dir, ref_file_name)
-            ref_path = os.path.join(ref_dir, ref_file_name)
-            all_pred_bio_tags_list.append(to_char_bio(src_path, ref_path))
-        except FileNotFoundError:
-            nbr_labels = len(all_ref_bio_tags_list[idx])
-            assert nbr_labels == len(LABELS), "ERROR: reference tags doesn't have ${len(LABELS)} labels."
-            pred = []
-            for label_idx in range(nbr_labels):
-                pred.append(['O'] * len(all_ref_bio_tags_list[idx][label_idx]))
-
-            print(f"WARN: {ref_file_name} is missing, fill 'O' list as default prediction")
-            all_pred_bio_tags_list.append(pred)
-    # Sanity checking
-    for idx, (ref_list, pred_list) in enumerate(zip(all_ref_bio_tags_list, all_pred_bio_tags_list)):
-        for label_idx, (ref, pred) in enumerate(zip(ref_list, pred_list)):
-            assert len(ref) == len(pred), f'ERROR: {ref_file_names[idx]}, label: {LABELS[label_idx]}, reference length: {len(ref)}, prediction length: {len(pred)}'
-
+def calc_score(ref_bio_tags_list, pred_bio_tags_list, average_type, pred_dir):
     scores = {}
-    ################################################################################
-    # Consider whole dataset
-    ################################################################################
-    ref_bio_tags_list = flatten(flatten(all_ref_bio_tags_list))
-    pred_bio_tags_list = flatten(flatten(all_pred_bio_tags_list))
-
-    accuracy = accuracy_score(ref_bio_tags_list, pred_bio_tags_list)
-    scores['overall_accuracy'] = accuracy
-
-    # Use the specified average type instead of looping through all options
-    ref_bio_tags_list = flatten(flatten(all_ref_bio_tags_list))
-    pred_bio_tags_list = flatten(flatten(all_pred_bio_tags_list))
-
     f1 = f1_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
     precision = precision_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
     recall = recall_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
@@ -184,5 +127,66 @@ if __name__ == "__main__":
 
     print("Scores:\n", json.dumps(scores, indent=2))
 
-    with open(os.path.join(score_dir, f'scores_{average_type}.json'), 'w') as fd:
+    with open(os.path.join(pred_dir, f'00scores_{average_type}.json'), 'w') as fd:
         json.dump(scores, fd, indent=2)
+
+
+if __name__ == "__main__":
+    parser = get_parse()
+    args = parser.parse_args()
+
+    ref_dir = args.reference_dir
+    pred_dir = args.prediction_dir
+    # score_dir = args.score_dir
+    # average_type = args.average  # Get the average type from command line
+
+    os.makedirs(pred_dir, exist_ok=True)
+    # os.makedirs(score_dir, exist_ok=True)
+
+    ref_file_names = sorted([fp for fp in os.listdir(ref_dir) if os.path.isfile(f'{ref_dir}/{fp}') and fp.endswith('.tsv')])
+
+    if len(ref_file_names) == 0:
+        raise Exception("ERROR: No reference files found, configuration error?")
+
+    all_ref_bio_tags_list = []
+    for ref_file_name in ref_file_names:
+        src_path = os.path.join(ref_dir, ref_file_name)
+        ref_path = src_path
+        all_ref_bio_tags_list.append(to_char_bio(src_path, ref_path))
+
+    pred_file_names = sorted([fp for fp in os.listdir(pred_dir) if os.path.isfile(f'{pred_dir}/{fp}') and fp.endswith('.tsv')])
+    all_pred_bio_tags_list = []
+    for idx, ref_file_name in enumerate(ref_file_names):
+        try:
+            src_path = os.path.join(pred_dir, ref_file_name)
+            ref_path = os.path.join(ref_dir, ref_file_name)
+            all_pred_bio_tags_list.append(to_char_bio(src_path, ref_path))
+        except FileNotFoundError:
+            nbr_labels = len(all_ref_bio_tags_list[idx])
+            assert nbr_labels == len(LABELS), "ERROR: reference tags doesn't have ${len(LABELS)} labels."
+            pred = []
+            for label_idx in range(nbr_labels):
+                pred.append(['O'] * len(all_ref_bio_tags_list[idx][label_idx]))
+
+            print(f"WARN: {ref_file_name} is missing, fill 'O' list as default prediction")
+            all_pred_bio_tags_list.append(pred)
+    # Sanity checking
+    for idx, (ref_list, pred_list) in enumerate(zip(all_ref_bio_tags_list, all_pred_bio_tags_list)):
+        for label_idx, (ref, pred) in enumerate(zip(ref_list, pred_list)):
+            assert len(ref) == len(pred), f'ERROR: {ref_file_names[idx]}, label: {LABELS[label_idx]}, reference length: {len(ref)}, prediction length: {len(pred)}'
+
+    ################################################################################
+    # Consider whole dataset
+    ################################################################################
+
+    ref_bio_tags_list = flatten(flatten(all_ref_bio_tags_list))
+    pred_bio_tags_list = flatten(flatten(all_pred_bio_tags_list))
+    for average_type in ["macro", "micro", "weighted"]:
+        calc_score(ref_bio_tags_list, pred_bio_tags_list, average_type, pred_dir)
+
+    # accuracy = accuracy_score(ref_bio_tags_list, pred_bio_tags_list)
+    # scores['overall_accuracy'] = accuracy
+
+    # # Use the specified average type instead of looping through all options
+    # ref_bio_tags_list = flatten(flatten(all_ref_bio_tags_list))
+    # pred_bio_tags_list = flatten(flatten(all_pred_bio_tags_list))
