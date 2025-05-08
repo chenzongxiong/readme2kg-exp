@@ -7,6 +7,8 @@ from webanno_tsv import webanno_tsv_read_file, Document, Annotation
 from typing import List, Union
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, confusion_matrix
 
+from seqeval.scheme import IOB2
+
 
 LABELS = [
     'CONFERENCE',
@@ -26,10 +28,10 @@ def flatten(lst):
     return reduce(lambda x, y: x + y, lst)
 
 
-def to_char_bio(src_path: str, ref_path: str) -> List[List[str]]:
+def to_char_bio(pred_path: str, ref_path: str) -> List[List[str]]:
     ref_doc = webanno_tsv_read_file(ref_path)
     # Parse the WebAnno TSV file
-    doc = webanno_tsv_read_file(src_path)
+    pred_doc = webanno_tsv_read_file(pred_path)
     # Initialize a list to store character-level BIO tags
     bio_tags_list = []
     for target_label in LABELS:
@@ -45,7 +47,7 @@ def to_char_bio(src_path: str, ref_path: str) -> List[List[str]]:
                 start_char, end_char = tokens[0].start, tokens[-1].end
                 bio_tags[start_char:end_char] = ['O'] * (end_char-start_char)
 
-        for annotation in doc.annotations:
+        for annotation in pred_doc.annotations:
             label = annotation.label
             if label != target_label:
                 continue
@@ -55,7 +57,7 @@ def to_char_bio(src_path: str, ref_path: str) -> List[List[str]]:
             end_char = end_token.end
             # Sanity check
             if ref_doc.text[start_char:end_char] != annotation.text:
-                msg = f"ERROR: src: {src_path}, annotated '{annotation.text}', text: '{ref_doc.text[start_char:end_char]}'"
+                msg = f"ERROR: pred: {pred_path}, annotated '{annotation.text}', text: '{ref_doc.text[start_char:end_char]}'"
                 print(msg)
 
             if 'I-' in bio_tags[start_char]:
@@ -71,7 +73,12 @@ def to_char_bio(src_path: str, ref_path: str) -> List[List[str]]:
                     bio_tags[i] = f'I-{label}'  # Inside the entity
 
         # Remove unannotated sentences from bio list.
-        bio_tags = [x for x in filter(lambda x: x != '#', bio_tags)]
+        # bio_tags = [x for x in filter(lambda x: x != '#', bio_tags)]
+        # bio_tags = [x for x in filter(lambda x: x != '#', bio_tags)]
+        for i, tag in enumerate(bio_tags):
+            if tag == '#':
+                bio_tags[i] = 'O'
+
         bio_tags_list.append(bio_tags)
 
     return bio_tags_list
@@ -93,7 +100,6 @@ def calc_score(ref_bio_tags_list, pred_bio_tags_list, average_type, pred_dir):
     scores[f"overall_{average_type}_precision"] = precision
     scores[f"overall_{average_type}_recall"] = recall
     scores[f"overall_{average_type}_f1"] = f1
-
 
     ################################################################################
     # For each class
