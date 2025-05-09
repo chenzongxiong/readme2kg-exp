@@ -120,6 +120,7 @@ def extract_tagged_spans(text):
         spans.append({'tag': tag, 'content': content})
         return content  # Replace tagged span with plain content
 
+
     cleaned = TAG_RE.sub(replace, text)
     return cleaned, spans
 
@@ -185,66 +186,81 @@ def transfer_tags(pred_raw_text, ref_text):
 import xml.etree.ElementTree as ET
 import re
 
-LABELS = {
-    'CONFERENCE',
-    'DATASET',
-    'EVALMETRIC',
-    'LICENSE',
-    'ONTOLOGY',
-    'PROGLANG',
-    'PROJECT',
-    'PUBLICATION',
-    'SOFTWARE',
-    'WORKSHOP'
-}
+# LABELS = {
+#     'CONFERENCE',
+#     'DATASET',
+#     'EVALMETRIC',
+#     'LICENSE',
+#     'ONTOLOGY',
+#     'PROGLANG',
+#     'PROJECT',
+#     'PUBLICATION',
+#     'SOFTWARE',
+#     'WORKSHOP'
+# }
 
 from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
 
-LABELS = {
-    'CONFERENCE',
-    'DATASET',
-    'EVALMETRIC',
-    'LICENSE',
-    'ONTOLOGY',
-    'PROGLANG',
-    'PROJECT',
-    'PUBLICATION',
-    'SOFTWARE',
-    'WORKSHOP'
-}
-
+# LABELS = {
+#     'CONFERENCE',
+#     'DATASET',
+#     'EVALMETRIC',
+#     'LICENSE',
+#     'ONTOLOGY',
+#     'PROGLANG',
+#     'PROJECT',
+#     'PUBLICATION',
+#     'SOFTWARE',
+#     'WORKSHOP'
+# }
+LABELS = [x.lower() for x in LABELS]
 # def extract_nested_tags(tagged_text):
-#     wrapped = f"<root>{tagged_text}</root>"
-#     try:
-#         root = ET.fromstring(wrapped)
-#     except Exception as ex:
-#         print(ex)
-#         import ipdb; ipdb.set_trace()
+#     # Wrap in root tag to make parsing safe
+#     soup = BeautifulSoup(f"<root>{tagged_text}</root>", "html.parser")
 #     spans = []
+#     def recurse(tag):
+#         for child in tag.children:
+#             if getattr(child, 'name', None) in LABELS:
+#                 content = ''.join(child.strings).strip()
+#                 spans.append((child.name, content))
+#                 recurse(child)  # In case of nested tags
+#             elif hasattr(child, 'children'):
+#                 recurse(child)
 
-#     def get_inner_text(el):
-#         """Recursively extract inner text without tail."""
-#         parts = []
-#         if el.text:
-#             parts.append(el.text)
-#         for child in el:
-#             parts.append(get_inner_text(child))
-#         return ''.join(parts)
-
-#     def recurse(el):
-#         for child in el:
-#             if child.tag in LABELS:
-#                 content = get_inner_text(child)
-#                 spans.append((child.tag, content))
-#             recurse(child)
-
-#     recurse(root)
+#     recurse(soup.root)
 #     return spans
 
 
+# def find_spans_in_target(spans, target):
+#     used = [False] * len(target)
+#     result = []
+
+#     for label, content in spans:
+#         pattern = re.escape(content.strip())
+#         matches = list(re.finditer(pattern, target))
+
+#         for m in matches:
+#             span_range = range(m.start(), m.end())
+#             if not any(used[i] for i in span_range):
+#                 for i in span_range:
+#                     used[i] = True
+#                 result.append((label, content, m.start(), m.end()))
+#                 break
+#     return result
+
+
+# import re
+# from bs4 import BeautifulSoup
+
+# LABELS = {
+#     'CONFERENCE', 'DATASET', 'EVALMETRIC', 'LICENSE', 'ONTOLOGY',
+#     'PROGLANG', 'PROJECT', 'PUBLICATION', 'SOFTWARE', 'WORKSHOP'
+# }
+
+
 def extract_nested_tags(tagged_text):
-    # Wrap in root tag to make parsing safe
+    """Extract (label, content) from nested tag structure."""
     soup = BeautifulSoup(f"<root>{tagged_text}</root>", "html.parser")
     spans = []
 
@@ -253,7 +269,7 @@ def extract_nested_tags(tagged_text):
             if getattr(child, 'name', None) in LABELS:
                 content = ''.join(child.strings).strip()
                 spans.append((child.name, content))
-                recurse(child)  # In case of nested tags
+                recurse(child)  # Handle nested
             elif hasattr(child, 'children'):
                 recurse(child)
 
@@ -261,45 +277,95 @@ def extract_nested_tags(tagged_text):
     return spans
 
 
-# def extract_nested_tags(text):
-#     # Wrap in root for valid XML
-#     wrapped = f"<root>{text}</root>"
-#     root = ET.fromstring(wrapped)
-
-#     spans = []
-
-#     def recurse(node):
-#         text_parts = []
-#         for child in node:
-#             inner_text = recurse(child)
-#             if child.tag in LABELS:
-#                 tagged = f"<{child.tag}>{inner_text}</{child.tag}>"
-#                 spans.append((child.tag, inner_text))
-#                 text_parts.append(inner_text)
-#             else:
-#                 text_parts.append(inner_text)
-#         full_text = (node.text or '') + ''.join(text_parts) + (node.tail or '')
-#         return full_text
-
-#     recurse(root)
-#     return spans
-
 def find_spans_in_target(spans, target):
+    """
+    Match each (label, content) from spans into `target`,
+    considering repeated content and preserving order.
+    """
     used = [False] * len(target)
     result = []
+    last_match_end = 0  # Avoid overlapping or backward matching
 
     for label, content in spans:
         pattern = re.escape(content.strip())
         matches = list(re.finditer(pattern, target))
 
+        # Try to match the next unused appearance after last_match_end
+        found = False
         for m in matches:
             span_range = range(m.start(), m.end())
-            if not any(used[i] for i in span_range):
+            if not any(used[i] for i in span_range) and m.start() >= last_match_end:
                 for i in span_range:
                     used[i] = True
                 result.append((label, content, m.start(), m.end()))
+                last_match_end = m.end()
+                found = True
                 break
+
+        if not found:
+            # fallback: match the first unused occurrence anywhere
+            for m in matches:
+                span_range = range(m.start(), m.end())
+                if not any(used[i] for i in span_range):
+                    for i in span_range:
+                        used[i] = True
+                    result.append((label, content, m.start(), m.end()))
+                    last_match_end = m.end()
+                    break
+
     return result
+
+
+
+from bs4 import BeautifulSoup, NavigableString, Tag
+
+# LABELS = {
+#     'CONFERENCE', 'DATASET', 'EVALMETRIC', 'LICENSE', 'ONTOLOGY',
+#     'PROGLANG', 'PROJECT', 'PUBLICATION', 'SOFTWARE', 'WORKSHOP'
+# }
+
+def extract_tagged_spans_bs(text):
+    wrapped = f"<root>{text}</root>"  # ensure valid single root
+    soup = BeautifulSoup(wrapped, 'html.parser')
+
+    cleaned = []
+    spans = []
+    offset = 0
+
+    def recurse(node):
+        nonlocal offset
+
+        if isinstance(node, NavigableString):
+            cleaned.append(str(node))
+            return len(node)
+
+        elif isinstance(node, Tag):
+            length = 0
+            tag_text = ''
+
+            for child in node.children:
+                child_len = recurse(child)
+                tag_text += str(child)
+                length += child_len
+
+            if node.name in LABELS:
+                start = offset
+                end = offset + length
+                spans.append({
+                    'tag': node.name,
+                    'content': tag_text,
+                    'start': start,
+                    'end': end
+                })
+
+            offset += length
+            return length
+        return 0
+
+    for el in soup.root.contents:
+        recurse(el)
+
+    return spans, ''.join(cleaned)
 
 
 
@@ -387,27 +453,14 @@ class OpenAIPredictor(BasePredictor):
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
-        # label_to_text_list, pure_pred_text = self.post_process(predicted_text)
-        # for label, text_list in label_to_text_list.items():
-        #     for text in text_list:
-        #         text['sentence_idx'] = sentence.idx
-        #         self.label_to_text_list[label].append(text)
-
         ref_text = sentence.text
         cleaned_text = cleaner.Cleaner(predicted_text).clean()
         tagged_ref = transfer_tags(cleaned_text, ref_text)
-        # label_to_text_list, pure_pred_text = self.post_process(tagged_ref)
-
         tagged_spans = extract_nested_tags(tagged_ref)
-        matched_positions = find_spans_in_target(tagged_spans, ref_text)
+        matches = find_spans_in_target(tagged_spans, ref_text)
         label_to_text_list = defaultdict(list)
-        for label, content, start, end in matched_positions:
-            # print(f"{label}: '{content}' at ({start}, {end})")
-            label_to_text_list[label].append({'text': content, 'start': start, 'end': end})
-        # if pure_pred_text.strip() != ref_text.strip():
-        #     logging.info(f" >> ref text          : {colored(ref_text, 'green')}")
-        #     logging.info(f" >> retagged pred text: {colored(tagged_ref, 'red')}")
-        #     logging.info(f" >> pure pred text : {colored(pure_pred_text, 'cyan')}")
+        for label, content, start, end in matches:
+            label_to_text_list[label.upper()].append({'text': content, 'start': start, 'end': end})
 
         for label in label_to_text_list:
             text_list = label_to_text_list[label]
@@ -417,158 +470,27 @@ class OpenAIPredictor(BasePredictor):
                 if x != y:
                     logging.info(f"bug\n> {x}\n> {y}")
                     import ipdb; ipdb.set_trace()
-        # import ipdb; ipdb.set_trace()
-        # if ref_text != pure_pred_text:
-        #     logging.warning("Text not match: ")
-        #     logging.info(f"ref text     : {colored(ref_text, 'green')}")
-        #     logging.info(f"pred text    : {colored(pure_pred_text, 'red')}")
-        #     # logging.info(f"ref  text: {ref_text}")
-        #     # logging.info(f"pred text: {pure_pred_text}")
-        #     # logging.info(f"pred text: {predicted_text}")
-        #     # x, y = char_diff(ref_text, pure_pred_text)
-        #     logging.info("-------------------------------------------------------------------")
-        #     x, y, ops = char_diff(ref_text, pure_pred_text)
-        #     logging.info(f"ref text     : {x}")
-        #     logging.info(f"pred text    : {y}")
-        #     logging.info(f"pred raw text: {predicted_text}")
-        #     logging.info("-------------------------------------------------------------------")
-        #     import ipdb; ipdb.set_trace()
-        #     # x, y, ops = char_diff_converter(ref_text, pure_pred_text)
-        #     # x, y, ops = char_diff_converter(ref_text, pure_pred_text, ops)
-        #     # if ref_text != y:
-        #     #     logging.info("BUG: wrong x and ref_text")
-        #     # import ipdb; ipdb.set_trace()
-        #     logging.info(f"ref text     : {x}")
-        #     logging.info(f"pred text    : {y}")
-        #     logging.info(f'ops:           {colored(ops, "cyan")}')
-        #     logging.info(f'label_to_text_list:  {label_to_text_list}')
-        #     logging.info("############################################")
 
-        #     for label, text_list in label_to_text_list.items():
-        #         # logging.info("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
-        #         for text in text_list:
-        #             start, end = text['start'], text['end']
-        #             # logging.info(f"before alignemnt, start {text['start']}, end: {text['end']}")
-        #             for tag, i1, i2, j1, j2 in ops:
-        #                 if tag == 'insert':
-        #                     if start >= j2:
-        #                         # (j1, j2) start, end ...
-        #                         text['start'] -= (j2 - j1)
-        #                         text['end'] -= (j2 - j1)
-        #                     elif end < j1:
-        #                         # start, end (j1, j2)
-        #                         pass
-        #                     elif start < j1 and j2 < end:
-        #                         # start < j1, j2 < end
-        #                         text['end'] -= (j2 - j1)
-        #                     elif j1 < end and j2 < end:
-        #                         # start < j1 < end < j2
-        #                         # start < j1, j2 < end
-        #                         # consider it as false, we don't want to handle it
-        #                         pass
-        #                 elif tag == 'delete':
-        #                     if start >= j2:
-        #                         # (i1, i2) start, end
-        #                         text['start'] += (i2 - i1)
-        #                         text['end'] += (i2 - i1)
-        #                     elif end < j1:
-        #                         # start, end, (i1, i2)
-        #                         pass
-        #                     elif start < j1 and j2 < end:
-        #                         # start, i1, i2, end
-        #                         text['end'] += (i2 - i1)
-        #                     elif i1 < end and end < i2:
-        #                         # consider it as false, we don't want to handle it
-        #                         pass
-        #                 elif tag == 'replace':
-        #                     if start >= j2:
-        #                         # (i1, xxxxx -> (j1, j2) (start, end)
-        #                         text['start'] += (i2 - i1) - (j2 - j1)
-        #                         text['end'] += (i2 - i1) - (j2 - j1)
-
-        #                     elif start >= j1 and end <= j2:
-        #                         # (i1, start, end, i2) -> (j1, start, end, j2)
-        #                         # text['start'] += start-i1 - (start - j1)
-        #                         # import ipdb; ipdb.set_trace()
-        #                         text['start'] = i1
-        #                         text['end'] = i2
-        #                         # text['text'] = ref_text[i1:i2]
-        #                         start, end = i1, i2
-        #                 # logging.info(f"after alignemnt {tag}, start {text['start']}, end: {text['end']}")
-
-        #             start = text['start']
-        #             end = text['end']
-        #             if text['text'].lower() != ref_text[start:end].lower():
-        #                 logging.error(f"BUG: \n > {ref_text[start:end]}\n > {text['text']}")
-        #                 import ipdb; ipdb.set_trace()
-        #             else:
-        #                 logging.info(f'{label}: {ref_text[start:end]}')
-
-
-        #     # logging.info(f'after adjust label_to_text_list:  {label_to_text_list}')
-
-        #     # for label, text_list in label_to_text_list.items():
-        #     #     for text in text_list:
-        #     #         start = text['start']
-        #     #         end = text['end']
-        #     #         logging.info(f'{label}: {y[start:end]}')
-
-        #     #         if text['text'] != y[start:end]:
-        #     #             logging.error("BUG")
-        #     #             import ipdb; ipdb.set_trace()
-
-        #     self.mismatch_sentences += 1
-        # else:
-        #     pass
-        #     # logging.warning("Text match: ")
-        #     # logging.info(f"ref text     : {colored(ref_text, 'green')}")
-        #     # logging.info(f"pred text    : {colored(pure_pred_text, 'cyan')}")
-        #     # logging.info(f"pred raw text: {predicted_text}")
-        #     # found = False
-        #     # for label in LABELS:
-        #     #     if f'<{label}>' in predicted_text:
-        #     #         found = True
-        #     #         break
-
-        #     # if found is True:
-        #     #     logging.info("predicted text contains labels")
-        #     # else:
-        #     #     logging.info("predicted text *NOT* contains labels")
-            # logging.info("================================================================================")
-
-        # self.total_sentences += 1
-        # NOTE: sanity checking
-        # for label, text_list in label_to_text_list.items():
-        #     for text in text_list:
-        #         if text['text'] != sentence.text[text['start']:text['end']]:
-        #             prompt = self.prompt_template.replace('{input_text}', sentence.text)
-        #             # logging.warning(f"BUG? The predicted text is not exact the same as the original text. \n\nPrompt: {prompt}\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n--------------------------------------------------------------------------------")
-        #             logging.warning(f"BUG? The predicted text is not exact the same as the original text. \n\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n--------------------------------------------------------------------------------")
+        print(label_to_text_list)
 
         span_tokens_to_label_list = []
-        # for label, text_list in label_to_text_list.items():
-        #     for text in text_list:
-        #         # if text['text'] == '10xgenomics':
-        #         #     import ipdb; ipdb.set_trace()
-
-        #         span_tokens_to_label_list.append({
-        #             'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end'])[0],
-        #             'span_tokens_debug': utils.make_span_tokens(tokens, text['start'], text['end'])[1],
-        #             'label': label
-        #         })
-        #         # if label == 'LICENSE':
-        #         #     import ipdb; ipdb.set_trace()
-        #         # if label == 'PROGLANG':
-        #         if True:
-        #             span_tokens = span_tokens_to_label_list[-1]['span_tokens']
-        #             span_tokens_debug = span_tokens_to_label_list[-1]['span_tokens_debug']
-        #             # if span_tokens is None:
-        #             try:
-        #                 annotation = utils.make_annotation(tokens=span_tokens, label=label)
-        #                 if annotation.text != text['text']:
-        #                     import ipdb; ipdb.set_trace()
-        #             except Exception as ex:
-        #                 import ipdb; ipdb.set_trace()
+        for label, text_list in label_to_text_list.items():
+            for text in text_list:
+                span_tokens_to_label_list.append({
+                    'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end'])[0],
+                    'span_tokens_debug': utils.make_span_tokens(tokens, text['start'], text['end'])[1],
+                    'label': label
+                })
+                if True:
+                    span_tokens = span_tokens_to_label_list[-1]['span_tokens']
+                    span_tokens_debug = span_tokens_to_label_list[-1]['span_tokens_debug']
+                    # if span_tokens is None:
+                    try:
+                        annotation = utils.make_annotation(tokens=span_tokens, label=label)
+                        if annotation.text != text['text']:
+                            import ipdb; ipdb.set_trace()
+                    except Exception as ex:
+                        import ipdb; ipdb.set_trace()
 
         return span_tokens_to_label_list
 
