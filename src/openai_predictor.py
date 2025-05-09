@@ -87,7 +87,6 @@ def char_diff(ref: str, pred: str):
 #     #     import ipdb; ipdb.set_trace()
 #     return ref, pred, ops
 
-import re
 from difflib import SequenceMatcher
 
 import re
@@ -183,6 +182,125 @@ def transfer_tags(pred_raw_text, ref_text):
     tagged_ref = reinsert_tags_with_fuzzy(ref_text, spans)
     return tagged_ref
 
+import xml.etree.ElementTree as ET
+import re
+
+LABELS = {
+    'CONFERENCE',
+    'DATASET',
+    'EVALMETRIC',
+    'LICENSE',
+    'ONTOLOGY',
+    'PROGLANG',
+    'PROJECT',
+    'PUBLICATION',
+    'SOFTWARE',
+    'WORKSHOP'
+}
+
+from xml.etree import ElementTree as ET
+from bs4 import BeautifulSoup
+
+LABELS = {
+    'CONFERENCE',
+    'DATASET',
+    'EVALMETRIC',
+    'LICENSE',
+    'ONTOLOGY',
+    'PROGLANG',
+    'PROJECT',
+    'PUBLICATION',
+    'SOFTWARE',
+    'WORKSHOP'
+}
+
+# def extract_nested_tags(tagged_text):
+#     wrapped = f"<root>{tagged_text}</root>"
+#     try:
+#         root = ET.fromstring(wrapped)
+#     except Exception as ex:
+#         print(ex)
+#         import ipdb; ipdb.set_trace()
+#     spans = []
+
+#     def get_inner_text(el):
+#         """Recursively extract inner text without tail."""
+#         parts = []
+#         if el.text:
+#             parts.append(el.text)
+#         for child in el:
+#             parts.append(get_inner_text(child))
+#         return ''.join(parts)
+
+#     def recurse(el):
+#         for child in el:
+#             if child.tag in LABELS:
+#                 content = get_inner_text(child)
+#                 spans.append((child.tag, content))
+#             recurse(child)
+
+#     recurse(root)
+#     return spans
+
+
+def extract_nested_tags(tagged_text):
+    # Wrap in root tag to make parsing safe
+    soup = BeautifulSoup(f"<root>{tagged_text}</root>", "html.parser")
+    spans = []
+
+    def recurse(tag):
+        for child in tag.children:
+            if getattr(child, 'name', None) in LABELS:
+                content = ''.join(child.strings).strip()
+                spans.append((child.name, content))
+                recurse(child)  # In case of nested tags
+            elif hasattr(child, 'children'):
+                recurse(child)
+
+    recurse(soup.root)
+    return spans
+
+
+# def extract_nested_tags(text):
+#     # Wrap in root for valid XML
+#     wrapped = f"<root>{text}</root>"
+#     root = ET.fromstring(wrapped)
+
+#     spans = []
+
+#     def recurse(node):
+#         text_parts = []
+#         for child in node:
+#             inner_text = recurse(child)
+#             if child.tag in LABELS:
+#                 tagged = f"<{child.tag}>{inner_text}</{child.tag}>"
+#                 spans.append((child.tag, inner_text))
+#                 text_parts.append(inner_text)
+#             else:
+#                 text_parts.append(inner_text)
+#         full_text = (node.text or '') + ''.join(text_parts) + (node.tail or '')
+#         return full_text
+
+#     recurse(root)
+#     return spans
+
+def find_spans_in_target(spans, target):
+    used = [False] * len(target)
+    result = []
+
+    for label, content in spans:
+        pattern = re.escape(content.strip())
+        matches = list(re.finditer(pattern, target))
+
+        for m in matches:
+            span_range = range(m.start(), m.end())
+            if not any(used[i] for i in span_range):
+                for i in span_range:
+                    used[i] = True
+                result.append((label, content, m.start(), m.end()))
+                break
+    return result
+
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -269,22 +387,36 @@ class OpenAIPredictor(BasePredictor):
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
-        label_to_text_list, pure_pred_text = self.post_process(predicted_text)
-        for label, text_list in label_to_text_list.items():
-            for text in text_list:
-                text['sentence_idx'] = sentence.idx
-                self.label_to_text_list[label].append(text)
+        # label_to_text_list, pure_pred_text = self.post_process(predicted_text)
+        # for label, text_list in label_to_text_list.items():
+        #     for text in text_list:
+        #         text['sentence_idx'] = sentence.idx
+        #         self.label_to_text_list[label].append(text)
 
         ref_text = sentence.text
         cleaned_text = cleaner.Cleaner(predicted_text).clean()
         tagged_ref = transfer_tags(cleaned_text, ref_text)
-        label_to_text_list, pure_pred_text = self.post_process(tagged_ref)
-        if pure_pred_text.strip() != ref_text.strip():
-            logging.info(f" >> ref text          : {colored(ref_text, 'green')}")
-            logging.info(f" >> retagged pred text: {colored(tagged_ref, 'red')}")
-            logging.info(f" >> pure pred text : {colored(pure_pred_text, 'cyan')}")
+        # label_to_text_list, pure_pred_text = self.post_process(tagged_ref)
 
+        tagged_spans = extract_nested_tags(tagged_ref)
+        matched_positions = find_spans_in_target(tagged_spans, ref_text)
+        label_to_text_list = defaultdict(list)
+        for label, content, start, end in matched_positions:
+            # print(f"{label}: '{content}' at ({start}, {end})")
+            label_to_text_list[label].append({'text': content, 'start': start, 'end': end})
+        # if pure_pred_text.strip() != ref_text.strip():
+        #     logging.info(f" >> ref text          : {colored(ref_text, 'green')}")
+        #     logging.info(f" >> retagged pred text: {colored(tagged_ref, 'red')}")
+        #     logging.info(f" >> pure pred text : {colored(pure_pred_text, 'cyan')}")
 
+        for label in label_to_text_list:
+            text_list = label_to_text_list[label]
+            for text in text_list:
+                x = ref_text[text['start']:text['end']]
+                y = text['text']
+                if x != y:
+                    logging.info(f"bug\n> {x}\n> {y}")
+                    import ipdb; ipdb.set_trace()
         # import ipdb; ipdb.set_trace()
         # if ref_text != pure_pred_text:
         #     logging.warning("Text not match: ")
@@ -414,19 +546,39 @@ class OpenAIPredictor(BasePredictor):
         #             logging.warning(f"BUG? The predicted text is not exact the same as the original text. \n\nOriginal: {colored(sentence.text, 'green')}\nGenerated: {colored(text['text'], 'red')}\n--------------------------------------------------------------------------------")
 
         span_tokens_to_label_list = []
-        for label, text_list in label_to_text_list.items():
-            for text in text_list:
-                span_tokens_to_label_list.append({
-                    'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end']),
-                    'label': label
-                })
+        # for label, text_list in label_to_text_list.items():
+        #     for text in text_list:
+        #         # if text['text'] == '10xgenomics':
+        #         #     import ipdb; ipdb.set_trace()
+
+        #         span_tokens_to_label_list.append({
+        #             'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end'])[0],
+        #             'span_tokens_debug': utils.make_span_tokens(tokens, text['start'], text['end'])[1],
+        #             'label': label
+        #         })
+        #         # if label == 'LICENSE':
+        #         #     import ipdb; ipdb.set_trace()
+        #         # if label == 'PROGLANG':
+        #         if True:
+        #             span_tokens = span_tokens_to_label_list[-1]['span_tokens']
+        #             span_tokens_debug = span_tokens_to_label_list[-1]['span_tokens_debug']
+        #             # if span_tokens is None:
+        #             try:
+        #                 annotation = utils.make_annotation(tokens=span_tokens, label=label)
+        #                 if annotation.text != text['text']:
+        #                     import ipdb; ipdb.set_trace()
+        #             except Exception as ex:
+        #                 import ipdb; ipdb.set_trace()
+
         return span_tokens_to_label_list
 
-    def post_process(self, predicted_text):
-        cleaned_text = cleaner.Cleaner(predicted_text).clean()
-        label_to_text_list, pure_text = self.extract_annotation_labels_if_possible(cleaned_text)
+    # def post_process(self, predicted_text):
+    #     # cleaned_text = cleaner.Cleaner(predicted_text).clean()
+    #     # self.extract_annotation_labels_if_possible(cleaned_text)
+    #     cleaned_text = predicted_text
+    #     label_to_text_list, pure_text = self.extract_annotation_labels_if_possible(cleaned_text)
 
-        return label_to_text_list, pure_text
+    #     return label_to_text_list, pure_text
 
     def extract_annotation_labels_if_possible(self, predicted_text):
         label_to_text_list = defaultdict(list)
@@ -439,6 +591,7 @@ class OpenAIPredictor(BasePredictor):
                 matched_labels[m.start(1)] = label
 
         acc_adjusted_pos = 0
+        print(matched_labels)
 
         for pos in sorted(matched_labels):
             label = matched_labels[pos]
@@ -509,7 +662,8 @@ if __name__ == "__main__":
     )
 
     for file_name in file_names:
-        # if 'ARM-software_keyword-transformer_master_README.md.tsv' not in file_name:
+        print(f'file_name: {file_name}')
+        # if 'tiehangd_Para_DPMM_master_readme.md.tsv' not in file_name:
         #     continue
         predictor.set_file_name(file_name)
         file_path = os.path.join(base_path, file_name)
