@@ -476,6 +476,8 @@ class OpenAIPredictor(BasePredictor):
         span_tokens_to_label_list = []
         for label, text_list in label_to_text_list.items():
             for text in text_list:
+                if label == 'WORKSHOP':
+                    import ipdb; ipdb.set_trace()
                 span_tokens_to_label_list.append({
                     'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end'])[0],
                     'span_tokens_debug': utils.make_span_tokens(tokens, text['start'], text['end'])[1],

@@ -255,9 +255,10 @@ if __name__ == "__main__":
                 print(f"{mode} {average} - {label} - Recall: {recall * 100}%")
                 print(f"{mode} {average} - {label} - F1: {f1 * 100}%")
                 pm = performance_measure([ref_bio_tags_list], [pred_bio_tags_list])
-                print(pm)
-                if label == 'PROGLANG':
-                    import ipdb; ipdb.set_trace()
+                print('================================================================================')
+                # print(pm)
+                # if label == 'PROGLANG':
+                #     import ipdb; ipdb.set_trace()
                 # if precision == 0:
                 #     import ipdb; ipdb.set_trace()
         print('--------------------------------------------------------------------------------')
