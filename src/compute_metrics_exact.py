@@ -43,10 +43,14 @@ def to_char_bio(pred_path: str, ref_path: str) -> List[List[str]]:
             if label != target_label:
                 continue
             sentences = ref_doc.annotation_sentences(annotation)
+            # print('anntation: ', annotation.text)
+            # import ipdb; ipdb.set_trace()
             for sentence in sentences:
                 tokens = ref_doc.sentence_tokens(sentence)
                 start_char, end_char = tokens[0].start, tokens[-1].end
                 bio_tags[start_char:end_char] = ['O'] * (end_char-start_char)
+                if end_char < len(bio_tags):
+                    bio_tags[end_char] = 'O'
 
         for annotation in pred_doc.annotations:
             label = annotation.label
@@ -63,15 +67,19 @@ def to_char_bio(pred_path: str, ref_path: str) -> List[List[str]]:
 
             if 'I-' in bio_tags[start_char]:
                 # Overlapping, it's annotated by another annotations, we connect them as one annotations
-                pass
+                # import ipdb; ipdb.set_trace()
+                continue
             else:
-                if bio_tags[start_char] != '#':
+                if bio_tags[start_char] == 'O':
                     # Assign BIO tags to characters in the entity span
                     bio_tags[start_char] = f'B-{label}'  # Beginning of the entity
-
+                # else:
+                #     import ipdb; ipdb.set_trace()
             for i in range(start_char + 1, end_char):
-                if bio_tags[i] != '#':
+                if bio_tags[i] == 'O':
                     bio_tags[i] = f'I-{label}'  # Inside the entity
+            if 'B-' not in bio_tags[start_char] and 'I-' in bio_tags[start_char + 1]:
+                import ipdb; ipdb.set_trace()
 
         # Remove unannotated sentences from bio list.
         # bio_tags = [x for x in filter(lambda x: x != '#', bio_tags)]
@@ -93,15 +101,86 @@ def get_parse():
     # parser.add_argument('--average', type=str, choices=['macro', 'micro', 'weighted'], help='Type of averaging for metrics calculation', default='macro')
     return parser
 
+def get_spans(tag_list):
+    spans = []
+    i = 0
+    start = end = None
+    while i < len(tag_list):
+        tag = tag_list[i]
+        if 'B-' in tag:
+            start = i
+            end = i
+        elif 'I-' in tag:
+            try:
+                end += 1
+            except:
+                import ipdb; ipdb.set_trace()
+        elif 'O' == tag:
+            if start is not None:
+                spans.append((start, end))
 
-def compute_metrics(y_true, y_pred):
-    if any(isinstance(s, list) for s in y_true):
-        y_true = [item for sublist in y_true for item in sublist]
-        y_pred = [item for sublist in y_pred for item in sublist]
-    TP = sum(y_t == y_p for y_t, y_p in zip(y_true, y_pred) if ((y_t != 'O') or (y_p != 'O')))
-    FP = sum(((y_t != y_p) and (y_p != 'O')) for y_t, y_p in zip(y_true, y_pred))
-    FN = sum(((y_t != 'O') and (y_p == 'O')) for y_t, y_p in zip(y_true, y_pred))
-    TN = sum((y_t == y_p == 'O') for y_t, y_p in zip(y_true, y_pred))
+            start = None
+            end = None
+
+        i += 1
+    return spans
+
+
+def compute_metrics(y_true_, y_pred_):
+    if any(isinstance(s, list) for s in y_true_):
+        y_true = [item for sublist in y_true_ for item in sublist]
+        y_pred = [item for sublist in y_pred_ for item in sublist]
+
+    x_i = [i for i in range(len(y_true)-1) if y_true[i] == 'O' and 'I-' in y_true[i+1]]
+    y_i = [i for i in range(len(y_pred)-1) if y_pred[i] == 'O' and 'I-' in y_pred[i+1]]
+    if len(x_i) > 0 or len(y_i) > 0:
+        import ipdb; ipdb.set_trace()
+
+
+    spans_true = get_spans(y_true)
+    spans_pred = get_spans(y_pred)
+
+    tp_spans = [x for x in spans_pred if x in spans_true]
+    fp_spans = [x for x in spans_pred if x not in spans_true]
+    fn_spans = [x for x in spans_true if x not in spans_pred]
+
+    # TP = sum(y_t == y_p for y_t, y_p in zip(y_true, y_pred) if ((y_t != 'O') or (y_p != 'O')))
+    # FP = sum(((y_t != y_p) and (y_p != 'O')) for y_t, y_p in zip(y_true, y_pred))
+    # FN = sum(((y_t != 'O') and (y_p == 'O')) for y_t, y_p in zip(y_true, y_pred))
+    # TN = sum((y_t == y_p == 'O') for y_t, y_p in zip(y_true, y_pred))
+    TP_ = sum([x[1] - x[0] + 1 for x in tp_spans])
+    # FP = sum([x[1] - x[0] for x in fp_spans])
+    # FN = sum([x[1] - x[0] for x in fn_spans])
+    # TN = sum((y_t == y_p == 'O') for y_t, y_p in zip(y_true, y_pred))
+    FP = 0
+    FN = 0
+    TN = 0
+    TP = 0
+    i = 0
+    tp_span_start = [x[0] for x in tp_spans]
+    # given a label, we don't have overlapping entities
+    while i < len(y_true):
+        if i in tp_span_start:
+            if y_true[i] == 'O':
+                print('BUG')
+
+            while y_true[i] != 'O':
+                if y_pred[i] == 'O':
+                    print('BUG')
+                    import ipdb; ipdb.set_trace()
+                TP += 1
+                i += 1
+            continue
+        elif y_true[i] == 'O':
+            if y_pred[i] != 'O':
+                FP += 1
+            else:
+                TN += 1
+        elif y_true[i] != 'O':
+            # if y_pred[i] == 'O':        # even y_pred[i] == O, we consider it as O since it only partially matches
+            FN += 1
+        i += 1
+
 
     precision = TP / (TP + FP) if TP + FP > 0 else 0.0
     recall = TP / (TP + FN) if TP + FN > 0 else 0.0
@@ -181,6 +260,8 @@ if __name__ == "__main__":
 
     ref_file_names = sorted([fp for fp in os.listdir(ref_dir) if os.path.isfile(f'{ref_dir}/{fp}') and fp.endswith('.tsv')])
 
+    # ref_file_names = [x for x in ref_file_names if 'ARM-software' in x]
+
     if len(ref_file_names) == 0:
         raise Exception("ERROR: No reference files found, configuration error?")
 
@@ -191,6 +272,9 @@ if __name__ == "__main__":
         all_ref_bio_tags_list.append(to_char_bio(src_path, ref_path))
 
     pred_file_names = sorted([fp for fp in os.listdir(pred_dir) if os.path.isfile(f'{pred_dir}/{fp}') and fp.endswith('.tsv')])
+    # pred_file_names = [x for x in pred_file_names if 'ARM-software' in x]
+    # pred_file_names = pred_file_names
+    # import ipdb; ipdb.set_trace()
     all_pred_bio_tags_list = []
     for idx, ref_file_name in enumerate(ref_file_names):
         try:
@@ -223,8 +307,15 @@ if __name__ == "__main__":
             print('ERROR: pred bio tags list')
 
         for label, ref_bio_tags, pred_bio_tags in zip(LABELS, ref_bio_tags_list, pred_bio_tags_list):
-            label_to_ref_bio_tags_list[label].extend(ref_bio_tags)
-            label_to_pred_bio_tags_list[label].extend(pred_bio_tags)
+            # label_to_ref_bio_tags_list[label].extend(ref_bio_tags)
+            # label_to_pred_bio_tags_list[label].extend(pred_bio_tags)
+            x_i = [i for i in range(len(ref_bio_tags)-1) if ref_bio_tags[i] == 'O' and 'I-' in ref_bio_tags[i+1]]
+            y_i = [i for i in range(len(pred_bio_tags)-1) if pred_bio_tags[i] == 'O' and 'I-' in pred_bio_tags[i+1]]
+            if len(x_i) > 0 or len(y_i) > 0:
+                import ipdb; ipdb.set_trace()
+            label_to_ref_bio_tags_list[label].append(ref_bio_tags)
+            label_to_pred_bio_tags_list[label].append(pred_bio_tags)
+
             if len(label_to_ref_bio_tags_list[label]) != len(label_to_pred_bio_tags_list[label]):
                 print('ERROR: label_to_ref_pred_bio_tags')
 
@@ -233,7 +324,7 @@ if __name__ == "__main__":
     for label in label_to_ref_bio_tags_list.keys():
         ref_bio_tags_list = label_to_ref_bio_tags_list[label]
         pred_bio_tags_list = label_to_pred_bio_tags_list[label]
-        metrics = compute_metrics([ref_bio_tags_list], [pred_bio_tags_list])
+        metrics = compute_metrics(ref_bio_tags_list, pred_bio_tags_list)
         label_to_metrics[label] = metrics
 
 
