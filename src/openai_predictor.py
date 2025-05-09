@@ -31,7 +31,6 @@ def char_diff(ref: str, pred: str):
         elif tag == "replace":
             result_ref.append(colored(ref[i1:i2], 'red'))
             result_pred.append(colored(pred[j1:j2], 'cyan'))
-
             # if i1 != i2:
             #     adjusted_ops.append(('delete', i1, i2, j1, j1))
             # if j1 != j2:
@@ -39,10 +38,10 @@ def char_diff(ref: str, pred: str):
             adjusted_ops.append((tag, i1, i2, j1, j2))
         elif tag == "delete":
             result_ref.append(colored(ref[i2:i1], 'red'))
-            result_pred.append(colored('+'*(j2-j2), 'yellow'))
+            result_pred.append(colored('+'*(i2-i2), 'yellow'))
             adjusted_ops.append((tag, i1, i2, j1, j2))
         elif tag == "insert":
-            result_ref.append(colored('-'*(i2-i1), 'red'))
+            result_ref.append(colored('-'*(j2-j1), 'red'))
             result_pred.append(colored(pred[j2:j1], 'green'))
             adjusted_ops.append((tag, i1, i2, j1, j2))
 
@@ -267,47 +266,41 @@ class OpenAIPredictor(BasePredictor):
         sid = hashlib.sha256(sentence.text.encode()).hexdigest()[:8]
         if not os.path.isfile(f'{path}/{sid}.txt'):
             self.do_prediction(sentence, f'{path}/{sid}.txt')
-
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
-        # label_to_text_list, pure_pred_text = self.post_process(predicted_text)
-        # for label, text_list in label_to_text_list.items():
-        #     for text in text_list:
-        #         text['sentence_idx'] = sentence.idx
-        #         self.label_to_text_list[label].append(text)
+        label_to_text_list, pure_pred_text = self.post_process(predicted_text)
+        for label, text_list in label_to_text_list.items():
+            for text in text_list:
+                text['sentence_idx'] = sentence.idx
+                self.label_to_text_list[label].append(text)
 
-        # import ipdb; ipdb.set_trace()
         ref_text = sentence.text
         cleaned_text = cleaner.Cleaner(predicted_text).clean()
         tagged_ref = transfer_tags(cleaned_text, ref_text)
         label_to_text_list, pure_pred_text = self.post_process(tagged_ref)
-        if pure_pred_text != ref_text:
-            logging.info(f"ref text          : {colored(ref_text, 'green')}")
-            logging.info(f"retagged pred text: {colored(tagged_ref, 'red')}")
-            logging.info(f"pure pred text : {colored(pure_pred_text, 'cyan')}")
+        if pure_pred_text.strip() != ref_text.strip():
+            logging.info(f" >> ref text          : {colored(ref_text, 'green')}")
+            logging.info(f" >> retagged pred text: {colored(tagged_ref, 'red')}")
+            logging.info(f" >> pure pred text : {colored(pure_pred_text, 'cyan')}")
 
-        else:
-            logging.info('GOOD')
-        # logging.info(f"ref text          : {colored(ref_text, 'green')}")
-        # logging.info(f"retagged pred text: {colored(tagged_ref, 'red')}")
-        # logging.info(f"cleaned pred text : {colored(cleaned_text, 'cyan')}")
-        # logging.info('--------------------------------------------------')
+
         # import ipdb; ipdb.set_trace()
         # if ref_text != pure_pred_text:
         #     logging.warning("Text not match: ")
         #     logging.info(f"ref text     : {colored(ref_text, 'green')}")
         #     logging.info(f"pred text    : {colored(pure_pred_text, 'red')}")
-        #     logging.info(f"pred raw text: {predicted_text}")
         #     # logging.info(f"ref  text: {ref_text}")
         #     # logging.info(f"pred text: {pure_pred_text}")
         #     # logging.info(f"pred text: {predicted_text}")
         #     # x, y = char_diff(ref_text, pure_pred_text)
         #     logging.info("-------------------------------------------------------------------")
         #     x, y, ops = char_diff(ref_text, pure_pred_text)
-        #     # logging.info(f"ref text     : {y}")
-        #     # logging.info(f"pred text    : {x}")
-        #     # logging.info("-------------------------------------------------------------------")
+        #     logging.info(f"ref text     : {x}")
+        #     logging.info(f"pred text    : {y}")
+        #     logging.info(f"pred raw text: {predicted_text}")
+        #     logging.info("-------------------------------------------------------------------")
+        #     import ipdb; ipdb.set_trace()
         #     # x, y, ops = char_diff_converter(ref_text, pure_pred_text)
         #     # x, y, ops = char_diff_converter(ref_text, pure_pred_text, ops)
         #     # if ref_text != y:
@@ -535,20 +528,20 @@ if __name__ == "__main__":
         #         print(f'{label} -> {text["text"]}')
         # Verify
         if ref_doc.text != predicted_doc.text:
-            logging.debug('content changed')
-        if len(ref_doc.sentences) == len(predicted_doc.sentences):
-            logging.warning('sentences changed')
-        if len(ref_doc.tokens) == len(predicted_doc.tokens):
-            logging.debug('tokens changed')
+            logging.warning(f'{file_name} content changed')
+        if len(ref_doc.sentences) != len(predicted_doc.sentences):
+            logging.warning(f'{file_name} sentences changed, {len(ref_doc.sentences)}/{len(predicted_doc.sentences)}')
+        if len(ref_doc.tokens) != len(predicted_doc.tokens):
+            logging.debug(f'{file_name} tokens changed')
         for s1, s2 in zip(ref_doc.sentences, predicted_doc.sentences):
-            if s1 == s2:
-                logging.debug(f'sentence changed, \n{s1}\n{s2}')
+            if s1 != s2:
+                logging.warning(f'{file_name} sentence changed, \n{s1}\n{s2}')
 
         for t1, t2 in zip(ref_doc.tokens, predicted_doc.tokens):
-            if t1 == t2:
-                logging.debug(f'token changed: \n{t1}\n{t2}')
+            if t1 != t2:
+                logging.warning(f'token changed: \n{t1}\n{t2}')
 
-        logging.info(f"Predicted {len(predicted_doc.annotations)} annotations, mismatch_sentences/total sentences: {predictor.mismatch_sentences}/{predictor.total_sentences}")
+        # logging.info(f"{file_name} predicted {len(predicted_doc.annotations)} annotations, mismatch_sentences/total sentences: {predictor.mismatch_sentences}/{predictor.total_sentences}")
         prediction_path = os.path.join(output_folder, file_name)
         with open(prediction_path, 'w') as fd:
             fd.write(predicted_doc.tsv())
