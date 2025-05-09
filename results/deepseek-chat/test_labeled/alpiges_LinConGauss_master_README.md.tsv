@@ -5,7 +5,7 @@
 #Text=# `LinConGauss` ### \_Integrals and samples of Gaussians under linear domain constraints\_  !
 1-1	0-1	#	_	_
 1-2	2-3	`	_	_
-1-3	3-14	LinConGauss	*[24]	SOFTWARE[24]
+1-3	3-14	LinConGauss	*[383]	SOFTWARE[383]
 1-4	14-15	`	_	_
 1-5	16-17	#	_	_
 1-6	17-18	#	_	_
@@ -25,8 +25,8 @@
 
 #Text=\[Multilevel Splitting\](https://repository-images.githubusercontent.com/243241472/797da100-5891-11ea-857f-0cca52af9239 "Multilevel Splitting")   ## Setup Clone the repository and run `setup.py` ```bash git clone https://github.com/alpiges/LinConGauss.git ~/LinConGauss cd ~/LinConGauss python setup.py install ```  ## Usage For usage, please refer to the tutorials in the `notebook` section.  ## How to cite If you are using `LinConGauss` for your research, consider citing the \[paper\](https://arxiv.org/abs/1910.09328)  ``` @inproceedings{GessnerKH2020,     title     = {Integrals over Gaussians under Linear Domain Constraints},     author    = {Alexandra Gessner and Oindrila Kanjilal and Philipp Hennig},     booktitle = {Proceedings of Machine Learning Research},     publisher = {PMLR},     year      = {2020},     url       = {https://arxiv.org/abs/1910.09328} } ```
 2-1	91-92	\[	_	_
-2-2	92-102	Multilevel	_	_
-2-3	103-112	Splitting	_	_
+2-2	92-102	Multilevel	*[144]	PROJECT[144]
+2-3	103-112	Splitting	*[144]	PROJECT[144]
 2-4	112-113	\]	_	_
 2-5	113-114	(	_	_
 2-6	114-119	https	_	_
@@ -107,7 +107,7 @@
 2-81	463-471	notebook	_	_
 2-82	471-472	`	_	_
 2-83	473-480	section	_	_
-2-84	480-481	.	*[26]	PUBLICATION[26]
+2-84	480-481	.	_	_
 2-85	483-484	#	_	_
 2-86	484-485	#	_	_
 2-87	486-489	How	_	_
@@ -128,7 +128,7 @@
 2-102	557-563	citing	_	_
 2-103	564-567	the	_	_
 2-104	568-569	\[	_	_
-2-105	569-574	paper	_	_
+2-105	569-574	paper	*[432]	PUBLICATION[432]
 2-106	574-575	\]	_	_
 2-107	575-576	(	_	_
 2-108	576-581	https	_	_
@@ -162,11 +162,11 @@
 2-136	718-719	}	_	_
 2-137	719-720	,	_	_
 2-138	725-731	author	_	_
-2-139	735-736	=	*[27]	PUBLICATION[27]
-2-140	737-738	{	*[27]	PUBLICATION[27]
-2-141	738-747	Alexandra	*[27]	PUBLICATION[27]
-2-142	748-755	Gessner	*[27]	PUBLICATION[27]
-2-143	756-759	and	*[27]	PUBLICATION[27]
+2-139	735-736	=	_	_
+2-140	737-738	{	_	_
+2-141	738-747	Alexandra	_	_
+2-142	748-755	Gessner	_	_
+2-143	756-759	and	_	_
 2-144	760-768	Oindrila	_	_
 2-145	769-777	Kanjilal	_	_
 2-146	778-781	and	_	_
@@ -177,11 +177,11 @@
 2-151	803-812	booktitle	_	_
 2-152	813-814	=	_	_
 2-153	815-816	{	_	_
-2-154	816-827	Proceedings	_	_
-2-155	828-830	of	_	_
-2-156	831-838	Machine	_	_
-2-157	839-847	Learning	_	_
-2-158	848-856	Research	_	_
+2-154	816-827	Proceedings	*[433]	PUBLICATION[433]
+2-155	828-830	of	*[433]	PUBLICATION[433]
+2-156	831-838	Machine	*[433]	PUBLICATION[433]
+2-157	839-847	Learning	*[433]	PUBLICATION[433]
+2-158	848-856	Research	*[433]	PUBLICATION[433]
 2-159	856-857	}	_	_
 2-160	857-858	,	_	_
 2-161	863-872	publisher	_	_
