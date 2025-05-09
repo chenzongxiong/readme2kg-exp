@@ -411,6 +411,8 @@ class OpenAIPredictor(BasePredictor):
                 if span_tokens is None:
                     continue
 
+                if label == 'WORKSHOP':
+                    import ipdb; ipdb.set_trace()
                 annotation = utils.make_annotation(tokens=span_tokens, label=label)
                 annotations.append(annotation)
 
@@ -476,8 +478,9 @@ class OpenAIPredictor(BasePredictor):
         span_tokens_to_label_list = []
         for label, text_list in label_to_text_list.items():
             for text in text_list:
-                if label == 'WORKSHOP':
-                    import ipdb; ipdb.set_trace()
+                # if label == 'WORKSHOP':
+                #     import ipdb; ipdb.set_trace()
+
                 span_tokens_to_label_list.append({
                     'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end'])[0],
                     'span_tokens_debug': utils.make_span_tokens(tokens, text['start'], text['end'])[1],
@@ -589,6 +592,9 @@ if __name__ == "__main__":
         print(f'file_name: {file_name}')
         # if 'tiehangd_Para_DPMM_master_readme.md.tsv' not in file_name:
         #     continue
+        if 'dennlinger_tsar-2022-shared-task_main_README.md.tsv' not in file_name:
+            continue
+
         predictor.set_file_name(file_name)
         file_path = os.path.join(base_path, file_name)
         ref_doc = webanno_tsv_read_file(file_path)

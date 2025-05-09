@@ -8,20 +8,20 @@ from webanno_tsv import webanno_tsv_read_file, Document, Annotation
 from typing import List, Union
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, confusion_matrix
 from seqeval.metrics import classification_report, f1_score, precision_score, recall_score, performance_measure
-from seqeval.scheme import IOB2
+from seqeval.scheme import IOB2, IOB1
 import seqeval
 
 
 LABELS = [
-    'CONFERENCE',
-    'DATASET',
-    'EVALMETRIC',
-    'LICENSE',
-    'ONTOLOGY',
-    'PROGLANG',
-    'PROJECT',
-    'PUBLICATION',
-    'SOFTWARE',
+    # 'CONFERENCE',
+    # 'DATASET',
+    # 'EVALMETRIC',
+    # 'LICENSE',
+    # 'ONTOLOGY',
+    # 'PROGLANG',
+    # 'PROJECT',
+    # 'PUBLICATION',
+    # 'SOFTWARE',
     'WORKSHOP'
 ]
 
@@ -48,6 +48,9 @@ def to_char_bio(src_path: str, ref_path: str) -> List[List[str]]:
                 tokens = ref_doc.sentence_tokens(sentence)
                 start_char, end_char = tokens[0].start, tokens[-1].end
                 bio_tags[start_char:end_char] = ['O'] * (end_char-start_char)
+
+        # if target_label == 'WORKSHOP':
+        #     import ipdb; ipdb.set_trace()
 
         for annotation in doc.annotations:
             label = annotation.label
@@ -81,7 +84,6 @@ def to_char_bio(src_path: str, ref_path: str) -> List[List[str]]:
                 bio_tags[idx] = 'O'
 
         bio_tags_list.append(bio_tags)
-
     return bio_tags_list
 
 
@@ -162,6 +164,8 @@ if __name__ == "__main__":
 
     ref_file_names = sorted([fp for fp in os.listdir(ref_dir) if os.path.isfile(f'{ref_dir}/{fp}') and fp.endswith('.tsv')])
 
+    ref_file_names = [x for x in ref_file_names if 'dennlinger_tsar-2022-shared' in x]
+
     if len(ref_file_names) == 0:
         raise Exception("ERROR: No reference files found, configuration error?")
     all_ref_bio_tags_list = []
@@ -171,6 +175,8 @@ if __name__ == "__main__":
         all_ref_bio_tags_list.append(to_char_bio(src_path, ref_path))
 
     pred_file_names = sorted([fp for fp in os.listdir(pred_dir) if os.path.isfile(f'{pred_dir}/{fp}') and fp.endswith('.tsv')])
+
+    pred_file_names = [x for x in pred_file_names if 'dennlinger_tsar-2022-shared' in x]
     all_pred_bio_tags_list = []
     for idx, ref_file_name in enumerate(ref_file_names):
         try:
@@ -216,10 +222,12 @@ if __name__ == "__main__":
             if len(label_to_ref_bio_tags_list[label]) != len(label_to_pred_bio_tags_list[label]):
                 print('ERROR: label_to_ref_pred_bio_tags')
 
-
     for label in label_to_ref_bio_tags_list.keys():
         ref_bio_tags_list = label_to_ref_bio_tags_list[label]
         pred_bio_tags_list = label_to_pred_bio_tags_list[label]
+        ref_bio_tags_list = ref_bio_tags_list[:100]
+        pred_bio_tags_list = pred_bio_tags[:100]
+
         # accuracy = accuracy_score(ref_bio_tags_list, pred_bio_tags_list)
         # Calculate scores using the specified average type
         # f1 = f1_score(ref_bio_tags_list, pred_bio_tags_list, average=average_type)
@@ -247,21 +255,25 @@ if __name__ == "__main__":
         from seqeval.metrics import classification_report, f1_score, precision_score, recall_score, performance_measure
         # for average in ['macro', 'micro', 'weighted']:
         for mode in ['default', 'strict']:
-            for average in ['macro', 'micro', 'weighted']:
-                f1 = f1_score([ref_bio_tags_list], [pred_bio_tags_list], average=average, mode=mode)
-                precision = precision_score([ref_bio_tags_list], [pred_bio_tags_list], average=average, mode=mode)
-                recall = recall_score([ref_bio_tags_list], [pred_bio_tags_list], average=average, mode=mode)
+            # for average in ['macro', 'micro', 'weighted']:
+            for average in ['macro']:
+                precision = precision_score([ref_bio_tags_list], [pred_bio_tags_list], average=average, mode=mode, scheme=IOB2)
+                recall = recall_score([ref_bio_tags_list], [pred_bio_tags_list], average=average, mode=mode, scheme=IOB2)
+                f1 = f1_score([ref_bio_tags_list], [pred_bio_tags_list], average=average, mode=mode, scheme=IOB2)
                 print(f"{mode} {average} - {label} - Precision: {precision * 100}%")
                 print(f"{mode} {average} - {label} - Recall: {recall * 100}%")
                 print(f"{mode} {average} - {label} - F1: {f1 * 100}%")
                 pm = performance_measure([ref_bio_tags_list], [pred_bio_tags_list])
+                print(pm)
                 print('================================================================================')
-                # print(pm)
+
                 # if label == 'PROGLANG':
                 #     import ipdb; ipdb.set_trace()
                 # if precision == 0:
                 #     import ipdb; ipdb.set_trace()
         print('--------------------------------------------------------------------------------')
+        import ipdb; ipdb.set_trace()
+
         # y_true = [['O', 'O', 'B-MISC', 'I-MISC', 'B-MISC', 'O', 'O', 'B-MISC', 'I-MISC', 'O']]
         # y_pred = [['O', 'O', 'B-MISC', 'I-MISC', 'B-MISC', 'I-MISC', 'O', 'B-MISC', 'I-MISC', 'O']]
         # x = performance_measure(y_true, y_pred)
