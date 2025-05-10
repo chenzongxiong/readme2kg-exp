@@ -91,12 +91,6 @@ def to_char_bio(pred_path: str, ref_path: str) -> List[List[str]]:
     return bio_tags_list
 
 
-def get_parse():
-    parser = argparse.ArgumentParser(description="")
-    parser.add_argument('--reference_dir', type=str, help='Path to the reference data, e.g. training/validation/test data', required=True)
-    parser.add_argument('--prediction_dir', type=str, help='Path to save the prediction results', required=True)
-    return parser
-
 def get_spans(tag_list):
     spans = []
     i = 0
@@ -121,7 +115,7 @@ def get_spans(tag_list):
         i += 1
     return spans
 
-def compute_metrics(y_true_, y_pred_):
+def compute_metrics_exact(y_true_, y_pred_):
     if any(isinstance(s, list) for s in y_true_):
         y_true = [item for sublist in y_true_ for item in sublist]
         y_pred = [item for sublist in y_pred_ for item in sublist]
@@ -186,6 +180,29 @@ def compute_metrics(y_true_, y_pred_):
         'f1': f1
     }
 
+def compute_metrics_partial(y_true, y_pred):
+    if any(isinstance(s, list) for s in y_true):
+        y_true = [item for sublist in y_true for item in sublist]
+        y_pred = [item for sublist in y_pred for item in sublist]
+    TP = sum(y_t == y_p for y_t, y_p in zip(y_true, y_pred) if ((y_t != 'O') or (y_p != 'O')))
+    FP = sum(((y_t != y_p) and (y_p != 'O')) for y_t, y_p in zip(y_true, y_pred))
+    FN = sum(((y_t != 'O') and (y_p == 'O')) for y_t, y_p in zip(y_true, y_pred))
+    TN = sum((y_t == y_p == 'O') for y_t, y_p in zip(y_true, y_pred))
+
+    precision = TP / (TP + FP) if TP + FP > 0 else 0.0
+    recall = TP / (TP + FN) if TP + FN > 0 else 0.0
+    f1 = 2 * precision * recall / (precision + recall) if precision + recall > 0 else 0.0
+
+    return {
+        'TP': TP,
+        'FP': FP,
+        'FN': FN,
+        'TN': TN,
+        'precision': precision,
+        'recall': recall,
+        'f1': f1
+    }
+
 def calculate_macro_micro_weighted_metrics(label_to_metrics):
     total_labels = len(label_to_metrics)
     all_precisions = []
@@ -236,6 +253,14 @@ def calculate_macro_micro_weighted_metrics(label_to_metrics):
         'weighted_f1': weighted_f1
     }
 
+def get_parse():
+    parser = argparse.ArgumentParser(description="")
+    parser.add_argument('--reference_dir', type=str, help='Path to the reference data, e.g. training/validation/test data', required=True)
+    parser.add_argument('--prediction_dir', type=str, help='Path to save the prediction results', required=True)
+    parser.add_argument('--mode', type=str, help='partial,exact', required=True)
+    return parser
+
+
 
 if __name__ == "__main__":
     parser = get_parse()
@@ -243,6 +268,7 @@ if __name__ == "__main__":
 
     ref_dir = Path(args.reference_dir)
     pred_dir = Path(args.prediction_dir)
+    mode = args.mode
 
     ref_file_names = sorted([x for x in ref_dir.rglob('*.tsv')])
     if len(ref_file_names) == 0:
@@ -297,18 +323,21 @@ if __name__ == "__main__":
     for label in label_to_ref_bio_tags_list.keys():
         ref_bio_tags_list = label_to_ref_bio_tags_list[label]
         pred_bio_tags_list = label_to_pred_bio_tags_list[label]
-        metrics = compute_metrics(ref_bio_tags_list, pred_bio_tags_list)
+        if mode == 'exact':
+            metrics = compute_metrics_exact(ref_bio_tags_list, pred_bio_tags_list)
+        elif mode == 'partial':
+            metrics = compute_metrics_partial(ref_bio_tags_list, pred_bio_tags_list)
         label_to_metrics[label] = metrics
 
     overall = calculate_macro_micro_weighted_metrics(label_to_metrics)
     # print(json.dumps(result, indent=2))
-    with open(pred_dir / '00_score_all_exact.json', 'w') as fd:
+    with open(pred_dir / f'00_score_all_{mode}.json', 'w') as fd:
         formatted_overall = {}
         for k, v in overall.items():
             formatted_overall[k] = f'{v * 100:.2f}%'
         json.dump(formatted_overall, fd, indent=2)
 
-    with open(pred_dir / '00_score_exact.json', 'w') as fd:
+    with open(pred_dir / f'00_score_{mode}.json', 'w') as fd:
         formatted_label_to_metrics = {}
         for label, metrics in label_to_metrics.items():
             metrics['precision'] = f"{metrics['precision'] * 100:.2f}%"
