@@ -4,15 +4,15 @@
 
 #Text=# Keyword Transformer: A Self-Attention Model for Keyword Spotting  <img src="kwt.png" alt="drawing" width="200"/>  This is the official repository for the paper \[Keyword Transformer: A Self-Attention Model for Keyword Spotting\](https://arxiv.org/abs/2104.00769), presented at Interspeech 2021.
 1-1	0-1	#	_	_
-1-2	2-9	Keyword	_	_
-1-3	10-21	Transformer	*[97]	SOFTWARE[97]
-1-4	21-22	:	_	_
-1-5	23-24	A	_	_
-1-6	25-39	Self-Attention	_	_
-1-7	40-45	Model	_	_
-1-8	46-49	for	_	_
-1-9	50-57	Keyword	_	_
-1-10	58-66	Spotting	_	_
+1-2	2-9	Keyword	*[437]	PUBLICATION[437]
+1-3	10-21	Transformer	*[437]	PUBLICATION[437]
+1-4	21-22	:	*[437]	PUBLICATION[437]
+1-5	23-24	A	*[437]	PUBLICATION[437]
+1-6	25-39	Self-Attention	*[437]	PUBLICATION[437]
+1-7	40-45	Model	*[437]	PUBLICATION[437]
+1-8	46-49	for	*[437]	PUBLICATION[437]
+1-9	50-57	Keyword	*[437]	PUBLICATION[437]
+1-10	58-66	Spotting	*[437]	PUBLICATION[437]
 1-11	68-69	<	_	_
 1-12	69-72	img	_	_
 1-13	73-76	src	_	_
@@ -41,14 +41,14 @@
 1-36	152-155	the	_	_
 1-37	156-161	paper	_	_
 1-38	162-163	\[	_	_
-1-39	163-170	Keyword	*[47]	PUBLICATION[47]
-1-40	171-182	Transformer	*[47]	PUBLICATION[47]
-1-41	182-183	:	*[47]	PUBLICATION[47]
-1-42	184-185	A	*[47]	PUBLICATION[47]
-1-43	186-200	Self-Attention	*[47]	PUBLICATION[47]
-1-44	201-206	Model	*[47]	PUBLICATION[47]
-1-45	207-210	for	*[47]	PUBLICATION[47]
-1-46	211-218	Keyword	*[47]	PUBLICATION[47]
+1-39	163-170	Keyword	_	_
+1-40	171-182	Transformer	_	_
+1-41	182-183	:	_	_
+1-42	184-185	A	_	_
+1-43	186-200	Self-Attention	_	_
+1-44	201-206	Model	_	_
+1-45	207-210	for	_	_
+1-46	211-218	Keyword	_	_
 1-47	219-227	Spotting	_	_
 1-48	227-228	\]	_	_
 1-49	228-229	(	_	_
@@ -57,16 +57,16 @@
 1-52	235-236	/	_	_
 1-53	236-237	/	_	_
 1-54	237-246	arxiv.org	_	_
-1-55	246-247	/	*[8]	CONFERENCE[8]
-1-56	247-250	abs	*[8]	CONFERENCE[8]
-1-57	250-251	/	*[8]	CONFERENCE[8]
+1-55	246-247	/	_	_
+1-56	247-250	abs	_	_
+1-57	250-251	/	_	_
 1-58	251-261	2104.00769	_	_
 1-59	261-262	)	_	_
 1-60	262-263	,	_	_
 1-61	264-273	presented	_	_
 1-62	274-276	at	_	_
-1-63	277-288	Interspeech	_	_
-1-64	289-293	2021	_	_
+1-63	277-288	Interspeech	*[61]	CONFERENCE[61]
+1-64	289-293	2021	*[61]	CONFERENCE[61]
 1-65	293-294	.	_	_
 
 #Text=Consider citing our paper if you find this work useful.  ``` @inproceedings{berg21\_interspeech,   author={Axel Berg and Mark O’Connor and Miguel Tairum Cruz},   title={{Keyword Transformer: A Self-Attention Model for Keyword Spotting}},   year=2021,   booktitle={Proc.
@@ -111,15 +111,15 @@
 2-39	461-462	=	_	_
 2-40	462-463	{	_	_
 2-41	463-464	{	_	_
-2-42	464-471	Keyword	_	_
-2-43	472-483	Transformer	_	_
-2-44	483-484	:	_	_
-2-45	485-486	A	_	_
-2-46	487-501	Self-Attention	_	_
-2-47	502-507	Model	_	_
-2-48	508-511	for	_	_
-2-49	512-519	Keyword	_	_
-2-50	520-528	Spotting	_	_
+2-42	464-471	Keyword	*[438]	PUBLICATION[438]
+2-43	472-483	Transformer	*[438]	PUBLICATION[438]
+2-44	483-484	:	*[438]	PUBLICATION[438]
+2-45	485-486	A	*[438]	PUBLICATION[438]
+2-46	487-501	Self-Attention	*[438]	PUBLICATION[438]
+2-47	502-507	Model	*[438]	PUBLICATION[438]
+2-48	508-511	for	*[438]	PUBLICATION[438]
+2-49	512-519	Keyword	*[438]	PUBLICATION[438]
+2-50	520-528	Spotting	*[438]	PUBLICATION[438]
 2-51	528-529	}	_	_
 2-52	529-530	}	_	_
 2-53	530-531	,	_	_
@@ -134,8 +134,8 @@
 2-62	562-563	.	_	_
 
 #Text=Interspeech 2021},   pages={4249--4253},   doi={10.21437/Interspeech.2021-1286} } ```  ## Setup  ### Download Google Speech Commands  There are two versions of the dataset, V1 and V2.
-3-1	564-575	Interspeech	_	_
-3-2	576-580	2021	_	_
+3-1	564-575	Interspeech	*[62]	CONFERENCE[62]
+3-2	576-580	2021	*[62]	CONFERENCE[62]
 3-3	580-581	}	_	_
 3-4	581-582	,	_	_
 3-5	585-590	pages	_	_
@@ -168,9 +168,9 @@
 3-32	662-663	#	_	_
 3-33	663-664	#	_	_
 3-34	665-673	Download	_	_
-3-35	674-680	Google	_	_
-3-36	681-687	Speech	_	_
-3-37	688-696	Commands	_	_
+3-35	674-680	Google	*[308]	DATASET[308]
+3-36	681-687	Speech	*[308]	DATASET[308]
+3-37	688-696	Commands	*[308]	DATASET[308]
 3-38	698-703	There	_	_
 3-39	704-707	are	_	_
 3-40	708-711	two	_	_
@@ -190,7 +190,7 @@
 4-3	760-763	and	_	_
 4-4	764-771	extract	_	_
 4-5	772-779	dataset	_	_
-4-6	780-782	V2	_	_
+4-6	780-782	V2	*[309]	DATASET[309]
 4-7	782-783	,	_	_
 4-8	784-787	run	_	_
 4-9	787-788	:	_	_
@@ -270,7 +270,7 @@
 8-27	1076-1077	/	_	_
 8-28	1077-1081	data	_	_
 8-29	1081-1082	/	_	_
-8-30	1082-1103	speech\_commands\_v0.01	_	_
+8-30	1082-1103	speech\_commands\_v0.01	*[311]	DATASET[311]
 8-31	1103-1104	.	_	_
 8-32	1104-1110	tar.gz	_	_
 8-33	1111-1116	mkdir	_	_
@@ -374,11 +374,11 @@
 14-26	1479-1480	`	_	_
 14-27	1482-1488	Tested	_	_
 14-28	1489-1494	using	_	_
-14-29	1495-1505	Tensorflow	_	_
-14-30	1506-1514	2.4.0rc1	_	_
+14-29	1495-1505	Tensorflow	*[408]	SOFTWARE[408]
+14-30	1506-1514	2.4.0rc1	*[408]	SOFTWARE[408]
 14-31	1515-1519	with	_	_
-14-32	1520-1524	CUDA	_	_
-14-33	1525-1527	11	_	_
+14-32	1520-1524	CUDA	*[409]	SOFTWARE[409]
+14-33	1525-1527	11	*[409]	SOFTWARE[409]
 14-34	1527-1528	.	_	_
 
 #Text=\*\*Note\*\*: Installing the correct Tensorflow version is important for reproducibility!
@@ -623,15 +623,15 @@
 19-118	2783-2790	scratch	_	_
 19-119	2791-2793	To	_	_
 19-120	2794-2799	train	_	_
-19-121	2800-2803	KWT	_	_
-19-122	2803-2804	-	_	_
-19-123	2804-2805	3	_	_
+19-121	2800-2803	KWT	*[413]	SOFTWARE[413]
+19-122	2803-2804	-	*[413]	SOFTWARE[413]
+19-123	2804-2805	3	*[413]	SOFTWARE[413]
 19-124	2806-2810	from	_	_
 19-125	2811-2818	scratch	_	_
 19-126	2819-2821	on	_	_
-19-127	2822-2828	Speech	_	_
-19-128	2829-2837	Commands	_	_
-19-129	2838-2840	V2	_	_
+19-127	2822-2828	Speech	*[312]	DATASET[312]
+19-128	2829-2837	Commands	*[312]	DATASET[312]
+19-129	2838-2840	V2	*[312]	DATASET[312]
 19-130	2840-2841	,	_	_
 19-131	2842-2845	run	_	_
 19-132	2849-2850	`	_	_
@@ -800,7 +800,7 @@
 20-129	3534-3547	convolutional	_	_
 20-130	3548-3553	model	_	_
 20-131	3554-3555	(	_	_
-20-132	3555-3565	Att-MH-RNN	_	_
+20-132	3555-3565	Att-MH-RNN	*[415]	SOFTWARE[415]
 20-133	3565-3566	)	_	_
 20-134	3566-3567	,	_	_
 20-135	3568-3575	similar	_	_
@@ -809,7 +809,7 @@
 20-138	3583-3591	approach	_	_
 20-139	3592-3594	in	_	_
 20-140	3595-3596	\[	_	_
-20-141	3596-3600	DeIT	_	_
+20-141	3596-3600	DeIT	*[416]	SOFTWARE[416]
 20-142	3600-3601	\]	_	_
 20-143	3601-3602	(	_	_
 20-144	3602-3607	https	_	_
@@ -827,9 +827,9 @@
 #Text=To train KWT-3 with hard distillation from a pre-trained model, run  ```shell sh distill.sh ```  ## Run inference using a pre-trained model  Pre-trained weights for KWT-3, KWT-2 and KWT-1 are provided in .
 21-1	3646-3648	To	_	_
 21-2	3649-3654	train	_	_
-21-3	3655-3658	KWT	_	_
-21-4	3658-3659	-	_	_
-21-5	3659-3660	3	_	_
+21-3	3655-3658	KWT	*[417]	SOFTWARE[417]
+21-4	3658-3659	-	*[417]	SOFTWARE[417]
+21-5	3659-3660	3	*[417]	SOFTWARE[417]
 21-6	3661-3665	with	_	_
 21-7	3666-3670	hard	_	_
 21-8	3671-3683	distillation	_	_
@@ -863,13 +863,13 @@
 21-36	3814-3815	-	_	_
 21-37	3815-3816	3	_	_
 21-38	3816-3817	,	_	_
-21-39	3818-3821	KWT	_	_
-21-40	3821-3822	-	_	_
-21-41	3822-3823	2	_	_
+21-39	3818-3821	KWT	*[418]	SOFTWARE[418]
+21-40	3821-3822	-	*[418]	SOFTWARE[418]
+21-41	3822-3823	2	*[418]	SOFTWARE[418]
 21-42	3824-3827	and	_	_
-21-43	3828-3831	KWT	_	_
-21-44	3831-3832	-	_	_
-21-45	3832-3833	1	_	_
+21-43	3828-3831	KWT	*[419]	SOFTWARE[419]
+21-44	3831-3832	-	*[419]	SOFTWARE[419]
+21-45	3832-3833	1	*[419]	SOFTWARE[419]
 21-46	3834-3837	are	_	_
 21-47	3838-3846	provided	_	_
 21-48	3847-3849	in	_	_
@@ -1035,10 +1035,10 @@
 23-148	4205-4212	perform	_	_
 23-149	4213-4222	inference	_	_
 23-150	4223-4225	on	_	_
-23-151	4226-4232	Google	_	_
-23-152	4233-4239	Speech	_	_
-23-153	4240-4248	Commands	_	_
-23-154	4249-4251	v2	_	_
+23-151	4226-4232	Google	*[313]	DATASET[313]
+23-152	4233-4239	Speech	*[313]	DATASET[313]
+23-153	4240-4248	Commands	*[313]	DATASET[313]
+23-154	4249-4251	v2	*[313]	DATASET[313]
 23-155	4252-4256	with	_	_
 23-156	4257-4259	12	_	_
 23-157	4260-4266	labels	_	_
@@ -1063,9 +1063,9 @@
 23-176	4344-4348	from	_	_
 23-177	4349-4352	the	_	_
 23-178	4353-4354	\[	_	_
-23-179	4354-4357	KWS	_	_
-23-180	4358-4367	streaming	_	_
-23-181	4368-4372	work	_	_
+23-179	4354-4357	KWS	*[420]	SOFTWARE[420]
+23-180	4358-4367	streaming	*[420]	SOFTWARE[420]
+23-181	4368-4372	work	*[420]	SOFTWARE[420]
 23-182	4372-4373	\]	_	_
 23-183	4373-4374	(	_	_
 23-184	4374-4379	https	_	_
@@ -1085,8 +1085,8 @@
 23-198	4437-4450	kws\_streaming	_	_
 23-199	4450-4451	)	_	_
 23-200	4452-4454	by	_	_
-23-201	4455-4461	Google	_	_
-23-202	4462-4470	Research	_	_
+23-201	4455-4461	Google	*[151]	PROJECT[151]
+23-202	4462-4470	Research	*[151]	PROJECT[151]
 23-203	4470-4471	.	_	_
 
 #Text=For a more detailed description of the code structure, see the original authors' \[README\](kws\_streaming/README.md).
@@ -1109,7 +1109,7 @@
 24-17	4554-4560	README	_	_
 24-18	4560-4561	\]	_	_
 24-19	4561-4562	(	_	_
-24-20	4562-4575	kws\_streaming	_	_
+24-20	4562-4575	kws\_streaming	*[421]	SOFTWARE[421]
 24-21	4575-4576	/	_	_
 24-22	4576-4585	README.md	_	_
 24-23	4585-4586	)	_	_
@@ -1123,7 +1123,7 @@
 25-5	4614-4624	techniques	_	_
 25-6	4625-4629	from	_	_
 25-7	4630-4631	\[	_	_
-25-8	4631-4635	DeiT	_	_
+25-8	4631-4635	DeiT	*[422]	SOFTWARE[422]
 25-9	4635-4636	\]	_	_
 25-10	4636-4637	(	_	_
 25-11	4637-4642	https	_	_
@@ -1134,7 +1134,7 @@
 25-16	4655-4656	/	_	_
 25-17	4656-4672	facebookresearch	_	_
 25-18	4672-4673	/	_	_
-25-19	4673-4677	deit	_	_
+25-19	4673-4677	deit	*[423]	SOFTWARE[423]
 25-20	4677-4678	)	_	_
 25-21	4678-4679	.	_	_
 
@@ -1176,8 +1176,8 @@
 27-24	4845-4850	under	_	_
 27-25	4851-4854	the	_	_
 27-26	4855-4856	\[	_	_
-27-27	4856-4862	Apache	_	_
-27-28	4863-4866	2.0	_	_
+27-27	4856-4862	Apache	*[34]	LICENSE[34]
+27-28	4863-4866	2.0	*[34]	LICENSE[34]
 27-29	4866-4867	\]	_	_
 27-30	4867-4868	(	_	_
 27-31	4868-4879	LICENSE.txt	_	_
@@ -1194,8 +1194,8 @@
 28-6	4921-4925	from	_	_
 28-7	4926-4929	the	_	_
 28-8	4930-4931	\[	_	_
-28-9	4931-4934	KWS	_	_
-28-10	4935-4944	streaming	_	_
+28-9	4931-4934	KWS	*[424]	SOFTWARE[424]
+28-10	4935-4944	streaming	*[424]	SOFTWARE[424]
 28-11	4945-4955	repository	_	_
 28-12	4955-4956	\]	_	_
 28-13	4956-4957	(	_	_
@@ -1205,7 +1205,7 @@
 28-17	4964-4965	/	_	_
 28-18	4965-4975	github.com	_	_
 28-19	4975-4976	/	_	_
-28-20	4976-4991	google-research	_	_
+28-20	4976-4991	google-research	*[152]	PROJECT[152]
 28-21	4991-4992	/	_	_
 28-22	4992-5007	google-research	_	_
 28-23	5007-5008	/	_	_
@@ -1216,8 +1216,8 @@
 28-28	5020-5033	kws\_streaming	_	_
 28-29	5033-5034	)	_	_
 28-30	5035-5037	by	_	_
-28-31	5038-5044	Google	_	_
-28-32	5045-5053	Research	_	_
+28-31	5038-5044	Google	*[153]	PROJECT[153]
+28-32	5045-5053	Research	*[153]	PROJECT[153]
 28-33	5053-5054	.	_	_
 
 #Text=These are also released under the Apache 2.0 license, the text of which can be seen in the LICENSE file on their repository.
@@ -1227,8 +1227,8 @@
 29-4	5070-5078	released	_	_
 29-5	5079-5084	under	_	_
 29-6	5085-5088	the	_	_
-29-7	5089-5095	Apache	_	_
-29-8	5096-5099	2.0	_	_
+29-7	5089-5095	Apache	*[35]	LICENSE[35]
+29-8	5096-5099	2.0	*[35]	LICENSE[35]
 29-9	5100-5107	license	_	_
 29-10	5107-5108	,	_	_
 29-11	5109-5112	the	_	_

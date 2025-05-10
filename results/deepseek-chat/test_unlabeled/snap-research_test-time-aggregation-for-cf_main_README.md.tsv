@@ -4,7 +4,7 @@
 
 #Text=# TAG-CF: Test-time Aggregation for CF  Source code for the paper \*\*\[How Does Message Passing Improve Collaborative Filtering?\]
 1-1	0-1	#	_	_
-1-2	2-8	TAG-CF	_	_
+1-2	2-8	TAG-CF	*[143]	PROJECT[143]
 1-3	8-9	:	_	_
 1-4	10-19	Test-time	_	_
 1-5	20-31	Aggregation	_	_
@@ -18,14 +18,14 @@
 1-13	66-67	\*	_	_
 1-14	67-68	\*	_	_
 1-15	68-69	\[	_	_
-1-16	69-72	How	*[41]	PUBLICATION[41]
-1-17	73-77	Does	*[41]	PUBLICATION[41]
-1-18	78-85	Message	*[41]	PUBLICATION[41]
-1-19	86-93	Passing	*[41]	PUBLICATION[41]
-1-20	94-101	Improve	*[41]	PUBLICATION[41]
-1-21	102-115	Collaborative	*[41]	PUBLICATION[41]
-1-22	116-125	Filtering	*[41]	PUBLICATION[41]
-1-23	125-126	?	*[41]	PUBLICATION[41]
+1-16	69-72	How	*[430]	PUBLICATION[430]
+1-17	73-77	Does	*[430]	PUBLICATION[430]
+1-18	78-85	Message	*[430]	PUBLICATION[430]
+1-19	86-93	Passing	*[430]	PUBLICATION[430]
+1-20	94-101	Improve	*[430]	PUBLICATION[430]
+1-21	102-115	Collaborative	*[430]	PUBLICATION[430]
+1-22	116-125	Filtering	*[430]	PUBLICATION[430]
+1-23	125-126	?	*[430]	PUBLICATION[430]
 1-24	126-127	\]	_	_
 
 #Text=(https://arxiv.org/abs/2404.08660)\*\* accepted at NeurIPS 2024.
@@ -44,8 +44,8 @@
 2-13	162-163	\*	_	_
 2-14	164-172	accepted	_	_
 2-15	173-175	at	_	_
-2-16	176-183	NeurIPS	_	_
-2-17	184-188	2024	_	_
+2-16	176-183	NeurIPS	*[60]	CONFERENCE[60]
+2-17	184-188	2024	*[60]	CONFERENCE[60]
 2-18	188-189	.	_	_
 
 #Text=>by \[Mingxuan Ju\](https://scholar.google.com/citations?
@@ -333,7 +333,7 @@
 14-1	1153-1154	/	_	_
 14-2	1154-1161	dataset	_	_
 14-3	1161-1162	/	_	_
-14-4	1162-1171	README.md	_	_
+14-4	1162-1171	README.md	*[297]	DATASET[297]
 14-5	1171-1172	)	_	_
 14-6	1172-1173	.	_	_
 14-7	1175-1176	#	_	_
@@ -352,11 +352,11 @@
 15-8	1220-1231	reproducing	_	_
 15-9	1232-1239	results	_	_
 15-10	1240-1243	for	_	_
-15-11	1244-1253	Movielens	_	_
-15-12	1253-1254	-	_	_
-15-13	1254-1256	1M	_	_
+15-11	1244-1253	Movielens	*[298]	DATASET[298]
+15-12	1253-1254	-	*[298]	DATASET[298]
+15-13	1254-1256	1M	*[298]	DATASET[298]
 15-14	1257-1261	with	_	_
-15-15	1262-1265	BPR	_	_
+15-15	1262-1265	BPR	*[378]	SOFTWARE[378]
 15-16	1265-1266	.	_	_
 
 #Text=Please use other provided config files to reproduce results for other datasets. ``` # Train a basic matrix factorization model make run\_pipeline MODEL\_YAML\_PATH=config/MF.yaml DATA\_YAML\_PATH=config/bpr\_ml.yaml  # Train a LightGCN model. make run\_pipeline MODEL\_YAML\_PATH=config/LGCN.yaml DATA\_YAML\_PATH=config/bpr\_ml.yaml  # Conduct test-time aggregation on matrix factorization model. make run\_pipeline MODEL\_YAML\_PATH=config/TAGCF\_bpr\_ml.yaml  DATA\_YAML\_PATH=config/bpr\_ml.yaml ```  ## 4.
@@ -456,7 +456,7 @@
 17-11	1818-1820	by	_	_
 17-12	1821-1824	BPR	_	_
 17-13	1825-1828	and	_	_
-17-14	1829-1837	DirectAU	_	_
+17-14	1829-1837	DirectAU	*[381]	SOFTWARE[381]
 17-15	1837-1838	,	_	_
 17-16	1839-1844	along	_	_
 17-17	1845-1849	with	_	_
@@ -466,7 +466,7 @@
 17-21	1875-1886	improvement	_	_
 17-22	1887-1894	brought	_	_
 17-23	1895-1897	by	_	_
-17-24	1898-1904	TAG-CF	_	_
+17-24	1898-1904	TAG-CF	*[382]	SOFTWARE[382]
 17-25	1904-1905	.	_	_
 
 #Text=We provide hyper-parameter configs in \[the config folder\](.
@@ -497,7 +497,7 @@
 20-5	1995-1996	`	_	_
 20-6	1996-1997	`	_	_
 20-7	1997-1998	`	_	_
-20-8	1998-1999	m	_	_
+20-8	1998-1999	m	*[169]	PROGLANG[169]
 20-9	1999-2000	`	_	_
 20-10	2000-2001	`	_	_
 20-11	2001-2002	`	_	_
@@ -594,10 +594,10 @@
 22-53	2238-2239	\|	_	_
 22-54	2239-2240	\|	_	_
 22-55	2240-2241	\|	_	_
-22-56	2241-2252	Amazon-Book	_	_
-22-57	2253-2259	Recall	_	_
-22-58	2259-2260	@	_	_
-22-59	2260-2262	10	_	_
+22-56	2241-2252	Amazon-Book	*[299]	DATASET[299]
+22-57	2253-2259	Recall	*[57]	EVALMETRIC[57]
+22-58	2259-2260	@	*[57]	EVALMETRIC[57]
+22-59	2260-2262	10	*[57]	EVALMETRIC[57]
 22-60	2263-2264	\|	_	_
 22-61	2265-2271	0.0619	_	_
 22-62	2272-2273	\|	_	_
@@ -610,9 +610,9 @@
 22-69	2300-2306	0.0454	_	_
 22-70	2307-2308	\|	_	_
 22-71	2309-2315	14.55%	_	_
-22-72	2316-2322	Recall	_	_
-22-73	2322-2323	@	_	_
-22-74	2323-2325	20	_	_
+22-72	2316-2322	Recall	*[58]	EVALMETRIC[58]
+22-73	2322-2323	@	*[58]	EVALMETRIC[58]
+22-74	2323-2325	20	*[58]	EVALMETRIC[58]
 22-75	2326-2327	\|	_	_
 22-76	2328-2334	0.0959	_	_
 22-77	2335-2336	\|	_	_
@@ -625,9 +625,9 @@
 22-84	2363-2369	0.0737	_	_
 22-85	2370-2371	\|	_	_
 22-86	2372-2378	13.04%	_	_
-22-87	2379-2383	NDCG	_	_
-22-88	2383-2384	@	_	_
-22-89	2384-2386	10	_	_
+22-87	2379-2383	NDCG	*[59]	EVALMETRIC[59]
+22-88	2383-2384	@	*[59]	EVALMETRIC[59]
+22-89	2384-2386	10	*[59]	EVALMETRIC[59]
 22-90	2389-2390	\|	_	_
 22-91	2391-2397	0.0527	_	_
 22-92	2398-2399	\|	_	_
@@ -640,9 +640,9 @@
 22-99	2426-2432	0.0384	_	_
 22-100	2433-2434	\|	_	_
 22-101	2435-2441	16.47%	_	_
-22-102	2442-2446	NDCG	_	_
-22-103	2446-2447	@	_	_
-22-104	2447-2449	20	_	_
+22-102	2442-2446	NDCG	*[60]	EVALMETRIC[60]
+22-103	2446-2447	@	*[60]	EVALMETRIC[60]
+22-104	2447-2449	20	*[60]	EVALMETRIC[60]
 22-105	2452-2453	\|	_	_
 22-106	2454-2460	0.0641	_	_
 22-107	2461-2462	\|	_	_
@@ -659,9 +659,9 @@
 22-118	2506-2507	\|	_	_
 22-119	2507-2508	\|	_	_
 22-120	2508-2509	\|	_	_
-22-121	2509-2513	Yelp	_	_
-22-122	2513-2514	-	_	_
-22-123	2514-2518	2018	_	_
+22-121	2509-2513	Yelp	*[300]	DATASET[300]
+22-122	2513-2514	-	*[300]	DATASET[300]
+22-123	2514-2518	2018	*[300]	DATASET[300]
 22-124	2519-2525	Recall	_	_
 22-125	2525-2526	@	_	_
 22-126	2526-2528	10	_	_
@@ -726,7 +726,7 @@
 22-185	2768-2769	\|	_	_
 22-186	2769-2770	\|	_	_
 22-187	2770-2771	\|	_	_
-22-188	2771-2778	Gowalla	_	_
+22-188	2771-2778	Gowalla	*[301]	DATASET[301]
 22-189	2779-2785	Recall	_	_
 22-190	2785-2786	@	_	_
 22-191	2786-2788	10	_	_
@@ -791,9 +791,9 @@
 22-250	3028-3029	\|	_	_
 22-251	3029-3030	\|	_	_
 22-252	3030-3031	\|	_	_
-22-253	3031-3040	MovieLens	_	_
-22-254	3040-3041	-	_	_
-22-255	3041-3043	1M	_	_
+22-253	3031-3040	MovieLens	*[302]	DATASET[302]
+22-254	3040-3041	-	*[302]	DATASET[302]
+22-255	3041-3043	1M	*[302]	DATASET[302]
 22-256	3044-3050	Recall	_	_
 22-257	3050-3051	@	_	_
 22-258	3051-3053	10	_	_
@@ -890,14 +890,14 @@
 23-28	3420-3425	title	_	_
 23-29	3425-3426	=	_	_
 23-30	3426-3427	{	_	_
-23-31	3427-3430	How	_	_
-23-32	3431-3435	Does	_	_
-23-33	3436-3443	Message	_	_
-23-34	3444-3451	Passing	_	_
-23-35	3452-3459	Improve	_	_
-23-36	3460-3473	Collaborative	_	_
-23-37	3474-3483	Filtering	_	_
-23-38	3483-3484	?	_	_
+23-31	3427-3430	How	*[431]	PUBLICATION[431]
+23-32	3431-3435	Does	*[431]	PUBLICATION[431]
+23-33	3436-3443	Message	*[431]	PUBLICATION[431]
+23-34	3444-3451	Passing	*[431]	PUBLICATION[431]
+23-35	3452-3459	Improve	*[431]	PUBLICATION[431]
+23-36	3460-3473	Collaborative	*[431]	PUBLICATION[431]
+23-37	3474-3483	Filtering	*[431]	PUBLICATION[431]
+23-38	3483-3484	?	*[431]	PUBLICATION[431]
 23-39	3484-3485	}	_	_
 
 #Text=,   author={Ju, Mingxuan and Shiao, William and Guo, Zhichun and Ye, Yanfang and Liu, Yozen and Shah, Neil and Zhao, Tong},   journal={Advances in neural information processing systems},   year={2024} } ```  ## 6.
@@ -937,12 +937,12 @@
 24-34	3611-3618	journal	_	_
 24-35	3618-3619	=	_	_
 24-36	3619-3620	{	_	_
-24-37	3620-3628	Advances	_	_
-24-38	3629-3631	in	_	_
-24-39	3632-3638	neural	_	_
-24-40	3639-3650	information	_	_
-24-41	3651-3661	processing	_	_
-24-42	3662-3669	systems	_	_
+24-37	3620-3628	Advances	*[432]	PUBLICATION[432]
+24-38	3629-3631	in	*[432]	PUBLICATION[432]
+24-39	3632-3638	neural	*[432]	PUBLICATION[432]
+24-40	3639-3650	information	*[432]	PUBLICATION[432]
+24-41	3651-3661	processing	*[432]	PUBLICATION[432]
+24-42	3662-3669	systems	*[432]	PUBLICATION[432]
 24-43	3669-3670	}	_	_
 24-44	3670-3671	,	_	_
 24-45	3674-3678	year	_	_

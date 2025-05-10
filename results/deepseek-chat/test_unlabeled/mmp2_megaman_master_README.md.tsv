@@ -4,7 +4,7 @@
 
 #Text=# megaman: Manifold Learning for Millions of Points  <img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/word2vec\_rmetric\_plot\_no\_digits.png" height=200><img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/spectra\_D4000.png" height=200><img src="https://raw.githubusercontent.com/mmp2/megaman/master/doc/images/spectra\_Halpha.png" height=200>  \[!
 1-1	0-1	#	_	_
-1-2	2-9	megaman	_	_
+1-2	2-9	megaman	*[162]	SOFTWARE[162]
 1-3	9-10	:	_	_
 1-4	11-19	Manifold	_	_
 1-5	20-28	Learning	_	_
@@ -14,9 +14,9 @@
 1-9	45-51	Points	_	_
 1-10	53-54	<	_	_
 1-11	54-57	img	_	_
-1-12	58-61	src	*[115]	SOFTWARE[115]
-1-13	61-62	=	*[115]	SOFTWARE[115]
-1-14	62-63	"	*[115]	SOFTWARE[115]
+1-12	58-61	src	_	_
+1-13	61-62	=	_	_
+1-14	62-63	"	_	_
 1-15	63-68	https	_	_
 1-16	68-69	:	_	_
 1-17	69-70	/	_	_
@@ -25,7 +25,7 @@
 1-20	96-97	/	_	_
 1-21	97-101	mmp2	_	_
 1-22	101-102	/	_	_
-1-23	102-109	megaman	*[109]	SOFTWARE[109]
+1-23	102-109	megaman	_	_
 1-24	109-110	/	_	_
 1-25	110-116	master	_	_
 1-26	116-117	/	_	_
@@ -34,7 +34,7 @@
 1-29	121-127	images	_	_
 1-30	127-128	/	_	_
 1-31	128-163	word2vec\_rmetric\_plot\_no\_digits.png	_	_
-1-32	163-164	"	*[116]	SOFTWARE[116]
+1-32	163-164	"	_	_
 1-33	165-171	height	_	_
 1-34	171-172	=	_	_
 1-35	172-175	200	_	_
@@ -52,14 +52,14 @@
 1-47	219-220	/	_	_
 1-48	220-224	mmp2	_	_
 1-49	224-225	/	_	_
-1-50	225-232	megaman	*[110]	SOFTWARE[110]
+1-50	225-232	megaman	_	_
 1-51	232-233	/	_	_
 1-52	233-239	master	_	_
 1-53	239-240	/	_	_
 1-54	240-243	doc	_	_
 1-55	243-244	/	_	_
 1-56	244-250	images	_	_
-1-57	250-251	/	*[114]	SOFTWARE[114]
+1-57	250-251	/	_	_
 1-58	251-264	spectra\_D4000	_	_
 1-59	264-265	.	_	_
 1-60	265-268	png	_	_
@@ -81,7 +81,7 @@
 1-76	324-325	/	_	_
 1-77	325-329	mmp2	_	_
 1-78	329-330	/	_	_
-1-79	330-337	megaman	*[111]	SOFTWARE[111]
+1-79	330-337	megaman	_	_
 1-80	337-338	/	_	_
 1-81	338-344	master	_	_
 1-82	344-345	/	_	_
@@ -100,7 +100,7 @@
 
 #Text=\[Anaconda-Server Badge\](https://anaconda.org/conda-forge/megaman/badges/downloads.svg)\](https://anaconda.org/conda-forge/megaman) \[!
 2-1	391-392	\[	_	_
-2-2	392-407	Anaconda-Server	_	_
+2-2	392-407	Anaconda-Server	*[492]	SOFTWARE[492]
 2-2	392-400	Anaconda	_	_
 2-3	408-413	Badge	_	_
 2-4	413-414	\]	_	_
@@ -150,9 +150,9 @@
 3-11	559-560	/	_	_
 3-12	560-566	travis	_	_
 3-13	566-567	/	_	_
-3-14	567-571	mmp2	_	_
+3-14	567-571	mmp2	*[167]	PROJECT[167]
 3-15	571-572	/	_	_
-3-16	572-579	megaman	_	_
+3-16	572-579	megaman	*[168]	PROJECT[168]
 3-17	579-580	/	_	_
 3-18	580-590	master.svg	_	_
 3-19	590-591	?	_	_
@@ -170,9 +170,9 @@
 4-10	611-612	/	_	_
 4-11	612-625	travis-ci.org	_	_
 4-12	625-626	/	_	_
-4-13	626-630	mmp2	_	_
-4-14	630-631	/	_	_
-4-15	631-638	megaman	_	_
+4-13	626-630	mmp2	*[493]	SOFTWARE[493]
+4-14	630-631	/	*[493]	SOFTWARE[493]
+4-15	631-638	megaman	*[493]	SOFTWARE[493]
 4-16	638-639	)	_	_
 4-17	640-641	\[	_	_
 4-18	641-642	!	_	_
@@ -213,7 +213,7 @@
 6-12	736-737	/	_	_
 6-13	737-741	pypi	_	_
 6-14	741-742	/	_	_
-6-15	742-749	megaman	_	_
+6-15	742-749	megaman	*[495]	SOFTWARE[495]
 6-16	749-750	)	_	_
 6-17	751-752	\[	_	_
 6-18	752-753	!	_	_
@@ -250,13 +250,13 @@
 8-12	843-844	/	_	_
 8-13	844-848	mmp2	_	_
 8-14	848-849	/	_	_
-8-15	849-856	megaman	_	_
+8-15	849-856	megaman	*[496]	SOFTWARE[496]
 8-16	856-857	/	_	_
 8-17	857-861	blob	_	_
 8-18	861-862	/	_	_
 8-19	862-868	master	_	_
 8-20	868-869	/	_	_
-8-21	869-876	LICENSE	_	_
+8-21	869-876	LICENSE	*[40]	LICENSE[40]
 8-22	876-877	)	_	_
 8-23	879-880	`	_	_
 8-24	880-881	`	_	_
@@ -271,7 +271,7 @@
 8-33	923-930	package	_	_
 8-34	931-942	implemented	_	_
 8-35	943-945	in	_	_
-8-36	946-952	python	_	_
+8-36	946-952	python	*[184]	PROGLANG[184]
 8-37	952-953	.	_	_
 
 #Text=It has a front-end API designed to be familiar to \[scikit-learn\](http://scikit-learn.org/) but harnesses the C++ Fast Library for Approximate Nearest Neighbors (FLANN) and the Sparse Symmetric Positive Definite (SSPD) solver Locally Optimal Block Precodition Gradient (LOBPCG) method to scale manifold learning algorithms to large data sets.
@@ -286,7 +286,7 @@
 9-9	992-1000	familiar	_	_
 9-10	1001-1003	to	_	_
 9-11	1004-1005	\[	_	_
-9-12	1005-1017	scikit-learn	_	_
+9-12	1005-1017	scikit-learn	*[497]	SOFTWARE[497]
 9-13	1017-1018	\]	_	_
 9-14	1018-1019	(	_	_
 9-15	1019-1023	http	_	_
@@ -303,33 +303,33 @@
 9-25	1063-1064	C	_	_
 9-26	1064-1065	+	_	_
 9-27	1065-1066	+	_	_
-9-28	1067-1071	Fast	_	_
-9-29	1072-1079	Library	_	_
-9-30	1080-1083	for	_	_
-9-31	1084-1095	Approximate	_	_
-9-32	1096-1103	Nearest	_	_
-9-33	1104-1113	Neighbors	_	_
-9-34	1114-1115	(	_	_
-9-35	1115-1120	FLANN	_	_
-9-36	1120-1121	)	_	_
+9-28	1067-1071	Fast	*[498]	SOFTWARE[498]
+9-29	1072-1079	Library	*[498]	SOFTWARE[498]
+9-30	1080-1083	for	*[498]	SOFTWARE[498]
+9-31	1084-1095	Approximate	*[498]	SOFTWARE[498]
+9-32	1096-1103	Nearest	*[498]	SOFTWARE[498]
+9-33	1104-1113	Neighbors	*[498]	SOFTWARE[498]
+9-34	1114-1115	(	*[498]	SOFTWARE[498]
+9-35	1115-1120	FLANN	*[498]	SOFTWARE[498]
+9-36	1120-1121	)	*[498]	SOFTWARE[498]
 9-37	1122-1125	and	_	_
 9-38	1126-1129	the	_	_
-9-39	1130-1136	Sparse	_	_
-9-40	1137-1146	Symmetric	_	_
-9-41	1147-1155	Positive	_	_
-9-42	1156-1164	Definite	_	_
-9-43	1165-1166	(	_	_
-9-44	1166-1170	SSPD	_	_
-9-45	1170-1171	)	_	_
-9-46	1172-1178	solver	_	_
-9-47	1179-1186	Locally	_	_
-9-48	1187-1194	Optimal	_	_
-9-49	1195-1200	Block	_	_
-9-50	1201-1212	Precodition	_	_
-9-51	1213-1221	Gradient	_	_
-9-52	1222-1223	(	_	_
-9-53	1223-1229	LOBPCG	_	_
-9-54	1229-1230	)	_	_
+9-39	1130-1136	Sparse	*[499]	SOFTWARE[499]
+9-40	1137-1146	Symmetric	*[499]	SOFTWARE[499]
+9-41	1147-1155	Positive	*[499]	SOFTWARE[499]
+9-42	1156-1164	Definite	*[499]	SOFTWARE[499]
+9-43	1165-1166	(	*[499]	SOFTWARE[499]
+9-44	1166-1170	SSPD	*[499]	SOFTWARE[499]
+9-45	1170-1171	)	*[499]	SOFTWARE[499]
+9-46	1172-1178	solver	*[499]	SOFTWARE[499]
+9-47	1179-1186	Locally	*[499]	SOFTWARE[499]
+9-48	1187-1194	Optimal	*[499]	SOFTWARE[499]
+9-49	1195-1200	Block	*[499]	SOFTWARE[499]
+9-50	1201-1212	Precodition	*[499]	SOFTWARE[499]
+9-51	1213-1221	Gradient	*[499]	SOFTWARE[499]
+9-52	1222-1223	(	*[499]	SOFTWARE[499]
+9-53	1223-1229	LOBPCG	*[499]	SOFTWARE[499]
+9-54	1229-1230	)	*[499]	SOFTWARE[499]
 9-55	1231-1237	method	_	_
 9-56	1238-1240	to	_	_
 9-57	1241-1246	scale	_	_
@@ -396,11 +396,11 @@
 11-8	1585-1586	:	_	_
 11-9	1586-1587	/	_	_
 11-10	1587-1588	/	_	_
-11-11	1588-1592	mmp2	_	_
+11-11	1588-1592	mmp2	*[169]	PROJECT[169]
 11-12	1592-1593	.	_	_
 11-13	1593-1602	github.io	_	_
 11-14	1602-1603	/	_	_
-11-15	1603-1610	megaman	_	_
+11-15	1603-1610	megaman	*[501]	SOFTWARE[501]
 11-16	1610-1611	/	_	_
 11-17	1613-1615	If	_	_
 11-18	1616-1619	you	_	_
@@ -411,8 +411,8 @@
 11-23	1644-1648	cite	_	_
 11-24	1649-1652	the	_	_
 11-25	1653-1662	following	_	_
-11-26	1663-1667	JMLR	_	_
-11-27	1668-1673	paper	_	_
+11-26	1663-1667	JMLR	*[482]	PUBLICATION[482]
+11-27	1668-1673	paper	*[482]	PUBLICATION[482]
 11-28	1673-1674	:	_	_
 11-29	1676-1683	McQueen	_	_
 11-30	1683-1684	,	_	_
@@ -424,20 +424,20 @@
 11-36	1706-1711	Zhang	_	_
 11-37	1711-1712	,	_	_
 11-38	1713-1714	"	_	_
-11-39	1714-1721	Megaman	_	_
-11-40	1721-1722	:	_	_
-11-41	1723-1731	Scalable	_	_
-11-42	1732-1740	Manifold	_	_
-11-43	1741-1749	Learning	_	_
-11-44	1750-1752	in	_	_
-11-45	1753-1759	Python	_	_
+11-39	1714-1721	Megaman	*[483]	PUBLICATION[483]
+11-40	1721-1722	:	*[483]	PUBLICATION[483]
+11-41	1723-1731	Scalable	*[483]	PUBLICATION[483]
+11-42	1732-1740	Manifold	*[483]	PUBLICATION[483]
+11-43	1741-1749	Learning	*[483]	PUBLICATION[483]
+11-44	1750-1752	in	*[483]	PUBLICATION[483]
+11-45	1753-1759	Python	*[483]	PUBLICATION[483]
 11-46	1759-1760	"	_	_
 11-47	1760-1761	,	_	_
-11-48	1762-1769	Journal	_	_
-11-49	1770-1772	of	_	_
-11-50	1773-1780	Machine	_	_
-11-51	1781-1789	Learning	_	_
-11-52	1790-1798	Research	_	_
+11-48	1762-1769	Journal	*[484]	PUBLICATION[484]
+11-49	1770-1772	of	*[484]	PUBLICATION[484]
+11-50	1773-1780	Machine	*[484]	PUBLICATION[484]
+11-51	1781-1789	Learning	*[484]	PUBLICATION[484]
+11-52	1790-1798	Research	*[484]	PUBLICATION[484]
 11-53	1798-1799	,	_	_
 11-54	1800-1803	Vol	_	_
 11-55	1804-1806	17	_	_
@@ -467,8 +467,8 @@
 11-79	1869-1873	also	_	_
 11-80	1874-1878	find	_	_
 11-81	1879-1882	our	_	_
-11-82	1883-1888	arXiv	_	_
-11-83	1889-1894	paper	_	_
+11-82	1883-1888	arXiv	*[485]	PUBLICATION[485]
+11-83	1889-1894	paper	*[485]	PUBLICATION[485]
 11-84	1895-1897	at	_	_
 11-85	1898-1902	http	_	_
 11-86	1902-1903	:	_	_
@@ -504,7 +504,7 @@
 11-116	2010-2011	/	_	_
 11-117	2011-2019	examples	_	_
 11-118	2019-2020	/	_	_
-11-119	2020-2042	megaman\_tutorial.ipynb	_	_
+11-119	2020-2042	megaman\_tutorial.ipynb	*[503]	SOFTWARE[503]
 11-119	2020-2027	megaman	_	_
 11-120	2042-2043	)	_	_
 11-121	2045-2046	#	_	_
@@ -513,8 +513,8 @@
 11-124	2061-2064	and	_	_
 11-125	2065-2073	Examples	_	_
 11-126	2074-2076	in	_	_
-11-127	2077-2083	Google	_	_
-11-128	2084-2089	Colab	_	_
+11-127	2077-2083	Google	*[504]	SOFTWARE[504]
+11-128	2084-2089	Colab	*[504]	SOFTWARE[504]
 11-129	2091-2096	Below	_	_
 11-130	2097-2101	it's	_	_
 11-131	2102-2103	a	_	_
@@ -527,8 +527,8 @@
 11-138	2142-2147	Colab	_	_
 11-139	2147-2148	,	_	_
 11-140	2149-2156	through	_	_
-11-141	2157-2162	Conda	_	_
-11-142	2163-2174	environment	_	_
+11-141	2157-2162	Conda	*[505]	SOFTWARE[505]
+11-142	2163-2174	environment	*[505]	SOFTWARE[505]
 11-143	2174-2175	.	_	_
 
 #Text=It also provides tutorial of using megaman to build spectral embedding on uniform swiss roll dataset
@@ -545,8 +545,8 @@
 12-11	2238-2247	embedding	_	_
 12-12	2248-2250	on	_	_
 12-13	2251-2258	uniform	_	_
-12-14	2259-2264	swiss	_	_
-12-15	2265-2269	roll	_	_
+12-14	2259-2264	swiss	*[325]	DATASET[325]
+12-15	2265-2269	roll	*[325]	DATASET[325]
 12-16	2270-2277	dataset	_	_
 
 #Text=.
@@ -583,8 +583,8 @@
 15-8	2404-2407	can	_	_
 15-9	2408-2416	download	_	_
 15-10	2417-2420	the	_	_
-15-11	2421-2428	Jupyter	_	_
-15-12	2429-2437	Notebook	_	_
+15-11	2421-2428	Jupyter	*[507]	SOFTWARE[507]
+15-12	2429-2437	Notebook	*[507]	SOFTWARE[507]
 15-13	2438-2445	version	_	_
 15-14	2446-2450	here	_	_
 15-15	2450-2451	\]	_	_
@@ -630,7 +630,7 @@
 16-7	2598-2605	install	_	_
 16-8	2606-2607	`	_	_
 16-9	2607-2608	`	_	_
-16-10	2608-2615	megaman	_	_
+16-10	2608-2615	megaman	*[508]	SOFTWARE[508]
 16-11	2615-2616	`	_	_
 16-12	2616-2617	`	_	_
 16-13	2618-2621	and	_	_
@@ -639,7 +639,7 @@
 16-16	2639-2641	is	_	_
 16-17	2642-2646	with	_	_
 16-18	2647-2648	\[	_	_
-16-19	2648-2653	conda	_	_
+16-19	2648-2653	conda	*[509]	SOFTWARE[509]
 16-20	2653-2654	\]	_	_
 16-21	2654-2655	(	_	_
 16-22	2655-2659	http	_	_
@@ -736,7 +736,7 @@
 18-27	3067-3068	-	_	_
 18-28	3068-3069	c	_	_
 18-29	3070-3081	conda-forge	_	_
-18-30	3082-3089	megaman	_	_
+18-30	3082-3089	megaman	*[511]	SOFTWARE[511]
 18-31	3089-3090	`	_	_
 18-32	3091-3093	is	_	_
 18-33	3094-3096	no	_	_
@@ -766,7 +766,7 @@
 20-8	3207-3209	to	_	_
 20-9	3210-3215	build	_	_
 20-10	3216-3217	`	_	_
-20-11	3217-3224	megaman	_	_
+20-11	3217-3224	megaman	*[512]	SOFTWARE[512]
 20-12	3224-3225	`	_	_
 20-13	3226-3230	from	_	_
 20-14	3231-3237	source	_	_
@@ -787,7 +787,7 @@
 20-29	3322-3323	:	_	_
 20-30	3325-3326	-	_	_
 20-31	3327-3328	\[	_	_
-20-32	3328-3334	python	_	_
+20-32	3328-3334	python	*[187]	PROGLANG[187]
 20-33	3334-3335	\]	_	_
 20-34	3335-3336	(	_	_
 20-35	3336-3340	http	_	_
@@ -806,7 +806,7 @@
 20-48	3389-3392	3.6	_	_
 20-49	3393-3394	-	_	_
 20-50	3395-3396	\[	_	_
-20-51	3396-3401	numpy	_	_
+20-51	3396-3401	numpy	*[513]	SOFTWARE[513]
 20-52	3401-3402	\]	_	_
 20-53	3402-3403	(	_	_
 20-54	3403-3407	http	_	_
@@ -838,7 +838,7 @@
 20-78	3489-3495	higher	_	_
 20-79	3496-3497	-	_	_
 20-80	3498-3499	\[	_	_
-20-81	3499-3511	scikit-learn	_	_
+20-81	3499-3511	scikit-learn	*[514]	SOFTWARE[514]
 20-82	3511-3512	\]	_	_
 20-83	3512-3513	(	_	_
 20-84	3513-3517	http	_	_
@@ -850,7 +850,7 @@
 20-89	3536-3537	)	_	_
 20-90	3538-3539	-	_	_
 20-91	3540-3541	\[	_	_
-20-92	3541-3546	FLANN	_	_
+20-92	3541-3546	FLANN	*[515]	SOFTWARE[515]
 20-93	3546-3547	\]	_	_
 20-94	3547-3548	(	_	_
 20-95	3548-3552	http	_	_
@@ -866,7 +866,7 @@
 20-105	3584-3585	)	_	_
 20-106	3586-3587	-	_	_
 20-107	3588-3589	\[	_	_
-20-108	3589-3596	pyflann	_	_
+20-108	3589-3596	pyflann	*[516]	SOFTWARE[516]
 20-109	3596-3597	\]	_	_
 20-110	3597-3598	(	_	_
 20-111	3598-3602	http	_	_
@@ -900,7 +900,7 @@
 20-139	3738-3739	)	_	_
 20-140	3740-3741	-	_	_
 20-141	3742-3743	\[	_	_
-20-142	3743-3749	cython	_	_
+20-142	3743-3749	cython	*[517]	SOFTWARE[517]
 20-143	3749-3750	\]	_	_
 20-144	3750-3751	(	_	_
 20-145	3751-3755	http	_	_
@@ -937,7 +937,7 @@
 20-175	3835-3842	include	_	_
 20-176	3844-3845	-	_	_
 20-177	3846-3847	\[	_	_
-20-178	3847-3852	pyamg	_	_
+20-178	3847-3852	pyamg	*[518]	SOFTWARE[518]
 20-179	3852-3853	\]	_	_
 20-180	3853-3854	(	_	_
 20-181	3854-3858	http	_	_
@@ -959,7 +959,7 @@
 20-196	3922-3930	matrices	_	_
 20-197	3931-3932	-	_	_
 20-198	3933-3934	\[	_	_
-20-199	3934-3938	nose	_	_
+20-199	3934-3938	nose	*[519]	SOFTWARE[519]
 20-200	3938-3939	\]	_	_
 20-201	3939-3940	(	_	_
 20-202	3940-3945	https	_	_
@@ -995,7 +995,7 @@
 20-230	4053-4058	files	_	_
 20-231	4059-4060	-	_	_
 20-232	4061-4062	\[	_	_
-20-233	4062-4068	plotly	_	_
+20-233	4062-4068	plotly	*[520]	SOFTWARE[520]
 20-234	4068-4069	\]	_	_
 20-235	4069-4070	(	_	_
 20-236	4070-4075	https	_	_
@@ -1195,7 +1195,7 @@
 #Text=``megaman`` is tested on Python versions 2.7, 3.4, and 3.5.  ## Authors - \[James McQueen\](http://www.stat.washington.edu/people/jmcq/) - \[Marina Meila\](http://www.stat.washington.edu/mmp/) - \[Zhongyue Zhang\](https://github.com/Jerryzcn) - \[Jake VanderPlas\](http://www.vanderplas.com) - \[Yu-Chia Chen\](https://github.com/yuchaz)  ## Other Contributors  - Xiao Wang: lazy rmetric, Nystrom Extension - \[Hangliang Ren (Harry)\](https://github.com/Harryahh): Installation tutorials, Spectral Embedding  ## Future Work  See this issues list for what we have planned for upcoming releases:  \[Future Work\](https://github.com/mmp2/megaman/issues/47)
 22-1	4918-4919	`	_	_
 22-2	4919-4920	`	_	_
-22-3	4920-4927	megaman	_	_
+22-3	4920-4927	megaman	*[521]	SOFTWARE[521]
 22-4	4927-4928	`	_	_
 22-5	4928-4929	`	_	_
 22-6	4930-4932	is	_	_

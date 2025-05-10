@@ -10,12 +10,18 @@ import operator as op
 import hashlib
 import multiprocessing as mp
 import logging
+from pathlib import Path
+from bs4 import BeautifulSoup
+from difflib import SequenceMatcher
 
-from predictor import BasePredictor, LABELS
-from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 import utils
 import cleaner
-from difflib import SequenceMatcher
+from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
+from predictor import BasePredictor, LABELS
+
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 def char_diff(ref: str, pred: str):
     matcher = SequenceMatcher(None, ref, pred)
@@ -57,88 +63,6 @@ def char_diff(ref: str, pred: str):
     return ''.join(result_ref), ''.join(result_pred), ops
 
 
-# def char_diff_converter(ref, pred, ops):
-#     result_ref = []
-#     result_pred = []
-
-#     for tag, i1, i2, j1, j2 in ops:
-#         if tag == "equal":
-#             result_pred.append(pred[i1:i2])
-#             result_ref.append(ref[j1:j2])
-#         else:
-#             if tag == "delete":
-#                 # result_pred.append(pred[i1:i2])
-#                 result_pred.append(ref[j1:j2])
-# #                result_ref.append(ref[j1:j2])
-#             elif tag == "insert":
-#                 result_pred.append("@"*(j2-j1))
-# #                result_ref.append(ref[j1:j2])
-#             elif tag == 'replace':
-#                # (i1, i2) -> (j1, j2)
-#                if (i2 - i1) > (j2 - j1):
-#                    result_pred.append('+'*(i2-i1))
-#                else:
-#                    result_pred.append('-'*(i2-i1))
-#                 # result_pred.append(ref[j1:j2])
-# #                result_ref.append(ref[j1:j2])
-# #    ref, pred = ''.join(result_ref), ''.join(result_pred)
-#     pred = ''.join(result_pred)
-#     # if ref != pred:
-#     #     import ipdb; ipdb.set_trace()
-#     return ref, pred, ops
-
-from difflib import SequenceMatcher
-
-import re
-
-LABELS = [
-    'CONFERENCE',
-    'DATASET',
-    'EVALMETRIC',
-    'LICENSE',
-    'ONTOLOGY',
-    'PROGLANG',
-    'PROJECT',
-    'PUBLICATION',
-    'SOFTWARE',
-    'WORKSHOP'
-]
-
-# Join tags into pattern
-tag_pattern = '|'.join(LABELS)
-
-
-tag_pattern = '|'.join(LABELS)
-TAG_RE = re.compile(rf"<(?P<tag>{tag_pattern})>(?P<content>.*?)</(?P=tag)>")
-
-def extract_tagged_spans(text):
-    spans = []
-
-    def replace(match):
-        tag = match.group("tag")
-        content = match.group("content")
-        spans.append({'tag': tag, 'content': content})
-        return content  # Replace tagged span with plain content
-
-
-    cleaned = TAG_RE.sub(replace, text)
-    return cleaned, spans
-
-# def extract_tagged_spans(text):
-#     tag_pattern = r"<(?P<tag>\w+)>(?P<content>.*?)</\1>"
-#     spans = []
-
-#     def _replacer(match):
-#         spans.append({
-#             "tag": match.group("tag"),
-#             "content": match.group("content")
-#         })
-#         return match.group("content")
-
-#     stripped_text = re.sub(tag_pattern, _replacer, text)
-#     return stripped_text, spans
-
-
 def fuzzy_find_span(content, ref_text, used_ranges):
     matcher = SequenceMatcher(None, ref_text, content)
     best_match = None
@@ -159,14 +83,13 @@ def fuzzy_find_span(content, ref_text, used_ranges):
 
     return best_match
 
+
 def reinsert_tags_with_fuzzy(ref_text, spans):
     tagged_text = ref_text
     used_ranges = []
-
     for span in sorted(spans, key=lambda s: -len(s["content"])):  # Longest first
         tag = span["tag"]
         content = span["content"]
-
         match = fuzzy_find_span(content, tagged_text, used_ranges)
         if match:
             start, end = match
@@ -178,103 +101,30 @@ def reinsert_tags_with_fuzzy(ref_text, spans):
 
     return tagged_text
 
-def transfer_tags(pred_raw_text, ref_text):
-    stripped_pred, spans = extract_tagged_spans(pred_raw_text)
-    tagged_ref = reinsert_tags_with_fuzzy(ref_text, spans)
-    return tagged_ref
-
-import xml.etree.ElementTree as ET
-import re
-
-# LABELS = {
-#     'CONFERENCE',
-#     'DATASET',
-#     'EVALMETRIC',
-#     'LICENSE',
-#     'ONTOLOGY',
-#     'PROGLANG',
-#     'PROJECT',
-#     'PUBLICATION',
-#     'SOFTWARE',
-#     'WORKSHOP'
-# }
-
-from xml.etree import ElementTree as ET
-from bs4 import BeautifulSoup
-
-# LABELS = {
-#     'CONFERENCE',
-#     'DATASET',
-#     'EVALMETRIC',
-#     'LICENSE',
-#     'ONTOLOGY',
-#     'PROGLANG',
-#     'PROJECT',
-#     'PUBLICATION',
-#     'SOFTWARE',
-#     'WORKSHOP'
-# }
-LABELS = [x.lower() for x in LABELS]
-# def extract_nested_tags(tagged_text):
-#     # Wrap in root tag to make parsing safe
-#     soup = BeautifulSoup(f"<root>{tagged_text}</root>", "html.parser")
-#     spans = []
-#     def recurse(tag):
-#         for child in tag.children:
-#             if getattr(child, 'name', None) in LABELS:
-#                 content = ''.join(child.strings).strip()
-#                 spans.append((child.name, content))
-#                 recurse(child)  # In case of nested tags
-#             elif hasattr(child, 'children'):
-#                 recurse(child)
-
-#     recurse(soup.root)
-#     return spans
-
-
-# def find_spans_in_target(spans, target):
-#     used = [False] * len(target)
-#     result = []
-
-#     for label, content in spans:
-#         pattern = re.escape(content.strip())
-#         matches = list(re.finditer(pattern, target))
-
-#         for m in matches:
-#             span_range = range(m.start(), m.end())
-#             if not any(used[i] for i in span_range):
-#                 for i in span_range:
-#                     used[i] = True
-#                 result.append((label, content, m.start(), m.end()))
-#                 break
-#     return result
-
-
-# import re
-# from bs4 import BeautifulSoup
-
-# LABELS = {
-#     'CONFERENCE', 'DATASET', 'EVALMETRIC', 'LICENSE', 'ONTOLOGY',
-#     'PROGLANG', 'PROJECT', 'PUBLICATION', 'SOFTWARE', 'WORKSHOP'
-# }
-
 
 def extract_nested_tags(tagged_text):
     """Extract (label, content) from nested tag structure."""
+    labels = [x.lower() for x in LABELS]
     soup = BeautifulSoup(f"<root>{tagged_text}</root>", "html.parser")
     spans = []
 
     def recurse(tag):
         for child in tag.children:
-            if getattr(child, 'name', None) in LABELS:
+            if getattr(child, 'name', None) in labels:
                 content = ''.join(child.strings).strip()
-                spans.append((child.name, content))
+                spans.append({'tag': child.name.upper(), 'content': content})
                 recurse(child)  # Handle nested
             elif hasattr(child, 'children'):
                 recurse(child)
 
     recurse(soup.root)
     return spans
+
+
+def transfer_tags(pred_text, ref_text):
+    spans = extract_nested_tags(pred_text)
+    tagged_ref = reinsert_tags_with_fuzzy(ref_text, spans)
+    return spans, tagged_ref
 
 
 def find_spans_in_target(spans, target):
@@ -286,7 +136,10 @@ def find_spans_in_target(spans, target):
     result = []
     last_match_end = 0  # Avoid overlapping or backward matching
 
-    for label, content in spans:
+    for span in spans:
+        label = span['tag']
+        content = span['content']
+
         pattern = re.escape(content.strip())
         matches = list(re.finditer(pattern, target))
 
@@ -314,62 +167,6 @@ def find_spans_in_target(spans, target):
                     break
 
     return result
-
-
-
-from bs4 import BeautifulSoup, NavigableString, Tag
-
-# LABELS = {
-#     'CONFERENCE', 'DATASET', 'EVALMETRIC', 'LICENSE', 'ONTOLOGY',
-#     'PROGLANG', 'PROJECT', 'PUBLICATION', 'SOFTWARE', 'WORKSHOP'
-# }
-
-def extract_tagged_spans_bs(text):
-    wrapped = f"<root>{text}</root>"  # ensure valid single root
-    soup = BeautifulSoup(wrapped, 'html.parser')
-
-    cleaned = []
-    spans = []
-    offset = 0
-
-    def recurse(node):
-        nonlocal offset
-
-        if isinstance(node, NavigableString):
-            cleaned.append(str(node))
-            return len(node)
-
-        elif isinstance(node, Tag):
-            length = 0
-            tag_text = ''
-
-            for child in node.children:
-                child_len = recurse(child)
-                tag_text += str(child)
-                length += child_len
-
-            if node.name in LABELS:
-                start = offset
-                end = offset + length
-                spans.append({
-                    'tag': node.name,
-                    'content': tag_text,
-                    'start': start,
-                    'end': end
-                })
-
-            offset += length
-            return length
-        return 0
-
-    for el in soup.root.contents:
-        recurse(el)
-
-    return spans, ''.join(cleaned)
-
-
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 class OpenAIPredictor(BasePredictor):
@@ -411,8 +208,6 @@ class OpenAIPredictor(BasePredictor):
                 if span_tokens is None:
                     continue
 
-                if label == 'WORKSHOP':
-                    import ipdb; ipdb.set_trace()
                 annotation = utils.make_annotation(tokens=span_tokens, label=label)
                 annotations.append(annotation)
 
@@ -447,7 +242,8 @@ class OpenAIPredictor(BasePredictor):
         return self.predict(sentence, tokens)
 
     def predict(self, sentence, tokens):
-        path = f'results/{self.model_name}/prompt-{self.prompt_id}/zzz_{self.file_name}' # NOTE: prefix zzz for directory sorting, non-sense
+        # NOTE: prefix zzz for directory sorting, non-sense
+        path = f'results/{self.model_name}/prompt-{self.prompt_id}/zzz_{self.file_name}'
         os.makedirs(path, exist_ok=True)
         sid = hashlib.sha256(sentence.text.encode()).hexdigest()[:8]
         if not os.path.isfile(f'{path}/{sid}.txt'):
@@ -455,15 +251,22 @@ class OpenAIPredictor(BasePredictor):
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
-        ref_text = sentence.text
         cleaned_text = cleaner.Cleaner(predicted_text).clean()
-        tagged_ref = transfer_tags(cleaned_text, ref_text)
+
+        ref_text = sentence.text
+        spans, tagged_ref = transfer_tags(cleaned_text, ref_text)
         tagged_spans = extract_nested_tags(tagged_ref)
+
+        if len(spans) != len(tagged_spans):
+            import ipdb; ipdb.set_trace()
+
         matches = find_spans_in_target(tagged_spans, ref_text)
         label_to_text_list = defaultdict(list)
         for label, content, start, end in matches:
             label_to_text_list[label.upper()].append({'text': content, 'start': start, 'end': end})
 
+        # NOTE: Double check
+        # Ensure the text extracted from predicted text is exact the same as reference text
         for label in label_to_text_list:
             text_list = label_to_text_list[label]
             for text in text_list:
@@ -473,29 +276,23 @@ class OpenAIPredictor(BasePredictor):
                     logging.info(f"bug\n> {x}\n> {y}")
                     import ipdb; ipdb.set_trace()
 
-        print(label_to_text_list)
-
         span_tokens_to_label_list = []
         for label, text_list in label_to_text_list.items():
             for text in text_list:
-                # if label == 'WORKSHOP':
-                #     import ipdb; ipdb.set_trace()
 
                 span_tokens_to_label_list.append({
                     'span_tokens': utils.make_span_tokens(tokens, text['start'], text['end'])[0],
                     'span_tokens_debug': utils.make_span_tokens(tokens, text['start'], text['end'])[1],
                     'label': label
                 })
-                if True:
-                    span_tokens = span_tokens_to_label_list[-1]['span_tokens']
-                    span_tokens_debug = span_tokens_to_label_list[-1]['span_tokens_debug']
-                    # if span_tokens is None:
-                    try:
-                        annotation = utils.make_annotation(tokens=span_tokens, label=label)
-                        if annotation.text != text['text']:
-                            import ipdb; ipdb.set_trace()
-                    except Exception as ex:
+                span_tokens = span_tokens_to_label_list[-1]['span_tokens']
+                span_tokens_debug = span_tokens_to_label_list[-1]['span_tokens_debug']
+                try:
+                    annotation = utils.make_annotation(tokens=span_tokens, label=label)
+                    if annotation.text != text['text']:
                         import ipdb; ipdb.set_trace()
+                except Exception as ex:
+                    import ipdb; ipdb.set_trace()
 
         return span_tokens_to_label_list
 
@@ -573,13 +370,29 @@ class OpenAIPredictor(BasePredictor):
     def set_file_name(self, file_name):
         self.file_name = file_name
 
+
+def double_check(ref_doc, predicted_doc, file_name):
+    if ref_doc.text != predicted_doc.text:
+        logging.warning(f'{file_name} content changed')
+    if len(ref_doc.sentences) != len(predicted_doc.sentences):
+        logging.warning(f'{file_name} sentences changed, {len(ref_doc.sentences)}/{len(predicted_doc.sentences)}')
+    if len(ref_doc.tokens) != len(predicted_doc.tokens):
+        logging.debug(f'{file_name} tokens changed')
+    for s1, s2 in zip(ref_doc.sentences, predicted_doc.sentences):
+        if s1 != s2:
+            logging.warning(f'{file_name} sentence changed, \n{s1}\n{s2}')
+
+    for t1, t2 in zip(ref_doc.tokens, predicted_doc.tokens):
+        if t1 != t2:
+            logging.warning(f'token changed: \n{t1}\n{t2}')
+
+
 if __name__ == "__main__":
-    # mp.set_start_method('fork')
-    phase = 'test_labeled'
-    base_path = f'./data/{phase}'
-    file_names = [fp for fp in os.listdir(base_path) if os.path.isfile(os.path.join(base_path, fp)) and fp.endswith('.tsv')]
+    phase = 'test_unlabeled'
+    base_path = Path(f'data/{phase}')
+    file_paths = [x for x in base_path.rglob('*.tsv')]
     model_name = 'deepseek-chat'
-    output_folder = f'./results/{model_name}/{phase}'
+    output_folder = Path(f'results/{model_name}/{phase}')
     os.makedirs(output_folder, exist_ok=True)
     # DeepSeek Chat
     predictor = OpenAIPredictor(
@@ -588,44 +401,15 @@ if __name__ == "__main__":
         model_name=model_name
     )
 
-    for file_name in file_names:
-        print(f'file_name: {file_name}')
-        # if 'tiehangd_Para_DPMM_master_readme.md.tsv' not in file_name:
+    for file_path in file_paths:
+        print(f'file_name: {file_path.name}')
+
+        # if 'prasunroy_air-writing_master_README.md.tsv' not in file_path.name:
         #     continue
-        if 'dennlinger_tsar-2022-shared-task_main_README.md.tsv' not in file_name:
-            continue
-
-        predictor.set_file_name(file_name)
-        file_path = os.path.join(base_path, file_name)
+        predictor.set_file_name(file_path.name)
         ref_doc = webanno_tsv_read_file(file_path)
-        predicted_doc = predictor(ref_doc)
-
-        # print(ref_doc.text)
-        # for anno in ref_doc.annotations:
-        #     print(f'{anno.label} -> {anno.text}')
-
-        # print('----------------------------------------')
-        # # for anno in predicted_doc.annotations:
-        # #     print(f'{anno.label} -> {anno.text}')
-        # for label, text_list in predictor.label_to_text_list.items():
-        #     for text in text_list:
-        #         print(f'{label} -> {text["text"]}')
-        # Verify
-        if ref_doc.text != predicted_doc.text:
-            logging.warning(f'{file_name} content changed')
-        if len(ref_doc.sentences) != len(predicted_doc.sentences):
-            logging.warning(f'{file_name} sentences changed, {len(ref_doc.sentences)}/{len(predicted_doc.sentences)}')
-        if len(ref_doc.tokens) != len(predicted_doc.tokens):
-            logging.debug(f'{file_name} tokens changed')
-        for s1, s2 in zip(ref_doc.sentences, predicted_doc.sentences):
-            if s1 != s2:
-                logging.warning(f'{file_name} sentence changed, \n{s1}\n{s2}')
-
-        for t1, t2 in zip(ref_doc.tokens, predicted_doc.tokens):
-            if t1 != t2:
-                logging.warning(f'token changed: \n{t1}\n{t2}')
-
-        # logging.info(f"{file_name} predicted {len(predicted_doc.annotations)} annotations, mismatch_sentences/total sentences: {predictor.mismatch_sentences}/{predictor.total_sentences}")
-        prediction_path = os.path.join(output_folder, file_name)
+        pred_doc = predictor(ref_doc)
+        double_check(ref_doc, pred_doc, file_path.name)
+        prediction_path = output_folder / file_path.name
         with open(prediction_path, 'w') as fd:
-            fd.write(predicted_doc.tsv())
+            fd.write(pred_doc.tsv())

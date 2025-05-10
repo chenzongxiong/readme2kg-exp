@@ -337,6 +337,8 @@ if __name__ == "__main__":
             formatted_overall[k] = f'{v * 100:.2f}%'
         json.dump(formatted_overall, fd, indent=2)
 
+        print(json.dumps(formatted_overall, indent=2))
+
     with open(pred_dir / f'00_score_{mode}.json', 'w') as fd:
         formatted_label_to_metrics = {}
         for label, metrics in label_to_metrics.items():
@@ -345,3 +347,5 @@ if __name__ == "__main__":
             metrics['f1'] = f"{metrics['f1'] * 100:.2f}%"
             formatted_label_to_metrics[label] = metrics
         json.dump(formatted_label_to_metrics, fd, indent=2)
+
+        print(json.dumps(formatted_label_to_metrics, indent=2))
