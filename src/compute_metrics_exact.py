@@ -4,11 +4,9 @@ import os
 from collections import defaultdict
 from functools import reduce
 import pandas as pd
+from pathlib import Path
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation
 from typing import List, Union
-# from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, confusion_matrix
-
-# from seqeval.scheme import IOB2
 
 
 LABELS = [
@@ -97,8 +95,6 @@ def get_parse():
     parser = argparse.ArgumentParser(description="")
     parser.add_argument('--reference_dir', type=str, help='Path to the reference data, e.g. training/validation/test data', required=True)
     parser.add_argument('--prediction_dir', type=str, help='Path to save the prediction results', required=True)
-    # parser.add_argument('--score_dir', type=str, help='Path to store scores', default='./results/scores')
-    # parser.add_argument('--average', type=str, choices=['macro', 'micro', 'weighted'], help='Type of averaging for metrics calculation', default='macro')
     return parser
 
 def get_spans(tag_list):
@@ -125,7 +121,6 @@ def get_spans(tag_list):
         i += 1
     return spans
 
-
 def compute_metrics(y_true_, y_pred_):
     if any(isinstance(s, list) for s in y_true_):
         y_true = [item for sublist in y_true_ for item in sublist]
@@ -134,24 +129,15 @@ def compute_metrics(y_true_, y_pred_):
     x_i = [i for i in range(len(y_true)-1) if y_true[i] == 'O' and 'I-' in y_true[i+1]]
     y_i = [i for i in range(len(y_pred)-1) if y_pred[i] == 'O' and 'I-' in y_pred[i+1]]
     if len(x_i) > 0 or len(y_i) > 0:
+        print('BUG')
         import ipdb; ipdb.set_trace()
-
 
     spans_true = get_spans(y_true)
     spans_pred = get_spans(y_pred)
 
     tp_spans = [x for x in spans_pred if x in spans_true]
-    fp_spans = [x for x in spans_pred if x not in spans_true]
-    fn_spans = [x for x in spans_true if x not in spans_pred]
-
-    # TP = sum(y_t == y_p for y_t, y_p in zip(y_true, y_pred) if ((y_t != 'O') or (y_p != 'O')))
-    # FP = sum(((y_t != y_p) and (y_p != 'O')) for y_t, y_p in zip(y_true, y_pred))
-    # FN = sum(((y_t != 'O') and (y_p == 'O')) for y_t, y_p in zip(y_true, y_pred))
-    # TN = sum((y_t == y_p == 'O') for y_t, y_p in zip(y_true, y_pred))
     TP_ = sum([x[1] - x[0] + 1 for x in tp_spans])
-    # FP = sum([x[1] - x[0] for x in fp_spans])
-    # FN = sum([x[1] - x[0] for x in fn_spans])
-    # TN = sum((y_t == y_p == 'O') for y_t, y_p in zip(y_true, y_pred))
+
     FP = 0
     FN = 0
     TN = 0
@@ -181,6 +167,11 @@ def compute_metrics(y_true_, y_pred_):
             FN += 1
         i += 1
 
+    if TP + FN + TN + FP != len(y_true):
+        import ipdb; ipdb.set_trace()
+
+    if TP != TP_:
+        import ipdb; ipdb.set_trace()
 
     precision = TP / (TP + FP) if TP + FP > 0 else 0.0
     recall = TP / (TP + FN) if TP + FN > 0 else 0.0
@@ -250,37 +241,20 @@ if __name__ == "__main__":
     parser = get_parse()
     args = parser.parse_args()
 
-    ref_dir = args.reference_dir
-    pred_dir = args.prediction_dir
-    # score_dir = args.score_dir
-    # average_type = args.average  # Get the average type from command line
+    ref_dir = Path(args.reference_dir)
+    pred_dir = Path(args.prediction_dir)
 
-    os.makedirs(pred_dir, exist_ok=True)
-    # os.makedirs(score_dir, exist_ok=True)
-
-    ref_file_names = sorted([fp for fp in os.listdir(ref_dir) if os.path.isfile(f'{ref_dir}/{fp}') and fp.endswith('.tsv')])
-
-    # ref_file_names = [x for x in ref_file_names if 'ARM-software' in x]
-
+    ref_file_names = sorted([x for x in ref_dir.rglob('*.tsv')])
     if len(ref_file_names) == 0:
         raise Exception("ERROR: No reference files found, configuration error?")
 
-    all_ref_bio_tags_list = []
-    for ref_file_name in ref_file_names:
-        src_path = os.path.join(ref_dir, ref_file_name)
-        ref_path = src_path
-        all_ref_bio_tags_list.append(to_char_bio(src_path, ref_path))
+    all_ref_bio_tags_list = [to_char_bio(ref_path, ref_path) for ref_path in ref_file_names]
 
-    pred_file_names = sorted([fp for fp in os.listdir(pred_dir) if os.path.isfile(f'{pred_dir}/{fp}') and fp.endswith('.tsv')])
-    # pred_file_names = [x for x in pred_file_names if 'ARM-software' in x]
-    # pred_file_names = pred_file_names
-    # import ipdb; ipdb.set_trace()
     all_pred_bio_tags_list = []
-    for idx, ref_file_name in enumerate(ref_file_names):
+    for idx, ref_path in enumerate(ref_file_names):
         try:
-            src_path = os.path.join(pred_dir, ref_file_name)
-            ref_path = os.path.join(ref_dir, ref_file_name)
-            all_pred_bio_tags_list.append(to_char_bio(src_path, ref_path))
+            pred_path = pred_dir / ref_path.name
+            all_pred_bio_tags_list.append(to_char_bio(pred_path, ref_path))
         except FileNotFoundError:
             nbr_labels = len(all_ref_bio_tags_list[idx])
             assert nbr_labels == len(LABELS), "ERROR: reference tags doesn't have ${len(LABELS)} labels."
@@ -288,8 +262,9 @@ if __name__ == "__main__":
             for label_idx in range(nbr_labels):
                 pred.append(['O'] * len(all_ref_bio_tags_list[idx][label_idx]))
 
-            print(f"WARN: {ref_file_name} is missing, fill 'O' list as default prediction")
+            print(f"WARN: {ref_path.name} is missing, fill 'O' list as default prediction")
             all_pred_bio_tags_list.append(pred)
+
     # Sanity checking
     for idx, (ref_list, pred_list) in enumerate(zip(all_ref_bio_tags_list, all_pred_bio_tags_list)):
         for label_idx, (ref, pred) in enumerate(zip(ref_list, pred_list)):
@@ -307,12 +282,10 @@ if __name__ == "__main__":
             print('ERROR: pred bio tags list')
 
         for label, ref_bio_tags, pred_bio_tags in zip(LABELS, ref_bio_tags_list, pred_bio_tags_list):
-            # label_to_ref_bio_tags_list[label].extend(ref_bio_tags)
-            # label_to_pred_bio_tags_list[label].extend(pred_bio_tags)
-            x_i = [i for i in range(len(ref_bio_tags)-1) if ref_bio_tags[i] == 'O' and 'I-' in ref_bio_tags[i+1]]
-            y_i = [i for i in range(len(pred_bio_tags)-1) if pred_bio_tags[i] == 'O' and 'I-' in pred_bio_tags[i+1]]
-            if len(x_i) > 0 or len(y_i) > 0:
-                import ipdb; ipdb.set_trace()
+            # x_i = [i for i in range(len(ref_bio_tags) - 1) if ref_bio_tags[i] == 'O' and 'I-' in ref_bio_tags[i + 1]]
+            # y_i = [i for i in range(len(pred_bio_tags) - 1) if pred_bio_tags[i] == 'O' and 'I-' in pred_bio_tags[i + 1]]
+            # if len(x_i) > 0 or len(y_i) > 0:
+            #     import ipdb; ipdb.set_trace()
             label_to_ref_bio_tags_list[label].append(ref_bio_tags)
             label_to_pred_bio_tags_list[label].append(pred_bio_tags)
 
@@ -327,11 +300,19 @@ if __name__ == "__main__":
         metrics = compute_metrics(ref_bio_tags_list, pred_bio_tags_list)
         label_to_metrics[label] = metrics
 
+    overall = calculate_macro_micro_weighted_metrics(label_to_metrics)
+    # print(json.dumps(result, indent=2))
+    with open(pred_dir / '00_score_all_exact.json', 'w') as fd:
+        formatted_overall = {}
+        for k, v in overall.items():
+            formatted_overall[k] = f'{v * 100:.2f}%'
+        json.dump(formatted_overall, fd, indent=2)
 
-    df = pd.DataFrame(label_to_metrics)
-    print(df)
-    result = calculate_macro_micro_weighted_metrics(label_to_metrics)
-    print(json.dumps(result, indent=2))
-
-    # result = pd.DataFrame(result)
-    # print(result)
+    with open(pred_dir / '00_score_exact.json', 'w') as fd:
+        formatted_label_to_metrics = {}
+        for label, metrics in label_to_metrics.items():
+            metrics['precision'] = f"{metrics['precision'] * 100:.2f}%"
+            metrics['recall'] = f"{metrics['recall'] * 100:.2f}%"
+            metrics['f1'] = f"{metrics['f1'] * 100:.2f}%"
+            formatted_label_to_metrics[label] = metrics
+        json.dump(formatted_label_to_metrics, fd, indent=2)
