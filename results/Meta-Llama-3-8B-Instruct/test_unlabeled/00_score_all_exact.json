@@ -1,0 +1,11 @@
+{
+  "macro_precision": "0.00%",
+  "macro_recall": "0.00%",
+  "macro_f1": "0.00%",
+  "micro_precision": "0.00%",
+  "micro_recall": "0.00%",
+  "micro_f1": "0.00%",
+  "weighted_precision": "0.00%",
+  "weighted_recall": "0.00%",
+  "weighted_f1": "0.00%"
+}

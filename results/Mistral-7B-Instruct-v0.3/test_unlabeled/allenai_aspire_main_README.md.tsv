@@ -8,34 +8,34 @@
 1-3	2-3	#	_	_
 1-4	4-10	Aspire	_	_
 1-5	11-21	Repository	_	_
-1-6	22-34	accompanying	*[0]	PUBLICATION[0]
-1-7	35-40	paper	*[0]	PUBLICATION[0]
-1-8	41-44	for	*[0]	PUBLICATION[0]
-1-9	45-53	modeling	*[0]	PUBLICATION[0]
-1-10	54-58	fine	*[0]	PUBLICATION[0]
-1-11	59-66	grained	*[0]	PUBLICATION[0]
-1-12	67-77	similarity	*[0]	PUBLICATION[0]
-1-13	78-85	between	*[0]	PUBLICATION[0]
-1-14	86-95	documents	*[0]	PUBLICATION[0]
-1-15	95-96	:	*[0]	PUBLICATION[0]
-1-16	99-100	\*	*[0]	PUBLICATION[0]
-1-17	100-101	\*	*[0]	PUBLICATION[0]
-1-18	101-106	Title	*[0]	PUBLICATION[0]
-1-19	106-107	\*	*[0]	PUBLICATION[0]
-1-20	107-108	\*	*[0]	PUBLICATION[0]
-1-21	108-109	:	*[0]	PUBLICATION[0]
-1-22	110-111	"	_	_
-1-23	111-123	Multi-Vector	_	_
-1-24	124-130	Models	_	_
-1-25	131-135	with	_	_
-1-26	136-143	Textual	_	_
-1-27	144-152	Guidance	_	_
-1-28	153-156	for	_	_
-1-29	157-169	Fine-Grained	_	_
-1-30	170-180	Scientific	_	_
-1-31	181-189	Document	_	_
-1-32	190-200	Similarity	_	_
-1-33	200-201	"	_	_
+1-6	22-34	accompanying	_	_
+1-7	35-40	paper	_	_
+1-8	41-44	for	_	_
+1-9	45-53	modeling	_	_
+1-10	54-58	fine	_	_
+1-11	59-66	grained	_	_
+1-12	67-77	similarity	_	_
+1-13	78-85	between	_	_
+1-14	86-95	documents	_	_
+1-15	95-96	:	_	_
+1-16	99-100	\*	_	_
+1-17	100-101	\*	_	_
+1-18	101-106	Title	_	_
+1-19	106-107	\*	_	_
+1-20	107-108	\*	_	_
+1-21	108-109	:	_	_
+1-22	110-111	"	*[318]	PUBLICATION[318]
+1-23	111-123	Multi-Vector	*[318]	PUBLICATION[318]
+1-24	124-130	Models	*[318]	PUBLICATION[318]
+1-25	131-135	with	*[318]	PUBLICATION[318]
+1-26	136-143	Textual	*[318]	PUBLICATION[318]
+1-27	144-152	Guidance	*[318]	PUBLICATION[318]
+1-28	153-156	for	*[318]	PUBLICATION[318]
+1-29	157-169	Fine-Grained	*[318]	PUBLICATION[318]
+1-30	170-180	Scientific	*[318]	PUBLICATION[318]
+1-31	181-189	Document	*[318]	PUBLICATION[318]
+1-32	190-200	Similarity	*[318]	PUBLICATION[318]
+1-33	200-201	"	*[318]	PUBLICATION[318]
 1-34	203-204	\*	_	_
 1-35	204-205	\*	_	_
 1-36	205-212	Authors	_	_
@@ -87,20 +87,20 @@
 2-11	433-435	of	_	_
 2-12	436-447	supervision	_	_
 2-13	447-448	:	_	_
-2-14	449-458	sentences	_	_
-2-15	459-461	in	_	_
-2-16	462-465	the	_	_
-2-17	466-475	full-text	_	_
-2-18	476-478	of	_	_
-2-19	479-485	papers	_	_
-2-20	486-490	that	_	_
-2-21	491-495	cite	_	_
-2-22	496-504	multiple	_	_
-2-23	505-511	papers	_	_
-2-24	512-520	together	_	_
-2-25	521-522	(	_	_
-2-26	522-534	co-citations	_	_
-2-27	534-535	)	_	_
+2-14	449-458	sentences	*[281]	PUBLICATION[281]
+2-15	459-461	in	*[281]	PUBLICATION[281]
+2-16	462-465	the	*[281]	PUBLICATION[281]
+2-17	466-475	full-text	*[281]	PUBLICATION[281]
+2-18	476-478	of	*[281]	PUBLICATION[281]
+2-19	479-485	papers	*[281]	PUBLICATION[281]
+2-20	486-490	that	*[281]	PUBLICATION[281]
+2-21	491-495	cite	*[281]	PUBLICATION[281]
+2-22	496-504	multiple	*[281]	PUBLICATION[281]
+2-23	505-511	papers	*[281]	PUBLICATION[281]
+2-24	512-520	together	*[281]	PUBLICATION[281]
+2-25	521-522	(	*[281]	PUBLICATION[281]
+2-26	522-534	co-citations	*[281]	PUBLICATION[281]
+2-27	534-535	)	*[281]	PUBLICATION[281]
 2-28	535-536	.	_	_
 
 #Text=Such co-citations not only reflect close paper relatedness, but also provide textual descriptions of how the co-cited papers are related.
@@ -110,8 +110,8 @@
 3-4	559-563	only	_	_
 3-5	564-571	reflect	_	_
 3-6	572-577	close	_	_
-3-7	578-583	paper	_	_
-3-8	584-595	relatedness	_	_
+3-7	578-583	paper	*[283]	PUBLICATION[283]
+3-8	584-595	relatedness	*[283]	PUBLICATION[283]
 3-9	595-596	,	_	_
 3-10	597-600	but	_	_
 3-11	601-605	also	_	_
@@ -121,8 +121,8 @@
 3-15	635-637	of	_	_
 3-16	638-641	how	_	_
 3-17	642-645	the	_	_
-3-18	646-654	co-cited	_	_
-3-19	655-661	papers	_	_
+3-18	646-654	co-cited	*[284]	PUBLICATION[284]
+3-19	655-661	papers	*[284]	PUBLICATION[284]
 3-20	662-665	are	_	_
 3-21	666-673	related	_	_
 3-22	673-674	.	_	_
@@ -130,10 +130,10 @@
 #Text=This novel form of textual supervision is used for learning to match aspects across papers.
 4-1	675-679	This	_	_
 4-2	680-685	novel	_	_
-4-3	686-690	form	_	_
-4-4	691-693	of	_	_
-4-5	694-701	textual	_	_
-4-6	702-713	supervision	_	_
+4-3	686-690	form	*[271]	PROJECT[271]
+4-4	691-693	of	*[271]	PROJECT[271]
+4-5	694-701	textual	*[271]	PROJECT[271]
+4-6	702-713	supervision	*[271]	PROJECT[271]
 4-7	714-716	is	_	_
 4-8	717-721	used	_	_
 4-9	722-725	for	_	_
@@ -142,7 +142,7 @@
 4-12	738-743	match	_	_
 4-13	744-751	aspects	_	_
 4-14	752-758	across	_	_
-4-15	759-765	papers	_	_
+4-15	759-765	papers	*[285]	PUBLICATION[285]
 4-16	765-766	.	_	_
 
 #Text=We develop multi-vector representations where vectors correspond to sentence-level aspects of documents, and present two methods for aspect matching: (1) A fast method that only matches single aspects, and (2) a method that makes sparse multiple matches with an Optimal Transport mechanism that computes an Earth Mover's Distance between aspects.
@@ -198,9 +198,9 @@
 5-50	1057-1061	that	_	_
 5-51	1062-1070	computes	_	_
 5-52	1071-1073	an	_	_
-5-53	1074-1079	Earth	_	_
-5-54	1080-1087	Mover's	_	_
-5-55	1088-1096	Distance	_	_
+5-53	1074-1079	Earth	*[159]	EVALMETRIC[159]
+5-54	1080-1087	Mover's	*[159]	EVALMETRIC[159]
+5-55	1088-1096	Distance	*[159]	EVALMETRIC[159]
 5-56	1097-1104	between	_	_
 5-57	1105-1112	aspects	_	_
 5-58	1112-1113	.	_	_
@@ -216,7 +216,7 @@
 6-8	1171-1176	tasks	_	_
 6-9	1177-1179	in	_	_
 6-10	1180-1184	four	_	_
-6-11	1185-1193	datasets	_	_
+6-11	1185-1193	datasets	*[289]	DATASET[289]
 6-12	1193-1194	.	_	_
 
 #Text=Further, our fast single-match method achieves competitive results, paving the way for applying fine-grained similarity to large scientific corpora.
@@ -238,9 +238,9 @@
 7-16	1291-1303	fine-grained	_	_
 7-17	1304-1314	similarity	_	_
 7-18	1315-1317	to	_	_
-7-19	1318-1323	large	_	_
-7-20	1324-1334	scientific	_	_
-7-21	1335-1342	corpora	_	_
+7-19	1318-1323	large	*[290]	DATASET[290]
+7-20	1324-1334	scientific	*[290]	DATASET[290]
+7-21	1335-1342	corpora	*[290]	DATASET[290]
 7-22	1342-1343	.	_	_
 
 #Text=The pre-print can be accessed here: https://arxiv.org/abs/2111.08366  \*\*NEWS:\*\* This work has been accepted to NAACL 2022, stay tuned for the camera-ready paper and additional artifacts.  ### Contents 1.
@@ -266,14 +266,14 @@
 8-20	1422-1423	:	_	_
 8-21	1423-1424	\*	_	_
 8-22	1424-1425	\*	_	_
-8-23	1426-1430	This	_	_
-8-24	1431-1435	work	_	_
+8-23	1426-1430	This	*[286]	PUBLICATION[286]
+8-24	1431-1435	work	*[286]	PUBLICATION[286]
 8-25	1436-1439	has	_	_
 8-26	1440-1444	been	_	_
 8-27	1445-1453	accepted	_	_
 8-28	1454-1456	to	_	_
-8-29	1457-1462	NAACL	_	_
-8-30	1463-1467	2022	_	_
+8-29	1457-1462	NAACL	*[107]	CONFERENCE[107]
+8-30	1463-1467	2022	*[107]	CONFERENCE[107]
 8-31	1467-1468	,	_	_
 8-32	1469-1473	stay	_	_
 8-33	1474-1479	tuned	_	_
@@ -305,8 +305,8 @@
 
 #Text=\[HF Models\](#models)     1.
 10-1	1581-1582	\[	_	_
-10-2	1582-1584	HF	_	_
-10-3	1585-1591	Models	_	_
+10-2	1582-1584	HF	*[272]	PROJECT[272]
+10-3	1585-1591	Models	*[272]	PROJECT[272]
 10-4	1591-1592	\]	_	_
 10-5	1592-1593	(	_	_
 10-6	1593-1594	#	_	_
@@ -371,7 +371,7 @@
 15-5	1768-1769	#	_	_
 15-6	1769-1777	citation	_	_
 15-7	1777-1778	)	_	_
-15-8	1779-1780	1	_	_
+15-8	1779-1780	1	*[287]	PUBLICATION[287]
 15-9	1780-1781	.	_	_
 
 #Text=\[TODOs\](#todos)   ### Artifacts <a name="artifacts"></a>  #### Models <a name="models"></a>  Models described in the paper are released as Hugging Face models:  `otAspire`:  - \[`allenai/aspire-contextualsentence-multim-compsci`\](https://huggingface.co/allenai/aspire-contextualsentence-multim-compsci) - \[`allenai/aspire-contextualsentence-multim-biomed`\](https://huggingface.co/allenai/aspire-contextualsentence-multim-biomed)  `tsAspire`:   - \[`allenai/aspire-contextualsentence-singlem-compsci`\](https://huggingface.co/allenai/aspire-contextualsentence-singlem-compsci) - \[`allenai/aspire-contextualsentence-singlem-biomed`\](https://huggingface.co/allenai/aspire-contextualsentence-singlem-biomed)   `SPECTER-CoCite`:   - \[`allenai/aspire-biencoder-compsci-spec`\](https://huggingface.co/allenai/aspire-biencoder-compsci-spec) - \[`allenai/aspire-biencoder-biomed-scib`\](https://huggingface.co/allenai/aspire-biencoder-biomed-scib) - \[`allenai/aspire-biencoder-biomed-spec`\](https://huggingface.co/allenai/aspire-biencoder-biomed-spec)  `cosentbert`:   - \[`allenai/aspire-sentence-embedder`\](https://huggingface.co/allenai/aspire-sentence-embedder)  #### Model Usage Instructions <a name="modelusage"></a>  ##### `tsAspire`  The `tsAspire` multi-vector model trained for single matches across documents can be used via the `transformers` library and some additional code to compute contextual sentence vectors as:  ```python from transformers import AutoTokenizer from examples.ex\_aspire\_consent import AspireConSent, prepare\_abstracts  # Initialize the tokenizer and model. hf\_model\_name = 'allenai/aspire-contextualsentence-singlem-compsci' aspire\_tok = AutoTokenizer.from\_pretrained(hf\_model\_name) aspire\_mv\_model = AspireConSent(hf\_model\_name)   # Example input. ex\_abstracts = \[     {'TITLE': "Multi-Vector Models with Textual Guidance for Fine-Grained Scientific"               " Document Similarity",      'ABSTRACT': \["We present a new scientific document similarity model based on "                   "matching fine-grained aspects of texts.",                   "To train our model, we exploit a naturally-occurring source of "                   "supervision: sentences in the full-text of papers that cite multiple "                   "papers together (co-citations)."\]},     {'TITLE': "CSFCube -- A Test Collection of Computer Science Research Articles for "               "Faceted Query by Example",      'ABSTRACT': \["Query by Example is a well-known information retrieval task in which"                   " a document is chosen by the user as the search query and the goal is "                   "to retrieve relevant documents from a large collection.",                   "However, a document often covers multiple aspects of a topic.",                   "To address this scenario we introduce the task of faceted Query by "                   "Example in which users can also specify a finer grained aspect in "                   "addition to the input query document. "\]} \]  bert\_batch, abs\_lens, sent\_token\_idxs = prepare\_abstracts(batch\_abs=ex\_abstracts,                                                           pt\_lm\_tokenizer=aspire\_tok) clsreps, contextual\_sent\_reps = aspire\_mv\_model.forward(bert\_batch=bert\_batch,                                                         abs\_lens=abs\_lens,                                                         sent\_tok\_idxs=sent\_token\_idxs) ```  ##### `otAspire`  The `otAspire` multi-vector model trained for \_multiple\_ matching across documents can be used via the `transformers` library, and some additional code to compute contextual sentence vectors and to make multiple matches using optimal transport.
@@ -1042,7 +1042,7 @@
 17-39	5651-5652	#	_	_
 17-40	5652-5653	#	_	_
 17-41	5654-5655	`	_	_
-17-42	5655-5669	SPECTER-CoCite	_	_
+17-42	5655-5669	SPECTER-CoCite	*[273]	PROJECT[273]
 17-43	5669-5670	`	_	_
 17-44	5672-5675	The	_	_
 17-45	5676-5677	`	_	_
@@ -1231,7 +1231,7 @@
 18-11	6693-6704	performance	_	_
 18-12	6705-6707	in	_	_
 18-13	6708-6712	some	_	_
-18-14	6713-6721	datasets	_	_
+18-14	6713-6721	datasets	*[291]	DATASET[291]
 18-15	6721-6722	.	_	_
 
 #Text=Obtain the model zip files:  - \[`aspire-biencoder-biomed-scib-full`\](https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-biomed-scib-full.zip) - \[`aspire-biencoder-biomed-spec-full`\](https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-biomed-spec-full.zip) - \[`aspire-biencoder-compsci-spec-full`\](https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-compsci-spec-full.zip)  ```bash wget -O aspire-biencoder-compsci-spec-full.zip https://ai2-s2-research.s3.us-west-2.amazonaws.com/aspire/aspire-biencoder-compsci-spec-full.zip unzip aspire-biencoder-compsci-spec-full.zip ```  Now it may be used as:  ```python  import os, json, codecs, torch from transformers import AutoTokenizer from examples.ex\_aspire\_bienc import AspireBiEnc  # Directory where zipped model was downloaded and unzipped. model\_path = '.
@@ -1678,7 +1678,7 @@
 23-22	8943-8944	/	_	_
 23-23	8944-8952	projects	_	_
 23-24	8952-8953	/	_	_
-23-25	8953-8962	RELISH-DB	_	_
+23-25	8953-8962	RELISH-DB	*[293]	DATASET[293]
 23-26	8962-8963	)	_	_
 23-27	8963-8964	.	_	_
 
@@ -1689,7 +1689,7 @@
 24-4	8984-8991	created	_	_
 24-5	8992-8994	in	_	_
 24-6	8995-8996	`	_	_
-24-7	8996-9014	pre\_proc\_relish.py	_	_
+24-7	8996-9014	pre\_proc\_relish.py	*[275]	PROGLANG[275]
 24-8	9014-9015	`	_	_
 
 #Text=.
@@ -1771,9 +1771,9 @@
 27-63	9319-9323	from	_	_
 27-64	9324-9327	the	_	_
 27-65	9328-9329	\[	_	_
-27-66	9329-9333	CORD	_	_
-27-67	9333-9334	-	_	_
-27-68	9334-9336	19	_	_
+27-66	9329-9333	CORD	*[296]	DATASET[296]
+27-67	9333-9334	-	*[296]	DATASET[296]
+27-68	9334-9336	19	*[296]	DATASET[296]
 27-69	9336-9337	\]	_	_
 27-70	9337-9338	(	_	_
 27-71	9338-9343	https	_	_
@@ -1800,11 +1800,11 @@
 27-92	9435-9437	in	_	_
 27-93	9438-9441	the	_	_
 27-94	9442-9443	\[	_	_
-27-95	9443-9447	2021	_	_
-27-96	9447-9448	-	_	_
-27-97	9448-9450	06	_	_
-27-98	9450-9451	-	_	_
-27-99	9451-9453	21	_	_
+27-95	9443-9447	2021	*[290]	PUBLICATION[290]
+27-96	9447-9448	-	*[290]	PUBLICATION[290]
+27-97	9448-9450	06	*[290]	PUBLICATION[290]
+27-98	9450-9451	-	*[290]	PUBLICATION[290]
+27-99	9451-9453	21	*[290]	PUBLICATION[290]
 27-100	9453-9454	\]	_	_
 27-101	9454-9455	(	_	_
 27-102	9455-9460	https	_	_
@@ -1840,7 +1840,7 @@
 28-1	9552-9555	The	_	_
 28-2	9556-9564	function	_	_
 28-3	9565-9566	`	_	_
-28-4	9566-9579	get\_qbe\_pools	_	_
+28-4	9566-9579	get\_qbe\_pools	*[276]	PROGLANG[276]
 28-5	9579-9580	`	_	_
 28-6	9581-9583	in	_	_
 28-7	9584-9585	`	_	_
@@ -1860,7 +1860,7 @@
 28-20	9658-9670	reformulated	_	_
 28-21	9671-9675	form	_	_
 28-22	9675-9676	,	_	_
-28-23	9677-9689	TRECCOVID-RF	_	_
+28-23	9677-9689	TRECCOVID-RF	*[297]	DATASET[297]
 28-23	9677-9686	TRECCOVID	_	_
 28-24	9689-9690	,	_	_
 28-25	9691-9695	used	_	_
@@ -1876,7 +1876,7 @@
 29-4	9729-9736	created	_	_
 29-5	9737-9739	in	_	_
 29-6	9740-9741	`	_	_
-29-7	9741-9762	pre\_proc\_treccovid.py	_	_
+29-7	9741-9762	pre\_proc\_treccovid.py	*[277]	PROGLANG[277]
 29-7	9750-9759	treccovid	_	_
 29-8	9762-9763	`	_	_
 
@@ -1902,7 +1902,7 @@
 31-16	9819-9820	/	_	_
 31-17	9820-9827	allenai	_	_
 31-18	9827-9828	/	_	_
-31-19	9828-9835	scidocs	_	_
+31-19	9828-9835	scidocs	*[274]	PROJECT[274]
 31-20	9835-9836	)	_	_
 31-21	9836-9837	.	_	_
 
@@ -1913,8 +1913,8 @@
 32-4	9857-9865	supplied	_	_
 32-5	9866-9875	alongside	_	_
 32-6	9876-9879	the	_	_
-32-7	9880-9888	original	_	_
-32-8	9889-9896	dataset	_	_
+32-7	9880-9888	original	*[298]	DATASET[298]
+32-8	9889-9896	dataset	*[298]	DATASET[298]
 32-9	9897-9900	are	_	_
 32-10	9901-9905	used	_	_
 32-11	9906-9908	as	_	_
@@ -1940,7 +1940,7 @@
 34-14	9956-9957	/	_	_
 34-15	9957-9967	github.com	_	_
 34-16	9967-9968	/	_	_
-34-17	9968-9972	iesl	_	_
+34-17	9968-9972	iesl	*[275]	PROJECT[275]
 34-18	9972-9973	/	_	_
 34-19	9973-9980	CSFCube	_	_
 34-20	9980-9981	)	_	_
@@ -1948,13 +1948,13 @@
 
 #Text=The dataset splits supplied alongside the original dataset are used as is.
 35-1	9983-9986	The	_	_
-35-2	9987-9994	dataset	_	_
-35-3	9995-10001	splits	_	_
+35-2	9987-9994	dataset	*[299]	DATASET[299]
+35-3	9995-10001	splits	*[299]	DATASET[299]
 35-4	10002-10010	supplied	_	_
 35-5	10011-10020	alongside	_	_
 35-6	10021-10024	the	_	_
-35-7	10025-10033	original	_	_
-35-8	10034-10041	dataset	_	_
+35-7	10025-10033	original	*[300]	DATASET[300]
+35-8	10034-10041	dataset	*[300]	DATASET[300]
 35-9	10042-10045	are	_	_
 35-10	10046-10050	used	_	_
 35-11	10051-10053	as	_	_
@@ -2256,26 +2256,26 @@
 37-5	11832-11833	/	_	_
 37-6	11833-11834	`	_	_
 37-7	11834-11835	:	_	_
-37-8	11836-11843	Classes	_	_
-37-9	11844-11847	for	_	_
-37-10	11848-11860	implementing	_	_
-37-11	11861-11867	models	_	_
-37-12	11867-11868	,	_	_
-37-13	11869-11877	training	_	_
-37-14	11877-11878	,	_	_
-37-15	11879-11887	batching	_	_
-37-16	11888-11892	data	_	_
-37-17	11892-11893	,	_	_
-37-18	11894-11897	and	_	_
-37-19	11898-11899	a	_	_
-37-20	11900-11904	main	_	_
-37-21	11905-11911	script	_	_
-37-22	11912-11914	to	_	_
-37-23	11915-11920	train	_	_
-37-24	11921-11924	and	_	_
-37-25	11925-11929	save	_	_
-37-26	11930-11933	the	_	_
-37-27	11934-11939	model	_	_
+37-8	11836-11843	Classes	*[283]	PROJECT[283]
+37-9	11844-11847	for	*[283]	PROJECT[283]
+37-10	11848-11860	implementing	*[283]	PROJECT[283]
+37-11	11861-11867	models	*[283]	PROJECT[283]
+37-12	11867-11868	,	*[283]	PROJECT[283]
+37-13	11869-11877	training	*[283]	PROJECT[283]
+37-14	11877-11878	,	*[283]	PROJECT[283]
+37-15	11879-11887	batching	*[283]	PROJECT[283]
+37-16	11888-11892	data	*[283]	PROJECT[283]
+37-17	11892-11893	,	*[283]	PROJECT[283]
+37-18	11894-11897	and	*[283]	PROJECT[283]
+37-19	11898-11899	a	*[283]	PROJECT[283]
+37-20	11900-11904	main	*[283]	PROJECT[283]
+37-21	11905-11911	script	*[283]	PROJECT[283]
+37-22	11912-11914	to	*[283]	PROJECT[283]
+37-23	11915-11920	train	*[283]	PROJECT[283]
+37-24	11921-11924	and	*[283]	PROJECT[283]
+37-25	11925-11929	save	*[283]	PROJECT[283]
+37-26	11930-11933	the	*[283]	PROJECT[283]
+37-27	11934-11939	model	*[283]	PROJECT[283]
 37-28	11939-11940	.	_	_
 
 #Text=`src/evaluation/`: Scripts to evaluate model performances on various evaluation datasets.
@@ -2314,7 +2314,7 @@
 40-1	12076-12077	`	_	_
 40-2	12077-12083	config	_	_
 40-3	12083-12084	/	_	_
-40-4	12084-12097	models\_config	_	_
+40-4	12084-12097	models\_config	*[284]	PROJECT[284]
 40-5	12097-12098	`	_	_
 40-6	12098-12099	:	_	_
 40-7	12100-12104	JSON	_	_
@@ -2333,7 +2333,7 @@
 40-20	12177-12178	`	_	_
 40-21	12178-12181	src	_	_
 40-22	12181-12182	/	_	_
-40-23	12182-12190	learning	_	_
+40-23	12182-12190	learning	*[285]	PROJECT[285]
 40-24	12190-12191	/	_	_
 40-25	12191-12192	`	_	_
 40-26	12192-12193	.	_	_
@@ -2348,23 +2348,23 @@
 41-7	12227-12230	the	_	_
 41-8	12231-12241	Biomedical	_	_
 41-9	12242-12243	(	_	_
-41-10	12243-12249	RELISH	_	_
+41-10	12243-12249	RELISH	*[304]	DATASET[304]
 41-11	12249-12250	,	_	_
-41-12	12251-12263	TRECCOVID-RF	_	_
+41-12	12251-12263	TRECCOVID-RF	*[305]	DATASET[305]
 41-12	12251-12260	TRECCOVID	_	_
 41-13	12263-12264	)	_	_
 41-14	12264-12265	,	_	_
 41-15	12266-12274	Computer	_	_
 41-16	12275-12282	Science	_	_
 41-17	12283-12284	(	_	_
-41-18	12284-12291	CSFCube	_	_
+41-18	12284-12291	CSFCube	*[306]	DATASET[306]
 41-19	12291-12292	)	_	_
 41-20	12292-12293	,	_	_
 41-21	12294-12297	and	_	_
 41-22	12298-12303	mixed	_	_
 41-23	12304-12311	domains	_	_
 41-24	12312-12313	(	_	_
-41-25	12313-12320	SciDocs	_	_
+41-25	12313-12320	SciDocs	*[307]	DATASET[307]
 41-26	12320-12321	)	_	_
 41-27	12322-12324	we	_	_
 41-28	12325-12330	train	_	_
@@ -2403,7 +2403,7 @@
 
 #Text=`bin`: Shell scripts to call the scripts in all the `src` sub-directories with appropriate command line arguments.
 42-1	12504-12505	`	_	_
-42-2	12505-12508	bin	_	_
+42-2	12505-12508	bin	*[286]	PROJECT[286]
 42-3	12508-12509	`	_	_
 42-4	12509-12510	:	_	_
 42-5	12511-12516	Shell	_	_
@@ -2507,12 +2507,12 @@
 46-2	12932-12939	mapping	_	_
 46-3	12940-12944	from	_	_
 46-4	12945-12948	the	_	_
-46-5	12949-12954	model	_	_
-46-6	12955-12960	names	_	_
-46-7	12960-12961	/	_	_
-46-8	12961-12968	classes	_	_
-46-9	12968-12969	/	_	_
-46-10	12969-12976	configs	_	_
+46-5	12949-12954	model	*[287]	PROJECT[287]
+46-6	12955-12960	names	*[287]	PROJECT[287]
+46-7	12960-12961	/	*[287]	PROJECT[287]
+46-8	12961-12968	classes	*[287]	PROJECT[287]
+46-9	12968-12969	/	*[287]	PROJECT[287]
+46-10	12969-12976	configs	*[287]	PROJECT[287]
 46-11	12977-12979	in	_	_
 46-12	12980-12983	the	_	_
 46-13	12984-12994	repository	_	_
@@ -2542,8 +2542,8 @@
 46-37	13102-13110	rankings	_	_
 46-38	13111-13115	over	_	_
 46-39	13116-13119	the	_	_
-46-40	13120-13130	evaluation	_	_
-46-41	13131-13139	datasets	_	_
+46-40	13120-13130	evaluation	*[308]	DATASET[308]
+46-41	13131-13139	datasets	*[308]	DATASET[308]
 46-42	13139-13140	.	_	_
 
 #Text=Supports trained & downloaded models, and it is simple to add new models to the flow.
@@ -2598,7 +2598,7 @@
 49-15	13368-13372	from	_	_
 49-16	13373-13376	the	_	_
 49-17	13377-13378	\[	_	_
-49-18	13378-13383	S2ORC	_	_
+49-18	13378-13383	S2ORC	*[309]	DATASET[309]
 49-19	13383-13384	\]	_	_
 49-20	13384-13385	(	_	_
 49-21	13385-13390	https	_	_
@@ -2628,12 +2628,12 @@
 49-45	13501-13504	the	_	_
 49-46	13505-13510	paper	_	_
 49-47	13511-13512	(	_	_
-49-48	13512-13522	biomedical	_	_
-49-49	13523-13529	papers	_	_
+49-48	13512-13522	biomedical	*[288]	PROJECT[288]
+49-49	13523-13529	papers	*[288]	PROJECT[288]
 49-50	13530-13533	and	_	_
-49-51	13534-13542	computer	_	_
-49-52	13543-13550	science	_	_
-49-53	13551-13557	papers	_	_
+49-51	13534-13542	computer	*[289]	PROJECT[289]
+49-52	13543-13550	science	*[289]	PROJECT[289]
+49-53	13551-13557	papers	*[289]	PROJECT[289]
 49-54	13557-13558	)	_	_
 49-55	13558-13559	.	_	_
 
@@ -2642,14 +2642,14 @@
 50-2	13565-13569	code	_	_
 50-3	13570-13577	assumes	_	_
 50-4	13578-13581	the	_	_
-50-5	13582-13586	2019	_	_
-50-6	13586-13587	-	_	_
-50-7	13587-13589	09	_	_
-50-8	13589-13590	-	_	_
-50-9	13590-13592	28	_	_
-50-10	13593-13600	release	_	_
-50-11	13601-13603	of	_	_
-50-12	13604-13609	S2ORC	_	_
+50-5	13582-13586	2019	*[310]	DATASET[310]
+50-6	13586-13587	-	*[310]	DATASET[310]
+50-7	13587-13589	09	*[310]	DATASET[310]
+50-8	13589-13590	-	*[310]	DATASET[310]
+50-9	13590-13592	28	*[310]	DATASET[310]
+50-10	13593-13600	release	*[310]	DATASET[310]
+50-11	13601-13603	of	*[310]	DATASET[310]
+50-12	13604-13609	S2ORC	*[310]	DATASET[310]
 50-13	13609-13610	.	_	_
 
 #Text=`src/pre\_process/pre\_proc\_cocits.py:` Generate training data for the models reported in the paper.
@@ -2662,15 +2662,15 @@
 51-7	13648-13649	:	_	_
 51-8	13649-13650	`	_	_
 51-9	13651-13659	Generate	_	_
-51-10	13660-13668	training	_	_
-51-11	13669-13673	data	_	_
+51-10	13660-13668	training	*[290]	PROJECT[290]
+51-11	13669-13673	data	*[290]	PROJECT[290]
 51-12	13674-13677	for	_	_
 51-13	13678-13681	the	_	_
 51-14	13682-13688	models	_	_
 51-15	13689-13697	reported	_	_
 51-16	13698-13700	in	_	_
 51-17	13701-13704	the	_	_
-51-18	13705-13710	paper	_	_
+51-18	13705-13710	paper	*[293]	PUBLICATION[293]
 51-19	13710-13711	.	_	_
 
 #Text=Co-citations are used for training sentence level encoder models and whole abstract models, training data for both these model types are generated from functions in this script.
@@ -2679,29 +2679,29 @@
 52-3	13729-13733	used	_	_
 52-4	13734-13737	for	_	_
 52-5	13738-13746	training	_	_
-52-6	13747-13755	sentence	_	_
-52-7	13756-13761	level	_	_
-52-8	13762-13769	encoder	_	_
-52-9	13770-13776	models	_	_
+52-6	13747-13755	sentence	*[282]	SOFTWARE[282]
+52-7	13756-13761	level	*[282]	SOFTWARE[282]
+52-8	13762-13769	encoder	*[282]	SOFTWARE[282]
+52-9	13770-13776	models	*[282]	SOFTWARE[282]
 52-10	13777-13780	and	_	_
-52-11	13781-13786	whole	_	_
-52-12	13787-13795	abstract	_	_
-52-13	13796-13802	models	_	_
+52-11	13781-13786	whole	*[283]	SOFTWARE[283]
+52-12	13787-13795	abstract	*[283]	SOFTWARE[283]
+52-13	13796-13802	models	*[283]	SOFTWARE[283]
 52-14	13802-13803	,	_	_
 52-15	13804-13812	training	_	_
 52-16	13813-13817	data	_	_
 52-17	13818-13821	for	_	_
 52-18	13822-13826	both	_	_
 52-19	13827-13832	these	_	_
-52-20	13833-13838	model	_	_
-52-21	13839-13844	types	_	_
+52-20	13833-13838	model	*[291]	PROJECT[291]
+52-21	13839-13844	types	*[291]	PROJECT[291]
 52-22	13845-13848	are	_	_
 52-23	13849-13858	generated	_	_
 52-24	13859-13863	from	_	_
 52-25	13864-13873	functions	_	_
 52-26	13874-13876	in	_	_
 52-27	13877-13881	this	_	_
-52-28	13882-13888	script	_	_
+52-28	13882-13888	script	*[292]	PROJECT[292]
 52-29	13888-13889	.	_	_
 
 #Text=These are the `filter\_cocitation\_sentences` and `filter\_cocitation\_papers` functions respectively.
@@ -2753,11 +2753,11 @@
 55-6	14158-14166	pre\_proc	_	_
 55-7	14166-14167	\_	_	_
 55-8	14167-14168	{	_	_
-55-9	14168-14174	relish	_	_
-55-10	14174-14175	/	_	_
-55-11	14175-14182	scidocs	_	_
-55-12	14182-14183	/	_	_
-55-13	14183-14192	treccovid	_	_
+55-9	14168-14174	relish	*[293]	PROJECT[293]
+55-10	14174-14175	/	*[293]	PROJECT[293]
+55-11	14175-14182	scidocs	*[293]	PROJECT[293]
+55-12	14182-14183	/	*[293]	PROJECT[293]
+55-13	14183-14192	treccovid	*[293]	PROJECT[293]
 55-14	14192-14193	}	_	_
 55-15	14193-14194	.	_	_
 55-16	14194-14196	py	_	_
@@ -2768,12 +2768,12 @@
 55-21	14215-14225	evaluation	_	_
 55-22	14226-14234	datasets	_	_
 55-23	14235-14236	(	_	_
-55-24	14236-14242	RELISH	_	_
+55-24	14236-14242	RELISH	*[311]	DATASET[311]
 55-25	14242-14243	,	_	_
-55-26	14244-14253	TRECCOVID	_	_
+55-26	14244-14253	TRECCOVID	*[312]	DATASET[312]
 55-27	14253-14254	,	_	_
 55-28	14255-14258	and	_	_
-55-29	14259-14266	SciDocs	_	_
+55-29	14259-14266	SciDocs	*[313]	DATASET[313]
 55-30	14266-14267	)	_	_
 55-31	14268-14272	into	_	_
 55-32	14273-14274	a	_	_
@@ -2807,17 +2807,17 @@
 57-7	14415-14422	follows	_	_
 57-8	14422-14423	:	_	_
 57-9	14425-14426	`	_	_
-57-10	14426-14429	src	_	_
-57-11	14429-14430	/	_	_
-57-12	14430-14441	pre\_process	_	_
-57-13	14441-14442	/	_	_
-57-14	14442-14461	extract\_entities.py	_	_
+57-10	14426-14429	src	*[279]	PROGLANG[279]
+57-11	14429-14430	/	*[279]	PROGLANG[279]
+57-12	14430-14441	pre\_process	*[279]	PROGLANG[279]
+57-13	14441-14442	/	*[279]	PROGLANG[279]
+57-14	14442-14461	extract\_entities.py	*[279]	PROGLANG[279]
 57-15	14461-14462	`	_	_
 57-16	14462-14463	:	_	_
 57-17	14465-14468	Use	_	_
-57-18	14469-14475	PURE's	_	_
-57-19	14476-14482	Entity	_	_
-57-20	14483-14488	Model	_	_
+57-18	14469-14475	PURE's	*[101]	ONTOLOGY[101]
+57-19	14476-14482	Entity	*[101]	ONTOLOGY[101]
+57-20	14483-14488	Model	*[101]	ONTOLOGY[101]
 57-21	14489-14490	(	_	_
 57-22	14490-14491	)	_	_
 57-23	14492-14494	to	_	_
@@ -2997,7 +2997,7 @@
 59-143	15100-15111	ICTSentBert	_	_
 59-144	15125-15126	\|	_	_
 59-145	15134-15135	`	_	_
-59-146	15135-15146	ictsentbert	_	_
+59-146	15135-15146	ictsentbert	*[296]	PROJECT[296]
 59-147	15146-15147	`	_	_
 59-148	15155-15156	\|	_	_
 59-149	15158-15159	`	_	_
@@ -3008,9 +3008,9 @@
 59-154	15209-15223	SPECTER-CoCite	_	_
 59-155	15237-15238	\|	_	_
 59-156	15246-15247	`	_	_
-59-157	15247-15257	hparam\_opt	_	_
-59-158	15257-15258	/	_	_
-59-159	15258-15272	cospecter-best	_	_
+59-157	15247-15257	hparam\_opt	*[298]	PROJECT[298]
+59-158	15257-15258	/	*[298]	PROJECT[298]
+59-159	15258-15272	cospecter-best	*[298]	PROJECT[298]
 59-160	15272-15273	`	_	_
 59-161	15273-15274	/	_	_
 59-162	15274-15275	`	_	_
@@ -3368,7 +3368,7 @@
 60-1	17267-17274	Release	_	_
 60-2	17275-17282	trained	_	_
 60-3	17283-17288	model	_	_
-60-4	17289-17299	parameters	_	_
+60-4	17289-17299	parameters	*[284]	SOFTWARE[284]
 60-5	17299-17300	.	_	_
 
 #Text=(in-progress)     - Currently released models are \_per-domain\_ models for computer science and biomedical papers which were used in the paper.
@@ -3418,14 +3418,14 @@
 62-17	17546-17556	scientific	_	_
 62-18	17557-17564	domains	_	_
 62-19	17564-17565	.	_	_
-62-20	17566-17567	2	_	_
+62-20	17566-17567	2	*[160]	EVALMETRIC[160]
 62-21	17567-17568	.	_	_
 
 #Text=Release training training data
 63-1	17569-17576	Release	_	_
 63-2	17577-17585	training	_	_
-63-3	17586-17594	training	_	_
-63-4	17595-17599	data	_	_
+63-3	17586-17594	training	*[315]	DATASET[315]
+63-4	17595-17599	data	*[315]	DATASET[315]
 
 #Text=.
 64-1	17599-17600	.	_	_
@@ -3458,7 +3458,7 @@
 65-25	17725-17732	million	_	_
 65-26	17733-17738	pairs	_	_
 65-27	17739-17741	of	_	_
-65-28	17742-17748	papers	_	_
+65-28	17742-17748	papers	*[294]	PUBLICATION[294]
 65-29	17748-17749	.	_	_
 65-30	17750-17751	3	_	_
 65-31	17751-17752	.	_	_
@@ -3479,5 +3479,5 @@
 68-4	17803-17805	be	_	_
 68-5	17806-17814	released	_	_
 68-6	17815-17818	for	_	_
-68-7	17819-17834	reproducibility	_	_
+68-7	17819-17834	reproducibility	*[295]	PUBLICATION[295]
 68-8	17834-17835	.	_	_

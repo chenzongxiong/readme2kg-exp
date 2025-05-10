@@ -4,8 +4,8 @@
 
 #Text=# Code search  This project contains the code to reproduce the experiments in the paper \[Neural Code Search Revisited: Enhancing Code Snippet Retrieval through Natural Language Intent\](https://arxiv.org/abs/2008.12193).
 1-1	0-1	#	_	_
-1-2	2-6	Code	_	_
-1-3	7-13	search	_	_
+1-2	2-6	Code	*[194]	PROJECT[194]
+1-3	7-13	search	*[194]	PROJECT[194]
 1-4	15-19	This	_	_
 1-5	20-27	project	_	_
 1-6	28-36	contains	_	_
@@ -19,30 +19,30 @@
 1-14	78-81	the	_	_
 1-15	82-87	paper	_	_
 1-16	88-89	\[	_	_
-1-17	89-95	Neural	_	_
-1-18	96-100	Code	_	_
-1-19	101-107	Search	_	_
-1-20	108-117	Revisited	_	_
-1-21	117-118	:	_	_
-1-22	119-128	Enhancing	_	_
-1-23	129-133	Code	_	_
-1-24	134-141	Snippet	_	_
-1-25	142-151	Retrieval	_	_
-1-26	152-159	through	_	_
-1-27	160-167	Natural	_	_
-1-28	168-176	Language	_	_
-1-29	177-183	Intent	_	_
+1-17	89-95	Neural	*[237]	PUBLICATION[237]
+1-18	96-100	Code	*[237]	PUBLICATION[237]
+1-19	101-107	Search	*[237]	PUBLICATION[237]
+1-20	108-117	Revisited	*[237]	PUBLICATION[237]
+1-21	117-118	:	*[237]	PUBLICATION[237]
+1-22	119-128	Enhancing	*[237]	PUBLICATION[237]
+1-23	129-133	Code	*[237]	PUBLICATION[237]
+1-24	134-141	Snippet	*[237]	PUBLICATION[237]
+1-25	142-151	Retrieval	*[237]	PUBLICATION[237]
+1-26	152-159	through	*[237]	PUBLICATION[237]
+1-27	160-167	Natural	*[237]	PUBLICATION[237]
+1-28	168-176	Language	*[237]	PUBLICATION[237]
+1-29	177-183	Intent	*[237]	PUBLICATION[237]
 1-30	183-184	\]	_	_
 1-31	184-185	(	_	_
-1-32	185-190	https	_	_
-1-33	190-191	:	_	_
-1-34	191-192	/	_	_
-1-35	192-193	/	_	_
-1-36	193-202	arxiv.org	_	_
-1-37	202-203	/	_	_
-1-38	203-206	abs	_	_
-1-39	206-207	/	_	_
-1-40	207-217	2008.12193	_	_
+1-32	185-190	https	*[238]	PUBLICATION[238]
+1-33	190-191	:	*[238]	PUBLICATION[238]
+1-34	191-192	/	*[238]	PUBLICATION[238]
+1-35	192-193	/	*[238]	PUBLICATION[238]
+1-36	193-202	arxiv.org	*[238]	PUBLICATION[238]
+1-37	202-203	/	*[238]	PUBLICATION[238]
+1-38	203-206	abs	*[238]	PUBLICATION[238]
+1-39	206-207	/	*[238]	PUBLICATION[238]
+1-40	207-217	2008.12193	*[238]	PUBLICATION[238]
 1-41	217-218	)	_	_
 1-42	218-219	.	_	_
 
@@ -53,8 +53,8 @@
 2-4	244-251	systems	_	_
 2-5	252-255	for	_	_
 2-6	256-265	annotated	_	_
-2-7	266-270	code	_	_
-2-8	271-279	snippets	_	_
+2-7	266-270	code	*[178]	SOFTWARE[178]
+2-8	271-279	snippets	*[178]	SOFTWARE[178]
 2-9	279-280	:	_	_
 2-10	281-286	pairs	_	_
 2-11	287-289	of	_	_
@@ -64,9 +64,9 @@
 2-15	305-308	and	_	_
 2-16	309-310	a	_	_
 2-17	311-316	short	_	_
-2-18	317-324	natural	_	_
-2-19	325-333	language	_	_
-2-20	334-345	description	_	_
+2-18	317-324	natural	*[239]	PUBLICATION[239]
+2-19	325-333	language	*[239]	PUBLICATION[239]
+2-20	334-345	description	*[239]	PUBLICATION[239]
 2-21	345-346	.	_	_
 
 #Text=Our pretrained models and datasets are hosted on Zenodo (https://zenodo.org/record/4001602).
@@ -134,16 +134,16 @@
 6-7	618-628	implements	_	_
 6-8	629-633	some	_	_
 6-9	634-635	\*	_	_
-6-10	635-644	code-only	_	_
+6-10	635-644	code-only	*[195]	PROJECT[195]
 6-11	644-645	\*	_	_
 6-12	646-655	retrieval	_	_
 6-13	656-662	models	_	_
 6-14	663-664	(	_	_
-6-15	664-668	BM25	_	_
+6-15	664-668	BM25	*[206]	PROGLANG[206]
 6-16	668-669	,	_	_
-6-17	670-673	NCS	_	_
+6-17	670-673	NCS	*[207]	PROGLANG[207]
 6-18	673-674	,	_	_
-6-19	675-679	UNIF	_	_
+6-19	675-679	UNIF	*[208]	PROGLANG[208]
 6-20	679-680	)	_	_
 6-21	681-684	for	_	_
 6-22	685-692	snippet	_	_
@@ -195,12 +195,12 @@
 8-9	924-926	in	_	_
 8-10	927-930	the	_	_
 8-11	931-932	\[	_	_
-8-12	932-943	Application	_	_
-8-13	944-953	Platforms	_	_
-8-14	954-957	and	_	_
-8-15	958-966	Software	_	_
-8-16	967-974	Systems	_	_
-8-17	975-978	Lab	_	_
+8-12	932-943	Application	*[196]	PROJECT[196]
+8-13	944-953	Platforms	*[196]	PROJECT[196]
+8-14	954-957	and	*[196]	PROJECT[196]
+8-15	958-966	Software	*[196]	PROJECT[196]
+8-16	967-974	Systems	*[196]	PROJECT[196]
+8-17	975-978	Lab	*[196]	PROJECT[196]
 8-18	978-979	\]	_	_
 8-19	979-980	(	_	_
 8-20	980-985	https	_	_
@@ -244,8 +244,8 @@
 9-4	1149-1156	library	_	_
 9-5	1156-1157	:	_	_
 9-6	1158-1159	`	_	_
-9-7	1159-1162	pip	_	_
-9-8	1163-1170	install	_	_
+9-7	1159-1162	pip	*[180]	SOFTWARE[180]
+9-8	1163-1170	install	*[180]	SOFTWARE[180]
 9-9	1171-1172	.	_	_
 9-10	1172-1173	`	_	_
 9-11	1174-1175	2	_	_
@@ -254,8 +254,8 @@
 #Text=Install the tree-sitter parsers (for preprocessing the code snippets): e.g., `codesearch install\_parsers python java` or simply `codesearch install\_parsers` to install parsers for all supported languages.
 10-1	1177-1184	Install	_	_
 10-2	1185-1188	the	_	_
-10-3	1189-1200	tree-sitter	_	_
-10-4	1201-1208	parsers	_	_
+10-3	1189-1200	tree-sitter	*[181]	SOFTWARE[181]
+10-4	1201-1208	parsers	*[181]	SOFTWARE[181]
 10-5	1209-1210	(	_	_
 10-6	1210-1213	for	_	_
 10-7	1214-1227	preprocessing	_	_
@@ -268,10 +268,10 @@
 10-14	1251-1252	.	_	_
 10-15	1252-1253	,	_	_
 10-16	1254-1255	`	_	_
-10-17	1255-1265	codesearch	_	_
-10-18	1266-1281	install\_parsers	_	_
-10-19	1282-1288	python	_	_
-10-20	1289-1293	java	_	_
+10-17	1255-1265	codesearch	*[211]	PROGLANG[211]
+10-18	1266-1281	install\_parsers	*[211]	PROGLANG[211]
+10-19	1282-1288	python	*[211]	PROGLANG[211]
+10-20	1289-1293	java	*[211]	PROGLANG[211]
 10-21	1293-1294	`	_	_
 10-22	1295-1297	or	_	_
 10-23	1298-1304	simply	_	_
@@ -315,7 +315,7 @@
 11-24	1511-1512	`	_	_
 11-25	1513-1521	variable	_	_
 11-26	1521-1522	.	_	_
-11-27	1523-1524	3	_	_
+11-27	1523-1524	3	*[117]	EVALMETRIC[117]
 11-28	1524-1525	.	_	_
 
 #Text=Install spacy (for preprocessing descriptions/code comments): `python -m spacy download en\_core\_web\_md`   ## Code structure  ``` codesearch ├── codesearch          // Contains the library modules: model code, utilities to download and evaluate models, etc. ├── nbs                 // Contains examples notebooks and notebooks to reproduce the experiments ├── tests               // Contains some unit tests, mostly for verifying the code preprocessing ```  ## Models  We provide some pretrained embedding models to create a retrieval system.
@@ -336,7 +336,7 @@
 12-15	1597-1598	m	_	_
 12-16	1599-1604	spacy	_	_
 12-17	1605-1613	download	_	_
-12-18	1614-1628	en\_core\_web\_md	_	_
+12-18	1614-1628	en\_core\_web\_md	*[212]	PROGLANG[212]
 12-19	1628-1629	`	_	_
 12-20	1632-1633	#	_	_
 12-21	1633-1634	#	_	_
@@ -662,7 +662,7 @@
 #Text=For each model, we mention based on what information it computes a snippet embedding: the description and/or the code
 14-1	3297-3300	For	_	_
 14-2	3301-3305	each	_	_
-14-3	3306-3311	model	_	_
+14-3	3306-3311	model	*[197]	PROJECT[197]
 14-4	3311-3312	,	_	_
 14-5	3313-3315	we	_	_
 14-6	3316-3323	mention	_	_
@@ -673,8 +673,8 @@
 14-11	3350-3352	it	_	_
 14-12	3353-3361	computes	_	_
 14-13	3362-3363	a	_	_
-14-14	3364-3371	snippet	_	_
-14-15	3372-3381	embedding	_	_
+14-14	3364-3371	snippet	*[182]	SOFTWARE[182]
+14-15	3372-3381	embedding	*[182]	SOFTWARE[182]
 14-16	3381-3382	:	_	_
 14-17	3383-3386	the	_	_
 14-18	3387-3398	description	_	_
@@ -990,9 +990,9 @@
 
 #Text=The staqc-py-cleaned, conala-curated, and codesearchnet collections are derived from existing datasets.
 17-1	4810-4813	The	_	_
-17-2	4814-4830	staqc-py-cleaned	_	_
+17-2	4814-4830	staqc-py-cleaned	*[231]	DATASET[231]
 17-3	4830-4831	,	_	_
-17-4	4832-4846	conala-curated	_	_
+17-4	4832-4846	conala-curated	*[232]	DATASET[232]
 17-5	4846-4847	,	_	_
 17-6	4848-4851	and	_	_
 17-7	4852-4865	codesearchnet	_	_
@@ -1017,8 +1017,8 @@
 18-10	4979-4980	,	_	_
 18-11	4981-4984	for	_	_
 18-12	4985-4988	the	_	_
-18-13	4989-5002	codesearchnet	_	_
-18-14	5003-5014	collections	_	_
+18-13	4989-5002	codesearchnet	*[234]	DATASET[234]
+18-14	5003-5014	collections	*[234]	DATASET[234]
 18-15	5015-5017	we	_	_
 18-16	5018-5024	merely	_	_
 18-17	5025-5029	load	_	_
@@ -1033,7 +1033,7 @@
 18-26	5071-5081	consistent	_	_
 18-27	5082-5086	with	_	_
 18-28	5087-5090	our	_	_
-18-29	5091-5095	code	_	_
+18-29	5091-5095	code	*[185]	SOFTWARE[185]
 18-30	5095-5096	.	_	_
 
 #Text=If you were to use any of these datasets in your research, please make sure to cite the respective works
@@ -1282,18 +1282,18 @@
 22-20	5758-5765	LICENSE	_	_
 22-21	5765-5766	\]	_	_
 22-22	5766-5767	(	_	_
-22-23	5767-5772	https	_	_
-22-24	5772-5773	:	_	_
-22-25	5773-5774	/	_	_
-22-26	5774-5775	/	_	_
-22-27	5775-5794	creativecommons.org	_	_
-22-28	5794-5795	/	_	_
-22-29	5795-5803	licenses	_	_
-22-30	5803-5804	/	_	_
-22-31	5804-5809	by-sa	_	_
-22-32	5809-5810	/	_	_
-22-33	5810-5813	4.0	_	_
-22-34	5813-5814	/	_	_
+22-23	5767-5772	https	*[35]	LICENSE[35]
+22-24	5772-5773	:	*[35]	LICENSE[35]
+22-25	5773-5774	/	*[35]	LICENSE[35]
+22-26	5774-5775	/	*[35]	LICENSE[35]
+22-27	5775-5794	creativecommons.org	*[35]	LICENSE[35]
+22-28	5794-5795	/	*[35]	LICENSE[35]
+22-29	5795-5803	licenses	*[35]	LICENSE[35]
+22-30	5803-5804	/	*[35]	LICENSE[35]
+22-31	5804-5809	by-sa	*[35]	LICENSE[35]
+22-32	5809-5810	/	*[35]	LICENSE[35]
+22-33	5810-5813	4.0	*[35]	LICENSE[35]
+22-34	5813-5814	/	*[35]	LICENSE[35]
 22-35	5814-5815	)	_	_
 22-36	5876-5877	\|	_	_
 22-37	5878-5879	\|	_	_
@@ -1349,7 +1349,7 @@
 23-27	6166-6167	/	_	_
 23-28	6167-6173	master	_	_
 23-29	6173-6174	/	_	_
-23-30	6174-6185	LICENSE.txt	_	_
+23-30	6174-6185	LICENSE.txt	*[36]	LICENSE[36]
 23-31	6185-6186	)	_	_
 23-32	6217-6218	\|	_	_
 23-33	6219-6220	\|	_	_
@@ -1395,31 +1395,31 @@
 24-25	6424-6425	)	_	_
 24-26	6514-6515	\|	_	_
 24-27	6516-6517	\|	_	_
-24-28	6518-6531	codesearchnet	_	_
-24-29	6531-6532	-	_	_
-24-30	6532-6533	{	_	_
-24-31	6533-6541	language	_	_
-24-32	6541-6542	}	_	_
-24-33	6542-6543	-	_	_
-24-34	6543-6544	{	_	_
-24-35	6544-6549	train	_	_
-24-36	6549-6550	\\	_	_
-24-37	6550-6551	\|	_	_
-24-38	6551-6556	valid	_	_
-24-39	6556-6557	\\	_	_
-24-40	6557-6558	\|	_	_
-24-41	6558-6562	test	_	_
-24-42	6562-6563	}	_	_
+24-28	6518-6531	codesearchnet	*[236]	DATASET[236]
+24-29	6531-6532	-	*[236]	DATASET[236]
+24-30	6532-6533	{	*[236]	DATASET[236]
+24-31	6533-6541	language	*[236]	DATASET[236]
+24-32	6541-6542	}	*[236]	DATASET[236]
+24-33	6542-6543	-	*[236]	DATASET[236]
+24-34	6543-6544	{	*[236]	DATASET[236]
+24-35	6544-6549	train	*[236]	DATASET[236]
+24-36	6549-6550	\\	*[236]	DATASET[236]
+24-37	6550-6551	\|	*[236]	DATASET[236]
+24-38	6551-6556	valid	*[236]	DATASET[236]
+24-39	6556-6557	\\	*[236]	DATASET[236]
+24-40	6557-6558	\|	*[236]	DATASET[236]
+24-41	6558-6562	test	*[236]	DATASET[236]
+24-42	6562-6563	}	*[236]	DATASET[236]
 24-43	6564-6565	\|	_	_
 24-44	6566-6569	The	_	_
-24-45	6570-6583	CodeSearchNet	_	_
-24-46	6584-6591	snippet	_	_
-24-47	6592-6603	collections	_	_
+24-45	6570-6583	CodeSearchNet	*[237]	DATASET[237]
+24-46	6584-6591	snippet	*[237]	DATASET[237]
+24-47	6592-6603	collections	*[237]	DATASET[237]
 24-48	6604-6608	used	_	_
 24-49	6609-6612	for	_	_
 24-50	6613-6621	training	_	_
 24-51	6621-6622	/	_	_
-24-52	6622-6625	MRR	_	_
+24-52	6622-6625	MRR	*[120]	EVALMETRIC[120]
 24-53	6626-6636	validation	_	_
 24-54	6636-6637	/	_	_
 24-55	6637-6640	MRR	_	_
@@ -1436,7 +1436,7 @@
 25-7	6672-6673	/	_	_
 25-8	6673-6679	github	_	_
 25-9	6679-6680	/	_	_
-25-10	6680-6693	CodeSearchNet	_	_
+25-10	6680-6693	CodeSearchNet	*[203]	PROJECT[203]
 25-11	6693-6694	.	_	_
 
 #Text=Licenses of the individial snippets can be found in pkl files
@@ -1471,10 +1471,10 @@
 28-13	6890-6894	used	_	_
 28-14	6895-6898	for	_	_
 28-15	6899-6902	the	_	_
-28-16	6903-6910	weights	_	_
-28-17	6911-6914	and	_	_
-28-18	6915-6921	biases	_	_
-28-19	6922-6931	benchmark	_	_
+28-16	6903-6910	weights	*[121]	EVALMETRIC[121]
+28-17	6911-6914	and	*[121]	EVALMETRIC[121]
+28-18	6915-6921	biases	*[121]	EVALMETRIC[121]
+28-19	6922-6931	benchmark	*[121]	EVALMETRIC[121]
 28-20	6931-6932	.	_	_
 
 #Text=See https://github.com/github/CodeSearchNet.
@@ -1487,7 +1487,7 @@
 29-7	6955-6956	/	_	_
 29-8	6956-6962	github	_	_
 29-9	6962-6963	/	_	_
-29-10	6963-6976	CodeSearchNet	_	_
+29-10	6963-6976	CodeSearchNet	*[204]	PROJECT[204]
 29-11	6976-6977	.	_	_
 
 #Text=Licenses of the individial snippets can be found in pkl files.
@@ -1500,8 +1500,8 @@
 30-7	7018-7020	be	_	_
 30-8	7021-7026	found	_	_
 30-9	7027-7029	in	_	_
-30-10	7030-7033	pkl	_	_
-30-11	7034-7039	files	_	_
+30-10	7030-7033	pkl	*[238]	DATASET[238]
+30-11	7034-7039	files	*[238]	DATASET[238]
 30-12	7039-7040	.	_	_
 
 #Text=\*\*Note\*\*: not all of these snippets have descriptions \|  ### Evaluation data Evaluation datasets link queries to relevant snippets in one of the above snippet collections.   #### Example: load an evaluation dataset ```python from codesearch.data import load\_eval\_dataset queries, query2ids = load\_eval\_dataset("so-ds-feb20-valid") ```  #### Available evaluation datasets \| name                           \| description                                                                     \| \|--------------------------------\|---------------------------------------------------------------------------------\| \| so-ds-feb20-{valid\\\|test}      \| Queries paired to relevant snippets in the so-ds-feb20 snippet collection
@@ -1564,9 +1564,9 @@
 31-57	7333-7350	load\_eval\_dataset	_	_
 31-58	7350-7351	(	_	_
 31-59	7351-7352	"	_	_
-31-60	7352-7363	so-ds-feb20	_	_
-31-61	7363-7364	-	_	_
-31-62	7364-7369	valid	_	_
+31-60	7352-7363	so-ds-feb20	*[239]	DATASET[239]
+31-61	7363-7364	-	*[239]	DATASET[239]
+31-62	7364-7369	valid	*[239]	DATASET[239]
 31-63	7369-7370	"	_	_
 31-64	7370-7371	)	_	_
 31-65	7372-7373	`	_	_
@@ -1727,14 +1727,14 @@
 #Text=\| \| staqc-py-cleaned-{valid\\\|test} \| Queries paired to relevant snippets in the staqc-py-cleaned snippet collection. \| \| conala-curated-0.5-test        \| Queries paired to relevant snippets in the CoNaLa benchmark                     \|   It is also possible to load a snippet collection as evaluation data.
 33-1	7761-7762	\|	_	_
 33-2	7763-7764	\|	_	_
-33-3	7765-7781	staqc-py-cleaned	_	_
-33-4	7781-7782	-	_	_
-33-5	7782-7783	{	_	_
-33-6	7783-7788	valid	_	_
-33-7	7788-7789	\\	_	_
-33-8	7789-7790	\|	_	_
-33-9	7790-7794	test	_	_
-33-10	7794-7795	}	_	_
+33-3	7765-7781	staqc-py-cleaned	*[240]	DATASET[240]
+33-4	7781-7782	-	*[240]	DATASET[240]
+33-5	7782-7783	{	*[240]	DATASET[240]
+33-6	7783-7788	valid	*[240]	DATASET[240]
+33-7	7788-7789	\\	*[240]	DATASET[240]
+33-8	7789-7790	\|	*[240]	DATASET[240]
+33-9	7790-7794	test	*[240]	DATASET[240]
+33-10	7794-7795	}	*[240]	DATASET[240]
 33-11	7796-7797	\|	_	_
 33-12	7798-7805	Queries	_	_
 33-13	7806-7812	paired	_	_
@@ -1749,11 +1749,11 @@
 33-22	7876-7877	.	_	_
 33-23	7878-7879	\|	_	_
 33-24	7880-7881	\|	_	_
-33-25	7882-7896	conala-curated	_	_
-33-26	7896-7897	-	_	_
-33-27	7897-7900	0.5	_	_
-33-28	7900-7901	-	_	_
-33-29	7901-7905	test	_	_
+33-25	7882-7896	conala-curated	*[241]	DATASET[241]
+33-26	7896-7897	-	*[241]	DATASET[241]
+33-27	7897-7900	0.5	*[241]	DATASET[241]
+33-28	7900-7901	-	*[241]	DATASET[241]
+33-29	7901-7905	test	*[241]	DATASET[241]
 33-30	7913-7914	\|	_	_
 33-31	7915-7922	Queries	_	_
 33-32	7923-7929	paired	_	_
@@ -1782,11 +1782,11 @@
 #Text=The descriptions will be used as queries.
 34-1	8068-8071	The	_	_
 34-2	8072-8084	descriptions	_	_
-34-3	8085-8089	will	_	_
-34-4	8090-8092	be	_	_
-34-5	8093-8097	used	_	_
-34-6	8098-8100	as	_	_
-34-7	8101-8108	queries	_	_
+34-3	8085-8089	will	*[242]	PUBLICATION[242]
+34-4	8090-8092	be	*[242]	PUBLICATION[242]
+34-5	8093-8097	used	*[242]	PUBLICATION[242]
+34-6	8098-8100	as	*[242]	PUBLICATION[242]
+34-7	8101-8108	queries	*[242]	PUBLICATION[242]
 34-8	8108-8109	.	_	_
 
 #Text=Note that this only makes sense to evaluate code-only models (i.e., models that do not use the description field).  #### Example: load a snippet collection as evaluation data ```python queries, query2ids = load\_eval\_dataset("codesearchnet-python-valid") ```   ### Training data  The different models we implement use different kinds of training data.
@@ -1858,8 +1858,8 @@
 35-66	8427-8436	different	_	_
 35-67	8437-8442	kinds	_	_
 35-68	8443-8445	of	_	_
-35-69	8446-8454	training	_	_
-35-70	8455-8459	data	_	_
+35-69	8446-8454	training	*[243]	DATASET[243]
+35-70	8455-8459	data	*[243]	DATASET[243]
 35-71	8459-8460	.	_	_
 
 #Text=Code-only models are trained on pairs of code snippets and descriptions.
@@ -1870,25 +1870,25 @@
 36-5	8490-8492	on	_	_
 36-6	8493-8498	pairs	_	_
 36-7	8499-8501	of	_	_
-36-8	8502-8506	code	_	_
-36-9	8507-8515	snippets	_	_
+36-8	8502-8506	code	*[188]	SOFTWARE[188]
+36-9	8507-8515	snippets	*[188]	SOFTWARE[188]
 36-10	8516-8519	and	_	_
-36-11	8520-8532	descriptions	_	_
+36-11	8520-8532	descriptions	*[243]	PUBLICATION[243]
 36-12	8532-8533	.	_	_
 
 #Text=For these models, the snippet collections are used as training data (of course you should never train on a snippet collection when you intent to use that load that collection as evaluation data as well).
 37-1	8534-8537	For	_	_
 37-2	8538-8543	these	_	_
-37-3	8544-8550	models	_	_
+37-3	8544-8550	models	*[205]	PROJECT[205]
 37-4	8550-8551	,	_	_
 37-5	8552-8555	the	_	_
-37-6	8556-8563	snippet	_	_
-37-7	8564-8575	collections	_	_
+37-6	8556-8563	snippet	*[244]	DATASET[244]
+37-7	8564-8575	collections	*[244]	DATASET[244]
 37-8	8576-8579	are	_	_
 37-9	8580-8584	used	_	_
 37-10	8585-8587	as	_	_
-37-11	8588-8596	training	_	_
-37-12	8597-8601	data	_	_
+37-11	8588-8596	training	*[122]	EVALMETRIC[122]
+37-12	8597-8601	data	*[122]	EVALMETRIC[122]
 37-13	8602-8603	(	_	_
 37-14	8603-8605	of	_	_
 37-15	8606-8612	course	_	_
@@ -1919,17 +1919,17 @@
 
 #Text=The USE model is fine-tuned on titles of duplicate Stack Overflow posts.
 38-1	8738-8741	The	_	_
-38-2	8742-8745	USE	_	_
-38-3	8746-8751	model	_	_
+38-2	8742-8745	USE	*[189]	SOFTWARE[189]
+38-3	8746-8751	model	*[189]	SOFTWARE[189]
 38-4	8752-8754	is	_	_
 38-5	8755-8765	fine-tuned	_	_
 38-6	8766-8768	on	_	_
 38-7	8769-8775	titles	_	_
 38-8	8776-8778	of	_	_
 38-9	8779-8788	duplicate	_	_
-38-10	8789-8794	Stack	_	_
-38-11	8795-8803	Overflow	_	_
-38-12	8804-8809	posts	_	_
+38-10	8789-8794	Stack	*[244]	PUBLICATION[244]
+38-11	8795-8803	Overflow	*[244]	PUBLICATION[244]
+38-12	8804-8809	posts	*[244]	PUBLICATION[244]
 38-13	8809-8810	.	_	_
 
 #Text=You can take a look our notebooks (e.g., nbs/ncs/ncs.ipynb, nbs/tuse/tuse\_tuned) to find out how the training is done/how the training data is loaded.
@@ -2002,7 +2002,7 @@
 40-25	9119-9137	load\_train\_dataset	_	_
 40-26	9137-9138	(	_	_
 40-27	9138-9139	"	_	_
-40-28	9139-9163	so-duplicates-pacs-train	_	_
+40-28	9139-9163	so-duplicates-pacs-train	*[245]	DATASET[245]
 40-29	9163-9164	"	_	_
 40-30	9164-9165	)	_	_
 40-31	9166-9167	`	_	_
@@ -2024,11 +2024,11 @@
 40-47	9249-9253	with	_	_
 40-48	9254-9257	the	_	_
 40-49	9258-9259	`	_	_
-40-50	9259-9270	so-ds-feb20	_	_
+40-50	9259-9270	so-ds-feb20	*[246]	DATASET[246]
 40-51	9270-9271	`	_	_
 40-52	9272-9275	and	_	_
 40-53	9276-9277	`	_	_
-40-54	9277-9285	staqc-py	_	_
+40-54	9277-9285	staqc-py	*[247]	DATASET[247]
 40-55	9285-9286	`	_	_
 40-56	9287-9297	evaluation	_	_
 40-57	9298-9306	datasets	_	_
@@ -2041,8 +2041,8 @@
 41-4	9323-9327	text	_	_
 41-5	9328-9332	file	_	_
 41-6	9333-9337	with	_	_
-41-7	9338-9343	Stack	_	_
-41-8	9344-9352	Overflow	_	_
+41-7	9338-9343	Stack	*[191]	SOFTWARE[191]
+41-8	9344-9352	Overflow	*[191]	SOFTWARE[191]
 41-9	9353-9357	post	_	_
 41-10	9358-9364	titles	_	_
 41-11	9365-9371	tagged	_	_

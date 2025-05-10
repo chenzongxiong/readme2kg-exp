@@ -34,7 +34,7 @@
 2-1	183-186	The	_	_
 2-2	187-193	source	_	_
 2-3	194-198	code	_	_
-2-4	199-201	is	*[0]	DATASET[0]
+2-4	199-201	is	_	_
 2-5	202-211	currently	_	_
 2-6	212-215	set	_	_
 2-7	216-218	up	_	_
@@ -63,13 +63,13 @@
 #Text=This library, however, is meant to be modified so as to simulate your own secure federated machine learning configuration.
 3-1	369-373	This	_	_
 3-2	374-381	library	_	_
-3-3	381-382	,	*[39]	PUBLICATION[39]
-3-4	383-390	however	*[39]	PUBLICATION[39]
-3-5	390-391	,	*[39]	PUBLICATION[39]
-3-6	392-394	is	*[39]	PUBLICATION[39]
-3-7	395-400	meant	*[39]	PUBLICATION[39]
-3-8	401-403	to	*[39]	PUBLICATION[39]
-3-9	404-406	be	*[39]	PUBLICATION[39]
+3-3	381-382	,	_	_
+3-4	383-390	however	_	_
+3-5	390-391	,	_	_
+3-6	392-394	is	_	_
+3-7	395-400	meant	_	_
+3-8	401-403	to	_	_
+3-9	404-406	be	_	_
 3-10	407-415	modified	_	_
 3-11	416-418	so	_	_
 3-12	419-421	as	_	_

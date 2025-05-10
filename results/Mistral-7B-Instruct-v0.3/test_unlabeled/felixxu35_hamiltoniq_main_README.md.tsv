@@ -10,7 +10,7 @@
 2-1	2-3	\[	_	_
 2-2	3-10	License	_	_
 2-3	10-11	:	_	_
-2-4	12-15	MIT	_	_
+2-4	12-15	MIT	*[33]	LICENSE[33]
 2-5	15-16	\]	_	_
 2-6	16-17	(	_	_
 2-7	17-22	https	_	_
@@ -37,10 +37,10 @@
 3-9	93-94	/	_	_
 3-10	94-95	/	_	_
 3-11	95-109	opensource.org	_	_
-3-12	109-110	/	*[2]	LICENSE[2]
+3-12	109-110	/	_	_
 3-13	110-118	licenses	_	_
 3-14	118-119	/	_	_
-3-15	119-122	MIT	_	_
+3-15	119-122	MIT	*[34]	LICENSE[34]
 3-16	122-123	)	_	_
 3-17	124-125	\[	_	_
 3-18	125-126	!	_	_
@@ -55,37 +55,37 @@
 4-7	138-139	/	_	_
 4-8	139-140	/	_	_
 4-9	140-150	zenodo.org	_	_
-4-10	150-151	/	*[8]	PUBLICATION[8]
-4-11	151-156	badge	*[8]	PUBLICATION[8]
-4-12	156-157	/	*[8]	PUBLICATION[8]
-4-13	157-160	DOI	*[8]	PUBLICATION[8]
-4-14	160-161	/	*[8]	PUBLICATION[8]
-4-15	161-169	10.48550	*[8]	PUBLICATION[8]
-4-16	169-170	/	*[8]	PUBLICATION[8]
-4-17	170-175	arXiv	*[8]	PUBLICATION[8]
+4-10	150-151	/	_	_
+4-11	151-156	badge	_	_
+4-12	156-157	/	_	_
+4-13	157-160	DOI	_	_
+4-14	160-161	/	_	_
+4-15	161-169	10.48550	_	_
+4-16	169-170	/	_	_
+4-17	170-175	arXiv	_	_
 4-18	175-186	.2404.13971	_	_
 4-19	186-187	.	_	_
 4-20	187-190	svg	_	_
 4-21	190-191	)	_	_
 4-22	191-192	\]	_	_
 4-23	192-193	(	_	_
-4-24	193-198	https	_	_
-4-25	198-199	:	_	_
-4-26	199-200	/	_	_
-4-27	200-201	/	_	_
-4-28	201-208	doi.org	_	_
-4-29	208-209	/	_	_
-4-30	209-217	10.48550	_	_
-4-31	217-218	/	_	_
-4-32	218-223	arXiv	_	_
-4-33	223-234	.2404.13971	_	_
+4-24	193-198	https	*[113]	PUBLICATION[113]
+4-25	198-199	:	*[113]	PUBLICATION[113]
+4-26	199-200	/	*[113]	PUBLICATION[113]
+4-27	200-201	/	*[113]	PUBLICATION[113]
+4-28	201-208	doi.org	*[113]	PUBLICATION[113]
+4-29	208-209	/	*[113]	PUBLICATION[113]
+4-30	209-217	10.48550	*[113]	PUBLICATION[113]
+4-31	217-218	/	*[113]	PUBLICATION[113]
+4-32	218-223	arXiv	*[113]	PUBLICATION[113]
+4-33	223-234	.2404.13971	*[113]	PUBLICATION[113]
 4-34	234-235	)	_	_
 4-35	237-238	#	_	_
 4-36	239-240	!	_	_
 
 #Text=\[HamilToniQ\_logo\](.
 5-1	240-241	\[	_	_
-5-2	241-256	HamilToniQ\_logo	*[13]	PROJECT[13]
+5-2	241-256	HamilToniQ\_logo	_	_
 5-2	241-251	HamilToniQ	_	_
 5-3	256-257	\]	_	_
 5-4	257-258	(	_	_
@@ -95,18 +95,18 @@
 6-1	259-260	/	_	_
 6-2	260-267	figures	_	_
 6-3	267-268	/	_	_
-6-4	268-287	HamilToniQ\_logo.png	_	_
+6-4	268-287	HamilToniQ\_logo.png	*[163]	SOFTWARE[163]
 6-4	268-278	HamilToniQ	_	_
 6-5	287-288	)	_	_
 6-6	288-298	HamilToniQ	_	_
 6-7	298-299	:	_	_
 6-8	300-302	An	_	_
 6-9	303-314	Open-Source	_	_
-6-10	315-324	Benchmark	_	_
-6-11	325-332	Toolkit	_	_
-6-12	333-336	for	_	_
-6-13	337-344	Quantum	_	_
-6-14	345-354	Computers	_	_
+6-10	315-324	Benchmark	*[144]	PROJECT[144]
+6-11	325-332	Toolkit	*[144]	PROJECT[144]
+6-12	333-336	for	*[144]	PROJECT[144]
+6-13	337-344	Quantum	*[144]	PROJECT[144]
+6-14	345-354	Computers	*[144]	PROJECT[144]
 6-15	356-361	Table	_	_
 6-16	362-364	of	_	_
 6-17	365-373	Contents	_	_
@@ -145,15 +145,15 @@
 9-5	453-454	#	_	_
 9-6	454-461	hscores	_	_
 9-7	461-462	)	_	_
-9-8	463-464	4	_	_
+9-8	463-464	4	*[94]	EVALMETRIC[94]
 9-9	464-465	.	_	_
 
 #Text=\[Architecture\](#architecture) 5.
 10-1	466-467	\[	_	_
-10-2	467-479	Architecture	*[14]	PROJECT[14]
-10-3	479-480	\]	*[14]	PROJECT[14]
-10-4	480-481	(	*[14]	PROJECT[14]
-10-5	481-482	#	*[14]	PROJECT[14]
+10-2	467-479	Architecture	_	_
+10-3	479-480	\]	_	_
+10-4	480-481	(	_	_
+10-5	481-482	#	_	_
 10-6	482-494	architecture	_	_
 10-7	494-495	)	_	_
 10-8	496-497	5	_	_
@@ -213,7 +213,7 @@
 12-12	728-732	need	_	_
 12-13	733-735	to	_	_
 12-14	736-740	call	_	_
-12-15	741-745	QPUs	_	_
+12-15	741-745	QPUs	*[173]	PROGLANG[173]
 12-16	745-746	,	_	_
 12-17	747-750	run	_	_
 12-18	751-754	the	_	_
@@ -238,7 +238,7 @@
 12-37	853-858	score	_	_
 12-38	858-859	,	_	_
 12-39	860-866	termed	_	_
-12-40	867-874	H-Score	_	_
+12-40	867-874	H-Score	*[95]	EVALMETRIC[95]
 12-41	874-875	,	_	_
 12-42	876-885	capturing	_	_
 12-43	886-889	all	_	_
@@ -332,7 +332,7 @@
 13-21	1390-1397	Install	_	_
 13-22	1398-1401	the	_	_
 13-23	1402-1403	\*	_	_
-13-24	1403-1413	HamilToniQ	_	_
+13-24	1403-1413	HamilToniQ	*[164]	SOFTWARE[164]
 13-25	1413-1414	\*	_	_
 13-26	1415-1422	toolkit	_	_
 13-27	1423-1425	by	_	_
@@ -413,7 +413,7 @@
 14-63	1734-1741	backend	_	_
 14-64	1742-1743	=	_	_
 14-65	1744-1745	<	_	_
-14-66	1745-1757	your\_backend	_	_
+14-66	1745-1757	your\_backend	*[145]	PROJECT[145]
 14-67	1757-1758	>	_	_
 14-68	1759-1767	n\_qubits	_	_
 14-69	1768-1769	=	_	_
@@ -460,7 +460,7 @@
 14-110	2012-2014	in	_	_
 14-111	2015-2016	\[	_	_
 14-112	2016-2020	this	_	_
-14-113	2021-2029	notebook	_	_
+14-113	2021-2029	notebook	*[114]	PUBLICATION[114]
 14-114	2029-2030	\]	_	_
 14-115	2030-2031	(	_	_
 14-116	2031-2032	.	_	_
@@ -469,7 +469,7 @@
 15-1	2032-2033	/	_	_
 15-2	2033-2037	docs	_	_
 15-3	2037-2038	/	_	_
-15-4	2038-2056	example\_code.ipynb	_	_
+15-4	2038-2056	example\_code.ipynb	*[115]	PUBLICATION[115]
 15-5	2056-2057	)	_	_
 15-6	2057-2058	.	_	_
 
@@ -496,9 +496,9 @@
 16-20	2124-2132	obtained	_	_
 16-21	2133-2135	on	_	_
 16-22	2136-2139	the	_	_
-16-23	2140-2148	built-in	_	_
-16-24	2149-2150	Q	_	_
-16-25	2151-2159	matrices	_	_
+16-23	2140-2148	built-in	*[217]	DATASET[217]
+16-24	2149-2150	Q	*[217]	DATASET[217]
+16-25	2151-2159	matrices	*[217]	DATASET[217]
 16-26	2159-2160	.	_	_
 
 #Text=Note that comparison across different numbers of qubits is meaningless.  ##### 3 qubits  <p align=center><img src=".
@@ -518,8 +518,8 @@
 17-14	2237-2238	#	_	_
 17-15	2238-2239	#	_	_
 17-16	2239-2240	#	_	_
-17-17	2241-2242	3	_	_
-17-18	2243-2249	qubits	_	_
+17-17	2241-2242	3	*[43]	CONFERENCE[43]
+17-18	2243-2249	qubits	*[43]	CONFERENCE[43]
 17-19	2251-2252	<	_	_
 17-20	2252-2253	p	_	_
 17-21	2254-2259	align	_	_
@@ -568,8 +568,8 @@
 18-32	2351-2352	#	_	_
 18-33	2352-2353	#	_	_
 18-34	2353-2354	#	_	_
-18-35	2355-2356	4	_	_
-18-36	2357-2363	qubits	_	_
+18-35	2355-2356	4	*[44]	CONFERENCE[44]
+18-36	2357-2363	qubits	*[44]	CONFERENCE[44]
 18-37	2365-2366	<	_	_
 18-38	2366-2367	p	_	_
 18-39	2368-2373	align	_	_
@@ -618,8 +618,8 @@
 19-32	2465-2466	#	_	_
 19-33	2466-2467	#	_	_
 19-34	2467-2468	#	_	_
-19-35	2469-2470	5	_	_
-19-36	2471-2477	qubits	_	_
+19-35	2469-2470	5	*[45]	CONFERENCE[45]
+19-36	2471-2477	qubits	*[45]	CONFERENCE[45]
 19-37	2479-2480	<	_	_
 19-38	2480-2481	p	_	_
 19-39	2482-2487	align	_	_
@@ -668,8 +668,8 @@
 20-32	2579-2580	#	_	_
 20-33	2580-2581	#	_	_
 20-34	2581-2582	#	_	_
-20-35	2583-2584	6	_	_
-20-36	2585-2591	qubits	_	_
+20-35	2583-2584	6	*[46]	CONFERENCE[46]
+20-36	2585-2591	qubits	*[46]	CONFERENCE[46]
 20-37	2593-2594	<	_	_
 20-38	2594-2595	p	_	_
 20-39	2596-2601	align	_	_
@@ -736,29 +736,29 @@
 21-50	2771-2776	visit	_	_
 21-51	2777-2780	our	_	_
 21-52	2781-2782	\[	_	_
-21-53	2782-2787	arXiv	_	_
-21-54	2788-2793	Paper	_	_
+21-53	2782-2787	arXiv	*[116]	PUBLICATION[116]
+21-54	2788-2793	Paper	*[116]	PUBLICATION[116]
 21-55	2793-2794	\]	_	_
 21-56	2794-2795	(	_	_
-21-57	2795-2800	https	_	_
-21-58	2800-2801	:	_	_
-21-59	2801-2802	/	_	_
-21-60	2802-2803	/	_	_
-21-61	2803-2812	arxiv.org	_	_
-21-62	2812-2813	/	_	_
-21-63	2813-2816	abs	_	_
-21-64	2816-2817	/	_	_
-21-65	2817-2827	2404.13971	_	_
+21-57	2795-2800	https	*[117]	PUBLICATION[117]
+21-58	2800-2801	:	*[117]	PUBLICATION[117]
+21-59	2801-2802	/	*[117]	PUBLICATION[117]
+21-60	2802-2803	/	*[117]	PUBLICATION[117]
+21-61	2803-2812	arxiv.org	*[117]	PUBLICATION[117]
+21-62	2812-2813	/	*[117]	PUBLICATION[117]
+21-63	2813-2816	abs	*[117]	PUBLICATION[117]
+21-64	2816-2817	/	*[117]	PUBLICATION[117]
+21-65	2817-2827	2404.13971	*[117]	PUBLICATION[117]
 21-66	2827-2828	)	_	_
 21-67	2828-2829	.	_	_
 
 #Text=The HamilToniQ’s benchmarking workflow, shown in the figure below, commences with the characterization of QPUs, where each QPU is classified according to its type, topology, and multi-QPU system.
 22-1	2831-2834	The	_	_
-22-2	2835-2845	HamilToniQ	_	_
-22-3	2845-2846	’	_	_
-22-4	2846-2847	s	_	_
-22-5	2848-2860	benchmarking	_	_
-22-6	2861-2869	workflow	_	_
+22-2	2835-2845	HamilToniQ	*[146]	PROJECT[146]
+22-3	2845-2846	’	*[146]	PROJECT[146]
+22-4	2846-2847	s	*[146]	PROJECT[146]
+22-5	2848-2860	benchmarking	*[146]	PROJECT[146]
+22-6	2861-2869	workflow	*[146]	PROJECT[146]
 22-7	2869-2870	,	_	_
 22-8	2871-2876	shown	_	_
 22-9	2877-2879	in	_	_
@@ -781,13 +781,13 @@
 22-26	2972-2981	according	_	_
 22-27	2982-2984	to	_	_
 22-28	2985-2988	its	_	_
-22-29	2989-2993	type	_	_
+22-29	2989-2993	type	*[45]	ONTOLOGY[45]
 22-30	2993-2994	,	_	_
-22-31	2995-3003	topology	_	_
+22-31	2995-3003	topology	*[46]	ONTOLOGY[46]
 22-32	3003-3004	,	_	_
 22-33	3005-3008	and	_	_
-22-34	3009-3018	multi-QPU	_	_
-22-35	3019-3025	system	_	_
+22-34	3009-3018	multi-QPU	*[47]	ONTOLOGY[47]
+22-35	3019-3025	system	*[47]	ONTOLOGY[47]
 22-36	3025-3026	.	_	_
 
 #Text=This initial step ensures a tailored approach to the benchmarking process, considering the unique attributes of each QPU.
@@ -800,8 +800,8 @@
 23-7	3064-3072	approach	_	_
 23-8	3073-3075	to	_	_
 23-9	3076-3079	the	_	_
-23-10	3080-3092	benchmarking	_	_
-23-11	3093-3100	process	_	_
+23-10	3080-3092	benchmarking	*[48]	ONTOLOGY[48]
+23-11	3093-3100	process	*[48]	ONTOLOGY[48]
 23-12	3100-3101	,	_	_
 23-13	3102-3113	considering	_	_
 23-14	3114-3117	the	_	_
@@ -809,7 +809,7 @@
 23-16	3125-3135	attributes	_	_
 23-17	3136-3138	of	_	_
 23-18	3139-3143	each	_	_
-23-19	3144-3147	QPU	_	_
+23-19	3144-3147	QPU	*[147]	PROJECT[147]
 23-20	3147-3148	.	_	_
 
 #Text=Subsequently, the process engages in quantum circuit compilation, employing a specific strategy designed to optimize the execution of quantum circuits on the identified QPUs.
@@ -819,22 +819,22 @@
 24-4	3167-3174	process	_	_
 24-5	3175-3182	engages	_	_
 24-6	3183-3185	in	_	_
-24-7	3186-3193	quantum	_	_
-24-8	3194-3201	circuit	_	_
-24-9	3202-3213	compilation	_	_
+24-7	3186-3193	quantum	*[148]	PROJECT[148]
+24-8	3194-3201	circuit	*[148]	PROJECT[148]
+24-9	3202-3213	compilation	*[148]	PROJECT[148]
 24-10	3213-3214	,	_	_
 24-11	3215-3224	employing	_	_
 24-12	3225-3226	a	_	_
-24-13	3227-3235	specific	_	_
-24-14	3236-3244	strategy	_	_
+24-13	3227-3235	specific	*[174]	PROGLANG[174]
+24-14	3236-3244	strategy	*[174]	PROGLANG[174]
 24-15	3245-3253	designed	_	_
 24-16	3254-3256	to	_	_
 24-17	3257-3265	optimize	_	_
 24-18	3266-3269	the	_	_
 24-19	3270-3279	execution	_	_
 24-20	3280-3282	of	_	_
-24-21	3283-3290	quantum	_	_
-24-22	3291-3299	circuits	_	_
+24-21	3283-3290	quantum	*[165]	SOFTWARE[165]
+24-22	3291-3299	circuits	*[165]	SOFTWARE[165]
 24-23	3300-3302	on	_	_
 24-24	3303-3306	the	_	_
 24-25	3307-3317	identified	_	_
@@ -847,12 +847,12 @@
 25-3	3336-3339	the	_	_
 25-4	3340-3348	workflow	_	_
 25-5	3349-3351	is	_	_
-25-6	3352-3359	Quantum	_	_
-25-7	3360-3365	Error	_	_
-25-8	3366-3376	Mitigation	_	_
-25-9	3377-3378	(	_	_
-25-10	3378-3381	QEM	_	_
-25-11	3381-3382	)	_	_
+25-6	3352-3359	Quantum	*[149]	PROJECT[149]
+25-7	3360-3365	Error	*[149]	PROJECT[149]
+25-8	3366-3376	Mitigation	*[149]	PROJECT[149]
+25-9	3377-3378	(	*[149]	PROJECT[149]
+25-10	3378-3381	QEM	*[149]	PROJECT[149]
+25-11	3381-3382	)	*[149]	PROJECT[149]
 25-12	3382-3383	,	_	_
 25-13	3384-3389	which	_	_
 25-14	3390-3403	strategically	_	_
@@ -868,8 +868,8 @@
 25-24	3467-3475	fidelity	_	_
 25-25	3476-3478	of	_	_
 25-26	3479-3482	the	_	_
-25-27	3483-3490	quantum	_	_
-25-28	3491-3500	processes	_	_
+25-27	3483-3490	quantum	*[150]	PROJECT[150]
+25-28	3491-3500	processes	*[150]	PROJECT[150]
 25-29	3500-3501	.	_	_
 
 #Text=The culmination of this rigorous workflow is the benchmarking result, which quantifies the performance of the QPU in terms of reliability—represented by the H-Score and Execution Time.
@@ -881,8 +881,8 @@
 26-6	3535-3543	workflow	_	_
 26-7	3544-3546	is	_	_
 26-8	3547-3550	the	_	_
-26-9	3551-3563	benchmarking	_	_
-26-10	3564-3570	result	_	_
+26-9	3551-3563	benchmarking	*[118]	PUBLICATION[118]
+26-10	3564-3570	result	*[118]	PUBLICATION[118]
 26-11	3570-3571	,	_	_
 26-12	3572-3577	which	_	_
 26-13	3578-3588	quantifies	_	_
@@ -899,8 +899,8 @@
 26-24	3655-3658	the	_	_
 26-25	3659-3666	H-Score	_	_
 26-26	3667-3670	and	_	_
-26-27	3671-3680	Execution	_	_
-26-28	3681-3685	Time	_	_
+26-27	3671-3680	Execution	*[99]	EVALMETRIC[99]
+26-28	3681-3685	Time	*[99]	EVALMETRIC[99]
 26-29	3685-3686	.	_	_
 
 #Text=These metrics provide a quantitative and objective measure of the QPU’s performance, reflecting the effectiveness of the benchmarking process implemented by HamilToniQ.
@@ -928,7 +928,7 @@
 27-22	3821-3828	process	_	_
 27-23	3829-3840	implemented	_	_
 27-24	3841-3843	by	_	_
-27-25	3844-3854	HamilToniQ	_	_
+27-25	3844-3854	HamilToniQ	*[119]	PUBLICATION[119]
 27-26	3854-3855	.	_	_
 
 #Text=Additionally, the H-score can help manage computational resources in a Quantum-HPC system.
@@ -943,8 +943,8 @@
 28-9	3912-3921	resources	_	_
 28-10	3922-3924	in	_	_
 28-11	3925-3926	a	_	_
-28-12	3927-3938	Quantum-HPC	_	_
-28-13	3939-3945	system	_	_
+28-12	3927-3938	Quantum-HPC	*[47]	CONFERENCE[47]
+28-13	3939-3945	system	*[47]	CONFERENCE[47]
 28-14	3945-3946	.	_	_
 
 #Text=<p align=center><img src=".
@@ -1023,8 +1023,8 @@
 31-8	4229-4230	,	_	_
 31-9	4231-4239	utilizes	_	_
 31-10	4240-4241	a	_	_
-31-11	4242-4251	noiseless	_	_
-31-12	4252-4261	simulator	_	_
+31-11	4242-4251	noiseless	*[166]	SOFTWARE[166]
+31-12	4252-4261	simulator	*[166]	SOFTWARE[166]
 31-13	4262-4264	to	_	_
 31-14	4265-4269	find	_	_
 31-15	4270-4273	the	_	_
@@ -1046,8 +1046,8 @@
 32-11	4347-4349	on	_	_
 32-12	4350-4355	their	_	_
 32-13	4356-4359	own	_	_
-32-14	4360-4361	Q	_	_
-32-15	4362-4370	matrices	_	_
+32-14	4360-4361	Q	*[152]	PROJECT[152]
+32-15	4362-4370	matrices	*[152]	PROJECT[152]
 32-16	4370-4371	.	_	_
 
 #Text=In the scoring part, the Quantum Approximate Optimization Algorithm (QAOA) is executed a certain number of times, and the scoring curve is used to determine the score of each iteration based on its accuracy.
@@ -1062,7 +1062,7 @@
 33-9	4417-4429	Optimization	_	_
 33-10	4430-4439	Algorithm	_	_
 33-11	4440-4441	(	_	_
-33-12	4441-4445	QAOA	_	_
+33-12	4441-4445	QAOA	*[175]	PROGLANG[175]
 33-13	4445-4446	)	_	_
 33-14	4447-4449	is	_	_
 33-15	4450-4458	executed	_	_
@@ -1088,7 +1088,7 @@
 33-35	4557-4562	based	_	_
 33-36	4563-4565	on	_	_
 33-37	4566-4569	its	_	_
-33-38	4570-4578	accuracy	_	_
+33-38	4570-4578	accuracy	*[100]	EVALMETRIC[100]
 33-39	4578-4579	.	_	_
 
 #Text=The final H-Score is computed as the average of all individual scores.
@@ -1103,7 +1103,7 @@
 34-9	4625-4627	of	_	_
 34-10	4628-4631	all	_	_
 34-11	4632-4642	individual	_	_
-34-12	4643-4649	scores	_	_
+34-12	4643-4649	scores	*[102]	EVALMETRIC[102]
 34-13	4649-4650	.	_	_
 
 #Text=<p align=center><img src=".

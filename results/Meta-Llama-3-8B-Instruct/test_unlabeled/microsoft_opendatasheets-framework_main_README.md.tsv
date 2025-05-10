@@ -52,7 +52,7 @@
 2-27	221-228	Machine	_	_
 2-28	229-237	Learning	_	_
 2-29	238-251	Practitioners	_	_
-2-30	251-252	'	*[25]	DATASET[25]
+2-30	251-252	'	_	_
 2-31	253-257	Data	_	_
 2-32	258-271	Documentation	_	_
 2-33	272-283	Perceptions	_	_
@@ -92,7 +92,7 @@
 3-8	414-430	machine-readable	_	_
 3-9	431-434	and	_	_
 3-10	435-449	human-readable	_	_
-3-11	449-450	,	*[27]	PUBLICATION[27]
+3-11	449-450	,	_	_
 3-12	451-458	serving	_	_
 3-13	459-461	as	_	_
 3-14	462-463	a	_	_

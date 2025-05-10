@@ -20,7 +20,7 @@
 1-15	87-88	\*	_	_
 1-16	88-89	\*	_	_
 1-17	89-101	Unsupervised	_	_
-1-18	102-108	Domain	*[13]	DATASET[13]
+1-18	102-108	Domain	_	_
 1-19	109-119	Adaptation	_	_
 1-20	120-121	(	_	_
 1-21	121-124	UDA	_	_
@@ -32,10 +32,10 @@
 1-27	134-141	cardiac	_	_
 1-28	142-150	magnetic	_	_
 1-29	151-160	resonance	_	_
-1-30	161-162	(	*[10]	DATASET[10]
-1-31	162-165	CMR	*[10]	DATASET[10]
-1-32	165-166	)	*[10]|*[14]	DATASET[10]|DATASET[14]
-1-33	167-171	cine	*[14]	DATASET[14]
+1-30	161-162	(	_	_
+1-31	162-165	CMR	_	_
+1-32	165-166	)	_	_
+1-33	167-171	cine	_	_
 1-34	172-178	images	_	_
 1-35	179-181	to	_	_
 1-36	182-183	\*	_	_
@@ -43,17 +43,17 @@
 1-38	184-193	transform	_	_
 1-39	194-198	from	_	_
 1-40	199-204	axial	_	_
-1-41	205-207	to	*[7]	DATASET[7]
+1-41	205-207	to	_	_
 1-42	208-218	short-axis	_	_
 1-43	219-230	orientation	_	_
-1-44	230-231	\*	*[11]	DATASET[11]
-1-45	231-232	\*	*[11]	DATASET[11]
+1-44	230-231	\*	_	_
+1-45	231-232	\*	_	_
 1-46	232-233	.	_	_
 
 #Text=The task associated to the domain adaptation is to perform a \*\*segmentation task via a pre-trained fixed network\*\*, and the results are leveraged to guide the transformation process (rigid transform via spatial transformer networks).
 2-1	234-237	The	_	_
 2-2	238-242	task	_	_
-2-3	243-253	associated	*[15]	DATASET[15]
+2-3	243-253	associated	_	_
 2-4	254-256	to	_	_
 2-5	257-260	the	_	_
 2-6	261-267	domain	_	_
@@ -87,9 +87,9 @@
 2-34	416-417	(	_	_
 2-35	417-422	rigid	_	_
 2-36	423-432	transform	_	_
-2-37	433-436	via	*[8]	PUBLICATION[8]
-2-38	437-444	spatial	*[8]	PUBLICATION[8]
-2-39	445-456	transformer	*[8]	PUBLICATION[8]
+2-37	433-436	via	_	_
+2-38	437-444	spatial	_	_
+2-39	445-456	transformer	_	_
 2-40	457-465	networks	_	_
 2-41	465-466	)	_	_
 2-42	466-467	.	_	_

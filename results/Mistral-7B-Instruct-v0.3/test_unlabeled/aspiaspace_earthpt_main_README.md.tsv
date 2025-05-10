@@ -76,11 +76,11 @@
 1-71	198-208	repository	_	_
 1-72	209-212	for	_	_
 1-73	213-221	training	_	_
-1-74	222-226	time	_	_
-1-75	227-233	series	_	_
+1-74	222-226	time	*[161]	SOFTWARE[161]
+1-75	227-233	series	*[161]	SOFTWARE[161]
 1-76	234-239	large	_	_
-1-77	240-251	observation	_	_
-1-78	252-258	models	*[0]	PROGLANG[0]
+1-77	240-251	observation	*[171]	PROGLANG[171]
+1-78	252-258	models	*[171]	PROGLANG[171]
 1-79	258-259	.	_	_
 
 #Text=This repository began its life as Andrej Karpathy's \[nanoGPT\](https://github.com/karpathy/nanoGPT), and has been altered so that it is usable for time series data.
@@ -93,7 +93,7 @@
 2-7	294-300	Andrej	_	_
 2-8	301-311	Karpathy's	_	_
 2-9	312-313	\[	_	_
-2-10	313-320	nanoGPT	_	_
+2-10	313-320	nanoGPT	*[139]	PROJECT[139]
 2-11	320-321	\]	_	_
 2-12	321-322	(	_	_
 2-13	322-327	https	_	_
@@ -117,9 +117,9 @@
 2-31	392-394	is	_	_
 2-32	395-401	usable	_	_
 2-33	402-405	for	_	_
-2-34	406-410	time	_	_
-2-35	411-417	series	_	_
-2-36	418-422	data	_	_
+2-34	406-410	time	*[216]	DATASET[216]
+2-35	411-417	series	*[216]	DATASET[216]
+2-36	418-422	data	*[216]	DATASET[216]
 2-37	422-423	.	_	_
 
 #Text=`train.py` reproduces \[EarthPT-700M\](https://arxiv.org/abs/2309.07207) when trained on 14B time series 'tokens' of ClearSky EO data within the TL UK National Grid tile.
@@ -128,9 +128,9 @@
 3-3	433-434	`	_	_
 3-4	435-445	reproduces	_	_
 3-5	446-447	\[	_	_
-3-6	447-454	EarthPT	_	_
-3-7	454-455	-	_	_
-3-8	455-459	700M	_	_
+3-6	447-454	EarthPT	*[111]	PUBLICATION[111]
+3-7	454-455	-	*[111]	PUBLICATION[111]
+3-8	455-459	700M	*[111]	PUBLICATION[111]
 3-9	459-460	\]	_	_
 3-10	460-461	(	_	_
 3-11	461-466	https	_	_
@@ -158,10 +158,10 @@
 3-33	551-555	data	_	_
 3-34	556-562	within	_	_
 3-35	563-566	the	_	_
-3-36	567-569	TL	_	_
-3-37	570-572	UK	_	_
-3-38	573-581	National	_	_
-3-39	582-586	Grid	_	_
+3-36	567-569	TL	*[140]	PROJECT[140]
+3-37	570-572	UK	*[140]	PROJECT[140]
+3-38	573-581	National	*[140]	PROJECT[140]
+3-39	582-586	Grid	*[140]	PROJECT[140]
 3-40	587-591	tile	_	_
 3-41	591-592	.	_	_
 
@@ -170,7 +170,7 @@
 4-2	598-601	run	_	_
 4-3	601-602	,	_	_
 4-4	603-604	`	_	_
-4-5	604-612	train.py	_	_
+4-5	604-612	train.py	*[162]	SOFTWARE[162]
 4-6	612-613	`	_	_
 4-7	614-619	takes	_	_
 4-8	620-621	~	_	_
@@ -178,7 +178,7 @@
 4-10	623-627	days	_	_
 4-11	628-630	to	_	_
 4-12	631-638	achieve	_	_
-4-13	639-649	Chinchilla	_	_
+4-13	639-649	Chinchilla	*[42]	CONFERENCE[42]
 4-14	650-652	🐭	_	_
 4-15	653-663	completion	_	_
 4-16	664-666	on	_	_
@@ -257,7 +257,7 @@
 6-23	990-994	base	_	_
 6-24	995-997	to	_	_
 6-25	998-1003	their	_	_
-6-26	1004-1009	needs	_	_
+6-26	1004-1009	needs	*[142]	PROJECT[142]
 6-27	1009-1010	.	_	_
 
 #Text=We release this code under the MIT licence in the hope that it will prove useful to others working on EO and timeseries large observation models.  ## install  Dependencies:  - `pip install -r requirements.txt`  ## results  Our EarthPT-700M model is able to predict future satellite passes well into the future, and also learns semantically meaningful information about the timeseries that it is fed:  <p align="center">     <img src="assets/3d.gif" alt="embeddings" width="400"/> </p>  You can find a plot with less angular momentum and further results in our paper \[here\](https://arxiv.org/abs/2309.07207).  ## pretrained weights  You can find our weights for all the EarthPT models on \[HuggingFace\](https://doi.org/10.57967/hf/1598) 🤗 .  ## citation  If you find EarthPT useful in your work please do drop us a cite:  ```bibtex @article{ref\_smith2023,     author = {Smith, M.
@@ -489,16 +489,16 @@
 9-6	1937-1938	=	_	_
 9-7	1939-1940	{	_	_
 9-8	1940-1941	{	_	_
-9-9	1941-1948	EarthPT	_	_
-9-10	1948-1949	:	_	_
-9-11	1950-1951	a	_	_
-9-12	1952-1956	time	_	_
-9-13	1957-1963	series	_	_
-9-14	1964-1974	foundation	_	_
-9-15	1975-1980	model	_	_
-9-16	1981-1984	for	_	_
-9-17	1985-1990	Earth	_	_
-9-18	1991-2002	Observation	_	_
+9-9	1941-1948	EarthPT	*[112]	PUBLICATION[112]
+9-10	1948-1949	:	*[112]	PUBLICATION[112]
+9-11	1950-1951	a	*[112]	PUBLICATION[112]
+9-12	1952-1956	time	*[112]	PUBLICATION[112]
+9-13	1957-1963	series	*[112]	PUBLICATION[112]
+9-14	1964-1974	foundation	*[112]	PUBLICATION[112]
+9-15	1975-1980	model	*[112]	PUBLICATION[112]
+9-16	1981-1984	for	*[112]	PUBLICATION[112]
+9-17	1985-1990	Earth	*[112]	PUBLICATION[112]
+9-18	1991-2002	Observation	*[112]	PUBLICATION[112]
 9-19	2002-2003	}	_	_
 9-20	2003-2004	}	_	_
 9-21	2004-2005	,	_	_
@@ -556,8 +556,8 @@
 9-73	2208-2209	)	_	_
 9-74	2210-2212	of	_	_
 9-75	2213-2216	the	_	_
-9-76	2217-2221	2023	_	_
-9-77	2222-2226	CCAI	_	_
-9-78	2227-2234	NeurIPS	_	_
-9-79	2235-2243	workshop	_	_
+9-76	2217-2221	2023	*[14]	WORKSHOP[14]
+9-77	2222-2226	CCAI	*[14]	WORKSHOP[14]
+9-78	2227-2234	NeurIPS	*[14]	WORKSHOP[14]
+9-79	2235-2243	workshop	*[14]	WORKSHOP[14]
 9-80	2243-2244	.	_	_
