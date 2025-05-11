@@ -94,7 +94,7 @@ class GeminiFlash(GenerativePredictor):
                 self.prompt_template = fd.read()
         else:
             raise
-        self.parallel = True
+        self.parallel = False
         self.mismatch_sentences = 0
         self.total_sentences = 0
         genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))

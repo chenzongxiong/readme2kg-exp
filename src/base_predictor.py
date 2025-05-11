@@ -254,6 +254,10 @@ class GenerativePredictor(BasePredictor):
         sid = hashlib.sha256(sentence.text.encode()).hexdigest()[:8]
         if not os.path.isfile(f'{path}/{sid}.txt'):
             self.do_prediction(sentence, f'{path}/{sid}.txt')
+
+        if not os.path.isfile(f'{path}/{sid}.txt'):
+            return []
+
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
