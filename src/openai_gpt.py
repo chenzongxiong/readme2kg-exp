@@ -32,7 +32,7 @@ class OpenAIGPT(GenerativePredictor):
             with open(prompt_template_path, 'r') as fd:
                 self.prompt_template = fd.read()
         else:
-            self.prompt_template = ''
+            raise
         self.parallel = False
         self.mismatch_sentences = 0
         self.total_sentences = 0

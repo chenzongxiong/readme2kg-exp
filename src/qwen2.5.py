@@ -35,14 +35,10 @@ class Qwen25(GenerativePredictor):
             with open(prompt_template_path, 'r') as fd:
                 self.prompt_template = fd.read()
         else:
-            self.prompt_template = ''
+            raise
         self.parallel = False
         self.mismatch_sentences = 0
         self.total_sentences = 0
-
-        self.label_to_text_list = defaultdict(list)
-        self.text_with_tags_to_pure_text_list = []
-        self.pure_text_to_text_with_tags_list = []
 
         self.tokenizer = None
         self.model = None
