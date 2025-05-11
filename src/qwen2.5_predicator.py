@@ -175,7 +175,7 @@ def find_spans_in_target(spans, target):
     return result
 
 
-class MistralV3Predictor(BasePredictor):
+class Llama3Predictor(BasePredictor):
     def __init__(self, model_id: str):
         self.model_id = model_id
         self.model_name = model_id.split('/')[-1]
@@ -196,7 +196,6 @@ class MistralV3Predictor(BasePredictor):
 
         self.tokenizer = None
         self.model = None
-
 
     def __call__(self, doc: Document):
         if getattr(self, 'parallel', False):
@@ -262,8 +261,10 @@ class MistralV3Predictor(BasePredictor):
             predicted_text = fd.read()
 
         cleaned_text = cleaner.Cleaner(predicted_text).clean()
-
         ref_text = sentence.text
+        print('ref_text:   ', colored(ref_text, 'red'))
+        print('clean text: ', colored(cleaned_text, 'cyan'))
+
         spans, tagged_ref = transfer_tags(cleaned_text, ref_text)
         tagged_spans = extract_nested_tags(tagged_ref)
 
@@ -308,11 +309,12 @@ class MistralV3Predictor(BasePredictor):
 
     def do_prediction(self, sentence, sid_path):
         if self.model is None:
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, force_download=True)
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_id,
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
+                force_download=True
             )
             self.model.generation_config.pad_token_id = self.tokenizer.pad_token_id
 
@@ -374,13 +376,14 @@ def double_check(ref_doc, predicted_doc, file_name):
 if __name__ == "__main__":
     phase = 'test_unlabeled'
     base_path = Path(f'data/{phase}')
-    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
+
+    model_id = "Qwen/Qwen2.5-7B-Instruct"
     model_name = model_id.split('/')[-1]
     file_paths = [x for x in base_path.rglob('*.tsv')]
     output_folder = Path(f'results/{model_name}/{phase}')
     os.makedirs(output_folder, exist_ok=True)
 
-    predictor = MistralV3Predictor(
+    predictor = Llama3Predictor(
         model_id=model_id
     )
 

@@ -304,49 +304,49 @@ class OpenAIPredictor(BasePredictor):
 
     #     return label_to_text_list, pure_text
 
-    def extract_annotation_labels_if_possible(self, predicted_text):
-        label_to_text_list = defaultdict(list)
-        matched_labels = {}
+    # def extract_annotation_labels_if_possible(self, predicted_text):
+    #     label_to_text_list = defaultdict(list)
+    #     matched_labels = {}
 
-        for label in LABELS:
-            regex = f'<{label}>(.*?)</{label}>'
-            matches = re.finditer(regex, predicted_text, flags=re.IGNORECASE | re.DOTALL)
-            for m in matches:
-                matched_labels[m.start(1)] = label
+    #     for label in LABELS:
+    #         regex = f'<{label}>(.*?)</{label}>'
+    #         matches = re.finditer(regex, predicted_text, flags=re.IGNORECASE | re.DOTALL)
+    #         for m in matches:
+    #             matched_labels[m.start(1)] = label
 
-        acc_adjusted_pos = 0
-        print(matched_labels)
+    #     acc_adjusted_pos = 0
+    #     print(matched_labels)
 
-        for pos in sorted(matched_labels):
-            label = matched_labels[pos]
-            regex = f'<{label}>(.*?)</{label}>'
-            matches = re.finditer(regex, predicted_text, flags=re.IGNORECASE | re.DOTALL)
-            matches = [x for x in matches]
+    #     for pos in sorted(matched_labels):
+    #         label = matched_labels[pos]
+    #         regex = f'<{label}>(.*?)</{label}>'
+    #         matches = re.finditer(regex, predicted_text, flags=re.IGNORECASE | re.DOTALL)
+    #         matches = [x for x in matches]
 
-            for m in matches:
-                if m.start(1) != pos:
-                    continue
+    #         for m in matches:
+    #             if m.start(1) != pos:
+    #                 continue
 
-                adjusted_pos = len(label) + 2
-                start = m.start(1) - adjusted_pos - acc_adjusted_pos
-                end = m.end(1) - adjusted_pos - acc_adjusted_pos
-                if start < 0:
-                    logging.error("BUG!!! please fix it")
+    #             adjusted_pos = len(label) + 2
+    #             start = m.start(1) - adjusted_pos - acc_adjusted_pos
+    #             end = m.end(1) - adjusted_pos - acc_adjusted_pos
+    #             if start < 0:
+    #                 logging.error("BUG!!! please fix it")
 
-                label_to_text_list[label].append({
-                    'text': m.group(1),
-                    'start': start,
-                    'end': end
-                })
+    #             label_to_text_list[label].append({
+    #                 'text': m.group(1),
+    #                 'start': start,
+    #                 'end': end
+    #             })
 
-                acc_adjusted_pos += adjusted_pos * 2 + 1
-                # print(f"acc_adjusted_pos: {acc_adjusted_pos}, label: {label}, pos: {pos}")
+    #             acc_adjusted_pos += adjusted_pos * 2 + 1
+    #             # print(f"acc_adjusted_pos: {acc_adjusted_pos}, label: {label}, pos: {pos}")
 
-        for label in LABELS:
-            predicted_text = re.sub(f'<{label}>', '', predicted_text)
-            predicted_text = re.sub(f'</{label}>', '', predicted_text)
+    #     for label in LABELS:
+    #         predicted_text = re.sub(f'<{label}>', '', predicted_text)
+    #         predicted_text = re.sub(f'</{label}>', '', predicted_text)
 
-        return label_to_text_list, predicted_text
+    #     return label_to_text_list, predicted_text
 
     def do_prediction(self, sentence, sid_path):
         self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)

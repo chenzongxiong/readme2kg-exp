@@ -1,32 +1,57 @@
-import re
-import sys
 import os
-import random
-from collections import defaultdict
-from termcolor import colored
-from openai import OpenAI
-from functools import partial, reduce
+import re
 import operator as op
 import hashlib
+from collections import defaultdict
+from functools import reduce
 import multiprocessing as mp
 import logging
-from pathlib import Path
 from bs4 import BeautifulSoup
 from difflib import SequenceMatcher
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
+from termcolor import colored
 
+from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 import utils
 import cleaner
-from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
-from predictor import BasePredictor, LABELS
-
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-# torch.cuda.is_available()
-# device = "cuda" if torch.cuda.is_available() else "cpu"
+LABELS = [
+    'CONFERENCE',
+    'DATASET',
+    'EVALMETRIC',
+    'LICENSE',
+    'ONTOLOGY',
+    'PROGLANG',
+    'PROJECT',
+    'PUBLICATION',
+    'SOFTWARE',
+    'WORKSHOP'
+]
+
+
+class BasePredictor:
+    # def __call__(self, doc: Document):
+    #     annotations = []
+    #     for sent in doc.sentences:
+    #         tokens = doc.sentence_tokens(sent)
+    #         # NOTE: PUT YOUR PREDICTION LOGIC HERE
+
+    #         span_tokens_to_label_list = self.predict(sentence=sent, tokens=tokens)
+    #         # create the annotation instances
+    #         for span_tokens_to_label in span_tokens_to_label_list:
+    #             span_tokens = span_tokens_to_label['span_tokens']
+    #             label = span_tokens_to_label['label']
+    #             if span_tokens is None:
+    #                 continue
+
+    #             annotation = utils.make_annotation(tokens=span_tokens, label=label)
+    #             annotations.append(annotation)
+
+    #     result = utils.replace_webanno_annotations(doc, annotations=annotations)
+    #     return result
+    pass
 
 
 def char_diff(ref: str, pred: str):
@@ -57,7 +82,6 @@ def char_diff(ref: str, pred: str):
             result_pred.append(colored(pred[j2:j1], 'green'))
             adjusted_ops.append((tag, i1, i2, j1, j2))
 
-
     ops = []
     for op in adjusted_ops:
         if op[0] == 'equal':
@@ -67,7 +91,6 @@ def char_diff(ref: str, pred: str):
         else:
             ops.append(op)
     return ''.join(result_ref), ''.join(result_pred), ops
-
 
 def fuzzy_find_span(content, ref_text, used_ranges):
     matcher = SequenceMatcher(None, ref_text, content)
@@ -89,7 +112,6 @@ def fuzzy_find_span(content, ref_text, used_ranges):
 
     return best_match
 
-
 def reinsert_tags_with_fuzzy(ref_text, spans):
     tagged_text = ref_text
     used_ranges = []
@@ -106,7 +128,6 @@ def reinsert_tags_with_fuzzy(ref_text, spans):
             used_ranges.append((start, end + len(tag)*2 + 5))  # crude tag length estimate
 
     return tagged_text
-
 
 def extract_nested_tags(tagged_text):
     """Extract (label, content) from nested tag structure."""
@@ -126,12 +147,10 @@ def extract_nested_tags(tagged_text):
     recurse(soup.root)
     return spans
 
-
 def transfer_tags(pred_text, ref_text):
     spans = extract_nested_tags(pred_text)
     tagged_ref = reinsert_tags_with_fuzzy(ref_text, spans)
     return spans, tagged_ref
-
 
 def find_spans_in_target(spans, target):
     """
@@ -175,29 +194,7 @@ def find_spans_in_target(spans, target):
     return result
 
 
-class MistralV3Predictor(BasePredictor):
-    def __init__(self, model_id: str):
-        self.model_id = model_id
-        self.model_name = model_id.split('/')[-1]
-        self.prompt_id = 0
-        prompt_template_path = f'config/{model_name}-prompt-{self.prompt_id}.txt'
-        if os.path.isfile(prompt_template_path):
-            with open(prompt_template_path, 'r') as fd:
-                self.prompt_template = fd.read()
-        else:
-            self.prompt_template = ''
-        self.parallel = False
-        self.mismatch_sentences = 0
-        self.total_sentences = 0
-
-        self.label_to_text_list = defaultdict(list)
-        self.text_with_tags_to_pure_text_list = []
-        self.pure_text_to_text_with_tags_list = []
-
-        self.tokenizer = None
-        self.model = None
-
-
+class GenerativePredcitor(BasePredictor):
     def __call__(self, doc: Document):
         if getattr(self, 'parallel', False):
             return self.__call__parallel(doc)
@@ -257,7 +254,6 @@ class MistralV3Predictor(BasePredictor):
         sid = hashlib.sha256(sentence.text.encode()).hexdigest()[:8]
         if not os.path.isfile(f'{path}/{sid}.txt'):
             self.do_prediction(sentence, f'{path}/{sid}.txt')
-
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
@@ -267,8 +263,8 @@ class MistralV3Predictor(BasePredictor):
         spans, tagged_ref = transfer_tags(cleaned_text, ref_text)
         tagged_spans = extract_nested_tags(tagged_ref)
 
-        # if len(spans) != len(tagged_spans):
-        #     import ipdb; ipdb.set_trace()
+        if len(spans) != len(tagged_spans):
+            import ipdb; ipdb.set_trace()
 
         matches = find_spans_in_target(tagged_spans, ref_text)
         label_to_text_list = defaultdict(list)
@@ -305,94 +301,3 @@ class MistralV3Predictor(BasePredictor):
                     import ipdb; ipdb.set_trace()
 
         return span_tokens_to_label_list
-
-    def do_prediction(self, sentence, sid_path):
-        if self.model is None:
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.model_id,
-                torch_dtype=torch.bfloat16,
-                device_map="auto",
-            )
-            self.model.generation_config.pad_token_id = self.tokenizer.pad_token_id
-
-        print(f"Process-{os.getpid()} processing {colored(sentence.text, 'red')} ...")
-        prompt = self.prompt_template.replace('{input_text}', sentence.text)
-
-        messages = [
-            {"role": "system", "content": "You are a helpful NER annotator."},
-            {"role": "user", "content": prompt},
-        ]
-
-        input_ids = self.tokenizer.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            return_tensors="pt"
-        ).to(self.model.device)
-
-        terminators = [
-            self.tokenizer.eos_token_id,
-            self.tokenizer.convert_tokens_to_ids("<|eot_id|>")
-        ]
-
-        outputs = self.model.generate(
-            input_ids,
-            # max_new_tokens=255,
-            max_new_tokens=2048,
-            eos_token_id=terminators,
-            do_sample=True,
-            temperature=0.6,
-            top_p=0.9,
-            pad_token_id=self.tokenizer.eos_token_id
-        )
-        response = outputs[0][input_ids.shape[-1]:]
-        result = self.tokenizer.decode(response, skip_special_tokens=True)
-
-        with open(sid_path, 'w') as file:
-            file.write(result)
-
-    def set_file_name(self, file_name):
-        self.file_name = file_name
-
-
-def double_check(ref_doc, predicted_doc, file_name):
-    if ref_doc.text != predicted_doc.text:
-        logging.warning(f'{file_name} content changed')
-    if len(ref_doc.sentences) != len(predicted_doc.sentences):
-        logging.warning(f'{file_name} sentences changed, {len(ref_doc.sentences)}/{len(predicted_doc.sentences)}')
-    if len(ref_doc.tokens) != len(predicted_doc.tokens):
-        logging.debug(f'{file_name} tokens changed')
-    for s1, s2 in zip(ref_doc.sentences, predicted_doc.sentences):
-        if s1 != s2:
-            logging.warning(f'{file_name} sentence changed, \n{s1}\n{s2}')
-
-    for t1, t2 in zip(ref_doc.tokens, predicted_doc.tokens):
-        if t1 != t2:
-            logging.warning(f'token changed: \n{t1}\n{t2}')
-
-
-if __name__ == "__main__":
-    phase = 'test_unlabeled'
-    base_path = Path(f'data/{phase}')
-    model_id = "mistralai/Mistral-7B-Instruct-v0.3"
-    model_name = model_id.split('/')[-1]
-    file_paths = [x for x in base_path.rglob('*.tsv')]
-    output_folder = Path(f'results/{model_name}/{phase}')
-    os.makedirs(output_folder, exist_ok=True)
-
-    predictor = MistralV3Predictor(
-        model_id=model_id
-    )
-
-    for file_path in file_paths:
-        print(f'file_name: {file_path.name}')
-
-        # if 'prasunroy_air-writing_master_README.md.tsv' not in file_path.name:
-        #     continue
-        predictor.set_file_name(file_path.name)
-        ref_doc = webanno_tsv_read_file(file_path)
-        pred_doc = predictor(ref_doc)
-        double_check(ref_doc, pred_doc, file_path.name)
-        prediction_path = output_folder / file_path.name
-        with open(prediction_path, 'w') as fd:
-            fd.write(pred_doc.tsv())
