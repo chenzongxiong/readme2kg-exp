@@ -45,12 +45,17 @@ class Teuken(GenerativePredictor):
 
     def do_prediction(self, sentence, sid_path):
         if self.model is None:
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, force_download=True)
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, trust_remote_code=True)
+            self.tokenizer.system_messages_by_lang['EN'] = "You are a helpful NER annotator."
+            default_chat_template = "System: A chat between a human and an artificial intelligence assistant.The assistant gives helpful and polite answers to the human's questions.You are a helpful NER annotator.{{- '\\n'}}\n{%- for message in messages %}\n{%- if (message['role']|lower == 'user') != (loop.index0 % 2 == 0) %}\n{{- raise_exception('Roles must alternate User/Assistant/User/Assistant/...') }}\n{%- endif %}\n{%-if message['role']|lower == 'user' %}\n{{- message['role']|capitalize + ': ' + message['content'] + '\\n' }}\n{%- elif message['role']|lower == 'assistant' %}\n{{- message['role']|capitalize + ': ' + message['content'] + eos_token + '\\n' }}\n{%- else %}\n{{- raise_exception('Only user and assistant roles are supported!') }}\n {%- endif %}\n{%- endfor %}{%-if add_generation_prompt %}\n{{- 'Assistant: '}}\n{%- endif %}\n"
+            self.tokenizer.chat_template['default'] = default_chat_template
+            self.tokenizer.chat_template['EN'] = default_chat_template
+
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_id,
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
-                force_download=True
+                trust_remote_code=True,
             )
             self.model.generation_config.pad_token_id = self.tokenizer.pad_token_id
 
@@ -58,26 +63,18 @@ class Teuken(GenerativePredictor):
         prompt = self.prompt_template.replace('{input_text}', sentence.text)
 
         messages = [
-            {"role": "system", "content": "You are a helpful NER annotator."},
-            {"role": "user", "content": prompt},
+            {"role": "User", "content": prompt},
         ]
-
         input_ids = self.tokenizer.apply_chat_template(
             messages,
             add_generation_prompt=True,
-            return_tensors="pt"
+            return_tensors="pt",
+            tokenize=True
         ).to(self.model.device)
-
-        terminators = [
-            self.tokenizer.eos_token_id,
-            self.tokenizer.convert_tokens_to_ids("<|eot_id|>")
-        ]
 
         outputs = self.model.generate(
             input_ids,
-            # max_new_tokens=255,
             max_new_tokens=2048,
-            eos_token_id=terminators,
             do_sample=True,
             temperature=0.6,
             top_p=0.9,
