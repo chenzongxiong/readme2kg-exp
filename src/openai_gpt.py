@@ -13,8 +13,6 @@ import logging
 from pathlib import Path
 from bs4 import BeautifulSoup
 from difflib import SequenceMatcher
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
 
 import utils
 import cleaner
@@ -25,10 +23,9 @@ from base_predictor import GenerativePredictor, LABELS
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-class Llama3Predictor(GenerativePredictor):
-    def __init__(self, model_id: str):
-        self.model_id = model_id
-        self.model_name = model_id.split('/')[-1]
+class OpenAIGPT(GenerativePredictor):
+    def __init__(self, model_name: str):
+        self.model_name = model_name
         self.prompt_id = 0
         prompt_template_path = f'config/{model_name}-prompt-{self.prompt_id}.txt'
         if os.path.isfile(prompt_template_path):
@@ -36,59 +33,30 @@ class Llama3Predictor(GenerativePredictor):
                 self.prompt_template = fd.read()
         else:
             self.prompt_template = ''
-
         self.parallel = False
-
         self.mismatch_sentences = 0
         self.total_sentences = 0
 
-        self.tokenizer = None
-        self.model = None
-
     def do_prediction(self, sentence, sid_path):
-        if self.model is None:
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, trust_remote_code=True)
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.model_id,
-                torch_dtype=torch.bfloat16,
-                device_map="auto",
-                trust_remote_code=True
+        self.client = OpenAI(api_key=os.environ.get('OPENAI_APT_KEY'))
+        try:
+            print(f"Process-{os.getpid()} processing {colored(sentence.text, 'red')} ...")
+            prompt = self.prompt_template.replace('{input_text}', sentence.text)
+            response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant"},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0,
+                max_tokens=4096,
             )
-            self.model.generation_config.pad_token_id = self.tokenizer.pad_token_id
-
-        print(f"Process-{os.getpid()} processing {colored(sentence.text, 'red')} ...")
-        prompt = self.prompt_template.replace('{input_text}', sentence.text)
-
-        messages = [
-            {"role": "system", "content": "You are a helpful NER annotator."},
-            {"role": "user", "content": prompt},
-        ]
-
-        input_ids = self.tokenizer.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            return_tensors="pt"
-        ).to(self.model.device)
-
-        terminators = [
-            self.tokenizer.eos_token_id,
-            self.tokenizer.convert_tokens_to_ids("<|eot_id|>")
-        ]
-
-        outputs = self.model.generate(
-            input_ids,
-            max_new_tokens=2048,
-            eos_token_id=terminators,
-            do_sample=True,
-            temperature=0.6,
-            top_p=0.9,
-            pad_token_id=self.tokenizer.eos_token_id
-        )
-        response = outputs[0][input_ids.shape[-1]:]
-        result = self.tokenizer.decode(response, skip_special_tokens=True)
-
-        with open(sid_path, 'w') as file:
-            file.write(result)
+            print(f"Process-{os.getpid()} predict {colored(sentence.text, 'cyan')} successfully")
+            result = response.choices[0].message.content
+            with open(sid_path, 'w') as file:
+                file.write(result)
+        except Exception as ex:
+            logging.error(f'[do_prediction] got exception: {ex}')
 
     def set_file_name(self, file_name):
         self.file_name = file_name
@@ -113,19 +81,17 @@ def double_check(ref_doc, predicted_doc, file_name):
 if __name__ == "__main__":
     phase = 'test_unlabeled'
     base_path = Path(f'data/{phase}')
-    model_id = "meta-llama/Llama-3.1-8B-Instruct"
-    model_name = model_id.split('/')[-1]
     file_paths = sorted([x for x in base_path.rglob('*.tsv')])
+    model_name = 'gpt-4o-mini'
     output_folder = Path(f'results/{model_name}/{phase}')
     os.makedirs(output_folder, exist_ok=True)
 
-    predictor = Llama3Predictor(
-        model_id=model_id
-    )
+    predictor = OpenAIGPT(model_name=model_name)
 
-    for file_path in file_paths:
+    for idx, file_path in enumerate(file_paths):
         print(f'file_name: {file_path.name}')
-        # if 'felixxu35_hamiltoniq_main_README.md.tsv' not in file_path.name:
+
+        # if 'prasunroy_air-writing_master_README.md.tsv' not in file_path.name:
         #     continue
 
         predictor.set_file_name(file_path.name)
@@ -135,3 +101,6 @@ if __name__ == "__main__":
         prediction_path = output_folder / file_path.name
         with open(prediction_path, 'w') as fd:
             fd.write(pred_doc.tsv())
+
+        # if idx >= 2:
+        #     break

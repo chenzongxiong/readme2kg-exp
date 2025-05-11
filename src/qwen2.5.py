@@ -25,7 +25,7 @@ from base_predictor import GenerativePredictor, LABELS
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-class Llama3Predictor(GenerativePredictor):
+class Qwen25(GenerativePredictor):
     def __init__(self, model_id: str):
         self.model_id = model_id
         self.model_name = model_id.split('/')[-1]
@@ -36,23 +36,25 @@ class Llama3Predictor(GenerativePredictor):
                 self.prompt_template = fd.read()
         else:
             self.prompt_template = ''
-
         self.parallel = False
-
         self.mismatch_sentences = 0
         self.total_sentences = 0
+
+        self.label_to_text_list = defaultdict(list)
+        self.text_with_tags_to_pure_text_list = []
+        self.pure_text_to_text_with_tags_list = []
 
         self.tokenizer = None
         self.model = None
 
     def do_prediction(self, sentence, sid_path):
         if self.model is None:
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, trust_remote_code=True)
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, force_download=True)
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_id,
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
-                trust_remote_code=True
+                force_download=True
             )
             self.model.generation_config.pad_token_id = self.tokenizer.pad_token_id
 
@@ -77,6 +79,7 @@ class Llama3Predictor(GenerativePredictor):
 
         outputs = self.model.generate(
             input_ids,
+            # max_new_tokens=255,
             max_new_tokens=2048,
             eos_token_id=terminators,
             do_sample=True,
@@ -113,21 +116,20 @@ def double_check(ref_doc, predicted_doc, file_name):
 if __name__ == "__main__":
     phase = 'test_unlabeled'
     base_path = Path(f'data/{phase}')
-    model_id = "meta-llama/Llama-3.1-8B-Instruct"
+
+    model_id = "Qwen/Qwen2.5-7B-Instruct"
     model_name = model_id.split('/')[-1]
     file_paths = sorted([x for x in base_path.rglob('*.tsv')])
     output_folder = Path(f'results/{model_name}/{phase}')
     os.makedirs(output_folder, exist_ok=True)
 
-    predictor = Llama3Predictor(
-        model_id=model_id
-    )
+    predictor = Qwen25(model_id=model_id)
 
     for file_path in file_paths:
         print(f'file_name: {file_path.name}')
-        # if 'felixxu35_hamiltoniq_main_README.md.tsv' not in file_path.name:
-        #     continue
 
+        # if 'prasunroy_air-writing_master_README.md.tsv' not in file_path.name:
+        #     continue
         predictor.set_file_name(file_path.name)
         ref_doc = webanno_tsv_read_file(file_path)
         pred_doc = predictor(ref_doc)

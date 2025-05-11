@@ -64,9 +64,9 @@ class Cleaner:
         # if len(codes) == 0:
         #     pass
         # # return codes[0]
-        self.raw_text = re.sub(r'^```.*?\n```$',
-                               '', self.raw_text.strip(), flags=re.MULTILINE)
-        # self.raw_text = re.sub(r'^```markdown\n|```$',
+        # self.raw_text = re.sub(r'^```.*?\n```$',
         #                        '', self.raw_text.strip(), flags=re.MULTILINE)
+        self.raw_text = re.sub(r'^```markdown\n|```$',
+                               '', self.raw_text.strip(), flags=re.MULTILINE)
 
         return self
