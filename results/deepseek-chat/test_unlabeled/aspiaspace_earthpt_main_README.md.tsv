@@ -93,7 +93,7 @@
 2-7	294-300	Andrej	_	_
 2-8	301-311	Karpathy's	_	_
 2-9	312-313	\[	_	_
-2-10	313-320	nanoGPT	*[332]	SOFTWARE[332]
+2-10	313-320	nanoGPT	*[107]	SOFTWARE[107]
 2-11	320-321	\]	_	_
 2-12	321-322	(	_	_
 2-13	322-327	https	_	_
@@ -124,13 +124,13 @@
 
 #Text=`train.py` reproduces \[EarthPT-700M\](https://arxiv.org/abs/2309.07207) when trained on 14B time series 'tokens' of ClearSky EO data within the TL UK National Grid tile.
 3-1	424-425	`	_	_
-3-2	425-433	train.py	*[333]	SOFTWARE[333]
+3-2	425-433	train.py	*[108]	SOFTWARE[108]
 3-3	433-434	`	_	_
 3-4	435-445	reproduces	_	_
 3-5	446-447	\[	_	_
-3-6	447-454	EarthPT	*[92]	PUBLICATION[92]
-3-7	454-455	-	*[92]	PUBLICATION[92]
-3-8	455-459	700M	*[92]	PUBLICATION[92]
+3-6	447-454	EarthPT	*[40]	PUBLICATION[40]
+3-7	454-455	-	*[40]	PUBLICATION[40]
+3-8	455-459	700M	*[40]	PUBLICATION[40]
 3-9	459-460	\]	_	_
 3-10	460-461	(	_	_
 3-11	461-466	https	_	_
@@ -170,7 +170,7 @@
 4-2	598-601	run	_	_
 4-3	601-602	,	_	_
 4-4	603-604	`	_	_
-4-5	604-612	train.py	*[334]	SOFTWARE[334]
+4-5	604-612	train.py	*[109]	SOFTWARE[109]
 4-6	612-613	`	_	_
 4-7	614-619	takes	_	_
 4-8	620-621	~	_	_
@@ -192,7 +192,7 @@
 #Text=Within `train.py` you will find a ~300-line boilerplate training loop and within `model.py` you will find a ~300-line GPT model definition with an MLP tokeniser and a regressive loss.
 5-1	695-701	Within	_	_
 5-2	702-703	`	_	_
-5-3	703-711	train.py	*[133]	PROGLANG[133]
+5-3	703-711	train.py	*[46]	PROGLANG[46]
 5-4	711-712	`	_	_
 5-5	713-716	you	_	_
 5-6	717-721	will	_	_
@@ -208,7 +208,7 @@
 5-16	765-768	and	_	_
 5-17	769-775	within	_	_
 5-18	776-777	`	_	_
-5-19	777-785	model.py	*[134]	PROGLANG[134]
+5-19	777-785	model.py	*[47]	PROGLANG[47]
 5-20	785-786	`	_	_
 5-21	787-790	you	_	_
 5-22	791-795	will	_	_
@@ -305,9 +305,9 @@
 7-42	1223-1224	#	_	_
 7-43	1225-1232	results	_	_
 7-44	1234-1237	Our	_	_
-7-45	1238-1245	EarthPT	*[121]	PROJECT[121]
-7-46	1245-1246	-	*[121]	PROJECT[121]
-7-47	1246-1250	700M	*[121]	PROJECT[121]
+7-45	1238-1245	EarthPT	*[42]	PROJECT[42]
+7-46	1245-1246	-	*[42]	PROJECT[42]
+7-47	1246-1250	700M	*[42]	PROJECT[42]
 7-48	1251-1256	model	_	_
 7-49	1257-1259	is	_	_
 7-50	1260-1264	able	_	_
@@ -414,7 +414,7 @@
 7-151	1688-1694	models	_	_
 7-152	1695-1697	on	_	_
 7-153	1698-1699	\[	_	_
-7-154	1699-1710	HuggingFace	*[122]	PROJECT[122]
+7-154	1699-1710	HuggingFace	*[43]	PROJECT[43]
 7-155	1710-1711	\]	_	_
 7-156	1711-1712	(	_	_
 7-157	1712-1717	https	_	_
@@ -489,7 +489,7 @@
 9-6	1937-1938	=	_	_
 9-7	1939-1940	{	_	_
 9-8	1940-1941	{	_	_
-9-9	1941-1948	EarthPT	*[123]	PROJECT[123]
+9-9	1941-1948	EarthPT	*[44]	PROJECT[44]
 9-10	1948-1949	:	_	_
 9-11	1950-1951	a	_	_
 9-12	1952-1956	time	_	_
@@ -505,7 +505,7 @@
 9-22	2010-2017	journal	_	_
 9-23	2018-2019	=	_	_
 9-24	2020-2021	{	_	_
-9-25	2021-2026	arXiv	*[94]	PUBLICATION[94]
+9-25	2021-2026	arXiv	*[42]	PUBLICATION[42]
 9-26	2026-2027	}	_	_
 9-27	2027-2028	,	_	_
 9-28	2033-2037	year	_	_
@@ -556,8 +556,8 @@
 9-73	2208-2209	)	_	_
 9-74	2210-2212	of	_	_
 9-75	2213-2216	the	_	_
-9-76	2217-2221	2023	*[10]	CONFERENCE[10]
-9-77	2222-2226	CCAI	*[10]	CONFERENCE[10]
-9-78	2227-2234	NeurIPS	*[10]	CONFERENCE[10]
-9-79	2235-2243	workshop	*[10]	CONFERENCE[10]
+9-76	2217-2221	2023	*[4]	CONFERENCE[4]
+9-77	2222-2226	CCAI	*[4]	CONFERENCE[4]
+9-78	2227-2234	NeurIPS	*[4]	CONFERENCE[4]
+9-79	2235-2243	workshop	*[4]	CONFERENCE[4]
 9-80	2243-2244	.	_	_

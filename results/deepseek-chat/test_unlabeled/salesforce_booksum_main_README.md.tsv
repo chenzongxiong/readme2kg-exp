@@ -4,16 +4,16 @@
 
 #Text=# BOOKSUM: A Collection of Datasets for Long-form Narrative Summarization Authors: \[Wojciech Kryściński\](https://twitter.com/iam\_wkr), \[Nazneen Rajani\](https://twitter.com/nazneenrajani), \[Divyansh Agarwal\](https://twitter.com/jigsaw2212), \[Caiming Xiong\](https://twitter.com/caimingxiong), \[Dragomir Radev\](http://www.cs.yale.edu/homes/radev/)  ## Introduction The majority of available text summarization datasets include short-form source documents that lack long-range causal and temporal dependencies, and often contain strong layout and stylistic biases.
 1-1	0-1	#	_	_
-1-2	2-9	BOOKSUM	*[68]	PUBLICATION[68]
-1-3	9-10	:	*[68]	PUBLICATION[68]
-1-4	11-12	A	*[68]	PUBLICATION[68]
-1-5	13-23	Collection	*[68]	PUBLICATION[68]
-1-6	24-26	of	*[68]	PUBLICATION[68]
-1-7	27-35	Datasets	*[68]	PUBLICATION[68]
-1-8	36-39	for	*[68]	PUBLICATION[68]
-1-9	40-49	Long-form	*[68]	PUBLICATION[68]
-1-10	50-59	Narrative	*[68]	PUBLICATION[68]
-1-11	60-73	Summarization	*[68]	PUBLICATION[68]
+1-2	2-9	BOOKSUM	*[337]	PUBLICATION[337]
+1-3	9-10	:	*[337]	PUBLICATION[337]
+1-4	11-12	A	*[337]	PUBLICATION[337]
+1-5	13-23	Collection	*[337]	PUBLICATION[337]
+1-6	24-26	of	*[337]	PUBLICATION[337]
+1-7	27-35	Datasets	*[337]	PUBLICATION[337]
+1-8	36-39	for	*[337]	PUBLICATION[337]
+1-9	40-49	Long-form	*[337]	PUBLICATION[337]
+1-10	50-59	Narrative	*[337]	PUBLICATION[337]
+1-11	60-73	Summarization	*[337]	PUBLICATION[337]
 1-12	74-81	Authors	_	_
 1-13	81-82	:	_	_
 1-14	83-84	\[	_	_
@@ -146,7 +146,7 @@
 3-4	693-699	issues	_	_
 3-5	700-702	by	_	_
 3-6	703-714	introducing	_	_
-3-7	715-722	BookSum	*[101]	PROJECT[101]
+3-7	715-722	BookSum	*[157]	PROJECT[157]
 3-8	722-723	,	_	_
 3-9	724-725	a	_	_
 3-10	726-736	collection	_	_
@@ -262,7 +262,7 @@
 6-17	1375-1384	baselines	_	_
 6-18	1385-1388	for	_	_
 6-19	1389-1392	our	_	_
-6-20	1393-1400	dataset	*[184]	DATASET[184]
+6-20	1393-1400	dataset	*[295]	DATASET[295]
 6-21	1400-1401	.	_	_
 
 #Text=Paper link: https://arxiv.org/abs/2105.08209  <p align="center"><img src="misc/book\_sumv4.png"></p>   ## Table of Contents  1.
@@ -346,7 +346,7 @@
 
 #Text=\[License\](#license) 5.
 11-1	1607-1608	\[	_	_
-11-2	1608-1615	License	*[23]	LICENSE[23]
+11-2	1608-1615	License	*[34]	LICENSE[34]
 11-3	1615-1616	\]	_	_
 11-4	1616-1617	(	_	_
 11-5	1617-1618	#	_	_
@@ -403,16 +403,16 @@
 13-34	1777-1782	title	_	_
 13-35	1782-1783	=	_	_
 13-36	1783-1784	{	_	_
-13-37	1784-1791	BookSum	*[69]	PUBLICATION[69]
-13-38	1791-1792	:	*[69]	PUBLICATION[69]
-13-39	1793-1794	A	*[69]	PUBLICATION[69]
-13-40	1795-1805	Collection	*[69]	PUBLICATION[69]
-13-41	1806-1808	of	*[69]	PUBLICATION[69]
-13-42	1809-1817	Datasets	*[69]	PUBLICATION[69]
-13-43	1818-1821	for	*[69]	PUBLICATION[69]
-13-44	1822-1831	Long-form	*[69]	PUBLICATION[69]
-13-45	1832-1841	Narrative	*[69]	PUBLICATION[69]
-13-46	1842-1855	Summarization	*[69]	PUBLICATION[69]
+13-37	1784-1791	BookSum	*[338]	PUBLICATION[338]
+13-38	1791-1792	:	*[338]	PUBLICATION[338]
+13-39	1793-1794	A	*[338]	PUBLICATION[338]
+13-40	1795-1805	Collection	*[338]	PUBLICATION[338]
+13-41	1806-1808	of	*[338]	PUBLICATION[338]
+13-42	1809-1817	Datasets	*[338]	PUBLICATION[338]
+13-43	1818-1821	for	*[338]	PUBLICATION[338]
+13-44	1822-1831	Long-form	*[338]	PUBLICATION[338]
+13-45	1832-1841	Narrative	*[338]	PUBLICATION[338]
+13-46	1842-1855	Summarization	*[338]	PUBLICATION[338]
 13-47	1855-1856	}	_	_
 13-48	1856-1857	,	_	_
 13-49	1865-1871	author	_	_
@@ -680,10 +680,10 @@
 18-59	3095-3098	the	_	_
 18-60	3099-3100	\*	_	_
 18-61	3100-3101	\*	_	_
-18-62	3101-3104	BSD	*[24]	LICENSE[24]
-18-63	3104-3105	-	*[24]	LICENSE[24]
-18-64	3105-3106	3	*[24]	LICENSE[24]
-18-65	3107-3114	License	*[24]	LICENSE[24]
+18-62	3101-3104	BSD	*[35]	LICENSE[35]
+18-63	3104-3105	-	*[35]	LICENSE[35]
+18-64	3105-3106	3	*[35]	LICENSE[35]
+18-65	3107-3114	License	*[35]	LICENSE[35]
 18-66	3114-3115	\*	_	_
 18-67	3115-3116	\*	_	_
 18-68	3117-3118	(	_	_
@@ -707,15 +707,15 @@
 
 #Text=Chapterized Project Guteberg Data The chapterized book text from Gutenberg, for the books we use in our work, has been made available through a public GCP bucket.
 19-1	3170-3181	Chapterized	_	_
-19-2	3182-3189	Project	*[102]	PROJECT[102]
-19-3	3190-3198	Guteberg	*[102]	PROJECT[102]
+19-2	3182-3189	Project	*[158]	PROJECT[158]
+19-3	3190-3198	Guteberg	*[158]	PROJECT[158]
 19-4	3199-3203	Data	_	_
 19-5	3204-3207	The	_	_
 19-6	3208-3219	chapterized	_	_
 19-7	3220-3224	book	_	_
 19-8	3225-3229	text	_	_
 19-9	3230-3234	from	_	_
-19-10	3235-3244	Gutenberg	*[103]	PROJECT[103]
+19-10	3235-3244	Gutenberg	*[159]	PROJECT[159]
 19-11	3244-3245	,	_	_
 19-12	3246-3249	for	_	_
 19-13	3250-3253	the	_	_
@@ -733,8 +733,8 @@
 19-25	3304-3311	through	_	_
 19-26	3312-3313	a	_	_
 19-27	3314-3320	public	_	_
-19-28	3321-3324	GCP	*[289]	SOFTWARE[289]
-19-29	3325-3331	bucket	*[289]	SOFTWARE[289]
+19-28	3321-3324	GCP	*[467]	SOFTWARE[467]
+19-29	3325-3331	bucket	*[467]	SOFTWARE[467]
 19-30	3331-3332	.	_	_
 
 #Text=It can be fetched using: ``` gsutil cp gs://sfr-books-dataset-chapters-research/all\_chapterized\_books.zip . ```  or downloaded directly \[here\](https://storage.cloud.google.com/sfr-books-dataset-chapters-research/all\_chapterized\_books.zip).  #### 2.
@@ -753,7 +753,7 @@
 20-13	3374-3375	:	_	_
 20-14	3375-3376	/	_	_
 20-15	3376-3377	/	_	_
-20-16	3377-3412	sfr-books-dataset-chapters-research	*[186]	DATASET[186]
+20-16	3377-3412	sfr-books-dataset-chapters-research	*[297]	DATASET[297]
 20-17	3412-3413	/	_	_
 20-18	3413-3438	all\_chapterized\_books.zip	_	_
 20-19	3439-3440	.	_	_
@@ -840,7 +840,7 @@
 23-6	3851-3854	the	_	_
 23-7	3855-3859	file	_	_
 23-8	3860-3861	`	_	_
-23-9	3861-3888	literature\_links.tsv.pruned	*[290]	SOFTWARE[290]
+23-9	3861-3888	literature\_links.tsv.pruned	*[468]	SOFTWARE[468]
 23-10	3888-3889	`	_	_
 23-11	3890-3898	contains	_	_
 23-12	3899-3902	the	_	_
@@ -850,7 +850,7 @@
 23-16	3917-3922	books	_	_
 23-17	3923-3925	in	_	_
 23-18	3926-3929	our	_	_
-23-19	3930-3937	dataset	*[188]	DATASET[188]
+23-19	3930-3937	dataset	*[299]	DATASET[299]
 23-20	3937-3938	.	_	_
 
 #Text=Run `get\_summaries.py` to collect the summaries from the links for each source.
@@ -874,7 +874,7 @@
 25-1	4019-4031	Additionally	_	_
 25-2	4031-4032	,	_	_
 25-3	4033-4034	`	_	_
-25-4	4034-4046	get\_works.py	*[291]	SOFTWARE[291]
+25-4	4034-4046	get\_works.py	*[469]	SOFTWARE[469]
 25-5	4046-4047	`	_	_
 25-6	4048-4051	can	_	_
 25-7	4052-4054	be	_	_
@@ -962,9 +962,9 @@
 28-9	4457-4466	separable	_	_
 28-10	4467-4468	(	_	_
 28-11	4468-4469	`	_	_
-28-12	4469-4479	alignments	*[189]	DATASET[189]
-28-13	4479-4480	/	*[189]	DATASET[189]
-28-14	4480-4526	chapter\_summary\_aligned.jsonl.aggregate\_splits	*[189]	DATASET[189]
+28-12	4469-4479	alignments	*[300]	DATASET[300]
+28-13	4479-4480	/	*[300]	DATASET[300]
+28-14	4480-4526	chapter\_summary\_aligned.jsonl.aggregate\_splits	*[300]	DATASET[300]
 28-15	4526-4527	`	_	_
 28-16	4527-4528	)	_	_
 28-17	4528-4529	,	_	_
@@ -1146,7 +1146,7 @@
 31-59	5471-5481	bi-encoder	_	_
 31-60	5482-5483	\*	_	_
 31-61	5483-5484	\*	_	_
-31-62	5484-5516	paraphrase-distilroberta-base-v1	*[294]	SOFTWARE[294]
+31-62	5484-5516	paraphrase-distilroberta-base-v1	*[472]	SOFTWARE[472]
 31-63	5516-5517	\*	_	_
 31-64	5517-5518	\*	_	_
 31-65	5519-5520	`	_	_
@@ -1257,7 +1257,7 @@
 34-12	6014-6020	called	_	_
 34-13	6021-6022	-	_	_
 34-14	6023-6024	'	_	_
-34-15	6024-6042	section\_errors.txt	*[190]	DATASET[190]
+34-15	6024-6042	section\_errors.txt	*[301]	DATASET[301]
 34-16	6042-6043	'	_	_
 34-17	6043-6044	.	_	_
 
