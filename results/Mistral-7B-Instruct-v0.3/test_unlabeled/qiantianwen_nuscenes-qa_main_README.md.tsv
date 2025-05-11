@@ -5,8 +5,8 @@
 #Text=# \[AAAI 2024\] NuScenes-QA  Official repository for the AAAI 2024 paper \*\*\[NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario\](https://arxiv.org/pdf/2305.14836.pdf)\*\*.  !
 1-1	0-1	#	_	_
 1-2	2-3	\[	_	_
-1-3	3-7	AAAI	*[48]	CONFERENCE[48]
-1-4	8-12	2024	*[48]	CONFERENCE[48]
+1-3	3-7	AAAI	*[66]	CONFERENCE[66]
+1-4	8-12	2024	*[66]	CONFERENCE[66]
 1-5	12-13	\]	_	_
 1-6	14-25	NuScenes-QA	_	_
 1-7	27-35	Official	_	_
@@ -96,8 +96,8 @@
 4-17	402-404	is	_	_
 4-18	405-413	accepted	_	_
 4-19	414-416	by	_	_
-4-20	417-421	AAAI	*[121]	PUBLICATION[121]
-4-21	422-426	2024	*[121]	PUBLICATION[121]
+4-20	417-421	AAAI	*[199]	PUBLICATION[199]
+4-21	422-426	2024	*[199]	PUBLICATION[199]
 4-22	426-427	!	_	_
 
 #Text=- `2023.09.04`  Our NuScenes-QA dataset v1.0 released.  ## :hourglass\_flowing\_sand: To Do  - \[x\] Release question & anwswer data - \[x\] Release visual feature - \[x\] Release training and testing code  ## :running: Getting Started  ### Data Preparation  We have released our question-answer annotations, please download it from \[HERE\](https://drive.google.com/drive/folders/1jIkICT23wZWZYPrWCa0x-ubjpClSzOuU?
@@ -106,9 +106,9 @@
 5-3	432-442	2023.09.04	_	_
 5-4	442-443	`	_	_
 5-5	445-448	Our	_	_
-5-6	449-460	NuScenes-QA	*[219]	DATASET[219]
-5-7	461-468	dataset	*[219]	DATASET[219]
-5-8	469-473	v1.0	*[219]	DATASET[219]
+5-6	449-460	NuScenes-QA	*[221]	DATASET[221]
+5-7	461-468	dataset	*[221]	DATASET[221]
+5-8	469-473	v1.0	*[221]	DATASET[221]
 5-9	474-482	released	_	_
 5-10	482-483	.	_	_
 5-11	485-486	#	_	_
@@ -201,7 +201,7 @@
 7-8	878-886	download	_	_
 7-9	887-888	\*	_	_
 7-10	888-889	\*	_	_
-7-11	889-900	CenterPoint	*[220]	DATASET[220]
+7-11	889-900	CenterPoint	*[222]	DATASET[222]
 7-12	900-901	\*	_	_
 7-13	901-902	\*	_	_
 7-14	903-910	feature	_	_
@@ -246,9 +246,9 @@
 9-7	1058-1062	also	_	_
 9-8	1063-1071	download	_	_
 9-9	1072-1075	the	_	_
-9-10	1076-1082	origin	*[221]	DATASET[221]
-9-11	1083-1091	nuScenes	*[221]	DATASET[221]
-9-12	1092-1099	dataset	*[221]	DATASET[221]
+9-10	1076-1082	origin	*[223]	DATASET[223]
+9-11	1083-1091	nuScenes	*[223]	DATASET[223]
+9-12	1092-1099	dataset	*[223]	DATASET[223]
 9-13	1100-1104	from	_	_
 9-14	1105-1106	\[	_	_
 9-15	1106-1110	HERE	_	_
@@ -309,22 +309,22 @@
 10-12	1370-1373	the	_	_
 10-13	1374-1375	\*	_	_
 10-14	1375-1376	\*	_	_
-10-15	1376-1382	Visual	*[122]	PUBLICATION[122]
-10-16	1383-1390	Feature	*[122]	PUBLICATION[122]
-10-17	1391-1401	Extraction	*[122]	PUBLICATION[122]
+10-15	1376-1382	Visual	*[200]	PUBLICATION[200]
+10-16	1383-1390	Feature	*[200]	PUBLICATION[200]
+10-17	1391-1401	Extraction	*[200]	PUBLICATION[200]
 10-18	1401-1402	\*	_	_
 10-19	1402-1403	\*	_	_
 10-20	1404-1407	and	_	_
 10-21	1408-1409	\*	_	_
 10-22	1409-1410	\*	_	_
-10-23	1410-1416	Object	*[123]	PUBLICATION[123]
-10-24	1417-1426	Embedding	*[123]	PUBLICATION[123]
+10-23	1410-1416	Object	*[201]	PUBLICATION[201]
+10-24	1417-1426	Embedding	*[201]	PUBLICATION[201]
 10-25	1426-1427	\*	_	_
 10-26	1427-1428	\*	_	_
 10-27	1429-1437	sections	_	_
 10-28	1438-1440	of	_	_
 10-29	1441-1444	our	_	_
-10-30	1445-1450	paper	*[124]	PUBLICATION[124]
+10-30	1445-1450	paper	*[202]	PUBLICATION[202]
 10-31	1450-1451	.	_	_
 
 #Text=The folder structure should be organized as follows before training.  ``` NuScenes-QA +-- configs/ \|   +-- butd.yaml                     \|   +-- mcan\_small.yaml +-- data/ \|   +-- questions/    # downloaded \|   \|   +-- NuScenes\_train\_questions.json \|   \|   +-- NuScenes\_val\_questions.json \|   +-- features/     # downloaded or extracted \|   \|   +-- CenterPoint/ \|   \|   \|   +-- xxx.npz \|   \|   \|   +-- ... \|   \|   +-- BEVDet/ \|   \|   \|   +-- xxx.npz \|   \|   \|   +-- ... \|   \|   +-- MSMDFusion/ \|   \|   \|   +-- xxx.npz \|   \|   \|   +-- ... +-- src/ +-- run.py ```  ### Installation  The following packages are required to build the project:  ```bash python >= 3.5 CUDA >= 9.0 PyTorch >= 1.4.0 SpaCy == 2.1.0 ```  For the SpaCy, you can install it by:  ```bash wget https://github.com/explosion/spacy-models/releases/download/en\_core\_web\_lg-2.1.0/en\_core\_web\_lg-2.1.0.tar.gz pip install en\_core\_web\_lg-2.1.0.tar.gz ```  ### Training   The following script will start training a `man\_small` model with `CenterPoint` feature on `2` GPUs:  ```bash python3 run.py --RUN='train' --MODEL='mcan\_small' --VIS\_FEAT='CenterPoint' --GPU='0, 1' ```  All checkpoint files and the training logs will be saved to the following paths respectively:  ```bash outputs/ckpts/ckpt\_<VERSION>/epoch<EPOCH\_INDEX>.pkl outputs/log/log\_run\_<VERSION>.txt ```  ### Testing  For testing, you can use the following script:  ```bash python3 run.py --RUN='val' --MODEL='mcan\_small' --VIS\_FEAT='CenterPoint' --CKPT\_PATH'path/to/ckpt.pkl' ```  The evaluation results and the answers for all questions will ba saved to the following paths respectively:  ```bash outputs/log/log\_run\_xxx.txt outputs/result/result\_run\_xxx.txt ```  ## :star: Others If you have any questions about the dataset and its generation or the object-level feature extraction, feel free to cantact me with `twqian19@fudan.edu.cn`.   ## :book: Citation If you find our paper and project useful, please consider citing: ```bibtex @article{qian2023nuscenes,   title={NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario},   author={Qian, Tianwen and Chen, Jingjing and Zhuo, Linhai and Jiao, Yang and Jiang, Yu-Gang},   journal={arXiv preprint arXiv:2305.14836},   year={2023} } ```  ## Acknowlegement  We sincerely thank the authors of \[MMDetection3D\](https://github.com/open-mmlab/mmdetection3d) and \[OpenVQA\](https://github.com/MILVLG/openvqa) for open sourcing their methods.

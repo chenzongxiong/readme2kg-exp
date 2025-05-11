@@ -4,7 +4,7 @@
 
 #Text=# BOOKSUM: A Collection of Datasets for Long-form Narrative Summarization Authors: \[Wojciech Kryściński\](https://twitter.com/iam\_wkr), \[Nazneen Rajani\](https://twitter.com/nazneenrajani), \[Divyansh Agarwal\](https://twitter.com/jigsaw2212), \[Caiming Xiong\](https://twitter.com/caimingxiong), \[Dragomir Radev\](http://www.cs.yale.edu/homes/radev/)  ## Introduction The majority of available text summarization datasets include short-form source documents that lack long-range causal and temporal dependencies, and often contain strong layout and stylistic biases.
 1-1	0-1	#	_	_
-1-2	2-9	BOOKSUM	*[119]	PROJECT[119]
+1-2	2-9	BOOKSUM	*[236]	PROJECT[236]
 1-3	9-10	:	_	_
 1-4	11-12	A	_	_
 1-5	13-23	Collection	_	_
@@ -128,15 +128,15 @@
 2-5	583-591	datasets	_	_
 2-6	592-596	will	_	_
 2-7	597-602	offer	_	_
-2-8	603-610	limited	*[78]	EVALMETRIC[78]
-2-9	611-621	challenges	*[78]	EVALMETRIC[78]
+2-8	603-610	limited	*[110]	EVALMETRIC[110]
+2-9	611-621	challenges	*[110]	EVALMETRIC[110]
 2-10	622-625	for	_	_
 2-11	626-632	future	_	_
 2-12	633-644	generations	_	_
 2-13	645-647	of	_	_
-2-14	648-652	text	*[93]	PUBLICATION[93]
-2-15	653-666	summarization	*[93]	PUBLICATION[93]
-2-16	667-674	systems	*[93]	PUBLICATION[93]
+2-14	648-652	text	*[203]	PUBLICATION[203]
+2-15	653-666	summarization	*[203]	PUBLICATION[203]
+2-16	667-674	systems	*[203]	PUBLICATION[203]
 2-17	674-675	.	_	_
 
 #Text=We address these issues by introducing BookSum, a collection of datasets for long-form narrative summarization.
@@ -146,7 +146,7 @@
 3-4	693-699	issues	_	_
 3-5	700-702	by	_	_
 3-6	703-714	introducing	_	_
-3-7	715-722	BookSum	*[120]	PROJECT[120]
+3-7	715-722	BookSum	*[209]	PROJECT[209]
 3-8	722-723	,	_	_
 3-9	724-725	a	_	_
 3-10	726-736	collection	_	_
@@ -166,16 +166,16 @@
 4-5	814-823	documents	_	_
 4-6	824-828	from	_	_
 4-7	829-832	the	_	_
-4-8	833-843	literature	*[169]	DATASET[169]
-4-9	844-850	domain	*[169]	DATASET[169]
+4-8	833-843	literature	*[225]	DATASET[225]
+4-9	844-850	domain	*[225]	DATASET[225]
 4-10	850-851	,	_	_
 4-11	852-856	such	_	_
 4-12	857-859	as	_	_
-4-13	860-866	novels	*[94]	PUBLICATION[94]
+4-13	860-866	novels	*[204]	PUBLICATION[204]
 4-14	866-867	,	_	_
 4-15	868-873	plays	_	_
 4-16	874-877	and	_	_
-4-17	878-885	stories	*[95]	PUBLICATION[95]
+4-17	878-885	stories	*[205]	PUBLICATION[205]
 4-18	885-886	,	_	_
 4-19	887-890	and	_	_
 4-20	891-899	includes	_	_
@@ -194,14 +194,14 @@
 4-33	978-988	increasing	_	_
 4-34	989-999	difficulty	_	_
 4-35	999-1000	:	_	_
-4-36	1001-1010	paragraph	*[80]	EVALMETRIC[80]
-4-37	1010-1011	-	*[80]	EVALMETRIC[80]
+4-36	1001-1010	paragraph	*[112]	EVALMETRIC[112]
+4-37	1010-1011	-	*[112]	EVALMETRIC[112]
 4-38	1011-1012	,	_	_
-4-39	1013-1020	chapter	*[81]	EVALMETRIC[81]
-4-40	1020-1021	-	*[81]	EVALMETRIC[81]
+4-39	1013-1020	chapter	*[113]	EVALMETRIC[113]
+4-40	1020-1021	-	*[113]	EVALMETRIC[113]
 4-41	1021-1022	,	_	_
 4-42	1023-1026	and	_	_
-4-43	1027-1037	book-level	*[82]	EVALMETRIC[82]
+4-43	1027-1037	book-level	*[114]	EVALMETRIC[114]
 4-44	1037-1038	.	_	_
 
 #Text=The domain and structure of our dataset poses a unique set of challenges for summarization systems, which include: processing very long documents, non-trivial causal and temporal dependencies, and rich discourse structures.
@@ -252,32 +252,32 @@
 6-7	1293-1300	trained	_	_
 6-8	1301-1304	and	_	_
 6-9	1305-1314	evaluated	_	_
-6-10	1315-1323	multiple	*[121]	PROJECT[121]
-6-11	1324-1334	extractive	*[121]	PROJECT[121]
-6-12	1335-1338	and	*[121]	PROJECT[121]
-6-13	1339-1350	abstractive	*[121]	PROJECT[121]
-6-14	1351-1364	summarization	*[121]	PROJECT[121]
-6-15	1365-1371	models	*[121]	PROJECT[121]
+6-10	1315-1323	multiple	*[210]	PROJECT[210]
+6-11	1324-1334	extractive	*[210]	PROJECT[210]
+6-12	1335-1338	and	*[210]	PROJECT[210]
+6-13	1339-1350	abstractive	*[210]	PROJECT[210]
+6-14	1351-1364	summarization	*[210]	PROJECT[210]
+6-15	1365-1371	models	*[210]	PROJECT[210]
 6-16	1372-1374	as	_	_
 6-17	1375-1384	baselines	_	_
 6-18	1385-1388	for	_	_
 6-19	1389-1392	our	_	_
-6-20	1393-1400	dataset	*[171]	DATASET[171]
+6-20	1393-1400	dataset	*[227]	DATASET[227]
 6-21	1400-1401	.	_	_
 
 #Text=Paper link: https://arxiv.org/abs/2105.08209  <p align="center"><img src="misc/book\_sumv4.png"></p>   ## Table of Contents  1.
 7-1	1403-1408	Paper	_	_
 7-2	1409-1413	link	_	_
 7-3	1413-1414	:	_	_
-7-4	1415-1420	https	*[140]	SOFTWARE[140]
-7-5	1420-1421	:	*[140]	SOFTWARE[140]
-7-6	1421-1422	/	*[140]	SOFTWARE[140]
-7-7	1422-1423	/	*[140]	SOFTWARE[140]
-7-8	1423-1432	arxiv.org	*[140]	SOFTWARE[140]
-7-9	1432-1433	/	*[140]	SOFTWARE[140]
-7-10	1433-1436	abs	*[140]	SOFTWARE[140]
-7-11	1436-1437	/	*[140]	SOFTWARE[140]
-7-12	1437-1447	2105.08209	*[140]	SOFTWARE[140]
+7-4	1415-1420	https	*[195]	SOFTWARE[195]
+7-5	1420-1421	:	*[195]	SOFTWARE[195]
+7-6	1421-1422	/	*[195]	SOFTWARE[195]
+7-7	1422-1423	/	*[195]	SOFTWARE[195]
+7-8	1423-1432	arxiv.org	*[195]	SOFTWARE[195]
+7-9	1432-1433	/	*[195]	SOFTWARE[195]
+7-10	1433-1436	abs	*[195]	SOFTWARE[195]
+7-11	1436-1437	/	*[195]	SOFTWARE[195]
+7-12	1437-1447	2105.08209	*[195]	SOFTWARE[195]
 7-13	1449-1450	<	_	_
 7-14	1450-1451	p	_	_
 7-15	1452-1457	align	_	_
@@ -329,7 +329,7 @@
 9-5	1564-1565	#	_	_
 9-6	1565-1573	citation	_	_
 9-7	1573-1574	)	_	_
-9-8	1575-1576	3	*[96]	PUBLICATION[96]
+9-8	1575-1576	3	*[206]	PUBLICATION[206]
 9-9	1576-1577	.	_	_
 
 #Text=\[Legal Note\](#legal-note) 4.
@@ -403,16 +403,16 @@
 13-34	1777-1782	title	_	_
 13-35	1782-1783	=	_	_
 13-36	1783-1784	{	_	_
-13-37	1784-1791	BookSum	*[97]	PUBLICATION[97]
-13-38	1791-1792	:	*[97]	PUBLICATION[97]
-13-39	1793-1794	A	*[97]	PUBLICATION[97]
-13-40	1795-1805	Collection	*[97]	PUBLICATION[97]
-13-41	1806-1808	of	*[97]	PUBLICATION[97]
-13-42	1809-1817	Datasets	*[97]	PUBLICATION[97]
-13-43	1818-1821	for	*[97]	PUBLICATION[97]
-13-44	1822-1831	Long-form	*[97]	PUBLICATION[97]
-13-45	1832-1841	Narrative	*[97]	PUBLICATION[97]
-13-46	1842-1855	Summarization	*[97]	PUBLICATION[97]
+13-37	1784-1791	BookSum	*[207]	PUBLICATION[207]
+13-38	1791-1792	:	*[207]	PUBLICATION[207]
+13-39	1793-1794	A	*[207]	PUBLICATION[207]
+13-40	1795-1805	Collection	*[207]	PUBLICATION[207]
+13-41	1806-1808	of	*[207]	PUBLICATION[207]
+13-42	1809-1817	Datasets	*[207]	PUBLICATION[207]
+13-43	1818-1821	for	*[207]	PUBLICATION[207]
+13-44	1822-1831	Long-form	*[207]	PUBLICATION[207]
+13-45	1832-1841	Narrative	*[207]	PUBLICATION[207]
+13-46	1842-1855	Summarization	*[207]	PUBLICATION[207]
 13-47	1855-1856	}	_	_
 13-48	1856-1857	,	_	_
 13-49	1865-1871	author	_	_
@@ -573,7 +573,7 @@
 16-5	2547-2550	all	_	_
 16-6	2551-2556	terms	_	_
 16-7	2557-2560	and	_	_
-16-8	2561-2571	conditions	*[27]	LICENSE[27]
+16-8	2561-2571	conditions	*[36]	LICENSE[36]
 16-9	2571-2572	,	_	_
 16-10	2573-2576	and	_	_
 16-11	2577-2580	are	_	_
@@ -595,7 +595,7 @@
 16-27	2667-2670	you	_	_
 16-28	2671-2678	collect	_	_
 16-29	2678-2679	.	_	_
-16-30	2680-2681	3	*[122]	PROJECT[122]
+16-30	2680-2681	3	*[211]	PROJECT[211]
 16-31	2681-2682	.	_	_
 
 #Text=We do not make any representations or warranties whatsoever regarding the sources from which data is collected.
@@ -680,10 +680,10 @@
 18-59	3095-3098	the	_	_
 18-60	3099-3100	\*	_	_
 18-61	3100-3101	\*	_	_
-18-62	3101-3104	BSD	*[28]	LICENSE[28]
-18-63	3104-3105	-	*[28]	LICENSE[28]
-18-64	3105-3106	3	*[28]	LICENSE[28]
-18-65	3107-3114	License	*[28]	LICENSE[28]
+18-62	3101-3104	BSD	*[37]	LICENSE[37]
+18-63	3104-3105	-	*[37]	LICENSE[37]
+18-64	3105-3106	3	*[37]	LICENSE[37]
+18-65	3107-3114	License	*[37]	LICENSE[37]
 18-66	3114-3115	\*	_	_
 18-67	3115-3116	\*	_	_
 18-68	3117-3118	(	_	_
@@ -710,12 +710,12 @@
 19-2	3182-3189	Project	_	_
 19-3	3190-3198	Guteberg	_	_
 19-4	3199-3203	Data	_	_
-19-5	3204-3207	The	*[173]	DATASET[173]
-19-6	3208-3219	chapterized	*[173]	DATASET[173]
-19-7	3220-3224	book	*[173]	DATASET[173]
-19-8	3225-3229	text	*[173]	DATASET[173]
-19-9	3230-3234	from	*[173]	DATASET[173]
-19-10	3235-3244	Gutenberg	*[173]	DATASET[173]
+19-5	3204-3207	The	*[229]	DATASET[229]
+19-6	3208-3219	chapterized	*[229]	DATASET[229]
+19-7	3220-3224	book	*[229]	DATASET[229]
+19-8	3225-3229	text	*[229]	DATASET[229]
+19-9	3230-3234	from	*[229]	DATASET[229]
+19-10	3235-3244	Gutenberg	*[229]	DATASET[229]
 19-11	3244-3245	,	_	_
 19-12	3246-3249	for	_	_
 19-13	3250-3253	the	_	_
@@ -749,13 +749,13 @@
 20-9	3360-3361	`	_	_
 20-10	3362-3368	gsutil	_	_
 20-11	3369-3371	cp	_	_
-20-12	3372-3374	gs	*[144]	PROGLANG[144]
-20-13	3374-3375	:	*[144]	PROGLANG[144]
-20-14	3375-3376	/	*[144]	PROGLANG[144]
-20-15	3376-3377	/	*[144]	PROGLANG[144]
-20-16	3377-3412	sfr-books-dataset-chapters-research	*[144]	PROGLANG[144]
-20-17	3412-3413	/	*[144]	PROGLANG[144]
-20-18	3413-3438	all\_chapterized\_books.zip	*[144]	PROGLANG[144]
+20-12	3372-3374	gs	*[166]	PROGLANG[166]
+20-13	3374-3375	:	*[166]	PROGLANG[166]
+20-14	3375-3376	/	*[166]	PROGLANG[166]
+20-15	3376-3377	/	*[166]	PROGLANG[166]
+20-16	3377-3412	sfr-books-dataset-chapters-research	*[166]	PROGLANG[166]
+20-17	3412-3413	/	*[166]	PROGLANG[166]
+20-18	3413-3438	all\_chapterized\_books.zip	*[166]	PROGLANG[166]
 20-19	3439-3440	.	_	_
 20-20	3441-3442	`	_	_
 20-21	3442-3443	`	_	_
@@ -788,9 +788,9 @@
 #Text=Data Collection Data collection scripts for the summary text are organized by the different sources that we use summaries from.
 21-1	3582-3586	Data	_	_
 21-2	3587-3597	Collection	_	_
-21-3	3598-3602	Data	*[174]	DATASET[174]
-21-4	3603-3613	collection	*[174]	DATASET[174]
-21-5	3614-3621	scripts	*[174]	DATASET[174]
+21-3	3598-3602	Data	*[230]	DATASET[230]
+21-4	3603-3613	collection	*[230]	DATASET[230]
+21-5	3614-3621	scripts	*[230]	DATASET[230]
 21-6	3622-3625	for	_	_
 21-7	3626-3629	the	_	_
 21-8	3630-3637	summary	_	_
@@ -840,7 +840,7 @@
 23-6	3851-3854	the	_	_
 23-7	3855-3859	file	_	_
 23-8	3860-3861	`	_	_
-23-9	3861-3888	literature\_links.tsv.pruned	*[176]	DATASET[176]
+23-9	3861-3888	literature\_links.tsv.pruned	*[232]	DATASET[232]
 23-10	3888-3889	`	_	_
 23-11	3890-3898	contains	_	_
 23-12	3899-3902	the	_	_
@@ -850,13 +850,13 @@
 23-16	3917-3922	books	_	_
 23-17	3923-3925	in	_	_
 23-18	3926-3929	our	_	_
-23-19	3930-3937	dataset	*[177]	DATASET[177]
+23-19	3930-3937	dataset	*[233]	DATASET[233]
 23-20	3937-3938	.	_	_
 
 #Text=Run `get\_summaries.py` to collect the summaries from the links for each source.
 24-1	3939-3942	Run	_	_
 24-2	3943-3944	`	_	_
-24-3	3944-3960	get\_summaries.py	*[141]	SOFTWARE[141]
+24-3	3944-3960	get\_summaries.py	*[196]	SOFTWARE[196]
 24-4	3960-3961	`	_	_
 24-5	3962-3964	to	_	_
 24-6	3965-3972	collect	_	_
@@ -874,7 +874,7 @@
 25-1	4019-4031	Additionally	_	_
 25-2	4031-4032	,	_	_
 25-3	4033-4034	`	_	_
-25-4	4034-4046	get\_works.py	*[142]	SOFTWARE[142]
+25-4	4034-4046	get\_works.py	*[197]	SOFTWARE[197]
 25-5	4046-4047	`	_	_
 25-6	4048-4051	can	_	_
 25-7	4052-4054	be	_	_
@@ -964,7 +964,7 @@
 28-11	4468-4469	`	_	_
 28-12	4469-4479	alignments	_	_
 28-13	4479-4480	/	_	_
-28-14	4480-4526	chapter\_summary\_aligned.jsonl.aggregate\_splits	*[178]	DATASET[178]
+28-14	4480-4526	chapter\_summary\_aligned.jsonl.aggregate\_splits	*[234]	DATASET[234]
 28-15	4526-4527	`	_	_
 28-16	4527-4528	)	_	_
 28-17	4528-4529	,	_	_
@@ -1081,7 +1081,7 @@
 30-63	5132-5136	into	_	_
 30-64	5137-5138	a	_	_
 30-65	5139-5145	single	_	_
-30-66	5146-5151	jsonl	*[179]	DATASET[179]
+30-66	5146-5151	jsonl	*[235]	DATASET[235]
 30-67	5151-5152	.	_	_
 
 #Text=The script needs to be run separately for each split as the matched file ``` cd paragraph-level-summary-alignments python gather\_data.py --matched\_file /path/to/chapter\_summary\_aligned\_{train/test/val}\_split.jsonl --split\_paragraphs ```  Generate alignments of the paragraphs with sentences from the summary using the bi-encoder \*\*paraphrase-distilroberta-base-v1\*\* ``` python align\_data\_bi\_encoder\_paraphrase.py --data\_path /path/to/chapter\_summary\_aligned\_{train/test/val}\_split.jsonl.gathered --stable\_alignment ```  ## Troubleshooting 1.
@@ -1104,8 +1104,8 @@
 31-17	5228-5229	`	_	_
 31-18	5230-5232	cd	_	_
 31-19	5233-5267	paragraph-level-summary-alignments	_	_
-31-20	5268-5274	python	*[146]	SOFTWARE[146]
-31-21	5275-5289	gather\_data.py	*[146]	SOFTWARE[146]
+31-20	5268-5274	python	*[201]	SOFTWARE[201]
+31-21	5275-5289	gather\_data.py	*[201]	SOFTWARE[201]
 31-22	5290-5291	-	_	_
 31-23	5291-5292	-	_	_
 31-24	5292-5304	matched\_file	_	_
@@ -1146,7 +1146,7 @@
 31-59	5471-5481	bi-encoder	_	_
 31-60	5482-5483	\*	_	_
 31-61	5483-5484	\*	_	_
-31-62	5484-5516	paraphrase-distilroberta-base-v1	*[145]	PROGLANG[145]
+31-62	5484-5516	paraphrase-distilroberta-base-v1	*[167]	PROGLANG[167]
 31-63	5516-5517	\*	_	_
 31-64	5517-5518	\*	_	_
 31-65	5519-5520	`	_	_
@@ -1350,7 +1350,7 @@
 37-40	6515-6516	,	_	_
 37-41	6517-6525	requests	_	_
 37-42	6526-6528	or	_	_
-37-43	6529-6540	bug-reports	*[98]	PUBLICATION[98]
+37-43	6529-6540	bug-reports	*[208]	PUBLICATION[208]
 37-44	6540-6541	.	_	_
 
 #Text=We welcome PRs!

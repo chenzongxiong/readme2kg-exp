@@ -106,15 +106,15 @@
 1-101	407-415	preprint	_	_
 1-102	416-423	version	_	_
 1-103	423-424	:	_	_
-1-104	425-430	https	*[261]	PUBLICATION[261]
-1-105	430-431	:	*[261]	PUBLICATION[261]
-1-106	431-432	/	*[261]	PUBLICATION[261]
-1-107	432-433	/	*[261]	PUBLICATION[261]
-1-108	433-442	arxiv.org	*[261]	PUBLICATION[261]
-1-109	442-443	/	*[261]	PUBLICATION[261]
-1-110	443-446	abs	*[261]	PUBLICATION[261]
-1-111	446-447	/	*[261]	PUBLICATION[261]
-1-112	447-457	2207.09021	*[261]	PUBLICATION[261]
+1-104	425-430	https	*[62]	PUBLICATION[62]
+1-105	430-431	:	*[62]	PUBLICATION[62]
+1-106	431-432	/	*[62]	PUBLICATION[62]
+1-107	432-433	/	*[62]	PUBLICATION[62]
+1-108	433-442	arxiv.org	*[62]	PUBLICATION[62]
+1-109	442-443	/	*[62]	PUBLICATION[62]
+1-110	443-446	abs	*[62]	PUBLICATION[62]
+1-111	446-447	/	*[62]	PUBLICATION[62]
+1-112	447-457	2207.09021	*[62]	PUBLICATION[62]
 1-113	458-459	#	_	_
 1-114	459-460	#	_	_
 1-115	461-465	Code	_	_
@@ -128,8 +128,8 @@
 #Text=All the software requirements are already pre-installed in the Docker image below.
 2-1	481-484	All	_	_
 2-2	485-488	the	_	_
-2-3	489-497	software	*[194]	SOFTWARE[194]
-2-4	498-510	requirements	*[194]	SOFTWARE[194]
+2-3	489-497	software	*[36]	SOFTWARE[36]
+2-4	498-510	requirements	*[36]	SOFTWARE[36]
 2-5	511-514	are	_	_
 2-6	515-522	already	_	_
 2-7	523-536	pre-installed	_	_
@@ -160,8 +160,8 @@
 4-1	647-651	Note	_	_
 4-2	652-656	that	_	_
 4-3	657-658	`	_	_
-4-4	658-661	DGL	*[195]	SOFTWARE[195]
-4-5	662-665	0.8	*[195]	SOFTWARE[195]
+4-4	658-661	DGL	*[37]	SOFTWARE[37]
+4-5	662-665	0.8	*[37]	SOFTWARE[37]
 4-6	665-666	`	_	_
 4-7	667-669	is	_	_
 4-8	670-673	not	_	_
@@ -197,7 +197,7 @@
 5-7	800-802	or	_	_
 5-8	803-810	greater	_	_
 5-9	811-815	than	_	_
-5-10	816-822	1.11.0	*[221]	PROGLANG[221]
+5-10	816-822	1.11.0	*[31]	PROGLANG[31]
 5-11	822-823	.	_	_
 
 #Text=```bash    docker pull lizytalk/dejavu    ``` 2.
@@ -207,9 +207,9 @@
 6-4	830-834	bash	_	_
 6-5	838-844	docker	_	_
 6-6	845-849	pull	_	_
-6-7	850-858	lizytalk	*[197]	SOFTWARE[197]
-6-8	858-859	/	*[197]	SOFTWARE[197]
-6-9	859-865	dejavu	*[197]	SOFTWARE[197]
+6-7	850-858	lizytalk	*[39]	SOFTWARE[39]
+6-8	858-859	/	*[39]	SOFTWARE[39]
+6-9	859-865	dejavu	*[39]	SOFTWARE[39]
 6-10	869-870	`	_	_
 6-11	870-871	`	_	_
 6-12	871-872	`	_	_
@@ -234,7 +234,7 @@
 7-15	932-933	/	_	_
 7-16	933-943	github.com	_	_
 7-17	943-944	/	_	_
-7-18	944-955	NetManAIOps	*[214]	PROJECT[214]
+7-18	944-955	NetManAIOps	*[54]	PROJECT[54]
 7-19	955-956	/	_	_
 7-20	956-966	DejaVu.git	_	_
 7-20	956-962	DejaVu	_	_
@@ -254,8 +254,8 @@
 8-6	1020-1024	link	_	_
 8-7	1025-1027	in	_	_
 8-8	1028-1031	the	_	_
-8-9	1032-1038	GitHub	*[252]	DATASET[252]
-8-10	1039-1043	repo	*[252]	DATASET[252]
+8-9	1032-1038	GitHub	*[69]	DATASET[69]
+8-10	1039-1043	repo	*[69]	DATASET[69]
 8-11	1044-1047	and	_	_
 8-12	1048-1055	extract	_	_
 8-13	1056-1059	the	_	_
@@ -266,7 +266,7 @@
 
 #Text=/DejaVu/data` 4.
 9-1	1076-1077	/	_	_
-9-2	1077-1083	DejaVu	*[253]	DATASET[253]
+9-2	1077-1083	DejaVu	*[70]	DATASET[70]
 9-3	1083-1084	/	_	_
 9-4	1084-1088	data	_	_
 9-5	1088-1089	`	_	_
@@ -279,7 +279,7 @@
 10-3	1099-1102	the	_	_
 10-4	1103-1110	command	_	_
 10-5	1111-1112	`	_	_
-10-6	1112-1120	realpath	*[222]	PROGLANG[222]
+10-6	1112-1120	realpath	*[32]	PROGLANG[32]
 10-7	1120-1121	`	_	_
 10-8	1122-1124	in	_	_
 10-9	1125-1128	the	_	_
@@ -309,7 +309,7 @@
 11-9	1228-1229	`	_	_
 11-10	1229-1233	brew	_	_
 11-11	1234-1241	install	_	_
-11-12	1242-1251	coreutils	*[198]	SOFTWARE[198]
+11-12	1242-1251	coreutils	*[40]	SOFTWARE[40]
 11-13	1251-1252	`	_	_
 11-14	1252-1253	.	_	_
 11-15	1254-1255	5	_	_
@@ -348,9 +348,9 @@
 12-30	1372-1373	:	_	_
 12-31	1373-1374	/	_	_
 12-32	1374-1383	workspace	_	_
-12-33	1384-1392	lizytalk	*[199]	SOFTWARE[199]
-12-34	1392-1393	/	*[199]	SOFTWARE[199]
-12-35	1393-1399	dejavu	*[199]	SOFTWARE[199]
+12-33	1384-1392	lizytalk	*[41]	SOFTWARE[41]
+12-34	1392-1393	/	*[41]	SOFTWARE[41]
+12-35	1393-1399	dejavu	*[41]	SOFTWARE[41]
 12-36	1400-1404	bash	_	_
 12-37	1408-1409	`	_	_
 12-38	1409-1410	`	_	_
@@ -361,16 +361,16 @@
 #Text=Run `direnv allow` in the shell of the Docker container to set the environment variables. 7.
 13-1	1415-1418	Run	_	_
 13-2	1419-1420	`	_	_
-13-3	1420-1426	direnv	*[200]	SOFTWARE[200]
-13-4	1427-1432	allow	*[200]	SOFTWARE[200]
+13-3	1420-1426	direnv	*[42]	SOFTWARE[42]
+13-4	1427-1432	allow	*[42]	SOFTWARE[42]
 13-5	1432-1433	`	_	_
 13-6	1434-1436	in	_	_
 13-7	1437-1440	the	_	_
 13-8	1441-1446	shell	_	_
 13-9	1447-1449	of	_	_
 13-10	1450-1453	the	_	_
-13-11	1454-1460	Docker	*[201]	SOFTWARE[201]
-13-12	1461-1470	container	*[201]	SOFTWARE[201]
+13-11	1454-1460	Docker	*[43]	SOFTWARE[43]
+13-12	1461-1470	container	*[43]	SOFTWARE[43]
 13-13	1471-1473	to	_	_
 13-14	1474-1477	set	_	_
 13-15	1478-1481	the	_	_
@@ -743,8 +743,8 @@
 15-12	2866-2873	follows	_	_
 15-13	2873-2874	:	_	_
 15-14	2875-2876	-	_	_
-15-15	2877-2880	FDG	*[125]	EVALMETRIC[125]
-15-16	2881-2888	message	*[125]	EVALMETRIC[125]
+15-15	2877-2880	FDG	*[15]	EVALMETRIC[15]
+15-16	2881-2888	message	*[15]	EVALMETRIC[15]
 15-17	2888-2889	,	_	_
 15-18	2890-2899	including	_	_
 15-19	2900-2903	the	_	_
@@ -776,9 +776,9 @@
 15-45	3016-3021	class	_	_
 15-46	3021-3022	.	_	_
 15-47	3023-3024	-	_	_
-15-48	3025-3032	Traning	*[17]	WORKSHOP[17]
-15-49	3033-3038	setup	*[17]	WORKSHOP[17]
-15-50	3039-3046	message	*[17]	WORKSHOP[17]
+15-48	3025-3032	Traning	*[2]	WORKSHOP[2]
+15-49	3033-3038	setup	*[2]	WORKSHOP[2]
+15-50	3039-3046	message	*[2]	WORKSHOP[2]
 15-51	3046-3047	:	_	_
 15-52	3048-3051	the	_	_
 15-53	3052-3058	faults	_	_
@@ -791,8 +791,8 @@
 15-60	3093-3100	testing	_	_
 15-61	3100-3101	.	_	_
 15-62	3102-3103	-	_	_
-15-63	3104-3109	Model	*[80]	ONTOLOGY[80]
-15-64	3110-3122	architecture	*[80]	ONTOLOGY[80]
+15-63	3104-3109	Model	*[12]	ONTOLOGY[12]
+15-64	3110-3122	architecture	*[12]	ONTOLOGY[12]
 15-65	3122-3123	:	_	_
 15-66	3124-3129	model	_	_
 15-67	3130-3140	parameters	_	_
@@ -803,8 +803,8 @@
 15-72	3155-3160	total	_	_
 15-73	3161-3167	params	_	_
 15-74	3168-3169	-	_	_
-15-75	3170-3178	Training	*[18]	WORKSHOP[18]
-15-76	3179-3186	process	*[18]	WORKSHOP[18]
+15-75	3170-3178	Training	*[3]	WORKSHOP[3]
+15-76	3179-3186	process	*[3]	WORKSHOP[3]
 15-77	3186-3187	:	_	_
 15-78	3188-3191	the	_	_
 15-79	3192-3200	training	_	_
@@ -816,14 +816,14 @@
 15-85	3225-3228	and	_	_
 15-86	3229-3237	accuracy	_	_
 15-87	3238-3239	-	_	_
-15-88	3240-3244	Time	*[126]	EVALMETRIC[126]
-15-89	3245-3251	Report	*[126]	EVALMETRIC[126]
+15-88	3240-3244	Time	*[16]	EVALMETRIC[16]
+15-89	3245-3251	Report	*[16]	EVALMETRIC[16]
 15-90	3251-3252	.	_	_
 15-91	3253-3254	-	_	_
-15-92	3255-3262	command	*[127]	EVALMETRIC[127]
-15-93	3263-3269	output	*[127]	EVALMETRIC[127]
-15-94	3270-3278	one-line	*[127]	EVALMETRIC[127]
-15-95	3279-3286	summary	*[127]	EVALMETRIC[127]
+15-92	3255-3262	command	*[17]	EVALMETRIC[17]
+15-93	3263-3269	output	*[17]	EVALMETRIC[17]
+15-94	3270-3278	one-line	*[17]	EVALMETRIC[17]
+15-95	3279-3286	summary	*[17]	EVALMETRIC[17]
 15-96	3286-3287	.	_	_
 15-97	3289-3290	#	_	_
 15-98	3290-3291	#	_	_
@@ -941,11 +941,11 @@
 17-3	3723-3724	`	_	_
 17-4	3725-3727	is	_	_
 17-5	3728-3729	a	_	_
-17-6	3730-3736	pickle	*[255]	DATASET[255]
-17-7	3737-3739	of	*[255]	DATASET[255]
-17-8	3740-3743	the	*[255]	DATASET[255]
-17-9	3744-3747	FDG	*[255]	DATASET[255]
-17-10	3748-3754	object	*[255]	DATASET[255]
+17-6	3730-3736	pickle	*[72]	DATASET[72]
+17-7	3737-3739	of	*[72]	DATASET[72]
+17-8	3740-3743	the	*[72]	DATASET[72]
+17-9	3744-3747	FDG	*[72]	DATASET[72]
+17-10	3748-3754	object	*[72]	DATASET[72]
 17-11	3754-3755	,	_	_
 17-12	3756-3761	which	_	_
 17-13	3762-3770	contains	_	_
@@ -979,7 +979,7 @@
 19-4	3888-3894	cannot	_	_
 19-5	3895-3899	load	_	_
 19-6	3900-3903	the	_	_
-19-7	3904-3911	pickles	*[203]	SOFTWARE[203]
+19-7	3904-3911	pickles	*[45]	SOFTWARE[45]
 19-8	3911-3912	,	_	_
 19-9	3913-3917	just	_	_
 19-10	3918-3924	ignore	_	_
@@ -996,8 +996,8 @@
 20-5	3961-3963	to	_	_
 20-6	3964-3969	speed	_	_
 20-7	3970-3972	up	_	_
-20-8	3973-3977	data	*[204]	SOFTWARE[204]
-20-9	3978-3982	load	*[204]	SOFTWARE[204]
+20-8	3973-3977	data	*[46]	SOFTWARE[46]
+20-9	3978-3982	load	*[46]	SOFTWARE[46]
 20-10	3982-3983	.	_	_
 20-11	3985-3986	#	_	_
 20-12	3986-3987	#	_	_
@@ -1205,13 +1205,13 @@
 21-9	4850-4851	)	_	_
 21-10	4854-4859	Since	_	_
 21-11	4860-4863	the	_	_
-21-12	4864-4870	DejaVu	*[256]	PUBLICATION[256]
-21-13	4871-4876	model	*[256]	PUBLICATION[256]
+21-12	4864-4870	DejaVu	*[63]	PUBLICATION[63]
+21-13	4871-4876	model	*[63]	PUBLICATION[63]
 21-14	4877-4879	is	_	_
 21-15	4880-4887	trained	_	_
 21-16	4888-4892	with	_	_
 21-17	4893-4903	historical	_	_
-21-18	4904-4912	failures	*[257]	PUBLICATION[257]
+21-18	4904-4912	failures	*[64]	PUBLICATION[64]
 21-19	4912-4913	,	_	_
 21-20	4914-4916	it	_	_
 21-21	4917-4919	is	_	_
@@ -1234,10 +1234,10 @@
 21-38	5029-5031	it	_	_
 21-39	5032-5038	learns	_	_
 21-40	5039-5041	to	_	_
-21-41	5042-5050	localize	*[217]	PROJECT[217]
-21-42	5051-5054	the	*[217]	PROJECT[217]
-21-43	5055-5059	root	*[217]	PROJECT[217]
-21-44	5060-5066	causes	*[217]	PROJECT[217]
+21-41	5042-5050	localize	*[57]	PROJECT[57]
+21-42	5051-5054	the	*[57]	PROJECT[57]
+21-43	5055-5059	root	*[57]	PROJECT[57]
+21-44	5060-5066	causes	*[57]	PROJECT[57]
 21-45	5066-5067	.	_	_
 
 #Text=Therefore, we propose a pairwise failure similarity function based on the aggregated features extracted by the DejaVu model.
@@ -1246,10 +1246,10 @@
 22-3	5079-5081	we	_	_
 22-4	5082-5089	propose	_	_
 22-5	5090-5091	a	_	_
-22-6	5092-5100	pairwise	*[224]	PROGLANG[224]
-22-7	5101-5108	failure	*[224]	PROGLANG[224]
-22-8	5109-5119	similarity	*[224]	PROGLANG[224]
-22-9	5120-5128	function	*[224]	PROGLANG[224]
+22-6	5092-5100	pairwise	*[34]	PROGLANG[34]
+22-7	5101-5108	failure	*[34]	PROGLANG[34]
+22-8	5109-5119	similarity	*[34]	PROGLANG[34]
+22-9	5120-5128	function	*[34]	PROGLANG[34]
 22-10	5129-5134	based	_	_
 22-11	5135-5137	on	_	_
 22-12	5138-5141	the	_	_
@@ -1258,8 +1258,8 @@
 22-15	5162-5171	extracted	_	_
 22-16	5172-5174	by	_	_
 22-17	5175-5178	the	_	_
-22-18	5179-5185	DejaVu	*[81]	ONTOLOGY[81]
-22-19	5186-5191	model	*[81]	ONTOLOGY[81]
+22-18	5179-5185	DejaVu	*[13]	ONTOLOGY[13]
+22-19	5186-5191	model	*[13]	ONTOLOGY[13]
 22-20	5191-5192	.	_	_
 
 #Text=Compared with raw metrics, the extracted features are of much lower dimension and contain little useless information, which the DejaVu model ignores.
@@ -1284,8 +1284,8 @@
 23-19	5309-5310	,	_	_
 23-20	5311-5316	which	_	_
 23-21	5317-5320	the	_	_
-23-22	5321-5327	DejaVu	*[128]	EVALMETRIC[128]
-23-23	5328-5333	model	*[128]	EVALMETRIC[128]
+23-22	5321-5327	DejaVu	*[18]	EVALMETRIC[18]
+23-23	5328-5333	model	*[18]	EVALMETRIC[18]
 23-24	5334-5341	ignores	_	_
 23-25	5341-5342	.	_	_
 
@@ -1293,8 +1293,8 @@
 24-1	5343-5350	However	_	_
 24-2	5350-5351	,	_	_
 24-3	5352-5361	computing	_	_
-24-4	5362-5369	failure	*[129]	EVALMETRIC[129]
-24-5	5370-5380	similarity	*[129]	EVALMETRIC[129]
+24-4	5362-5369	failure	*[19]	EVALMETRIC[19]
+24-5	5370-5380	similarity	*[19]	EVALMETRIC[19]
 24-6	5381-5383	is	_	_
 24-7	5384-5387	not	_	_
 24-8	5388-5395	trivial	_	_
@@ -1303,7 +1303,7 @@
 24-11	5403-5406	the	_	_
 24-12	5407-5423	generalizability	_	_
 24-13	5424-5426	of	_	_
-24-14	5427-5433	DejaVu	*[82]	ONTOLOGY[82]
+24-14	5427-5433	DejaVu	*[14]	ONTOLOGY[14]
 24-15	5433-5434	.	_	_
 
 #Text=For example, suppose that the features are $1$ for root-cause failure units and $0$ for other failure units and there are four failure units ($v\_1$, $v\_2$, $v\_3$, $v\_4$).
@@ -1442,13 +1442,13 @@
 27-8	5888-5900	similarities	_	_
 27-9	5901-5906	based	_	_
 27-10	5907-5909	on	_	_
-27-11	5910-5917	failure	*[83]	CONFERENCE[83]
-27-12	5918-5925	classes	*[83]	CONFERENCE[83]
+27-11	5910-5917	failure	*[7]	CONFERENCE[7]
+27-12	5918-5925	classes	*[7]	CONFERENCE[7]
 27-13	5926-5932	rather	_	_
 27-14	5933-5937	than	_	_
-27-15	5938-5944	single	*[205]	SOFTWARE[205]
-27-16	5945-5952	failure	*[205]	SOFTWARE[205]
-27-17	5953-5958	units	*[205]	SOFTWARE[205]
+27-15	5938-5944	single	*[47]	SOFTWARE[47]
+27-16	5945-5952	failure	*[47]	SOFTWARE[47]
+27-17	5953-5958	units	*[47]	SOFTWARE[47]
 27-18	5958-5959	.	_	_
 
 #Text=As shown in \\cref{fig:local-interpretation}, for each failure units at an in-coming failure $T\_1$, we compare it with each unit of the corresponding failure classes at a historical failure $T\_2$ and take the minimal similarity as its similarity to $T\_2$.
@@ -1472,9 +1472,9 @@
 28-18	6034-6043	in-coming	_	_
 28-19	6044-6051	failure	_	_
 28-20	6052-6053	$	_	_
-28-21	6053-6054	T	*[84]	CONFERENCE[84]
-28-22	6054-6055	\_	*[84]	CONFERENCE[84]
-28-23	6055-6056	1	*[84]	CONFERENCE[84]
+28-21	6053-6054	T	*[8]	CONFERENCE[8]
+28-22	6054-6055	\_	*[8]	CONFERENCE[8]
+28-23	6055-6056	1	*[8]	CONFERENCE[8]
 28-24	6056-6057	$	_	_
 28-25	6057-6058	,	_	_
 28-26	6059-6061	we	_	_
@@ -1493,9 +1493,9 @@
 28-39	6130-6140	historical	_	_
 28-40	6141-6148	failure	_	_
 28-41	6149-6150	$	_	_
-28-42	6150-6151	T	*[85]	CONFERENCE[85]
-28-43	6151-6152	\_	*[85]	CONFERENCE[85]
-28-44	6152-6153	2	*[85]	CONFERENCE[85]
+28-42	6150-6151	T	*[9]	CONFERENCE[9]
+28-43	6151-6152	\_	*[9]	CONFERENCE[9]
+28-44	6152-6153	2	*[9]	CONFERENCE[9]
 28-45	6153-6154	$	_	_
 28-46	6155-6158	and	_	_
 28-47	6159-6163	take	_	_
@@ -1532,9 +1532,9 @@
 29-16	6297-6298	(	_	_
 29-17	6298-6300	of	_	_
 29-18	6301-6302	$	_	_
-29-19	6302-6303	T	*[226]	PROGLANG[226]
-29-20	6303-6304	\_	*[226]	PROGLANG[226]
-29-21	6304-6305	1	*[226]	PROGLANG[226]
+29-19	6302-6303	T	*[36]	PROGLANG[36]
+29-20	6303-6304	\_	*[36]	PROGLANG[36]
+29-21	6304-6305	1	*[36]	PROGLANG[36]
 29-22	6305-6306	$	_	_
 29-23	6306-6307	)	_	_
 29-24	6308-6310	as	_	_
@@ -1551,8 +1551,8 @@
 30-6	6346-6350	care	_	_
 30-7	6351-6356	about	_	_
 30-8	6357-6362	those	_	_
-30-9	6363-6370	failure	*[218]	PROJECT[218]
-30-10	6371-6376	units	*[218]	PROJECT[218]
+30-9	6363-6370	failure	*[58]	PROJECT[58]
+30-10	6371-6376	units	*[58]	PROJECT[58]
 30-11	6377-6381	that	_	_
 30-12	6382-6388	matter	_	_
 30-13	6389-6391	in	_	_
@@ -1563,7 +1563,7 @@
 30-18	6417-6424	finding	_	_
 30-19	6425-6432	similar	_	_
 30-20	6433-6443	historical	_	_
-30-21	6444-6452	failures	*[219]	PROJECT[219]
+30-21	6444-6452	failures	*[59]	PROJECT[59]
 30-22	6452-6453	.	_	_
 
 #Text=In summary, the similarity function to compare $T\_1$ and $T\_2$ can be formalized as follows: $$ d(T\_1, T\_2)=\\frac{1}{\|V\|}\\sum\_{v\\in V}s\_{T\_1}(v)(\\min\_{v' \\in N\_c(v\;G)}\|\|\\boldsymbol{\\hat{f}}^{(T\_1, v)}-\\boldsymbol{\\hat{f}}^{(T\_2, v')}\|\|\_1) $$ where $N\_c(v\;G)$ denotes the failure units of the same class as $v$ in $G$, and $\|\|\\cdot\|\|\_1$ denotes $L1$ norm.
@@ -1575,17 +1575,17 @@
 31-6	6481-6489	function	_	_
 31-7	6490-6492	to	_	_
 31-8	6493-6500	compare	_	_
-31-9	6501-6502	$	*[258]	PUBLICATION[258]
-31-10	6502-6503	T	*[258]	PUBLICATION[258]
-31-11	6503-6504	\_	*[258]	PUBLICATION[258]
-31-12	6504-6505	1	*[258]	PUBLICATION[258]
-31-13	6505-6506	$	*[258]	PUBLICATION[258]
+31-9	6501-6502	$	*[65]	PUBLICATION[65]
+31-10	6502-6503	T	*[65]	PUBLICATION[65]
+31-11	6503-6504	\_	*[65]	PUBLICATION[65]
+31-12	6504-6505	1	*[65]	PUBLICATION[65]
+31-13	6505-6506	$	*[65]	PUBLICATION[65]
 31-14	6507-6510	and	_	_
-31-15	6511-6512	$	*[259]	PUBLICATION[259]
-31-16	6512-6513	T	*[259]	PUBLICATION[259]
-31-17	6513-6514	\_	*[259]	PUBLICATION[259]
-31-18	6514-6515	2	*[259]	PUBLICATION[259]
-31-19	6515-6516	$	*[259]	PUBLICATION[259]
+31-15	6511-6512	$	*[66]	PUBLICATION[66]
+31-16	6512-6513	T	*[66]	PUBLICATION[66]
+31-17	6513-6514	\_	*[66]	PUBLICATION[66]
+31-18	6514-6515	2	*[66]	PUBLICATION[66]
+31-19	6515-6516	$	*[66]	PUBLICATION[66]
 31-20	6517-6520	can	_	_
 31-21	6521-6523	be	_	_
 31-22	6524-6534	formalized	_	_
@@ -1700,14 +1700,14 @@
 31-131	6693-6694	$	_	_
 31-132	6694-6695	$	_	_
 31-133	6696-6701	where	_	_
-31-134	6702-6703	$	*[83]	ONTOLOGY[83]
-31-135	6703-6706	N\_c	*[83]	ONTOLOGY[83]
-31-136	6706-6707	(	*[83]	ONTOLOGY[83]
-31-137	6707-6708	v	*[83]	ONTOLOGY[83]
-31-138	6708-6709	\;	*[83]	ONTOLOGY[83]
-31-139	6709-6710	G	*[83]	ONTOLOGY[83]
-31-140	6710-6711	)	*[83]	ONTOLOGY[83]
-31-141	6711-6712	$	*[83]	ONTOLOGY[83]
+31-134	6702-6703	$	*[15]	ONTOLOGY[15]
+31-135	6703-6706	N\_c	*[15]	ONTOLOGY[15]
+31-136	6706-6707	(	*[15]	ONTOLOGY[15]
+31-137	6707-6708	v	*[15]	ONTOLOGY[15]
+31-138	6708-6709	\;	*[15]	ONTOLOGY[15]
+31-139	6709-6710	G	*[15]	ONTOLOGY[15]
+31-140	6710-6711	)	*[15]	ONTOLOGY[15]
+31-141	6711-6712	$	*[15]	ONTOLOGY[15]
 31-142	6713-6720	denotes	_	_
 31-143	6721-6724	the	_	_
 31-144	6725-6732	failure	_	_
@@ -1781,9 +1781,9 @@
 33-10	6999-7005	causes	_	_
 33-11	7006-7010	from	_	_
 33-12	7011-7016	these	_	_
-33-13	7017-7024	similar	*[260]	PUBLICATION[260]
-33-14	7025-7035	historical	*[260]	PUBLICATION[260]
-33-15	7036-7044	failures	*[260]	PUBLICATION[260]
+33-13	7017-7024	similar	*[67]	PUBLICATION[67]
+33-14	7025-7035	historical	*[67]	PUBLICATION[67]
+33-15	7036-7044	failures	*[67]	PUBLICATION[67]
 33-16	7044-7045	.	_	_
 
 #Text=Furthermore, engineers can also directly refer to the failure tickets of these historical failures for their diagnosis and mitigation process.
@@ -1845,8 +1845,8 @@
 36-7	7376-7379	and	_	_
 36-8	7380-7386	ignore	_	_
 36-9	7387-7391	such	_	_
-36-10	7392-7402	historical	*[84]	ONTOLOGY[84]
-36-11	7403-7411	failures	*[84]	ONTOLOGY[84]
+36-10	7392-7402	historical	*[16]	ONTOLOGY[16]
+36-11	7403-7411	failures	*[16]	ONTOLOGY[16]
 36-12	7411-7412	.	_	_
 36-13	7416-7417	#	_	_
 36-14	7417-7418	#	_	_
@@ -1870,8 +1870,8 @@
 37-3	7505-7509	list	_	_
 37-4	7510-7512	of	_	_
 37-5	7513-7521	selected	_	_
-37-6	7522-7533	time-series	*[256]	DATASET[256]
-37-7	7534-7542	features	*[256]	DATASET[256]
+37-6	7522-7533	time-series	*[73]	DATASET[73]
+37-7	7534-7542	features	*[73]	DATASET[73]
 37-8	7542-7543	\]	_	_
 37-9	7543-7544	(	_	_
 37-10	7544-7551	figures	_	_

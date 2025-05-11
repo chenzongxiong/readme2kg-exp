@@ -41,7 +41,7 @@
 1-36	192-195	see	_	_
 1-37	196-199	the	_	_
 1-38	200-201	\[	_	_
-1-39	201-220	experimental-design	*[134]	PROJECT[134]
+1-39	201-220	experimental-design	*[45]	PROJECT[45]
 1-40	220-221	\]	_	_
 1-41	221-222	(	_	_
 1-42	222-227	https	_	_
@@ -65,7 +65,7 @@
 2-3	306-314	contains	_	_
 2-4	315-318	the	_	_
 2-5	319-320	\[	_	_
-2-6	320-324	code	*[154]	SOFTWARE[154]
+2-6	320-324	code	*[26]	SOFTWARE[26]
 2-7	324-325	\]	_	_
 2-8	325-326	(	_	_
 2-9	326-327	/	_	_
@@ -73,7 +73,7 @@
 2-11	345-346	)	_	_
 2-12	346-347	,	_	_
 2-13	348-349	\[	_	_
-2-14	349-353	data	*[196]	DATASET[196]
+2-14	349-353	data	*[28]	DATASET[28]
 2-15	353-354	\]	_	_
 2-16	354-355	(	_	_
 2-17	355-356	/	_	_
@@ -83,7 +83,7 @@
 2-21	379-380	)	_	_
 2-22	381-384	and	_	_
 2-23	385-386	\[	_	_
-2-24	386-393	results	*[197]	DATASET[197]
+2-24	386-393	results	*[29]	DATASET[29]
 2-25	393-394	\]	_	_
 2-26	394-395	(	_	_
 2-27	395-396	/	_	_
@@ -136,8 +136,8 @@
 3-16	689-699	sub-second	_	_
 3-17	700-711	predictions	_	_
 3-18	712-714	of	_	_
-3-19	715-724	parameter	*[90]	EVALMETRIC[90]
-3-20	725-738	uncertainties	*[90]	EVALMETRIC[90]
+3-19	715-724	parameter	*[10]	EVALMETRIC[10]
+3-20	725-738	uncertainties	*[10]	EVALMETRIC[10]
 3-21	738-739	.	_	_
 
 #Text=These uncertainties can influence real-time decisions about measurement angle, measurement time, contrast choice and other experimental conditions based on parameters of interest.
@@ -175,9 +175,9 @@
 5-5	938-943	lower	_	_
 5-6	944-949	bound	_	_
 5-7	950-952	on	_	_
-5-8	953-962	parameter	*[91]	EVALMETRIC[91]
-5-9	963-973	estimation	*[91]	EVALMETRIC[91]
-5-10	974-987	uncertainties	*[91]	EVALMETRIC[91]
+5-8	953-962	parameter	*[11]	EVALMETRIC[11]
+5-9	963-973	estimation	*[11]	EVALMETRIC[11]
+5-10	974-987	uncertainties	*[11]	EVALMETRIC[11]
 5-11	988-991	and	_	_
 5-12	992-997	these	_	_
 5-13	998-1001	are	_	_
@@ -189,8 +189,8 @@
 5-19	1029-1035	square	_	_
 5-20	1036-1040	root	_	_
 5-21	1041-1043	of	_	_
-5-22	1044-1055	measurement	*[92]	EVALMETRIC[92]
-5-23	1056-1060	time	*[92]	EVALMETRIC[92]
+5-22	1044-1055	measurement	*[12]	EVALMETRIC[12]
+5-23	1056-1060	time	*[12]	EVALMETRIC[12]
 5-24	1060-1061	,	_	_
 5-25	1062-1071	providing	_	_
 5-26	1072-1078	useful	_	_
@@ -201,8 +201,8 @@
 5-31	1108-1111	and	_	_
 5-32	1112-1122	scheduling	_	_
 5-33	1123-1125	of	_	_
-5-34	1126-1138	experimental	*[135]	PROJECT[135]
-5-35	1139-1143	work	*[135]	PROJECT[135]
+5-34	1126-1138	experimental	*[21]	PROJECT[21]
+5-35	1139-1143	work	*[21]	PROJECT[21]
 5-36	1143-1144	.	_	_
 
 #Text=As the FI is computationally inexpensive to calculate, it can be computed repeatedly during the course of an experiment, saving costly beam time by signalling that sufficient data has been obtained\; or saving experimental datasets by signalling that an experiment needs to continue.  ### Citation Please cite the following article if you intend on including elements of this work in your own publications: > Durant, J.
@@ -277,26 +277,26 @@
 6-69	1537-1549	publications	_	_
 6-70	1549-1550	:	_	_
 6-71	1551-1552	>	_	_
-6-72	1553-1559	Durant	*[102]	PUBLICATION[102]
-6-73	1559-1560	,	*[102]	PUBLICATION[102]
-6-74	1561-1562	J	*[102]	PUBLICATION[102]
-6-75	1562-1563	.	*[102]	PUBLICATION[102]
+6-72	1553-1559	Durant	*[38]	PUBLICATION[38]
+6-73	1559-1560	,	*[38]	PUBLICATION[38]
+6-74	1561-1562	J	*[38]	PUBLICATION[38]
+6-75	1562-1563	.	*[38]	PUBLICATION[38]
 
 #Text=H., Wilkins, L., Butler, K. and Cooper, J.
 7-1	1564-1565	H	_	_
 7-2	1565-1566	.	_	_
 7-3	1566-1567	,	_	_
-7-4	1568-1575	Wilkins	*[103]	PUBLICATION[103]
+7-4	1568-1575	Wilkins	*[39]	PUBLICATION[39]
 7-5	1575-1576	,	_	_
 7-6	1577-1578	L	_	_
 7-7	1578-1579	.	_	_
 7-8	1579-1580	,	_	_
-7-9	1581-1587	Butler	*[104]	PUBLICATION[104]
+7-9	1581-1587	Butler	*[40]	PUBLICATION[40]
 7-10	1587-1588	,	_	_
 7-11	1589-1590	K	_	_
 7-12	1590-1591	.	_	_
 7-13	1592-1595	and	_	_
-7-14	1596-1602	Cooper	*[105]	PUBLICATION[105]
+7-14	1596-1602	Cooper	*[41]	PUBLICATION[41]
 7-15	1602-1603	,	_	_
 7-16	1604-1605	J	_	_
 7-17	1605-1606	.	_	_
@@ -343,7 +343,7 @@
 13-3	1760-1761	.	_	_
 13-4	1762-1763	\*	_	_
 13-5	1763-1764	\*	_	_
-13-6	1764-1766	54	*[106]	PUBLICATION[106]
+13-6	1764-1766	54	*[42]	PUBLICATION[42]
 13-7	1766-1767	\*	_	_
 13-8	1767-1768	\*	_	_
 13-9	1768-1769	,	_	_
@@ -367,7 +367,7 @@
 14-9	1812-1813	@	_	_
 14-10	1813-1820	article	_	_
 14-11	1820-1821	{	_	_
-14-12	1821-1831	Durant2021	*[107]	PUBLICATION[107]
+14-12	1821-1831	Durant2021	*[43]	PUBLICATION[43]
 14-13	1831-1832	,	_	_
 14-14	1836-1842	author	_	_
 14-15	1846-1847	=	_	_
@@ -541,7 +541,7 @@
 18-6	2540-2544	with	_	_
 18-7	2545-2548	the	_	_
 18-8	2549-2550	\[	_	_
-18-9	2550-2558	Anaconda	*[155]	SOFTWARE[155]
+18-9	2550-2558	Anaconda	*[27]	SOFTWARE[27]
 18-10	2558-2559	\]	_	_
 18-11	2559-2560	(	_	_
 18-12	2560-2565	https	_	_
@@ -601,7 +601,7 @@
 19-10	2777-2778	`	_	_
 19-11	2778-2783	conda	_	_
 19-12	2784-2792	activate	_	_
-19-13	2793-2811	fisher-information	*[136]	PROJECT[136]
+19-13	2793-2811	fisher-information	*[22]	PROJECT[22]
 19-14	2811-2812	`	_	_
 19-15	2812-2813	`	_	_
 19-16	2813-2814	`	_	_
@@ -694,7 +694,7 @@
 22-19	3147-3150	old	_	_
 22-20	3151-3158	version	_	_
 22-21	3159-3161	of	_	_
-22-22	3162-3170	Anaconda	*[156]	SOFTWARE[156]
+22-22	3162-3170	Anaconda	*[28]	SOFTWARE[28]
 22-23	3170-3171	,	_	_
 22-24	3172-3175	you	_	_
 22-25	3176-3179	may	_	_
@@ -742,17 +742,17 @@
 22-67	3411-3420	supported	_	_
 22-68	3421-3423	by	_	_
 22-69	3424-3427	the	_	_
-22-70	3428-3432	STFC	*[39]	CONFERENCE[39]
-22-71	3433-3443	Facilities	*[39]	CONFERENCE[39]
-22-72	3444-3453	Programme	*[39]	CONFERENCE[39]
-22-73	3454-3458	Fund	*[39]	CONFERENCE[39]
+22-70	3428-3432	STFC	*[5]	CONFERENCE[5]
+22-71	3433-3443	Facilities	*[5]	CONFERENCE[5]
+22-72	3444-3453	Programme	*[5]	CONFERENCE[5]
+22-73	3454-3458	Fund	*[5]	CONFERENCE[5]
 22-74	3459-3466	through	_	_
 22-75	3467-3470	the	_	_
-22-76	3471-3475	ISIS	*[157]	SOFTWARE[157]
-22-77	3476-3483	Neutron	*[157]	SOFTWARE[157]
-22-78	3484-3487	and	*[157]	SOFTWARE[157]
-22-79	3488-3492	Muon	*[157]	SOFTWARE[157]
-22-80	3493-3499	Source	*[157]	SOFTWARE[157]
+22-76	3471-3475	ISIS	*[29]	SOFTWARE[29]
+22-77	3476-3483	Neutron	*[29]	SOFTWARE[29]
+22-78	3484-3487	and	*[29]	SOFTWARE[29]
+22-79	3488-3492	Muon	*[29]	SOFTWARE[29]
+22-80	3493-3499	Source	*[29]	SOFTWARE[29]
 22-81	3499-3500	,	_	_
 22-82	3501-3504	and	_	_
 22-83	3505-3515	Scientific	_	_
@@ -834,16 +834,16 @@
 23-23	3908-3919	Distributed	_	_
 23-24	3920-3925	under	_	_
 23-25	3926-3929	the	_	_
-23-26	3930-3933	GPL	*[29]	LICENSE[29]
-23-27	3933-3934	-	*[29]	LICENSE[29]
-23-28	3934-3937	3.0	*[29]	LICENSE[29]
+23-26	3930-3933	GPL	*[4]	LICENSE[4]
+23-27	3933-3934	-	*[4]	LICENSE[4]
+23-28	3934-3937	3.0	*[4]	LICENSE[4]
 23-29	3938-3945	License	_	_
 23-30	3945-3946	.	_	_
 
 #Text=See \[license\](/LICENSE) for more information.
 24-1	3947-3950	See	_	_
 24-2	3951-3952	\[	_	_
-24-3	3952-3959	license	*[30]	LICENSE[30]
+24-3	3952-3959	license	*[5]	LICENSE[5]
 24-4	3959-3960	\]	_	_
 24-5	3960-3961	(	_	_
 24-6	3961-3962	/	_	_

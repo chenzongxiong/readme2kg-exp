@@ -13,7 +13,7 @@
 2-2	22-26	Code	_	_
 2-3	27-32	style	_	_
 2-4	32-33	:	_	_
-2-5	34-39	black	*[121]	SOFTWARE[121]
+2-5	34-39	black	*[87]	SOFTWARE[87]
 2-6	39-40	\]	_	_
 2-7	40-41	(	_	_
 2-8	41-46	https	_	_
@@ -87,18 +87,18 @@
 3-5	317-323	fitted	_	_
 3-6	324-326	to	_	_
 3-7	327-328	a	_	_
-3-8	329-334	fixed	*[34]	CONFERENCE[34]
-3-9	335-344	narrative	*[34]	CONFERENCE[34]
-3-10	345-353	template	*[34]	CONFERENCE[34]
+3-8	329-334	fixed	*[42]	CONFERENCE[42]
+3-9	335-344	narrative	*[42]	CONFERENCE[42]
+3-10	345-353	template	*[42]	CONFERENCE[42]
 3-11	354-359	based	_	_
 3-12	360-362	on	_	_
 3-13	363-366	the	_	_
 3-14	367-373	output	_	_
 3-15	374-376	of	_	_
 3-16	377-378	a	_	_
-3-17	379-386	machine	*[128]	PROGLANG[128]
-3-18	387-395	learning	*[128]	PROGLANG[128]
-3-19	396-401	model	*[128]	PROGLANG[128]
+3-17	379-386	machine	*[76]	PROGLANG[76]
+3-18	387-395	learning	*[76]	PROGLANG[76]
+3-19	396-401	model	*[76]	PROGLANG[76]
 3-20	401-402	,	_	_
 3-21	403-408	which	_	_
 3-22	409-415	itself	_	_
@@ -108,8 +108,8 @@
 3-26	436-440	down	_	_
 3-27	441-443	to	_	_
 3-28	444-447	its	_	_
-3-29	448-457	narrative	*[73]	EVALMETRIC[73]
-3-30	458-465	essence	*[73]	EVALMETRIC[73]
+3-29	448-457	narrative	*[45]	EVALMETRIC[45]
+3-30	458-465	essence	*[45]	EVALMETRIC[45]
 3-31	465-466	.	_	_
 
 #Text=For more information on narrative essence and how it generalizes to other forms of media, see \*On the Distillation of Stories for Transferring Narrative Arcs in Collections of Independent Media\* by Dylan R.
@@ -131,20 +131,20 @@
 4-16	555-556	,	_	_
 4-17	557-560	see	_	_
 4-18	561-562	\*	_	_
-4-19	562-564	On	*[89]	PUBLICATION[89]
-4-20	565-568	the	*[89]	PUBLICATION[89]
-4-21	569-581	Distillation	*[89]	PUBLICATION[89]
-4-22	582-584	of	*[89]	PUBLICATION[89]
-4-23	585-592	Stories	*[89]	PUBLICATION[89]
-4-24	593-596	for	*[89]	PUBLICATION[89]
-4-25	597-609	Transferring	*[89]	PUBLICATION[89]
-4-26	610-619	Narrative	*[89]	PUBLICATION[89]
-4-27	620-624	Arcs	*[89]	PUBLICATION[89]
-4-28	625-627	in	*[89]	PUBLICATION[89]
-4-29	628-639	Collections	*[89]	PUBLICATION[89]
-4-30	640-642	of	*[89]	PUBLICATION[89]
-4-31	643-654	Independent	*[89]	PUBLICATION[89]
-4-32	655-660	Media	*[89]	PUBLICATION[89]
+4-19	562-564	On	*[145]	PUBLICATION[145]
+4-20	565-568	the	*[145]	PUBLICATION[145]
+4-21	569-581	Distillation	*[145]	PUBLICATION[145]
+4-22	582-584	of	*[145]	PUBLICATION[145]
+4-23	585-592	Stories	*[145]	PUBLICATION[145]
+4-24	593-596	for	*[145]	PUBLICATION[145]
+4-25	597-609	Transferring	*[145]	PUBLICATION[145]
+4-26	610-619	Narrative	*[145]	PUBLICATION[145]
+4-27	620-624	Arcs	*[145]	PUBLICATION[145]
+4-28	625-627	in	*[145]	PUBLICATION[145]
+4-29	628-639	Collections	*[145]	PUBLICATION[145]
+4-30	640-642	of	*[145]	PUBLICATION[145]
+4-31	643-654	Independent	*[145]	PUBLICATION[145]
+4-32	655-660	Media	*[145]	PUBLICATION[145]
 4-33	660-661	\*	_	_
 4-34	662-664	by	_	_
 4-35	665-670	Dylan	_	_
@@ -173,7 +173,7 @@
 5-19	778-789	implemented	_	_
 5-20	790-792	in	_	_
 5-21	793-794	\[	_	_
-5-22	794-800	Python	*[129]	PROGLANG[129]
+5-22	794-800	Python	*[77]	PROGLANG[77]
 5-23	800-801	\]	_	_
 5-24	801-802	(	_	_
 5-25	802-807	https	_	_
@@ -190,7 +190,7 @@
 5-35	843-850	learned	_	_
 5-36	851-855	with	_	_
 5-37	856-857	\[	_	_
-5-38	857-864	PyTorch	*[130]	PROGLANG[130]
+5-38	857-864	PyTorch	*[78]	PROGLANG[78]
 5-39	864-865	\]	_	_
 5-40	865-866	(	_	_
 5-41	866-871	https	_	_
@@ -217,7 +217,7 @@
 6-12	950-952	of	_	_
 6-13	953-959	Python	_	_
 6-14	960-963	and	_	_
-6-15	964-967	pip	*[122]	SOFTWARE[122]
+6-15	964-967	pip	*[88]	SOFTWARE[88]
 6-16	967-968	,	_	_
 6-17	969-973	then	_	_
 6-18	974-979	clone	_	_
@@ -294,7 +294,7 @@
 6-89	1297-1304	install	_	_
 6-90	1305-1308	the	_	_
 6-91	1309-1310	\[	_	_
-6-92	1310-1316	ffmpeg	*[123]	SOFTWARE[123]
+6-92	1310-1316	ffmpeg	*[89]	SOFTWARE[89]
 6-93	1316-1317	\]	_	_
 6-94	1317-1318	(	_	_
 6-95	1318-1323	https	_	_
@@ -470,14 +470,14 @@
 8-5	2020-2023	try	_	_
 8-6	2024-2027	out	_	_
 8-7	2028-2029	a	_	_
-8-8	2030-2039	different	*[132]	PROGLANG[132]
-8-9	2040-2048	template	*[132]	PROGLANG[132]
+8-8	2030-2039	different	*[80]	PROGLANG[80]
+8-9	2040-2048	template	*[80]	PROGLANG[80]
 8-10	2048-2049	,	_	_
 8-11	2050-2054	pass	_	_
 8-12	2055-2058	the	_	_
 8-13	2059-2060	`	_	_
-8-14	2060-2061	-	*[74]	EVALMETRIC[74]
-8-15	2061-2062	t	*[74]	EVALMETRIC[74]
+8-14	2060-2061	-	*[46]	EVALMETRIC[46]
+8-15	2061-2062	t	*[46]	EVALMETRIC[46]
 8-16	2062-2063	`	_	_
 8-17	2064-2072	argument	_	_
 8-18	2073-2075	to	_	_
@@ -494,8 +494,8 @@
 
 #Text=Several learned templates are included in the templates directory:  !
 9-1	2127-2134	Several	_	_
-9-2	2135-2142	learned	*[116]	PROJECT[116]
-9-3	2143-2152	templates	*[116]	PROJECT[116]
+9-2	2135-2142	learned	*[110]	PROJECT[110]
+9-3	2143-2152	templates	*[110]	PROJECT[110]
 9-4	2153-2156	are	_	_
 9-5	2157-2165	included	_	_
 9-6	2166-2168	in	_	_
@@ -518,7 +518,7 @@
 10-10	2230-2231	/	_	_
 10-11	2231-2242	dylanashley	_	_
 10-12	2242-2243	/	_	_
-10-13	2243-2258	story-distiller	*[124]	SOFTWARE[124]
+10-13	2243-2258	story-distiller	*[90]	SOFTWARE[90]
 10-14	2258-2259	/	_	_
 10-15	2259-2263	blob	_	_
 10-16	2263-2264	/	_	_
@@ -547,14 +547,14 @@
 11-17	2340-2347	execute	_	_
 11-18	2348-2351	the	_	_
 11-19	2352-2353	`	_	_
-11-20	2353-2359	app.py	*[125]	SOFTWARE[125]
+11-20	2353-2359	app.py	*[91]	SOFTWARE[91]
 11-21	2359-2360	`	_	_
 11-22	2361-2365	file	_	_
 11-23	2365-2366	:	_	_
 11-24	2367-2368	`	_	_
 11-25	2368-2369	`	_	_
 11-26	2369-2370	`	_	_
-11-27	2370-2374	bash	*[133]	PROGLANG[133]
+11-27	2370-2374	bash	*[81]	PROGLANG[81]
 11-28	2375-2376	.	_	_
 
 #Text=/app.py ```   ## Extras  In addition to the above, this repository also includes all the code needed to reproduce the results presented in \*On the Distillation of Stories for Transferring Narrative Arcs in Collections of Independent Media\* by Dylan R.
@@ -587,20 +587,20 @@
 12-27	2502-2511	presented	_	_
 12-28	2512-2514	in	_	_
 12-29	2515-2516	\*	_	_
-12-30	2516-2518	On	*[90]	PUBLICATION[90]
-12-31	2519-2522	the	*[90]	PUBLICATION[90]
-12-32	2523-2535	Distillation	*[90]	PUBLICATION[90]
-12-33	2536-2538	of	*[90]	PUBLICATION[90]
-12-34	2539-2546	Stories	*[90]	PUBLICATION[90]
-12-35	2547-2550	for	*[90]	PUBLICATION[90]
-12-36	2551-2563	Transferring	*[90]	PUBLICATION[90]
-12-37	2564-2573	Narrative	*[90]	PUBLICATION[90]
-12-38	2574-2578	Arcs	*[90]	PUBLICATION[90]
-12-39	2579-2581	in	*[90]	PUBLICATION[90]
-12-40	2582-2593	Collections	*[90]	PUBLICATION[90]
-12-41	2594-2596	of	*[90]	PUBLICATION[90]
-12-42	2597-2608	Independent	*[90]	PUBLICATION[90]
-12-43	2609-2614	Media	*[90]	PUBLICATION[90]
+12-30	2516-2518	On	*[146]	PUBLICATION[146]
+12-31	2519-2522	the	*[146]	PUBLICATION[146]
+12-32	2523-2535	Distillation	*[146]	PUBLICATION[146]
+12-33	2536-2538	of	*[146]	PUBLICATION[146]
+12-34	2539-2546	Stories	*[146]	PUBLICATION[146]
+12-35	2547-2550	for	*[146]	PUBLICATION[146]
+12-36	2551-2563	Transferring	*[146]	PUBLICATION[146]
+12-37	2564-2573	Narrative	*[146]	PUBLICATION[146]
+12-38	2574-2578	Arcs	*[146]	PUBLICATION[146]
+12-39	2579-2581	in	*[146]	PUBLICATION[146]
+12-40	2582-2593	Collections	*[146]	PUBLICATION[146]
+12-41	2594-2596	of	*[146]	PUBLICATION[146]
+12-42	2597-2608	Independent	*[146]	PUBLICATION[146]
+12-43	2609-2614	Media	*[146]	PUBLICATION[146]
 12-44	2614-2615	\*	_	_
 12-45	2616-2618	by	_	_
 12-46	2619-2624	Dylan	_	_
@@ -817,7 +817,7 @@
 15-41	3609-3610	@	_	_
 15-42	3610-3620	github.com	_	_
 15-43	3620-3621	:	_	_
-15-44	3621-3632	dylanashley	*[117]	PROJECT[117]
+15-44	3621-3632	dylanashley	*[111]	PROJECT[111]
 15-45	3632-3633	/	_	_
 15-46	3633-3652	story-distiller.git	_	_
 15-47	3653-3654	`	_	_
@@ -844,15 +844,15 @@
 15-68	3744-3751	release	_	_
 15-69	3752-3755	due	_	_
 15-70	3756-3758	to	_	_
-15-71	3759-3768	copyright	*[26]	LICENSE[26]
-15-72	3769-3775	issues	*[26]	LICENSE[26]
+15-71	3759-3768	copyright	*[13]	LICENSE[13]
+15-72	3769-3775	issues	*[13]	LICENSE[13]
 15-73	3775-3776	.	_	_
 
 #Text=However, `movie\_extractor.py` should work on any similar collection with minimal changes.
 16-1	3777-3784	However	_	_
 16-2	3784-3785	,	_	_
 16-3	3786-3787	`	_	_
-16-4	3787-3805	movie\_extractor.py	*[134]	PROGLANG[134]
+16-4	3787-3805	movie\_extractor.py	*[82]	PROGLANG[82]
 16-5	3805-3806	`	_	_
 16-6	3807-3813	should	_	_
 16-7	3814-3818	work	_	_
@@ -880,8 +880,8 @@
 17-12	3948-3953	using	_	_
 17-13	3954-3957	the	_	_
 17-14	3958-3959	\[	_	_
-17-15	3959-3967	official	*[128]	SOFTWARE[128]
-17-16	3968-3982	implementation	*[128]	SOFTWARE[128]
+17-15	3959-3967	official	*[94]	SOFTWARE[94]
+17-16	3968-3982	implementation	*[94]	SOFTWARE[94]
 17-17	3982-3983	\]	_	_
 17-18	3983-3984	(	_	_
 17-19	3984-3989	https	_	_

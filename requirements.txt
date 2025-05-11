@@ -6,3 +6,6 @@ threadpoolctl==3.5.0 ; python_version >= "3.10"
 tabulate
 openai
 termcolor
+transformers
+torch
+ipdb

@@ -4,15 +4,15 @@
 
 #Text=# Keyword Transformer: A Self-Attention Model for Keyword Spotting  <img src="kwt.png" alt="drawing" width="200"/>  This is the official repository for the paper \[Keyword Transformer: A Self-Attention Model for Keyword Spotting\](https://arxiv.org/abs/2104.00769), presented at Interspeech 2021.
 1-1	0-1	#	_	_
-1-2	2-9	Keyword	*[265]	PUBLICATION[265]
-1-3	10-21	Transformer	*[265]	PUBLICATION[265]
-1-4	21-22	:	*[265]	PUBLICATION[265]
-1-5	23-24	A	*[265]	PUBLICATION[265]
-1-6	25-39	Self-Attention	*[265]	PUBLICATION[265]
-1-7	40-45	Model	*[265]	PUBLICATION[265]
-1-8	46-49	for	*[265]	PUBLICATION[265]
-1-9	50-57	Keyword	*[265]	PUBLICATION[265]
-1-10	58-66	Spotting	*[265]	PUBLICATION[265]
+1-2	2-9	Keyword	*[12]	PUBLICATION[12]
+1-3	10-21	Transformer	*[12]	PUBLICATION[12]
+1-4	21-22	:	*[12]	PUBLICATION[12]
+1-5	23-24	A	*[12]	PUBLICATION[12]
+1-6	25-39	Self-Attention	*[12]	PUBLICATION[12]
+1-7	40-45	Model	*[12]	PUBLICATION[12]
+1-8	46-49	for	*[12]	PUBLICATION[12]
+1-9	50-57	Keyword	*[12]	PUBLICATION[12]
+1-10	58-66	Spotting	*[12]	PUBLICATION[12]
 1-11	68-69	<	_	_
 1-12	69-72	img	_	_
 1-13	73-76	src	_	_
@@ -65,8 +65,8 @@
 1-60	262-263	,	_	_
 1-61	264-273	presented	_	_
 1-62	274-276	at	_	_
-1-63	277-288	Interspeech	*[86]	CONFERENCE[86]
-1-64	289-293	2021	*[86]	CONFERENCE[86]
+1-63	277-288	Interspeech	*[2]	CONFERENCE[2]
+1-64	289-293	2021	*[2]	CONFERENCE[2]
 1-65	293-294	.	_	_
 
 #Text=Consider citing our paper if you find this work useful.  ``` @inproceedings{berg21\_interspeech,   author={Axel Berg and Mark O’Connor and Miguel Tairum Cruz},   title={{Keyword Transformer: A Self-Attention Model for Keyword Spotting}},   year=2021,   booktitle={Proc.
@@ -199,20 +199,20 @@
 4-12	792-793	`	_	_
 4-13	793-798	shell	_	_
 4-14	799-803	wget	_	_
-4-15	804-809	https	*[257]	DATASET[257]
-4-16	809-810	:	*[257]	DATASET[257]
-4-17	810-811	/	*[257]	DATASET[257]
-4-18	811-812	/	*[257]	DATASET[257]
-4-19	812-834	storage.googleapis.com	*[257]	DATASET[257]
-4-20	834-835	/	*[257]	DATASET[257]
-4-21	835-858	download.tensorflow.org	*[257]	DATASET[257]
+4-15	804-809	https	*[4]	DATASET[4]
+4-16	809-810	:	*[4]	DATASET[4]
+4-17	810-811	/	*[4]	DATASET[4]
+4-18	811-812	/	*[4]	DATASET[4]
+4-19	812-834	storage.googleapis.com	*[4]	DATASET[4]
+4-20	834-835	/	*[4]	DATASET[4]
+4-21	835-858	download.tensorflow.org	*[4]	DATASET[4]
 4-21	844-854	tensorflow	_	_
-4-22	858-859	/	*[257]	DATASET[257]
-4-23	859-863	data	*[257]	DATASET[257]
-4-24	863-864	/	*[257]	DATASET[257]
-4-25	864-885	speech\_commands\_v0.02	*[257]	DATASET[257]
-4-26	885-886	.	*[257]	DATASET[257]
-4-27	886-892	tar.gz	*[257]	DATASET[257]
+4-22	858-859	/	*[4]	DATASET[4]
+4-23	859-863	data	*[4]	DATASET[4]
+4-24	863-864	/	*[4]	DATASET[4]
+4-25	864-885	speech\_commands\_v0.02	*[4]	DATASET[4]
+4-26	885-886	.	*[4]	DATASET[4]
+4-27	886-892	tar.gz	*[4]	DATASET[4]
 4-28	893-898	mkdir	_	_
 4-29	899-904	data2	_	_
 4-30	905-907	mv	_	_
@@ -363,7 +363,7 @@
 14-15	1436-1437	`	_	_
 14-16	1437-1438	`	_	_
 14-17	1438-1439	`	_	_
-14-18	1439-1444	shell	*[132]	EVALMETRIC[132]
+14-18	1439-1444	shell	*[0]	EVALMETRIC[0]
 14-19	1445-1448	pip	_	_
 14-20	1449-1456	install	_	_
 14-21	1457-1458	-	_	_
@@ -416,7 +416,7 @@
 16-14	1705-1708	the	_	_
 16-15	1709-1714	model	_	_
 16-16	1715-1717	is	_	_
-16-17	1718-1727	evaluated	*[133]	EVALMETRIC[133]
+16-17	1718-1727	evaluated	*[1]	EVALMETRIC[1]
 16-18	1727-1728	.	_	_
 
 #Text=This might be due to a change in how the random seed generator is implemented, and therefore changes the sampling of the "unknown"  keyword class.  ## Model The Keyword-Transformer model is defined \[here\](kws\_streaming/models/kws\_transformer.py).
@@ -453,8 +453,8 @@
 17-31	1878-1879	#	_	_
 17-32	1880-1885	Model	_	_
 17-33	1886-1889	The	_	_
-17-34	1890-1909	Keyword-Transformer	*[212]	SOFTWARE[212]
-17-35	1910-1915	model	*[212]	SOFTWARE[212]
+17-34	1890-1909	Keyword-Transformer	*[6]	SOFTWARE[6]
+17-35	1910-1915	model	*[6]	SOFTWARE[6]
 17-36	1916-1918	is	_	_
 17-37	1919-1926	defined	_	_
 17-38	1927-1928	\[	_	_
@@ -465,7 +465,7 @@
 17-43	1947-1948	/	_	_
 17-44	1948-1954	models	_	_
 17-45	1954-1955	/	_	_
-17-46	1955-1973	kws\_transformer.py	*[229]	PROGLANG[229]
+17-46	1955-1973	kws\_transformer.py	*[2]	PROGLANG[2]
 17-47	1973-1974	)	_	_
 17-48	1974-1975	.	_	_
 
@@ -473,18 +473,18 @@
 18-1	1976-1978	It	_	_
 18-2	1979-1984	takes	_	_
 18-3	1985-1988	the	_	_
-18-4	1989-1992	mel	*[213]	SOFTWARE[213]
-18-5	1993-1998	scale	*[213]	SOFTWARE[213]
-18-6	1999-2010	spectrogram	*[213]	SOFTWARE[213]
+18-4	1989-1992	mel	*[7]	SOFTWARE[7]
+18-5	1993-1998	scale	*[7]	SOFTWARE[7]
+18-6	1999-2010	spectrogram	*[7]	SOFTWARE[7]
 18-7	2011-2013	as	_	_
 18-8	2014-2019	input	_	_
 18-9	2019-2020	,	_	_
 18-10	2021-2026	which	_	_
 18-11	2027-2030	has	_	_
 18-12	2031-2036	shape	_	_
-18-13	2037-2039	98	*[260]	DATASET[260]
-18-14	2040-2041	x	*[260]	DATASET[260]
-18-15	2042-2044	40	*[260]	DATASET[260]
+18-13	2037-2039	98	*[7]	DATASET[7]
+18-14	2040-2041	x	*[7]	DATASET[7]
+18-15	2042-2044	40	*[7]	DATASET[7]
 18-16	2045-2050	using	_	_
 18-17	2051-2054	the	_	_
 18-18	2055-2062	default	_	_
@@ -719,8 +719,8 @@
 20-48	3209-3210	-	_	_
 20-49	3210-3211	-	_	_
 20-50	3211-3219	dropout1	_	_
-20-51	3220-3221	0	*[233]	PROGLANG[233]
-20-52	3221-3222	.	*[233]	PROGLANG[233]
+20-51	3220-3221	0	*[7]	PROGLANG[7]
+20-52	3221-3222	.	*[7]	PROGLANG[7]
 20-53	3223-3224	\\	_	_
 20-54	3225-3226	#	_	_
 20-55	3226-3233	dropout	_	_
@@ -733,9 +733,9 @@
 20-62	3269-3270	-	_	_
 20-63	3270-3271	-	_	_
 20-64	3271-3285	attention\_type	_	_
-20-65	3286-3287	'	*[85]	ONTOLOGY[85]
-20-66	3287-3291	time	*[85]	ONTOLOGY[85]
-20-67	3291-3292	'	*[85]	ONTOLOGY[85]
+20-65	3286-3287	'	*[1]	ONTOLOGY[1]
+20-66	3287-3291	time	*[1]	ONTOLOGY[1]
+20-67	3291-3292	'	*[1]	ONTOLOGY[1]
 20-68	3293-3294	\\	_	_
 20-69	3295-3296	#	_	_
 20-70	3296-3305	attention	_	_
@@ -759,9 +759,9 @@
 20-88	3346-3347	-	_	_
 20-89	3347-3348	-	_	_
 20-90	3348-3358	patch\_size	_	_
-20-91	3359-3360	'	*[261]	DATASET[261]
-20-92	3360-3364	1,40	*[261]	DATASET[261]
-20-93	3364-3365	'	*[261]	DATASET[261]
+20-91	3359-3360	'	*[8]	DATASET[8]
+20-92	3360-3364	1,40	*[8]	DATASET[8]
+20-93	3364-3365	'	*[8]	DATASET[8]
 20-94	3366-3367	\\	_	_
 20-95	3368-3369	#	_	_
 20-96	3369-3380	spectrogram	_	_
@@ -827,9 +827,9 @@
 #Text=To train KWT-3 with hard distillation from a pre-trained model, run  ```shell sh distill.sh ```  ## Run inference using a pre-trained model  Pre-trained weights for KWT-3, KWT-2 and KWT-1 are provided in .
 21-1	3646-3648	To	_	_
 21-2	3649-3654	train	_	_
-21-3	3655-3658	KWT	*[221]	PROJECT[221]
-21-4	3658-3659	-	*[221]	PROJECT[221]
-21-5	3659-3660	3	*[221]	PROJECT[221]
+21-3	3655-3658	KWT	*[1]	PROJECT[1]
+21-4	3658-3659	-	*[1]	PROJECT[1]
+21-5	3659-3660	3	*[1]	PROJECT[1]
 21-6	3661-3665	with	_	_
 21-7	3666-3670	hard	_	_
 21-8	3671-3683	distillation	_	_
@@ -863,13 +863,13 @@
 21-36	3814-3815	-	_	_
 21-37	3815-3816	3	_	_
 21-38	3816-3817	,	_	_
-21-39	3818-3821	KWT	*[222]	PROJECT[222]
-21-40	3821-3822	-	*[222]	PROJECT[222]
-21-41	3822-3823	2	*[222]	PROJECT[222]
+21-39	3818-3821	KWT	*[2]	PROJECT[2]
+21-40	3821-3822	-	*[2]	PROJECT[2]
+21-41	3822-3823	2	*[2]	PROJECT[2]
 21-42	3824-3827	and	_	_
-21-43	3828-3831	KWT	*[223]	PROJECT[223]
-21-44	3831-3832	-	*[223]	PROJECT[223]
-21-45	3832-3833	1	*[223]	PROJECT[223]
+21-43	3828-3831	KWT	*[3]	PROJECT[3]
+21-44	3831-3832	-	*[3]	PROJECT[3]
+21-45	3832-3833	1	*[3]	PROJECT[3]
 21-46	3834-3837	are	_	_
 21-47	3838-3846	provided	_	_
 21-48	3847-3849	in	_	_
@@ -877,11 +877,11 @@
 
 #Text=/models\_data\_v2\_12\_labels.
 22-1	3851-3852	/	_	_
-22-2	3852-3866	models\_data\_v2	*[262]	DATASET[262]
-22-3	3866-3867	\_	*[262]	DATASET[262]
-22-4	3867-3869	12	*[262]	DATASET[262]
-22-5	3869-3870	\_	*[262]	DATASET[262]
-22-6	3870-3876	labels	*[262]	DATASET[262]
+22-2	3852-3866	models\_data\_v2	*[9]	DATASET[9]
+22-3	3866-3867	\_	*[9]	DATASET[9]
+22-4	3867-3869	12	*[9]	DATASET[9]
+22-5	3869-3870	\_	*[9]	DATASET[9]
+22-6	3870-3876	labels	*[9]	DATASET[9]
 22-7	3876-3877	.	_	_
 
 #Text=\|Model name\|embedding dim\|mlp-dim\|heads\|depth\|#params\|V2-12 accuracy\|pre-trained\| \|:-:\|:-:\|:-:\|:-:\|:-:\|:-:\|:-:\|:-:\| \|KWT-1\|64\|128\|1\|12\|607K\|97.7\|\[here\](models\_data\_v2\_12\_labels/kwt1)\| \|KWT-2\|128\|256\|2\|12\|2.4M\|98.2\|\[here\](models\_data\_v2\_12\_labels/kwt2)\| \|KWT-3\|192\|768\|3\|12\|5.5M\|98.7\|\[here\](models\_data\_v2\_12\_labels/kwt3)\|  To perform inference on Google Speech Commands v2 with 12 labels, run  ```shell sh eval.sh ```  ## Acknowledgements  The code heavily borrows from the \[KWS streaming work\](https://github.com/google-research/google-research/tree/master/kws\_streaming) by Google Research.
@@ -942,9 +942,9 @@
 23-55	3992-3993	:	_	_
 23-56	3993-3994	\|	_	_
 23-57	3995-3996	\|	_	_
-23-58	3996-3999	KWT	*[224]	PROJECT[224]
-23-59	3999-4000	-	*[224]	PROJECT[224]
-23-60	4000-4001	1	*[224]	PROJECT[224]
+23-58	3996-3999	KWT	*[4]	PROJECT[4]
+23-59	3999-4000	-	*[4]	PROJECT[4]
+23-60	4000-4001	1	*[4]	PROJECT[4]
 23-61	4001-4002	\|	_	_
 23-62	4002-4004	64	_	_
 23-63	4004-4005	\|	_	_
@@ -958,23 +958,23 @@
 23-71	4018-4019	\|	_	_
 23-72	4019-4023	97.7	_	_
 23-73	4023-4024	\|	_	_
-23-74	4024-4025	\[	*[263]	DATASET[263]
-23-75	4025-4029	here	*[263]	DATASET[263]
-23-76	4029-4030	\]	*[263]	DATASET[263]
-23-77	4030-4031	(	*[263]	DATASET[263]
-23-78	4031-4045	models\_data\_v2	*[263]	DATASET[263]
-23-79	4045-4046	\_	*[263]	DATASET[263]
-23-80	4046-4048	12	*[263]	DATASET[263]
-23-81	4048-4049	\_	*[263]	DATASET[263]
-23-82	4049-4055	labels	*[263]	DATASET[263]
-23-83	4055-4056	/	*[263]	DATASET[263]
-23-84	4056-4060	kwt1	*[263]	DATASET[263]
-23-85	4060-4061	)	*[263]	DATASET[263]
+23-74	4024-4025	\[	*[10]	DATASET[10]
+23-75	4025-4029	here	*[10]	DATASET[10]
+23-76	4029-4030	\]	*[10]	DATASET[10]
+23-77	4030-4031	(	*[10]	DATASET[10]
+23-78	4031-4045	models\_data\_v2	*[10]	DATASET[10]
+23-79	4045-4046	\_	*[10]	DATASET[10]
+23-80	4046-4048	12	*[10]	DATASET[10]
+23-81	4048-4049	\_	*[10]	DATASET[10]
+23-82	4049-4055	labels	*[10]	DATASET[10]
+23-83	4055-4056	/	*[10]	DATASET[10]
+23-84	4056-4060	kwt1	*[10]	DATASET[10]
+23-85	4060-4061	)	*[10]	DATASET[10]
 23-86	4061-4062	\|	_	_
 23-87	4063-4064	\|	_	_
-23-88	4064-4067	KWT	*[225]	PROJECT[225]
-23-89	4067-4068	-	*[225]	PROJECT[225]
-23-90	4068-4069	2	*[225]	PROJECT[225]
+23-88	4064-4067	KWT	*[5]	PROJECT[5]
+23-89	4067-4068	-	*[5]	PROJECT[5]
+23-90	4068-4069	2	*[5]	PROJECT[5]
 23-91	4069-4070	\|	_	_
 23-92	4070-4073	128	_	_
 23-93	4073-4074	\|	_	_
@@ -988,23 +988,23 @@
 23-101	4087-4088	\|	_	_
 23-102	4088-4092	98.2	_	_
 23-103	4092-4093	\|	_	_
-23-104	4093-4094	\[	*[264]	DATASET[264]
-23-105	4094-4098	here	*[264]	DATASET[264]
-23-106	4098-4099	\]	*[264]	DATASET[264]
-23-107	4099-4100	(	*[264]	DATASET[264]
-23-108	4100-4114	models\_data\_v2	*[264]	DATASET[264]
-23-109	4114-4115	\_	*[264]	DATASET[264]
-23-110	4115-4117	12	*[264]	DATASET[264]
-23-111	4117-4118	\_	*[264]	DATASET[264]
-23-112	4118-4124	labels	*[264]	DATASET[264]
-23-113	4124-4125	/	*[264]	DATASET[264]
-23-114	4125-4129	kwt2	*[264]	DATASET[264]
-23-115	4129-4130	)	*[264]	DATASET[264]
+23-104	4093-4094	\[	*[11]	DATASET[11]
+23-105	4094-4098	here	*[11]	DATASET[11]
+23-106	4098-4099	\]	*[11]	DATASET[11]
+23-107	4099-4100	(	*[11]	DATASET[11]
+23-108	4100-4114	models\_data\_v2	*[11]	DATASET[11]
+23-109	4114-4115	\_	*[11]	DATASET[11]
+23-110	4115-4117	12	*[11]	DATASET[11]
+23-111	4117-4118	\_	*[11]	DATASET[11]
+23-112	4118-4124	labels	*[11]	DATASET[11]
+23-113	4124-4125	/	*[11]	DATASET[11]
+23-114	4125-4129	kwt2	*[11]	DATASET[11]
+23-115	4129-4130	)	*[11]	DATASET[11]
 23-116	4130-4131	\|	_	_
 23-117	4132-4133	\|	_	_
-23-118	4133-4136	KWT	*[226]	PROJECT[226]
-23-119	4136-4137	-	*[226]	PROJECT[226]
-23-120	4137-4138	3	*[226]	PROJECT[226]
+23-118	4133-4136	KWT	*[6]	PROJECT[6]
+23-119	4136-4137	-	*[6]	PROJECT[6]
+23-120	4137-4138	3	*[6]	PROJECT[6]
 23-121	4138-4139	\|	_	_
 23-122	4139-4142	192	_	_
 23-123	4142-4143	\|	_	_
@@ -1109,9 +1109,9 @@
 24-17	4554-4560	README	_	_
 24-18	4560-4561	\]	_	_
 24-19	4561-4562	(	_	_
-24-20	4562-4575	kws\_streaming	*[262]	PUBLICATION[262]
-24-21	4575-4576	/	*[262]	PUBLICATION[262]
-24-22	4576-4585	README.md	*[262]	PUBLICATION[262]
+24-20	4562-4575	kws\_streaming	*[1]	PUBLICATION[1]
+24-21	4575-4576	/	*[1]	PUBLICATION[1]
+24-22	4576-4585	README.md	*[1]	PUBLICATION[1]
 24-23	4585-4586	)	_	_
 24-24	4586-4587	.	_	_
 
@@ -1123,7 +1123,7 @@
 25-5	4614-4624	techniques	_	_
 25-6	4625-4629	from	_	_
 25-7	4630-4631	\[	_	_
-25-8	4631-4635	DeiT	*[214]	SOFTWARE[214]
+25-8	4631-4635	DeiT	*[8]	SOFTWARE[8]
 25-9	4635-4636	\]	_	_
 25-10	4636-4637	(	_	_
 25-11	4637-4642	https	_	_
@@ -1146,7 +1146,7 @@
 26-5	4702-4705	for	_	_
 26-6	4706-4713	sharing	_	_
 26-7	4714-4719	their	_	_
-26-8	4720-4724	code	*[215]	SOFTWARE[215]
+26-8	4720-4724	code	*[9]	SOFTWARE[9]
 26-9	4724-4725	.	_	_
 
 #Text=Please consider citing them as well if you use our code.  ## License  The source files in this repository are released under the \[Apache 2.0\](LICENSE.txt) license.
@@ -1176,8 +1176,8 @@
 27-24	4845-4850	under	_	_
 27-25	4851-4854	the	_	_
 27-26	4855-4856	\[	_	_
-27-27	4856-4862	Apache	*[37]	LICENSE[37]
-27-28	4863-4866	2.0	*[37]	LICENSE[37]
+27-27	4856-4862	Apache	*[0]	LICENSE[0]
+27-28	4863-4866	2.0	*[0]	LICENSE[0]
 27-29	4866-4867	\]	_	_
 27-30	4867-4868	(	_	_
 27-31	4868-4879	LICENSE.txt	_	_
@@ -1216,8 +1216,8 @@
 28-28	5020-5033	kws\_streaming	_	_
 28-29	5033-5034	)	_	_
 28-30	5035-5037	by	_	_
-28-31	5038-5044	Google	*[216]	SOFTWARE[216]
-28-32	5045-5053	Research	*[216]	SOFTWARE[216]
+28-31	5038-5044	Google	*[10]	SOFTWARE[10]
+28-32	5045-5053	Research	*[10]	SOFTWARE[10]
 28-33	5053-5054	.	_	_
 
 #Text=These are also released under the Apache 2.0 license, the text of which can be seen in the LICENSE file on their repository.
@@ -1227,8 +1227,8 @@
 29-4	5070-5078	released	_	_
 29-5	5079-5084	under	_	_
 29-6	5085-5088	the	_	_
-29-7	5089-5095	Apache	*[38]	LICENSE[38]
-29-8	5096-5099	2.0	*[38]	LICENSE[38]
+29-7	5089-5095	Apache	*[1]	LICENSE[1]
+29-8	5096-5099	2.0	*[1]	LICENSE[1]
 29-9	5100-5107	license	_	_
 29-10	5107-5108	,	_	_
 29-11	5109-5112	the	_	_
