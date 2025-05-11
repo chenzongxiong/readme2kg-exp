@@ -9,3 +9,4 @@ termcolor
 transformers
 torch
 ipdb
+google-generativeai
