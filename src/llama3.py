@@ -19,17 +19,13 @@ import torch
 import utils
 import cleaner
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
-from predictor import BasePredictor, LABELS
+from base_predictor import GenerativePredictor, LABELS
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-# torch.cuda.is_available()
-# device = "cuda" if torch.cuda.is_available() else "cpu"
-
-
-class Llama3Predictor(BasePredictor):
+class Llama3Predictor(GenerativePredictor):
     def __init__(self, model_id: str):
         self.model_id = model_id
         self.model_name = model_id.split('/')[-1]
@@ -117,7 +113,6 @@ def double_check(ref_doc, predicted_doc, file_name):
 if __name__ == "__main__":
     phase = 'test_unlabeled'
     base_path = Path(f'data/{phase}')
-    # model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
     model_id = "meta-llama/Llama-3.1-8B-Instruct"
     model_name = model_id.split('/')[-1]
     file_paths = [x for x in base_path.rglob('*.tsv')]
@@ -130,6 +125,9 @@ if __name__ == "__main__":
 
     for file_path in file_paths:
         print(f'file_name: {file_path.name}')
+        # if 'felixxu35_hamiltoniq_main_README.md.tsv' not in file_path.name:
+        #     continue
+
         predictor.set_file_name(file_path.name)
         ref_doc = webanno_tsv_read_file(file_path)
         pred_doc = predictor(ref_doc)

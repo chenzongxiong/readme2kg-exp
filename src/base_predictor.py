@@ -194,7 +194,7 @@ def find_spans_in_target(spans, target):
     return result
 
 
-class GenerativePredcitor(BasePredictor):
+class GenerativePredictor(BasePredictor):
     def __call__(self, doc: Document):
         if getattr(self, 'parallel', False):
             return self.__call__parallel(doc)
@@ -257,14 +257,20 @@ class GenerativePredcitor(BasePredictor):
         with open(f'{path}/{sid}.txt', 'r') as fd:
             predicted_text = fd.read()
 
+        # print('sentence.idx: ', sentence.idx)
+        # if sentence.idx == 3:
+        #     import ipdb; ipdb.set_trace()
         cleaned_text = cleaner.Cleaner(predicted_text).clean()
 
         ref_text = sentence.text
+        logging.info(f'ref text    : {colored(ref_text, "red")}')
+        logging.info(f'cleaned text: {colored(cleaned_text, "cyan")}')
+
         spans, tagged_ref = transfer_tags(cleaned_text, ref_text)
         tagged_spans = extract_nested_tags(tagged_ref)
 
-        if len(spans) != len(tagged_spans):
-            import ipdb; ipdb.set_trace()
+        # if len(spans) != len(tagged_spans):
+        #     import ipdb; ipdb.set_trace()
 
         matches = find_spans_in_target(tagged_spans, ref_text)
         label_to_text_list = defaultdict(list)
