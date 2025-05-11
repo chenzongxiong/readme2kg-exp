@@ -58,7 +58,15 @@ class Cleaner:
         return self.remove_markdown_quotes_if_needed().raw_text
 
     def remove_markdown_quotes_if_needed(self):
-        self.raw_text = re.sub(r'^```markdown\n|```$',
+        # pattern = r"```.*?\n(.*?)```"
+        # codes = re.findall(pattern, self.raw_text, re.DOTALL)
+
+        # if len(codes) == 0:
+        #     pass
+        # # return codes[0]
+        self.raw_text = re.sub(r'^```.*?\n```$',
                                '', self.raw_text.strip(), flags=re.MULTILINE)
+        # self.raw_text = re.sub(r'^```markdown\n|```$',
+        #                        '', self.raw_text.strip(), flags=re.MULTILINE)
 
         return self

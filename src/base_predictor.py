@@ -265,6 +265,7 @@ class GenerativePredictor(BasePredictor):
         ref_text = sentence.text
         logging.info(f'ref text    : {colored(ref_text, "red")}')
         logging.info(f'cleaned text: {colored(cleaned_text, "cyan")}')
+        logging.info(f'pred text: {colored(predicted_text, "green")}')
 
         spans, tagged_ref = transfer_tags(cleaned_text, ref_text)
         tagged_spans = extract_nested_tags(tagged_ref)
