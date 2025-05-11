@@ -4568,8 +4568,8 @@
 32-6	18783-18785	by	_	_
 32-7	18786-18793	running	_	_
 32-8	18794-18797	the	_	_
-32-9	18798-18805	example	*[268]	SOFTWARE[268]
-32-10	18806-18813	scripts	*[268]	SOFTWARE[268]
+32-9	18798-18805	example	*[267]	SOFTWARE[267]
+32-10	18806-18813	scripts	*[267]	SOFTWARE[267]
 32-11	18813-18814	.	_	_
 
 #Text=In order to run one of the examples, the Graph2Vec snippet:  ```sh $ cd examples/whole\_graph\_embedding/ $ python graph2vec\_example.py ```  --------------------------------------------------------------------------------  \*\*Running tests\*\*  From the project's root-level directory:  ```sh $ pytest ```  --------------------------------------------------------------------------------  \*\*License\*\*  - \[GNU General Public License v3.0\](https://github.com/benedekrozemberczki/karateclub/blob/master/LICENSE)
@@ -4583,8 +4583,8 @@
 33-8	18842-18850	examples	_	_
 33-9	18850-18851	,	_	_
 33-10	18852-18855	the	_	_
-33-11	18856-18865	Graph2Vec	*[269]	SOFTWARE[269]
-33-12	18866-18873	snippet	*[269]	SOFTWARE[269]
+33-11	18856-18865	Graph2Vec	*[268]	SOFTWARE[268]
+33-12	18866-18873	snippet	*[268]	SOFTWARE[268]
 33-13	18873-18874	:	_	_
 33-14	18876-18877	`	_	_
 33-15	18877-18878	`	_	_

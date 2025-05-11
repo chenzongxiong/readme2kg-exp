@@ -218,7 +218,7 @@
 #Text=“the crowd”, who act as eyes-on-the-ground proactively questioning and countering misinformation.
 4-1	1085-1086	“	_	_
 4-2	1086-1089	the	_	_
-4-3	1090-1095	crowd	*[272]	SOFTWARE[272]
+4-3	1090-1095	crowd	*[271]	SOFTWARE[271]
 4-4	1095-1096	”	_	_
 4-5	1096-1097	,	_	_
 4-6	1098-1101	who	_	_
@@ -454,7 +454,7 @@
 12-15	2466-2477	utilization	_	_
 12-16	2478-2480	of	_	_
 12-17	2481-2484	the	_	_
-12-18	2485-2490	crowd	*[273]	SOFTWARE[273]
+12-18	2485-2490	crowd	*[272]	SOFTWARE[272]
 12-19	2490-2491	.	_	_
 
 #Text=Particularly, we delve into (i) distinguishing individual, collaborative, and machine-assisted labeling for annotators\; (ii) analyzing the effectiveness of counter-misinformation through surveys, interviews, and in-lab experiments for evaluators\; and (iii) characterizing creation patterns and creator profiles for creators.
@@ -475,7 +475,7 @@
 13-15	2570-2586	machine-assisted	_	_
 13-16	2587-2595	labeling	_	_
 13-17	2596-2599	for	_	_
-13-18	2600-2610	annotators	*[275]	SOFTWARE[275]
+13-18	2600-2610	annotators	*[274]	SOFTWARE[274]
 13-19	2610-2611	\;	_	_
 13-20	2612-2613	(	_	_
 13-21	2613-2615	ii	_	_
@@ -494,7 +494,7 @@
 13-34	2704-2710	in-lab	_	_
 13-35	2711-2722	experiments	_	_
 13-36	2723-2726	for	_	_
-13-37	2727-2737	evaluators	*[277]	SOFTWARE[277]
+13-37	2727-2737	evaluators	*[276]	SOFTWARE[276]
 13-38	2737-2738	\;	_	_
 13-39	2739-2742	and	_	_
 13-40	2743-2744	(	_	_
@@ -507,7 +507,7 @@
 13-47	2786-2793	creator	_	_
 13-48	2794-2802	profiles	_	_
 13-49	2803-2806	for	_	_
-13-50	2807-2815	creators	*[278]	SOFTWARE[278]
+13-50	2807-2815	creators	*[277]	SOFTWARE[277]
 13-51	2815-2816	.	_	_
 
 #Text=Finally, we conclude this survey by outlining potential avenues for future research in this field.
@@ -1325,9 +1325,9 @@
 17-337	7035-7036	\|	_	_
 17-338	7037-7038	\|	_	_
 17-339	7039-7043	Does	_	_
-17-340	7044-7051	Wording	*[280]	SOFTWARE[280]
-17-341	7052-7058	Matter	*[280]	SOFTWARE[280]
-17-342	7058-7059	?	*[280]	SOFTWARE[280]
+17-340	7044-7051	Wording	*[279]	SOFTWARE[279]
+17-341	7052-7058	Matter	*[279]	SOFTWARE[279]
+17-342	7058-7059	?	*[279]	SOFTWARE[279]
 
 #Text=Examining the Effect of Phrasing on Memory for Negated Political Fact Checks                                                           \| Evaluator  \|   2022 \| Journal of Applied Research in Memory and Cognition                                            \| Society for Applied Research in Memory and Cognition \| https://www.doi.org/10.1037/mac0000022                               \| \| Effects of corrections on COVID-19-related misinformation: cross-media empirical analyses in Japan                                                          \| Evaluator  \|   2022 \| International Journal of Web Based Communities                                                 \| Inderscience Publishers                              \| https://www.doi.org/10.1504/IJWBC.2022.122389                        \| \| Factors influencing fake news rebuttal acceptance during the COVID-19 pandemic and the moderating effect of cognitive ability                               \| Evaluator  \|   2022 \| Computers in Human Behavior                                                                    \| Elsevier Ltd                                         \| https://www.doi.org/10.1016/j.chb.2021.107174                        \| \| The Influence of Media Trust and Normative Role Expectations on the Credibility of Fact Checkers                                                            \| Evaluator  \|   2022 \| Journalism Practice                                                                            \| Routledge                                            \| https://www.doi.org/10.1080/17512786.2022.2080102                    \| \| What If Unmotivated Is More Dangerous?
 18-1	7060-7069	Examining	_	_
@@ -2516,15 +2516,15 @@
 27-524	14741-14742	-	_	_
 27-525	14742-14743	\|	_	_
 27-526	14744-14745	\|	_	_
-27-527	14746-14753	HawkEye	*[282]	SOFTWARE[282]
-27-528	14753-14754	:	*[282]	SOFTWARE[282]
-27-529	14755-14756	A	*[282]	SOFTWARE[282]
-27-530	14757-14763	robust	*[282]	SOFTWARE[282]
-27-531	14764-14774	reputation	*[282]	SOFTWARE[282]
-27-532	14775-14781	system	*[282]	SOFTWARE[282]
-27-533	14782-14785	for	*[282]	SOFTWARE[282]
-27-534	14786-14801	community-based	*[282]	SOFTWARE[282]
-27-535	14802-14824	counter-misinformation	*[282]	SOFTWARE[282]
+27-527	14746-14753	HawkEye	*[281]	SOFTWARE[281]
+27-528	14753-14754	:	*[281]	SOFTWARE[281]
+27-529	14755-14756	A	*[281]	SOFTWARE[281]
+27-530	14757-14763	robust	*[281]	SOFTWARE[281]
+27-531	14764-14774	reputation	*[281]	SOFTWARE[281]
+27-532	14775-14781	system	*[281]	SOFTWARE[281]
+27-533	14782-14785	for	*[281]	SOFTWARE[281]
+27-534	14786-14801	community-based	*[281]	SOFTWARE[281]
+27-535	14802-14824	counter-misinformation	*[281]	SOFTWARE[281]
 27-536	14895-14896	\|	_	_
 27-537	14897-14906	Annotator	_	_
 27-538	14908-14909	\|	_	_
@@ -4326,9 +4326,9 @@
 43-20	28072-28073	\|	_	_
 43-21	28076-28080	2020	_	_
 43-22	28081-28082	\|	_	_
-43-23	28083-28096	Communication	*[283]	SOFTWARE[283]
-43-24	28097-28105	Research	*[283]	SOFTWARE[283]
-43-25	28106-28113	Reports	*[283]	SOFTWARE[283]
+43-23	28083-28096	Communication	*[282]	SOFTWARE[282]
+43-24	28097-28105	Research	*[282]	SOFTWARE[282]
+43-25	28106-28113	Reports	*[282]	SOFTWARE[282]
 43-26	28163-28164	\|	_	_
 43-27	28165-28174	Routledge	_	_
 43-28	28220-28221	\|	_	_
@@ -4376,9 +4376,9 @@
 43-70	28550-28553	Big	*[214]	PUBLICATION[214]
 43-71	28554-28558	Data	*[214]	PUBLICATION[214]
 43-72	28558-28559	,	_	_
-43-73	28560-28563	Big	*[286]	SOFTWARE[286]
-43-74	28564-28568	Data	*[286]	SOFTWARE[286]
-43-75	28569-28573	2020	*[286]	SOFTWARE[286]
+43-73	28560-28563	Big	*[285]	SOFTWARE[285]
+43-74	28564-28568	Data	*[285]	SOFTWARE[285]
+43-75	28569-28573	2020	*[285]	SOFTWARE[285]
 43-76	28578-28579	\|	_	_
 43-77	28580-28589	Institute	_	_
 43-78	28590-28592	of	_	_
@@ -4400,9 +4400,9 @@
 43-94	28665-28690	BigData50022.2020.9377956	_	_
 43-95	28700-28701	\|	_	_
 43-96	28702-28703	\|	_	_
-43-97	28704-28709	COVID	*[285]	SOFTWARE[285]
-43-98	28709-28710	-	*[285]	SOFTWARE[285]
-43-99	28710-28712	19	*[285]	SOFTWARE[285]
+43-97	28704-28709	COVID	*[284]	SOFTWARE[284]
+43-98	28709-28710	-	*[284]	SOFTWARE[284]
+43-99	28710-28712	19	*[284]	SOFTWARE[284]
 43-100	28713-28716	and	_	_
 43-101	28717-28720	the	_	_
 43-102	28721-28723	5G	_	_
