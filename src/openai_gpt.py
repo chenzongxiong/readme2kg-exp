@@ -33,7 +33,7 @@ class OpenAIGPT(GenerativePredictor):
                 self.prompt_template = fd.read()
         else:
             raise
-        self.parallel = False
+        self.parallel = True
         self.mismatch_sentences = 0
         self.total_sentences = 0
 
@@ -101,6 +101,3 @@ if __name__ == "__main__":
         prediction_path = output_folder / file_path.name
         with open(prediction_path, 'w') as fd:
             fd.write(pred_doc.tsv())
-
-        # if idx >= 2:
-        #     break

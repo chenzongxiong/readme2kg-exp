@@ -1,11 +1,11 @@
 {
-  "macro_precision": "42.29%",
-  "macro_recall": "3.63%",
-  "macro_f1": "6.34%",
-  "micro_precision": "75.56%",
-  "micro_recall": "1.57%",
-  "micro_f1": "3.08%",
-  "weighted_precision": "66.26%",
-  "weighted_recall": "1.57%",
-  "weighted_f1": "2.98%"
+  "macro_precision": "58.29%",
+  "macro_recall": "27.91%",
+  "macro_f1": "34.09%",
+  "micro_precision": "64.81%",
+  "micro_recall": "34.80%",
+  "micro_f1": "45.28%",
+  "weighted_precision": "64.19%",
+  "weighted_recall": "34.80%",
+  "weighted_f1": "44.02%"
 }
