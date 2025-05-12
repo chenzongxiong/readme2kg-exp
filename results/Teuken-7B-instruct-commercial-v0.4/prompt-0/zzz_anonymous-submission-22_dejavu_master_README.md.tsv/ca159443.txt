@@ -1,0 +1,21 @@
+## CONFERENCE: DejaVu: A Framework for Evaluating the Generalizability of Neural Representations
+
+DATASET: DejaVu
+
+EVALMETRIC: Generalizability
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Representation Learning Ontology
+PROJECT: Evaluating Neural Representations
+PUBLICATION: "DejaVu: A Framework for Evaluating the Generalizability of Neural Representations" in the Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: PyTorch
+WORKSHOP: Thermal Image Super-Resolution Workshop
+
+The DejaVu: A Framework for Evaluating the Generalizability of Neural Representations is a conference event that focuses on evaluating the generalizability of neural representations. The DejaVu dataset is a valuable resource for this purpose. The framework DejaVu provides a way to measure the generalizability of neural representations by evaluating their ability to generalize to new tasks. The dataset is available under the CC BY-NC 4.0 license and can be used for research purposes.
+
+DejaVu is a project that aims to evaluate the generalizability of neural representations. The project is focused on creating a framework for evaluating the generalizability of neural representations. The framework DejaVu provides a way to measure the generalizability of neural representations by evaluating their ability to generalize to new tasks. The dataset is available under the CC BY-NC 4.0 license and can be used for research purposes.
+
+The paper "DejaVu: A Framework for Evaluating the Generalizability of Neural Representations" was presented at the 32nd ACM International Conference on Information and Knowledge Management. The paper is available under the CC BY-NC 4.0 license and can be accessed through the conference proceedings. The paper describes the DejaVu framework and the DejaVu dataset, which is widely used for creating ontologies. The paper is a valuable resource for understanding the DejaVu framework and the DejaVu dataset.
+
+The PyTorch software is widely used for creating ontologies. PyTorch is a popular Python library for machine learning and deep learning research. It provides a flexible and efficient way to build and train deep neural networks. The software is available under the open-source license and can be used for research purposes.
+
+The Thermal Image Super-Resolution Workshop is a hands-on session focused on the topic of thermal image super-resolution. The workshop provides an opportunity for researchers to explore and edit the resource. The workshop is available at the [Thermal Image Super-Resolution](https://pbvs-workshop.github.io/datasets.html) website. The workshop is a valuable resource for understanding the topic of thermal image super-resolution.

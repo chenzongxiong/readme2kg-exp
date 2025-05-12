@@ -1,0 +1,13 @@
+Output Text:
+```markdown
+**CONFERENCE** : International Semantic Web Conference 2019, ISWC 2019, CVPR2023 workshop
+**DATASET** : Mausles, Mauls Creek
+**EVALMETRIC** : Precision, Recall, F1-Score, BLEU Score
+**LICENSE** : cc-by-3, CC BY-NC 4.0
+**ONTOLOGY** : Intelligence Task Ontology
+**PROGLANG** : Python, PHP, C++
+**PROJECT** : Paper With Code, <https://paperswithcode.com/>, <https://www.semanticscholar.org/paper/A%20Framework%20for%20Model-agnostic%20Knowledge%20Extraction%20from%20Code%20Snippets-Kipf%20et%20al-arXiv>, <https://colab.research.google.com/github/google/or-tools/blob/master/examples/py/tsp_tour_optimization.ipynb>
+**PUBLICATION** : No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths, Proceedings of the 32nd ACM International Conference on Information and Knowledge Management, <https://proceedings.mlr.com/papers/2015/2523.pdf>, <https://www.semanticscholar.org/paper/A%20Framework%20for%20Model-agnostic%20Knowledge%20Extraction%20from%20Code%20Snippets-Kipf%20et%20al-arXiv>
+**SOFTWARE** : Protege Ontology Editor
+**WORKSHOP** : Thermal Image Super-Resolution Workshop, <https://pbvs-workshop.github.io/datasets.html>
+```

@@ -1,0 +1,8 @@
+Output Text:
+```sh $ <CONFERENCE>Karate Club Meeting</CONFERENCE>. As we create new releases frequently, upgrading the package casually might be beneficial.
+```
+**Explanation:**
+
+* The class of the entity is "CONFERENCE".
+* The entity is "Karate Club Meeting".
+* The input text is annotated with the XML-style tag "<CONFERENCE>Karate Club Meeting</CONFERENCE>".

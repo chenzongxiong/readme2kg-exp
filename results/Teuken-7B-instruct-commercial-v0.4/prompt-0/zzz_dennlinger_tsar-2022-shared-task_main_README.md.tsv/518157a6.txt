@@ -1,0 +1,32 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+*CONFERENCE**: International Conference on Machine Learning (ICML)
+*CONFERENCE**: Conference on Neural Information Processing Systems (NeurIPS)
+*CONFERENCE**: International Conference on Computational Linguistics (COLING)
+*DATASET**: [Stanford Sentiment Treebank](https://nlp.stanford.edu/projects/sentiment/)
+*DATASET**: [Amazon Fine Food Reviews](https://www.aclweb.org/anthology/W15-4106/)
+*DATASET**: [Google News Groups](https://nlp.stanford.edu/projects/googlenews/)
+*EVALMETRIC**: Precision
+*EVALMETRIC**: Recall
+*EVALMETRIC**: F1-Score
+*EVALMETRIC**: BLEU Score
+*LICENSE**: cc-by-3
+*LICENSE**: CC BY-NC 4.0
+*ONTOLOGY**: Inference ontology
+*ONTOLOGY**: Ontology of Intelligence Tasks
+*ONTOLOGY**: Ontology of Open Annotation
+*PROJECT**: Stanford CoreNLP
+*PROJECT**: Stanford NLP Group
+*PROJECT**: Stanford NLP Speech
+*PROJECT**: Stanford NLP Speech and Language Processing
+*PROJECT**: Stanford NLP Speech and Language Processing
+*PROJECT**: Stanford NLP Speech and Language Processing
+*PUBLICATION**: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019)
+*PUBLICATION**: Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018)
+*PUBLICATION**: Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL 2017)
+*PUBLICATION**: Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL 2016)
+*SOFTWARE**: Stanford CoreNLP
+*SOFTWARE**: Stanford NLP Speech
+*SOFTWARE**: Stanford NLP Speech and Language Processing
+*WORKSHOP**: Workshop on Natural Language Processing for Robotics (NLPRo)
+```

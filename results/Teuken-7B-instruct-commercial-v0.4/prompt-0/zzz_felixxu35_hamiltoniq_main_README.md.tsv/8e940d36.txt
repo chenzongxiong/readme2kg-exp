@@ -1,0 +1,13 @@
+```
+CONFERENCE: HamilTONIq
+DATASET: HamilTONIq
+EVALMETRIC: Recall
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Event Ontology
+PROJECT: HamilTONIq
+PUBLICATION: Proceedings of the 2023 Workshop on Natural Language Processing and Computational Linguistics (NLPCL)
+SOFTWARE: Protégé Ontology Editor
+WORKSHOP: HamilTONIq Workshop on Natural Language Processing (HamilTONIq NLP)
+```
+Note: This is a sample output based on the guidelines provided. The actual output may vary depending on the input text and the entities present in it.
+```

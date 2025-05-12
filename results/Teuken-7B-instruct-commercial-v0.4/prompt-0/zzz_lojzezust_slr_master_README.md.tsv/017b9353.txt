@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2022 Dataset
+EVALMETRIC: AUC-ROC
+LICENSE: CC-BY-4.0
+ONTOLOGY: IJCAI 2022 Ontology
+PROJECT: IJCAI 2022 Project
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI 2022)
+SOFTWARE: IJCAI 2022 Ontology Editor
+WORKSHOP: IJCAI 2022 Workshop
+```

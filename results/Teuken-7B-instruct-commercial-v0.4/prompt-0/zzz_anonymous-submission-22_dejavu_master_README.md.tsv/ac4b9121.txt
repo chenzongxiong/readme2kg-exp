@@ -1,0 +1,31 @@
+Pull the code from GitHub
+```bash
+git pull https://github.com/NetManAIOps/DejaVu.git DejaVu
+```
+4. Run the script to download the dataset.
+```bash
+cd DejaVu
+python download_data.py
+```
+5. Train the model using the downloaded data.
+```python
+cd src
+python train.py
+```
+6. Evaluate the model using the provided evaluation script.
+```bash
+cd src
+python evaluate.py
+```
+7. Use the trained model to generate predictions for new text.
+```python
+cd src
+python generate_text.py
+```
+8. Use the model for other tasks, such as question answering or classification, by modifying the code accordingly.
+9. To run the model on new data, you can modify the `generate_text.py` script by changing the paths to the data directories and updating the model parameters.
+```bash
+cd src
+python generate_text.py --data_path <PATH_TO_NEW_DATA> --model_path <PATH_TO_MODEL_DIR> --model_param <PATH_TO_MODEL_PARAM_FILE>
+```
+Please note that the above instructions are generic and may need to be adjusted to fit the specific model and dataset used. Additionally, you may need to install necessary libraries and dependencies before running the scripts.

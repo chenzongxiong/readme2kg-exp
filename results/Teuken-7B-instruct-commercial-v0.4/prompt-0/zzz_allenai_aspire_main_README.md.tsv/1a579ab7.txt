@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-2019 Proceedings: 12 Volume Set
+
+**EVALMETRIC**: Macro F1 Score
+
+**LICENSE**: Creative Commons Attribution-ShareAlike 3.0 Unported
+
+**ONTOLOGY**: IJCAI 2019 Ontology
+
+**PROJECT**: Joint Learning of Knowledge Representation and Reasoning (JLKR)
+
+**PUBLICATION**: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI)
+
+**SOFTWARE**: IJCAI 2019 Proceedings: 12 Volume Set (PDF)
+
+**WORKSHOP**: Joint Learning of Knowledge Representation and Reasoning (JLKR) Workshop at IJCAI 2019
+```

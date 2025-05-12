@@ -1,0 +1,30 @@
+**Task:** Perform Named Entity Recognition (NER) on the given text. Follow the guidelines strictly to identify and classify entities into their respective categories. Annotate the entities directly in the original text using XML-style tags. Only return the annotated text in Markdown format—no explanations, introductions, or extra text.
+
+**Guidelines:**
+
+* **Entity Classes:**
+	+ CONFERENCE: Conference events.
+	*Definition*:
+	    A formal meeting or gathering focused on a particular field of study or topic.
+	*Example*:
+	    <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>` or `<CONFERENCE>ISWC 2019</CONFERENCE>`
+	    `<CONFERENCE>CVPR2023</CONFERENCE> workshop`
+* **Annotation Rules:**
+	- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+	- Use a single-class annotation per entity, based on the context.
+	- Annotate nested entities separately.
+	- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+	- Annotate entities within URLs (e.g., "llama" in <https://ai.meta.com/llama>).
+
+* **Output Format:**
+	- Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+		- `The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.`
+		- Your output should be in Markdown format with all entities tagged as instructed.
+
+Input Text:
+
+||DirectAU|+TAGCF|Impr. (%)|BPR|+TAGCF|Impr. (%) |:-|:-:|:-:|:-:|:-:|:-:|:-:| ||||Amazon-Book Recall@10 | 0.0619 | 0.0630 | 1.83% | 0.0396 | 0.0454 | 14.55% Recall@20 | 0.0959 | 0.0972 | 1.32% | 0.0652 | 0.0737 | 13.04% NDCG@10   | 0.0527 | 0.0536 | 1.60% | 0.0330 | 0.0384 | 16.47% NDCG@20   | 0.0641 | 0.0650 | 1.54% | 0.0416 | 0.0479 | 15.06% ||||Yelp-2018 Recall@10 | 0.0618 | 0.0633 | 2.44% | 0.0456 | 0.0475 | 4.25% Recall@20 | 0.0997 | 0.1018 | 2.09% | 0.0761 | 0.0793 | 4.15% NDCG@10   | 0.0517 | 0.0532 | 2.80% | 0.0385 | 0.0403 | 4.68% NDCG@20   | 0.0647 | 0.0663 | 2.56% | 0.0489 | 0.0513 | 4.71% ||||Gowalla Recall@10 | 0.1045 | 0.1072 | 1.72% | 0.0869 | 0.0914 | 5.15% Recall@20 | 0.1528 | 0.1566 | 1.71% | 0.1272 | 0.1333 | 4.73% NDCG@10   | 0.0825 | 0.0839 | 2.66% | 0.0690 | 0.0719 | 4.16% NDCG@20   | 0.0976 | 0.0993 | 2.50% | 0.0816 | 0.0850 | 4.17% ||||MovieLens-1M Recall@10 | 0.1223 | 0.1602 | 31.00% | 0.1276 | 0.1319 | 3.35% Recall@20 | 0.1899 | 0.2452 | 29.14% | 0.2179 | 0.2187 | 0.35% NDCG@10   | 0.1521 | 0.2085 | 37.03% | 0.1528 | 0.1571 | 2.82% NDCG@20   | 0.1667 | 0.2233 | 33.93% | 0.1800 | 0.1821 | 1.15%  ## 5.
+
+Annotated Text:
+
+||DIRECTAU|+TAGCF|Impr. (%)|BPR|+TAGCF|Impr. (%) |:-|:-:|:-:|:-:|:-:|:-:|:-:| |Amazon-Book|0.0619|0.0630|1.83%|0.0396|0.0454|14.55%|Recall@10|0.0959|0.0972|1.32%|0.0652|0.0737|13.04%|NDCG@10|0.0527|0.0536|1.60%|0.0330|0.0384|16.47%|NDCG@20|0.0641|0.0650|1.54%|0.0416|0.0479|15.06%|Yelp-2018|0.0618|0.0633|2.44%|0.0456|0.0475|4.25%|Recall@10|0.0997|0.1018|2.09%|0.0761|0.0793|4.15%|NDCG@10|0.0517|0.0532|2.80%|0.0385|0.0403|4.68%|NDCG@20|0.0647|0.0663|2.56%|0.0489|0.0513|4.71%|Gowalla|0.1045|0.1072|1.72%|0.0869|0.0914|5.15%|Recall@10|0.1528|0.1566|1.71%|0.1272|0.1333|4.73%|NDCG@10|0.0825|0.0839|2.66%|0.0690|0.0719|4.16%|NDCG@20|0.0976|0.0993|2.50%|0.0816|0.0850|4.17%|MovieLens-1M|0.1223|0.1602|31.00%|0.1276|0.1319|3.35%|Recall@10|0.1899|0.2452|29.14%|0.2179|0.2187|0.35%|NDCG@10|0.1521|0.2085

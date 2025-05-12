@@ -1,0 +1,21 @@
+```perl
+# CONFERENCE
+International Joint Conference on Artificial Intelligence (IJCAI 2023)
+# DATASET
+Conference Data
+Download the IJCAI-2023 Dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/IJCAI/data.zip)
+# EVALMETRIC
+Evaluation Metric: Precision, Recall, F1-Score, BLEU Score
+# LICENSE
+MIT License
+# ONTOLOGY
+Semantic Network for Knowledge Representation
+# PROJECT
+Paper With Code
+# PUBLICATION
+Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI 2023)
+# SOFTWARE
+Protege Ontology Editor
+# WORKSHOP
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+```

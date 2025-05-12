@@ -1,0 +1,19 @@
+##### 2.1 Hierarchical Architecture
+
+The hierarchical architecture of neural networks (NNs) is a type of architecture that organizes the network into multiple layers, each with a specific function or responsibility. This architecture allows the network to learn more complex features and patterns from the input data, leading to better performance on certain tasks.
+
+In this section, we will discuss the different types of hierarchical architectures and how they can be used to improve the performance of NNs. We will also provide examples of neural networks that have been designed with this architecture.
+
+There are several types of hierarchical architectures that can be used in NNs, including:
+
+* **Convolutional neural networks (CNNs):** These networks are designed to process data with a grid-like structure, such as images. The layers in a CNN are organized in a hierarchical manner, with each layer using the features learned in the previous layer to make predictions on the input data. This allows the network to learn more complex features and patterns from the input data.
+* **Recurrent neural networks (RNNs):** These networks are designed to process data with a temporal or sequence-like structure, such as speech or text. The layers in an RNN are organized in a hierarchical manner, with each layer using the output of the previous layer as input to make predictions on the current input.
+* **Autoencoders:** These networks are designed to learn a representation of the input data that is more compact and informative. The layers in an autoencoder are organized in a hierarchical manner, with each layer using the output of the previous layer as input to make predictions on the current input.
+
+Examples of neural networks that have been designed with hierarchical architectures include:
+
+* **Residual networks (ResNets):** These networks are designed to improve the accuracy of NNs by using residual connections between layers. The layers in a ResNet are organized in a hierarchical manner, with each layer using the output of the previous layer as input to make predictions on the current input.
+* **Densely connected neural networks (DenseNets):** These networks are designed to improve the accuracy of NNs by using a dense connection between all layers. The layers in a DenseNet are organized in a hierarchical manner, with each layer using the output of the previous layer as input to make predictions on the current input.
+* **Squeeze-and-excitation networks (SE-Nets):** These networks are designed to improve the efficiency of NNs by using a squeeze-and-excitation module between layers. The layers in an SE-Net are organized in a hierarchical manner, with each layer using the output of the previous layer as input to make predictions on the current input.
+
+Overall, the use of hierarchical architectures in NNs has led to significant improvements in performance on a variety of tasks, including image classification, natural language processing, and speech recognition.

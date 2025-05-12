@@ -1,0 +1,3 @@
+Python 3.9+ (<SOFTWARE>Python</SOFTWARE> 3.9+)
+
+This text contains a single entity with the class "SOFTWARE". The entity is "Python 3.9+" and is annotated using the `<SOFTWARE>` tag.

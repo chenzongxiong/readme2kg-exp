@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet
+
+**EVALMETRIC**: Precision
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: Semantic Web Ontology Language (OWL)
+
+**PROJECT**: Ontology-based Information Extraction from the Web (OWLIE)
+
+**PUBLICATION**: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+**SOFTWARE**: Stanford Parser
+
+**WORKSHOP**: Workshop on Natural Language Processing for Information Access (NLP4IA)
+```

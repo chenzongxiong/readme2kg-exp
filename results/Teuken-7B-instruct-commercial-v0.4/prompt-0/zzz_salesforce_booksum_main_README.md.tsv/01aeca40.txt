@@ -1,0 +1,11 @@
+```
+DATASET: Data collection scripts
+CONFERENCE: organized by the different sources
+EVALMETRIC: scripts
+LICENSE: Data collection
+ONTOLOGY: Data collection scripts
+PROJECT: Data collection scripts
+PUBLICATION: Data collection scripts
+SOFTWARE: Data collection scripts
+WORKSHOP: Data collection scripts
+```

@@ -1,0 +1,149 @@
+```markdown
+<CONFERENCE>ICCV 2019</CONFERENCE> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE> license
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> publication
+<SOFTWARE>DeepVariant</SOFTWARE> software
+<WORKSHOP>CVPR2023</WORKSHOP> workshop
+<DATASET>IST</DATASET> dataset
+<EVALMETRIC>AP</EVALMETRIC> score
+<LICENSE>MIT</LICENSE

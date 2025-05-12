@@ -1,0 +1,22 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: IST 2016
+**EVALMETRIC**: F1 Score
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Ontology for Biomedical Investigations
+**PROJECT**: Workshop on Semantic Interfaces and Human-Computer Interaction
+**PUBLICATION**: Proceedings of the 33rd International Conference on Computational Linguistics
+**SOFTWARE**: Protégé Ontology Editor
+**WORKSHOP**: Workshop on Semantic Interfaces and Human-Computer Interaction
+```
+
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: IST 2016
+**EVALMETRIC**: F1 Score
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Ontology for Biomedical Investigations
+**PROJECT**: Workshop on Semantic Interfaces and Human-Computer Interaction
+**PUBLICATION**: Proceedings of the 33rd International Conference on Computational Linguistics
+**SOFTWARE**: Protégé Ontology Editor
+**WORKSHOP**: Workshop on Semantic Interfaces and Human-Computer Interaction
+```

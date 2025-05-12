@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: PASCAL Visual Geometry Workshop (PascalVG)
+EVALMETRIC: Average Precision (AP)
+LICENSE: Creative Commons Attribution-Share Alike 3.0 Unported (CC BY-SA 3.0)
+ONTOLOGY: IJIC-2023 Ontology
+PROJECT: PASCALVG-2023
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2021)
+SOFTWARE: OpenCV
+WORKSHOP: IJCAI-2023 Workshop on Visual Reasoning and Learning (ICLR-2023)
+```

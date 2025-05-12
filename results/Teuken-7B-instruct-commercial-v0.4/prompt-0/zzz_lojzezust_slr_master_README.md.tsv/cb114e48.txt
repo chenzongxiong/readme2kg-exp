@@ -1,0 +1,45 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-19 Task 2: Machine Reading Comprehension
+
+**EVALMETRIC**: Accuracy
+
+**LICENSE**: CC-BY-3.0
+
+**ONTOLOGY**: IJCAI-19 Ontology
+
+**PROJECT**: IJCAI-19 Workshop on Artificial Intelligence and Computational Linguistics (ACL-IJCAI)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2021)
+
+**SOFTWARE**: IJCAI-19 Task 2 Evaluation Tool
+
+**WORKSHOP**: IJCAI-19 Workshop on Machine Reading Comprehension (MRC-19)
+```
+
+**Annotation Rules:**
+
+- Annotate the entire proper name, including any nested entities.
+- Use a single-class annotation per entity.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity.
+- Annotate entities within URLs.
+
+---
+Input Text:
+
+Uses additional object-wise losses.
+
+Output with entities annotated:
+```python
+<CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE>
+<DATASET>IJCAI-19 Task 2: Machine Reading Comprehension</DATASET>
+<EVALMETRIC>Accuracy</EVALMETRIC>
+<LICENSE>CC-BY-3.0</LICENSE>
+<ONTOLOGY>IJCAI-19 Ontology</ONTOLOGY>
+<PROJECT>IJCAI-19 Workshop on Artificial Intelligence and Computational Linguistics (ACL-IJCAI)</PROJECT>
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2021)</PUBLICATION>
+<SOFTWARE>IJCAI-19 Task 2 Evaluation Tool</SOFTWARE>
+<WORKSHOP>IJCAI-19 Workshop on Machine Reading Comprehension (MRC-19)</WORKSHOP>
+```

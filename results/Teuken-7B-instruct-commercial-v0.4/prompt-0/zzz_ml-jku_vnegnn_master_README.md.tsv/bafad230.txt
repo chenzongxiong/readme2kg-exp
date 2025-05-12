@@ -1,0 +1,12 @@
+```
+CONFERENCE: ECCV2023
+DATASET: ECCV2023 Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-3
+ONTOLOGY: ECCV2023 Ontology
+PROJECT: ECCV2023 Project
+PUBLICATION: ECCV 2023 Proceedings
+SOFTWARE: VN-EGNN Ontology Editor
+```
+
+Note: This is a sample output based on the given guidelines. The actual output may vary depending on the input text.

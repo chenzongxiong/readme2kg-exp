@@ -1,0 +1,11 @@
+```
+CONFERENCE: NLP-Seminar 2023
+DATASET: SemEval-2018 Task 7
+EVALMETRIC: F1 Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Frame-based Ontology
+PROJECT: FrameNet-based NLP
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Frametizer
+WORKSHOP: FrameNet-based NLP Workshop
+```

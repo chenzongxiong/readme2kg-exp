@@ -1,0 +1,9 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET**: PASCAL VOC
+*EVALMETRIC**: Average Precision
+*LICENSE**: CC-BY-3.0
+*ONTOLOGY**: Dublin Core
+*PROJECT**: PASCAL VOC
+*PUBLICATION**: IEEE Transactions on Pattern Analysis and Machine Intelligence
+*SOFTWARE**: TensorFlow
+*WORKSHOP**: CVPR2023 workshop on Explainable and Verifiable Machine Learning

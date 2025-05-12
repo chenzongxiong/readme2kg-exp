@@ -1,0 +1,18 @@
+Output Text:
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: JHU-DIMACS citation dataset
+
+**EVALMETRIC**: Average precision
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: Task Ontology
+
+**PROJECT**: TensorTrade
+
+**PUBLICATION**: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+**SOFTWARE**: PyTorch Geometric (DGL)
+```

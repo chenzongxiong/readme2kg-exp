@@ -1,0 +1,11 @@
+```
+CONFERENCE: Data Mining and Machine Learning
+DATASET: BookSum
+EVALMETRIC: Precision
+LICENSE: cc-by-3.0
+ONTOLOGY: Semantic Ontology for Information Extraction
+PROJECT: BookSum
+PUBLICATION: Advances in Information Fusion
+SOFTWARE: OntoNotes Annotated Edition
+WORKSHOP: Workshop on Semantic Information Fusion
+```

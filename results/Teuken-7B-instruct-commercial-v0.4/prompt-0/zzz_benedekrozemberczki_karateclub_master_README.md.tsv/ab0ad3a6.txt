@@ -1,0 +1,11 @@
+```
+CONFERENCE: Karate Club Conference
+DATASET: Karate Club Dataset
+EVALMETRIC: Evaluation Metric
+LICENSE: License
+ONTOLOGY: Karate Club Ontology
+PROJECT: Karate Club Project
+PUBLICATION: Karate Club Paper
+SOFTWARE: Karate Club Software
+WORKSHOP: Karate Club Workshop
+```

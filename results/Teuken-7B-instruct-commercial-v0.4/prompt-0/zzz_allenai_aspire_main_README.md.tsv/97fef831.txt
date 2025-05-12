@@ -1,0 +1,35 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: Macro F1
+LICENSE: BSD 3-Clause "New" or "Revised"
+ONTOLOGY: Frame-based ontologies
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Analysis and Reasoning (STAR)
+```
+
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: Macro F1
+LICENSE: BSD 3-Clause "New" or "Revised"
+ONTOLOGY: Frame-based ontologies
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Analysis and Reasoning (STAR)
+```
+
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: Macro F1
+LICENSE: BSD 3-Clause "New" or "Revised"
+ONTOLOGY: Frame-based ontologies
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Analysis and Reasoning (STAR)
+```

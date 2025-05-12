@@ -1,0 +1,10 @@
+```
+DATASET: nrrd files metadata and experiment splitting
+EVALMETRIC: Precision, Recall, F1-Score, and BLEU Score
+LICENSE: cc-by-3, CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+```

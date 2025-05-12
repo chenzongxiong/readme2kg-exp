@@ -1,0 +1,45 @@
+```
+## CONFERENCE
+<CONFERENCE>ModelSketchBook Workshop</CONFERENCE>
+<CONFERENCE>AI Fairness, Accountability, and Transparency Workshop</CONFERENCE>
+<CONFERENCE>CVPR Workshop on Explainable and Interpretable Machine Learning</CONFERENCE>
+
+## DATASET
+<DATASET>ModelSketchBook</DATASET>
+The <DATASET>ModelSketchBook dataset</DATASET> is available on GitHub (<https://github.com/wenggong-jin/modelSketchBook>).
+
+## EVALMETRIC
+<EVALMETRIC>F1 Score</EVALMETRIC>
+<EVALMETRIC>Precision</EVALMETRIC>
+<EVALMETRIC>Recall</EVALMETRIC>
+<EVALMETRIC>BLEU Score</EVALMETRIC>
+
+## LICENSE
+<LICENSE>MIT</LICENSE>
+
+## ONTOLGY
+<ONTOLOGY>Sketch Reasoning Ontology</ONTOLOGY>
+
+## PROJECT
+<PROJECT>ModelSketchBook: A Framework for Interactive and Explainable Deep Learning</PROJECT>
+
+## PUBLICATION
+<PUBLICATION>Proceedings of the IEEE International Conference on Data Mining (ICDM)</PUBLICATION>
+<PUBLICATION>Proceedings of the ACM International Conference on Data Engineering (ICDE)</PUBLICATION>
+<PUBLICATION>Proceedings of the VLDB Endowment</PUBLICATION>
+
+## SOFTWARE
+<SOFTWARE>ModelSketchBook</SOFTWARE>
+<SOFTWARE>Protege Ontology Editor</SOFTWARE>
+
+## WORKSHOP
+<WORKSHOP>ModelSketchBook Workshop</WORKSHOP>
+<WORKSHOP>AI Fairness, Accountability, and Transparency Workshop</WORKSHOP>
+<WORKSHOP>CVPR Workshop on Explainable and Interpretable Machine Learning</WORKSHOP>
+```
+
+```vbnet
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+The <DATASET>ModelSketchBook dataset</DATASET> is available on GitHub (<https://github.com/wenggong-jin/modelSketchBook>).
+The <PROJECT>ModelSketchBook: A Framework for Interactive and Explainable Deep Learning</PROJECT> project</PROJECT>.
+```

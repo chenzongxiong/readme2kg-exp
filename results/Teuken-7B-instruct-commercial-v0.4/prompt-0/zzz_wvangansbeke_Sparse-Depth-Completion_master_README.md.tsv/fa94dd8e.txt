@@ -1,0 +1,20 @@
+```
+The <CONFERENCE>CVPR2023</CONFERENCE> workshop on computer vision and pattern recognition will take place from June 18th to June 21st, 2023, in Seattle, Washington, USA.
+
+The <DATASET>USTPO MIT</DATASET> dataset is a collection of patent documents from the United States Patent and Trademark Office (USPTO) and the Massachusetts Institute of Technology (MIT).
+
+The <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC> are used to evaluate the performance of a model.
+
+The <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> licenses can be used for the dataset.
+
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a framework for representing knowledge about intelligence tasks.
+
+The <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> are programming languages used in the project.
+
+The <PROJECT>Paper With Code</PROJECT> project (<https://paperswithcode.com/>) provides a comprehensive database of research papers and their corresponding code.
+
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is a software tool for creating and editing ontologies.
+
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is a workshop focused on panoramic audiovisual saliency detection.

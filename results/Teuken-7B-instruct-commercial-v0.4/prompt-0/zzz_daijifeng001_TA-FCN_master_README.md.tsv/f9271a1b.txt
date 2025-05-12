@@ -1,0 +1,73 @@
+```
+Task: Named Entity Recognition (NER) on the given text.
+
+Guidelines:
+
+* Entity Classes:
+
+   - **CONFERENCE**: Conference events.
+   
+     Definition: A formal meeting or gathering focused on a particular field of study or topic.
+     Example: International Semantic Web Conference 2019, ISWC 2019, CVPR2023 workshop.
+
+   - **DATASET**: Structured collections of data.
+   
+     Definition: A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.
+     Example: Maules Creek, USTPO MIT dataset from <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>.
+
+   - **EVALMETRIC**: Evaluation metrics for models.
+   
+     Definition: A quantitative measure used to assess the performance and effectiveness of a statistical or machine learning model.
+     Example: Precision, Recall, F1-Score, BLEU Score.
+
+   - **LICENSE**: Licensing terms.
+   
+     Definition: Legal terms and conditions for using a particular resource.
+     Example: cc-by-3, CC BY-NC 4.0.
+
+   - **ONTOLOGY**: Semantic frameworks for knowledge representation.
+   
+     Definition: A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.
+     Example: Intelligence Task Ontology.
+
+   - **PROGLANG**: Programming languages.
+   
+     Definition: A formal language used for implementing software.
+     Example: Python, PHP, C++.
+
+   - **PROJECT**: Scientific or business initiatives.
+   
+     Definition: A planned initiative aimed at addressing a research question or achieving a specific goal.
+     Example: Paper With Code project <https://paperswithcode.com/>.
+
+   - **PUBLICATION**: Scholarly works.
+   
+     Definition: A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+     Example: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths, in Proceedings of the 32nd ACM International Conference on Information and Knowledge Management.
+
+   - **SOFTWARE**: Software tools or programs.
+   
+     Definition: Programs or tools designed to perform specific tasks on electronic devices.
+     Example: Protege ontology editor.
+
+   - **WORKSHOP**: Workshop events.
+   
+     Definition: An educational or hands-on session focused on a specific subject.
+     Example: [Thermal Image Super-Resolution](https://pbvs-workshop.github.io/datasets.html) workshop.
+
+Annotation Rules:
+
+1. Include the entire proper name but exclude standalone generic descriptors (e.g., exclude Dataset in BookSum Dataset).
+2. Use a single-class annotation per entity, based on the context.
+3. Annotate nested entities separately.
+4. Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+5. Annotate entities within URLs (e.g., "llama" in <https://ai.meta.com/llama>).
+
+Output Format:
+
+Return the original content with entities directly annotated using XML-style tags for their respective classes.
+```
+
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```

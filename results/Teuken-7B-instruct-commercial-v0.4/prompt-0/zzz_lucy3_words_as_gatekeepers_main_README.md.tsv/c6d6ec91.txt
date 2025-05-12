@@ -1,0 +1,13 @@
+Here is the annotated text with entities directly encoded in XML-style tags:
+```markdown
+<CONFERENCE>Conferences</CONFERENCE>
+<DATASET>Data sets</DATASET>
+<EVALMETRIC>Evaluation metrics</EVALMETRIC>
+<LICENSE>Open licenses</LICENSE>
+<ONTOLOGY>Ontologies</ONTOLOGY>
+<PROJECT>Projects</PROJECT>
+<PUBLICATION>Publications</PUBLICATION>
+<SOFTWARE>Software tools</SOFTWARE>
+<WORKSHOP>Workshops</WORKSHOP>
+```
+Note that entities within URLs have been included as well.

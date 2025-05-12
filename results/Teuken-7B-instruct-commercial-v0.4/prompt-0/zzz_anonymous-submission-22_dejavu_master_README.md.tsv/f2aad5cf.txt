@@ -1,0 +1,14 @@
+Output Text:
+```scss
+For example, suppose that the features are $1$ for root-cause failure units and $0$ for other failure units and there are four failure units:
+
+1. $v_1$
+2. $v_2$
+3. $v_3$
+4. $v_4$
+```
+Explanation:
+
+* The input text is annotated with the entity classes and their corresponding examples.
+* The entity classes used are: CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP.
+* The entities and their tags are directly annotated in the original text using XML-style tags.

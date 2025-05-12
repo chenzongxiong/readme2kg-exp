@@ -1,0 +1,64 @@
+Here's the Markdown-formatted text with the entities annotated using the provided guidelines:
+```markdown
+**Conferences**
+
+* <CONFERENCE>Conference Name</CONFERENCE> (Year)
+* <CONFERENCE>Conference Name</CONFERENCE> (Year)
+* <CONFERENCE>Conference Name</CONFERENCE> (Year)
+
+**Datasets**
+
+* <DATASET>Dataset Name</DATASET> (Source)
+* <DATASET>Dataset Name</DATASET> (Source)
+* <DATASET>Dataset Name</DATASET> (Source)
+
+**Evaluation Metrics**
+
+* <EVALMETRIC>Precision</EVALMETRIC>
+* <EVALMETRIC>Recall</EVALMETRIC>
+* <EVALMETRIC>F1-Score</EVALMETRIC>
+* <EVALMETRIC>BLEU Score</EVALMETRIC>
+
+**Licenses**
+
+* <LICENSE>License Name</LICENSE>
+* <LICENSE>License Name</LICENSE>
+* <LICENSE>License Name</LICENSE>
+
+**Ontologies**
+
+* <ONTOLOGY>Ontology Name</ONTOLOGY>
+* <ONTOLOGY>Ontology Name</ONTOLOGY>
+* <ONTOLOGY>Ontology Name</ONTOLOGY>
+
+**Programming Languages**
+
+* <PROGLANG>Programming Language</PROGLANG>
+* <PROGLANG>Programming Language</PROGLANG>
+* <PROGLANG>Programming Language</PROGLANG>
+
+**Projects**
+
+* <PROJECT>Project Name</PROJECT>
+* <PROJECT>Project Name</PROJECT>
+* <PROJECT>Project Name</PROJECT>
+
+**Publications**
+
+* <PUBLICATION>Journal Name</PUBLICATION> (Year)
+* <PUBLICATION>Conference Proceedings</PUBLICATION> (Year)
+* <PUBLICATION>Preprint Server</PUBLICATION> (Year)
+
+**Software**
+
+* <SOFTWARE>Software Name</SOFTWARE>
+* <SOFTWARE>Software Name</SOFTWARE>
+* <SOFTWARE>Software Name</SOFTWARE>
+
+**Workshops**
+
+* <WORKSHOP>Workshop Name</WORKSHOP>
+* <WORKSHOP>Workshop Name</WORKSHOP>
+* <WORKSHOP>Workshop Name</WORKSHOP>
+```
+Note: The entities are marked with the corresponding tag from the guidelines provided.

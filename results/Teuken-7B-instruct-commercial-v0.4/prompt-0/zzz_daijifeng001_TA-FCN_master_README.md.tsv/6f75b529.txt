@@ -1,0 +1,9 @@
+```
+For Windows users, Visual Studio 2015 is needed to compile cython module.  
+### Requirements: Hardware
+- Any NVIDIA GPUs with at least 5GB memory should be OK
+### Installation
+1. Download the latest version of CUDA Toolkit from <https://developer.nvidia.com/cuda-toolkit> and save it to your computer.
+2. Extract the downloaded ZIP file to a folder on your computer.
+3. Open Visual Studio 2015 and go to Tools > Get Tools and Workloads > Visual Studio Community 2015 > Workload Funde
+```

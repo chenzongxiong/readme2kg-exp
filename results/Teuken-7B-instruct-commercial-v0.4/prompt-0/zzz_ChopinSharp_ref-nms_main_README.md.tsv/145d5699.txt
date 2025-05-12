@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-2023 Workshop on Artificial Intelligence for Cybersecurity (AI4CS)
+
+**EVALMETRIC**: Accuracy
+
+**LICENSE**: CC-BY-3.0
+
+**ONTOLOGY**: None specified
+
+**PROJECT**: None specified
+
+**PUBLICATION**: IJCAI-2023 Workshop on Artificial Intelligence for Cybersecurity (AI4CS)
+
+**SOFTWARE**: MAttNet
+
+**WORKSHOP**: IJCAI-2023 Workshop on Artificial Intelligence for Cybersecurity (AI4CS)

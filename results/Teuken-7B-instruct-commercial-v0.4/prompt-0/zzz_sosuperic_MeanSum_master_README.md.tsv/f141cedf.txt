@@ -1,0 +1,1 @@
+The automated metrics results will be in `checkpoints/sum/mlstm/yelp/<hparams>_<additional_notes>`.

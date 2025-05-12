@@ -1,0 +1,19 @@
+```markdown
+**Conference:** International Semantic Web Conference 2019
+**Conference:** ISWC 2019
+**Conference:** CVPR2023 workshop
+**Dataset:** Mauls Creek
+**Evaluation Metric:** Precision
+**Evaluation Metric:** Recall
+**Evaluation Metric:** F1-Score
+**Evaluation Metric:** BLEU Score
+**License:** cc-by-3
+**Ontology:** Intelligence Task Ontology
+**Programming Language:** Python
+**Project:** Paper With Code
+**Publication:** Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**Publication:** No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+**Software:** Protege ontology editor
+**Software:** PAV-SOD: Panoramic Audiovisual Saliency Detection
+**Workshop:** Thermal Image Super-Resolution
+```

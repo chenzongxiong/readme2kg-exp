@@ -1,0 +1,22 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Structured collections of data
+* EVALMETRIC: Evaluation metrics for models
+* LICENSE: cc-by-3
+* ONTOLOGY: Intelligence Task Ontology
+* PROJECT: Paper With Code
+* PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+* SOFTWARE: Protege ontology editor
+* WORKSHOP: Thermal Image Super-Resolution
+
+Annotated Text:
+```css
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> was held in conjunction with the <CONFERENCE>IST 2019</CONFERENCE> conference. The conference focused on the latest advances in the field of semantic web and web of data, with a focus on the <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC> metrics. The conference also included a <WORKSHOP>Workshop on Natural Language Processing for Semantic Web Applications</WORKSHOP>.
+
+The <DATASET>Maules Creek</DATASET> dataset, which is used in the paper, is a <DATASET>US Patent and Trademark Office</DATASET> (USPTO) dataset that contains a large number of <DATASET>US patents</DATASET>. The dataset is available for download from the <DATASET>USTPO MIT</DATASET> dataset from (<DATASET>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</DATASET>).
+
+The evaluation metrics used in the paper are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>. The paper uses the <EVALMETRIC>Precision</EVALMETRIC> and <EVALMETRIC>Recall</EVALMETRIC> metrics to evaluate the performance of the model, and the <EVALMETRIC>F1-Score</EVALMETRIC> and <EVALMETRIC>BLEU Score</EVALMETRIC> metrics to evaluate the model's ability to generate plausible and coherent text.
+
+The paper is licensed under the <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE>. The paper is also cited by other works, such as <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>.
+
+The paper is published in the <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>. The paper is also available on the <PUBLICATION>PVS-Workshop</PUBLICATION> GitHub page.
+```

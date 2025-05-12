@@ -1,0 +1,4 @@
+```
+The SOFTWARE Protege Ontology Editor is widely used for creating ontologies.
+## License Distributed under the GPL-3.0 License.
+```

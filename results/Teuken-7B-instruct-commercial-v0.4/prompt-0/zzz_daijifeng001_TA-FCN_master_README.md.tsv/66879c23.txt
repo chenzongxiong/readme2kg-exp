@@ -1,0 +1,33 @@
+```php
+<CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS) 2023</CONFERENCE>
+<CONFERENCE>Conference on Machine Learning (ICML) 2023</CONFERENCE>
+<CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR) 2023</CONFERENCE>
+<DATASET>ImageNet</DATASET>
+<DATASET>CIFAR-10</DATASET>
+<DATASET>MNIST</DATASET>
+<DATASET>USPTO MIT</DATASET>
+<EVALMETRIC>Accuracy</EVALMETRIC>
+<EVALMETRIC>Precision</EVALMETRIC>
+<EVALMETRIC>Recall</EVALMETRIC>
+<EVALMETRIC>F1-Score</EVALMETRIC>
+<EVALMETRIC>BLEU Score</EVALMETRIC>
+<LICENSE>CC BY-NC 4.0</LICENSE>
+<ONTOLOGY>Open Annotation Ontology</ONTOLOGY>
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+<ONTOLOGY>Semantic Event Ontology</ONTOLOGY>
+<ONTOLOGY>Artificial Intelligence Ontology</ONTOLOGY>
+<ONTOLOGY>Web Ontology Language (OWL)</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT>
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<PUBLICATION>International Semantic Web Conference 2019</PUBLICATION>
+<PUBLICATION>Web Science and Digital Libraries</PUBLICATION>
+<PUBLICATION>Journal of Web Semantics</PUBLICATION>
+<PUBLICATION>Journal of Intelligent Information Systems</PUBLICATION>
+<PUBLICATION>Journal of Intelligent Computing</PUBLICATION>
+<PUBLICATION>Journal of Big Data</PUBLICATION>
+<SOFTWARE>Jupyter Notebook</SOFTWARE>
+<SOFTWARE>TensorFlow</SOFTWARE>
+<SOFTWARE>PyTorch</SOFTWARE>
+<SOFTWARE>Keras</SOFTWARE>
+<WORKSHOP>Knowledge Discovery and Data Mining (KDD) 2023</WORKSHOP>
+```

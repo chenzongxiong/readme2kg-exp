@@ -1,0 +1,5 @@
+**Annotated Text:**
+```css
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+**Explanation:** The entity class is `SOFTWARE`, and the annotation is correct according to the guidelines.

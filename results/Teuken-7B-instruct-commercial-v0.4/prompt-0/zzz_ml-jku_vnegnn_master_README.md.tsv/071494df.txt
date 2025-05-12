@@ -1,0 +1,28 @@
+```
+CONFERENCE: International Semantic Web Conference 2019
+CONFERENCE: ISWC 2019
+CONFERENCE: CVPR2023 workshop
+DATASET: Mauls Creek
+DATASET: USTPO MIT
+DATASET: USTPO MIT
+EVALMETRIC: Precision
+EVALMETRIC: Recall
+EVALMETRIC: F1-Score
+EVALMETRIC: BLEU Score
+LICENSE: cc-by-3
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+ONTOLOGY: Ontology for Instructional Design
+ONTOLOGY: Ontology for Learning and Teaching in the Workplace
+ONTOLOGY: Ontology for Learning and Teaching in the Workplace
+ONTOLOGY: Ontology for Learning and Teaching in the Workplace
+PROJECT: Paper With Code
+PROJECT: paperswithcode.com
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution Workshop
+WORKSHOP: pbvs-workshop.github.io
+WORKSHOP: Panoramic Audiovisual Saliency Detection
+```

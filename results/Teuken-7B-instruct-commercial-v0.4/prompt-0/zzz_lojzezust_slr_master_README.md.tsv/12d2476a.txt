@@ -1,0 +1,9 @@
+The **Conference** is the International Semantic Web Conference 2019 (ISWC 2019).
+The **DATASET** is the MaS dataset.
+The **EVALMETRIC** is Precision, Recall, F1-Score, and BLEU Score.
+The **LICENSE** is cc-by-3 and CC BY-NC 4.0.
+The **ONTOLOGY** is the Intelligence Task Ontology.
+The **PROJECT** is the Paper With Code project.
+The **PUBLICATION** is No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths.
+The **SOFTWARE** is the Protege ontology editor.
+The **WORKSHOP** is the PAV-SOD: Panoramic Audiovisual Saliency Detection workshop.

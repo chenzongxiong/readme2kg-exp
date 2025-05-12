@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Neural Networks (IJCNN)
+
+**DATASET**: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+
+**EVALMETRIC**: Top-1 Accuracy
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Dublin Core Metadata Terms
+
+**PROJECT**: ImageNet: A Large-Scale Hierarchical Image Database
+
+**PUBLICATION**: Advances in Neural Information Processing Systems (NeurIPS)
+
+**SOFTWARE**: TensorFlow
+
+**WORKSHOP**: CVPR Workshop on Deep Learning for Image Analysis and Understanding (DLAu)

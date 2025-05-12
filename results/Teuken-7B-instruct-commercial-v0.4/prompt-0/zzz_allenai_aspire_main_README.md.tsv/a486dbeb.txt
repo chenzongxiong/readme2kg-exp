@@ -1,0 +1,14 @@
+**Annotation:**
+```markdown
+*CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET: IJCAI-19 Task 3: Multi-Vector Representations
+*EVALMETRIC: AspectMatching@IJCAI
+*LICENSE: CC BY-NC 4.0
+*ONTOLOGY: IJCAI-19 Task 3 Ontology
+*PROJECT: Multi-Vector Representations
+*PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*SOFTWARE: TensorTrade
+*WORKSHOP: IJCAI-19 Workshop on Artificial Intelligence for Human-like Intelligence
+```
+**Original Text:**
+We develop multi-vector representations where vectors correspond to sentence-level aspects of documents, and present two methods for aspect matching: (1) A fast method that only matches single aspects, and (2) a method that makes sparse multiple matches with an Optimal Transport mechanism that computes an Earth Mover's Distance between aspects.

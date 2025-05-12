@@ -1,0 +1,4 @@
+```
+## NER Annotated Text in Markdown Format
+We provide hyper-parameter configs in [the config folder](./config.md).
+```

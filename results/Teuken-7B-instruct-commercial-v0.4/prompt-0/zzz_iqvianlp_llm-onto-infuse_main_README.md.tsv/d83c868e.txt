@@ -1,0 +1,23 @@
+Here's the annotated text in Markdown format:
+```
+## NER Annotation
+**CONFERENCE**: International Joint Conference on Neural Networks (IJCNN 2019)
+**DATASET**: ImageNet
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Knowledge Representation Ontology (KR-Ontology)
+**PROJECT**: Knowledge Graph Embeddings (KG-Embeddings)
+**PUBLICATION**: Proceedings of the 37th International Conference on Machine Learning (ICML 2020)
+**SOFTWARE**: TensorFlow
+**WORKSHOP**: Workshop on Knowledge Representation and Reasoning (KR2021)
+```
+**CONFERENCE**: International Joint Conference on Neural Networks (IJCNN 2019)
+**DATASET**: ImageNet
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Knowledge Representation Ontology (KR-Ontology)
+**PROJECT**: Knowledge Graph Embeddings (KG-Embeddings)
+**PUBLICATION**: Proceedings of the 37th International Conference on Machine Learning (ICML 2020)
+**SOFTWARE**: TensorFlow
+**WORKSHOP**: Workshop on Knowledge Representation and Reasoning (KR2021)
+```

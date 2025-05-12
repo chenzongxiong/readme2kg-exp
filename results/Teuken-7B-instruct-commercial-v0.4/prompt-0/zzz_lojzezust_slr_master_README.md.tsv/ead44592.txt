@@ -1,0 +1,11 @@
+```
+CONFERENCE: Scaffolding Learning Regime (SLR) 2023
+DATASET: SLR 2023 Dataset
+EVALMETRIC: ROUGE-1, ROUGE-2, ROUGE-L, METEOR, CHUNK, CIDEr, CIDEr-D
+LICENSE: CC-BY-4.0
+ONTOLOGY: SLR Ontology
+PROJECT: Scaffolding Learning Regime (SLR) 2023
+PUBLICATION: Proceedings of the 12th Workshop on Innovative Applications of NLP (W12-NLP), Association for Computational Linguistics (ACL), 2023
+SOFTWARE: SLR Tool
+WORKSHOP: Scaffolding Learning Regime (SLR) 2023 Workshop
+```

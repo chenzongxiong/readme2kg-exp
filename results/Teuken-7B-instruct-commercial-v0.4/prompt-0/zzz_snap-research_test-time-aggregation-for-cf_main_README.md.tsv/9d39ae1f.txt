@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP Dataset
+EVALMETRIC: Macro F1 score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Event Ontology
+PROJECT: SemEval-2018 Task 3: Coreference Resolution in English
+PUBLICATION: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Visual Question Answering (VQA) Metrics (VQA-metrics)
+```

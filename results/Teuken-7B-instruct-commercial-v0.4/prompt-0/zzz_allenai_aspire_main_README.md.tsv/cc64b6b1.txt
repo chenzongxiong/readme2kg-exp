@@ -1,0 +1,36 @@
+# Conference Events
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+PAMAP2: PAMAP2 - The PAMAP2 Benchmark for Person Detection and Instance Segmentation
+IST: International Semantic Web Conference 2019
+IST 2019: International Semantic Web Conference 2019
+ICLR: International Conference on Learning Representations 2023
+ICLR 2023: International Conference on Learning Representations 2023
+CVPR: CVPR2023
+CVPR 2023: CVPR 2023 Workshop
+Semantic Scholar: Semantic Scholar
+SemEval: SemEval-2020 Task 7: Aspect-Level Sentiment Analysis
+SemEval 2020 Task 7: Aspect-Level Sentiment Analysis
+SemEval-2016 Task 1: Multilingual Semantic Dependency parsing
+SemEval-2016 Task 1: Multilingual Semantic Dependency Parsing
+SemEval-2017 Task 5: Visual Question Answering
+SemEval-2017 Task 5: Visual Question Answering
+COLING: COLING 2023 Workshop on Conversational AI
+COLING 2023 Workshop on Conversational AI
+CLEF: CLEF 2023 Workshop on Cross-lingual Evaluation Forum
+CLEF 2023 Workshop on Cross-lingual Evaluation Forum
+CLEF 2019 Workshop on Cross-lingual Evaluation Forum
+CLEF 2019 Workshop on Cross-lingual Evaluation Forum
+ACL: ACL 2023 Workshop on Adversarial Language Learning
+ACL 2023 Workshop on Adversarial Language Learning
+NAACL: NAACL 2023 Workshop on Noisy User-generated Content in the Wild
+NAACL 2023 Workshop on Noisy User-generated Content in the Wild
+EMNLP: EMNLP 2023 Workshop on Conversational AI
+EMNLP 2023 Workshop on Conversational AI
+EMNLP 2019 Workshop on Conversational AI
+EMNLP 2019 Workshop on Conversational AI
+IJCAI: IJCAI 2023 Workshop on Artificial Intelligence for Information Systems
+IJCAI 2023 Workshop on Artificial Intelligence for Information Systems
+AAAI: AAAI 2023 Workshop on Adversarial Language Learning
+AAAI 2023 Workshop on Adversarial Language Learning
+AAAI 2019 Workshop on Adversarial Language Learning
+AAAI 2019 Workshop on Adversarial Language Learning

@@ -1,0 +1,4 @@
+**Annotated Text:**
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```

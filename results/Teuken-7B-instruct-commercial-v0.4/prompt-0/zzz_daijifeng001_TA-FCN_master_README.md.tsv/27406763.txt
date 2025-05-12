@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP Models
+EVALMETRIC: BLEU Score
+LICENSE: CC BY-NC-SA
+ONTOLOGY: Ontology for Semantic Information Extraction (Onsie)
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 26th International Conference on Computational Linguistics (COLING 2018)
+SOFTWARE: Stanford CoreNLP
+```
+...

@@ -1,0 +1,40 @@
+**Annotated Text:**
+```markdown
+**Conference:****
+International Joint Conference on Artificial Intelligence (IJCAI 2019)
+Conferences/Workshops:
+* International Semantic Web Conference (2019)
+* IJCAI 2019
+* ISWC 2019
+* IJCAI 2023 Workshop
+
+**Dataset:****
+Maules Creek
+* Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+
+**Evaluation metric:****
+Precision
+* Recall
+* F1-Score
+* BLEU Score
+
+**License:****
+cc-by-3
+* CC BY-NC 4.0
+
+**Ontology:****
+Intelligence Task Ontology
+
+**Programming language:****
+Python, PHP, C++
+
+**Project:****
+Paper With Code
+* <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+
+**Software:****
+Protege ontology editor
+
+**Workshop:****
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+```

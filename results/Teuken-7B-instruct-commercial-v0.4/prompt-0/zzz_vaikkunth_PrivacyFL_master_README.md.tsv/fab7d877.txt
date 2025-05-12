@@ -1,0 +1,5 @@
+The client is also passed an `evaluator` which it will use in the simulation to evaluate its own weights and the federated weights using the `Evaluate` method.
+
+The `Evaluate` method takes in two arguments: the client's weights and the federated weights. The client will use its own weights to calculate the objective function, and then pass the results to the `Evaluator` for evaluation. The `Evaluator` will then use the results to calculate the final objective function value for the federated weights.
+
+The `Evaluate` method is called by the `FederatedOptimizer` in the `train` method of the `Client` class. This allows the client to participate in the optimization process, and to contribute its own weights to the overall objective function.

@@ -1,0 +1,4 @@
+```
+python browse_results log_folder
+```
+This will print a summary of the results to the terminal.

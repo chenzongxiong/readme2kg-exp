@@ -1,0 +1,32 @@
+```
+CONFERENCE: T212-NTXU2U
+CONFERENCE: International Semantic Web Conference 2019
+CONFERENCE: ISWC 2019
+CONFERENCE: CVPR2023 workshop
+DATASET: Makules Creek
+DATASET: US Patent and Trademark Office dataset
+DATASET: Makules Creek
+EVALMETRIC: Precision
+EVALMETRIC: Recall
+EVALMETRIC: F1-Score
+EVALMETRIC: BLEU Score
+LICENSE: cc-by-3
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+ONTOLOGY: Ontology for Terrorism Analysis
+ONTOLOGY: Ontology for Terrorism Analysis
+ONTOLOGY: Ontology for Terrorism Analysis
+PROGLANG: Python
+PROGLANG: PHP
+PROGLANG: C++
+PROJECT: Paper With Code
+PROJECT: paperswithcode.com
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+WORKSHOP: pbvs-workshop.github.io
+WORKSHOP: Panoramic Audiovisual Saliency Detection
+```

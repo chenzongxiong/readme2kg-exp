@@ -1,0 +1,13 @@
+#### Annotated Text:
+
+**CONFERENCE**: Aspire Repository accompanying paper for modeling fine grained similarity between documents.
+**DATASET**: Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity
+**EVALMETRIC**: Fine-Grained Scientific Document Similarity
+**LICENSE**: Creative Commons Attribution-Share Alike 4.0 International
+**ONTOLOGY**: Semantic Frameworks for Knowledge Representation
+**PROJECT**: Aspire Repository
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege Ontology Editor
+**WORKSHOP**: Thermal Image Super-Resolution
+
+The "Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity" paper, presented at the Aspire Repository accompanying paper for modeling fine grained similarity between documents, proposes a new scientific document similarity model based on matching fine-grained aspects of texts. This work is evaluated using the Fine-Grained Scientific Document Similarity metric and is based on the Semantic Frameworks for Knowledge Representation. The project is related to the 32nd ACM International Conference on Information and Knowledge Management and the Thermal Image Super-Resolution Workshop. The software used is Protege Ontology Editor, and the paper is published in the Proceedings of the 32nd ACM International Conference on Information and Knowledge Management.

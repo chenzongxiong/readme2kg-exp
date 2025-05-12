@@ -1,0 +1,21 @@
+Output Text:
+
+**CONFERENCE**: International Conference on Computational Linguistics and Language Technology (COLING)
+
+**DATASET**: PASCAL VOC
+
+**EVALMETRIC**: Average Precision
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: Ontology for Image Annotation
+
+**PROJECT**: PASCAL VOC
+
+**PUBLICATION**: Proceedings of the IEEE International Conference on Computer Vision
+
+**SOFTWARE**: LabelImg
+
+**WORKSHOP**: Workshop on Semantic Representation Learning for Computer Vision
+
+Despite a significant reduction in annotation time (20x), Semantic Relationship (SR) training **improves robustness** of networks for obstacle detection, which is a remarkable result.

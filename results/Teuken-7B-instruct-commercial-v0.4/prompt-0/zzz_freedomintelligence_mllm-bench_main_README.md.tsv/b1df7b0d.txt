@@ -1,0 +1,12 @@
+```vbnet
+# MLLM-Bench MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria <center>  !
+
+CONFERENCE: MLLM-Bench
+DATASET: MLLM-Bench
+LICENSE: CC-BY-3.0
+ONTOLOGY: Multimodal LLM Ontology
+PROJECT: MLLM-Bench
+PUBLICATION: Proceedings of the 2023 Workshop on Machine Learning Meets Language and Literature (MLLM) at the Association for Computational Linguistics (ACL)
+SOFTWARE: Hugging Face Transformers
+WORKSHOP: MLLM-Bench Workshop
+```

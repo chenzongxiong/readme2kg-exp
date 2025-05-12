@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Conference on Machine Learning
+**DATASET**: UCI Machine Learning Repository
+**EVALMETRIC**: Accuracy, Precision, Recall, F1-Score, ROC AUC, Precision-Recall Curve
+**LICENSE**: CC BY-NC 3.0
+**ONTOLOGY**: Dublin Core
+**PROJECT**: Ontology-based Information Extraction
+**PUBLICATION**: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+**SOFTWARE**: TensorFlow
+**WORKSHOP**: Winter REU Workshop on Machine Learning for Computer Vision
+```

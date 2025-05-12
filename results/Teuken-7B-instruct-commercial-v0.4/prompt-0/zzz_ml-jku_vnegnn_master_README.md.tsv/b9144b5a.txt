@@ -1,0 +1,22 @@
+Output Text:
+```less
+# CONFERENCE
+International Joint Conference on Artificial Intelligence (IJCAI 2023)
+# DATASET
+Illumination.JPEG](https://www.image-datasets.com/ihavenjpg-dataset) (IHJF) dataset
+# EVALMETRIC
+Precision, Recall, F1-Score, and ROC AUC
+# LICENSE
+CC BY-NC 4.0
+# ONTOLOGY
+Semantic Information Network (SIN)
+# PROJECT
+Conference of the European Association for Artificial Intelligence (EAAI 2023)
+# PUBLICATION
+Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI 2023)
+# SOFTWARE
+Jupyter Notebook
+# WORKSHOP
+Workshop on Machine Learning for Natural Language Processing (NLP) (PyTorch Workshop)
+```
+Note: The input text contains URLs and logos, which have been removed for simplicity.

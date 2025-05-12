@@ -1,0 +1,10 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Semantic Information Extraction Ontology
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)
+SOFTWARE: Stanford CoreNLP
+```

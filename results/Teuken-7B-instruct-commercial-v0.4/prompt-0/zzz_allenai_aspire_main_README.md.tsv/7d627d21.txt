@@ -1,0 +1,3 @@
+```python
+Pre-process the evaluation datasets (RELISH, TRECCOVID, and SciDocs) into a format consumed by trained models and evaluation scripts.
+```

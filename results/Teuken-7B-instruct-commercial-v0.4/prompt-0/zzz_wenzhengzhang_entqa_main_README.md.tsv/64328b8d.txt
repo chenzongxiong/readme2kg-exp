@@ -1,0 +1,9 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET**: IJCAI-17 Workshop on Open Domain Reasoning (ODR) Dataset
+*EVALMETRIC**: AUC-ROC
+*LICENSE**: CC-BY-3.0
+*ONTOLOGY**: IJCAI 2017 Ontology
+*PROJECT**: JCAI
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*SOFTWARE**: Protege Ontology Editor
+*WORKSHOP**: IJCAI-17 Workshop on Open Domain Reasoning (ODR)

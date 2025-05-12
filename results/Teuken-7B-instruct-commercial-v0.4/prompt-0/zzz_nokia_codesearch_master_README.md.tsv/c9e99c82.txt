@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: Macro F1 Score
+LICENSE: Creative Commons Attribution-Share Alike 3.0
+ONTOLOGY: OBO Foundry
+PROJECT: OntoNotes 5.0
+PUBLICATION: Axiom: A Framework for Creating and Sharing Ontologies
+SOFTWARE: Protégé Ontology Editor
+WORKSHOP: Workshop on Semantic Computing and Big Data Analytics (SemBCDA)
+```

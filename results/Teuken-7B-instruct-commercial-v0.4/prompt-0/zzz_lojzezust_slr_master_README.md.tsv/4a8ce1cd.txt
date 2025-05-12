@@ -1,0 +1,1 @@
+Presentation on "A Comparative Study of Image and Text Based Representations for Sentence Compression" at the [Conference on Computational Linguistics (COLING 2021)](https://coling2021.org/).

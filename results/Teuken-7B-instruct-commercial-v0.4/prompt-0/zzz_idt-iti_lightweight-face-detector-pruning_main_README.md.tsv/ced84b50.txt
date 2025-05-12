@@ -1,0 +1,56 @@
+```
+## Android Deployment
+1. **CONFERENCE**: Android Deployment
+	*Definition*:
+	A conference focused on the deployment of Android systems and applications.
+	*Example*:
+	`<CONFERENCE>Android App Development Conference 2022</CONFERENCE>`
+	`<CONFERENCE>DevOpsCon 2022</CONFERENCE>`
+	`<CONFERENCE>Android World 2022</CONFERENCE>`
+	`<CONFERENCE>Google I/O 2022</CONFERENCE>`
+	`<CONFERENCE>Build Android 2022</CONFERENCE>`
+2. **DATASET**: EREsFD-main
+	*Definition*:
+	A specific dataset used in the conference EResFD-main.
+	*Example*:
+	`<DATASET>EResFD-main</DATASET>`
+3. **EVALMETRIC**: convert\_to\_torchscript.py
+	*Definition*:
+	A script used for converting models to TorchScript format for deployment on mobile devices.
+	*Example*:
+	`<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
+4. **LICENSE**: CC BY-NC 4.0
+	*Definition*:
+	A license that allows others to use, share, and adapt the content, but with the requirement to give attribution and not use the content for commercial purposes.
+	*Example*:
+	`<LICENSE>cc-by-3</LICENSE>`, `<LICENSE>CC BY-NC 4.0</LICENSE>`
+5. **ONTOLOGY**: N/A
+	*Definition*:
+	A formal representation of knowledge, concepts, entities, properties, and relationships in a specific domain.
+	*Example*:
+	`<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>`
+6. **PROJECT**: N/A
+	*Definition*:
+	A planned initiative aimed at addressing a research question or achieving a specific goal.
+	*Example*:
+	`<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+7. **PUBLICATION**: N/A
+	*Definition*:
+	A scholarly work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+	*Example*:
+	`<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+8. **SOFTWARE**: convert\_to\_torchscript.py
+	*Definition*:
+	A script designed to convert models to TorchScript format for deployment on mobile devices.
+	*Example*:
+	`<SOFTWARE>TensorRT on Jetson Nano</SOFTWARE>`
+9. **WORKSHOP**: N/A
+	*Definition*:
+	An educational or hands-on session focused on a specific subject.
+	*Example*:
+	Refers to the [Thermal Image Super-Resolution](<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html)
+10. **URL**: <https://ai.meta.com/llama>
+	*Definition*:
+	A hyperlink to a website or webpage.
+	*Example*:
+	`<URL>https://ai.meta.com/llama</URL>`.

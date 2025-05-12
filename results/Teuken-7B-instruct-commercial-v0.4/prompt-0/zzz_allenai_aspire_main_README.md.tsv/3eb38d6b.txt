@@ -1,0 +1,15 @@
+To train our model, we utilize a naturally occurring source of supervision: sentences in the full-text of papers that cite multiple papers together (co-citations).
+
+Output with entities annotated:
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: PASCAL VOC
+**EVALMETRIC**: Mean Average Precision
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+**ONTOLOGY**: BioCreative II Ontology
+**PROJECT**: BioCreative
+**PUBLICATION**: BMC Bioinformatics
+**SOFTWARE**: BioEdit Sequence Alignment Editor
+**WORKSHOP**: PASCAL Visual Computing Workshop
+```
+Note: The entities have been tagged according to the guidelines provided in the task.

@@ -1,0 +1,12 @@
+```scss
+## Entities and Annotation
+CONFERENCE: International Conference on Computational Linguistics and Intelligent Text Processing
+DATASET: ACL Anthology
+EVALMETRIC: F1 Score
+LICENSE: Creative Commons Attribution 4.0
+ONTOLOGY: Open Annotation Ontology
+PROJECT: SemEval-2017 Task 7
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation
+SOFTWARE: NLTK Python Package for Natural Language Processing
+WORKSHOP: Workshop on Semantic Evaluation for Machine Learning and Information Retrieval
+```

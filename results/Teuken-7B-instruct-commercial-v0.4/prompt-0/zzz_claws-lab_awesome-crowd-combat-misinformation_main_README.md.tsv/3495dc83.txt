@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-17 Workshop on Human Aspects of Intelligent Systems (HAIRS)
+
+**EVALMETRIC**: Accuracy
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: IJCAI 2017 Ontology (<ONTOLOGY>IJCAI2017</ONTOLOGY>)
+
+**PROJECT**: Human Aspects of Intelligent Systems (HAIRS)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (<PUBLICATION>ICMI 2019</PUBLICATION>)
+
+**WORKSHOP**: IJCAI-17 Workshop on Human Aspects of Intelligent Systems (HAIRS)
+
+**SOFTWARE**: Protege Ontology Editor

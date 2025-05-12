@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Conference on Machine Learning
+DATASET: CIFAR-10
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Ontology for Medical Information
+PROJECT: Medical Information Processing
+PUBLICATION: Proceedings of the IEEE International Conference on Image Processing
+SOFTWARE: MATLAB
+WORKSHOP: Machine Learning for Computer Vision Workshop
+```

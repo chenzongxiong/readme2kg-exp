@@ -1,0 +1,53 @@
+**Conferences:**
+CONFERENCE: International Semantic Web Conference 2019
+CONFERENCE: ISWC 2019
+CONFERENCE: CVPR2023
+WORKSHOP: Thermal Image Super-Resolution
+
+**Datasets:**
+DATASET: Mauls Creek
+DATASET: USTPPO MIT
+DATASET: USTPO MIT
+
+**Evaluation Metrics:**
+EVALMETRIC: Precision
+EVALMETRIC: Recall
+EVALMETRIC: F1-Score
+EVALMETRIC: BLEU Score
+
+**Licenses:**
+LICENSE: cc-by-3
+LICENSE: CC BY-NC 4.0
+
+**Ontologies:**
+ONTOLOGY: Intelligence Task Ontology
+ONTOLOGY: Procedure Ontology
+ONTOLOGY: Medical Ontology
+ONTOLOGY: Ontology for Integrated Sustainability Analysis
+ONTOLOGY: Ontology for Biomedical Investigations
+ONTOLOGY: Ontology for Integrated Social Science Research
+ONTOLOGY: Ontology for Urban Environmental Research
+ONTOLOGY: Ontology for Visual Information Extraction
+ONTOLOGY: Ontology for Public Health
+ONTOLOGY: Ontology for Public Policy Analysis
+ONTOLOGY: Ontology for Public Health Surveillance
+ONTOLOGY: Ontology for Public Health Information System
+ONTOLOGY: Ontology for Public Health Data Management
+ONTOLOGY: Ontology for Public Health Emergency Management
+ONTOLOGY: Ontology for Public Health Information System
+ONTOLOGY: Ontology for Public Health Data Management
+ONTOLOGY: Ontology for Public Health Emergency Management
+ONTOLOGY: Ontology for Public Health Surveillance
+ONTOLOGY: Ontology for Public Policy Analysis
+ONTOLOGY: Ontology for Urban Environmental Research
+ONTOLOGY: Ontology for Integrated Social Science Research
+ONTOLOGY: Ontology for Integrated Sustainability Analysis
+ONTOLOGY: Ontology for Biomedical Investigations
+ONTOLOGY: Ontology for Integrated Sustainability Analysis
+ONTOLOGY: Ontology for Biomedical Investigations
+ONTOLOGY: Ontology for Integrated Social Science Research
+ONTOLOGY: Ontology for Public Health Surveillance
+ONTOLOGY: Ontology for Public Policy Analysis
+ONTOLOGY: Ontology for Urban Environmental Research
+ONTOLOGY: Ontology for Visual Information Extraction
+ONTOLOGY: Ontology for Public Health

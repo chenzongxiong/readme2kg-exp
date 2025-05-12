@@ -1,0 +1,7 @@
+```
+The <CONFERENCE>ArXiv</CONFERENCE> is a digital repository and online publication venue for scholarly articles and papers in the fields of mathematics and computer science.
+```
+
+```
+The <DATASET>ArXiv</DATASET> dataset contains a collection of papers and preprints submitted to the ArXiv server.
+```

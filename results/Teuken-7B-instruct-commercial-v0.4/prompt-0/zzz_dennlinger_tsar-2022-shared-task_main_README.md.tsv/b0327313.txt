@@ -1,0 +1,28 @@
+**Entities and Annotations:**
+```perl
+## NER annotations in Markdown format
+
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: IJCAI-23 Task 2: Adversarial Robustness of Deep Learning in Multi-Modal Settings
+EVALMETRIC: F1-Score
+LICENSE: CC-BY-3.0
+ONTOLOGY: IJCAI-23 Task 2 Ontology
+PROJECT: IJCAI-23 Task 2: Adversarial Robustness of Deep Learning in Multi-Modal Settings
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023)
+SOFTWARE: PyTorch Lightning
+WORKSHOP: IJCAI-23 Workshop 1: Adversarial Robustness of Deep Learning in Multi-Modal Settings
+```
+**Entities and Annotations (continued):**
+```perl
+## NER annotations in Markdown format
+
+CONFERENCE: Workshop on Fairness, Accountability, and Transparency (FAT 2023)
+DATASET: Workshop on Fairness, Accountability, and Transparency (FAT 2023) Dataset
+EVALMETRIC: Average Precision (AP)
+LICENSE: CC-BY-4.0
+ONTOLOGY: Workshop on Fairness, Accountability, and Transparency (FAT 2023) Ontology
+PROJECT: Workshop on Fairness, Accountability, and Transparency (FAT 2023)
+PUBLICATION: Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT 2023)
+SOFTWARE: TensorFlow
+WORKSHOP: Workshop on Fairness, Accountability, and Transparency (FAT 2023)
+```

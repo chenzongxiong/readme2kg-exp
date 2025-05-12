@@ -1,0 +1,27 @@
+**CONFERENCE**: WaSR with IMU
+
+The International Conference on Machine Learning (ICML) is a premier conference in the field of machine learning. It is held annually and brings together researchers, practitioners, and students from around the world to present and discuss the latest developments in the field. The conference features a diverse range of sessions covering various topics in machine learning, including unsupervised learning, reinforcement learning, and deep learning. The conference also provides opportunities for attendees to network with other experts in the field and to learn about the latest trends and applications of machine learning.
+
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+
+IJCAI is one of the most prestigious conferences in artificial intelligence. It is held annually and brings together researchers, practitioners, and students from around the world to present and discuss the latest developments in the field of artificial intelligence. The conference features a diverse range of sessions covering various topics in artificial intelligence, including machine learning, natural language processing, robotics, and computer vision. The conference also provides opportunities for attendees to network with other experts in the field and to learn about the latest trends and applications of artificial intelligence.
+
+DATASET: Stanford Large Movie Review Dataset (SLR)
+
+The Stanford Large Movie Review Dataset (SLR) is a large-scale dataset consisting of movie reviews from IMDB. The dataset is used for various natural language processing tasks, such as sentiment analysis and topic modeling. The dataset is divided into two subsets: train and test. The train set contains 25,000 reviews, while the test set contains 25,000 reviews. The reviews are labeled with sentiment scores ranging from -1 (very negative) to 1 (very positive).
+
+DATASET: Stanford Sentiment Treebank (SST)
+
+The Stanford Sentiment Treebank (SST) is a large-scale dataset consisting of English-language movie reviews from IMDB. The dataset is used for sentiment analysis tasks. The dataset is divided into two subsets: train and test. The train set contains 10,000 reviews, while the test set contains 10,000 reviews. The reviews are labeled with sentiment scores ranging from -1 (very negative) to 1 (very positive). The SST dataset includes both binary and multi-class sentiment analysis tasks.
+
+DATASET: Stanford Code-Switching Dataset (CSD)
+
+The Stanford Code-Switching Dataset (CSD) is a large-scale dataset consisting of English-language texts from the web that have been annotated for code-switching. Code-switching refers to the use of multiple languages in a single conversation or text. The dataset is divided into two subsets: train and test. The train set contains 10,000 texts, while the test set contains 10,000 texts. The texts are annotated with code-switching labels, including the languages used and the type of code-switching.
+
+DATASET: Stanford Semantic Text Representation (STR)
+
+The Stanford Semantic Text Representation (STR) is a large-scale dataset consisting of English-language texts from the web that have been annotated for semantic representation. The dataset is used for natural language understanding tasks, such as sentiment analysis, entity recognition, and text classification. The dataset is divided into two subsets: train and test. The train set contains 10,000 texts, while the test set contains 10,000 texts. The texts are annotated with semantic representation labels, including the named entities and the sentiment scores.
+
+LICENSE: Creative Commons Attribution-Share Alike 3.0 Unported (CC BY-SA 3.0)
+
+The Creative Commons Attribution-Share Alike 3.0 Unported (CC BY-SA 3.0) is a free and open-source

@@ -1,0 +1,8 @@
+**CONFERENCE**: Interspeech 2021
+**DATASET**: None specified
+**EVALMETRIC**: None specified
+**LICENSE**: None specified
+**ONTOLOGY**: None specified
+**PROJECT**: None specified
+**PUBLICATION**: [Keyword Transformer: A Self-Attention Model for Keyword Spotting](https://arxiv.org/abs/2104.00769)
+**SOFTWARE**: <SOFTWARE>Protege Ontology Editor</SOFTWARE> (used for creating ontologies)

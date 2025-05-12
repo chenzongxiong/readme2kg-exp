@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: ImageNet
+EVALMETRIC: Top-1 Accuracy
+LICENSE: Creative Commons Attribution 3.0 Unported
+ONTOLOGY: Semantic Web Ontology Language
+PROJECT: Knowledge Tracing for Machine Learning
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+```

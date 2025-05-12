@@ -1,0 +1,17 @@
+**Annotated Text:**
+```scss
+**CONFERENCE**      : International Joint Conference on Neural Networks
+**DATASET**        : ImageNet
+**EVALMETRIC**    : Accuracy
+**LICENSE**       : Creative Commons Attribution 3.0 Unported
+**ONTOLOGY**      : Medical Subject Headings
+**PROJECT**        : SemEval-2017 Task 3
+**PUBLICATION**   : Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE**      : NLTK (Natural Language Toolkit)
+```
+**Guidelines:**
+
+* Entities are annotated based on the given guidelines.
+* Only the entities are annotated, not the entire text.
+* The annotation follows the rules provided in the task.
+* The annotation is in Markdown format.

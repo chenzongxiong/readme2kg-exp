@@ -1,0 +1,18 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-90 Benchmark Corpus
+
+**EVALMETRIC**: Macro F1-score
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: Frame-based ontologies
+
+**PROJECT**: IJCAI-90 Competition on Text Categorization
+
+**PUBLICATION**: Proceedings of the IEEE International Joint Conference on Artificial Intelligence (IJCAI)
+
+**SOFTWARE**: Stanford CoreNLP
+
+**WORKSHOP**: Workshop on Natural Language Processing (NLP) for Human-Computer Interaction (HCI)

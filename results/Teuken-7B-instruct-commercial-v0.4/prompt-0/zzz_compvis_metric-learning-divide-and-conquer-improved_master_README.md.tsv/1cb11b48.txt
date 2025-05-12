@@ -1,0 +1,20 @@
+```
+## Annotation Rules
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+- Use the following classes:
+  - CONFERENCE: Conference events.
+  - DATASET: Structured collections of data.
+  - EVALMETRIC: Evaluation metrics for models.
+  - LICENSE: Licensing terms.
+  - ONTOLOGY: Semantic frameworks for knowledge representation.
+  - PROJECT: Scientific or business initiatives.
+  - PUBLICATION: Scholarly works.
+  - SOFTWARE: Software tools or programs.
+  - WORKSHOP: Workshop events.
+## Input Text
+Besides, please take the total number of different classes in the dataset and the sampling strategy used into account when you setting this value. --dataset-dir: the path to the datasets, check the Datasets section below. --sampler: batchminer used to sample pairs or triplets (in embedding space) to create learning signal, check /metriclearning/sampler for details. --batch-sampler: data sampler used to generate training batches, check dataset/sampler.py for details. --nb-epochs: the maximum training epochs. --mod-epoch: division frequency in the paper - the number of training epochs between consecutive divisions. --wandb-enabled: by setting this flag, you will enable the Weights&Biases logging.
+```

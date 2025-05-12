@@ -1,0 +1,13 @@
+```
+CONFERENCE: International Semantic Web Conference 2019
+DATASET: Mauls Creek
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+```
+
+The input text contains information about the tested environments for the code, including the operating systems, GPUs, and hardware configurations. Each entity has been annotated using the corresponding class, following the guidelines provided. The output is presented in Markdown format, with the entities directly annotated using XML-style tags.

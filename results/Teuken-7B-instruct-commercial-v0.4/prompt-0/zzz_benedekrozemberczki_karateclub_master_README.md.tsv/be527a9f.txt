@@ -1,0 +1,12 @@
+Karate Club
+-----------
+
+*CONFERENCE*: Karate Club
+*DATASET*: Karate Club
+* EVALMETRIC: Karate Club
+* LICENSE*: Karate Club
+* ONTOLOGY*: Karate Club
+* PROJECT*: Karate Club
+* PUBLICATION*: Karate Club
+* SOFTWARE*: Karate Club
+* WORKSHOP*: Karate Club

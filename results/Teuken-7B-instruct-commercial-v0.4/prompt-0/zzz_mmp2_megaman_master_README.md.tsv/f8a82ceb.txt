@@ -1,0 +1,12 @@
+**CONFERENCE**: International Conference on Computational Linguistics and Intelligent Text Processing
+**DATASET**: Stanford CoreNLP Dataset
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: FrameNet Ontology
+**PROGLANG**: Python
+**PROJECT**: SemEval-2017 Task 7
+**PUBLICATION**: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE**: Stanford CoreNLP
+**WORKSHOP**: SemEval-2017 Task 7 Workshop
+
+Please see the full install instructions below to build `megaman` from source.  ## Installation from source  To install megaman from source requires the following:  - [python](http://python.org) tested with versions 2.7, 3.5 and 3.6 - [numpy](http://numpy.org) version 1.8 or higher - [scipy](http://scipy.org) version 0.16.0 or higher - [scikit-learn](http://scikit-learn.org) - [FLANN](http://www.cs.ubc.ca/research/flann/) - [pyflann](http://www.cs.ubc.ca/research/flann/) which offers another method of computing distance matrices (this is bundled with the FLANN source code) - [cython](http://cython.org/) - a C++ compiler such as ``gcc``/``g++``  Optional requirements include  - [pyamg](http://pyamg.org/), which allows for faster decompositions of large matrices - [nose](https://nose.readthedocs.org/) for running the unit tests - [h5py](http://www.h5py.org) for reading testing .mat files - [plotly](https://plot.ly) an graphing library for interactive plot   These requirements can be installed on Linux and MacOSX using the following conda command:  ```shell $ conda create -n manifold_env python=3.5 -y # can also use python=2.7 or python=3.6  $ source activate manifold_env $ conda install --channel=conda-forge -y pip nose coverage cython numpy scipy \                                          scikit-learn pyflann pyamg h5py plotly```  Clone this repository and `cd` into source repository  ```shell $ cd /tmp/ $ git clone https://github.com/mmp2/megaman.git $ cd megaman```  Finally, within the source repository, run this command to install the `megaman` package itself: ```shell $ python setup.py install ```  ## Unit Tests megaman uses `nose` for unit tests.

@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: ImageNet
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC-BY-3.0
+**ONTOLOGY**: SUMO
+**PROJECT**: Semantic Annotation of Video Streams
+**PUBLICATION**: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+**SOFTWARE**: Caffe
+**WORKSHOP**: ImageCLEF 2012 Visual Task Challenge
+```

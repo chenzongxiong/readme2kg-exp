@@ -1,0 +1,4 @@
+1. **Conference**: International Conference on Computational Linguistics (COLING)
+2. **DataSET**: The semantic web conference 2019 dataset
+3. **EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+4. **LICENSE**: cc-by-3

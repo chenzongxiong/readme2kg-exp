@@ -1,0 +1,4 @@
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+DISTILLATION DECISION TREE belongs to section 2.2.

@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2023 Video Challenge Dataset
+EVALMETRIC: Macro F1-score
+LICENSE: Creative Commons Attribution-Share Alike 4.0 International
+ONTOLOGY: IJCAI 2023 Video Challenge Ontology
+PROJECT: IJCAI 2023 Video Challenge
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: DAvinci
+WORKSHOP: IJCAI 2023 Video Challenge Workshop
+```

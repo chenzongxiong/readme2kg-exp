@@ -1,0 +1,5 @@
+Here's the annotated text in Markdown format:
+```markdown
+## Data Structure
+In "Few-Shot_ED.json.zip," the key is "event type label," and the value is the event instances.
+```

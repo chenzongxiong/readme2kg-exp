@@ -1,0 +1,32 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford Large Movie Review Dataset (SLR)
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-3
+ONTOLOGY: Ontology for Semantic Annotation (OSCAR)
+PROJECT: SemEval-2017 Task 3: Sentence Embeddings via Transformers
+PUBLICATION: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Visual Question Answering (VQA) 2017: From Text to Geometry to Visual Understanding
+URL: <https://ai.meta.com/llama>
+```
+**CONFERENCE:** International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET:** Stanford Large Movie Review Dataset (SLR)
+
+**EVALMETRIC:** Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE:** cc-by-3
+
+**ONTOLOGY:** Ontology for Semantic Annotation (OSCAR)
+
+**PROJECT:** SemEval-2017 Task 3: Sentence Embeddings via Transformers
+
+**PUBLICATION:** Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+**SOFTWARE:** Stanford CoreNLP
+
+**WORKSHOP:** Workshop on Visual Question Answering (VQA) 2017: From Text to Geometry to Visual Understanding
+
+**URL:** <https://ai.meta.com/llama>
+```

@@ -1,0 +1,3 @@
+```
+The <SOFTWARE>Speech Commands V2 training dataset</SOFTWARE> is a publicly available dataset for benchmarking speech command recognition models.
+```

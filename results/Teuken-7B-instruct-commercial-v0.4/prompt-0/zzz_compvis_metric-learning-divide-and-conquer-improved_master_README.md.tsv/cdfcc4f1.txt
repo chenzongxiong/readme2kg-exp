@@ -1,0 +1,30 @@
+```scss
+**CONFERENCE**: International Joint Conference on Neural Networks and Machine Learning
+**DATASET**: ImageNet
+**EVALMETRIC**: Top-1, Top-5, Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: Creative Commons Attribution-Share Alike 4.0 International
+**ONTOLOGY**: Semantic Web Ontology Language
+**PROJECT**: SemEval-2018 Task 1
+**PUBLICATION**: *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2, Pages 865-874, ACL 2018*
+| **SOFTWARE** | **Protege ontology editor** |
+| --- | --- |
+| **WORKSHOP** |  |
+| **CONFERENCE** | International Workshop on Natural Language Processing and Computational Linguistics
+**DATASET**: Common Sense Reasoning Dataset
+**EVALMETRIC**:  |
+| LICENSE**: Creative Commons Attribution-Share Alike 4.0
+**ONTOLOGY**: Resource Description Framework (RDF)
+**PROJECT**: SemEval-2018 Task 2
+**PUBLICATION**: *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2, Pages 875-884, ACL 2018*
+**SOFTWARE** | **Python** |
+| **WORKSHOP** |  |
+| **CONFERENCE** | International Joint Conference on Artificial Intelligence
+**DATASET**: PASCAL VOC Dataset
+**EVALMETRIC**:  |
+| LICENSE**:  |
+|ONTOLOGY|  |
+|PROJECT|  |
+|PUBLICATION|  |
+|SOFTWARE|  |
+|WORKSHOP|  |
+```

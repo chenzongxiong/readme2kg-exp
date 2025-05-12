@@ -1,0 +1,39 @@
+1. **CONFERENCE**: Conference events.\
+*Definition*: A formal meeting or gathering focused on a particular field of study or topic.
+*Example:*[Conference on Neural Information Processing Systems (NeurIPS) 2023](https://<CONFERENCE>NeurIPS2023</CONFERENCE>), [Conference on Computer Vision and Pattern Recognition (CVPR) 2023](https://<CONFERENCE>CVPR2023</CONFERENCE>)
+
+2. **DATASET**: Structured collections of data.\
+*Definition*: A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.
+*Example:*[USTPO MIT](https://<DATASET>USTPO MIT</DATASET>)
+
+3. **EVALMETRIC**: Evaluation metrics for models.\
+*Definition*: A quantitative measure used to assess the performance and effectiveness of a statistical or machine learning model.
+*Example:*Precision, Recall, F1-Score, BLEU Score.
+
+4. **LICENSE**: Licensing terms.\
+*Definition*: Legal terms and conditions for using a particular resource.
+*Example:*cc-by-3, CC BY-NC 4.0
+
+5. **ONTOLOGY**: Semantic frameworks for knowledge representation.\
+*Definition*: A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.
+*Example:*Intelligence Task Ontology
+
+6. **PROGLANG**: Programming languages.\
+*Definition*: A formal language used for implementing software.
+*Example:*Python, PHP, C++
+
+7. **PROJECT**: Scientific or business initiatives.\
+*Definition*: A planned initiative aimed at addressing a research question or achieving a specific goal.
+*Example:*Paper With Code, paperswithcode.com
+
+8. **PUBLICATION**: Scholarly works.\
+*Definition*: A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+*Example:*No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+9. **SOFTWARE**: Software tools or programs.\
+*Definition*: Programs or tools designed to perform specific tasks on electronic devices.
+*Example:*Protege ontology editor
+
+10. **WORKSHOP**: Workshop events.\
+*Definition*: An educational or hands-on session focused on a specific subject.
+*Example:*Thermal Image Super-Resolution (<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html)

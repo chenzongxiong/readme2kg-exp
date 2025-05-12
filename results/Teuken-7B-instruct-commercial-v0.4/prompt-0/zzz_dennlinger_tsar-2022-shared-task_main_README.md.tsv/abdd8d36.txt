@@ -1,0 +1,10 @@
+```markdown
+**Conference** - UniHD at TSAR-2022 Shared Task
+**EVALMETRIC** - Is Compute All We Need for Lexical Simplification
+**LICENSE** - CC BY-NC 4.0
+**ONTOLOGY** - Intelligence Task Ontology
+**PROJECT** - Paper With Code
+**PUBLICATION** - No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+**SOFTWARE** - Protege ontology editor
+**WORKSHOP** - Thermal Image Super-Resolution
+```

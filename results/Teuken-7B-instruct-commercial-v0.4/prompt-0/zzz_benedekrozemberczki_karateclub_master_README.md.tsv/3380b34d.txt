@@ -1,0 +1,19 @@
+```markdown
+[CONFERENCE] 2023 IEEE International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA 2023)
+
+[DATASET] NIST Benchmark for Image Quality Assessment (QA)
+
+[EVALMETRIC] F1 Score
+
+[LICENSE] CC BY-NC 4.0
+
+[ONTOLOGY] Quality Metrics Ontology
+
+[PROJECT] Benchmarking Image Quality Assessment (BIQUA) Tool
+
+[PUBLICATION] <https://ieeexplore.ieee.org/document/10290234>
+
+[SOFTWARE] MATLAB
+
+[WORKSHOP] Quality Metrics for Image Quality Assessment: Theory and Applications (Workshop)
+```

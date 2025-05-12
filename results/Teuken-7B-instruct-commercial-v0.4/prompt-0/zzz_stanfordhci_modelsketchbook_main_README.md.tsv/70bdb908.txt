@@ -1,0 +1,4 @@
+```markdown
+<!-- Markdown for the input text with entities annotated using XML-style tags -->
+<p>These notes will be displayed with your concept or sketch in calls to <code>show_concepts()</code> or <code>show_sketches()</code>. <span class="CONFERENCE">International Semantic Web Conference 2019</span>, <span class="DATASET">Maules Creek</span>, <span class="EVALMETRIC">Precision</span>, <span class="LICENSE">cc-by-3</span>, <span class="ONTOLOGY">Intelligence Task Ontology</span>, <span class="PROGLANG">Python</span>, <span class="PROJECT">Paper With Code</span>, <span class="PUBLICATION">No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</span>, <span class="SOFTWARE">Protege ontology editor</span>, <span class="WORKSHOP">Thermal Image Super-Resolution</span></p>
+```

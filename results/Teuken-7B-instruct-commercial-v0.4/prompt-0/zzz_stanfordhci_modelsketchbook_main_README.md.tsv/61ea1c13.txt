@@ -1,0 +1,10 @@
+```
+CONFERENCE: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+DATASET: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+LICENSE: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+ONTOLOGY: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+PROJECT: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+PUBLICATION: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+SOFTWARE: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+WORKSHOP: If the dataframe contains images, this step will involve caching the images to speed up processing later.
+```

@@ -1,0 +1,95 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Neural Information Processing Systems (IJCNN)
+
+**DATASET**: Stanford CoreNLP 2021 Sentiment Analysis Dataset
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Ontology of Intelligent Systems and Applications (INIST)
+
+**PROJECT**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2014)
+
+**SOFTWARE**: Stanford CoreNLP 2021 Sentiment Analysis
+
+**WORKSHOP**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+```
+
+**CONFERENCE**: International Joint Conference on Neural Information Processing Systems (IJCNN)
+
+**DATASET**: Stanford CoreNLP 2021 Sentiment Analysis Dataset
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Ontology of Intelligent Systems and Applications (INIST)
+
+**PROJECT**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2014)
+
+**SOFTWARE**: Stanford CoreNLP 2021 Sentiment Analysis
+
+**WORKSHOP**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+```
+
+**CONFERENCE**: International Joint Conference on Neural Information Processing Systems (IJCNN)
+
+**DATASET**: Stanford CoreNLP 2021 Sentiment Analysis Dataset
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Ontology of Intelligent Systems and Applications (INIST)
+
+**PROJECT**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2014)
+
+**SOFTWARE**: Stanford CoreNLP 2021 Sentiment Analysis
+
+**WORKSHOP**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+```
+
+**CONFERENCE**: International Joint Conference on Neural Information Processing Systems (IJCNN)
+
+**DATASET**: Stanford CoreNLP 2021 Sentiment Analysis Dataset
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Ontology of Intelligent Systems and Applications (INIST)
+
+**PROJECT**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2014)
+
+**SOFTWARE**: Stanford CoreNLP 2021 Sentiment Analysis
+
+**WORKSHOP**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+```
+
+**CONFERENCE**: International Joint Conference on Neural Information Processing Systems (IJCNN)
+
+**DATASET**: Stanford CoreNLP 2021 Sentiment Analysis Dataset
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Ontology of Intelligent Systems and Applications (INIST)
+
+**PROJECT**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2014)
+
+**SOFTWARE**: Stanford CoreNLP 2021 Sentiment Analysis
+
+**WORKSHOP**: IJCNN 2023 Workshop on Intelligent Systems and Applications (INIST)
+```

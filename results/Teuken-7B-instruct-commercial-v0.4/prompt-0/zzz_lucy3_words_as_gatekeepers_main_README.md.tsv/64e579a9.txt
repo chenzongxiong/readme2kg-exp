@@ -1,0 +1,8 @@
+```markdown
+<CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENC>
+<CONFERENCE>IJCAI 2023</CONFERENC> workshop on Natural Language Processing (NLP) and Computational Linguistics (CL).
+<DATASET>C4</DATASET> dataset.
+<DATASET>C4</DATASET> dataset is a large-scale benchmark dataset for evaluating state-of-the-art methods in natural language understanding (NLU).
+<DATASET>C4</DATASET> dataset is widely used for benchmarking NLU models and evaluating their performance on various NLU tasks.
+<DATASET>C4</DATASET> dataset is composed of four parts: C4, C4-S, C4-M, and C4-L.
+<LICENSE>CC BY-NC 4.0</LICENSE>

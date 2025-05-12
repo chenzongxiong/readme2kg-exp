@@ -1,0 +1,9 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET**: Stanford Natural Language Processing (CoNLL)
+*EVALMETRIC**: BLEU Score
+*LICENSE**: CC BY-NC 4.0
+*ONTOLOGY**: Foundational Model of the English Language (FEME)
+*PROJECT**: Stanford CoreNLP
+*PUBLICATION**: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020)
+*SOFTWARE**: Stanford CoreNLP
+*WORKSHOP**: Workshop on Natural Language Processing (NLP) for Healthcare

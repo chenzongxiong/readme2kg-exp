@@ -1,0 +1,8 @@
+```
+## CONFERENCE: COCO Segmentation Challenge 2016
+FULLY CONVOLUTIONAL INSTANCE-AWARE SEMANTIC SEGMENTATION
+The major contributors of this repository include [Haozhi Qi](https://github.com/Oh233), [Yi Li](https://github.com/liyi14), [Guodong Zhang](https://github.com/gd-zhang), [Haochen Zhang](https://github.com/Braininvat), [Jifeng Dai](https://github.com/daijifeng001), and [Yichen Wei](https://github.com/YichenWei).
+
+### INTRODUCTION
+FULLY CONVOLUTIONAL INSTANCE-AWARE SEMANTIC SEGMENTATION (FCIS) is a fully convolutional end-to-end solution for instance segmentation, which won the first place in COCO segmentation challenge 2016.
+```

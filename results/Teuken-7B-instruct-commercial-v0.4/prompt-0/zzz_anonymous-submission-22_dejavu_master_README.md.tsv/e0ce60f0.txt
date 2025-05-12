@@ -1,0 +1,14 @@
+Here's the annotated text in Markdown format:
+```
+## Entities
+
+CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+DATASET: IST4
+LICENSE: BSD 3-Clause "New" or "Revised" License
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: NetManAIOps
+PUBLICATION: Proceedings of the 2023 International Joint Conference on Neural Networks (IJCNN)
+SOFTWARE: NetManAIOps
+WORKSHOP: IJCNN Workshop on Intelligence Task Ontology (ITO) Integration for AI-Driven Systems (IJCNN-ITO)
+```
+In the given text, there are several entities mentioned, such as "International Joint Conference on Neural Networks (IJCNN)", "IST4", "BSD 3-Clause "New" or "Revised" License", "Intelligence Task Ontology", "NetManAIOps", "Proceedings of the 2023 International Joint Conference on Neural Networks (IJCNN)", "IJCNN Workshop on Intelligence Task Ontology (ITO) Integration for AI-Driven Systems (IJCNN-ITO)", and "NetManAIOps". Each entity is classified into its respective category using the provided guidelines, and the entities are directly annotated in the original text using XML-style tags.

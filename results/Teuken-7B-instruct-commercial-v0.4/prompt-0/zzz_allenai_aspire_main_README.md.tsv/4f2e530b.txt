@@ -1,0 +1,13 @@
+Further, our fast single-match method achieves competitive results, paving the way for applying fine-grained similarity to large scientific corpora.<CONFERENCE>Conference on Empirical Methods in Natural Language Processing</CONFERENCE>
+
+Datasets and evaluation metrics for models, including `<DATASET>Maules Creek</DATASET>` and `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`, are available.<LICENSE>CC-BY-3</LICENSE>` and `<LICENSE>CC BY-NC 4.0</LICENSE>`.
+
+Semantic frameworks for knowledge representation, such as `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>`, are used to represent information about intelligence tasks.<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is an example.
+
+Programming languages like `<PROGLANG>Python</PROGLANG>`, `<PROGLANG>PHP</PROGLANG>`, and `<PROGLANG>C++</PROGLANG>` are used for implementing software.<PROJECT>Paper With Code</PROJECT> project (<https://<PROJECT>paperswithcode</PROJECT>.com/).
+
+Scholarly works, such as `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>` in `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`, are published.
+
+Software tools or programs, like `<SOFTWARE>Protege ontology editor</SOFTWARE>`, are designed to perform specific tasks on electronic devices.<SOFTWARE>Protege ontology editor</SOFTWARE>` can be used to explore and edit the resource.
+
+Workshops, like the [Thermal Image Super-Resolution](<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html), are educational or hands-on sessions focused on a specific subject.

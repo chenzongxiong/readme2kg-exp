@@ -1,0 +1,11 @@
+```
+The International Semantic Web Conference 2019 (<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>)
+USTPO MIT (<DATASET>Maules Creek</DATASET>)
+Precision, Recall, F1-Score, and BLEU Score
+cc-by-3
+CC BY-NC 4.0
+Intelligence Task Ontology
+Python, PHP, C++
+Paper With Code
+<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+```

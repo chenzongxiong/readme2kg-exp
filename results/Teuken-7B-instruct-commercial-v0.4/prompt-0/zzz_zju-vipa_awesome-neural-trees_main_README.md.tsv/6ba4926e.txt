@@ -1,0 +1,9 @@
+1. **Conference**: Conference events.
+2. **Dataset**: Structured collections of data.
+3. **Evalmetric**: Evaluation metrics for models.
+4. **License**: Licensing terms.
+5. **Ontology**: Semantic frameworks for knowledge representation.
+6. **Project**: Scientific or business initiatives.
+7. **Publication**: Scholarly works.
+8. **Software**: Software tools or programs.
+9. **Workshop**: Workshop events.

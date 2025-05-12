@@ -1,0 +1,17 @@
+```
+CONFERENCE: For each data source, the file literature_links.tsv.pruned contains the links for the books in our dataset.
+
+DATASET: The literature_links.tsv.pruned file contains links for the books in our dataset.
+
+LICENSE: The file literature_links.tsv.pruned contains links for the books in our dataset.
+
+ONTOLOGY: The literature_links.tsv.pruned file contains links for the books in our dataset.
+
+PROJECT: For each data source, the file literature_links.tsv.pruned contains the links for the books in our dataset.
+
+PUBLICATION: The literature_links.tsv.pruned file contains links for the books in our dataset.
+
+SOFTWARE: The literature_links.tsv.pruned file contains links for the books in our dataset.
+
+WORKSHOP: For each data source, the file literature_links.tsv.pruned contains the links for the books in our dataset.
+```

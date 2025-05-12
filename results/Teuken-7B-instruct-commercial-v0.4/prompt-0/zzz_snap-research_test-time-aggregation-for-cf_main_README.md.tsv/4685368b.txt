@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCNLP 2023 Task 3: Sequence-to-Sequence Learning for Semantic Reasoning
+EVALMETRIC: BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Workshop on Artificial Intelligence for Law and Justice
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protégé ontology editor
+WORKSHOP: IJCAI 2023 Workshop on Artificial Intelligence for Law and Justice
+```

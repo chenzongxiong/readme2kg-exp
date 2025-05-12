@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+EVALMETRIC: Top-5 Error Rate (mAP)
+LICENSE: MIT License
+ONTOLOGY: Dublin Core Metadata Terms
+PROJECT: ImageNet
+PUBLICATION: "Microsoft Research: Convolutional Neural Networks for Image Classification" by Fei Fei, et al. in IJCAI'17 Workshop on Deep Learning for Computer Vision (ICDLCV)
+SOFTWARE: TensorFlow
+WORKSHOP: Workshop on Adversarial Learning for Computer Vision (WALCV)
+```

@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP Dataset
+EVALMETRIC: Macro F1
+LICENSE: Creative Commons Attribution 4.0
+ONTOLOGY: Semantics of Multimodal Events (SMOKE)
+PROJECT: SemEval-2018 Task 3: Multimodal Event Extraction
+PUBLICATION: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Analysis of Multimodal Events (SEM2018)
+```

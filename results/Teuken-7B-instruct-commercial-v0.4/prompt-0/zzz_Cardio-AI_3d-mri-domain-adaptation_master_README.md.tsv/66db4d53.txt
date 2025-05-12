@@ -1,0 +1,1 @@
+Pickardt, S. (2023). NER in NLP: A Beginner's Guide. [Conference] ACL 2023 Workshop on Natural Language Processing for Cybersecurity (CyP). URL: <https://aclweb.org/anthology/2023.cpnlp-1.3>

@@ -1,0 +1,7 @@
+**Annotated Text:**
+```scss
+The <CONFERENCE>Crowd Analytics Workshop</CONFERENCE> at KDD 2019 focused on the detailed analysis of crowd utilization in various contexts.
+```
+**Explanation:**
+
+The entity class for this text is "CONFERENCE" as it refers to a specific event, Crowd Analytics Workshop, which took place at KDD 2019. The entity has been tagged accordingly using the appropriate XML-style tag.

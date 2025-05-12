@@ -1,0 +1,11 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Malicious Domain Detector and Classifier (MaDoC) dataset
+*EVALMETRIC**: Precision
+*LICENSE**: cc-by-3
+*ONTOLOGY**: Intelligence Task Ontology
+*PROJECT**: Paper With Code
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*SOFTWARE**: Protege ontology editor
+*WORKSHOP**: Thermal Image Super-Resolution Workshop
+
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> is an annual conference focused on the Semantic Web, a web of data that can be processed and understood by machines. The <DATASET>Malicious Domain Detector and Classifier (MaDoC) dataset</DATASET> is a resource for detecting and classifying malicious websites. The evaluation metric used is Precision, which measures the proportion of true positives among all positive predictions. The <LICENSE>cc-by-3</LICENSE> is a license that allows users to use a resource under certain terms and conditions. The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a framework representing knowledge about intelligence tasks. The <PROJECT>Paper With Code</PROJECT> project (<https://<PROJECT>paperswithcode</PROJECT>.com/>) aims to provide a platform for sharing and evaluating machine learning models. The <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> is a collection of research papers presented at the conference. The <SOFTWARE>Protege ontology editor</SOFTWARE> is a tool for creating and editing ontologies. The <WORKSHOP>Thermal Image Super-Resolution Workshop</WORKSHOP> is a workshop focused on the field of super-resolution in thermal images.

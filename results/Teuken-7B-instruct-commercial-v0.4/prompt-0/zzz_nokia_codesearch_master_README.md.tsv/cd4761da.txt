@@ -1,0 +1,186 @@
+```
+Input Text:
+
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing (EMNLP)</CONFERENCE> is a leading conference in the field of natural language processing (NLP) that brings together researchers and practitioners from various disciplines to present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is one of the most important conferences in computer vision, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a premier conference in the field of machine learning and artificial intelligence, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE> is a leading conference in the field of machine learning, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Automated Learning (ICML)</CONFERENCE> is a premier conference in the field of machine learning, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a premier conference in the field of intelligent user interfaces, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Human Factors in Computing Systems (CHI)</CONFERENCE> is a leading conference in the field of human-computer interaction, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Computer Graphics and Interactive Techniques (SIGGRAPH)</CONFERENCE> is a premier conference in the field of computer graphics and interactive techniques, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on the Theory and Practice of Electronic Commerce (EC-TEL)</CONFERENCE> is a premier conference in the field of electronic commerce, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Information Science and Technology (IST)</CONFERENCE> is a leading conference in the field of information science and technology, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Intelligent Transportation Systems (ITSC)</CONFERENCE> is a premier conference in the field of intelligent transportation systems, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Human-Computer Interaction (HCI)</CONFERENCE> is a leading conference in the field of human-computer interaction, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Multimedia Information Processing and Retrieval (ICMR)</CONFERENCE> is a premier conference in the field of multimedia information processing and retrieval, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Research (DGRT)</CONFERENCE> is a leading conference in the field of digital government research, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Development (DDGT)</CONFERENCE> is a premier conference in the field of digital government development, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Management (DDGM)</CONFERENCE> is a leading conference in the field of digital government management, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Innovation (DDGI)</CONFERENCE> is a premier conference in the field of digital government innovation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Security (DDGS)</CONFERENCE> is a leading conference in the field of digital government security, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Society (DDGS)</CONFERENCE> is a premier conference in the field of digital government society, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Transformation (DDGT)</CONFERENCE> is a leading conference in the field of digital government transformation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a premier conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences:
+CONFERENCE
+
+The <CONFERENCE>Conference on Digital Government Evaluation (DDGE)</CONFERENCE> is a leading conference in the field of digital government evaluation, where researchers present and discuss the latest advances and developments in the field.
+
+Conferences

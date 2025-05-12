@@ -1,0 +1,3 @@
+```
+The <DATASET>IST-2023</DATASET> workshop on "Artificial Intelligence and Signal Processing" (IST-SP2023) aims to bring together researchers, practitioners, and students from various disciplines to discuss the latest advancements and future directions in the intersection of artificial intelligence and signal processing. The workshop is part of the 2023 International Symposium on Telecommunications (IST 2023) and is being organized by the IEEE Communications Society and the IEEE Signal Processing Society.
+```

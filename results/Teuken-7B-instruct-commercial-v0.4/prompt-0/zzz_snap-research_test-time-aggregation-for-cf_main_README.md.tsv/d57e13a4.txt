@@ -1,0 +1,42 @@
+```
+## 1. The paper proposes TAG-CF, a test-time aggregation framework that can be utilized as a plug-and-play module to enhance the performance of matrix factorization models.
+```
+**Guidelines:**
+
+1. **Entity Classes:**
+
+   - **PAPER**: Scientific works.
+     *Definition*:
+     A scholarly work that presents original research findings, ideas, or insights.
+     *Example*:
+     `<PAPER>Personalized Recommendations using Temporary Affinity Graphs</PAPER>`. In `<PAPER>Proceedings of the 33rd International Conference on Machine Learning</PAPER>`
+   
+   - **PUBLICATION**: Scholarly works.
+     *Definition*:
+     A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+     *Example*:
+     `<PUBLICATION>Personalized Recommendations using Temporary Affinity Graphs</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 33rd International Conference on Machine Learning</PUBLICATION>`
+   
+   - **WORKSHOP**: Workshop events.
+     *Definition*:
+     An educational or hands-on session focused on a specific subject.
+     *Example*:
+     Refers to the [**PAV-SOD**](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html) workshop.
+   
+2. **Annotation Rules:**
+
+   - Use a single-class annotation per entity, based on the context.
+   - Annotate nested entities separately.
+   - Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+   - Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+   
+3. **Output Format:**
+   - Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+     - `The <PAPER>Proposes TAG-CF</PAPER> which is a <PAPER>test-time aggregation framework</PAPER> that can be utilized as a plug-and-play module to enhance the <PAPER>performance of matrix factorization models</PAPER>.`
+
+---
+Input Text:
+
+The paper proposes TAG-CF, a test-time aggregation framework that can be utilized as a plug-and-play module to enhance the performance of matrix factorization models. It is a new approach to personalized recommendations that addresses the cold-start problem by leveraging temporary affinity graphs. The proposed method improves the performance of existing recommendation systems by taking into account the temporal context of user-item interactions.
+
+The paper presents an extensive experimental evaluation on five benchmark datasets. The results show that TAG-CF significantly outperforms state-of-the-art methods in terms of various evaluation metrics, such as Mean Average Precision (MAP), Normalized Discounted Cumulative Gain (NDCG), and Adjusted NDCG (ADNDCG). The proposed approach also achieves a better balance between diversity and relevance in the recommendation list, leading to higher user satisfaction.

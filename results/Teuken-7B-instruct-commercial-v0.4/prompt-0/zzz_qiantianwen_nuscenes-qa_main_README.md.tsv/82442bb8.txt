@@ -1,0 +1,7 @@
+## CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI) 2022
+Definition:
+An annual conference focusing on the advancements in artificial intelligence and related fields.
+Example:
+<CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI) 2022</CONFERENCE>
+
+## DATASET: Stanford Large Movie Review Dataset (SLR)

@@ -1,0 +1,26 @@
+```
+CONFERENCE: International Semantic Web Conference 2019
+CONFERENCE: ISWC 2019
+CONFERENCE: CVPR2023 workshop
+DATASET: Mauls Creek
+DATASET: USTPO MIT
+LICENSE: cc-by-3
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+aspire-biencoder-biomed-scib-full
+aspire-biencoder-biomed-spec-full
+aspire-biencoder-compsci-spec-full
+aspire-biencoder-compsci-spec-full.zip
+python
+torch
+AutoTokenizer
+examples.ex\_aspire\_bienc
+AspireBiEnc
+model_path
+import os, json, codecs, torch from transformers import AutoTokenizer from examples.ex\_aspire\_bienc import AspireBiEnc  # Directory where zipped model was downloaded and unzipped. model\_path = '..'
+```

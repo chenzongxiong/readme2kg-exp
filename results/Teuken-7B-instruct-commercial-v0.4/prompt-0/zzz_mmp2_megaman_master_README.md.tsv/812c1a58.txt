@@ -1,0 +1,18 @@
+```markdown
+# Task
+**Guidelines:**
+## Entity Classes:
+
+
+| Entity Classes | Definition | Examples |
+| --- | --- | --- |
+| CONFERENCE | Conference events. | - International Semantic Web Conference 2019 <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> - ISWC 2019 <CONFERENCE>ISWC 2019</CONFERENCE> - CVPR2023 <CONFERENCE>CVPR2023</CONFERENCE> workshop |
+| DATASET | Structured collections of data. | - Maules Creek <DATASET>Maules Creek</DATASET> |
+| EVALMETRIC | Evaluation metrics for models. | - Precision <EVALMETRIC>Precision</EVALMETRIC> - Recall <EVALMETRIC>Recall</EVALMETRIC> - F1-Score <EVALMETRIC>F1-Score</EVALMETRIC> - BLEU Score <EVALMETRIC>BLEU Score</EVALMETRIC> |
+| LICENSE | Licensing terms. | - cc-by-3 <LICENSE>cc-by-3</LICENSE> - CC BY-NC 4.0 <LICENSE>CC BY-NC 4.0</LICENSE> |
+| ONTOLOGY | Semantic frameworks for knowledge representation. | - Intelligence Task Ontology <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> |
+| PROGLANG | Programming languages. | - Python <PROGLANG>Python</PROGLANG> - PHP <PROGLANG>PHP</PROGLANG> - C++ <PROGLANG>C++</PROGLANG> |
+| PROJECT | Scientific or business initiatives. | - Paper With Code <PROJECT>Paper With Code</PROJECT> project - <https://paperswithcode.com/> |
+| PUBLICATION | Scholarly works. | - No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> - <https://proceedings.acm.org/> |
+| SOFTWARE | Software tools or programs. | - Protege ontology editor <SOFTWARE>Protege ontology editor</SOFTWARE> - <https://protege.stanford.edu/> |
+| WORKSHOP | Workshop events. | - Thermal Image Super-Resolution <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop - <https://pbvs-workshop.github.io/datasets.html>

@@ -1,0 +1,15 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: UCI Machine Learning Repository
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC-SA 3.0
+ONTOLOGY: Dublin Core
+PROJECT: SemEval-2017 Task 7: Semantic Similarity: A Machine Learning Challenge
+PUBLICATION: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Scikit-learn
+WORKSHOP: Workshop on Semantic Representation Learning for Question Answering
+```
+<br>
+```
+The results of the MF trained by BPR and DirectAU are shown in Table 1, along with the relative performance improvement brought by TAG-CF.
+```

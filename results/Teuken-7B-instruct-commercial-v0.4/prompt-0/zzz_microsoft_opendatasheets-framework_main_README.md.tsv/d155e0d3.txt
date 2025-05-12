@@ -1,0 +1,13 @@
+```
+CONFERENCE: The Semantic Web Conference
+DATASET: SemEval-2017 Task 7
+EVALMETRIC: Macro F1 Score
+LICENSE: Creative Commons Attribution-Share Alike 4.0
+ONTOLOGY: SKOS
+PROJECT: SemEval-2017 Task 7
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval)
+SOFTWARE: Apache Jena
+WORKSHOP: SemEval-2017 Workshop on Semantic Evaluation
+```
+
+Note: The input text does not include any entities, so there is nothing to annotate.

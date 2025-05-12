@@ -1,0 +1,108 @@
+```
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing</CONFERENCE> (EMNLP) is a leading conference in the field of natural language processing (NLP) that brings together researchers, practitioners, and experts from various disciplines to present and discuss the latest advancements and developments in NLP.
+
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is another prominent conference in the NLP field that focuses on cutting-edge research in machine learning, deep learning, and artificial intelligence.
+
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is a major conference that showcases the latest advancements in computer vision and pattern recognition, with a strong emphasis on applications in various domains, including NLP.
+
+The <DATASET>SST2</DATASET> is a popular benchmark dataset for text classification tasks, consisting of 2.2 million English-language short sentences and 22,000 manually labeled classes.
+
+The <DATASET>C4</DATASET> is a large-scale benchmark dataset for natural language inference (NLI) tasks, consisting of 186,000 English-language sentences and 25,000 manually labeled relations.
+
+The <DATASET>MRPC</DATASET> is another widely used benchmark dataset for text classification, consisting of 180,000 English-language sentences with 14,000 manually labeled classes.
+
+The <DATASET>STSB</DATASET> is a dataset for sentence-level span classification, consisting of 28,000 sentences and 180,000 spans.
+
+The <DATASET>SNLI</DATASET> is a large-scale benchmark dataset for sentence-level NLI tasks, consisting of 100,000 English-language sentences with 60,000 manually labeled relations.
+
+The <DATASET>QNLI</DATASET> is another benchmark dataset for NLI tasks, consisting of 100,000 English-language sentences with 5,000 manually labeled relations.
+
+The <DATASET>MNLI</DATASET> is a large-scale benchmark dataset for NLI tasks, consisting of 200,000 English-language sentences with 7,000 manually labeled relations.
+
+The <DATASET>CoLA</DATASET> is a dataset for language modeling, consisting of 1000 English-language sentences and 1000 labeled sentences.
+
+The <DATASET>STS-B</DATASET> is a benchmark dataset for sentence-level span classification, consisting of 100,000 sentences and 10,000 spans.
+
+The <DATASET>MNLI-v2</DATASET> is a large-scale benchmark dataset for NLI tasks, consisting of 200,000 English-language sentences with 5,000 manually labeled relations.
+
+The <DATASET>QNLI-v2</DATASET> is a benchmark dataset for NLI tasks, consisting of 100,000 English-language sentences with 5,000 manually labeled relations.
+
+The <DATASET>SciTail</DATASET> is a large-scale benchmark dataset for cross-lingual taiwanese to English question answering, consisting of 200,000 taiwanese sentences and 400,000 English sentences.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering, and ranking.
+
+The <DATASET>TREC</DATASET> is a collection of datasets for information retrieval tasks, including document classification, clustering,

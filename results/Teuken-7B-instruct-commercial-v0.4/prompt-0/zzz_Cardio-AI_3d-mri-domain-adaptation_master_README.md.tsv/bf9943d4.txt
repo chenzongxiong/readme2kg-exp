@@ -1,0 +1,5 @@
+```
+## CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+## DATASET: IJCNN 2018 Workshop on Deep Learning for Medical Imaging (DLMI)
+## EVALMETRIC: Precision
+## LICENSE: 3-clause BSD

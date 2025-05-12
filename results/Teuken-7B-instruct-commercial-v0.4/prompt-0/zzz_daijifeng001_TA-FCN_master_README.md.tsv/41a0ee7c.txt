@@ -1,0 +1,19 @@
+**Entities:**
+
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+
+**EVALMETRIC**: Top-1 Accuracy
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: IJCAI Ontology
+
+**PROJECT**: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+
+**PUBLICATION**: Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI)
+
+**SOFTWARE**: MXNet, Caffe
+
+**WORKSHOP**: International Workshop on Artificial Intelligence and Education (AI-ED)

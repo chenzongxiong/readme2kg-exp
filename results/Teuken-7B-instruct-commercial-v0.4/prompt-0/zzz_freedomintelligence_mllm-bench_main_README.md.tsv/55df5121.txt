@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: IJCAI 2023 Competition and Dataset
+EVALMETRIC: Accuracy
+LICENSE: CC-BY-NC-4.0
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Project
+PUBLICATION: Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI 2023)
+SOFTWARE: IBM Watson Studio
+WORKSHOP: IJCAI 2023 Workshop on Machine Learning for Human-Computer Interaction
+```

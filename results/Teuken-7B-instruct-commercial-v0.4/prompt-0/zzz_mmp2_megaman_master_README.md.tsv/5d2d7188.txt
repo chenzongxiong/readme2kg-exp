@@ -1,0 +1,53 @@
+```
+## NER Annotation
+- CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+	*Definition*:
+	A premier international conference on artificial neural networks and related technologies.
+	*Example*:
+	<CONFERENCE>IJCNN 2018</CONFERENCE>
+- DATASET: UCI Machine Learning Repository
+	*Definition*:
+	A repository of databases and domain-specific knowledge for use in machine learning research and teaching.
+	*Example*:
+	<DATASET>Diabetes</DATASET>
+- EVALMETRIC: Precision
+	*Definition*:
+	A measure of the fraction of relevant items retrieved by a system as compared to the total number of retrieved items.
+	*Example*:
+	The evaluation metric used is <EVALMETRIC>Precision</EVALMETRIC>.
+- LICENSE: Creative Commons Attribution-Share Alike 4.0 International
+	*Definition*:
+	A free, open-source license that allows others to share, use, and modify the work, even for commercial purposes, as long as the same freedoms are granted to others and the license notice is included.
+	*Example*:
+	Available licenses to use are <LICENSE>CC BY-NC 4.0</LICENSE> and <LICENSE>cc-by-3</LICENSE>
+- ONTOLOGY: DBpedia Ontology
+	*Definition*:
+	A publicly available ontology that provides a standardized way of representing knowledge about the world.
+	*Example*:
+	The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...
+- PROGLANG: Python
+	*Definition*:
+	A programming language that is often used for scientific computing and data analysis.
+	*Example*:
+	Programming languages such as <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> are used for data analysis.
+- PROJECT: SemEval-2017 Task 3
+	*Definition*:
+	A challenge in the field of natural language processing, specifically in the area of sentiment analysis.
+	*Example*:
+	The <PROJECT>Sentiment Analysis</PROJECT> project (<https://<PROJECT>semeval2017task3.github.io/>) is ...
+- PUBLICATION: arXiv
+	*Definition*:
+	An open-access e-print service in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering, and systems science.
+	*Example*:
+	The <PUBLICATION>Paper With Code</PUBLICATION> project (<https://<PUBLICATION>paperswithcode.com</PUBLICATION>), published on arXiv (<https://<PUBLICATION>arxiv.org</PUBLICATION>), ...
+- SOFTWARE: Apache Spark
+	*Definition*:
+	An open-source, distributed computing system that can be used for big data processing.
+	*Example*:
+	You can use the <SOFTWARE>Apache Spark</SOFTWARE> to process big data.
+- WORKSHOP: SemEval-2018 Task 4
+	*Definition*:
+	An event focused on the field of sentiment analysis.
+	*Example*:
+	Refers to the <WORKSHOP>Sentiment Analysis Workshop</WORKSHOP> at SemEval-2018 Task 4 (<https://<WORKSHOP>semeval2018task4.github.io/>).
+```

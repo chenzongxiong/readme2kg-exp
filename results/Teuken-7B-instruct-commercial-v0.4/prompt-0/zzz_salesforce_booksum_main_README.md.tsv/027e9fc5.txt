@@ -1,0 +1,12 @@
+```
+CONFERENCE: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+DATASET: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+EVALMETRIC: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+LICENSE: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+ONTOLOGY: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+PROGLANG: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+PROJECT: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+PUBLICATION: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+SOFTWARE: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+WORKSHOP: You may not use or allow others to use the scripts for any other purposes and other uses are expressly prohibited. 2.
+```

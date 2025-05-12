@@ -1,0 +1,37 @@
+```
+The CONFERENCE is the International Joint Conference on Artificial Intelligence (IJCAI).
+The CONFERENCE is the International Conference on Machine Learning (ICML).
+The CONFERENCE is the International Conference on Neural Information Processing Systems (NeurIPS).
+The DATASET is the NIST Image Segmentation Benchmark Suite (ISB-21).
+The DATASET is the PASCAL VOC 2007 Trainval Test.
+The DATASET is the PASCAL VOC 2012 Trainval Test.
+The DATASET is the PASCAL VOC 2010 Trainval Test.
+The EVALMETRIC is the Precision.
+The EVALMETRIC is the Recall.
+The EVALMETRIC is the F1-Score.
+The EVALMETRIC is the BLEU Score.
+The LICENSE is the cc-by-3.
+The LICENSE is the CC BY-NC 4.0.
+The ONTOLOGY is the Ontology of Instructional Media.
+The ONTOLOGY is the Ontology of Educational Media.
+The ONTOLOGY is the Ontology of Learning Objects.
+The PROGLANG is Python.
+The PROGLANG is PHP.
+The PROGLANG is C++.
+The PROJECT is the Paper With Code.
+The PROJECT is the Papers With Code.
+The PROJECT is the Code With Papers.
+The PUBLICATION is the 2022 IEEE International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA).
+The PUBLICATION is the 2022 IEEE International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA).
+The PUBLICATION is the 2022 IEEE International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications (CIVEMSA).
+The SOFTWARE is the Ontology Learning and Reasoning System.
+The SOFTWARE is the Ontology Learning and Reasoning System.
+The SOFTWARE is the Ontology Learning and Reasoning System.
+The SOFTWARE is the Ontology Learning and Reasoning System.
+The SOFTWARE is the Ontology Learning and Reasoning System.
+The SOFTWARE is the Ontology Learning and Reasoning System.
+The WORKSHOP is the Workshop on Adversarial Robustness in Machine Learning (ARML).
+The WORKSHOP is the Workshop on Adversarial Robustness in Machine Learning (ARML).
+The WORKSHOP is the Workshop on Adversarial Robustness in Machine Learning (ARML).
+The WORKSHOP is the Workshop on Adversarial Robustness in Machine Learning (ARML).
+```

@@ -1,0 +1,8 @@
+```markdown
+<SOFTWARE>Jupyter Notebook</SOFTWARE> environment is set up with the necessary libraries and dependencies.</LI>
+<LI>
+<DATASET>FCIS dataset</DATASET> is preprocessed to remove irrelevant information and normalize the data.</LI>
+<LI>
+<ONTOLOGY>FCIS Ontology</ONTOLOGY> is used to define the classes and relationships for the training and testing datasets.</LI>
+<LI>The <SOFTWARE>Jypyter Notebook</SOFTWARE> environment is used for data visualization and analysis.</LI>
+```

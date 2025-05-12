@@ -1,0 +1,48 @@
+```
+## Entities Annotated
+
+- CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+- DATASET: Stanford CoreNLP 2018 POS Tagger
+- EVALMETRIC: F1 Score
+- LICENSE: CC BY-NC 4.0
+- ONTOLOGY: Common Sense Reasoning Ontology
+- PROJECT: Stanford CoreNLP
+- PUBLICATION: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+- SOFTWARE: Stanford CoreNLP
+- WORKSHOP: Workshop on Visual Question Answering (VQA) with Deep Learning
+- CONFERENCE: International Semantic Web Conference (ISWC)
+- DATASET: Stanford CoreNLP 2019 Dependency Treebank
+- EVALMETRIC: Precision
+- LICENSE: CC BY-NC-SA 4.0
+- ONTOLOGY: Resource Description Framework (RDF)
+- PROJECT: Stanford CoreNLP 2019
+- PUBLICATION: Proceedings of the 2019 International Conference on Web and Social Media
+- SOFTWARE: Stanford CoreNLP 2019
+- WORKSHOP: Workshop on Knowledge Graphs and Semantic Web
+- CONFERENCE: Conference on Computer Vision and Pattern Recognition (CVPR)
+- DATASET: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+- EVALMETRIC: Top-5 Error Rate
+- LICENSE: CC BY-NC-SA 4.0
+- ONTOLOGY: Dublin Core Metadata Terms
+- PROJECT: Stanford NLP 2018 Workshop on Visual Question Answering
+- PUBLICATION: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+- SOFTWARE: Stanford NLP 2018
+- WORKSHOP: Workshop on Visual Question Answering (VQA) with Deep Learning
+- CONFERENCE: Workshop on Semantic Representation Learning (SemEval-2019 Task 3)
+- DATASET: SemEval-2019 Task 3 Benchmark Dataset
+- EVALMETRIC: Macro F1 Score
+- LICENSE: CC BY-NC 4.0
+- ONTOLOGY: WordNet
+- PROJECT: Stanford NLP 2019 Workshop on Semantic Representation Learning
+- PUBLICATION: Proceedings of the 2019 Workshop on Semantic Representation Learning
+- SOFTWARE: Stanford NLP 2019
+- WORKSHOP: Workshop on Semantic Representation Learning (SemEval-2019 Task 3)
+- CONFERENCE: Workshop on Visual Question Answering (VQA) with Deep Learning
+- DATASET: Stanford NLP 2019 Dependency Treebank
+- EVALMETRIC: Macro F1 Score
+- LICENSE: CC BY-NC-SA 4.0
+- ONTOLOGY: Common Sense Reasoning Ontology
+- PROJECT: Stanford NLP 2019 Workshop on Semantic Representation Learning
+- PUBLICATION: Proceedings of the 2019 Workshop on Semantic Representation Learning
+- SOFTWARE: Stanford NLP 2019
+- WORKSHOP: Workshop on Visual Question Answering (VQA) with Deep Learning

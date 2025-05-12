@@ -1,0 +1,97 @@
+.CONFERENCE{International Semantic Web Conference 2019}0
+{International Semantic Web Conference 2019}1
+{International Semantic Web Conference 2019}2
+{International Semantic Web Conference 2019}3
+
+.DATASET{Maules Creek}
+Download the {Maules Creek}0 dataset from <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>.
+
+.EVALMETRIC{Precision}
+{EVALMETRIC}1
+{EVALMETRIC}2
+{EVALMETRIC}3
+{EVALMETRIC}4
+{EVALMETRIC}5
+
+.LICENSE{cc-by-3}
+{LICENSE}0
+{LICENSE}1
+{LICENSE}2
+
+.ONTOLOGY{Intelligence Task Ontology}
+The {Intelligence Task Ontology}0 ontology is a comprehensive resource for modeling intelligence tasks.
+
+.PROGLANG{Python}
+Some programming languages include {PROGLANG}0, {PROGLANG}1, and {PROGLANG}2.
+
+.PROJECT{Paper With Code}
+The {Paper With Code}0 project (<https://paperswithcode.com/>) is a great resource for research papers.
+
+.PUBLICATION{No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths}
+In {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management}0, the paper "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths" was presented.
+
+.SOFTWARE{Protege ontology editor}
+You can use the {Protege ontology editor}0 to explore and edit the resource.
+
+.WORKSHOP{Thermal Image Super-Resolution}
+{WORKSHOP}1 is an educational workshop focused on thermal image super-resolution.
+
+.CONFERENCE{Conference}
+Conference events are gatherings focused on a particular field of study or topic.
+
+.DATASET{Dataset}
+Structured collections of data are called datasets.
+
+.EVALMETRIC{Evaluation metric}
+Evaluation metrics are quantitative measures used to assess the performance of a model.
+
+.LICENSE{License}
+Licenses dictate the terms of using a particular resource.
+
+.ONTOLOGY{Ontology}
+Ontologies represent knowledge about a domain, including concepts, entities, properties, and relationships.
+
+.PROGLANG{Programming language}
+Programming languages are formal languages used for implementing software.
+
+.PROJECT{Project}
+Scientific or business initiatives are planned initiatives aimed at addressing a research question or achieving a specific goal.
+
+.PUBLICATION{Publication}
+Scholarly works are the result of a publishing process, such as a journal article, conference proceeding, or preprint.
+
+.SOFTWARE{Software}
+Software tools or programs are designed to perform specific tasks on electronic devices.
+
+.WORKSHOP{Workshop}
+Workshop events are educational or hands-on sessions focused on a specific subject.
+
+.CONFERENCE{Conference}
+Conferences are formal meetings or gatherings focused on a particular field of study or topic.
+
+.DATASET{Dataset}
+Structured collections of data are called datasets.
+
+.EVALMETRIC{Evaluation metric}
+Evaluation metrics are quantitative measures used to assess the performance of a model.
+
+.LICENSE{License}
+Licenses dictate the terms of using a particular resource.
+
+.ONTOLOGY{Ontology}
+Ontologies represent knowledge about a domain, including concepts, entities, properties, and relationships.
+
+.PROGLANG{Programming language}
+Programming languages are formal languages used for implementing software.
+
+.PROJECT{Project}
+Scientific or business initiatives are planned initiatives aimed at addressing a research question or achieving a specific goal.
+
+.PUBLICATION{Publication}
+Scholarly works are the result of a publishing process, such as a journal article, conference proceeding, or preprint.
+
+.SOFTWARE{Software}
+Software tools or programs are designed to perform specific tasks on electronic devices.
+
+.WORKSHOP{Workshop}
+Workshop events are educational or hands-on sessions focused on a specific subject.

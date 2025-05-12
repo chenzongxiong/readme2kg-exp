@@ -1,0 +1,5 @@
+```
+The <CONFERENCE>International Conference on Computational Linguistics</CONFERENCE> (COLING) is a leading conference in the field of natural language processing and computational linguistics. It brings together researchers and practitioners from various disciplines, including linguistics, computer science, artificial intelligence, and engineering. COLING offers a diverse range of sessions and workshops, covering topics such as language technology, computational linguistics, computational lexicography, and more. The conference provides a unique opportunity for attendees to network with experts in the field, present their research, and learn about the latest developments and trends in the field.
+```
+
+Note: The NER tags are used in the original text, so I have used them in the annotation as well.

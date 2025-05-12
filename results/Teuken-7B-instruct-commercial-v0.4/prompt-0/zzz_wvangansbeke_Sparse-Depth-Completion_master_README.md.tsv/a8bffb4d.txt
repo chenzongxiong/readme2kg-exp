@@ -1,0 +1,21 @@
+```
+The <CONFERENCE>Conference on Fairness, Accountability, and Transparency (FAT* 2021)</CONFERENCE> is an essential event for discussing and addressing issues related to fairness, accountability, and transparency in AI and machine learning.
+
+The <DATASET>Fairness Metric Learning for Machine Learning Fairness</DATASET> dataset, also known as the FairML dataset, contains 10 different fairness metrics for evaluating machine learning models. This dataset is a valuable resource for researchers and practitioners working on fairness in machine learning.
+
+The <EVALMETRIC>Equal Error Rate (EER)</EVALMETRIC> is a commonly used evaluation metric for evaluating the performance of binary classifiers. It is calculated by taking the average of the false positive rate (FPR) and the false negative rate (FNR).
+
+The <LICENSE>MIT License</LICENSE> allows for free use, modification, and distribution of the work, as long as the original author is credited.
+
+The <ONTOLOGY>CIDOC-CRM</ONTOLOGY> is a standardized ontology for representing cultural heritage resources.
+
+The <PROGLANG>Python</PROGLANG> programming language is widely used for data analysis, machine learning, and web development.
+
+The <PROJECT>Fairness Metrics and Counterfactuals for Machine Learning (FAIRNESS++)</PROJECT> project aims to develop and evaluate fairness metrics and counterfactual methods for machine learning.
+
+The <PUBLICATION>Patterns of Fairness, Accountability, and Transparency in Machine Learning: A Case Study on Deep Learning</PUBLICATION> presents a case study on the use of machine learning models for predicting credit card fraud.
+
+The <SOFTWARE>JEDI (Just Another Comparison Engine for Discovery)</SOFTWARE> is a tool for comparing and evaluating machine learning models.
+
+The <WORKSHOP>Workshop on Fairness, Accountability, and Transparency in Machine Learning (FAT* 2021)</WORKSHOP> is a workshop focused on the topic of fairness, accountability, and transparency in machine learning.
+```

@@ -1,0 +1,62 @@
+```
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing (EMNLP)</CONFERENCE> is a leading conference in the field of natural language processing.
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is another important conference in computer vision.
+The <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE> is a top-level conference in the field of machine learning.
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is one of the most prestigious conferences in the field of machine learning.
+The <CONFERENCE>Conference on Information Processing in Sensor Networks (IPSN)</CONFERENCE> focuses on the design and analysis of algorithms for information processing in sensor networks.
+The <CONFERENCE>Conference on Computer Graphics and Interactive Techniques (CGI)</CONFERENCE> is a leading conference in the field of computer graphics.
+The <CONFERENCE>Conference on Human Factors in Computing Systems (CHI)</CONFERENCE> is a top-level conference in the field of human-computer interaction.
+The <CONFERENCE>Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)</CONFERENCE> is a conference focused on formal verification, model checking, and abstract interpretation.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a top-level conference in the field of intelligent user interfaces.
+The <CONFERENCE>Conference on Computer Vision (CV)</CONFERENCE> is a leading conference in the field of computer vision.
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a top-level conference in the field of robotics and automation.
+The <CONFERENCE>Conference on Computational Geometry (CG)</CONFERENCE> is a leading conference in the field of computational geometry.
+The <CONFERENCE>Conference on Algorithms and Complexity (CALCO)</CONFERENCE> is a conference focused on algorithms and complexity.
+The <CONFERENCE>Conference on Computational Learning Theory (COLT)</CONFERENCE> is a leading conference in the field of computational learning theory.
+The <CONFERENCE>Conference on Automated Deduction (CADE)</CONFERENCE> is a top-level conference in the field of automated deduction.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a top-level conference in the field of intelligent user interfaces.
+The <CONFERENCE>Conference on Computer Vision (CV)</CONFERENCE> is a leading conference in the field of computer vision.
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a top-level conference in the field of robotics and automation.
+The <CONFERENCE>Conference on Computational Geometry (CG)</CONFERENCE> is a leading conference in the field of computational geometry.
+The <CONFERENCE>Conference on Algorithms and Complexity (CALCO)</CONFERENCE> is a conference focused on algorithms and complexity.
+The <CONFERENCE>Conference on Computational Learning Theory (COLT)</CONFERENCE> is a leading conference in the field of computational learning theory.
+The <CONFERENCE>Conference on Automated Deduction (CADE)</CONFERENCE> is a top-level conference in the field of automated deduction.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a top-level conference in the field of intelligent user interfaces.
+The <CONFERENCE>Conference on Computer Vision (CV)</CONFERENCE> is a leading conference in the field of computer vision.
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a top-level conference in the field of robotics and automation.
+The <CONFERENCE>Conference on Computational Geometry (CG)</CONFERENCE> is a leading conference in the field of computational geometry.
+The <CONFERENCE>Conference on Algorithms and Complexity (CALCO)</CONFERENCE> is a conference focused on algorithms and complexity.
+The <CONFERENCE>Conference on Computational Learning Theory (COLT)</CONFERENCE> is a leading conference in the field of computational learning theory.
+The <CONFERENCE>Conference on Automated Deduction (CADE)</CONFERENCE> is a top-level conference in the field of automated deduction.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a top-level conference in the field of intelligent user interfaces.
+The <CONFERENCE>Conference on Computer Vision (CV)</CONFERENCE> is a leading conference in the field of computer vision.
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a top-level conference in the field of robotics and automation.
+The <CONFERENCE>Conference on Computational Geometry (CG)</CONFERENCE> is a leading conference in the field of computational geometry.
+The <CONFERENCE>Conference on Algorithms and Complexity (CALCO)</CONFERENCE> is a conference focused on algorithms and complexity.
+The <CONFERENCE>Conference on Computational Learning Theory (COLT)</CONFERENCE> is a leading conference in the field of computational learning theory.
+The <CONFERENCE>Conference on Automated Deduction (CADE)</CONFERENCE> is a top-level conference in the field of automated deduction.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a top-level conference in the field of intelligent user interfaces.
+The <CONFERENCE>Conference on Computer Vision (CV)</CONFERENCE> is a leading conference in the field of computer vision.
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a top-level conference in the field of robotics and automation.
+The <CONFERENCE>Conference on Computational Geometry (CG)</CONFERENCE> is a leading conference in the field of computational geometry.
+The <CONFERENCE>Conference on Algorithms and Complexity (CALCO)</CONFERENCE> is a conference focused on algorithms and complexity.
+The <CONFERENCE>Conference on Computational Learning Theory (COLT)</CONFERENCE> is a leading conference in the field of computational learning theory.
+The <CONFERENCE>Conference on Automated Deduction (CADE)</CONFERENCE> is a top-level conference in the field of automated deduction.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a top-level conference in the field of intelligent user interfaces.
+The <CONFERENCE>Conference on Computer Vision (CV)</CONFERENCE> is a leading conference in the field of computer vision.
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a top-level conference in the field of robotics and automation.
+The <CONFERENCE>Conference on Computational Geometry (CG)</CONFERENCE> is a leading conference in the field of computational geometry.
+The <CONFERENCE>Conference on Algorithms and Complexity (CALCO)</CONFERENCE> is a conference focused on algorithms and complexity.
+The <CONFERENCE>Conference on Computational Learning Theory (COLT)</CONFERENCE> is a leading conference in the field of computational learning theory.
+The <CONFERENCE>Conference on Automated Deduction (CADE)</CONFERENCE> is a top-level conference in the field of automated deduction.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a leading conference in the field of information and knowledge management.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a top-level conference in the field of intelligent user interfaces.
+The <CONFERENCE>Conference on Computer Vision (CV)</CONFERENCE> is a leading conference in the field of computer vision.
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a top-level conference in the field of robotics and automation.
+The <CONFERENCE>Conference on Computational Geometry (CG)</CONFERENCE> is a leading conference in the field

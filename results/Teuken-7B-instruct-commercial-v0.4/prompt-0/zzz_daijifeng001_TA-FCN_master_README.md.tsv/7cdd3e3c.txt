@@ -1,0 +1,11 @@
+```
+CONFERENCE: MXNet from the official repository
+DATASET: MXNet: Datasets, Models, and Tutorials
+EVALMETRIC: Precision, Recall, F1-Score, and ROC-AUC
+LICENSE: cc-by-3
+ONTOLOGY: Ontology of Deep Learning Models
+PROJECT: MXNet: Official Repository of MXNet
+PUBLICATION: MXNet: Accelerating AI with the World's Most Versatile Platform
+SOFTWARE: MXNet: The Essential Deep Learning Library
+WORKSHOP: MXNet: Workshop on Deep Learning and Applications for Computer Vision and Natural Language Processing
+```

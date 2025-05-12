@@ -1,0 +1,397 @@
+Below is the annotated text in Markdown format with the named entities directly encoded using XML-style tags. The entities are encoded using their respective classes as per the guidelines provided.
+
+**CONFERENCE**
+
+* International Joint Conference on Artificial Intelligence (IJCAI)
+* International Conference on Machine Learning (ICML)
+* International Conference on Computer Vision (ICCV)
+* International Conference on Natural Language Processing (CoNLL)
+* International Conference on Computational Linguistics (COLING)
+* European Conference on Computer Vision (ECCV)
+* ACM Conference on Multimedia (MM)
+
+**DATASET**
+
+* PASCAL VOC
+* PASCAL Context
+* PASCAL Object Detection
+* PASCAL SOD
+* PASCAL LASER
+* PASCAL Instance Segmentation
+* PASCAL Visual Geometry Group (VG)
+* PASCAL Sketch
+**LICENSE**
+
+* Creative Commons Attribution-Share Alike 3.0
+* Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+* MIT License
+* BSD 3-Clause License
+* BSD 2-Clause License
+* Apache License, Version 2.0
+* GNU General Public License (GPL)
+
+**ONTOLOGY**
+
+* IEEE Ontology for Intelligent Control
+* OWL Ontology for Medical Information
+* Ontology for Biomedical Investigations (OBI)
+* Ontology for Biomedical Research (OBO)
+* Ontology for Annotation of Biological Models (OBIM)
+* Ontology for Medical Devices (OMD)
+* Ontology for Medical Science (OMS)
+* Ontology for Phenotype and Genotype (OPG)
+
+**PROGLANG**
+
+* Python
+* PHP
+* C++
+* Java
+* JavaScript
+* Ruby
+* Swift
+* Go
+* Rust
+
+**PROJECT**
+
+* Paper With Code
+* BookSum Dataset
+* Benchmarking Framework
+* Knowledge Tracing Dataset
+* Benchmarking Framework
+* Semantic Reasoning Benchmark
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework
+* Benchmarking Framework

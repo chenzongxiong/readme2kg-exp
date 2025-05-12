@@ -1,0 +1,21 @@
+```
+The <CONFERENCE>Conference on Human Computation and Crowdsourcing</CONFERENCE> will be held in Los Angeles, California from November 14-16, 2023.
+
+The <DATASET>COCO Dataset</DATASET> is a widely used dataset for object detection and segmentation.
+
+The <EVALMETRIC>Mean Average Precision</EVALMETRIC> (mAP) is a popular evaluation metric for object detection tasks.
+
+The <LICENSE>MIT License</LICENSE> is a popular open-source license.
+
+The <ONTOLOGY>SNOMED CT Ontology</ONTOLOGY> is a comprehensive health terminology used in electronic health records.
+
+The <PROGLANG>Java</PROGLANG> is a popular programming language used for building web applications.
+
+The <PROJECT>Open Images Dataset</PROJECT> is a large-scale image dataset with extensive annotation for object detection and segmentation.
+
+The <PUBLICATION>Deep Learning for Visual Recognition: A Survey</PUBLICATION> is a comprehensive survey of deep learning for visual recognition tasks.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source machine learning library developed by Google.
+
+The <WORKSHOP>Workshop on Human Computation and Crowdsourcing</WORKSHOP> is a hands-on event focused on human computation and crowdsourcing techniques.
+```

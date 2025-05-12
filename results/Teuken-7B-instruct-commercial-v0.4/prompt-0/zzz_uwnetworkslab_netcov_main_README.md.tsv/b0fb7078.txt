@@ -1,0 +1,21 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a leading annual conference in the field of machine learning and artificial intelligence.
+
+The <DATASET>CIFAR-10</DATASET> and <DATASET>CIFAR-100</DATASET> datasets are widely used for benchmarking computer vision models.
+
+The <EVALMETRIC>Confusion Matrix</EVALMETRIC> is a common evaluation metric used to assess the performance of classification models.
+
+The <LICENSE>MIT License</LICENSE> allows for free use and distribution of the software with no restrictions.
+
+The <ONTOLOGY>SNOMED CT Ontology</ONTOLOGY> is a comprehensive and standardized medical terminology used for electronic health records.
+
+The <PROJECT>Open Images 2018</PROJECT> project provides a large-scale dataset of annotated images with object detection and localization information.
+
+The <PUBLICATION>ICCV 2015</PUBLICATION> paper "Deep Residual Learning for Image Recognition" by <PERSON>He, Kaiming</PERSON> et al. proposed a deep residual learning network that achieved state-of-the-art performance on several computer vision benchmarks.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for machine learning developed by Google.
+
+The <WORKSHOP>Workshop on Human-AI Collaboration (HAC)</WORKSHOP> focuses on exploring the challenges and opportunities of human-AI collaboration in various domains.
+
+The <DATASET>ImageNet</DATASET> is a large-scale dataset of images with 1,000 classes, widely used for benchmarking object recognition and classification models.
+```

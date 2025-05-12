@@ -1,0 +1,34 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: PASCAL VOC
+
+**EVALMETRIC**: F1 Score
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: Wikidata Ontology
+
+**PROJECT**: Wikidata Experience
+
+**PUBLICATION**:
+* <PUBLICATION>Conference proceedings</PUBLICATION>
+* <PUBLICATION>Journal articles</PUBLICATION>
+* <PUBLICATION>Preprint servers</PUBLICATION>
+* <PUBLICATION>Conference posters</PUBLICATION>
+* <PUBLICATION>Conference videos</PUBLICATION>
+* <PUBLICATION>Conference presentations</PUBLICATION>
+* <PUBLICATION>Conference abstracts</PUBLICATION>
+* <PUBLICATION>Conference websites</PUBLICATION>
+
+**SOFTWARE**:
+* <SOFTWARE>Protege ontology editor</SOFTWARE>
+* <SOFTWARE>Ontouml editor</SOFTWARE>
+* <SOFTWARE>Ontobee ontology browser</SOFTWARE>
+
+**WORKSHOP**:
+* <WORKSHOP>Big Data Analysis Workshop</WORKSHOP>
+* <WORKSHOP>Data Mining and Machine Learning Workshop</WORKSHOP>
+* <WORKSHOP>Knowledge Discovery and Data Mining Workshop</WORKSHOP>
+* <WORKSHOP>Natural Language Processing Workshop</WORKSHOP>
+```

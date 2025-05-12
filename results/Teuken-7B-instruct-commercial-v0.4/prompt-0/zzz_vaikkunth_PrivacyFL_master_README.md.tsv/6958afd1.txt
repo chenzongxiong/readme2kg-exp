@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP
+EVALMETRIC: Macro F1 score
+LICENSE: Apache License, Version 2.0
+ONTOLOGY: Ontology of Information Systems Security
+PROJECT: Ontology of Information Systems Security
+PUBLICATION: Information Systems Security
+SOFTWARE: MetaProtege
+WORKSHOP: Workshop on Semantic Computing and Knowledge Reasoning (SemCoRec)
+```
+THE <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.

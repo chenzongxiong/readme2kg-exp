@@ -1,0 +1,7 @@
+**Annotated Text**:
+
+| **CONFERENCE** | **DATASET** | **LICENSE** | **ONTOLOGY** | **PROJECT** | **PUBLICATION** | **SOFTWARE** | **WORKSHOP** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| International Semantic Web Conference 2019 | Maes-Bastin Corpus | CC BY-NC 4.0 | Intelligence Task Ontology | Paper With Code | No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths | Protege ontology editor | BookSum Dataset |
+| CVPR2023 | Maes-Bastin Corpus | CC-BY-NC 4.0 | Intelligence Task Ontology | Paper With Code | No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths | Protege ontology editor | Thermal Image Super-Resolution |
+| <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> | <DATASET>Maes-Bastin Corpus</DATASET> | <LICENSE>CC BY-NC 4.0</LICENSE> | <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> | <PROJECT>Paper With Code</PROJECT> | <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> | <SOFTWARE>Protege ontology editor</SOFTWARE> | <WORKSHOP>BookSum Dataset</WORKSHOP>

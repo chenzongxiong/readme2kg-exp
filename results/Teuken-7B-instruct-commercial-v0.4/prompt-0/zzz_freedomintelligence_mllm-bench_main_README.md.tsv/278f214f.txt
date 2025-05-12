@@ -1,0 +1,37 @@
+**Guidelines:**
+
+1. **Entity Classes:**
+   - **CONFERENCE**: Conference events.
+   - **DATASET**: Structured collections of data.
+   - **EVALMETRIC**: Evaluation metrics for models.
+   - **LICENSE**: Licensing terms.
+   - **ONTOLOGY**: Semantic frameworks for knowledge representation.
+   - **PROJECT**: Scientific or business initiatives.
+   - **PUBLICATION**: Scholarly works.
+   - **SOFTWARE**: Software tools or programs.
+   - **WORKSHOP**: Workshop events.
+
+2. **Annotation Rules:**
+   - Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+   - Use a single-class annotation per entity, based on the context.
+   - Annotate nested entities separately.
+   - Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+   - Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+3. **Output Format:**
+   - Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+     - `The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.`
+   - Your output should be in Markdown format with all entities tagged as instructed.
+
+---
+
+**Entities and Annotations:**
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: BookSum Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-3, CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: PAV-SOD: Panoramic Audiovisual Saliency Detection
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege Ontology Editor
+WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection Workshop

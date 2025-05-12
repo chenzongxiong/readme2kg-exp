@@ -1,0 +1,13 @@
+Output Text:
+```markdown
+**Conference**      : International Joint Conference on Artificial Intelligence (IJCAI)
+*DataSet*          : IJCNLP 2023 Shared Task on Semantic Parsing
+**EVALMETRIC**   : Macro F1 Score
+**LICENSE**      : CC BY 4.0
+**ONTOLOGY**      : IJCAI Ontology
+**PROJECT**       : IJCNLP 2023 Shared Task
+**PUBLICATION**  : Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023)
+*Software*        : Stanford CoreNLP
+**WORKSHOP**      : IJCNLP 2023 Workshop on Semantic Parsing and Natural Language Understanding (SPaNL)
+```
+Note: The Markdown formatting is included in the output text to provide visual clarity.

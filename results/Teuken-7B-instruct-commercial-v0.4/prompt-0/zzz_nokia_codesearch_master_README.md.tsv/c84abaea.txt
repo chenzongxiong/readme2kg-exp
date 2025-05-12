@@ -1,0 +1,46 @@
+```markdown
+<!-- Models -->
+<!-- We provide some pretrained embedding models to create a retrieval system. -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained_models && !cd pretrained_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained_models && !cd pretrained_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https://s3.amazonaws.com/allennlp/models/bert-base-cased-pubmed-2021-03-03.tar.gz -->
+<!-- The models are saved in the "pretrained\_models" directory. -->
+<!-- You can download them by running the following command: -->
+<!-- !mkdir pretrained\_models && !cd pretrained\_models && !wget https://s3.amazonaws.com/allennlp/models/bilstm-crf-pubmed-2018-03-16.tar.gz && !wget https

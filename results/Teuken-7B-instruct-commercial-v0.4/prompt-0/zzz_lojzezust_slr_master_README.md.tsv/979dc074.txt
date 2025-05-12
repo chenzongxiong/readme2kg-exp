@@ -1,0 +1,22 @@
+```markdown
+<!-- Entities annotated using XML-style tags -->
+<CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE>
+<!-- Entities (Conferences) annotated using XML-style tags -->
+<DATASET>ImageNet</DATASET>
+<!-- Entities (Datasets) annotated using XML-style tags -->
+<EVALMETRIC>Mean Average Precision (mAP)</EVALMETRIC>
+<!-- Entity (Evaluation metric) annotated using XML-style tags -->
+<LICENSE>MIT</LICENSE>
+<!-- Entity (Licenses) annotated using XML-style tags -->
+<ONTOLOGY>BIBFRAME</ONTOLOGY>
+<!-- Entity (Ontology) annotated using XML-style tags -->
+<PROGLANG>JavaScript</PROGLANG>
+<!-- Entity (Programming languages) annotated using XML-style tags -->
+<PROJECT>DeepVariant</PROJECT>
+<!-- Entity (Projects) annotated using XML-style tags -->
+<PUBLICATION>Nature Medicine</PUBLICATION>
+<!-- Entity (Publications) annotated using XML-style tags -->
+<SOFTWARE>TensorFlow</SOFTWARE>
+<!-- Entity (Software) annotated using XML-style tags -->
+<WORKSHOP>Conference Workshops and Tutorials</WORKSHOP>
+```

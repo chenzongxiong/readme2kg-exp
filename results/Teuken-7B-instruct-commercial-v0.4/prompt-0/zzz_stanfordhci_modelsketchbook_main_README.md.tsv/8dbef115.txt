@@ -1,0 +1,13 @@
+```
+CONFERENCE: ACM CHI 2023
+DATASET: ModelSketchBook
+EVALMETRIC: F1-Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Model Sketching Ontology
+PROJECT: Model Sketching
+PUBLICATION: Proceedings of the 2023 ACM CHI Conference on Human Factors in Computing Systems
+SOFTWARE: ModelSketchBook
+WORKSHOP: ACM CHI 2023 Workshop on Early-Stage Machine Learning Model Design and Evaluation
+```
+
+Note: The input text includes a figure, which I have omitted for brevity. You can add the figure back by including the URL in the `<IMAGE>` tag.

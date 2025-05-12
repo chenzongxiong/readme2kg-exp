@@ -1,0 +1,29 @@
+**Annotated Text:**
+```scss
+**CONFERENCE**: International Semantic Web Conference 2022
+**DATASET**: Fake News Detection Dataset
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Ontology of Fake News Detection
+**PROJECT**: Detection of Misinformation in Social Media
+**PUBLICATION**: PLOS ONE
+**SOFTWARE**: Fake News Detection Classifier
+```
+**Annotation Rules:**
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "Fake News Detection Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "Fake News Detection Dataset").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+---
+
+**CONFERENCE**: International Semantic Web Conference 2022
+**DATASET**: Fake News Detection Dataset
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Ontology of Fake News Detection
+**PROJECT**: Detection of Misinformation in Social Media
+**PUBLICATION**: PLOS ONE
+**SOFTWARE**: Fake News Detection Classifier
+```

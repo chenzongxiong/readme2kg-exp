@@ -1,0 +1,11 @@
+```
+CONFERENCE: LinConGauss
+DATASET: LinConGauss
+EVALMETRIC: Integral, Samples
+LICENSE: MIT
+ONTOLOGY: Gaussian Linear Domain Constraints Ontology
+PROJECT: Gaussian Linear Domain Constraints Project
+PUBLICATION: Integral and Samples of Gaussians under Linear Domain Constraints
+SOFTWARE: Gaussian Linear Domain Constraints Software
+WORKSHOP: Gaussian Linear Domain Constraints Workshop
+```

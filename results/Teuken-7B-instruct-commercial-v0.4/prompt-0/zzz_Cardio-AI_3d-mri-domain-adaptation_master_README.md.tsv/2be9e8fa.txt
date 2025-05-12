@@ -1,0 +1,10 @@
+```
+CONFERENCE: Late After Repair of Tetralogy of Fallot
+DATASET: CMR_TETRALOGY
+EVALMETRIC: Percentile
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Cardiovascular Function Late After Repair of Tetralogy of Fallot Ontology
+PROJECT: CMR_TETRALOGY
+PUBLICATION: Late After Repair of Tetralogy of Fallot: Percentile Based on Cardiac Magnetic Resonance
+SOFTWARE: Cardiac Magnetic Resonance (CMR)
+```

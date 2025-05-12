@@ -1,0 +1,9 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+**DATASET**: MaALESCENCE dataset
+**EVALMETRIC**: F1-Score
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Thermal Image Super-Resolution Workshop

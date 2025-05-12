@@ -1,0 +1,157 @@
+```markdown
+**Conference**:** International Semantic Web Conference 2019**
+**Conference**:** ISWC 2019**
+**Conference**:** CVPR2023** workshop
+**DATASET**:** Maules Creek**
+**LICENSE**:** cc-by-3**
+**LICENSE**:** CC BY-NC 4.0**
+**ONTOLOGY**:** Intelligence Task Ontology**
+**ONTOLOGY**:** Ontology of the Semantic Web**
+**ONTOLOGY**:** Ontology of the Semantic Web**
+**PROJECT**:** Paper With Code**
+**PUBLICATION**:** No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths**
+**PUBLICATION**:** Proceedings of the 32nd ACM International Conference on Information and Knowledge Management**
+**SOFTWARE**:** Protege Ontology Editor**
+**WORKSHOP**:** Workshop on Visual Information Extraction from Videos and Images**
+**CONFERENCE**:** International Joint Conference on Artificial Intelligence**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-2013**
+**DATASET**:** IST-201

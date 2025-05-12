@@ -1,0 +1,41 @@
+**Annotated Text:**
+```markdown
+**Conferences:****
+
+- **CVPR2023** workshop
+- **International Semantic Web Conference 2019**
+
+**Datasets:**
+- **Maules Creek**
+
+**Evaluation Metrics:**
+- **Precision**
+- **Recall**
+- **F1-Score**
+- **BLEU Score**
+
+**Licenses:**
+- cc-by-3
+- CC BY-NC 4.0
+
+**Ontologies:**
+- Intelligence Task Ontology
+
+**Programming Languages:**
+- Python
+- PHP
+- C++
+
+**Projects:**
+- Paper With Code (<https://paperswithcode.com/>)
+
+**Publications:**
+- No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+**Software:**
+- Protege ontology editor
+
+**Workshops:**
+- Thermal Image Super-Resolution (<https://pbvs-workshop.github.io/datasets.html>)
+```
+The original text with entities directly annotated using XML-style tags for their respective classes.

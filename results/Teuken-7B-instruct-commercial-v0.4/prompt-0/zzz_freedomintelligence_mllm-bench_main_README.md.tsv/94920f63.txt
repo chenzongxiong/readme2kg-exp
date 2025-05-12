@@ -1,0 +1,3 @@
+```
+The <DATASET>USTPO MIT</DATASET> dataset from (<URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</URL>).
+```

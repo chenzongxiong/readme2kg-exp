@@ -1,0 +1,16 @@
+```scss
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet
+
+**EVALMETRIC**: Accuracy
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Semantic Web Ontology Language (OWL)
+
+**PROJECT**: Ontology-based Semantic Integration (OSINT)
+
+**PUBLICATION**: Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)
+
+**SOFTWARE**: Protege Ontology Editor

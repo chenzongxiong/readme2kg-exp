@@ -1,0 +1,25 @@
+```
+## Entities annotated in text:
+
+* <SOFTWARE>Protege Ontology Editor</SOFTWARE>
+* <CONFERENCE>CVPR2023</CONFERENCE>
+* <DATASET>Maules Creek</DATASET>
+* <LICENSE>cc-by-3</LICENSE>
+* <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+* <PROJECT>Paper With Code</PROJECT>
+* <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>
+* <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+```
+Markdown format with entities directly annotated using XML-style tags for their respective classes:
+```
+## Entities annotated in text:
+
+* <SOFTWARE>Protege Ontology Editor</SOFTWARE>
+* <CONFERENCE>CVPR2023</CONFERENCE>
+* <DATASET>Maules Creek</DATASET>
+* <LICENSE>cc-by-3</LICENSE>
+* <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+* <PROJECT>Paper With Code</PROJECT>
+* <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>
+* <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+```

@@ -1,0 +1,11 @@
+```
+CONFERENCE: This repository contains all code, instructions, and model weights necessary to run the method or to retrain a model.
+DATASET: The dataset used in this research is called "BookSum Dataset".
+EVALMETRIC: The evaluation metrics used in this study are precision, recall, F1-score, and BLEU score.
+LICENSE: The legal terms and conditions for using this resource are cc-by-3 and CC BY-NC 4.0.
+ONTOLOGY: The Intelligence Task Ontology is used in this research.
+PROJECT: The Paper With Code project is aimed at addressing a research question or achieving a specific goal.
+PUBLICATION: The Proceedings of the 32nd ACM International Conference on Information and Knowledge Management contains the paper "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths".
+SOFTWARE: The Protege ontology editor is used to explore and edit the resource.
+WORKSHOP: The Thermal Image Super-Resolution workshop is focused on the specific subject.
+```

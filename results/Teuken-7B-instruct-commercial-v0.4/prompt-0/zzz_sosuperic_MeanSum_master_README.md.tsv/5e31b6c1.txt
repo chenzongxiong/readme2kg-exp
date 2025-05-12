@@ -1,0 +1,11 @@
+```
+CONFERENCE    International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET      IST-2020-0001: US Patent and Trademark Office (USPTO) Patent Visualization System (PAV-SOD)
+EVALMETRIC   Precision
+LICENSE      CC BY-NC 4.0
+ONTOLOGY     Visual Attention Ontology (PAV-SOD)
+PROJECT      Paper With Code
+PUBLICATION  No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE     Ontology Editor for Protege
+WORKSHOP     Thermal Image Super-Resolution Workshop
+```

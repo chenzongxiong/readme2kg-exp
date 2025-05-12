@@ -1,0 +1,12 @@
+```
+## Annotation Rules
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+- Use XML-style tags for the entity classes: `<CONFERENCE>`, `<DATASET>`, `<EVALMETRIC>`, `<LICENSE>`, `<ONTOLOGY>`, `<PROJECT>`, `<PUBLICATION>`, `<SOFTWARE>`, and `<WORKSHOP>`.
+- Use the following format for the annotation: `<ENTITY_CLASS>:<ENTITY_TEXT>`.
+## Output Format
+Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+```
+The `<SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.`

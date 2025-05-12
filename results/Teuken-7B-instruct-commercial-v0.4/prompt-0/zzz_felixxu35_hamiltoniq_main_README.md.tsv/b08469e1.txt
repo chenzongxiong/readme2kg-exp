@@ -1,0 +1,15 @@
+The **Conference**, **Dataset**, **Evaluation Metric**, **License**, **Ontology**, **Project**, **Publication**, **Software**, **Workshop** entities were identified in the input text.
+
+The original text with the entities annotated in XML-style tags is:
+```markdown
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> was held in Dresden, Germany.
+The <DATASET>Maules Creek</DATASET> dataset is available for download from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip).
+Evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+The <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> licenses are available for use.
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is used for knowledge representation.
+The <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> are programming languages used.
+The <PROJECT>Paper With Code</PROJECT> project aims to promote research in this area.
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> was published in the <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is a software tool used for ontology editing.
+The <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> is an educational session focused on thermal image super-resolution.
+```

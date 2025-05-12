@@ -1,0 +1,3 @@
+**Annotated Text:**
+```markdown
+**Conference:**** The current API version requires exactly one ground truth column in the schema, though you can later add datasets that don't contain this ground truth column.** ```

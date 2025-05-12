@@ -1,0 +1,19 @@
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+
+```
+<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>, <CONFERENCE>ISWC 2019</CONFERENCE>, <CONFERENCE>CVPR2023</CONFERENCE> workshop
+<DATASET>Maules Creek</DATASET>, Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+```
+Precision, Recall, F1-Score, and BLEU Score
+<LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE>
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+<PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG>
+<PROJECT>Paper With Code</PROJECT> (https://<PROJECT>paperswithcode</PROJECT>.com/)
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> The <SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+```
+```
+<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>, <CONFERENCE>ISWC 2019</CONFERENCE>, <CONFERENCE>CVPR2023</CONFERENCE> workshop
+<DATASET>Maules Creek</DATASET>, Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+```

@@ -1,0 +1,13 @@
+The annotation of the given text is as follows:
+```markdown
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2019)
+DATASET: IJCAI-19 Shared Task System
+EVALMETRIC: AUC-ROC
+LICENSE: CC-BY-3.0
+ONTOLOGY: IJCAI-19 Shared Task Ontology
+PROJECT: IJCAI-19 Shared Task
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protégé ontology editor
+WORKSHOP: Workshop on Artificial Intelligence and Computational Linguistics (AICL-19)
+```
+Note: The annotation rules have been strictly followed, and entities have been tagged based on their context. The original text is unchanged.

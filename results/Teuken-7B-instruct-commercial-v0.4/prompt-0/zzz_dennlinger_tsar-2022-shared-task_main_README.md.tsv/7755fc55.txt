@@ -1,0 +1,11 @@
+```
+CONFERENCE: Artificial Intelligence in Law
+DATASET: AI4J-SST
+EVALMETRIC: Precision
+LICENSE: cc-by-3.0
+ONTOLOGY: Ontology of Artificial Intelligence in Law
+PROJECT: Creating an Ontology of Artificial Intelligence in Law
+PUBLICATION: Artificial Intelligence in Law: A Guide to the Use of Artificial Intelligence in Legal Domain
+SOFTWARE: Protege Ontology Editor
+WORKSHOP: Workshop on Artificial Intelligence in Law (AI4J-SST)
+```

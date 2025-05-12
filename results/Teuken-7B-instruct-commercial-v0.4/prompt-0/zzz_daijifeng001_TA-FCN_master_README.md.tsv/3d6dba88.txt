@@ -1,0 +1,5 @@
+Output Text:
+```scss
+# NER Annotated Text in Markdown Format
+## Input Text
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.

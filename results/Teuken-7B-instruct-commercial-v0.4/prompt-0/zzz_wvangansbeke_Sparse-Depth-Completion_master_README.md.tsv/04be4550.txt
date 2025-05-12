@@ -1,0 +1,21 @@
+```
+BEWARE THAT THIS CHANGE WILL ALTER THE APPEARANCE OF THE CONFIDENCE MAPS SINCE FUSION HAPPENS AT MULTIPLE STAGES NOW
+```
+
+Annotated Text:
+```vbnet
+<CONFERENCE>Conference 2023</CONFERENCE>
+<DATASET>Dataset Name</DATASET>
+<EVALMETRIC>Evaluation Metric</EVALMETRIC>
+<LICENSE>License Name</LICENSE>
+<ONTOLOGY>Ontology Name</ONTOLOGY>
+<PROGLANG>Programming Language</PROGLANG>
+<PROJECT>Project Name</PROJECT>
+<PUBLICATION>Publication Title</PUBLICATION>
+<SOFTWARE>Software Name</SOFTWARE>
+<WORKSHOP>Workshop Name</WORKSHOP>
+```
+Explanation:
+
+* The entities in the input text have been annotated using the appropriate classes from the guidelines.
+* The original text is returned with the entities directly tagged in XML-style tags.

@@ -1,0 +1,11 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Structured collections of data
+* EVALMETRIC: Evaluation metrics for models
+* LICENSE: Licensing terms
+* ONTOLOGY: Semantic frameworks for knowledge representation
+* PROJECT: Scientific or business initiatives
+* PUBLICATION: Scholarly works
+* SOFTWARE: Programs or tools
+* WORKSHOP: Workshop events
+
+The dataset splits supplied alongside the original dataset are used as is.

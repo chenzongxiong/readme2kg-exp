@@ -1,0 +1,10 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: ISWC 2019
+*CONFERENCE**: CVPR2023
+*LICENSE**: cc-by-3
+*ONTOLOGY**: Intelligence Task Ontology
+*PROJECT**: Paper With Code
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*SOFTWARE**: Protege ontology editor
+*WORKSHOP**: PbVS-workshop
+*CONFERENCE**: PAV-SOD: Panoramic Audiovisual Saliency Detection

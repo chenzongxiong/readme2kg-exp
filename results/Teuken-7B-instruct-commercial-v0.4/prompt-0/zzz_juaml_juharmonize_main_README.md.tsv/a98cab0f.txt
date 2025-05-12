@@ -1,0 +1,1 @@
+PrettYharmonize is an approach that uses "pretense" of target labels to address the problem of overfitting in machine learning models. It preserves biologically relevant signals without introducing leakage.

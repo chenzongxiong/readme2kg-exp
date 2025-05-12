@@ -1,0 +1,10 @@
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+The processed datasets will be released soon, because of the large size of the datasets (graph with esm embeddings), we will upload the pipeline to process the raw data.
+
+### Raw Datasets
+
+#### SC-PDB <https://github.com/jivankandel/PUResNet/blob/main/scpdb_subset.zip>
+
+#### COACH420/HOLO4K <https://github.com/rdk/p2rank-datasets>
+```

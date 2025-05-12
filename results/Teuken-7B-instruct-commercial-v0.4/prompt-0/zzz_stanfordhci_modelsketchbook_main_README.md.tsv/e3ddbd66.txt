@@ -1,0 +1,59 @@
+**CONFERENCE**: Credentials.
+*Definition*:
+A formal meeting or gathering focused on a particular field of study or topic.
+*Example*:
+`<CONFERENCE>Credentials</CONFERENCE>`
+
+**DATASET**: Credentials.
+*Definition*:
+A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.
+*Example*:
+`<DATASET>Credentials</DATASET>`
+
+**EVALMETRIC**: Credentials.
+*Definition*:
+A quantitative measure used to assess the performance and effectiveness of a statistical or machine learning model.
+*Example*:
+`<EVALMETRIC>Credentials</EVALMETRIC>`
+
+**LICENSE**: Credentials.
+*Definition*:
+Legal terms and conditions for using a particular resource.
+*Example*:
+`<LICENSE>Credentials</LICENSE>`
+
+**ONTOLOGY**: Credentials.
+*Definition*:
+A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.
+*Example*:
+`<ONTOLOGY>Credentials</ONTOLOGY>`
+
+**PROGLANG**: Credentials.
+*Definition*:
+A formal language used for implementing software.
+*Example*:
+`<PROGLANG>Credentials</PROGLANG>`
+
+**PROJECT**: Credentials.
+*Definition*:
+A planned initiative aimed at addressing a research question or achieving a specific goal.
+*Example*:
+`<PROJECT>Credentials</PROJECT>`
+
+**PUBLICATION**: Credentials.
+*Definition*:
+A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+*Example*:
+`<PUBLICATION>Credentials</PUBLICATION>`
+
+**SOFTWARE**: Credentials.
+*Definition*:
+Programs or tools designed to perform specific tasks on electronic devices.
+*Example*:
+`<SOFTWARE>Credentials</SOFTWARE>`
+
+**WORKSHOP**: Credentials.
+*Definition*:
+An educational or hands-on session focused on a specific subject.
+*Example*:
+`<WORKSHOP>Credentials</WORKSHOP>`

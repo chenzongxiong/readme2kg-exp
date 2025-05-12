@@ -1,0 +1,22 @@
+```vbnet
+## H-Scores
+
+The following results were obtained on the built-in Q matrices.
+```
+**Guidelines Followed:**
+
+- Entities were classified into their respective categories.
+- Proper names were included but standalone generic descriptors were excluded.
+- A single-class annotation per entity was used based on the context.
+- Nested entities were annotated separately.
+- Punctuation marks were included only if they were part of the entity.
+- Entities within URLs were annotated.
+
+---
+
+**Annotated Text:**
+```vbnet
+## H-Scores
+
+The <DATASET>built-in Q matrices</DATASET> were used to obtain the following results:
+```

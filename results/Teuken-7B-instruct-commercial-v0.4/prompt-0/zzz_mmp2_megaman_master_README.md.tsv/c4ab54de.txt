@@ -1,0 +1,18 @@
+The entities in the input text are:
+
+1. "Conference"
+2. "Workshop"
+3. "Dataset"
+4. "Evaluation metric"
+5. "License"
+6. "Ontology"
+7. "Project"
+8. "Publication"
+9. "Software"
+10. "Workshop"
+
+Here's the Markdown-formatted annotated text:
+```markdown
+**Conference**
+*Definition*: A formal meeting or gathering focused on a particular field of study or topic.
+*Example*: `<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>`, `<CONFERENCE>ISWC 2019</CONFERENCE>`, `<CONFERENCE>CVPR2023</CONFERENCE> workshop**

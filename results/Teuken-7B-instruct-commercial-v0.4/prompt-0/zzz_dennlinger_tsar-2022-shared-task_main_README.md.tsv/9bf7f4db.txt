@@ -1,0 +1,19 @@
+```
+## Annotation Rules
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+- Use lowercase for all entities.
+## Output Format
+- Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+    - `<DATASET>BookSum Dataset</DATASET>`
+    - `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>`
+    - `<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>`
+    - `<LICENSE>AGPL 3.0v license</LICENSE>`
+    - `<PROJECT>Paper With Code</PROJECT>`
+    - `<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+- Your output should be in Markdown format with all entities tagged as instructed.
+```
+Note: The text provided is a sample input, and the actual input might have different entities and classes.

@@ -1,0 +1,9 @@
+**CONFERENCE**: International Conference on Machine Learning (ICML)
+*DATASET**: UCI Machine Learning Repository
+*EVALMETRIC**: Accuracy
+*LICENSE**: Creative Commons Attribution 3.0 Unported
+*ONTOLOGY**: Ontology of Educational Data Mining (EDM)
+*PROJECT**: Educational Data Mining (EDM) Workshop
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM)
+*SOFTWARE**: Weka
+*WORKSHOP**: Workshop on Educational Data Mining (EDM)

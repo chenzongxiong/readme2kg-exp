@@ -1,0 +1,10 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford Large Movie Review Dataset
+EVALMETRIC: Average Perplexity
+LICENSE: CC0 1.0 Universal
+ONTOLOGY: Common Sense Reasoning Ontology
+PROJECT: Ontology-based Information Extraction
+PUBLICATION: Proceedings of the 18th International Conference on Computational Linguistics (COLING 2010)
+SOFTWARE: Stanford CoreNLP
+```

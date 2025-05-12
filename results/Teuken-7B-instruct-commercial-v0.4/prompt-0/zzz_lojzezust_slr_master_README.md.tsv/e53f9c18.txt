@@ -1,0 +1,135 @@
+Output Text:
+```scss     <!-- NER Annotation -->
+<CONFERENCE>Conference</CONFERENCE> in <CITY>Boston</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Natural Language Processing</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> organized by <ORGANIZATION>Google</ORGANIZATION>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>New York</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> with <COUNTRY>USA</COUNTRY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Artificial Intelligence</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>London</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Machine Learning</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>Paris</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Computer Vision</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>Berlin</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Robotics</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>Madrid</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Natural Language Processing</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>Munich</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Artificial Intelligence</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>Moscow</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Computer Vision</TOPIC>.
+
+<CONFERENCE>Conference</CONFERENCE> in <CITY>Vienna</CITY>.
+
+<CONFERENCE>Conference</CONFERENCE> on <TOPIC>Robotics</TOPIC>.
+
+<DATASET>Dataset</DATASET> from <DATASET_SOURCE>MIT</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset</DATASET> available at <DATASET_URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO_MIT.zip</DATASET_URL>.
+
+<DATASET>Dataset</DATASET> containing <DATASET_COVERAGE>100%</DATASET_COVERAGE>.
+
+<DATASET>Dataset</DATASET> based on <DATASET_SOURCE>Patents</DATASET_SOURCE>.
+
+<DATASET>Dataset</DATASET> with <DATASET_SIZE>100GB</DATASET_SIZE>.
+
+<DATASET>Dataset

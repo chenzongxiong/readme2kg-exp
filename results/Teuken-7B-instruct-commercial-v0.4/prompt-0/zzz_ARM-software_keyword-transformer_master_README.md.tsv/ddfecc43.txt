@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI-19 Workshop on Artificial Intelligence for Intelligent Tutoring Systems
+EVALMETRIC: AUC-ROC
+LICENSE: Apache 2.0
+ONTOLOGY: IJCAI 2022 Ontology
+PROJECT: JKI-AI
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: JKI-AI ontology editor
+WORKSHOP: IJCAI-19 Workshop on Artificial Intelligence for Intelligent Tutoring Systems
+```
+Note: The nested entities have been separately annotated.

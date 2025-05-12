@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2019)
+DATASET: IJCAI-19 Workshop on Artificial Intelligence for Healthcare (AIH2019)
+EVALMETRIC: Accuracy
+LICENSE: CC-BY-NC-SA
+ONTOLOGY: Ontology for Medical Information (OMI)
+PROJECT: MINERVA
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI 2019)
+SOFTWARE: MINERVA
+WORKSHOP: IJCAI-19 Workshop on Artificial Intelligence for Healthcare (AIH2019)
+```

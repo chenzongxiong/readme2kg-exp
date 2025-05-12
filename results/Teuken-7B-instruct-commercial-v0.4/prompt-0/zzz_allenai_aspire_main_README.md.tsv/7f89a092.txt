@@ -1,0 +1,47 @@
+```
+CONFERENCE: S2ORC
+LICENSE: Apache License, Version 2.0
+ONTOLOGY: S2ORC
+PROJECT: Citation Network Analysis for Knowledge Graph Construction
+PUBLICATION: "Exploring the Citation Network for Knowledge Graph Construction"
+SOFTWARE: Python
+WORKSHOP: Workshop on Semantic Computing (SemCom), 2019
+DATASET: Gorc
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+PROJECT: SemCom 2019
+CONFERENCE: ISWC
+LICENSE: Creative Commons Attribution-Share Alike 4.0 International
+PROJECT: Workshop on Semantic Computing (SemCom)
+PUBLICATION: "Exploring the Citation Network for Knowledge Graph Construction"
+SOFTWARE: Gorc
+WORKSHOP: SemCom 2019
+DATASET: Gorc Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+PROJECT: SemCom 2023
+LICENSE: Apache License, Version 2.0
+ONTOLOGY: S2ORC Ontology
+PROJECT: Citation Network Analysis for Knowledge Graph Construction
+PUBLICATION: "Exploring the Citation Network for Knowledge Graph Construction"
+SOFTWARE: Python
+WORKSHOP: Workshop on Semantic Computing (SemCom), 2023
+DATASET: Gorc
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+PROJECT: SemCom 2019
+CONFERENCE: CVPR
+LICENSE: Creative Commons Attribution-Share Alike 4.0 International
+PROJECT: Workshop on Semantic Computing (SemCom)
+PUBLICATION: "Exploring the Citation Network for Knowledge Graph Construction"
+SOFTWARE: Gorc
+WORKSHOP: SemCom 2019
+DATASET: Gorc Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+PROJECT: SemCom 2023
+LICENSE: Apache License, Version 2.0
+ONTOLOGY: S2ORC Ontology
+PROJECT: Citation Network Analysis for Knowledge Graph Construction
+PUBLICATION: "Exploring the Citation Network for Knowledge Graph Construction"
+SOFTWARE: Python
+WORKSHOP: Workshop on Semantic Computing (SemCom), 2023
+DATASET: Gorc
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+```

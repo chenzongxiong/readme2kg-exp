@@ -1,0 +1,22 @@
+**Annotation:**
+```markdown
+*CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET: Stanford CoreNLP POS Tagger
+*EVALMETRIC: Perplexity
+*LICENSE: Apache License 2.0
+*ONTOLOGY: WordNet
+*PROJECT: Stanford CoreNLP
+*PUBLICATION: Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+*SOFTWARE: Stanford CoreNLP
+```
+**Output Text:**
+
+*CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET: Stanford CoreNLP POS Tagger
+*EVALMETRIC: Perplexity
+*LICENSE: Apache License 2.0
+*ONTOLOGY: WordNet
+*PROJECT: Stanford CoreNLP
+*PUBLICATION: Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+*SOFTWARE: Stanford CoreNLP
+```

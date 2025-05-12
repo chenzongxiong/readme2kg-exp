@@ -1,0 +1,11 @@
+```
+# Original README:
+CONFERENCE: TSAR-2022-Shared-Task
+DATASET: TSAR2022 Shared Task on Lexical Simplification for English (en), Spanish (es) and Portuguese (pt)
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: None
+PROJECT: TSAR2022 Shared Task on Lexical Simplification
+PUBLICATION: None
+SOFTWARE: TSAR2022 Shared Task on Lexical Simplification Evaluation Benchmark, Guidelines, Registration Form
+WORKSHOP: None
+```

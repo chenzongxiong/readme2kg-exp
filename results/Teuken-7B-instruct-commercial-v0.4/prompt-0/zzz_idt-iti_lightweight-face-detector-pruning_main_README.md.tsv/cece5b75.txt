@@ -1,0 +1,15 @@
+```
+## Entities
+CONFERENCE: EResFD.java
+DATASET: EResFD.java
+EVALMETRIC: EResFD.java
+LICENSE: EResFD.java
+ONTOLOGY: EResFD.java
+PROJECT: EResFD.java
+PUBLICATION: EResFD.java
+SOFTWARE: EResFD.java
+WORKSHOP: EResFD.java
+PAV-SOD: EResFD.java
+llama: EResFD.java
+```
+EResFD.java contains a Java class that can be used to load a model from the assets folder and perform inference.

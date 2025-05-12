@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-19 Task 3: Machine Learning for Natural Language Processing
+
+**EVALMETRIC**: Macro F1-score
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: IJCAI 2022 Ontology
+
+**PROJECT**: IJCAI 2022 Project
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2014)
+
+**SOFTWARE**: IBM Watson Studio
+
+**WORKSHOP**: Workshop on Human-AI Collaboration for Public Benefit (PbVS-Workshop)
+```

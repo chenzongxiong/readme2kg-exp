@@ -1,0 +1,11 @@
+```
+CONFERENCE: Client-Agents 2023
+DATASET: Client-Agents Dataset
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: Client-Agents Ontology
+PROJECT: Client-Agents 2023
+PUBLICATION: Proceedings of the 2023 International Conference on Intelligent Systems Design and Engineering
+SOFTWARE: Client-Agents 2023
+WORKSHOP: Client-Agents Workshop 2023
+```

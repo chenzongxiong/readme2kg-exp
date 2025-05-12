@@ -1,0 +1,10 @@
+```markdown
+**CONFERENCE**: International Conference on Computational Linguistics
+**DATASET**: C4 Video Detection Benchmark
+**EVALMETRIC**: Mean Average Precision
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Ontology of Information Extraction
+**PROJECT**: Ontology-based Information Extraction
+**PUBLICATION**: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
+**SOFTWARE**: PyTorch
+```

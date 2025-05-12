@@ -1,0 +1,24 @@
+## Annotation
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: IJCAI-ICAPS-IJCAI-2019 shared task dataset
+EVALMETRIC: Accuracy
+LICENSE: CC-BY-NC-SA
+ONTOLOGY: IJCAI-ICAPS-IJCAI-2019 shared task ontology
+PROJECT: IJCAI-ICAPS-IJCAI-2019 shared task
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI 2020)
+SOFTWARE: IJCAI-ICAPS-IJCAI-2019 shared task submission tool
+WORKSHOP: IJCAI-ICAPS-IJCAI-2019 shared task workshop
+
+## Original Text with Annotated Entities
+
+These approaches can not implement the class hierarchy in the network structure due to the absence of decision branches, so they resort to incorporating the hierarchical relations into a NN directly.
+
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: IJCAI-ICAPS-IJCAI-2019 shared task dataset
+EVALMETRIC: Accuracy
+LICENSE: CC-BY-NC-SA
+ONTOLOGY: IJCAI-ICAPS-IJCAI-2019 shared task ontology
+PROJECT: IJCAI-ICAPS-IJCAI-2019 shared task
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI 2020)
+SOFTWARE: IJCAI-ICAPS-IJCAI-2019 shared task submission tool
+WORKSHOP: IJCAI-ICAPS-IJCAI-2019 shared task workshop

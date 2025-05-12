@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: Stanford CoreNLP Dataset
+EVALMETRIC: BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Common Sense Reasoning Ontology
+PROJECT: Open Mind Common Sense Reasoning Project
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Evaluation Metrics for Text Classification
+URL: <https://ai.meta.com/llama>
+```

@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Neural Networks
+**DATASET**: CIFAR-10
+**EVALMETRIC**: Top-1 Accuracy
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: CIDOC Conceptual Reference Ontology
+**PROJECT**: TensorFlow
+**PUBLICATION**: Advances in Neural Information Processing Systems
+**SOFTWARE**: TensorFlow
+**WORKSHOP**: Winter School on Machine Learning for Visual and Data Analytics
+```

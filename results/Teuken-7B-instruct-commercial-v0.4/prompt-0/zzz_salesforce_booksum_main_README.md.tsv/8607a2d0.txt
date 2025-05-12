@@ -1,0 +1,12 @@
+**Annotation:**
+
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Workshop Program
+PUBLICATION: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023)
+SOFTWARE: IJCAI 2023 Ontology Annotation Tool
+
+WORKSHOP: IJCAI 2023 Workshop Program
+
+The <SOFTWARE>IJCAI 2023 Ontology Annotation Tool</SOFTWARE> is used to annotate entities in the IJCAI 2023 Ontology.

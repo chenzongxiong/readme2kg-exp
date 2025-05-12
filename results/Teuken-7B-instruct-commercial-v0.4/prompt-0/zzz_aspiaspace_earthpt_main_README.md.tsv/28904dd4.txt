@@ -1,0 +1,10 @@
+```
+CONFERENCE: EarthPT
+DATASET: Repository for training time series large observation models.
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: EarthPT Ontology
+PROJECT: EarthPT
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: EarthPT Ontology Editor
+WORKSHOP: EarthPT Workshop
+```

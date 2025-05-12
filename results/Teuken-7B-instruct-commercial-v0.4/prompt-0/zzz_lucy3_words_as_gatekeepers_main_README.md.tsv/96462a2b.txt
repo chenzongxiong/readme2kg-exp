@@ -1,0 +1,6 @@
+```
+CONFERENCE: Words as Gatekeepers
+DATASET: Words as Gatekeepers
+LICENSE: CC BY-NC 4.0
+AUTHORS: Li Lucy, Jesse Dodge, David Bamman, Katherine A.
+```

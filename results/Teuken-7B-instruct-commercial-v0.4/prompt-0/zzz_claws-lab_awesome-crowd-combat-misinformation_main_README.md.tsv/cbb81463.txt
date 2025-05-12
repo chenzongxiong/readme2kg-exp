@@ -1,0 +1,63 @@
+**Conferences:**
+
+* International Semantic Web Conference 2019
+* ISWC 2019
+* CVPR2023 workshop
+
+**Datasets:**
+
+* Maules Creek
+* USTPO MIT
+
+**Evaluation Metrics:**
+
+* Precision
+* Recall
+* F1-Score
+* BLEU Score
+
+**Licenses:**
+
+* cc-by-3
+* CC BY-NC 4.0
+
+**Ontologies:**
+
+* Intelligence Task Ontology
+
+**Programming Languages:**
+
+* Python
+* PHP
+* C++
+
+**Projects:**
+
+* Paper With Code
+* No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+* Sequence-to-Sequence Learning for Conversational Agents
+* Sequence-to-Sequence Learning for Dialogue Systems
+* Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Modeling Sequences of Excessive or Insufficient Lengths with Knowledge Tracing
+* Modeling Sequences of Excessive or Insufficient Lengths with Knowledge Tracing: A Survey
+
+**Publications:**
+
+* No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+* Sequence-to-Sequence Learning for Conversational Agents
+* Sequence-to-Sequence Learning for Dialogue Systems
+* Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Modeling Sequences of Excessive or Insufficient Lengths with Knowledge Tracing
+* Modeling Sequences of Excessive or Insufficient Lengths with Knowledge Tracing: A Survey
+
+**Software:**
+
+* Protege ontology editor
+
+**Workshops:**
+
+* Thermal Image Super-Resolution
+
+Note: The entities and annotations provided are for illustrative purposes only.

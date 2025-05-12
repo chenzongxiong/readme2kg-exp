@@ -1,0 +1,3 @@
+**CONFERENCE**: Algorithms.
+
+The International Joint Conference on Artificial Intelligence (IJCAI) is a conference focused on artificial intelligence research.

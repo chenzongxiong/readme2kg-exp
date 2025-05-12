@@ -1,0 +1,22 @@
+**Annotated Text:**
+```markdown
+**CONFERENCE**            : International Joint Conference on Neural Networks (IJCNN)  
+**DATASET**               : IJCNN 2018 Workshop on Deep Learning for Signal and Image Processing (DLSIP) 
+**EVALMETRIC**           : Accuracy 
+**LICENSE**              : CC BY 4.0 
+**ONTOLOGY**              : Deep Learning Ontology 
+**PROJECT**               : IJCNN 2018 Workshop on Deep Learning for Signal and Image Processing (DLSIP) 
+**PUBLICATION**          : Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM) 
+**SOFTWARE**              : Orange 
+**WORKSHOP**              : International Joint Conference on Artificial Intelligence (IJCAI) 
+```
+**CONFERENCE**            : International Joint Conference on Neural Networks (IJCNN)  
+**DATASET**               : IJCNN 2018 Workshop on Deep Learning for Signal and Image Processing (DLSIP) 
+**EVALMETRIC**           : Accuracy 
+**LICENSE**              : CC BY 4.0 
+**ONTOLOGY**              : Deep Learning Ontology 
+**PROJECT**               : IJCNN 2018 Workshop on Deep Learning for Signal and Image Processing (DLSIP) 
+**PUBLICATION**          : Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM) 
+**SOFTWARE**              : Orange 
+**WORKSHOP**              : International Joint Conference on Artificial Intelligence (IJCAI) 
+```

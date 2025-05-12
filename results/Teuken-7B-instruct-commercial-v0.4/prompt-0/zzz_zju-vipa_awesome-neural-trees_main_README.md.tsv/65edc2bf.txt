@@ -1,0 +1,1 @@
+Adopting Datatypes (DTs) to approximate the target concept of neural networks (NNs) in terms of logical descriptions, *i.e.*, using DTs to design neural networks with structural priors

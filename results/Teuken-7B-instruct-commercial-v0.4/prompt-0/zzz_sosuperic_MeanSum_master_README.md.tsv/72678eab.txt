@@ -1,0 +1,29 @@
+**Named Entity Recognition**
+
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Mauls Creek
+* EVALMETRIC: Precision
+* LICENSE: cc-by-3
+* ONTOLOGY: Intelligence Task Ontology
+* PROJECT: Paper With Code
+* PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* SOFTWARE: Protege ontology editor
+* WORKSHOP: Thermal Image Super-Resolution
+
+**Annotation Rules:**
+
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+---
+
+**Download classification model and place in ```
+stable_checkpoints/clf/cnn/yelp/batch_size_256-notes_data260_fixed/```:
+
+*[link](https://s3.us-east-2.amazonaws.com/unsup-sum/clf_e10_l0.6760_a0.7092.pt)  
+### Reference summaries 
+
+* Download from: [link](https://s3.us-east-2.amazonaws.com/unsup-sum/summaries_0-200_cleaned.csv).

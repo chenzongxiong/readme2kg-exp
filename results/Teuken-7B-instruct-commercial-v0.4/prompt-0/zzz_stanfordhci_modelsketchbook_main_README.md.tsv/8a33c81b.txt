@@ -1,0 +1,76 @@
+```
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> is a significant event in the field of knowledge representation and reasoning. It focuses on the advancements in the Semantic Web and Linked Data technologies. The conference provides a platform for researchers and practitioners to present their work and engage in discussions on the latest developments and challenges in the field. The conference offers various sessions, workshops, and tutorials, covering a wide range of topics, including ontology engineering, semantic web applications, and semantic web infrastructure. The conference is held annually and is attended by experts from various domains, including computer science, information science, and artificial intelligence.
+
+The <DATASET>IST 2019 Challenge</DATASET> is one of the competitions held during the conference. It is an open-domain text classification task, where participants are required to classify news articles into one of the five categories: Technology, Business, Sports, Entertainment, and Health. The dataset consists of 20 news articles for each category, and the task is to predict the category of the test article. The dataset is available for download from the conference website.
+
+Evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+
+The <LICENSE>CC-BY-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> are the available licenses to use for this dataset.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is a knowledge representation formalism used to define the categories and relationships in the dataset. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for sports news classification.
+
+The <ONTOLOGY>IST 2019 Challenge Ontology</ONTOLOGY> is an ontology for sports news classification. It is based on the IST Ontology, which is a general ontology for

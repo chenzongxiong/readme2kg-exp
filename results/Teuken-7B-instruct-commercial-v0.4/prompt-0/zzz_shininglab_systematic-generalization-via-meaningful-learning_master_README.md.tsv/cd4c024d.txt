@@ -1,0 +1,22 @@
+**Entities:**
+
+CONFERENCE: International Joint Conference on Neural Networks and Deep Learning (IJCNN)
+DATASET: IJCNN 2022 Workshop on Adversarial Robustness for Neural Networks (AR2N 2022)
+EVALMETRIC: Accuracy
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: Machine Learning Ontology (MLO)
+PROJECT: Adversarial Robustness for Neural Networks (AR2N)
+PUBLICATION: Proceedings of the International Joint Conference on Neural Networks and Deep Learning (IJCNN)
+SOFTWARE: TensorFlow
+*WORKSHOP: International Joint Conference on Neural Networks and Deep Learning (IJCNN) 2022 Workshop on Adversarial Robustness for Neural Networks (AR2N 2022)
+
+**Annotations:**
+
+* <CONFERENCE>International Joint Conference on Neural Networks and Deep Learning (IJCNN)</CONFERENCE>
+* <DATASET>IJCNN 2022 Workshop on Adversarial Robustness for Neural Networks (AR2N 2022)</DATASET>
+* <EVALMETRIC>Accuracy</EVALMETRIC>
+* <LICENSE>Creative Commons Attribution 4.0 International (CC BY 4.0)</LICENSE>
+* <ONTOLOGY>Machine Learning Ontology (MLO)</ONTOLOGY>
+* <PROJECT>Adversarial Robustness for Neural Networks (AR2N)</PROJECT>
+* <PUBLICATION>Proceedings of the International Joint Conference on Neural Networks and Deep Learning (IJCNN)</PUBLICATION>
+* <SOFTWARE>TensorFlow</SOFTWARE>

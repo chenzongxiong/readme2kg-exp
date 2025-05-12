@@ -1,0 +1,33 @@
+```
+## CONFERENCE
+<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>
+<CONFERENCE>ISWC 2019</CONFERENCE>
+<CONFERENCE>CVPR2023</CONFERENCE workshop>
+
+## DATASET
+<DATASET>Maules Creek</DATASET>
+
+### EVALMETRIC
+<EVALMETRIC>Precision</EVALMETRIC>
+<EVALMETRIC>Recall</EVALMETRIC>
+<EVALMETRIC>F1-Score</EVALMETRIC>
+<EVALMETRIC>BLEU Score</EVALMETRIC>
+
+## LICENSE
+<LICENSE>cc-by-3</LICENSE>
+<LICENSE>CC BY-NC 4.0</LICENSE>
+
+## ONTOLOGY
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+
+### PUBLICATION
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+
+## SOFTWARE
+<SOFTWARE>Protege ontology editor</SOFTWARE>
+
+### WORKSHOP
+<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>
+```
+
+Note: This is a sample output based on the provided text. The actual output will depend on the input text.

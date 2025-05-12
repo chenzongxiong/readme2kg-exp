@@ -1,0 +1,58 @@
+```
+## Entities and Annotations
+
+- CONFERENCE: The International Joint Conference on Artificial Intelligence (IJCAI)
+  * Definition: A major annual conference in the field of artificial intelligence, typically featuring keynote speakers, tutorials, and technical sessions.
+  * Example: <CONFERENCE>IJCAI 2023</CONFERENCE>
+- DATASET: IJCAI-2023 Competition Dataset
+  * Definition: A collection of data used for training and evaluating AI models in the context of the IJCAI-2023 conference.
+  * Example: <DATASET>IJCAI2023</DATASET>
+- CONFERENCE: Workshop on Artificial Intelligence and its Applications (WAIIC)
+  * Definition: A conference focused on the application of artificial intelligence in various domains.
+  * Example: <CONFERENCE>WAIIC 2019</CONFERENCE>
+- DATASET: WAIIC 2021 Competition Dataset
+  * Definition: A dataset used for training and evaluating AI models in the context of the WAIIC 2021 conference.
+  * Example: <DATASET>WAIIC2021</DATASET>
+- CONFERENCE: International Conference on Machine Learning (ICML)
+  * Definition: A major annual conference in the field of machine learning, featuring keynote speakers, tutorials, and technical sessions.
+  * Example: <CONFERENCE>ICML 2018</CONFERENCE>
+- DATASET: ICML 2018 Competition Dataset
+  * Definition: A collection of data used for training and evaluating machine learning models in the context of the ICML 2018 conference.
+  * Example: <DATASET>ICML2018</DATASET>
+- CONFERENCE: Workshop on Computational Fairness, Accountability, and Transparency (CFAST)
+  * Definition: A conference focused on the development of fair, accountable, and transparent AI systems.
+  * Example: <CONFERENCE>CFAST 2019</CONFERENCE>
+- DATASET: CFAST 2020 Competition Dataset
+  * Definition: A dataset used for training and evaluating AI models in the context of the CFAST 2020 workshop.
+  * Example: <DATASET>CFAST2020</DATASET>
+- CONFERENCE: International Conference on Web and Social Media (ICWSM)
+  * Definition: A conference focused on the intersection of web and social media, featuring keynote speakers, tutorials, and technical sessions.
+  * Example: <CONFERENCE>ICWSM 2017</CONFERENCE>
+- DATASET: ICWSM 2018 Competition Dataset
+  * Definition: A collection of data used for training and evaluating AI models in the context of the ICWSM 2018 conference.
+  * Example: <DATASET>ICWSM2018</DATASET>
+- CONFERENCE: Workshop on Semantic Computing (SemCom)
+  * Definition: A conference focused on the development of semantic technologies and applications.
+  * Example: <CONFERENCE>SemCom 2019</CONFERENCE>
+- DATASET: SemCom 2020 Competition Dataset
+  * Definition: A dataset used for training and evaluating AI models in the context of the SemCom 2020 workshop.
+  * Example: <DATASET>SemCom2020</DATASET>
+- CONFERENCE: Workshop on Semantic Annotation, Representation, and Integration (NARX)
+  * Definition: A workshop focused on the development of semantic annotation, representation, and integration techniques.
+  * Example: <CONFERENCE>NARX 2019</CONFERENCE>
+- DATASET: NARX 2020 Competition Dataset
+  * Definition: A collection of data used for training and evaluating AI models in the context of the NARX 2020 workshop.
+  * Example: <DATASET>NARX2020</DATASET>
+- CONFERENCE: Workshop on Social Media Analytics (SMW)
+  * Definition: A conference focused on the analysis of social media data, featuring keynote speakers, tutorials, and technical sessions.
+  * Example: <CONFERENCE>SMW 2018</CONFERENCE>
+- DATASET: SMW 2019 Competition Dataset
+  * Definition: A dataset used for training and evaluating AI models in the context of the SMW 2019 workshop.
+  * Example: <DATASET>SMW2019</DATASET>
+- CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+  * Definition: A conference focused on evaluating the performance of AI models in various semantic tasks.
+  * Example: <CONFERENCE>SemEval 2018</CONFERENCE>
+- DATASET: SemEval 2019 Competition Dataset
+  * Definition: A collection of data used for training and evaluating AI models in the context of the SemEval 2019 workshop.
+  * Example: <DATASET>SemEval2019</DATASET>
+```

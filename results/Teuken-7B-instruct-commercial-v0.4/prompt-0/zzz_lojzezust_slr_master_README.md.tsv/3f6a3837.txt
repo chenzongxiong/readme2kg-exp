@@ -1,0 +1,9 @@
+**CONFERENCE**: International Conference on Machine Learning
+*DATASET**: Stanford Online Introduction to Databases
+*EVALMETRIC**: Precision, Recall, F1-Score
+*LICENSE**: Creative Commons Attribution-Share Alike
+*ONTOLOGY**: Dublin Core
+*PROJECT**: Machine Learning Crash Course
+*PUBLICATION**: Proceedings of the International Conference on Machine Learning
+*SOFTWARE**: Weka
+*WORKSHOP**: Workshop on Deep Learning for Computer Vision

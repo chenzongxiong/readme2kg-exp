@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2019 Dataset
+EVALMETRIC: Precision
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: IJCAI 2019 Ontology
+PROJECT: IJCAI 2019 Project
+PUBLICATION: Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI 2019)
+SOFTWARE: IJCAI Ontology Editor
+WORKSHOP: IJCAI 2019 Workshop
+```

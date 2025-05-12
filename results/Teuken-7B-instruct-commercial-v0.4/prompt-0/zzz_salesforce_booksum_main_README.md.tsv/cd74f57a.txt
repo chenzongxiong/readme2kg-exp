@@ -1,0 +1,25 @@
+```
+CONFERENCE: You will comply with all terms and conditions, and are responsible for obtaining all rights, related to the services you access and the data you collect. 3. INTERNATIONAL CONFERENCE ON WEB INFORMATION SCIENCE AND WEB INTELLIGENCE. WEB INTELLIGENCE 2000. ```
+
+DATASET: USTPO MIT. ```
+
+EVALMETRIC: Precision, Recall, F1-Score, and BLEU Score. ```
+
+LICENSE: cc-by-3, CC BY-NC 4.0. ```
+
+ONTOLOGY: Intelligence Task Ontology. ```
+
+PROGLANG: Python, PHP, C++. ```
+
+PROJECT: Paper With Code. <https://paperswithcode.com/> ```
+
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. ```
+
+SOFTWARE: Protege ontology editor. <https://protege.stanford.edu/> ```
+
+WORKSHOP: Thermal Image Super-Resolution. <https://pbvs-workshop.github.io/datasets.html> ```
+
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies. <https://protege.stanford.edu/> ```
+
+
+```

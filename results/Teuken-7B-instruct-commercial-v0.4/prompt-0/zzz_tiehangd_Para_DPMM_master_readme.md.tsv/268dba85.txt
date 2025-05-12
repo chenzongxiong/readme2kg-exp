@@ -1,0 +1,12 @@
+Output Text:
+```vbnet
+DATASET: Datasets folder
+EVALMETRIC: mat files
+LICENSE: Included licenses to use
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege Ontology Editor
+WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection
+```
+**Note:** In the original text, the entities are not directly annotated. However, the entities have been identified and classified according to the guidelines provided.

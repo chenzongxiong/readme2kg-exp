@@ -1,0 +1,10 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford Large Movie Review Dataset (SLR)
+EVALMETRIC: Macro F1 score
+ONTOLOGY: Semantic Information Extraction Ontology (SIET)
+PROJECT: SemEval-2017 Task 3: CoNLL 2017 shared task for named entity recognition
+PUBLICATION: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Visual and Linguistic Approaches to Semantic Understanding (VL-Sem)
+```

@@ -1,0 +1,3 @@
+```
+The <SOFTWARE>graph-tool</SOFTWARE> script supports converting S2ORC data to a `graph-tool` network, where nodes are papers labeled with paper ID
+```

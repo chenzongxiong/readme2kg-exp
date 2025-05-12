@@ -1,0 +1,1 @@
+**CONFERENCE**: The function `get_qbe_pools` in `pre_proc_treccovid.py` converts the dataset in its original form to the reformulated form, TRECCOVID-RF, used in the paper.

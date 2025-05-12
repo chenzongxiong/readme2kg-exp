@@ -1,0 +1,14 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet
+
+**EVALMETRIC**: Accuracy, Precision, Recall, F1-score, ROC AUC, PEARSON
+
+**LICENSE**: CC-BY-3.0
+
+**ONTOLOGY**: Semantic Common Ground Ontology
+
+**PROJECT**: Open Images Benchmark
+
+**PUBLICATION**: Proceedings of the IJCAI

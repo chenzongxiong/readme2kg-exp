@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Resource Description Framework (RDF)
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Representations and Reasoning (SemRep)
+```

@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: PASCAL Visual Geometry Group (VGG) dataset
+
+**EVALMETRIC**: Accuracy, Precision, Recall, F1-Score, Intersection over Union (IoU), Equal Error Rate (EER), Maximum Mean Discrepancy (MMD), Cross-Entropy Loss, Binary Cross-Entropy Loss, Smooth L1 Loss, Mean Squared Error (MSE)
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: IEEE 1541 standard for 3D models
+
+**PROJECT**: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+
+**PUBLICATION**: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+
+**SOFTWARE**: TensorFlow, PyTorch, Caffe, Chainer, Convolutional Neural Network (CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU), Autoencoder (AE)
+
+**WORKSHOP**: CVPR 2023 Workshop on Deep Learning for Computer Vision and Machine Learning

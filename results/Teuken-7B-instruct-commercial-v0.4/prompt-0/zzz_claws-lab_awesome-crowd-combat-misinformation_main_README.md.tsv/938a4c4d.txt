@@ -1,0 +1,47 @@
+**Named Entity Recognition (NER) Output in Markdown Format:**
+
+---
+
+**Conference:** International Semantic Web Conference 2019, ISWC 2019, CVPR2023 workshop
+
+**Dataset:** Mauls Creek, USTPO MIT dataset from (<https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>)
+
+**Evaluation Metric:** Precision, Recall, F1-Score, BLEU Score
+
+**License:** cc-by-3, CC BY-NC 4.0
+
+**Ontology:** Intelligence Task Ontology
+
+**Programming Language:** Python, PHP, C++
+
+**Project:** Paper With Code project (<https://paperswithcode.com/>)
+
+**Publication:** No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths, in Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+**Software:** Protege ontology editor
+
+**Workshop:** Thermal Image Super-Resolution Workshop (<https://pbvs-workshop.github.io/datasets.html>)
+
+---
+
+The Motivation-Contingent Effectiveness of Misinformation Correction on Social Media
+Evaluator  :   2022
+International Journal of Communication
+
+---
+
+Correcting science misinformation in an authoritarian country: An experiment from China
+Evaluator  :   2022
+Telematics and Informatics
+
+---
+
+Science Factionalism: How Group Identity Language Affects Public Engagement With Misinformation and Debunking Narratives on a Popular Q&A Platform in China
+Creator   :   2022
+Social Media and Society
+
+---
+
+Exploring the Effect of Spreading Fake News Debunking Based on Social Relationship Networks
+Creator   :   2022
+Frontiers in Physics

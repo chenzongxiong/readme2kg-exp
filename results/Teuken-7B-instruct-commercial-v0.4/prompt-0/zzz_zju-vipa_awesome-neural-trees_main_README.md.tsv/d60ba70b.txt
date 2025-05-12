@@ -1,0 +1,23 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: JCAI 2022 Task Force Dataset
+EVALMETRIC: Detection Report
+LICENSE: Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)
+ONTOLOGY: Task Ontology for the IJCAI 2022 Workshop on Human-AI Interaction
+PROJECT: Human-AI Interaction (HAI) Task Ontology
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI 2022)
+SOFTWARE: Protégé Ontology Editor
+WORKSHOP: IJCAI 2022 Workshop on Human-AI Interaction (HAI)
+```
+
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: JCAI 2022 Task Force Dataset
+EVALMETRIC: Detection Report
+LICENSE: Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)
+ONTOLOGY: Task Ontology for the IJCAI 2022 Workshop on Human-AI Interaction
+PROJECT: Human-AI Interaction (HAI) Task Ontology
+PUBLICATION: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI 2022)
+SOFTWARE: Protégé Ontology Editor
+WORKSHOP: IJCAI 2022 Workshop on Human-AI Interaction (HAI)
+```

@@ -1,0 +1,49 @@
+```
+## NER-Annotated Text
+- **CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+  *Definition*:
+  A major annual conference on artificial intelligence, featuring keynote speeches, tutorials, workshops, and technical sessions.
+  *Example*:
+  `<CONFERENCE>IJCAI 2023</CONFERENCE>`
+  
+- **DATASET**: IJCNN Dataset
+  *Definition*:
+  A dataset for image captioning task, specifically for the International Joint Conference on Neural Networks (IJCNN) in 2018.
+  *Example*:
+  `<DATASET>IJCNN2018</DATASET>
+  
+- **EVALMETRIC**: BLEU Score
+  *Definition*:
+  A metric for evaluating the quality of a machine translation system, based on the likelihood of a candidate translation being a correct version of a sentence in a reference language.
+  *Example*:
+  The evaluation metric used is `<EVALMETRIC>BLEU</EVALMETRIC>`.
+
+  - **ONTOLOGY**: Ontology of Human Activities
+    *Definition*:
+    A formal representation of human activities, including actions, objects, and relationships.
+    *Example*:
+    The `<ONTOLOGY>Action Ontology</ONTOLOGY>` is ...
+
+- **PROJECT**: Image and Language Generation using Neural Networks
+  *Definition*:
+  A research project aimed at developing a system that generates captions for images.
+  *Example*:
+  The `<PROJECT>Paper on Image and Language Generation using Neural Networks</PROJECT>` project (<https://arxiv.org/abs/1810.05739>)
+
+- **PUBLICATION**: Proceedings of the 36th International Conference on Machine Learning (ICML 2019)
+  *Definition*:
+  A collection of research papers presented at the International Conference on Machine Learning (ICML) in 2019.
+  *Example*:
+  `<PUBLICATION>Proceedings of the 36th International Conference on Machine Learning (ICML 2019)</PUBLICATION>`
+
+- **SOFTWARE**: Python
+  *Definition*:
+  A high-level programming language used for general-purpose programming, with a strong emphasis on code readability and ease of use.
+  *Example*:
+  You can use the `<SOFTWARE>Python</SOFTWARE>` for exploring and editing the resource.
+
+  - **WORKSHOP**: Workshop on Natural Language Processing (NLP)
+    *Definition*:
+    An educational event focused on NLP, typically featuring tutorials, talks, and poster sessions.
+    *Example*:
+    Refers to the [PAV-SOD: Panoramic Audiovisual Saliency Detection](https://<WORKSHOP>PAV-SOD</WORKSHOP>.github.io/datasets.html)

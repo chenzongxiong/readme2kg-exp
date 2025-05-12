@@ -1,0 +1,3 @@
+## Markdown Formatted Text with Entities Annotated
+
+Koehler, T. (2019). The impact of technology on education: A historical perspective. ZDM, 51(4), 733-744. <PAPER>. <PUBLICATION>. <EVALMETRIC>Precision</EVALMETRIC>: 0.891 <EVALMETRIC>Recall</EVALMETRIC>: 0.859 <EVALMETRIC>F1-Score</EVALMETRIC>: 0.874 <EVALMETRIC>BLEU Score</EVALMETRIC>: 0.393. <ONTOLOGY>Education Ontology</ONTOLOGY>. <DATASET>ISTP Education</DATASET>. <LICENSE>CC-BY-4</LICENSE>. <WORKSHOP>ISTP Workshop</WORKSHOP>.

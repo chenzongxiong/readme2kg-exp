@@ -1,0 +1,23 @@
+```
+The International Semantic Web Conference 2019 <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> is a major conference focused on the Semantic Web and Linked Data. It is held every year and provides a platform for researchers and practitioners to share their latest research and developments in the field.
+
+Maules Creek <DATASET>Maules Creek</DATASET> is a popular outdoor recreational area in Australia. It is known for its scenic beauty and diverse range of activities, including hiking, camping, and fishing.
+
+The US Trademark and Patent Office (USTPO) <DATASET>USTPO MIT</DATASET> dataset is a collection of data related to patents and trademarks from the US Trademark and Patent Office. It is used for research and analysis in various fields, including artificial intelligence and machine learning.
+
+Evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score. These metrics are used to assess the performance and effectiveness of a statistical or machine learning model.
+
+The cc-by-3 <LICENSE>cc-by-3</LICENSE> and CC BY-NC 4.0 <LICENSE>CC BY-NC 4.0</LICENSE> licenses are available for use. These licenses provide legal terms and conditions for using a particular resource.
+
+The Intelligence Task Ontology <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a framework representing knowledge about intelligence tasks. It includes concepts, entities, properties, and relationships related to intelligence tasks.
+
+Python, PHP, and C++ are programming languages. They are formal languages used for implementing software.
+
+The Paper With Code <PROJECT>Paper With Code</PROJECT> project (<https://<PROJECT>paperswithcode</PROJECT>.com/>) is a platform that aggregates research papers and their code implementations.
+
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> is a research paper published in the Proceedings of the 32nd ACM International Conference on Information and Knowledge Management <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+
+Protege ontology editor <SOFTWARE>Protege ontology editor</SOFTWARE> is a software tool designed to help users create and edit ontologies. It is widely used for creating ontologies.
+
+Panoramic Audiovisual Saliency Detection <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is a workshop focused on panoramic audiovisual saliency detection. It provides a platform for researchers to share their latest research and developments in this field.
+```

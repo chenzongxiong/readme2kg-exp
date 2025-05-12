@@ -1,0 +1,3 @@
+Greil, S. (2023). Ontology-based information extraction. In <ONTOLOGY>Information Extraction and Linking</ONTOLOGY>. Springer.
+
+Workshop on Pan-Pacific Vision and Speech Signals Processing (PAV-SOD). (2023). <WORKSHOP>PAV-SOD 2023</WORKSHOP>. <https://pavsod.github.io/>.

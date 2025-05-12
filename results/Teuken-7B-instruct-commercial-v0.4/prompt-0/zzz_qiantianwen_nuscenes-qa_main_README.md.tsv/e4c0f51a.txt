@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: BLEU Score
+LICENSE: Apache License, Version 2.0
+ONTOLOGY: Frame-based ontologies
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI-2018)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Analysis of Text (SATT 2018)
+```

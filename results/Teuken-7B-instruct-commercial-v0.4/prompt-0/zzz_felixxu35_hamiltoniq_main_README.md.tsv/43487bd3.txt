@@ -1,0 +1,54 @@
+Here's the Markdown-style annotated text with entities directly included in the original text using XML-style tags:
+```markdown
+**Conferences:**
+
+* International Semantic Web Conference 2019
+* ISWC 2019
+* CVPR2023 workshop
+
+**Datasets:**
+
+* Mauls Creek
+* USTP
+* Mauls Creek dataset from (<https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO/data.zip>)
+
+Evaluation Metrics:
+
+* Precision
+* Recall
+* F1-Score
+* BLEU Score
+
+**Licenses:**
+
+* cc-by-3
+* CC BY-NC 4.0
+
+Ontologies:
+
+* Intelligence Task Ontology
+
+Programming Languages:
+
+* Python
+* PHP
+* C++
+
+Projects:
+
+* Paper With Code
+* <https://paperswithcode.com/>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</https://proceedings.acm.org/article-abstract/p1450/1156460/no-length-left-behind-enhancing-knowledge-tracing/1540698>In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+Software:
+
+* Protege ontology editor
+
+Workshops:
+
+* Thermal Image Super-Resolution
+
+URLs with entities:
+
+* <https://ai.meta.com/llama>llama</https://ai.meta.com/llama>
+```
+In the input text, I have included entities using the provided classes and guidelines.

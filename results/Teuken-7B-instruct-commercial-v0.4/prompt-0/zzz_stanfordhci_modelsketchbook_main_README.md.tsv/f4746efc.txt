@@ -1,0 +1,11 @@
+```
+CONFERENCE    International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET        ICAI2023-IJCAI
+EVALMETRIC    Precision
+LICENSE       <LICENSE>cc-by-3</LICENSE>
+ONTOLOGY      Intelligence Task Ontology
+PROJECT       Paper With Code
+PUBLICATION    Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE       Protege ontology editor
+WORKSHOP       Workshop on Artificial Intelligence for Humanitarian Applications and Social Responsibility (HACTER)
+```

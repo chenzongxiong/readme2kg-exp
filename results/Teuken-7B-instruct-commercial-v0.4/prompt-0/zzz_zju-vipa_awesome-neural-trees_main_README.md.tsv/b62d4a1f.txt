@@ -1,0 +1,53 @@
+**Annotated Text:**
+```markdown
+**Conferences:****
+
+- **Conference**: Formal meetings or gatherings focused on a particular field of study or topic. Examples:
+* International Semantic Web Conference 2019
+* ISWC 2019
+* CVPR2023 workshop
+
+- **Datasets:**
+Structured collections of data, typically organized for analysis, research, or reference. Examples:
+* Maules Creek
+* USTP\_MIT dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO/data.zip)
+
+- **Evaluation Metrics:**
+Quantitative measures used to assess the performance and effectiveness of a statistical or machine learning model. Examples:
+* Precision
+* Recall
+* F1-Score
+* BLEU Score
+
+- **Licenses:**
+Legal terms and conditions for using a particular resource. Examples:
+* cc-by-3
+* CC BY-NC 4.0
+
+- **Ontologies:**
+Semantic frameworks for knowledge representation. Examples:
+* Intelligence Task Ontology
+
+- **Programming Languages:**
+Formal languages used for implementing software. Examples:
+* Python
+* PHP
+* C++
+
+- **Projects:**
+Scientific or business initiatives. Examples:
+* Paper With Code
+* <https://paperswithcode.com/>
+
+- **Publications:**
+Scholarly works. Examples:
+* No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+- **Software:**
+Programs or tools designed to perform specific tasks on electronic devices. Examples:
+* Protege ontology editor
+
+- **Workshops:**
+Educational or hands-on sessions focused on a specific subject. Examples:
+* Thermal Image Super-Resolution

@@ -1,0 +1,47 @@
+```
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing</CONFERENCE> is an annual conference focused on the field of natural language processing.
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing</CONFERENCE> is an annual conference focused on the field of natural language processing.
+The <DATASET>CoNLL-2012</DATASET> is a shared task dataset for named entity recognition and coreference resolution in English and other languages.
+The <DATASET>CoNLL-2012</DATASET> is a shared task dataset for named entity recognition and coreference resolution in English and other languages.
+The <DATASET>OntoNotes</DATASET> is a large-scale shared task dataset for learning to annotate ontologies with semantic information.
+The <DATASET>OntoNotes</DATASET> is a large-scale shared task dataset for learning to annotate ontologies with semantic information.
+The <DATASET>DBpedia</DATASET> is a dataset of structured information extracted from Wikipedia.
+The <DATASET>DBpedia</DATASET> is a dataset of structured information extracted from Wikipedia.
+The <DATASET>YAGO</DATASET> is a large-scale knowledge base that provides information about entities, events, and relationships.
+The <DATASET>YAGO</DATASET> is a large-scale knowledge base that provides information about entities, events, and relationships.
+The <DATASET>Wikidata</DATASET> is a structured dataset that can be used to store and query data from Wikimedia projects.
+The <DATASET>Wikidata</DATASET> is a structured dataset that can be used to store and query data from Wikimedia projects.
+The <ONTOLOGY>OBO Foundry</ONTOLOGY> is a set of ontologies that provide a common framework for representing knowledge in the life sciences.
+The <ONTOLOGY>OBO Foundry</ONTOLOGY> is a set of ontologies that provide a common framework for representing knowledge in the life sciences.
+The <ONTOLOGY>SNOMED CT</ONTOLOGY> is a comprehensive clinical terminology that provides a standardized way of representing clinical information.
+The <ONTOLOGY>SNOMED CT</ONTOLOGY> is a comprehensive clinical terminology that provides a standardized way of representing clinical information.
+The <ONTOLOGY>ICD-10</ONTOLOGY> is a standardized classification system for diseases and health-related problems.
+The <ONTOLOGY>ICD-10</ONTOLOGY> is a standardized classification system for diseases and health-related problems.
+The <ONTOLOGY>UMLS</ONTOLOGY> is a standardized framework for representing clinical and biomedical information.
+The <ONTOLOGY>UMLS</ONTOLOGY> is a standardized framework for representing clinical and biomedical information.
+The <ONTOLOGY>RF2</ONTOLOGY> is a reference ontology for food and nutrition.
+The <ONTOLOGY>RF2</ONTOLOGY> is a reference ontology for food and nutrition.
+The <ONTOLOGY>MITRE ATT&CK</ONTOLOGY> is a framework for understanding cyberattack techniques.
+The <ONTOLOGY>MITRE ATT&CK</ONTOLOGY> is a framework for understanding cyberattack techniques.
+The <ONTOLOGY>NIST Cybersecurity Framework</ONTOLOGY> is a set of guidelines for improving cybersecurity.
+The <ONTOLOGY>NIST Cybersecurity Framework</ONTOLOGY> is a set of guidelines for improving cybersecurity.
+The <ONTOLOGY>D3M</ONTOLOGY> is a system for learning and reasoning about knowledge.
+The <ONTOLOGY>D3M</ONTOLOGY> is a system for learning and reasoning about knowledge.
+The <ONTOLOGY>Cyc</ONTOLOGY> is a large-scale knowledge base that represents common sense knowledge.
+The <ONTOLOGY>Cyc</ONTOLOGY> is a large-scale knowledge base that represents common sense knowledge.
+The <ONTOLOGY>OntoQual</ONTOLOGY> is a system for learning and reasoning about qualitative reasoning systems.
+The <ONTOLOGY>OntoQual</ONTOLOGY> is a system for learning and reasoning about qualitative reasoning systems.
+The <ONTOLOGY>CoqProof</ONTOLOGY> is a system for proving properties of programs using Coq.
+The <ONTOLOGY>CoqProof</ONTOLOGY> is a system for proving properties of programs using Coq.
+The <ONTOLOGY>HOL</ONTOLOGY> is a system for proving properties of programs using Isabelle/HOL.
+The <ONTOLOGY>HOL</ONTOLOGY> is a system for proving properties of programs using Isabelle/HOL.
+The <ONTOLOGY>CSP</ONTOLOGY> is a system for learning and reasoning about knowledge.
+The <ONTOLOGY>CSP</ONTOLOGY> is a system for learning and reasoning about knowledge.
+The <ONTOLOGY>DL</ONTOLOGY> is a system for learning and reasoning about knowledge.
+The <ONTOLOGY>DL</ONTOLOGY> is a system for learning and reasoning about knowledge.
+The <ONTOLOGY>Knowledge Graph</ONTOLOGY> is a system for representing knowledge in a structured way.
+The <ONTOLOGY>Knowledge Graph</ONTOLOGY> is a system for representing knowledge in a structured way.
+The <ONTOLOGY>Semantic Web</ONTOLOGY> is a set of technologies for building a common framework for sharing and integrating data on the web.
+The <ONTOLOGY>Semantic Web</ONTOLOGY> is a set of technologies for building a common framework for sharing and integrating data on the web.
+The <ONTOLOGY>Linked Data</ONTOLOGY> is a way of sharing and connecting data on the web.
+The <ONTOLOGY>Linked Data</ONTOLOGI

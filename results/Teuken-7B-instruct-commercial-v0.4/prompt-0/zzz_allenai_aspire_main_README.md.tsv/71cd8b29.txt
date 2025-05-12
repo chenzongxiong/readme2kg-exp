@@ -1,0 +1,11 @@
+```
+CONFERENCE: HF Models 2023
+DATASET: HF Models Dataset
+EVALMETRIC: BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Natural Language Processing Ontology
+PROJECT: HF Models Project
+PUBLICATION: Proceedings of the 13th Workshop on Empirical Methods in Natural Language Processing
+SOFTWARE: HF Models Pipeline
+WORKSHOP: HF Models Workshop
+```

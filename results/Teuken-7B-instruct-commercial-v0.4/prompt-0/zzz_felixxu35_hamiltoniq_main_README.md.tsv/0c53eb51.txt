@@ -1,0 +1,4 @@
+Output Text:
+```vbnet
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>, also known as HamilToniQ, primarily comprises two components: the <CONFERENCE>reference part</CONFERENCE>, also known as <CONFERENCE>ground truth</CONFERENCE>, and the <CONFERENCE>scoring part</CONFERENCE>, as depicted in the figure below.
+```

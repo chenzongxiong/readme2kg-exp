@@ -1,0 +1,1 @@
+Prepare the prior obstacle segmentation masks - read the RLE-encoded Dextr predictions and add sky and water segmentation based on the IMU horizon masks and partial labels.

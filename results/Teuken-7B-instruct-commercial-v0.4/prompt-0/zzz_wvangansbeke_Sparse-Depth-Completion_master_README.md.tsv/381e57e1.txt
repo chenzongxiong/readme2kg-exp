@@ -1,0 +1,19 @@
+The `<CONFERENCE>` tag is used to mark the entity as a conference event. The entity being referred to is `International Semantic Web Conference 2019`.
+
+The `<DATASET>` tag is used to mark the entity as a dataset. The entity being referred to is `Maules Creek`.
+
+The `<EVALMETRIC>` tag is used to mark the entity as an evaluation metric. The entity being referred to is `Precision`, `Recall`, `F1-Score`, and `BLEU Score`.
+
+The `<LICENSE>` tag is used to mark the entity as a licensing term. The entity being referred to is `cc-by-3` and `CC BY-NC 4.0`.
+
+The `<ONTOLOGY>` tag is used to mark the entity as an ontology. The entity being referred to is `Intelligence Task Ontology`.
+
+The `<PROGLANG>` tag is used to mark the entity as a programming language. The entity being referred to is `Python`, `PHP`, and `C++`.
+
+The `<PROJECT>` tag is used to mark the entity as a scientific or business initiative. The entity being referred to is `Paper With Code`.
+
+The `<PUBLICATION>` tag is used to mark the entity as a scholarly work. The entity being referred to is `No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths`.
+
+The `<SOFTWARE>` tag is used to mark the entity as a software tool or program. The entity being referred to is `Protege ontology editor`.
+
+The `<WORKSHOP>` tag is used to mark the entity as a workshop event. The entity being referred to is `Thermal Image Super-Resolution`.

@@ -1,0 +1,38 @@
+```markdown
+## CONFERENCE
+Model Sketch Book: A Comprehensive Guide to Deep Learning and Computer Vision
+Definition: A conference focused on the latest advancements in deep learning and computer vision.
+Example: <CONFERENCE>Model Sketch Book Workshop</CONFERENCE>
+## DATASET
+Model Sketch Book Dataset
+Definition: A dataset used for research purposes in deep learning and computer vision.
+Example: <DATASET>Model Sketch Book Dataset</DATASET>
+## EVALMETRIC
+Precision, Recall, F1-Score, BLEU Score
+Definition: Quantitative measures used to assess the performance and effectiveness of a model.
+Example: <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, <EVALMETRIC>BLEU Score</EVALMETRIC>
+## LICENSE
+CC-BY-3
+Definition: A Creative Commons Attribution 3.0 license.
+Example: <LICENSE>CC-BY-NC 4.0</LICENSE>
+## ONTOLOGY
+Intelligence Task Ontology
+Definition: A framework representing knowledge about intelligence tasks.
+Example: <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+## PROJECT
+Paper With Code
+Definition: A project that encourages participation in research by providing a platform to showcase work and receive feedback.
+Example: <PROJECT>Paper With Code</PROJECT>
+## PUBLICATION
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+Definition: A scholarly work on knowledge tracing in sequence modeling.
+Example: <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+## SOFTWARE
+Protege Ontology Editor
+Definition: An ontology editor that allows users to create and edit ontologies.
+Example: <SOFTWARE>Protege Ontology Editor</SOFTWARE>
+## WORKSHOP
+Thermal Image Super-Resolution
+Definition: An educational workshop focused on thermal image super-resolution.
+Example: Refers to the [Thermal Image Super-Resolution Workshop](https://pbvs-workshop.github.io/datasets.html)
+```

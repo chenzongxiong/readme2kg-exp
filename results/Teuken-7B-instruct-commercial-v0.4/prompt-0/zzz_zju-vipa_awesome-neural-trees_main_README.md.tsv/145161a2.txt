@@ -1,0 +1,19 @@
+```
+CONFERENCE: Cios, N. (2023, April). The role of ontologies in enabling a knowledge-based society. In Proceedings of the 16th International Symposium on Ontologies for Business, Collaboration, and Sustainability (pp. 1-10). Springer Nature.
+
+DATASET: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+
+EVALMETRIC: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+
+LICENSE: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+
+ONTOLOGY: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+
+PROJECT: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+
+PUBLICATION: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+
+SOFTWARE: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+
+WORKSHOP: Cios, N. (2023). The role of ontologies in enabling a knowledge-based society. arXiv preprint arXiv:2304.02842.
+```

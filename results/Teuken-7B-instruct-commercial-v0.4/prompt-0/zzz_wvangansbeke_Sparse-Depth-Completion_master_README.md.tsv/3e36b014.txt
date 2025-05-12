@@ -1,0 +1,17 @@
+**CONFERENCE**: International Conference on Computational Linguistics
+
+**DATASET**: Semantic Datasets for Machine Learning
+
+**EVALMETRIC**: Evaluation Metric
+
+**LICENSE**: Creative Commons Attribution-ShareAlike 4.0 International License
+
+**ONTOLOGY**: Intelligence Task Ontology
+
+**PROJECT**: Semantic Analysis of Tweets for Public Safety
+
+**PUBLICATION**: Proceedings of the 2nd Workshop on Semantic Analysis of Social Media (SeSoMe 2020)
+
+**SOFTWARE**: Stanford CoreNLP
+
+**WORKSHOP**: Workshop on Semantic Analysis of Social Media (SeSoMe 2020)

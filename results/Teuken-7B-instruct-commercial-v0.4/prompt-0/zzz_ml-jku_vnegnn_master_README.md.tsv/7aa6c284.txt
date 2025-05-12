@@ -1,0 +1,62 @@
+```vbnet
+<CONFERENCE>Heterogeneous Task Learning Workshop</CONFERENCY>
+<CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCY>
+<CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCY>
+<DATASET>Meluxina</DATASET>
+<DATASET>Meluxina: A Benchmark for Learning from Heterogeneous Data</DATASET>
+Meluxina is a benchmark dataset for evaluating models trained on heterogeneous data sources.
+The dataset is composed of three parts: text, image, and metadata.
+The dataset contains 12,000 samples, with each sample having multiple instances.
+The dataset can be accessed from the following link:
+<DATASET>http://www.icl.utk.edu/~arungupta/Meluxina.html</DATASET>
+
+<LICENSE>CC-BY-3.0</LICENSE>
+Creative Commons Attribution 3.0 Unported License
+
+<LICENSE>CC BY-NC 4.0</LICENSE>
+Creative Commons Attribution-NonCommercial 4.0 International License
+
+<ONTOLOGY>Task Ontology</ONTOLOGY>
+The Task Ontology is a formal ontology that provides a common framework for representing knowledge about tasks.
+It defines concepts such as "task," "task instance," "task attribute," and "task outcome."
+It also provides a taxonomy of tasks based on their complexity and domain.
+The Task Ontology is available for download from the following link:
+
+<ONTOLOGY>http://www.taskontology.org</ONTOLOGY>
+
+<PROJECT>Meluxina Challenge</PROJECT>
+The Meluxina Challenge is a competition for evaluating models trained on heterogeneous data sources.
+The challenge involves predicting the target variable for a given set of input features.
+The target variable can be a categorical or continuous variable.
+The challenge is based on the Meluxina dataset.
+The challenge is organized by the NeurIPS 2021 Workshop on Heterogeneous Task Learning.
+The challenge is open to all participants, and the submission deadline is December 5, 2021.
+For more information, please visit the following link:
+
+<PROJECT>https://nips2021.thecvf.com/program/challenges/</PROJECT>
+
+<PUBLICATION>Heterogeneous Task Learning Workshop</PUBLICATION>
+Heterogeneous Task Learning Workshop is a special session at the NeurIPS 2021 conference.
+The workshop aims to bring together researchers and practitioners to discuss recent advances and challenges in learning from heterogeneous data sources.
+The workshop features keynote speeches, oral and poster presentations, and panel discussions.
+For more information, please visit the following link:
+
+<PUBLICATION>https://nips.cc/Conferences/2021/Schedule?eventID=3344</PUBLICATION>
+
+<SOFTWARE>TensorFlow</SOFTWARE>
+TensorFlow is an open-source software library for numerical computation.
+It provides a flexible and efficient platform for building and deploying machine learning models.
+TensorFlow supports a wide range of programming languages and frameworks.
+It is widely used in the machine learning community for research and production.
+For more information, please visit the following link:
+
+<SOFTWARE>https://www.tensorflow.org</SOFTWARE>
+
+<WORKSHOP>Heterogeneous Task Learning Workshop</WORKSHOP>
+Heterogeneous Task Learning Workshop is a special session at the ICML 2021 conference.
+The workshop aims to bring together researchers and practitioners to discuss recent advances and challenges in learning from heterogeneous data sources.
+The workshop features keynote speeches, oral and poster presentations, and panel discussions.
+For more information, please visit the following link:
+
+<WORKSHOP>https://icml.cc/Conferences/2021/Schedule?eventID=3344</WORKSHOP>
+```

@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCNLP 2023 Task 2: Named Entity Recognition
+EVALMETRIC: Macro F1
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: IJCAI-ECAI Task 2 Ontology
+PROGLANG: Python
+PROJECT: IJCAI-ECAI Task 2 2023
+PUBLICATION: IJCAI-ECAI Proceedings
+SOFTWARE: Scikit-learn
+WORKSHOP: IJCAI-ECAI Task 2 Workshop 2023
+```

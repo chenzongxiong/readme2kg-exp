@@ -1,0 +1,11 @@
+```
+CONFERENCE: All of our experiment settings
+DATASET: are kept in yaml config files at folder
+EVALMETRIC: at
+LICENSE: All of our experiment settings
+ONTOLOGY: are kept in yaml config files at folder
+PROJECT: All of our experiment settings
+PUBLICATION: All of our experiment settings
+SOFTWARE: are kept in yaml config files at folder
+WORKSHOP: All of our experiment settings
+```

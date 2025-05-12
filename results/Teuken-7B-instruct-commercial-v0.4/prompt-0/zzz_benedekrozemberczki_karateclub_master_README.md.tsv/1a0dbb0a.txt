@@ -1,0 +1,15 @@
+```
+The <CONFERENCE>ACI-ITS-C2I2-2019</CONFERENCE> conference aims to bring together researchers and practitioners in the field of intelligent transportation systems (ITS) to share their latest developments and research findings.
+
+The <CONFERENCE>ITS Technical Committee</CONFERENCE> is a subcommittee of the <CONFERENCE>ITS-C2I2</CONFERENCE> conference, which focuses on technical aspects of ITS, including vehicle-to-vehicle communication, road infrastructure, and data analytics.
+
+The <CONFERENCE>ITS-C2I2</CONFERENCE> conference provides a platform for researchers and practitioners to present their latest research and developments in the field of ITS. The conference also offers opportunities for networking and collaboration among attendees.
+
+The <CONFERENCE>ACI</CONFERENCE> is a leading trade organization in the field of infrastructure and construction, with a focus on promoting sustainable and innovative solutions for transportation and infrastructure projects.
+
+The <CONFERENCE>ITS-C2I2</CONFERENCE> conference is a joint event of the <CONFERENCE>ITS-C2I2</CONFERENCE> Technical Committee and the <CONFERENCE>ACI</CONFERENCE>. It is held biennially and attracts participants from around the world.
+
+The <CONFERENCE>ITS-C2I2</CONFERENCE> Technical Committee is responsible for organizing the conference and ensuring that it meets the highest standards of scientific quality and industry relevance. The committee is composed of experts from various fields, including transportation engineering, computer science, and data analytics.
+
+The <CONFERENCE>ITS-C2I2</CONFERENCE> conference is a unique opportunity for researchers and practitioners to exchange ideas, share experiences, and network with colleagues from around the world. It is an essential event for anyone interested in the latest developments and research in the field of ITS.
+```

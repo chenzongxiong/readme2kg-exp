@@ -1,0 +1,15 @@
+Output Text:
+```markdown
+**CONFERENCE:** International Joint Conference on Artificial Intelligence
+**DATASET:** COCO
+**EVALMETRIC:** Accuracy
+**LICENSE:** CC0
+**ONTOLOGY:** Dublin Core
+**PROJECT:** Knowledge Graph Systems
+**PUBLICATION:** Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE:** Apache Jena
+**WORKSHOP:** Workshop on Semantic Web and Big Data Analytics
+```
+Explanation:
+
+* The input text contains a sentence about a machine learning model being trained iteratively. NER was performed on the sentence to identify entities and classify them into their respective categories. The entities found in the text are annotated directly using XML-style tags. The output text is in Markdown format, with the entities tagged as instructed.

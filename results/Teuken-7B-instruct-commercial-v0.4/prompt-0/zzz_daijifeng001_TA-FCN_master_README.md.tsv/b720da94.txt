@@ -1,0 +1,5 @@
+The Task is to perform Named Entity Recognition (NER) on the given text. The text is provided in the input text section. The goal is to identify and classify entities into their respective categories and annotate them directly in the original text using XML-style tags. The output should be in Markdown format with the entities tagged as instructed. The guidelines for NER are provided in the first section. The output should be in the following format:
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+Please follow the guidelines strictly to identify and classify entities into their respective categories. Annotate the entities directly in the original text using XML-style tags. Only return the annotated text in Markdown format.

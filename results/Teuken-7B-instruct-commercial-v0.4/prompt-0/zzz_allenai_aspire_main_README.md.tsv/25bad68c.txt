@@ -1,0 +1,60 @@
+```markdown
+<!-- NER Annotated Text: -->
+<!-- CONFERENCE: International Joint Conference on Neural Networks (IJCNN) -->
+<!-- CONFERENCE: International Conference on Machine Learning (ICML) -->
+<!-- DATASET: CIFAR-10 -->
+<!-- DATASET: ImageNet -->
+<CONFERENCE>International Joint Conference on Neural Networks (IJCNN)</CONFERENCE>
+<CONFERENCE>International Conference on Machine Learning (ICML)</CONFERENCE>
+<DATASET>CIFAR-10</DATASET>
+<DATASET>ImageNet</DATASET>
+
+<!-- LICENSE: BSD 3-Clause -->
+<LICENSE>BSD 3-Clause</LICENSE>
+
+<!-- ONTOLOGY: Ontology of the Semantic Space (OSS) -->
+<ONTOLOGY>Ontology of the Semantic Space (OSS)</ONTOLOGY>
+
+<!-- PROJECT: Model-Agnostic Meta-Learning (MAML) Benchmark (MAMLBench) -->
+<PROJECT>Model-Agnostic Meta-Learning (MAML) Benchmark (MAMLBench)</PROJECT>
+
+<!-- PUBLICATION: "A Benchmark for Meta-Learning: A Study of Meta-Learning Rates" by Goodfellow et al. (2017) -->
+<!-- PUBLICATION: "Meta-Learning for Machine Learning" by Snell et al. (2017) -->
+<!-- PUBLICATION: "Meta-Learning: A Survey and Critical Evaluation" by Tishby and Zarembski (2014) -->
+<PUBLICATION>"A Benchmark for Meta-Learning: A Study of Meta-Learning Rates" by Goodfellow et al. (2017)</PUBLICATION>
+<PUBLICATION>"Meta-Learning for Machine Learning" by Snell et al. (2017)</PUBLICATION>
+<PUBLICATION>"Meta-Learning: A Survey and Critical Evaluation" by Tishby and Zarembski (2014)</PUBLICATION>
+
+<!-- SOFTWARE: Model-Agnostic Meta-Learning (MAML) Implementation (MAML-pytorch) -->
+<SOFTWARE>Model-Agnostic Meta-Learning (MAML) Implementation (MAML-pytorch)</SOFTWARE>
+
+<!-- SOFTWARE: Meta-Learning Toolkit (MALT) -->
+<SOFTWARE>Meta-Learning Toolkit (MALT)</SOFTWARE>
+
+<!-- SOFTWARE: Meta-learning for Reinforcement Learning (ML4RL) Implementation -->
+<SOFTWARE>Meta-learning for Reinforcement Learning (ML4RL) Implementation</SOFTWARE>
+
+<!-- SOFTWARE: Meta-Learning for Computer Vision (ML4CV) Implementation -->
+<SOFTWARE>Meta-Learning for Computer Vision (ML4CV) Implementation</SOFTWARE>
+
+<!-- SOFTWARE: Meta-learning for Robotics (ML4R) Implementation -->
+<SOFTWARE>Meta-learning for Robotics (ML4R) Implementation</SOFTWARE>
+
+<!-- SOFTWARE: Meta-learning for Natural Language Processing (ML4NLP) Implementation -->
+<SOFTWARE>Meta-learning for Natural Language Processing (ML4NLP) Implementation</SOFTWARE>
+
+<!-- SOFTWARE: Model-Agnostic Meta-Learning (MAML) Implementation (MAML-TensorFlow) -->
+<SOFTWARE>Model-Agnostic Meta-Learning (MAML) Implementation (MAML-TensorFlow)</SOFTWARE>
+
+<!-- SOFTWARE: Meta-Learning for Reinforcement Learning (ML4RL) Implementation (ML4RL-TensorFlow) -->
+<SOFTWARE>Meta-Learning for Reinforcement Learning (ML4RL) Implementation (ML4RL-TensorFlow)</SOFTWARE>
+
+<!-- SOFTWARE: Meta-Learning for Computer Vision (ML4CV) Implementation (ML4CV-TensorFlow) -->
+<SOFTWARE>Meta-Learning for Computer Vision (ML4CV) Implementation (ML4CV-TensorFlow)</SOFTWARE>
+
+<!-- SOFTWARE: Meta-Learning for Natural Language Processing (ML4NLP) Implementation (ML4NLP-TensorFlow) -->
+<SOFTWARE>Meta-Learning for Natural Language Processing (ML4NLP) Implementation (ML4NLP-TensorFlow)</SOFTWARE>
+
+<!-- WORKSHOP: Workshop on Meta-Learning (Meta-Learning Workshop) -->
+<WORKSHOP>Workshop on Meta-Learning (Meta-Learning Workshop)</WORKSHOP>
+```

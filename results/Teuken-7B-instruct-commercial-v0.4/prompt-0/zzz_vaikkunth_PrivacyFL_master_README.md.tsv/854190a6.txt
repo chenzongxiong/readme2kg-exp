@@ -1,0 +1,15 @@
+Output Text:
+```less
+# NER Annotated Text
+
+CONFERENCE: International Joint Conference on Neural Networks (IJCNN 2016)
+DATASET: IJCNN 2016 Video Challenge
+EVALMETRIC: Mean Average Precision (mAP)
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: International Joint Conference on Neural Networks Ontology (IJCNN Ontology)
+PROJECT: IJCNN 2016 Video Challenge
+PUBLICATION: Proceedings of the 33rd International Conference on Machine Learning (ICML 2016)
+SOFTWARE: TensorFlow
+WORKSHOP: Joint European Torus (JET) Workshop on Plasma Fusion Energy Research (JET-PFER 2022)
+```
+Note: The entity classes and annotation rules are used as guidelines for the annotation. The exact annotation may vary depending on the context and the specific requirements of the task.

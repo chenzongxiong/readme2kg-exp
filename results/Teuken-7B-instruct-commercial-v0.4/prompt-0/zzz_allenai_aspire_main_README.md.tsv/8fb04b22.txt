@@ -1,0 +1,14 @@
+**Annotation:**
+
+CONFERENCE: CoNLL 2018
+DATASET: CoNLL 2018
+LICENSE: CC-BY-3.0
+ONTOLOGY: CoNLL 2018 Ontology
+PROJECT: CoNLL 2018 Shared Task
+PUBLICATION: Proceedings of the 2018 Conference on Computational Natural Language Learning
+SOFTWARE: CoNLL 2018 Sentence Encoder
+WORKSHOP: CoNLL 2018 Workshop on Sentence Representations and Tasks
+
+
+**Original Text:**
+Co-citations are used for training sentence level encoder models and whole abstract models, training data for both these model types are generated from functions in this script.

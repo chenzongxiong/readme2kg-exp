@@ -1,0 +1,164 @@
+**Annotated Text:**
+```python
+EVALMETRIC: Recall
+EVALMETRIC: Precision
+EVALMETRIC: F1-Score
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+ONTOLOGY: Ontology for Medical Subspecialties
+ONTOLOGY: Medical Subject Headings
+PROJECT: Paper With Code
+PROJECT: Open Images
+PUBLICATION: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+PUBLICATION: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+PUBLICATION: IEEE Transactions on Pattern Analysis and Machine Intelligence
+PUBLICATION: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+SOFTWARE: OpenCV
+SOFTWARE: TensorFlow
+SOFTWARE: PyTorch
+WORKSHOP: Machine Learning Crash Course
+WORKSHOP: Machine Learning Essentials
+WORKSHOP: Machine Learning Fundamentals
+WORKSHOP: Machine Learning for Everyone
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning Fundamentals for Data Scientists
+WORKSHOP: Machine Learning

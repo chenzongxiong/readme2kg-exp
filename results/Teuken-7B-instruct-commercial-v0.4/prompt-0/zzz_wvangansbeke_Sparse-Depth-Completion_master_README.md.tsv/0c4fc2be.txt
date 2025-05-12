@@ -1,0 +1,11 @@
+```
+CONFERENCE: Kitti Object Detection Challenge
+DATASET: Kitti Object Detection Challenge Dataset
+EVALMETRIC: Mean Average Precision (mAP)
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Traffic Sign Ontology
+PROJECT: 3D Object Detection in Images
+PUBLICATION: <PUBLICATION>Conference on Computer Vision and Pattern Recognition (CVPR)</PUBLICATION>
+SOFTWARE: TensorFlow Object Detection API
+WORKSHOP: Object Detection in Images Workshop
+```

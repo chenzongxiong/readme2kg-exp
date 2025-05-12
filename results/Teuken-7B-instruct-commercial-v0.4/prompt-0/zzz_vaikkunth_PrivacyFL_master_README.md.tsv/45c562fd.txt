@@ -1,0 +1,24 @@
+```python
+# Configuration file for the Named Entity Recognition (NER) task
+
+# Define the entity classes and their respective definitions and examples
+CONFERENCE = "Conference events"
+DATASET = "Structured collections of data"
+EVALMETRIC = "Evaluation metrics for models"
+LICENSE = "Licensing terms"
+ONTOLOGY = "Semantic frameworks for knowledge representation"
+PROJECT = "Scientific or business initiatives"
+PUBLICATION = "Scholarly works"
+SOFTWARE = "Software tools or programs"
+WORKSHOP = "Workshop events"
+
+# Annotation rules
+INCLUDE_WHOLE_NAME = True
+SINGLE_CLASS_ANNOTATION = True
+NESTED_ENTITY_ANNOTATION = True
+INCLUDE_PUNCTUATION = True
+INCLUDE_URL_ANNOTATION = True
+
+# Output format
+OUTPUT_FORMAT = "Markdown"
+```

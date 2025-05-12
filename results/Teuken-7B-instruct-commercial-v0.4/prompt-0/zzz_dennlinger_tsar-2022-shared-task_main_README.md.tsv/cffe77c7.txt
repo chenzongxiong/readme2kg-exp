@@ -1,0 +1,3 @@
+```
+The <SOFTWARE>Tsar Eval</SOFTWARE> script is used to evaluate the performance of models in the Tsar benchmark suite.
+```

@@ -1,0 +1,11 @@
+```
+CONFERENCE: November 2022 Sensors conference
+DATASET: SLR annotations
+EVALMETRIC: F1-score
+LICENSE: CC-BY-3.0
+ONTOLOGY: SLR Ontology
+PROJECT: SLR project
+PUBLICATION: Sensors journal
+SOFTWARE: SLR Ontology Editor
+WORKSHOP: Thermal Image Super-Resolution Workshop
+```

@@ -1,0 +1,8 @@
+The **DATASET**, `<DATASET>Maules Creek</DATASET>`, is the domain and structure of our dataset. It poses a unique set of challenges for summarization systems, which include:
+
+1. **Processing very long documents**:
+    - The **CONFERENCE**, `<CONFERENCE>Conference on Empirical Methods in Natural Language Processing (EMNLP)</CONFERENCE>`, may have long documents that need to be processed efficiently.
+2. **Non-trivial causal and temporal dependencies**:
+    - The **ONTOLOGY**, `<ONTOLOGY>Temporal Event Ontology</ONTOLOGY>`, may be used to model the causal and temporal dependencies in the dataset.
+3. **Rich discourse structures**:
+    - The **LICENSE**, `<LICENSE>CC-BY-3.0</LICENSE>`, may be used to provide licensing terms for the dataset, and the **WORKSHOP**, `<WORKSHOP>Workshop on Machine Learning for Narrative Understanding (NatCrawl)</WORKSHOP>`, may be used to provide a workshop event for discussing the dataset.

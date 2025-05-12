@@ -1,0 +1,13 @@
+**Entities Annotated:**
+CONFERENCE: NeurIPS
+DATASET: EarthPT
+LICENSE: CC-BY-3.0
+ONTOLOGY: Earth Observation Ontology
+PROJECT: EarthPT
+PUBLICATION: arXiv
+SOFTWARE: EarthPT Ontology Editor
+
+**Markdown Output:**
+```python
+The <CONFERENCE>NeurIPS</CONFERENCE> is a conference focused on Artificial Intelligence and its applications. <DATASET>EarthPT</DATASET> is a time series foundation model for Earth Observation, released as part of the <PROJECT>EarthPT</PROJECT> project. The model is described in the <PUBLICATION>arXiv</PUBLICATION> preprint, with the DOI <SOFTWARE>EarthPT Ontology Editor</SOFTWARE>.
+```

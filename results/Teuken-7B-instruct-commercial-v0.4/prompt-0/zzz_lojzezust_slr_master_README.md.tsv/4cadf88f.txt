@@ -1,0 +1,18 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: PASCAL VOC
+
+**EVALMETRIC**: F1-score
+
+**LICENSE**: Creative Commons Attribution 4.0 International License
+
+**ONTOLOGY**: Semantic Web Ontology Language (OWL)
+
+**PROJECT**: SemEval-2017 Task 3: Pairwise Similarity Detection
+
+**PUBLICATION**: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP 2017)
+
+**SOFTWARE**: BERT
+
+**WORKSHOP**: Workshop on Semantic Evaluation (SemEval)

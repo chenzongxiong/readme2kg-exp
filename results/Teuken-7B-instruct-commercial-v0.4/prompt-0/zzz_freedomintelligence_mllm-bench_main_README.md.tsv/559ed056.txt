@@ -1,0 +1,31 @@
+Rewritten `init_components()` and `forward()` method:
+```perl
+class EncoderDecoder(nn.Module):
+    def __init__(self, input_dim, output_dim, enc_layers, dec_layers, encoder_layers, decoder_layers, encoder_hidden_dim, encoder_hidden_dim_infinity, decoder_hidden_dim, decoder_hidden_dim_infinity, encoder_act_layer, decoder_act_layer, encoder_norm_layer, decoder_norm_layer, encoder_dropout, decoder_dropout, encoder_learn_pdrop, decoder_learn_pdrop, encoder_pdrop_infinity, decoder_pdrop_infinity, encoder_src_pad_idx, decoder_src_pad_idx, encoder_tgt_pad_idx, decoder_tgt_pad_idx, encoder_emb_dim, decoder_emb_dim, encoder_emb_type, decoder_emb_type, encoder_emb_proj_dim, decoder_emb_proj_dim, encoder_emission_dim, decoder_emission_dim, encoder_emission_proj_dim, decoder_emission_proj_dim, encoder_emission_proj_dim_infinity, decoder_emission_proj_dim_infinity, encoder_src_pad_token_id, decoder_src_pad_token_id, encoder_tgt_pad_token_id, decoder_tgt_pad_token_id, encoder_src_pad_token_id_infinity, decoder_src_pad_token_id_infinity, encoder_tgt_pad_token_id_infinity, decoder_tgt_pad_token_id_infinity, encoder_src_mask_fill_value, decoder_src_mask_fill_value, encoder_tgt_mask_fill_value, decoder_tgt_mask_fill_value, encoder_src_mask_fill_value_infinity, decoder_src_mask_fill_value_infinity, encoder_tgt_mask_fill_value_infinity, decoder_tgt_mask_fill_value_infinity):
+        super().__init__()
+        
+        self.encoder = Encoder(input_dim, encoder_hidden_dim, encoder_hidden_dim_infinity, encoder_layers, encoder_act_layer, encoder_norm_layer, encoder_dropout, encoder_learn_pdrop, encoder_pdrop_infinity, encoder_src_pad_idx, encoder_src_pad_token_id, encoder_tgt_pad_token_id, encoder_tgt_pad_token_id_infinity, encoder_src_mask_fill_value, encoder_tgt_mask_fill_value)
+        
+        self.decoder = Decoder(encoder_hidden_dim, decoder_hidden_dim, decoder_hidden_dim_infinity, decoder_layers, decoder_act_layer, decoder_norm_layer, decoder_dropout, decoder_learn_pdrop, decoder_pdrop_infinity, decoder_src_pad_token_id, decoder_tgt_pad_token_id, decoder_tgt_pad_token_id_infinity, decoder_src_mask_fill_value, decoder_tgt_mask_fill_value)
+        
+        self.embedding = nn.Embedding(encoder_emb_dim, decoder_emb_dim)
+        self.encoder_embedding = nn.Embedding(encoder_emb_dim, encoder_emission_proj_dim)
+        self.decoder_embedding = nn.Embedding(decoder_emb_dim, decoder_emission_proj_dim)
+        
+        self.encoder_projection = nn.Linear(encoder_hidden_dim, encoder_emission_proj_dim)
+        self.decoder_projection = nn.Linear(decoder_hidden_dim, decoder_emission_proj_dim)
+        
+        self.decoder_embedding.weight = nn.Parameter(torch.Tensor(encoder_emission_proj_dim, decoder_emb_dim))
+        self.decoder_embedding.weight.requires_grad = True
+        
+        self.decoder_embedding.weight.data = self.encoder_embedding.weight.data
+        
+        self.decoder_embedding.bias = nn.Parameter(torch.Tensor(decoder_emb_dim))
+        self.decoder_embedding.bias.requires_grad = False
+        
+        self.decoder_embedding.bias.data = torch.zeros(decoder_emb_dim)
+        
+        self.decoder_embedding.apply(self.encoder_embedding.apply)
+        self.encoder_projection.apply(nn.init.xavier_uniform_)
+        self.decoder_projection.apply(nn.init.xavier_uniform_)
+```

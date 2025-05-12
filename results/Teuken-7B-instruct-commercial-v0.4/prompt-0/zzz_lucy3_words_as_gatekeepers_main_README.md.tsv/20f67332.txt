@@ -1,0 +1,33 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET**: IJCAI-19 Task 3: Semantic Reasoning with Concept Representations
+*EVALMETRIC**: Accuracy
+*LICENSE**: Creative Commons Attribution-NonCommercial 4.0 International License
+*ONTOLOGY**: IJCAI-19 Task 3 Ontology
+*PROJECT**: IJCAI-19 Task 3: Semantic Reasoning with Concept Representations
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*SOFTWARE**: Protege Ontology Editor
+*WORKSHOP**: IJCAI-19 Workshop on Conceptual and Semantic Computing
+
+The entities in the input text are:
+
+* "IJCAI" (CONFERENCE)
+* "IJCAI-19" (CONFERENCE)
+* "Task 3" (DATASET)
+* "Semantic Reasoning" (ONTOLOGY)
+* "IJCAI-19 Task 3" (PROJECT)
+* "Proceedings" (PUBLICATION)
+* "Protege Ontology Editor" (SOFTWARE)
+* "IJCAI-19 Workshop on Conceptual and Semantic Computing" (WORKSHOP)
+
+Annotated text:
+```python
+<CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE>
+<DATASET>IJCAI-19 Task 3: Semantic Reasoning with Concept Representations</DATASET>
+<EVALMETRIC>Accuracy</EVALMETRIC>
+<LICENSE>Creative Commons Attribution-NonCommercial 4.0 International License</LICENSE>
+<ONTOLOGY>IJCAI-19 Task 3 Ontology</ONTOLOGY>
+<PROJECT>IJCAI-19 Task 3: Semantic Reasoning with Concept Representations</PROJECT>
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<SOFTWARE>Protege Ontology Editor</SOFTWARE>
+<WORKSHOP>IJCAI-19 Workshop on Conceptual and Semantic Computing</WORKSHOP>
+```

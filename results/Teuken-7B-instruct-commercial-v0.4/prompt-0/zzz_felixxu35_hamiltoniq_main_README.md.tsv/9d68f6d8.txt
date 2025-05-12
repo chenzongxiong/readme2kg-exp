@@ -1,0 +1,24 @@
+Markdown Output:
+```perl
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI-19 Track 1 Dataset
+EVALMETRIC: AUC-ROC
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI-19 Track 1 Ontology
+PROJECT: IJCAI-19 Track 1 Project
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: IJCAI-19 Track 1 Software
+WORKSHOP: IJCAI-19 Track 1 Workshop
+```
+Explanation:
+
+1. The input text contains information about a conference event, dataset, evaluation metric, license, ontology, project, publication, software, and workshop. We have annotated each entity using the corresponding class and returned the original content with entities directly annotated using XML-style tags.
+2. The conference event is International Joint Conference on Artificial Intelligence (IJCAI).
+3. The dataset is `International Joint Conference on Artificial Intelligence (IJCAI) Track 1 Dataset`.
+4. The evaluation metric is `Area Under the ROC Curve (AUC-ROC)`.
+5. The license is `Creative Commons Attribution-NonCommercial 4.0 International License`.
+6. The ontology is `IJCAI-19 Track 1 Ontology`.
+7. The project is `IJCAI-19 Track 1 Project`.
+8. The publication is `Proceedings of the 32nd ACM International Conference on Information and Knowledge Management`.
+9. The software is `IJCAI-19 Track 1 Software`.
+10. The workshop is `IJCAI-19 Track 1 Workshop`.

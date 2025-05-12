@@ -1,0 +1,5 @@
+```markdown
+# Input Text
+
+/dataset/README.md) is a structured collection of data organized for a specific goal such as analysis, research, or reference. The evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score. The available licenses to use are cc-by-3 and CC BY-NC 4.0. The Intelligence Task Ontology is a framework representing knowledge about the intelligence domain, including concepts, entities, properties, and relationships. The programming languages used are Python, PHP, and C++. The Paper With Code project (<https://paperswithcode.com/>) is a planned initiative aimed at addressing a research question or achieving a specific goal. The publication describes a creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint. The software tools used are Protege ontology editor. The workshop is an educational or hands-on session focused on a specific subject. The PAV-SOD: Panoramic Audiovisual Saliency Detection dataset is a nested entity. The llama in <https://ai.meta.com/llama> is a standalone generic descriptor and is excluded from the annotation.
+```

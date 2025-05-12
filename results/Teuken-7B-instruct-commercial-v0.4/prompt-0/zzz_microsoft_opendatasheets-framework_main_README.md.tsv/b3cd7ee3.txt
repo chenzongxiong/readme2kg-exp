@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+EVALMETRIC: Top-5 Error Rate (mAP)
+LICENSE: Creative Commons Attribution-Share Alike 3.0 Unported (CC BY-SA 3.0)
+ONTOLOGY: Ontology of Image Annotation (OBIA)
+PROGLANG: Python
+PROJECT: Open Images Dataset (OI) Annotation and Evaluation Tool (OI-AET)
+PUBLICATION: Open Images Dataset (OI) Annotation and Evaluation Tool (OI-AET)
+SOFTWARE: LabelImg
+WORKSHOP: Object Detection in the Wild (ODW) Workshop at CVPR 2018
+```

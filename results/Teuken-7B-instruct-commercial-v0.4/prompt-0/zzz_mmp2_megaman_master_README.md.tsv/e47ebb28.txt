@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Treebank
+EVALMETRIC: Macro F1 score
+LICENSE: BSD 3-Clause "New" or "Revised"
+ONTOLOGY: Frame-based semantic networks
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Human-Computer Interaction and Information Retrieval (HCIR)
+```

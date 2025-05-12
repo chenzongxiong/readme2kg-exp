@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Conference on Computational Linguistics
+DATASET: SST2
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Semantic Web Ontology Language
+PROGLANG: Python
+PROJECT: Stanford Sentiment Treebank
+PUBLICATION: Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Representations and Reasoning
+```

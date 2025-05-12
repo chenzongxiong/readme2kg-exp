@@ -1,0 +1,15 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: USTPO MIT
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Workshop on Semantic Computing and Knowledge Engineering
+```
+
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```

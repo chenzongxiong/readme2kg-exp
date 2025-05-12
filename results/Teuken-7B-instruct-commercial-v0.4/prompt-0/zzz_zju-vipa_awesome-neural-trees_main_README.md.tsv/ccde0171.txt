@@ -1,0 +1,11 @@
+```
+CONFERENCE: Three lines of research
+DATASET: Three lines of research
+EVALMETRIC: Three lines of research
+LICENSE: Three lines of research
+ONTOLOGY: Three lines of research
+PROJECT: Three lines of research
+PUBLICATION: Three lines of research
+SOFTWARE: Three lines of research
+WORKSHOP: Three lines of research
+```

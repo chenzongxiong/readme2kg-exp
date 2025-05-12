@@ -1,0 +1,7 @@
+**Annotated Text:**
+```python
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+**XML-style Tags:**
+
+The CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROJECT, PUBLICATION, SOFTWARE, and WORKSHOP entities were found in the input text. They were tagged using the corresponding class names as specified in the guidelines.

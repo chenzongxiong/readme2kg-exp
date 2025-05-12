@@ -1,0 +1,50 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Mauls Creek
+*LICENSE**: cc-by-3
+*ONTOLOGY**: Intelligence Task Ontology
+*PROJECT**: Paper With Code
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*WORKSHOP**: Thermal Image Super-Resolution Workshop
+*SOFTWARE**: Protege ontology editor
+**CONFERENCE**: ISWC 2019
+**DATASET**: CVPR2023 workshop
+**CONFERENCE**: International Semantic Web Conference 2019
+**DATASET**: Mauls Creek
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+**SOFTWARE**: Protege ontology editor
+**CONFERENCE**: International Semantic Web Conference 2019
+**DATASET**: Mauls Creek
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+**SOFTWARE**: Protege ontology editor
+**CONFERENCE**: International Semantic Web Conference 2019
+**DATASET**: Mauls Creek
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+**SOFTWARE**: Protege ontology editor
+**CONFERENCE**: International Semantic Web Conference 2019
+**DATASET**: Mauls Creek
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+**SOFTWARE**: Protege ontology editor
+**CONFERENCE**: International Semantic Web Conference 2019
+**DATASET**: Mauls Creek
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+**SOFTWARE**: Protege ontology editor

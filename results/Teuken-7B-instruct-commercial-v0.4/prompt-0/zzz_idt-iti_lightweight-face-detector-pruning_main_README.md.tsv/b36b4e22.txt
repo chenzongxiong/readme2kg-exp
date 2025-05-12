@@ -1,0 +1,9 @@
+**Conference:** WACW2024
+**DataSet:** Waikoloa CVPR 2024 dataset
+**EVALMETRIC:** Precision, Recall, F1-Score, BLEU Score
+**LICENSE:** CC-BY-4.0
+**ONTOLOGY:** CVPR 2024 Ontology
+**PROJECT:** CVPR 2024 Workshop
+**PUBLICATION:** Proceedings of the 2024 IEEE Winter Conference on Applications of Computer Vision Workshops
+**SOFTWARE:** OpenCV 4.5.4, Python 3.9.7, TensorFlow 2.5.0
+**WORKSHOP:** Waikoloa CVPR 2024 Workshop

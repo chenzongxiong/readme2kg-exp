@@ -1,0 +1,11 @@
+```
+CONFERENCE: Retriever Local Evaluation
+DATASET: Structured collections of data
+EVALMETRIC: Evaluation metrics for models
+LICENSE: Licensing terms
+ONTOLOGY: Semantic frameworks for knowledge representation
+PROJECT: Scientific or business initiatives
+PUBLICATION: Scholarly works
+SOFTWARE: Software tools or programs
+WORKSHOP: Workshop events
+```

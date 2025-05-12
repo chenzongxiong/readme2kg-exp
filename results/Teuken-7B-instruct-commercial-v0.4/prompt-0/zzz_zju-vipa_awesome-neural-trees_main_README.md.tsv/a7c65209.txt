@@ -1,0 +1,9 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: International Semantic Web Conference
+**EVALMETRIC**: Precision
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Thermal Image Super-Resolution

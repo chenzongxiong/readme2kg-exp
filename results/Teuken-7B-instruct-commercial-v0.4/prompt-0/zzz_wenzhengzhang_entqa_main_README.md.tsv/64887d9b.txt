@@ -1,0 +1,6 @@
+```
+CONFERENCE: Terminal/Screen
+LICENSE: cd gerbil .
+ONTOLOGY: cd gerbil .
+```
+Note: In this example, no entities were found in the input text, so there is no annotated output.

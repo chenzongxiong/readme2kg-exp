@@ -1,0 +1,5 @@
+**Conference:**
+
+- **CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+  * Definition: A leading conference in the field of artificial intelligence, held annually.
+  * Example: <CONFERENCE>IJCAI 2023</CONFERENCE>, <CONFERENCE>IJCAI 2019</CONFERENCE>, <CONFERENCE>IJCAI 2022</CONFERENCE> workshop.

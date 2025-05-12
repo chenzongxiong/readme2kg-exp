@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2023 Competitions and Datasets
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: Ontology for Intelligent Information Systems (IBIS)
+PROJECT: IJCAI-2023 Workshop on Artificial Intelligence for Healthcare (AI4H)
+PUBLICATION: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023)
+SOFTWARE: PyTorch Lightning
+WORKSHOP: IJCAI 2023 Workshop on Artificial Intelligence for Healthcare (AI4H)
+```

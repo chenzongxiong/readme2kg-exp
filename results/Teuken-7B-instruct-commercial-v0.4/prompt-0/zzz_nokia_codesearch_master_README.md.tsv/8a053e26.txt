@@ -1,0 +1,8 @@
+```
+CONFERENCE: For these models, the snippet collections are used as training data (of course you should never train on a snippet collection when you intent to use that load that collection as evaluation data as well).
+LICENSE: The evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+PROJECT: Towards Explainable and Robust Summarization of News, 2023
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management, 2015
+WORKSHOP: Workshop on Semantic Parsing, Reasoning, and Indexing (SPARQ), 2018
+SOFTWARE: Protege ontology editor, widely used for creating ontologies.
+```

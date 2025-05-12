@@ -1,0 +1,62 @@
+The annotated text with entities directly in Markdown format:
+```markdown
+**Conference****: International Conference on Computational Linguistics and Chinese Language Processing (CLCNLP 2021)
+
+**Conference****: International Conference on Computational Linguistics and Chinese Language Processing (CLCNLP 2021)
+
+**Conference****: International Conference on Computational Linguistics and Chinese Language Processing (CLCNLP 2021)
+
+**DATASET**: A large dataset of English-Chinese machine translation pairs.
+
+**DATASET**: A large dataset of English-Chinese machine translation pairs.
+
+**DATASET**: A large dataset of English-Chinese machine translation pairs.
+
+**EVALMETRIC**: The **BLEU** score for the translation output.
+
+**EVALMETRIC**: The **BLEU** score for the translation output.
+
+**EVALMETRIC**: The **BLEU** score for the translation output.
+
+**LICENSE**: The **CC BY-NC 4.0** license for the dataset.
+
+**LICENSE**: The **CC BY-NC 4.0** license for the dataset.
+
+**LICENSE**: The **CC BY-NC 4.0** license for the dataset.
+
+**ONTOLOGY**: The **Chinese Word Segmentation Ontology** (CWS\_ontology) for Chinese text segmentation.
+
+**ONTOLOGY**: The **Chinese Word Segmentation Ontology** (CWS\_ontology) for Chinese text segmentation.
+
+**ONTOLOGY**: The **Chinese Word Segmentation Ontology** (CWS\_ontology) for Chinese text segmentation.
+
+**PROGLANG**: The programming language **Python** is used for developing the segmentation model.
+
+**PROGLANG**: The programming language **Python** is used for developing the segmentation model.
+
+**PROGLANG**: The programming language **Python** is used for developing the segmentation model.
+
+**PROJECT**: The **Paper With Code** project for the segmentation task.
+
+**PROJECT**: The **Paper With Code** project for the segmentation task.
+
+**PROJECT**: The **Paper With Code** project for the segmentation task.
+
+**PUBLICATION**: The **Conference on Computational Linguistics and Chinese Language Processing (CLCNLP 2021)**, where the results of the segmentation task are reported.
+
+**PUBLICATION**: The **Conference on Computational Linguistics and Chinese Language Processing (CLCNLP 2021)**, where the results of the segmentation task are reported.
+
+**PUBLICATION**: The **Conference on Computational Linguistics and Chinese Language Processing (CLCNLP 2021)**, where the results of the segmentation task are reported.
+
+**SOFTWARE**: The **sentencepiece** library is used for decoding the pre-trained fixed network.
+
+**SOFTWARE**: The **sentencepiece** library is used for decoding the pre-trained fixed network.
+
+**SOFTWARE**: The **sentencepiece** library is used for decoding the pre-trained fixed network.
+
+**WORKSHOP**: The **PAV-SOD: Panoramic Audiovisual Saliency Detection** workshop, which focuses on the detection of salient objects in videos.
+
+**WORKSHOP**: The **PAV-SOD: Panoramic Audiovisual Saliency Detection** workshop, which focuses on the detection of salient objects in videos.
+
+**WORKSHOP**: The **PAV-SOD: Panoramic Audiovisual Saliency Detection** workshop, which focuses on the detection of salient objects in videos.
+```

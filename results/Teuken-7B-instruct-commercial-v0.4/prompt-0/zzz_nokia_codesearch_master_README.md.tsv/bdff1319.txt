@@ -1,0 +1,21 @@
+```markdown
+**CONFERENCE**: International Semantic Web Conference 2019
+**CONFERENCE**: ISWC 2019
+**CONFERENCE**: CVPR2023 workshop
+**DATASET**: Mauls Creek
+**EVALMETRIC**: Precision
+**EVALMETRIC**: Recall
+**EVALMETRIC**: F1-Score
+**EVALMETRIC**: BLEU Score
+**LICENSE**: cc-by-3
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Intelligence Task Ontology
+**PROGLANG**: Python
+**PROGLANG**: PHP
+**PROGLANG**: C++
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**PUBLICATION**: Thermal Image Super-Resolution
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Panoramic Audiovisual Saliency Detection
+```

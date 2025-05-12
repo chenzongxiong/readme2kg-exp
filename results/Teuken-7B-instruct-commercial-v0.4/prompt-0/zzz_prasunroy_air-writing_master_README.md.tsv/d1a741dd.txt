@@ -1,0 +1,12 @@
+**Annotated Text:**
+```scss
+# Air-Writing
+**A CNN Based Framework for Unistroke Numeral Recognition in Air-Writing.**
+*Accepted in The IEEE International Conference on Frontiers in Handwriting Recognition (ICFHR) 2018.*
+*<CONFERENCE>IEEE International Conference on Frontiers in Handwriting Recognition (ICFHR) 2018</CONFERENCE>*
+*<CONFERENCE>ICFHR</CONFERENCE> framework for unistroke numeral recognition in air-writing.
+*<DATASET>CNN based framework</DATASET> for unistroke numeral recognition in air-writing.
+*<DATASET>CNN</DATASET> based framework for unistroke numeral recognition in air-writing.
+*<DATASET>Framework for unistroke numeral recognition in air-writing</DATASET>.
+*<DATASET>air-writing</DATASET> framework for unistroke numeral recognition in air-writing.
+*<DATASET>un

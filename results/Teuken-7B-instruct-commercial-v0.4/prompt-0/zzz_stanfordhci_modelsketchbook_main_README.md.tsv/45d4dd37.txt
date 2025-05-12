@@ -1,0 +1,16 @@
+```
+## NER Annotated Text:
+### Entities and Annotations
+
+- <ORG>OpenAI</ORG>, <API_KEY>
+- <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE>
+- <DATASET>Nippon Institute of Technology (NIT)</DATASET>
+- <EVALMETRIC>Mean Average Precision (mAP)</EVALMETRIC>
+- <LICENSE>MIT License</LICENSE>
+- <ONTOLOGY>Common Sense Reasoning Ontology (CSO)</ONTOLOGY>
+- <PROGLANG>Python</PROGLANG>
+- <PROJECT>Conference on Neural Information Processing Systems (NeurIPS) Challenge</PROJECT>
+- <PUBLICATION>Conference Proceedings</PUBLICATION>
+- <SOFTWARE>GPT-3</SOFTWARE>
+- <WORKSHOP>Workshop on Natural Language Processing (NLP) for Visual Information</WORKSHOP>
+```

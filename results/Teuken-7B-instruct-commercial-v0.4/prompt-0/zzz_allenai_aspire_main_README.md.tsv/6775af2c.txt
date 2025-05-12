@@ -1,0 +1,38 @@
+```scss
+[CONFERENCE] International Joint Conference on Artificial Intelligence (IJCAI)
+[DATASET] IJCAI-17 Workshop on Semantics-based Information Systems
+[EVALMETRIC] F1 Score
+[LICENSE] CC BY-NC 4.0
+[ONTOLOGY] IJCAI Ontology
+[PROJECT] Paper With Code
+[PUBLICATION] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+[SOFTWARE] Protégé Ontology Editor
+[WORKSHOP] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+[CONFERENCE] International Joint Conference on Artificial Intelligence (IJCAI)
+[DATASET] IJCAI-17 Workshop on Semantics-based Information Systems
+[EVALMETRIC] Precision
+[LICENSE] CC BY-NC 4.0
+[ONTOLOGY] IJCAI Ontology
+[PROJECT] Paper With Code
+[PUBLICATION] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+[SOFTWARE] Protégé Ontology Editor
+[WORKSHOP] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+[CONFERENCE] International Joint Conference on Artificial Intelligence (IJCAI)
+[DATASET] IJCAI-17 Workshop on Semantics-based Information Systems
+[EVALMETRIC] Recall
+[LICENSE] CC BY-NC 4.0
+[ONTOLOGY] IJCAI Ontology
+[PROJECT] Paper With Code
+[PUBLICATION] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+[SOFTWARE] Protégé Ontology Editor
+[WORKSHOP] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+[CONFERENCE] International Joint Conference on Artificial Intelligence (IJCAI)
+[DATASET] IJCAI-17 Workshop on Semantics-based Information Systems
+[EVALMETRIC] F1 Score
+[LICENSE] CC BY-NC 4.0
+[ONTOLOGY] IJCAI Ontology
+[PROJECT] Paper With Code
+[PUBLICATION] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+[SOFTWARE] Protégé Ontology Editor
+[WORKSHOP] Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+```

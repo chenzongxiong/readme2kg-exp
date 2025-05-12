@@ -1,0 +1,11 @@
+```
+[CONFERENCE] 2024.1.7
+[DATASET] V2 data, results, and leaderboard updated
+[EVALMETRIC] Performance metrics for models
+[LICENSE] Legal terms for using resources
+[ONTOLOGY] Ontology for representing knowledge
+[PROJECT] Scientific or business initiatives
+[PUBLICATION] Scholarly works
+[SOFTWARE] Tool for editing and exploring ontology editors
+[WORKSHOP] Educational or hands-on sessions focused on specific subjects
+```

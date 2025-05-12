@@ -1,0 +1,13 @@
+To run the demo with our trained model (on COCO trainval35k), please download the model manually from [OneDrive](https://1drv.ms/u/s!Aq3FvZlUY9jUQyfXc3NXdTlJhMzYuQ) and extract it. Then, navigate to the folder containing the model files and run the following command in a terminal or command prompt:
+```python
+python demo.py --model path/to/trained/model --input_image path/to/input/image --output_image path/to/output/image --category_map path/to/category_map
+```
+Replace `path/to/trained/model` with the path to your trained model, `path/to/input/image` with the path to your input image, `path/to/output/image` with the path to your output image, and `path/to/category_map` with the path to your category map JSON file.
+
+If you want to use a pre-trained model, you can download it from [Google Drive](https://drive.google.com/file/d/18Yb5UYJ--J-3Z_lJd-xgC3gD_z4hYJR0/view?usp=sharing) and extract it. Then, you can run the demo as follows:
+```python
+python demo.py --model path/to/pretrained/model --input_image path/to/input/image --output_image path/to/output/image --category_map path/to/category_map
+```
+Replace `path/to/pretrained/model` with the path to your pretrained model, `path/to/input/image` with the path to your input image, `path/to/output/image` with the path to your output image, and `path/to/category_map` with the path to your category map JSON file.
+
+For more information on the demo script and its options, you can run `python demo.py --help`.

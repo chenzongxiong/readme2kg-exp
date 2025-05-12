@@ -1,0 +1,11 @@
+```
+CONFERENCE: TSAR-2022
+DATASET: UniHD
+EVALMETRIC: F1-Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IS-Lex
+PROJECT: UniHD-Lex
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: IS-Lex lexical simplification tool
+WORKSHOP: Workshop on Natural Language Processing for Socially Relevant Applications (NLP4SR)
+```

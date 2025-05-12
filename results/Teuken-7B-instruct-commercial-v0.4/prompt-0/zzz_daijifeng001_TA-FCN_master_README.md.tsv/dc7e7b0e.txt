@@ -1,0 +1,17 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet
+
+**EVALMETRIC**: Precision
+
+**LICENSE**: Creative Commons Attribution-ShareAlike 4.0 International License
+
+**ONTOLOGY**: Gene Ontology
+
+**PROJECT**: Gene Ontology Annotation Extension of the Gene Ontology Annotation (GOA) project
+
+**PUBLICATION**: *"Gene Ontology Annotation: An Extended Annotation Scheme"* by <NAME>, <NAME>, <NAME>, and <NAME>. In *Proceedings of the 9th International Conference on Biomedical Ontology (ICBO 2010)*, pages 58–67, 2010.
+
+**WORKSHOP**: Workshop on Semantic Computing and Knowledge Representation (SCORP)
+```

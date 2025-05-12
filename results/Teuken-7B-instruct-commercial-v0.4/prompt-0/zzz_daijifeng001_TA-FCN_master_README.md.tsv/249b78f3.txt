@@ -1,0 +1,22 @@
+Output Text:
+```markdown
+**Conference**      : International Semantic Web Conference 2019
+**Dataset**        : Mauls Creek
+**EVALMETRIC**   : Precision, Recall, F1-Score, BLEU Score
+**LICENSE**       : cc-by-3
+**ONTOLOGY**      : Intelligence Task Ontology
+**PROJECT**       : Paper With Code
+**PUBLICATION**   : Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**      : Protege ontology editor
+**WORKSHOP**      : Thermal Image Super-Resolution
+```
+**Annotation Rules:**
+
+1. Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+2. Use a single-class annotation per entity, based on the context.
+3. Annotate nested entities separately.
+4. Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+5. Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+Output Format:
+```

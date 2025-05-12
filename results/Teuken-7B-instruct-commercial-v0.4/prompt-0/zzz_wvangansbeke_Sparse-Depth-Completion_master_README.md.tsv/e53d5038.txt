@@ -1,0 +1,11 @@
+```
+CONFERENCE: KITTI depth completion benchmark
+DATASET: http://www.cvlibs.net/datasets/kitti/eval_depth.php?category=0
+EVALMETRIC: 1st place entry
+LICENSE: Unknown
+ONTOLOGY: Unknown
+PROJECT: KITTI depth completion benchmark
+PUBLICATION: Unknown
+SOFTWARE: KITTI depth completion benchmark
+WORKSHOP: KITTI depth completion benchmark
+```

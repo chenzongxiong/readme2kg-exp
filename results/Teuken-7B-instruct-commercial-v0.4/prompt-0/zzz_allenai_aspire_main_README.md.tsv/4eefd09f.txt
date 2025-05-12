@@ -1,0 +1,11 @@
+```
+CONFERENCE: 2019-09-28 release of S2ORC
+DATASET: 2019-09-28 release of S2ORC
+EVALMETRIC: precision
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: 2019-09-28 release of S2ORC
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Workshop on People-Based Vision Systems (PBVS)
+```

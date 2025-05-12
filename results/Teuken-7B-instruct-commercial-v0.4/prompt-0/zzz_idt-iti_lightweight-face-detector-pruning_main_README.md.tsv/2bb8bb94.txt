@@ -1,0 +1,3 @@
+```
+# Lightweight-Face-Detector-Pruning  Pruning Lightweight Face Detectors <ONTOLOGY>CVPR2023 Workshop</ONTOLOGY> using NNI's `FPGMPruner` and `L1NormPruner`.
+```

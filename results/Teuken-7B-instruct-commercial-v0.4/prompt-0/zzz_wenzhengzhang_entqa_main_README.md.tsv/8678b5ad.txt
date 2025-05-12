@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+EVALMETRIC: Top-5 Error Rate
+LICENSE: Creative Commons Attribution-Share Alike 3.0
+ONTOLOGY: Dublin Core Metadata Terms
+PROJECT: ImageNet
+PUBLICATION: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+SOFTWARE: OpenCV
+WORKSHOP: CVPR Workshop on Computer Vision and Pattern Recognition (CVPR)
+```

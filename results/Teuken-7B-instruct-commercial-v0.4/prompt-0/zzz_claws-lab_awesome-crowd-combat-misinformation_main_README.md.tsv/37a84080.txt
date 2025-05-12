@@ -1,0 +1,10 @@
+```
+CONFERENCE: International Conference on Social Media and Society
+DATASET: SemEval-2019 Task 7: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege Ontology Editor
+WORKSHOP: Workshop on People, Activities, and Events in Knowledge Graphs (PAV-KGG)
+```

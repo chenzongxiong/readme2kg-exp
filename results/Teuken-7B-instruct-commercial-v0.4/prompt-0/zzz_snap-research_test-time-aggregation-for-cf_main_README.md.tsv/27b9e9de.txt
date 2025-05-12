@@ -1,0 +1,43 @@
+```markdown
+<!-- Entities in the input text: -->
+
+<!-- Conference -->
+
+<!-- Dataset -->
+
+<!-- Evaluation Metric -->
+
+<!-- License -->
+<!-- Ontology -->
+<!-- Project -->
+<!-- Publication -->
+<!-- Software -->
+<!-- Workshop -->
+
+<!-- Annotation Rules: -->
+
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+- Use the following XML-style tags for entities:
+```xml
+<CONFERENCE> </CONFERENCE>
+<DATASET> </DATASET>
+<EVALMETRIC> </EVALMETRIC>
+<LICENSE> </LICENSE>
+<ONTOLOGY> </ONTOLOGY>
+<PROJECT> </PROJECT>
+<PUBLICATION> </PUBLICATION>
+<SOFTWARE> </SOFTWARE>
+<WORKSHOP> </WORKSHOP>
+```
+<!-- Output Format: -->
+
+<!-- The original content with entities directly annotated using XML-style tags for their respective classes. -->
+
+- `The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.`
+
+- Your output should be in Markdown format with all entities tagged as instructed.
+```

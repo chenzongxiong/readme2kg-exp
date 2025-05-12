@@ -1,0 +1,17 @@
+```markdown
+**Entity Classes:**
+*SERVERAGENT*
+*METHOD*
+
+**Annotation Rules:**
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+Input Text:
+
+<br/><br/>  **ServerAgent** has one method: `request_values`.
+
+Output Text:
+```

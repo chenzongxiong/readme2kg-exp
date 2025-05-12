@@ -1,0 +1,5 @@
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+The Stanford Online Products dataset is a collection of images related to various products sold on the online store.
+```
+The Stanford Online Products dataset consists of images of various products, including bicycles, shoes, and clothing. The dataset includes both training and test sets, with each image accompanied by bounding boxes and labels. The bounding boxes indicate the location of the objects within the image, while the labels provide information about the objects, such as whether they are bicycles or shoes. The test set consists of 14,918 images, which are not used for training and can be used to evaluate the performance of models.

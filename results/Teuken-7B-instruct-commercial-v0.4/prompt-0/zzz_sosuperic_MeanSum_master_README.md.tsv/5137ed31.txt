@@ -1,0 +1,5 @@
+Downloaded and saved the model to the specified folder:
+```markdown
+Downloaded and saved the model to the specified folder:
+```
+`stable_checkpoints/sum/mlstm/yelp/batch_size_16-notes_cycloss_honly-sum_lr_0.0005-tau_2.0/`

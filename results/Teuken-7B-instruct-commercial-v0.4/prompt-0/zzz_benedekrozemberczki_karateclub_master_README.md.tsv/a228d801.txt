@@ -1,0 +1,30 @@
+```markdown
+<!-- Entities Annotated in Markdown Format -->
+
+[Conference](https://en.wikipedia.org/wiki/Conference) : International Semantic Web Conference 2019, ISWC 2019, CVPR2023 workshop
+
+<!-- Nested Entity 1 -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : NIPS 2017 Workshop on Adversarial Examples and Robustness (WAIR), CVPR 2023 Workshop on Deep Learning and Healthcare
+
+<!-- Nested Entity 2 -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : AAAI Fall Symposium on Machine Learning for Human Language Technologies, ECML PKDD 2023 Workshop on Adversarial Machine Learning for Cybersecurity and Privacy
+
+<!-- URL Entities -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : <https://www.aaai.org/Conferences/AAAI-17/aaai17-call.php>, <https://www.semantic-web-conference.org/program/call-for-papers>, <https://www.aaai.org/Conferences/AAAI-17/aaai17-workshops.php>
+
+<!-- Evaluation Metric Entities -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : Precision, Recall, F1-Score, BLEU Score
+
+<!-- License Entities -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : cc-by-3, CC BY-NC 4.0
+
+<!-- Ontology Entities -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : Intelligence Task Ontology
+
+<!-- Programming Language Entities -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : Python, PHP, C++
+
+<!-- Project Entities -->
+[Conference](https://en.wikipedia.org/wiki/Conference) : Paper With Code, <https://paperswithcode.com/domain/natural-language-processing>, <https://paperswithcode.com/domain/computer-vision>, <https://paperswithcode.com/domain/machine-learning>
+
+<!-- Public

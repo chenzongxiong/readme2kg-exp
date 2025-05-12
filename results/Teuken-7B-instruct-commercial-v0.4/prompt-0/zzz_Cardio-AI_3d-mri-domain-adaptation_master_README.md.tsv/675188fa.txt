@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-10 Task 2: Machine Learning for Text Summarization
+
+**EVALMETRIC**: Macro Average F1-Score
+
+**LICENSE**: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
+**ONTOLOGY**: IJCAI 2010 Ontology
+
+**PROJECT**: IJCAI-10 Task 2: Machine Learning for Text Summarization
+
+**PUBLICATION**: Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI-10)
+
+**SOFTWARE**: Stanford CoreNLP, Apache OpenNLP, and NLTK (Natural Language Toolkit)
+
+**WORKSHOP**: IJCAI-10 Workshop on Machine Learning for Text Summarization
+```

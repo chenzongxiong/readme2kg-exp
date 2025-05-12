@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP Datasets
+EVALMETRIC: Macro F1 Score
+LICENSE: Creative Commons Attribution-Share Alike 3.0
+ONTOLOGY: SNOMED CT
+PROJECT: SemEval-2017 Task 3
+PUBLICATION: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Stanford CoreNLP
+```
+The Stanford CoreNLP software is a popular tool for natural language processing tasks. It uses machine learning models to perform various NLP tasks such as part-of-speech tagging, named entity recognition, and dependency parsing. The software is developed by the Stanford CoreNLP team and is widely used in academia and industry.

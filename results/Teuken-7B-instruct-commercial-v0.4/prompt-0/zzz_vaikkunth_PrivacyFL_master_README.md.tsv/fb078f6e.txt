@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+DATASET: CIFAR-10
+EVALMETRIC: Accuracy
+LICENSE: CC-BY-NC-SA
+ONTOLOGY: Gene Ontology
+PROJECT: SemEval-2017 Task 3
+PUBLICATION: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Weka
+WORKSHOP: Workshop on Machine Learning for Healthcare (ML4H)
+```

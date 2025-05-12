@@ -1,0 +1,11 @@
+This is the late fusion technique used in our framework. **LATE FUSION** ranks first on the KITTI depth completion benchmark without using additional data or postprocessing.
+
+Output Text:
+```markdown
+This is the late fusion technique used in our framework. <TECHNIQUE>LATE FUSION</TECHNIQUE> ranks first on the <EVALMETRIC>KITTI depth completion benchmark</EVALMETRIC> without using additional data or postprocessing.
+```
+Explanation:
+
+* I have used the guidelines to identify and classify the entities into their respective categories.
+* I have directly annotated the entities using XML-style tags for their respective classes.
+* I have returned the original content with entities directly annotated using XML-style tags for their respective classes, as per the instructions.

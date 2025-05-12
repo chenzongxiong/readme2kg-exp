@@ -1,0 +1,5 @@
+```
+The <SOFTWARE>TensorFlow Federated</SOFTWARE> library is widely used for implementing secure federated learning.
+```
+
+Note: The entities have been annotated directly in the original text using XML-style tags for their respective classes.

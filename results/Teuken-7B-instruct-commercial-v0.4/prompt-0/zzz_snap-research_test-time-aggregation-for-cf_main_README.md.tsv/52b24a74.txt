@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2019 Dataset
+EVALMETRIC: Average Perplexity
+LICENSE: CC-BY-3.0
+ONTOLOGY: IJCAI 2019 Ontology
+PROJECT: Open Mind Common Sense Reasoning (OpenCSR)
+PUBLICATION: <PUBLICATION>Common Sense Reasoning</PUBLICATION>
+SOFTWARE: OpenCSR ontology editor
+WORKSHOP: IJCAI-19 Tutorial on OpenCSR Workshop
+URL: <URL>https://www.ijcai.org/online/index.php?option=com_content&task=view&id=1618&Itemid=1</URL>
+```

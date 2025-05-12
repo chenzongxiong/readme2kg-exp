@@ -1,0 +1,10 @@
+```
+CONFERENCE: International Conference on Human-Computer Interaction
+DATASET: A dataset of tweets related to COVID-19 misinformation
+EVALMETRIC: Precision, Recall, F1-Score, and ROUGE-1, ROUGE-2, ROUGE-L
+LICENSE: Creative Commons Attribution-NonCommercial 4.0 International License
+ONTOLOGY: Ontology of Information Extraction
+PROJECT: Developing a system for detecting and mitigating COVID-19 misinformation
+PUBLICATION: ACM Transactions on Interactive Intelligent Systems
+SOFTWARE: Python, Natural Language Toolkit (NLTK)
+WORKSHOP: Workshop on Human-Computer Interaction for All

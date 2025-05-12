@@ -1,0 +1,31 @@
+Upon holistic analysis of the papers, we introduce a novel taxonomy of the roles played by the crowds in combating misinformation:
+
+* **Crowds as Annotators** who actively identify misinformation
+* **Crowds as Evaluators** who assess counter-misinformation effectiveness
+* **Crowds as Creators** who create counter-misinformation
+
+Output Text:
+```scss
+**CONFERENCE**: International Semantic Web Conference 2019
+**CONFERENCE**: ISWC 2019
+**CONFERENCE**: CVPR2023 workshop
+**DATASET**: Mauls Creek
+**DATASET**: USTPO MIT dataset
+**EVALMETRIC**: Precision
+**EVALMETRIC**: Recall
+**EVALMETRIC**: F1-Score
+**EVALMETRIC**: BLEU Score
+**LICENSE**: cc-by-3
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Intelligence Task Ontology
+**ONTOLOGY**: Ontology of Information Extraction
+**ONTOLOGY**: Ontology of Information Retrieval
+**ONTOLOGY**: Ontology of Natural Language Processing
+**PROJECT**: Paper With Code project
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**PUBLICATION**: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+```
+**PAV-SOD: Panoramic Audiovisual Saliency Detection**

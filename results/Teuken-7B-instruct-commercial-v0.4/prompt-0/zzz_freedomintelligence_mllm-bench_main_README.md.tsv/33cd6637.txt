@@ -1,0 +1,62 @@
+```md
+## Named Entity Recognition (NER) on given text
+
+Following are the entities identified and classified into their respective categories. Enclosed within XML-style tags are the annotated entities in the original text.
+
+### CONFERENCE
+
+- International Semantic Web Conference 2019
+- ISWC 2019
+- CVPR2023 workshop
+
+### DATASET
+
+- Mauls Creek
+- US Patent and Trademark Office (USTPO) MIT dataset (<https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>)
+- Precision
+- Recall
+- F1-Score
+- BLEU Score
+
+### LICENSE
+
+- cc-by-3
+- CC BY-NC 4.0
+
+### ONTOLOGY
+
+- Intelligence Task Ontology
+- Ontology for Information Extraction (IEO)
+- Ontology for Biomedical Information (OBI)
+- Ontology for Image Analysis (OBIA)
+- Ontology for Annotation, Learning and Representation (OAR)
+- Ontology for Medical Image Analysis (OMIA)
+- Ontology for Medical Information (OMI)
+- Ontology for Medical Information Systems (OMIS)
+- Ontology for Medical Image Analysis (OMIA)
+
+### PROJECT
+
+- Paper With Code (<https://paperswithcode.com/>)
+
+### PUBLICATION
+
+- No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+- Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+### SOFTWARE
+
+- Protege ontology editor
+- OntoumlEditor
+- Protégé-OWL
+- Eclipse OntoEdit
+- Jena ontology editor
+- OW2 OntoEditor
+- OpenCalais Editor
+- Apache Jena Editor
+- Protégé ontology editor
+
+### WORKSHOP
+
+- Thermal Image Super-Resolution (<https://pbvs-workshop.github.io/datasets.html>)
+```

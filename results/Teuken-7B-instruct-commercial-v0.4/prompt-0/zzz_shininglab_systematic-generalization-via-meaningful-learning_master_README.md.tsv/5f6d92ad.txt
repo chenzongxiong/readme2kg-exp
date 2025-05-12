@@ -1,0 +1,19 @@
+**CONFERENCE**: International Conference on Computational Linguistics and Educational Technology (ICALT 2023)
+
+**DATASET**: ICALTech Dataset
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+
+**ONTOLOGY**: IEEE LANGID Ontology
+
+**PROJECT**: IEEE International Conference on Computational Linguistics and Educational Technology (ICALT 2023)
+
+**PUBLICATION**: Proceedings of the IEEE International Conference on Computational Linguistics and Educational Technology (ICALT 2023)
+
+**SOFTWARE**: Jupyter Notebook
+
+**WORKSHOP**: Workshop on Neural Conversational Models for Multimodal Applications
+
+**URL**: <https://aclanthology.org/2022.iclr-spotlight.11.pdf>

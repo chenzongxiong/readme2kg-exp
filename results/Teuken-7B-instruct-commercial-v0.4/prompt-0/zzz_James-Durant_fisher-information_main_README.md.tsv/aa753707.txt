@@ -1,0 +1,4 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is one of the most prestigious events in the field of machine learning and artificial intelligence.
+The <CONFERENCE>CVPR 2023</CONFERENCE> workshop on "Advances in Computer Vision" is an excellent opportunity to learn about the latest research in computer vision and networked systems.
+The <DATASET>IST

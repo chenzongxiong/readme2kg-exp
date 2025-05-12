@@ -1,0 +1,10 @@
+```markdown
+**CONFERENCE**: International Symposium on Research and Education in Computer Vision
+**DATASET**: Fisher Information Neutron Reflectometry Dataset
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: CC-BY-3
+**ONTOLOGY**: Fisher Information Ontology
+**PROJECT**: Fisher Information Neutron Reflectometry Analysis and Optimization
+**PUBLICATION**: Journal of Neutron Scattering
+**SOFTWARE**: Protege Ontology Editor
+```

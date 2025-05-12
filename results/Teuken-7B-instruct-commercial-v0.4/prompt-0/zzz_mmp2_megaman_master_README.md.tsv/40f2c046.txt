@@ -1,0 +1,6 @@
+Output Text:
+```scss
+# NER Annotated Text in Markdown Format
+
+[build status](http://img.shields.io/travis/mmp2/megaman/master.svg?label=build%20status&logo=travis-ci) - The build status badge links to the Travis CI build status for the mmp2/megaman GitHub repository on the master branch.
+```

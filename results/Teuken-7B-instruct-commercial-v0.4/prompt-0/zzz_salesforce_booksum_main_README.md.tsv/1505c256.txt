@@ -1,0 +1,6 @@
+```
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing</CONFERENCE> (EMNLP) is an annual conference focusing on the application of statistical and computational methods to natural language processing (NLP).
+The <CONFERENCE>EMNLP 2023</CONFERENCE> conference is an important event in the NLP community, providing a platform for researchers to present their latest work and exchange ideas.
+The <CONFERENCE>EMNLP 2023</CONFERENCE> workshop on "Advances in Neural Information Retrieval" (NIR) aims to foster research on the development of state-of-the-art techniques for information retrieval using deep learning.
+The <DATASET>EMNLP 2023</DATASET> dataset is a collection of 100,000 news articles and their corresponding labels, which can be used for training and evaluating NLP models.
+```

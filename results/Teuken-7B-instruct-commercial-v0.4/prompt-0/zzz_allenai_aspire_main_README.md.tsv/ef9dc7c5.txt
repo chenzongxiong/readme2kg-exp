@@ -1,0 +1,14 @@
+Model Usage Instructions
+============================
+
+1. <CONFERENCE>Conference Event</CONFERENCE>
+
+* Definition: A formal meeting or gathering focused on a particular field of study or topic.
+* Example: International Semantic Web Conference 2019
+* EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+* LICENSE: cc-by-3, CC BY-NC 4.0
+* ONTOLOGY: Intelligence Task Ontology
+* PROJECT: Paper With Code
+* PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* SOFTWARE: Protege ontology editor
+* WORKSHOP: Pbvs-workshop

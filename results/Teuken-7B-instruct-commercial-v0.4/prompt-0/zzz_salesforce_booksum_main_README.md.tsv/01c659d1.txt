@@ -1,0 +1,50 @@
+```
+## NER Annotated Text
+- CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+	*Definition*:
+	A major international conference focusing on artificial neural networks and related technologies.
+	*Example*:
+	`<CONFERENCE>IJCNN 2019</CONFERENCE>`
+	`<CONFERENCE>IJCNN 2021</CONFERENCE>`
+	`<CONFERENCE>IJCNN 2023</CONFERENCE> workshop`
+- DATASET: IJCNN 2019 Benchmarks
+	*Definition*:
+	A dataset of neural network models submitted to the IJCNN 2019 conference.
+	*Example*:
+	`<DATASET>IJCNN2019</DATASET>`
+- EVALMETRIC: Precision, Recall, F1-Score, and BLEU Score
+	*Definition*:
+	Evaluation metrics used to assess the performance of machine learning models.
+	*Example*:
+	The evaluation metrics used are `<EVALMETRIC>Precision</EVALMETRIC>`, `<EVALMETRIC>Recall</EVALMETRIC>`, `<EVALMETRIC>F1-Score</EVALMETRIC>`, and `<EVALMETRIC>BLEU Score</EVALMETRIC>`.
+- LICENSE: BSD-3 License
+	*Definition*:
+	A permissive open-source software license.
+	*Example*:
+	`<LICENSE>BSD-3</LICENSE>`
+- ONTOLOGY: Intelligence Task Ontology
+	*Definition*:
+	A framework representing knowledge about intelligence tasks, including concepts, entities, properties, and relationships.
+	*Example*:
+	The `<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>` is ...
+- PROJECT: Paper With Code
+	*Definition*:
+	A project aimed at addressing research questions and achieving specific goals through a planned initiative.
+	*Example*:
+	The `<PROJECT>Paper With Code</PROJECT>` project (https://<PROJECT>paperswithcode</PROJECT>.com/) is ...
+- PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+	*Definition*:
+	A scholarly work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+	*Example*:
+	`<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>`. In `<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>`
+- SOFTWARE: Protege Ontology Editor
+	*Definition*:
+	A software tool designed for creating and editing ontologies.
+	*Example*:
+	You can use the `<SOFTWARE>Protege ontology editor</SOFTWARE>` to explore and edit the resource.
+- WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection
+	*Definition*:
+	An educational or hands-on session focused on panoramic audiovisual saliency detection.
+	*Example*:
+	Refers to the [PAV-SOD](https://<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html) workshop.
+```

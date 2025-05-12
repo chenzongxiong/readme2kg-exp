@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+DATASET: CIFAR-10
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: Task Ontology
+PROJECT: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+PUBLICATION: "Deep Residual Learning for Image Recognition" by He et al.
+SOFTWARE: TensorFlow
+WORKSHOP: ImageNet Retina Image Analysis Workshop (RIIW)
+```

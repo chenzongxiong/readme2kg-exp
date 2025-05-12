@@ -1,0 +1,7 @@
+**Annotated Text:**
+```markdown
+* demo: <IMAGE>
+```
+**Explanation:**
+
+* The entity class "IMAGE" is used to classify the text as an image.

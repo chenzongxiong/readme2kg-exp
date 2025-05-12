@@ -1,0 +1,12 @@
+```
+## Entities:
+- CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+- DATASET: IJCNN 2018 Challenge on Detection of Objects in Natural Videos (PAV-SOD)
+- EVALMETRIC: Accuracy
+- LICENSE: CC BY-NC 4.0
+- ONTOLOGY: Intelligence Task Ontology
+- PROJECT: PAV-SOD Challenge
+- PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+- SOFTWARE: Protege ontology editor
+- WORKSHOP: Thermal Image Super-Resolution Workshop
+```

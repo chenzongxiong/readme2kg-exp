@@ -1,0 +1,73 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is widely attended by researchers in the field of machine learning and artificial intelligence.
+The <CONFERENCE>CVPR2023 Workshop on Neural Architectures for Vision (NatVis)</CONFERENCE> is focused on exploring and discussing novel architectures for computer vision tasks.
+The <DATASET>Open Images Dataset (OI)</DATASET> is a large-scale dataset of image-level annotations that includes a diverse set of objects, scenes, and activities.
+The <DATASET>IST College of Engineering and Technology</DATASET> has a rich history of producing innovative solutions in the field of engineering and technology.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a renowned institution that offers a wide range of programs and courses.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers a comprehensive education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly rated engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly rated engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly rated engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly rated engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly rated engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly rated engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly rated engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-respected engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a well-known engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a reputed engineering college that offers top-notch education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly ranked engineering college that provides excellent education.
+The <DATASET>IST College of Engineering and Technology</DATASET> is a highly regarded engineering college that offers top-quality education.
+The <

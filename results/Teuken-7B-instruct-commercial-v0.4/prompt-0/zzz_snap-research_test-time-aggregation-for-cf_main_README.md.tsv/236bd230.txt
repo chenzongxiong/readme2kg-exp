@@ -1,0 +1,14 @@
+```
+CONFERENCE: Adv Neural Info Process Syst
+DATASET: 6th Annual Meeting on Computational Learning Theory
+EVALMETRIC: Average Precision
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Ontology for Learning from Examples
+PROJECT: Workshop on Principles and Practice of Learning Representations
+PUBLICATION: Proceedings of the 37th International Conference on Machine Learning
+SOFTWARE: Scikit-learn
+WORKSHOP: Workshop on Adversarial Robustness
+author={Ju, Mingxuan and Shiao, William and Guo, Zhichun and Ye, Yanfang and Liu, Yozen and Shah, Neil and Zhao, Tong}
+journal={Advances in Neural Information Processing Systems}
+year={2024}
+```

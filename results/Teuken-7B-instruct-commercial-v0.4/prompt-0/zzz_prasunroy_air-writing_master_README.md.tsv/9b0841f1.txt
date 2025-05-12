@@ -1,0 +1,10 @@
+Made with :heart: and GitHub
+
+The original text is:
+<br /> <br />   **Made with** :heart: **and GitHub**
+
+Annotated text:
+```vbnet
+<CONFERENCE>Made with :heart: and GitHub</CONFERENCE>
+<SOFTWARE>Made with :heart: and GitHub</SOFTWARE>
+```

@@ -1,0 +1,118 @@
+```
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing (EMNLP)</CONFERENCE> is a premier conference in the field of natural language processing (NLP) that brings together researchers, practitioners, and students from various disciplines to present and discuss the latest advances and trends in NLP research.
+
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is a leading international conference in computer vision and pattern recognition, which features cutting-edge research and applications in computer vision, machine learning, and related fields.
+
+The <DATASET>ImageNet</DATASET> is a large-scale image dataset consisting of thousands of images, mainly in the fields of computer vision and image processing.
+
+The <DATASET>COCO</DATASET> dataset is a popular dataset for object detection, segmentation, and classification tasks.
+
+The <DATASET>PASCAL VOC</DATASET> is a popular dataset for object detection tasks.
+
+The <DATASET>ADE20K</DATASET> is a large-scale dataset for object detection and localization tasks.
+
+The <DATASET>MNIST</DATASET> is a well-known dataset for handwritten digit recognition.
+
+The <DATASET>Breast Cancer Wisconsin (Diagnostic)</DATASET> is a classic benchmark dataset for classification tasks in machine learning.
+
+The <DATASET>USPTO</DATASET> dataset is a dataset of patent documents from the United States Patent and Trademark Office.
+
+The <DATASET>NIST Image</DATASET> is a dataset of images from the National Institute of Standards and Technology.
+
+The <DATASET>Stanford Dogs</DATASET> is a dataset of images of dogs, annotated with various attributes.
+
+The <DATASET>Open Images</DATASET> is a large-scale dataset of images annotated with object detection, segmentation, and classification labels.
+
+The <DATASET>Labeled Faces in the Wild</DATASET> is a large-scale dataset of faces annotated with bounding boxes and attributes.
+
+The <DATASET>CMU-PIE</DATASET> is a dataset of speech signals annotated with phonemes and words.
+
+The <DATASET>ATIS 2003</DATASET> is a dataset of telephone conversations annotated with keywords and phrases.
+
+The <DATASET>OntoNotes</DATASET> is a large-scale ontology dataset annotated with various entities and their relationships.
+
+The <DATASET>DBpedia</DATASET> is a dataset of structured knowledge extracted from Wikipedia, annotated with various properties and categories.
+
+The <DATASET>YAGO2</DATASET> is a large-scale dataset of knowledge graphs annotated with entities and their relationships.
+
+The <DATASET>Wikidata</DATASET> is a dataset of structured knowledge extracted from Wikipedia, annotated with various properties and categories.
+
+The <DATASET>MIT-C4</DATASET> is a dataset of compressed images, annotated with various features and attributes.
+
+The <DATASET>NIST-ISIC</DATASET> is a dataset of images of skin lesions annotated with various attributes and categories.
+
+The <DATASET>GTZAS</DATASET> is a dataset of music tracks, annotated with genre labels.
+
+The <DATASET>Lyrics</DATASET> is a dataset of song lyrics, annotated with various attributes and categories.
+
+The <DATASET>SpeechDat</DATASET> is a dataset of speech signals annotated with various features and attributes.
+
+The <DATASET>AudioSet</DATASET> is a dataset of audio signals annotated with various features and attributes.
+
+The <DATASET>Labeled Faces in the Wild</DATASET> is a dataset of faces annotated with bounding boxes and attributes.
+
+The <DATASET>Pascal VOC</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>COCO</DATASET> is a dataset of images of objects annotated with bounding boxes, attribute labels, and segmentation masks.
+
+The <DATASET>ImageNet</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>AFLW</DATASET> is a dataset of speech signals annotated with phonemes and words.
+
+The <DATASET>MIT-Kak-MIT-103</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part2</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part3</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part4</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part5</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part6</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part7</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part8</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part9</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part10</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part11</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part12</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part13</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part14</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part15</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part16</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part17</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part18</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part19</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part20</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part21</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part22</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part23</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part24</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part25</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part26</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part27</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part28</DATASET> is a dataset of images of objects annotated with bounding boxes and attribute labels.
+
+The <DATASET>MIT-Kak-MIT-103-Part29</DATASET> is

@@ -1,0 +1,11 @@
+```
+THEME: CONFERENCE
+CONFERENCE: CVPR2023 workshop
+EVALMETRIC: Precision
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege ontology editor
+WORKSHOP: CVPR2023 workshop
+```

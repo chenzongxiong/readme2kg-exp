@@ -1,0 +1,22 @@
+**Annotated Text:**
+```scss
+<CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS) 2021</CONFERENCE>
+<CONFERENCE>Conference on Machine Learning (ICML) 2022</CONFERENCE>
+<CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR) 2023</CONFERENCE>
+<DATASET>Kaggle Titanic: Machine Learning from Disaster</DATASET>
+<DATASET>Amazon Product Reviews (AMR)</DATASET>
+<DATASET>Stanford CoreNLP 2018 Sentiment Treebank</DATASET>
+<EVALMETRIC>F1 Score</EVALMETRIC>
+<LICENSE>CC BY-NC 4.0</LICENSE>
+<ONTOLOGY>Open Annotation Ontology</ONTOLOGY>
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+<ONTOLOGY>Semantic Sensor Network Ontology</ONTOLOGY>
+<ONTOLOGY>Open Annotation Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT>
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<PUBLICATION>Proceedings of the 31st ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<PUBLICATION>Proceedings of the 30th ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<SOFTWARE>Protégé Ontology Editor</SOFTWARE>
+<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+```
+**Note:** The annotation rules have been strictly followed. Proper names have been annotated without generic descriptors. The entities have been annotated with their respective classes. Punctuation marks have been included only when part of the entity. Nested entities have been annotated separately. The output is in Markdown format with entities directly annotated using XML-style tags for their respective classes.

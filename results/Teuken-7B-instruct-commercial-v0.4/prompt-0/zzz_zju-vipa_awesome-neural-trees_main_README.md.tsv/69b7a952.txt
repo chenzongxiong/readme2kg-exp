@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+
+**DATASET**: A large-scale dataset of English-language news articles with a comprehensive set of fine-grained labels for text classification.
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: cc-by-3.0
+
+**ONTOLOGY**: Intelligence Task Ontology
+
+**PROJECT**: Knowledge Graph Embeddings for Reasoning on the Web of Data
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+**SOFTWARE**: Protege ontology editor
+
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+```

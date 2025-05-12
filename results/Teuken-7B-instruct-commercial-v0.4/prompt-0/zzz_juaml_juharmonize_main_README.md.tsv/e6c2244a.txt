@@ -1,0 +1,141 @@
+```
+## Entities annotated in the text
+CONFERENCE: International Semantic Web Conference 2019
+CONFERENCE: ISWC 2019
+CONFERENCE: CVPR2023 workshop
+DATASET: Maeles Creek
+DATASET: USTPO MIT
+EVALMETRIC: Precision
+EVALMETRIC: Recall
+EVALMETRIC: F1-Score
+EVALMETRIC: BLEU Score
+LICENSE: cc-by-3
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+ONTOLOGY: Ontology for Medical Subject Headings
+ONTOLOGY: Open Biomedical Ontology
+ONTOLOGY: Semantic Information Infrastructure Ontology
+ONTOLOGY: Simple Knowledge Organization System
+ONTOLOGY: Thesaurus for OBO Foundry Ontologies
+ONTOLOGY: Virtual International University
+ONTOLOGY: Web Ontology Language
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY: Web Ontology Language Semantics and Vocabulary
+ONTOLOGY: Web Ontology Language Syntax and Semantics
+ONTOLOGY

@@ -1,0 +1,18 @@
+Here's the annotated text in Markdown format:
+```markdown
+**CONFERENCE**               : International Semantic Web Conference 2019
+**DATASET**                  : Mauls Creek
+**EVALMETRIC**              : Precision, Recall, F1-Score, BLEU Score
+**LICENSE**                 : cc-by-3
+**ONTOLOGY**                 : Intelligence Task Ontology
+**PROJECT**                 : Paper With Code
+**PUBLICATION**             : No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+**SOFTWARE**                : Protege ontology editor
+**WORKSHOP**                 : Thermal Image Super-Resolution
+```
+Guidelines:
+
+* Follow the guidelines provided in the task description.
+* Use the provided entity classes and annotation rules.
+* Return the original content with entities directly annotated using XML-style tags for their respective classes.
+* Your output should be in Markdown format with all entities tagged as instructed.

@@ -1,0 +1,3 @@
+The following is the annotated text in Markdown format:
+```markdown
+**Conference**:**:** `International Joint Conference on Artificial Intelligence (IJCAI)

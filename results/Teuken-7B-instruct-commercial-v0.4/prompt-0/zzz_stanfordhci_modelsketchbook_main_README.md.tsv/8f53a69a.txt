@@ -1,0 +1,1 @@
+![create\_logical\_concept\_model\_widgets](https://i.imgur.com/lU94fqx.png)  # Keyword concepts Keywords can be applied to any text-based input fields.

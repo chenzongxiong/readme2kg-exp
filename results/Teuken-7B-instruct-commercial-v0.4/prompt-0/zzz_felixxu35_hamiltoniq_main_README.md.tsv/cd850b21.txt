@@ -1,0 +1,31 @@
+Output Text:
+```markdown
+* PROJECT:
+* PUBLICATION:
+* SOFTWARE:
+* WORKSHOP:
+* CONFERENCE:
+* DATASET:
+* EVALMETRIC:
+* LICENSE:
+* ONTOLOGY:
+* PROJECT:
+* PUBLICATION:
+* SOFTWARE:
+* WORKSHOP:
+* CONFERENCE:
+* DATASET:
+* EVALMETRIC:
+* LICENSE:
+* ONTOLOGY:
+* PROJECT:
+* PUBLICATION:
+* SOFTWARE:
+* WORKSHOP:
+* CONFERENCE:
+* DATASET:
+* EVALMETRIC:
+* LICENSE:
+* ONTOLOGY:
+```
+**Note: The entities in the input text have been directly annotated using XML-style tags based on the guidelines provided. The output is in Markdown format.**

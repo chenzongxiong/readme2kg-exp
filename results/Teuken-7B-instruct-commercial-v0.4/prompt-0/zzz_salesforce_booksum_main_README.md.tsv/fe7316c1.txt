@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Conference on Computational Linguistics and Chinese Language Processing
+**DATASET**: Chinese Text Rewriting Dataset
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: Creative Commons Attribution-Share Alike 4.0 International
+**ONTOLOGY**: Chinese Text Rewriting Ontology
+**PROJECT**: Chinese Text Rewriting Dataset Annotation and Evaluation
+**PUBLICATION**: Proceedings of the 5th International Joint Conference on Natural Language Processing
+**SOFTWARE**: Stanford CoreNLP Pipelines
+**WORKSHOP**: Workshop on Chinese Text Rewriting and Machine Learning
+```

@@ -1,0 +1,9 @@
+## CONFERENCE: All the software requirements are already pre-installed in the Docker image below. 
+## DATASET: All the software requirements are already pre-installed in the Docker image below.
+## EVALMETRIC: Precision, Recall, F1-Score, and BLEU Score.
+## LICENSE: cc-by-3
+## ONTOLOGY: Intelligence Task Ontology.
+## PROJECT: Paper With Code project.
+## PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management.
+## SOFTWARE: Protege ontology editor.
+## WORKSHOP: Thermal Image Super-Resolution Workshop.

@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI 2021 Dataset
+
+**EVALMETRIC**: AUC-ROC
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: IJCAI 2021 Ontology
+
+**PROJECT**: IJCAI 2021 Project
+
+**PUBLICATION**: Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI), 2021
+
+**SOFTWARE**: IJCAI 2021 Ontology Visualizer
+
+IJCAI 2021 Dataset <DATASET>IJCAI 2021</DATASET>. Avalaible at <https://<SOFTWARE>IJCAI 2021 Ontology Visualizer</SOFTWARE>.
+```

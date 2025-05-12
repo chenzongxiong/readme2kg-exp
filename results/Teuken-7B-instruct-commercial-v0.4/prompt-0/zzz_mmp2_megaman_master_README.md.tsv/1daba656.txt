@@ -1,0 +1,10 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: Macro F1 Score
+LICENSE: Creative Commons Attribution-ShareAlike 4.0 International
+ONTOLOGY: Ontology of Information Systems (ODIS)
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+SOFTWARE: Stanford CoreNLP
+```

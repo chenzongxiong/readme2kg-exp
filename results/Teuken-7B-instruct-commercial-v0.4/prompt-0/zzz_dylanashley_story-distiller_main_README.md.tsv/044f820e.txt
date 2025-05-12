@@ -1,0 +1,5 @@
+```
+CONFERENCE: Preprocessing to extract CLIP features from images can be done straightforwardly using the [official implementation](https://github.com/openai/CLIP).
+LICENSE: The evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+PROJECT: Paper With Code.
+```

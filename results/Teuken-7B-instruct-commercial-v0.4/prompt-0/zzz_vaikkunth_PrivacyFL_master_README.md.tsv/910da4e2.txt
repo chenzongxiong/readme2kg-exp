@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2021 Dataset
+EVALMETRIC: F1 Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2021 Ontology
+PROJECT: IJCAI 2021 Project
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: PySpark
+WORKSHOP: Workshop on Artificial Intelligence and Computational Linguistics (AICL)
+```

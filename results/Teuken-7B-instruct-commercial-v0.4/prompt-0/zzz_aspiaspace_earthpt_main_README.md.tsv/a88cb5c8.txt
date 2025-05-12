@@ -1,0 +1,9 @@
+```
+CONFERENCE: train.py
+CONFERENCE: model.py
+LICENSE: train.py
+ONTOLOGY: model.py
+PROJECT: train.py
+PUBLICATION: model.py
+SOFTWARE: train.py
+```

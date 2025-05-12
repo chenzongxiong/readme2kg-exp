@@ -1,0 +1,23 @@
+**Annotations:**
+```markdown
+*CONFERENCE*: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET*: [IJCAI 2019 Competition Dataset](https://www.semanticscholar.org/paper/8729c6a57e0b31589c7b6741e9475e98e15c681c)
+*EVALMETRIC*: Precision, Recall, F1-Score, BLEU Score
+*LICENSE*: cc-by-3, CC BY-NC 4.0
+*ONTOLOGY*: IJCAI Ontology
+*PROGLANG*: Python, PHP, C++
+*PROJECT*: Paper With Code
+*PUBLICATION*: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*SOFTWARE*: Protege ontology editor
+*WORKSHOP*: [Thermal Image Super-Resolution](https://pbvs-workshop.github.io/datasets.html)
+```
+**Annotated Input Text:**
+```markdown
+*CONFERENCE*: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET*: [IJCAI 2019 Competition Dataset](https://www.semanticscholar.org/paper/8729c6a57e0b31589c7b6741e9475e98e15c681c)
+*EVALMETRIC*: Precision, Recall, F1-Score, BLEU Score
+*LICENSE*: cc-by-3, CC BY-NC 4.0
+*ONTOLOGY*: IJCAI Ontology
+*PROGLANG*: Python, PHP, C++
+*PROJECT*: Paper With Code
+*PUBLICATION*: Proceedings of the 32nd A

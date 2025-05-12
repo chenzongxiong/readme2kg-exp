@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: ROUGE
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: CIDOC CRM
+PROJECT: SemEval-2017 Task 7
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval)
+SOFTWARE: Stanford CoreNLP
+```
+The Stanford CoreNLP POS Tagger is a widely used tool for natural language processing tasks, such as part-of-speech tagging and named entity recognition.

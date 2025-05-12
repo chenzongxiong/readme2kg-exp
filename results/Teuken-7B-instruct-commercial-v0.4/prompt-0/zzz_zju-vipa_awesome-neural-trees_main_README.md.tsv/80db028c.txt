@@ -1,0 +1,5 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a leading annual conference in the field of machine learning and artificial intelligence. Brent is a researcher and author of the paper "[Learning Robust Representations for Image Classification via Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Learning_Robust_Representations_for_Image_Classification_CVPR_2021_paper.pdf)."
+```
+
+Note: The original text was not provided, so the above is just an example of how the text could be annotated using the guidelines provided.

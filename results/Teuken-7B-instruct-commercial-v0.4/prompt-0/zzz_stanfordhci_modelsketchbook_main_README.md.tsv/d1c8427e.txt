@@ -1,0 +1,41 @@
+ModelSketchBook instantiates a vision of **model sketching**, a technical framework for rapidly iterating over a machine learning model's decision-making logic.
+
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI).
+
+DATASET: IJCAI 2023 Shared Task Dataset.
+
+EVALMETRIC: Precision, Recall, F1-Score, and BLEU Score.
+
+LICENSE: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+ONTOLOGY: Intelligence Task Ontology.
+
+PROJECT: Paper With Code.
+
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management.
+
+SOFTWARE: Protege Ontology Editor.
+
+WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection Workshop.
+
+Output Text:
+
+ModelSketchBook instantiates a vision of **model sketching**, a technical framework for rapidly iterating over a machine learning model's decision-making logic.
+
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI).
+
+DATASET: IJCAI 2023 Shared Task Dataset.
+
+EVALMETRIC: Precision, Recall, F1-Score, and BLEU Score.
+
+LICENSE: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+ONTOLOGY: Intelligence Task Ontology.
+
+PROJECT: Paper With Code.
+
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management.
+
+SOFTWARE: Protege Ontology Editor.
+
+WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection Workshop.

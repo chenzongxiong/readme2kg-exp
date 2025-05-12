@@ -1,0 +1,10 @@
+```
+CONFERENCE: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT.
+DATASET: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT. - dataset.
+LICENSE: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT. - license.
+ONTOLOGY: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT. - ontology.
+PROJECT: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT. - project.
+PUBLICATION: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT. - publication.
+SOFTWARE: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT. - software.
+WORKSHOP: They borrow some inherent ideas from DTs for NNs, instead of designing a NN that works like a DT. - workshop.
+```

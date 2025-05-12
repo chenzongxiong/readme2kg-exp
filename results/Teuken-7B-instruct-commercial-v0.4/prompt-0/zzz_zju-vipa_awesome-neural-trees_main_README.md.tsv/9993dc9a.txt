@@ -1,0 +1,27 @@
+## A Taxonomy of Current Methods
+
+In this survey, we present a thorough taxonomy for Named Entity Recognition (NER) that expresses the gradual integration and co-evolution of neural networks (NNs) and deep learning (DTs). This taxonomy classifies entities into various categories, including:
+
+* **Conferences**: Formal meetings or gatherings focused on a particular field of study or topic.
+* **Datasets**: Structured collections of data, typically organized for analysis, research, or reference.
+* **Evaluation Metrics**: Quantitative measures used to assess the performance and effectiveness of a statistical or machine learning model.
+* **Licenses**: Legal terms and conditions for using a particular resource.
+* **Ontologies**: Semantic frameworks for knowledge representation.
+* **Programming Languages**: Formal languages used for implementing software.
+* **Projects**: Scientific or business initiatives aimed at addressing research questions or achieving specific goals.
+* **Publications**: Scholarly works resulting from a publishing process, such as journal articles, conference proceedings, or preprints.
+* **Software**: Programs or tools designed to perform specific tasks on electronic devices.
+* **Workshops**: Educational or hands-on sessions focused on a specific subject.
+
+Examples of these entities include:
+
+* <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>
+* <DATASET>Maules Creek</DATASET>
+* <EVALMETRIC>Precision</EVALMETRIC>
+* <LICENSE>cc-by-3</LICENSE>
+* <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+* <PROGLANG>Python</PROGLANG>
+* <PROJECT>Paper With Code</PROJECT>
+* <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>
+* <SOFTWARE>Protege ontology editor</SOFTWARE>
+* <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>

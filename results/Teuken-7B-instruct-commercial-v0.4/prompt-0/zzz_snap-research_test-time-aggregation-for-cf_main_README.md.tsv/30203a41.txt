@@ -1,0 +1,11 @@
+```
+CONFERENCE: The 2023 International Joint Conference on Neural Networks (IJCNN 2023)
+DATASET: IJCNN 2023 Challenge Dataset
+EVALMETRIC: Precision
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: IJCNN 2023 Challenge
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution Workshop
+```

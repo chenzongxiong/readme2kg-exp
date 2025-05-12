@@ -1,0 +1,32 @@
+Here is the annotated text with entities directly tagged using XML-style tags:
+```scss
+<CONFERENCE>Conferences</CONFERENCE>
+<CONFERENCE>CVPR2023</CONFERENCE> workshops
+
+<DATASET>Maules Creek</DATASET> dataset from (<DATASET>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPOMIT/data.zip</DATASET>)
+
+<EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>
+
+<LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE>
+
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+
+Programming languages such as <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG>
+
+<PROJECT>Paper With Code</PROJECT> project (<PROJECT>https://paperswithcode.com/</PROJECT>)
+
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+
+<SOFTWARE>Protege ontology editor</SOFTWARE> to explore and edit the resource.
+
+Workshop events such as <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop.
+
+Standalone generic descriptors such as <WORKSHOP>PAV-SOD</WORKSHOP> Panoramic Audiovisual Saliency Detection do not require annotation.
+
+Punctuation marks such as "llama" in <URL>https://ai.meta.com/llama</URL> are not annotated.
+
+The original content with entities directly annotated using XML-style tags for their respective classes is:
+
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+
+Entities in URLs are not annotated.

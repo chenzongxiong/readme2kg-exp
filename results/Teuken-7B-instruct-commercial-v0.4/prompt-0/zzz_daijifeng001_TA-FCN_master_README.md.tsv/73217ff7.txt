@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: Jigsaw-100M
+EVALMETRIC: ROC AUC
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: SNOMED CT
+PROJECT: SemEval-2020 Task 7
+PUBLICATION: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: OpenNLP
+WORKSHOP: Workshop on Natural Language Processing for Healthcare (NLP4H 2021)
+```

@@ -1,0 +1,7 @@
+*CONFERENCE: Story-Distiller Workshop*
+Definition: A workshop focused on the Story-Distiller framework for generating narratives from text data.
+Example: <CONFERENCE>Story-Distiller Workshop 2023</CONFERENCE>
+
+*SOFTWARE: Story-Distiller*
+Definition: A software tool for generating narratives based on text data.
+Example: <SOFTWARE>Story-Distiller on GitHub</SOFTWARE>

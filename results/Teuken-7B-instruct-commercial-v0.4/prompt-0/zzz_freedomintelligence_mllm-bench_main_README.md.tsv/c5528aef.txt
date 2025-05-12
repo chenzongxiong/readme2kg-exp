@@ -1,0 +1,21 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet
+
+**EVALMETRIC**: Precision
+
+**LICENSE**: Creative Commons Attribution-Share Alike 4.0 International
+
+**ONTOLOGY**: Semantic Web Ontology Language (OWL)
+
+**PROJECT**: Ontology-based Visual Question Answering (VQA) System
+
+**PUBLICATION**: Artificial Intelligence (AI), IEEE Transactions on
+
+**SOFTWARE**: Protégé Ontology Editor
+
+**WORKSHOP**: Workshop on Semantic Computing and Knowledge Engineering (WOSKIE)
+```
+
+Note: The markdown formatting is included to make the output more readable.

@@ -1,0 +1,42 @@
+# NER Annotated Text:
+
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI 2019 Proceedings
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: cc-by-3.0
+
+**ONTOLOGY**: IJCAI 2019 Ontology
+
+**PROJECT**: IJCAI 2019 Project
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+**SOFTWARE**: Protege Ontology Editor
+
+**WORKSHOP**: IJCAI 2019 Workshop
+
+The original content with entities directly annotated using XML-style tags for their respective classes:
+```markdown
+# NER Annotated Text:
+
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI 2019 Proceedings
+
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE**: cc-by-3.0
+
+**ONTOLOGY**: IJCAI 2019 Ontology
+
+**PROJECT**: IJCAI 2019 Project
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+**SOFTWARE**: Protege Ontology Editor
+
+**WORKSHOP**: IJCAI 2019 Workshop
+```

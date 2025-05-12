@@ -1,0 +1,13 @@
+```
+CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+DATASET: Decision Tree Classifiers
+EVALMETRIC: Entropy Net vs Decision Tree Classifiers
+LICENSE: None provided
+ONTOLOGY: None provided
+PROJECT: None provided
+PUBLICATION: IEEE Transactions on Neural Networks and Learning Systems
+SOFTWARE: Entropy Net, Decision Tree Classifiers
+WORKSHOP: IJCNN
+URL: <https://ieeexplore.ieee.org/document/112298>
+```
+Note: The input text is not provided.

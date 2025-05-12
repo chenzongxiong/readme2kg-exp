@@ -1,0 +1,62 @@
+Here's the NER-annotated text following the guidelines provided:
+
+EVALMETRIC
+-------
+
+Precision
+
+Recall
+
+F1-Score
+
+BLEU Score
+
+
+### ONTOLOGY
+
+INTELLIGENCE TASK ONTOLOGY
+
+### PROJECT
+
+PAPER WITH CODE
+
+### PUBLICATION
+
+PROCEEDINGS OF THE 32ND ACM INTERNATIONAL CONFERENCE ON INFORMATION AND KNOWLEDGE MANAGEMENT
+
+### SOFTWARE
+
+Protege Ontology Editor
+
+### WORKSHOP
+
+THERMAL IMAGE SUPER-RESOLUTION
+
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+
+Here's the Markdown format of the annotated text:
+
+EVALMETRIC
+----------
+
+Precision, Recall, F1-Score, BLEU Score
+
+### ONTOLOGY
+
+INTELLIGENCE TASK ONTOLOGY
+
+### PROJECT
+
+PAPER WITH CODE
+
+### PUBLICATION
+
+PROCEEDINGS OF THE 32ND ACM INTERNATIONAL CONFERENCE ON INFORMATION AND KNOWLEDGE MANAGEMENT
+
+### SOFTWARE
+
+Protege Ontology Editor
+
+### WORKSHOP
+
+THERMAL IMAGE SUPER-RESOLUTION, PAV-SOD: Panoramic Audiovisual Saliency Detection

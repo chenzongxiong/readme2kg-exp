@@ -1,0 +1,1 @@
+The methodology has been validated on synthetic benchmarks and real-world data, including MRI and clinical datasets, to ensure robustness in diverse site-target-dependence scenarios. <SYNTHETIC> <DATASET> <CONFERENCE> <WORKSHOP> <LICENSE> <ONTOLOGY> <PROJECT> <PUBLICATION> <SOFTWARE> entities have been identified and annotated in the input text.

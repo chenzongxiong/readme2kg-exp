@@ -1,0 +1,13 @@
+**Annotation:**
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2023 Submission Evaluation Dataset
+EVALMETRIC: ROUGE-1, ROUGE-2, ROUGE-L, METEOR, CIDEr, CHIDE
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2023 Submission Evaluation Ontology
+PROJECT: IJCAI-2023-Submission-Evaluation
+PUBLICATION: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023)
+SOFTWARE: IJCAI 2023 Submission Evaluation Dataset on GitHub
+WORKSHOP: IJCAI 2023 Workshop on Human-AI Collaboration for Social Good (HAC-Social)
+```
+Note: The `<DATASET>` tag is not applicable here as there is no dataset mentioned in the input text.

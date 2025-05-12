@@ -1,0 +1,21 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI-19 Task 2: Benchmarking Machine Learning Algorithms for Open Domain Question Answering
+
+**EVALMETRIC**: Macro F1 Score
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: IJCAI-19 Ontology
+
+**PROJECT**: IJCAI-19 Workshop on Machine Learning and Computational Intelligence for Human Language Technologies (LLT-19)
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2019)
+
+**SOFTWARE**: Protégé ontology editor
+
+**WORKSHOP**: IJCAI-19 Workshop on Machine Learning and Computational Intelligence for Human Language Technologies (LLT-19)
+```
+
+In the input text, there is a list of entities related to a conference, a dataset, a project, a publication, a software tool, and a workshop. I have used the appropriate NER tags to annotate these entities, including their classes and the specific examples mentioned in the task.

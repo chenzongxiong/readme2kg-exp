@@ -1,0 +1,33 @@
+```
+## Annotations:
+
+### CONFERENCE
+- International Semantic Web Conference 2019
+- ISWC 2019
+- CVPR2023 workshop
+
+### DATASET
+Maules Creek
+Download the U.S. Patent and Trademark Office (USPTO) MIT dataset from <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>
+
+### EVALMETRIC
+Precision, Recall, F1-Score, BLEU Score
+
+### LICENSE
+cc-by-3, CC BY-NC 4.0
+
+### ONTOLOGY
+Intelligence Task Ontology
+
+### PROJECT
+Paper With Code <https://paperswithcode.com/>
+
+### PUBLICATION
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+### SOFTWARE
+Protege ontology editor
+
+### WORKSHOP
+PAV-SOD: Panoramic Audiovisual Saliency Detection Workshop
+```

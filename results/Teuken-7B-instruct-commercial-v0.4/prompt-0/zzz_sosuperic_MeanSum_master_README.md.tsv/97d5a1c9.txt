@@ -1,0 +1,24 @@
+1. **CONFERENCE**: Conference events.
+
+2. **DATASET**: Structured collections of data.
+
+3. **EVALMETRIC**: Evaluation metrics for models.
+
+4. **LICENSE**: Licensing terms.
+
+5. **ONTOLOGY**: Semantic frameworks for knowledge representation.
+
+6. **PROGLANG**: Programming languages.
+
+7. **PROJECT**: Scientific or business initiatives.
+
+8. **PUBLICATION**: Scholarly works.
+
+9. **SOFTWARE**: Software tools or programs.
+
+10. **WORKSHOP**: Workshop events.
+
+Output Text:
+```python
+<CONFERENCE>Update by:  <UPDATE_COMMAND>
+```

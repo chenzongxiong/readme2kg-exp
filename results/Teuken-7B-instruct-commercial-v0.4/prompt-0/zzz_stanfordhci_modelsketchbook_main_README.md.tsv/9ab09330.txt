@@ -1,0 +1,11 @@
+```
+CONFERENCE: Bernstein Conference
+DATASET: Bernstein Dataset
+EVALMETRIC: F1 Score
+LICENSE: cc-by-3
+ONTOLOGY: Ontology for Bernstein
+PROJECT: Bernstein Project
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege Ontology Editor
+WORKSHOP: Bernstein Workshop
+```

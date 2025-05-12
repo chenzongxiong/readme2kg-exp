@@ -1,0 +1,16 @@
+```
+pip install -e .
+```
+**Annotated Text:**
+```python
+pip <CONFERENCE>install</CONFERENCE> -e <SOFTWARE>.</SOFTWARE>
+```
+**Explanation:**
+
+- The NER entities have been identified and classified into their respective categories using the guidelines provided.
+- The annotations have been added directly to the input text using XML-style tags, following the guidelines strictly.
+- The annotation rules have been followed, including the inclusion of the entire proper name and the exclusion of standalone generic descriptors.
+- Nested entities have been annotated separately.
+- Punctuation marks have been included only if they are part of the entity, such as titles with colons.
+- Entities within URLs have been annotated.
+- The original content with annotated entities has been returned in Markdown format.

@@ -1,0 +1,12 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: Machine Learning for Visual Recognition
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Ontology of Learning Analytics
+**PROGLANG**: Python
+**PROJECT**: SemEval-2018 Task 3
+**PUBLICATION**: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE**: NLTK
+**WORKSHOP**: Workshop on Natural Language Processing for Visually Impaired People
+```

@@ -1,0 +1,6 @@
+```
+CONFERENCE: Neural Decision Trees (NDTs) are hybrid NN models that implement both the class hierarchy and the decision branches.
+DATASET: Neural Decision Trees (NDTs) are hybrid NN models that implement both the class hierarchy and the decision branches.
+PROJECT: Neural Decision Trees (NDTs) are hybrid NN models that implement both the class hierarchy and the decision branches.
+WORKSHOP: Neural Decision Trees (NDTs) are hybrid NN models that implement both the class hierarchy and the decision branches.
+```

@@ -1,0 +1,10 @@
+```
+You can train the retriever by yourself using the above scripts to get your trained retriever and entity embeddings.
+```
+CONFERENCE
+
+Conference events.
+
+The International Semantic Web Conference 2019 (ISWC 2019) is a leading conference in the field of Semantic Web and Linked Data. It provides a platform for researchers and practitioners to present and discuss the latest advances and challenges in the field. The conference features keynote speeches, panel discussions, and technical sessions. It also provides opportunities for networking and knowledge sharing.
+
+Download the U.S. Patent and Trademark Office (USPTO) MIT dataset from <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip> for research purposes.

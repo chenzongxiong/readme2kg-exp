@@ -1,0 +1,15 @@
+```
+CONFERENCE: staqc-py-cleaned-test
+CONFERENCE: conala-curated-0.5-test
+DATASET: staqc-py-cleaned-test
+DATASET: conala-curated-0.5-test
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: staqc-py-cleaned-test
+PROJECT: conala-curated-0.5-test
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Workshop on Semantic Annotation, Learning, and Analysis (SALA) 2021
+WORKSHOP: Workshop on Semantic Annotation, Learning, and Analysis (SALA) 2021
+```

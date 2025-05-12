@@ -1,0 +1,13 @@
+Evaluator: <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+
+License: <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE>.
+
+Ontology: <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>.
+
+Project: <PROJECT>Paper With Code</PROJECT> (https://<PROJECT>paperswithcode</PROJECT>.com/).
+
+Publication: <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+
+Software: <SOFTWARE>Protege ontology editor</SOFTWARE>.
+
+Workshop: [Thermal Image Super-Resolution](<WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html).

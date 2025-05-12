@@ -1,0 +1,14 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: IJCAI 2023 Competition Dataset
+EVALMETRIC: F1-Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Project
+PUBLICATION: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023)
+SOFTWARE: Protégé Ontology Editor
+WORKSHOP: IJCAI 2023 Workshop
+```
+
+The International Joint Conference on Artificial Intelligence (IJCAI 2023) competition dataset is available under the CC BY-NC 4.0 license. The IJCAI 2023 Ontology is a framework for knowledge representation in the context of the conference. The IJCAI 2023 Project aims to enhance the understanding of AI in various domains. The Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023) is a scholarly work that provides insights into the latest research in the field. The Protégé Ontology Editor is a software tool that allows users to explore and edit the IJCAI 2023 Ontology. The IJCAI 2023 Workshop offers an educational session focused on AI.
+```

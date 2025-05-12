@@ -1,0 +1,11 @@
+```
+CONFERENCE: Depth Completion
+DATASET: Point Clouds
+EVALMETRIC: Pointwise Mean Squared Error (MSE)
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Point Cloud Ontology
+PROJECT: Point Cloud Completion Challenge
+PUBLICATION: Point Cloud Completion: A Deep Learning Approach
+SOFTWARE: Depth Completion Network
+```
+Note: The `<PAV-SOD: Panoramic Audiovisual Saliency Detection>` tag is not included as it is not an entity class mentioned in the guidelines.

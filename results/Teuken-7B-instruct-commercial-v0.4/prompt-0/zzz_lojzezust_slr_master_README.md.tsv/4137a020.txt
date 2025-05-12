@@ -1,0 +1,9 @@
+```
+DATASET: output/pseudo_labels/wasr_slr_warmup_v0
+LICENSE: cc-by-3
+ONTOLOGY: output/pseudo_labels/wasr_slr_warmup_v0
+PROJECT: output/pseudo_labels/wasr_slr_warmup_v0
+PUBLICATION: output/pseudo_labels/wasr_slr_warmup_v0
+SOFTWARE: output/pseudo_labels/wasr_slr_warmup_v0
+WORKSHOP: output/pseudo_labels/wasr_slr_warmup_v0
+```

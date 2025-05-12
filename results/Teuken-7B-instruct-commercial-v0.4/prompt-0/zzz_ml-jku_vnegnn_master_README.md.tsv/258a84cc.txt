@@ -1,0 +1,4 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is one of the premier conferences in the field of machine learning and artificial intelligence.
+The <DATASET>CIFAR-10</DATASET> and <DATASET>CIFAR-100</DATASET> datasets are widely used for training and testing machine learning models.
+The <EVALMETRIC>F1 Score</EVALMETRIC> is a popular metric used to evaluate the performance of machine

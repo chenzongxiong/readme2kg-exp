@@ -1,0 +1,107 @@
+```
+## Table of Contents
+
+1. Introduction
+2. Task
+3. Guidelines
+4. Input Text
+5. Output Text
+6. Entities
+7. Conclusion
+```
+Entities in the input text:
+
+* `Conference`: International Semantic Web Conference 2019
+* `Dataset`: Mauls Creek
+* `EVALMETRIC`: Precision, Recall, F1-Score, BLEU Score
+* `LICENSE`: cc-by-3, CC BY-NC 4.0
+* `ONTOLOGY`: Intelligence Task Ontology
+* `PROJECT`: Paper With Code
+* `PUBLICATION`: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* `SOFTWARE`: Protege ontology editor
+* `WORKSHOP`: PAV-SOD: Panoramic Audiovisual Saliency Detection
+
+Output Text:
+```css
+## Table of Contents
+
+1. Introduction
+2. Task
+3. Guidelines
+4. Input Text
+5. Output Text
+6. Entities
+7. Conclusion
+
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+
+Introduction
+------------
+
+This document aims to provide a guide for named entity recognition (NER) on a given text. The task involves identifying and classifying entities into their respective categories. The annotated entities will be directly included in the original text using XML-style tags, adhering to the guidelines provided.
+
+Guidelines
+----------
+
+1. **Entity Classes:**
+
+   - **CONFERENCE**: Conference events.
+   - **DATASET**: Structured collections of data.
+   - **EVALMETRIC**: Evaluation metrics for models.
+   - **LICENSE**: Licensing terms.
+   - **ONTOLOGY**: Semantic frameworks for knowledge representation.
+   - **PROJECT**: Scientific or business initiatives.
+   - **PUBLICATION**: Scholarly works.
+   - **SOFTWARE**: Software tools or programs.
+   - **WORKSHOP**: Workshop events.
+
+Annotation Rules:
+----------------
+
+1. Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+2. Use a single-class annotation per entity, based on the context.
+3. Annotate nested entities separately.
+4. Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+5. Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+Output Format:
+-------------
+
+Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+
+Original Text:
+```python
+<p align="center"><img src="misc/book_sumv4.png"></p>
+```
+Annotated Text:
+```python
+<p align="center"><img src="misc/book_sumv4.png"><CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>, <DATASET>Maules Creek</DATASET> dataset, <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.</p>
+```
+Entities in the input text:
+
+* `CONFERENCE`: International Semantic Web Conference 2019
+* `DATASET`: Mauls Creek
+* `EVALMETRIC`: Precision, Recall, F1-Score, BLEU Score
+* `LICENSE`: cc-by-3, CC BY-NC 4.0
+* `ONTOLOGY`: Intelligence Task Ontology
+* `PROJECT`: Paper With Code
+* `PUBLICATION`: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* `SOFTWARE`: Protege ontology editor
+* `WORKSHOP`: PAV-SOD: Panoramic Audiovisual Saliency Detection
+
+Entities in the annotated text:
+
+* `CONFERENCE`: International Semantic Web Conference 2019
+* `DATASET`: Mauls Creek
+* `EVALMETRIC`: Precision, Recall, F1-Score, BLEU Score
+* `LICENSE`: cc-by-3, CC BY-NC 4.0
+* `ONTOLOGY`: Intelligence Task Ontology
+* `PROJECT`: Paper With Code
+* `PUBLICATION`: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* `SOFTWARE`: Protege ontology editor
+* `WORKSHOP`: PAV-SOD: Panoramic Audiovisual Saliency Detection
+
+Conclusion
+----------
+
+This document provided a guide for named entity recognition (NER) on a given text. The annotated entities were directly included in the original text using XML-style tags, adhering to the guidelines provided.

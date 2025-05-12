@@ -1,0 +1,11 @@
+```
+CONFERENCE: In-coming Failures
+DATASET: Historical Failures
+EVALMETRIC: Similarity
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Failures Ontology
+PROJECT: Failures Recommendation
+PUBLICATION: Failures Recommendation
+SOFTWARE: Ontology Editor
+WORKSHOP: Failures Recommendation Workshop
+```

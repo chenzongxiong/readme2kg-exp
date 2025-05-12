@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI-19 Workshop on Machine Learning and Knowledge Discovery in Astronomy and Cosmology
+EVALMETRIC: Precision, Recall, F1-Score, and MAP
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2022 Ontology
+PROGLANG: Python
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Jupyter Notebook
+WORKSHOP: IJCAI-19 Workshop on Machine Learning and Knowledge Discovery in Astronomy and Cosmology
+```

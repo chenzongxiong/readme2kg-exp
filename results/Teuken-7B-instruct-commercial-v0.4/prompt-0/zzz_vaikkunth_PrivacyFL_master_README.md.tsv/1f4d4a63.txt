@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: IST 2023-IST 2023 Workshop on Computational Intelligence and Knowledge Discovery
+EVALMETRIC: Precision
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: W3C Semantic Web Activity
+PROJECT: SemEval-2019 Task 6: Enabling Machine Comprehension of English Text
+PUBLICATION: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Machine Learning for Natural Language Processing (MLNLU)
+```

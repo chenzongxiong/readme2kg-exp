@@ -1,0 +1,19 @@
+```
+# CONFERENCE: Megaman: Manifold Learning for Millions of Points
+Megaman: Manifold Learning for Millions of Points is a conference event that focuses on the application of manifold learning techniques to large datasets. The conference aims to bring together experts and researchers from various fields to share their experiences and discuss the latest developments in the field. It provides a platform for researchers to present their research findings, exchange ideas, and network with other professionals. The conference features keynote speeches, oral and poster presentations, and workshops on manifold learning and related topics. The conference is held annually and attracts participants from all over the world. The latest conference took place in 2023 and the next conference is planned for 2024.
+```
+**CONFERENCE:** Megaman: Manifold Learning for Millions of Points
+
+**DATASET:** Megaman: Manifold Learning for Millions of Points
+
+**LICENSE:** <LICENSE>cc-by-3</LICENSE>, <LICENSE>CC BY-NC 4.0</LICENSE>
+
+**ONTOLOGY:** Manifold Learning Ontology
+
+**PROJECT:** Megaman: Manifold Learning for Millions of Points Project
+
+**PUBLICATION:** No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths, in Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+**SOFTWARE:** Protege Ontology Editor
+
+**WORKSHOP:** Thermal Image Super-Resolution Workshop

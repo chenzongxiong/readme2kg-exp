@@ -1,0 +1,17 @@
+# CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET:** IJCAI-19 Proceedings
+
+**EVALMETRIC:** Precision, Recall, F1-Score, BLEU Score
+
+**LICENSE:** cc-by-3.0
+
+**ONTOLOGY:** IJCAI-19 Ontology
+
+**PROJECT:** IJCAI-19 Workshop Program
+
+**PUBLICATION:** Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2021)
+
+**SOFTWARE:** Protégé Ontology Editor
+
+**WORKSHOP:** IJCAI-19 Workshop Program

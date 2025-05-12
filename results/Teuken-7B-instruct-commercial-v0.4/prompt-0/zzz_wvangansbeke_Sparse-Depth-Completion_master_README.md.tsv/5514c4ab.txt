@@ -1,0 +1,60 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: CIFAR-10
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Common Sense Reasoning Ontology
+PROJECT: Open Mind Common Sense
+PUBLICATION: Proceedings of the 26th International Joint Conference on Artificial Intelligence
+SOFTWARE: Open Mind Common Sense Ontology Editor
+WORKSHOP: Open Mind Common Sense Workshop
+CONFERENCE: International Semantic Web Conference
+DATASET: Stanford CoreNLP
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: SKOS Simple Knowledge Organization System
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 2011 International Joint Conference on Artificial Intelligence
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: ImageCLEF Visual Object Detection 2015
+LICENSE: CC-BY-SA 4.0
+ONTOLOGY: Simple Knowledge Representation
+PROJECT: PASCAL Visual Object Detection Challenge
+PUBLICATION: Proceedings of the 26th International Joint Conference on Artificial Intelligence
+SOFTWARE: PASCAL Visual Object Detection
+WORKSHOP: PASCAL Visual Object Detection Workshop
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: PASCAL VOC
+LICENSE: CC BY-NC-SA 3.0
+ONTOLOGY: Simple Knowledge Representation
+PROJECT: PASCAL Visual Object Detection
+PUBLICATION: Proceedings of the 25th International Joint Conference on Artificial Intelligence
+SOFTWARE: PASCAL Visual Object Detection
+WORKSHOP: PASCAL Visual Object Detection Workshop
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: PASCAL VOC 2012
+LICENSE: CC BY-NC-SA 3.0
+ONTOLOGY: Simple Knowledge Representation
+PROJECT: PASCAL Visual Object Detection
+PUBLICATION: Proceedings of the 25th International Joint Conference on Artificial Intelligence
+SOFTWARE: PASCAL Visual Object Detection
+WORKSHOP: PASCAL Visual Object Detection Workshop
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: PASCAL VOC 2010
+LICENSE: CC BY-NC-SA 3.0
+ONTOLOGY: Simple Knowledge Representation
+PROJECT: PASCAL Visual Object Detection
+PUBLICATION: Proceedings of the 25th International Joint Conference on Artificial Intelligence
+SOFTWARE: PASCAL Visual Object Detection
+WORKSHOP: PASCAL Visual Object Detection Workshop
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: PASCAL VOC 2007
+LICENSE: CC BY-NC-SA 3.0
+ONTOLOGY: Simple Knowledge Representation
+PROJECT: PASCAL Visual Object Detection
+PUBLICATION: Proceedings of the 25th International Joint Conference on Artificial Intelligence
+SOFTWARE: PASCAL Visual Object Detection
+WORKSHOP: PASCAL Visual Object Detection Workshop
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: PASCAL VOC 2007 Trainval
+```

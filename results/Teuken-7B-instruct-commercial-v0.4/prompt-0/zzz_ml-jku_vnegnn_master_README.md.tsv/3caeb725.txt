@@ -1,0 +1,19 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a premier event in the field of machine learning and artificial intelligence.
+
+The <DATASET>CIFAR-10</DATASET> and <DATASET>CIFAR-100</DATASET> datasets are widely used for training and testing computer vision models.
+
+The <EVALMETRIC>F1-Score</EVALMETRIC> is a common metric for evaluating the performance of binary classification models.
+
+The <LICENSE>CC BY-NC 4.0</LICENSE> is the license used for the <DATASET>IMDB-BINARY</DATASET> dataset.
+
+The <ONTOLOGY>Open Ontology Repository (OpenOr)</ONTOLOGY> is a repository of open ontologies.
+
+The <PROJECT>Towards Explainable AI (XAI) using Ontologies and Machine Learning (XAI4ON)</PROJECT> aims to develop methods for explaining the decisions of machine learning models.
+
+The <PUBLICATION>Conference on Neural Information Processing Systems (NeurIPS)</PUBLICATION> is the premier conference in the field of machine learning and artificial intelligence.
+
+The <SOFTWARE>OpenNMS</SOFTWARE> is an open-source network management software tool used for monitoring and managing network infrastructure.
+
+The <WORKSHOP>Workshop on Machine Learning for Computer Vision (CVPR Workshop)</WORKSHOP> is a specialized workshop held during the Conference on Computer Vision and Pattern Recognition (CVPR) for computer vision research.
+```

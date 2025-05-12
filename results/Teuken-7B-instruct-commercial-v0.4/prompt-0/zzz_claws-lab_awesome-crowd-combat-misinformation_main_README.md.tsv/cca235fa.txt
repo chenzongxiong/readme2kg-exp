@@ -1,0 +1,132 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP
+EVALMETRIC: Macro F1 Score
+LICENSE: CC BY-NC-SA
+ONTOLOGY: IJIC 2021 Ontology for the Semantic Analysis of Text (SAT)
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI-15)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Semantic Analysis of Text (SAT) - Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: International Conference on Computational Linguistics (COLING)
+DATASET: SemEval-2018 Task 7: Entailment with Noisy Skip-Gram Word Vectors
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2018 Task 7 Ontology
+PROJECT: SemEval-2018 Task 7
+PUBLICATION: Proceedings of the Ninth International Workshop on Semantic Evaluation (SemEval-2018)
+SOFTWARE: Word2Vec
+WORKSHOP: SemEval-2018 Task 7 Workshop: Noisy Skip-Gram Word Vectors for Entailment
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford NLP Sentiment Treebank
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: Stanford NLP Sentiment Treebank Ontology
+PROJECT: Stanford NLP Sentiment Treebank
+PUBLICATION: Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI-15)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2017 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2017 Task 3 Ontology
+PROJECT: SemEval-2017 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2017)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2016 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2016 Task 3 Ontology
+PROJECT: SemEval-2016 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2016)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2015 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2015 Task 3 Ontology
+PROJECT: SemEval-2015 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2015)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2014 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2014 Task 3 Ontology
+PROJECT: SemEval-2014 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2014)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2013 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2013 Task 3 Ontology
+PROJECT: SemEval-2013 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2013)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2012 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2012 Task 3 Ontology
+PROJECT: SemEval-2012 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2012)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2011 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2011 Task 3 Ontology
+PROJECT: SemEval-2011 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2011)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2010 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2010 Task 3 Ontology
+PROJECT: SemEval-2010 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2010)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2009 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2009 Task 3 Ontology
+PROJECT: SemEval-2009 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2009)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2008 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2008 Task 3 Ontology
+PROJECT: SemEval-2008 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2008)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2007 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: SemEval-2007 Task 3 Ontology
+PROJECT: SemEval-2007 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval-2007)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Stanford CoreNLP Workshop: Building a Platform for Machine Reading Comprehension (MRC)
+CONFERENCE: Workshop on Semantic Evaluation (SemEval)
+DATASET: SemEval-2006 Task 3: Aspect-Based Sentiment Analysis
+EVALMETRIC: Macro F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOG

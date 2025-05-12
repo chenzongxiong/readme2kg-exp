@@ -1,0 +1,18 @@
+```
+The International Semantic Web Conference 2019 (<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>)
+International Semantic Web Conference 2019 (<CONFERENCE>ISWC 2019</CONFERENCE>)
+The CVPR2023 workshop (<CONFERENCE>CVPR2023</CONFERENCE> workshop)
+Maules Creek (<DATASET>Maules Creek</DATASET>)
+Download the <DATASET>USTPO MIT</DATASET> dataset from (<DATASET>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</DATASET>)
+Precision
+Recall
+F1-Score
+BLEU Score
+cc-by-3
+CC BY-NC 4.0
+The Intelligence Task Ontology
+Python, PHP, C++
+Paper With Code
+<https://paperswithcode.com/>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>Protege ontology editor
+<https://pbvs-workshop.github.io/datasets.html>Thermal Image Super-Resolution</WORKSHOP>pbvs-workshop</WORKSHOP>.github.io/datasets.html
+```

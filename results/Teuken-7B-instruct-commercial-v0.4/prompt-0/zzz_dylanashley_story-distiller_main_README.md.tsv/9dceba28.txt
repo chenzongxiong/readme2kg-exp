@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: UCI-HAR Datasets
+EVALMETRIC: Accuracy
+LICENSE: CC0 1.0 Universal
+ONTOLOGY: Gene Ontology
+PROJECT: Gene Ontology Annotation Project
+PUBLICATION: Nature Genetics
+SOFTWARE: InterMine
+WORKSHOP: International Workshop on Machine Learning and Computational Statistics
+```

@@ -1,0 +1,12 @@
+```
+CONFERENCE: Expected to be in the domain [0, 1].
+DATASET: Expected to be in the domain [0, 1].
+EVALMETRIC: Expected to be in the domain [0, 1].
+LICENSE: Expected to be in the domain [0, 1].
+ONTOLOGY: Expected to be in the domain [0, 1].
+PROJECT: Expected to be in the domain [0, 1].
+PUBLICATION: Expected to be in the domain [0, 1].
+SOFTWARE: Expected to be in the domain [0, 1].
+WORKSHOP: Expected to be in the domain [0, 1].
+```
+Note: The input text is not provided, but based on the guidelines provided, the entities and their respective classes should be annotated directly in the original text using XML-style tags.

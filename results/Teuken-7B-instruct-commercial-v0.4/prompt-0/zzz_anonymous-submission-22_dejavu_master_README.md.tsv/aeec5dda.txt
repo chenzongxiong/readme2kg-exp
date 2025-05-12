@@ -1,0 +1,136 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a premier event in the field of machine learning and artificial intelligence.
+
+The <DATASET>NIST Image Segmentation Benchmark</DATASET> dataset is a collection of images with segmentation masks for various object categories.
+
+The <DATASET>MNIST Dataset</DATASET> is a classical benchmark dataset for image classification tasks.
+
+The <DATASET>ImageNet Large Scale Visual Recognition Challenge</DATASET> (ILSVRC) is a widely used benchmark for image classification, object detection, and other computer vision tasks.
+
+The <DATASET>PASCAL VOC Dataset</DATASET> is a popular benchmark dataset for object detection tasks.
+
+The <DATASET>COCO Dataset</DATASET> is a large-scale dataset for object detection, segmentation, and other computer vision tasks.
+
+The <DATASET>ADE20K Dataset</DATASET> is a benchmark dataset for 20 classes of 20-200x200 pixel images.
+
+The <DATASET>OCR-D Benchmark</DATASET> is a dataset for OCR-D (Optical Character Recognition for Documents) tasks.
+
+The <DATASET>JFT-300M Dataset</DATASET> is a large-scale image benchmark for object detection and segmentation.
+
+The <DATASET>Labeled Faces in the Wild</DATASET> (LFW) dataset is a large-scale benchmark for face recognition tasks.
+
+The <DATASET>VG+M Dataset</DATASET> is a benchmark dataset for video object detection tasks.
+
+The <DATASET>Cityscapes Dataset</DATASET> is a benchmark dataset for urban scene understanding tasks.
+
+The <DATASET>Kitti Object Detection Benchmark</DATASET> is a benchmark dataset for object detection tasks in videos.
+
+The <DATASET>Open Images Dataset</DATASET> is a large-scale benchmark dataset for object detection, segmentation, and classification tasks.
+
+The <DATASET>MSMT17 Dataset</DATASET> is a benchmark dataset for multi-object detection tasks.
+
+The <DATASET>S3DIS Dataset</DATASET> is a benchmark dataset for 3D object detection tasks.
+
+The <DATASET>BEV-COCO Dataset</DATASET> is a benchmark dataset for object detection and segmentation in bird's eye view (BEV) images.
+
+The <DATASET>ADE2020 Dataset</DATASET> is a benchmark dataset for object detection tasks in natural scenes.
+
+The <DATASET>VOC 2007 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>Pascal Context Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in context images.
+
+The <DATASET>DomainNet Dataset</DATASET> is a benchmark dataset for object detection in real-world scenes.
+
+The <DATASET>ShapeNet Benchmark</DATASET> is a benchmark dataset for object detection and segmentation in 3D shapes.
+
+The <DATASET>VG+M+O Dataset</DATASET> is a benchmark dataset for object detection, segmentation, and 3D object detection tasks.
+
+The <DATASET>COCO-Stuff Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in images and videos.
+
+The <DATASET>3DMatch Dataset</DATASET> is a benchmark dataset for 3D object detection and matching tasks.
+
+The <DATASET>ShapeNetFusion Dataset</DATASET> is a benchmark dataset for object detection, segmentation, and 3D object detection tasks in fusion images.
+
+The <DATASET>Cityscapes-Aerial Dataset</DATASET> is a benchmark dataset for object detection tasks in aerial images.
+
+The <DATASET>UrbanSoundDataset</DATASET> is a benchmark dataset for audio classification tasks.
+
+The <DATASET>LibriSpeech Dataset</DATASET> is a benchmark dataset for speech recognition tasks.
+
+The <DATASET>MRSCAN Dataset</DATASET> is a benchmark dataset for image-based object detection tasks.
+
+The <DATASET>Pascal VOC 2007 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>PASCAL VOC 2012 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>PASCAL VOC 2010 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>PASCAL VOC 2007+2012+2010 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>Labeled Faces in the Wild (LFW) Dataset</DATASET> is a benchmark dataset for face detection and recognition tasks.
+
+The <DATASET>Oxford-IIIT Pet Dataset</DATASET> is a benchmark dataset for object detection and recognition tasks in images of animals.
+
+The <DATASET>Stanford Dogs Dataset</DATASET> is a benchmark dataset for object detection and recognition tasks in images of dogs.
+
+The <DATASET>COCO Instance Segmentation Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in images.
+
+The <DATASET>ADE20K Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in images.
+
+The <DATASET>COCO Instance Segmentation Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in images.
+
+The <DATASET>Pascal Context Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in context images.
+
+The <DATASET>Pascal VOC 2012 Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in images.
+
+The <DATASET>Pascal VOC 2007+2012+2010 Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in images.
+
+The <DATASET>Open Images Dataset</DATASET> is a large-scale benchmark dataset for object detection, segmentation, and classification tasks.
+
+The <DATASET>VG+M Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in videos.
+
+The <DATASET>Cityscapes Dataset</DATASET> is a benchmark dataset for urban scene understanding tasks.
+
+The <DATASET>Kitti Object Detection Benchmark</DATASET> is a benchmark dataset for object detection tasks in videos.
+
+The <DATASET>Open Images Dataset</DATASET> is a large-scale benchmark dataset for object detection, segmentation, and classification tasks.
+
+The <DATASET>MSMT17 Dataset</DATASET> is a benchmark dataset for multi-object detection tasks.
+
+The <DATASET>S3DIS Dataset</DATASET> is a benchmark dataset for 3D object detection tasks.
+
+The <DATASET>BEV-COCO Dataset</DATASET> is a benchmark dataset for object detection and segmentation in bird's eye view (BEV) images.
+
+The <DATASET>ADE2020 Dataset</DATASET> is a benchmark dataset for object detection tasks in natural scenes.
+
+The <DATASET>DomainNet Dataset</DATASET> is a benchmark dataset for object detection in real-world scenes.
+
+The <DATASET>ShapeNet Benchmark</DATASET> is a benchmark dataset for object detection and segmentation in 3D shapes.
+
+The <DATASET>VG+M+O Dataset</DATASET> is a benchmark dataset for object detection, segmentation, and 3D object detection tasks.
+
+The <DATASET>COCO-Stuff Dataset</DATASET> is a benchmark dataset for object detection and segmentation tasks in images and videos.
+
+The <DATASET>3DMatch Dataset</DATASET> is a benchmark dataset for 3D object detection and matching tasks.
+
+The <DATASET>ShapeNetFusion Dataset</DATASET> is a benchmark dataset for object detection, segmentation, and 3D object detection tasks in fusion images.
+
+The <DATASET>Cityscapes-Aerial Dataset</DATASET> is a benchmark dataset for object detection tasks in aerial images.
+
+The <DATASET>UrbanSoundDataset</DATASET> is a benchmark dataset for audio classification tasks.
+
+The <DATASET>LibriSpeech Dataset</DATASET> is a benchmark dataset for speech recognition tasks.
+
+The <DATASET>MRSCAN Dataset</DATASET> is a benchmark dataset for image-based object detection tasks.
+
+The <DATASET>PASCAL VOC 2007 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>PASCAL VOC 2012 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>PASCAL VOC 2010 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>PASCAL VOC 2007+2012+2010 Dataset</DATASET> is a benchmark dataset for object detection tasks.
+
+The <DATASET>Labeled Faces in the Wild (LFW) Dataset</DATASET> is a benchmark dataset for face detection and recognition tasks.
+
+The <DATASET>Oxford-IIIT Pet Dataset</DATASET> is a benchmark dataset for object detection and recognition tasks in images of

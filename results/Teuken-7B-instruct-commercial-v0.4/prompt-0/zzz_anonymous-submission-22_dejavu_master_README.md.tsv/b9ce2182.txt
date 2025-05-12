@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: PASCAL VOC
+
+**EVALMETRIC**: Average Precision
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: ACM Computing Classification System
+
+**PROJECT**: ACM SIGART Datasets
+
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+**SOFTWARE**: OpenCV
+
+**WORKSHOP**: Workshop on Semantic Computing and Knowledge Representation (SCKR)
+```

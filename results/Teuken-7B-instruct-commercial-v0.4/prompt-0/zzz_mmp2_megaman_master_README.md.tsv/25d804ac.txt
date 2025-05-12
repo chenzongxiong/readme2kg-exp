@@ -1,0 +1,19 @@
+Input Text with NER annotations:
+
+The <CONFERENCE>Conference on Machine Learning and Cybernetics</CONFERENCE> is an annual conference that focuses on the intersection of machine learning and cybernetics. The conference provides a platform for researchers, practitioners, and students to discuss the latest advancements and trends in these fields.
+
+The <DATASET>Semantic Dataset of the Year 2020</DATASET> is a collection of datasets that were selected as the best datasets of the year in various categories, such as Natural Language Processing, Computer Vision, and Social Network Analysis.
+
+The <EVALMETRIC>F1-score</EVALMETRIC> is a metric used to evaluate the performance of a binary classification model. It is the harmonic mean of precision and recall, and it ranges from 0 to 1, with higher values indicating better performance.
+
+The <LICENSE>MIT License</LICENSE> is a permissive open-source software license that allows users to freely use, modify, and distribute the licensed software.
+
+The <ONTOLOGY>Cybernetics Ontology</ONTOLOGY> is a formal ontology that represents the concepts, entities, properties, and relationships in the field of cybernetics.
+
+The <PROJECT>Paper With Code</PROJECT> is a project that encourages researchers to submit their papers along with their code, so that the code can be evaluated and compared to the results obtained from the paper.
+
+The <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> contains a paper titled "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths". The paper proposes a novel approach for modeling sequences of excessive or insufficient lengths and evaluates its effectiveness using a comprehensive experimental study.
+
+The <SOFTWARE>Jupyter Notebook</SOFTWARE> is an open-source web application that allows users to create and share documents that contain live code, equations, visualizations, and narrative text. It is widely used in the scientific community for data analysis, scientific computing, and educational purposes.
+
+The <WORKSHOP>IEEE Workshop on Computational Intelligence and Data Science</WORKSHOP> is a workshop that focuses on the application of artificial intelligence and data science in various domains. The workshop provides a platform for researchers, practitioners, and students to share their research and discuss the latest advancements and trends in these fields.

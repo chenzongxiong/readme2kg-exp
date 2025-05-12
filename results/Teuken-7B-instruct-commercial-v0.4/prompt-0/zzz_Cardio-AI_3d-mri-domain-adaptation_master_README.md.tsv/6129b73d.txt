@@ -1,0 +1,13 @@
+```
+CONFERENCE: Unsupervised Domain adaptation learning
+DATASET: 3d-mri-domain-adaption
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: 3d-mri-domain-adaption
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection
+```
+
+[Unsupervised Domain adaptation learning](https://github.com/Cardio-AI/3d-mri-domain-adaption/blob/master/reports/ax_sax_learning_example.gif "learning progress")   Each temporal frame shows the AX2SAX prediction of the model after successive epochs.
+```

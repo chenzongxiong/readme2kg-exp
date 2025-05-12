@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: PASCAL VOC
+
+**EVALMETRIC**: Top-1 Error on ImageNet
+
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0 Unported
+
+**ONTOLOGY**: ImageNet Ontology
+
+**PROJECT**: ImageNet Large Scale Visual Recognition Challenge
+
+**PUBLICATION**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**SOFTWARE**: Faster R-CNN, ResNet-50, VGG-16, GoogLeNet, SPP-net, Deep Residual Network (ResNet), ResNeXt-50, ResNeXt-101, MobileNet, MobileNetV2, ShuffleNet, YOLOv3, Tiny-YOLOv3, EfficientNet, DenseNet, SqueezeNet, ResNeXt-18, ResNeXt-34, ResNeXt-50-CUDA, ResNeXt-101-CUDA, ResNeXt-101-CUDA-8x, ResNeXt-101-CUDA-32x, ResNeXt-101-CUDA-16x, ResNeXt-101-CUDA-64x, ResNeXt-101-CUDA-256x, ResNeXt-101-CUDA-512x, ResNeXt-101-CUDA-1024x, ResNeXt-101-CUDA-2048x, ResNeXt-101-CUDA-4096x, ResNeXt-101-CUDA-8192x, ResNeXt-101-CUDA-16384x, ResNeXt-101-CUDA-32768x
+
+**WORKSHOP**: Workshop on Pattern Recognition (ICPR)

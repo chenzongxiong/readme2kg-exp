@@ -1,0 +1,11 @@
+Installation
+==============
+
+Please install all dependencies using the command:
+```bash
+conda create --name <env> --file requirements.txt
+```
+This will create a new environment named `<env>` and install all the necessary dependencies listed in the `requirements.txt` file. After installation, activate the environment using the following command:
+```bash
+conda activate <env>
+```

@@ -1,0 +1,30 @@
+```
+DATASET
+   ├── data.zip            <- Download the <DATASET>USTPO MIT dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+   └── data1.csv           <- <DATASET>USTPO MIT
+
+LICENSE
+    ├── cc-by-3
+    └── CC BY-NC 4.0
+
+ONTOLOGY
+    ├── Intelligence Task Ontology
+    └── USTPO MIT Ontology
+
+PROJECT
+    ├── Paper With Code
+    └── paperswithcode
+
+PUBLICATION
+    ├── No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+    ├── Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+    └── PVS-SOD: Panoramic Audiovisual Saliency Detection
+
+SOFTWARE
+    ├── Protege ontology editor
+    └── <SOFTWARE>Protege Ontology Editor
+
+WORKSHOP
+    ├── Thermal Image Super-Resolution
+    └── PAV-SOD: Panoramic Audiovisual Saliency Detection
+```

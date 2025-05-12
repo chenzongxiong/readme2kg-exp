@@ -1,0 +1,19 @@
+**CONFERENCE**: International Conference on Computational Linguistics and Intelligence (CLIC 2023)
+
+**DATASET**: Semantic Text Analysis Evaluation (SEMAINE)
+
+**EVALMETRIC**: Evaluation metric for named entity recognition (NER) tasks.
+
+**LICENSE**: The software is licensed under the Apache License, Version 2.0.
+
+**ONTOLOGY**: Ontology for Information Extraction (OntoIE)
+
+**PROGLANG**: Python programming language
+
+**PROJECT**: SemEval-2021 Task 3: SemEval-2021 Task 3: Semantic Text Analysis Evaluation (SEMAINE)
+
+**PUBLICATION**: Proceedings of the 2021 Workshop on Semantic Text Analysis and Information Extraction (SEMAINE 2021)
+
+**SOFTWARE**: OntoIE Ontology Editor
+
+**WORKSHOP**: Workshop on Natural Language Processing (NLP) and Computational Linguistics (CL)

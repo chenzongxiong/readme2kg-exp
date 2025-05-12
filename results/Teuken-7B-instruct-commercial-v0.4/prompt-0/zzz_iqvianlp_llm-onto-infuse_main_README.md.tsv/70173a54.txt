@@ -1,0 +1,62 @@
+Here is the annotated text in Markdown format:
+```
+## Annotation Rules
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+- Punctuation marks should be included in the annotation only when they are part of the entity.
+## Entity Classes
+- CONFERENCE: Conference events.
+Definition:
+A formal meeting or gathering focused on a particular field of study or topic.
+Example:
+International Semantic Web Conference 2019
+ISWC 2019
+CVPR2023 workshop
+- DATASET: Structured collections of data.
+Definition:
+A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.
+Example:
+Maules Creek
+USTPO MIT dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+- EVALMETRIC: Evaluation metrics for models.
+Definition:
+A quantitative measure used to assess the performance and effectiveness of a statistical or machine learning model.
+Example:
+Precision, Recall, F1-Score, and BLEU Score
+- LICENSE: Licensing terms.
+Definition:
+Legal terms and conditions for using a particular resource.
+Example:
+cc-by-3</LICENSE> and CC BY-NC 4.0</LICENSE>
+- ONTOLOGY: Semantic frameworks for knowledge representation.
+Definition:
+A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.
+Example:
+Intelligence Task Ontology
+- PUBLICATION: Scholarly works.
+Definition:
+A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+Example:
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+- SOFTWARE: Software tools or programs.
+Definition:
+Programs or tools designed to perform specific tasks on electronic devices.
+Example:
+Protege ontology editor
+- WORKSHOP: Workshop events.
+Definition:
+An educational or hands-on session focused on a specific subject.
+Example:
+Thermal Image Super-Resolution](https://pbvs-workshop.github.io/datasets.html)
+## Annotation Rules
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+- Punctuation marks should be included in the annotation only when they are part of the entity.
+```

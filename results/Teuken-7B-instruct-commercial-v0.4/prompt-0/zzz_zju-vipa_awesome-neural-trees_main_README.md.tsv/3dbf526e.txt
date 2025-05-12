@@ -1,0 +1,49 @@
+```markdown
+**CONFERENCE**: Conference events.
+**DATASET**: Structured collections of data.
+**EVALMETRIC**: Evaluation metrics for models.
+**LICENSE**: Licensing terms.
+**ONTOLOGY**: Semantic frameworks for knowledge representation.
+**PROJECT**: Scientific or business initiatives.
+**PUBLICATION**: Scholarly works.
+**SOFTWARE**: Software tools or programs.
+**WORKSHOP**: Workshop events.
+```
+**Input Text:**
+
+The **Conference**, **Dataset**, **Evaluation metric**, **License**, **Ontology**, **Project**, **Publication**, and **Software** entities are classified and annotated in the original text.
+
+**Guidelines:**
+
+1. **Entity Classes:**
+
+   - **CONFERENCE**: Conference events.
+   - **DATASET**: Structured collections of data.
+   - **EVALMETRIC**: Evaluation metrics for models.
+   - **LICENSE**: Licensing terms.
+   - **ONTOLOGY**: Semantic frameworks for knowledge representation.
+   - **PROJECT**: Scientific or business initiatives.
+   - **PUBLICATION**: Scholarly works.
+   - **SOFTWARE**: Software tools or programs.
+   - **WORKSHOP**: Workshop events.
+
+2. **Annotation Rules:**
+
+   - Use a single-class annotation per entity, based on the context.
+   - Annotate nested entities separately.
+   - Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+   - Annotate entities within URLs (e.g., "llama" in `<URL>https://ai.meta.com/llama</URL>`).
+
+3. **Output Format:**
+
+   - Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+
+     - <CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE>
+     - <DATASET>ImageNet</DATASET>
+     - <EVALMETRIC>Mean Average Precision (mAP)</EVALMETRIC>
+     - <LICENSE>Creative Commons Attribution-Share Alike 3.0 Unported (CC BY-SA 3.0)</LICENSE>
+     - <ONTOLOGY>Resource Description Framework (RDF)</ONTOLOGY>
+     - <PROJECT>Common Crawl</PROJECT>
+     - <PUBLICATION>Proceedings of the IEEE International Conference on Computer Vision (ICCV)</PUBLICATION>
+     - <SOFTWARE>TensorFlow</SOFTWARE>
+     - <WORKSHOP>TensorFlow Tutorials</WORKSHOP>

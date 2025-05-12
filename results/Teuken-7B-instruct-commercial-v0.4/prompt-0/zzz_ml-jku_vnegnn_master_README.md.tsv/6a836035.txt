@@ -1,0 +1,3 @@
+```markdown
+The <SOFTWARE>Hydra Config</SOFTWARE> framework is widely used for managing and organizing configuration files.
+```

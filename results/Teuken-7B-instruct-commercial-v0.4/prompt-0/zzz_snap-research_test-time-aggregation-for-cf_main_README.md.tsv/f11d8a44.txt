@@ -1,0 +1,12 @@
+```
+CONFERENCE: Test-time Aggregation for CF
+DATASET: TAG-CF
+EVALMETRIC: NMI
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Collaborative Filtering Ontology
+PROJECT: Collaborative Filtering for MovieLens
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: scikit-learn
+WORKSHOP: Workshop on Collaborative Filtering for Recommendations (CF4Rec)
+URL: <https://proceedings.mlr.com/papers/2020/22612>
+```

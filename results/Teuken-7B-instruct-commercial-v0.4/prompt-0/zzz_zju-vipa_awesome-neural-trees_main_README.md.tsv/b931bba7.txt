@@ -1,0 +1,9 @@
+1. **Conference**: International Joint Conference on Artificial Intelligence (IJCAI)
+2. **DATASET**: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+3. **EVALMETRIC**: Precision, Recall, F1-Score, and ROC AUC
+4. **LICENSE**: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+5. **ONTOLOGY**: Resource Description Framework (RDF)
+6. **PROJECT**: SemEval-2017 Task 7: Semantic Compositionality Beyond Words
+7. **PUBLICATION**: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+8. **SOFTWARE**: NLTK (Natural Language Toolkit)
+9. **WORKSHOP**: Workshop on Knowledge Representation and Reasoning in Natural Language (KNR2L)

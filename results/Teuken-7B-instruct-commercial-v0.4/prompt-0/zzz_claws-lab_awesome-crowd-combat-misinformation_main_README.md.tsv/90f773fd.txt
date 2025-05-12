@@ -1,0 +1,19 @@
+```
+## Entities
+
+CONFERENCE: International Semantic Web Conference 2019
+CONFERENCE: ISWC 2019
+CONFERENCE: CVPR2023 workshop
+DATASET: Mauls Creek
+DATASET: USTPO MIT
+LICENSE: cc-by-3
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROGLANG: Python, PHP, C++
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+```
+<https://arxiv.org/abs/2310.02095>`.

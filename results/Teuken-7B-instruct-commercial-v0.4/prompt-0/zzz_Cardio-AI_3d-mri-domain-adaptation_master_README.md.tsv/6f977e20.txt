@@ -1,0 +1,13 @@
+**Annotated Text:**
+```markdown
+**Conference:** IEEE Transactions on Medical Imaging (TMI)
+**Dataset:** Early access
+**EVALMETRIC:** Precision, Recall, F1-Score, BLEU Score
+**LICENSE:** cc-by-3, CC BY-NC 4.0
+**ONTOLOGY:** Intelligence Task Ontology
+**PROJECT:** Paper With Code
+**PUBLICATION:** IEEE Transactions on Medical Imaging (TMI)
+**SOFTWARE:** Protege ontology editor
+**WORKSHOP:** PAV-SOD: Panoramic Audiovisual Saliency Detection
+```
+Note: The annotations follow the guidelines provided, including the proper name and nested entities. The output is in Markdown format, with entities directly annotated using XML-style tags for their respective classes.

@@ -1,0 +1,15 @@
+Gkalelis, V. (2023). Ontologies and Linked Open Data for Knowledge Representation and Reasoning. [Conference] 10th International Conference on Semantic Systems (ICSE), 2023. (<CONFERENCE>ICSE 2023</CONFERENCE>). Springer. <DATASET>Springer</DATASET>.
+
+Gkalelis, V. (2022). Ontologien und Linked Open Data für Wissensdarstellung und Schlussfolgerung. [Data Set] 10th International Conference on Semantic Systems (ICSE), 2022. (<DATASET>ICSE 2022</DATASET>). Springer. <DATASET>Springer</DATASET>.
+
+Gkalelis, V. (2022). Ontologien und Linked Open Data für Wissensdarstellung und Schlussfolgerung. [Lizenz] 10th International Conference on Semantic Systems (ICSE), 2022. (<LICENSE>CC-BY-3</LICENSE>). Springer. <DATASET>Springer</DATASET>.
+
+Gkalelis, V. (2022). Ontologien und Linked Open Data für Wissensdarstellung und Schlussfolgerung. [Ontology] 10th International Conference on Semantic Systems (ICSE), 2022. (<ONTOLOGY>Semantic Ontology</ONTOLOGY>). Springer. <DATASET>Springer</DATASET>.
+
+Gkalelis, V. (2022). Ontologien und Linked Open Data für Wissensdarstellung und Schlussfolgerung. [Software] 10th International Conference on Semantic Systems (ICSE), 2022. (<SOFTWARE>Protege Ontology Editor</SOFTWARE>). Springer. <DATASET>Springer</DATASET>.
+
+Gkalelis, V. (2022). Ontologien und Linked Open Data für Wissensdarstellung und Schlussfolgerung. [Projekt] 10th International Conference on Semantic Systems (ICSE), 2022. (<PROJECT>Paper With Code</PROJECT>). Springer. <DATASET>Springer</DATASET>.
+
+Gkalelis, V. (2022). Ontologien und Linked Open Data für Wissensdarstellung und Schlussfolgerung. [Veröffentlichung] 10th International Conference on Semantic Systems (ICSE), 2022. (<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>). Springer. <DATASET>Springer</DATASET>.
+
+Gkalelis, V. (2022). Ontologien und Linked Open Data für Wissensdarstellung und Schlussfolgerung. [Workshop] 10th International Conference on Semantic Systems (ICSE), 2022. (<WORKSHOP>PAV-SOD</WORKSHOP>). Springer. <DATASET>Springer</DATASET>.

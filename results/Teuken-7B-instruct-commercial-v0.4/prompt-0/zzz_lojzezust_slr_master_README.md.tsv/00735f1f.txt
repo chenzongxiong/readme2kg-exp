@@ -1,0 +1,12 @@
+```markdown
+<!-- NER Annotation for Input Text: -->
+**CONFERENCE**: International Joint Conference on Neural Networks
+**DATASET**: International Joint Conference on Neural Networks
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: cc-by-3, CC BY-NC 4.0
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Thermal Image Super-Resolution
+```

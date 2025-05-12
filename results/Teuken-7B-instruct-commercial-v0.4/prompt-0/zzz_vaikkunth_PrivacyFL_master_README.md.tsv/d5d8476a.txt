@@ -1,0 +1,12 @@
+1. **CONFERENCE**: International Conferences.
+    - Definition:
+        A conference is a formal gathering or meeting that brings together experts from various fields to discuss and share knowledge, experiences, and ideas. Conferences are usually organized around a specific theme, topic, or research area.
+    - Example:
+        `<CONFERENCE>International Conference on Machine Learning</CONFERENCE>` and `<CONFERENCE>ICML 2023</CONFERENCE>`.
+    - License:
+        <LICENSE>CC BY-NC 4.0</LICENSE>.
+    - Ontology:
+        <ONTOLOGY>Conference Ontology</ONTOLOGY>.
+    - Project:
+        <PROJECT>Conference Program</PROJECT>.
+    - Public

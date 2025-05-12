@@ -1,0 +1,14 @@
+**Annotation:**
+```markdown
+<CONFERENCE>CVPR2023</CONFERENCE> workshop
+<DATASET>Maules Creek</DATASET>
+<EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+<LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE>
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+<PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG>
+<PROJECT>Paper With Code</PROJECT> project
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<SOFTWARE>Protege ontology editor</SOFTWARE>
+<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+```
+PAV-SOD: Panoramic Audiovisual Saliency Detection.

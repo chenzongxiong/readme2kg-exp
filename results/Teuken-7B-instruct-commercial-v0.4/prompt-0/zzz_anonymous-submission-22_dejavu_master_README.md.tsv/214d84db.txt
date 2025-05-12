@@ -1,0 +1,10 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Neural Networks
+**DATASET**: IST2022
+**EVALMETRIC**: Mean Average Precision (mAP)
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Ontology of Visual Attention
+**PROJECT**: Visual Attention Benchmark
+**PUBLICATION**: IEEE Transactions on Neural Networks and Learning Systems
+**SOFTWARE**: TensorTrade
+**WORKSHOP**: Benchmarking Visual Attention Networks for Object Detection in Natural Scenes: The PAV-SOD Dataset

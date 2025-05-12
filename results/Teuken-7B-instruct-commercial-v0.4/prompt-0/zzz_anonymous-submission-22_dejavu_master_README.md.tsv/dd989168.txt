@@ -1,0 +1,1 @@
+FDG.pkl is a pickle file containing the FDG object, which includes various entities such as CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROJECT, PUBLICATION, SOFTWARE, WORKSHOP, and others.

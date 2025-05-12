@@ -1,0 +1,12 @@
+```
+CONFERENCE: 3D CMR-Domain-Adaptation
+DATASET: 3D CMR-Domain-Adaptation
+LICENSE: MIT
+ONTOLOGY: Cardiac Magnetic Resonance Ontology
+PROJECT: Unsupervised Domain Adaptation (UDA) of 3D cardiac magnetic resonance (CMR) cine images
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Deep learning model for Unsupervised Domain Adaptation (UDA) of 3D cardiac magnetic resonance (CMR) cine images
+WORKSHOP: Thermal Image Super-Resolution
+```
+
+Note: The entities and their respective classes were identified and tagged directly in the original text using XML-style tags.

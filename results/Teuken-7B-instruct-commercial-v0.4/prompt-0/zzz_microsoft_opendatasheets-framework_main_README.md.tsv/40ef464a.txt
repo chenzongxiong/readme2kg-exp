@@ -1,0 +1,1 @@
+This project has adopted the <CONFERENCE>Microsoft Open Source Code of Conduct</CONFERENCE>.

@@ -1,0 +1,33 @@
+```
+CONFERENCE: International Semantic Web Conference 2019
+CONFERENCE: ISWC 2019
+CONFERENCE: CVPR2023 workshop
+DATASET: Maules Creek
+DATASET: USTPDO MIT
+EVALMETRIC: Precision
+EVALMETRIC: Recall
+EVALMETRIC: F1-Score
+EVALMETRIC: BLEU Score
+LICENSE: cc-by-3
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+ONTOLOGY: Ontology of the semantics of the Semantic Web
+ONTOLOGY: Ontology of the semantics of the Semantic Web
+ONTOLOGY: Ontology of the semantics of the Semantic Web
+ONTOLOGY: Ontology of the semantics of the Semantic Web
+PROJECT: Paper With Code
+PROJECT: paperswithcode.com
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+SOFTWARE: Protege ontology editor
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+WORKSHOP: Thermal Image Super-Resolution
+WORKSHOP: Thermal Image Super-Resolution
+WORKSHOP: Thermal Image Super-Resolution
+WORKSHOP: Thermal Image Super-Resolution
+```

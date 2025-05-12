@@ -1,0 +1,9 @@
+```
+## Setup instructions (Ubuntu)
+### Preconditions:
+- Python 3.6 locally installed (e.g.: <a target="_blank" href="https://www.anaconda.com/download/#macos">Anaconda</a>)
+- Installed nvidia drivers, cuda and cudnn (e.g.: <a target="_blank" href="https://www.tensorflow.org/install/gpu">Tensorflow</a>)
+### Local setup
+Clone repository
+==================
+```

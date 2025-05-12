@@ -1,0 +1,19 @@
+```
+## CONFERENCE
+International Joint Conference on Artificial Intelligence (IJCAI)
+## DATASET
+COCO
+## EVALMETRIC
+AP
+## LICENSE
+CC0 1.0 Universal
+## ONTOLOGY
+OBO-Edit Ontology
+## PROJECT
+DARPA Grand Challenge
+## PUBLICATION
+Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)
+## SOFTWARE
+OpenCV
+## WORKSHOP
+OpenCV Workshop on Computer Vision and Machine Learning for Robotics

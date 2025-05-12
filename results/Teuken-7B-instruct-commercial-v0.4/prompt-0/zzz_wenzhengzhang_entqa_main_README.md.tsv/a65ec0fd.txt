@@ -1,0 +1,11 @@
+```
+CONFERENCE: 2023 Workshop on Machine Learning for Information and Knowledge Management (ML4IKM)
+DATASET: USTPO MIT
+EVALMETRIC: F1-Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Ontology for Information Extraction
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+```

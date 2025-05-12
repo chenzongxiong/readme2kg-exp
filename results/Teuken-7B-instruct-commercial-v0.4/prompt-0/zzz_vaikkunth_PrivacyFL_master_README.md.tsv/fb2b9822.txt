@@ -1,0 +1,1 @@
+Some simulation behavior can easily be configured by modifying the contents of the `config.txt` file.

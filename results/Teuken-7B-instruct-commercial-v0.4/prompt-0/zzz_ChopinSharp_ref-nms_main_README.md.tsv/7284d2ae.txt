@@ -1,0 +1,16 @@
+Input Text:
+```
+It should be picked properly so that the recall of the referent is high while the number of proposals per expression is around 8-10.
+```
+Annotated Text:
+```
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Mauls Creek
+*EVALMETRIC**: Precision
+*LICENSE**: cc-by-3
+*ONTOLOGY**: Intelligence Task Ontology
+*PROJECT**: Paper With Code
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*SOFTWARE**: Protege ontology editor
+*WORKSHOP**: Thermal Image Super-Resolution Workshop
+```

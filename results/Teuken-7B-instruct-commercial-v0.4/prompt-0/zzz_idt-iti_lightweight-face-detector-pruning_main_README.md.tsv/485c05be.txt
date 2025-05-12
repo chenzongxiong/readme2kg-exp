@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+EVALMETRIC: Top-1 Accuracy
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: Semantic Web Ontology Language (OWL)
+PROJECT: Learning Representations for Visual Recognition
+PUBLICATION: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+SOFTWARE: TensorFlow
+WORKSHOP: Workshop on Machine Learning for Computer Vision (MLCV)
+```

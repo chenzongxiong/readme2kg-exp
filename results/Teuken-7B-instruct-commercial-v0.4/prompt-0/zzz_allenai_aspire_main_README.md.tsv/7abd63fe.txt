@@ -1,0 +1,3 @@
+```
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> is a conference focused on structured collections of data and their usage for analysis and research.
+```

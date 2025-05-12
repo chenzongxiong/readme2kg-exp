@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Neural Networks
+**DATASET**: CIFAR-10
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: Creative Commons Attribution-Share Alike 4.0 International
+**ONTOLOGY**: Gene Ontology
+**PROJECT**: SemEval-2017 Task 3
+**PUBLICATION**: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE**: Weka
+**WORKSHOP**: Workshop on Semantic Representation Learning for Natural Language Processing
+```

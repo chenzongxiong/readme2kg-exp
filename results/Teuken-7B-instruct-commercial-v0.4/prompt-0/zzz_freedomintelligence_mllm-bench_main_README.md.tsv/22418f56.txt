@@ -1,0 +1,102 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+CONFERENCE: International Conference on Machine Learning (ICML)
+CONFERENCE: International Conference on Neural Information Processing Systems (NeurIPS)
+DATASET: Adult Census Income Dataset
+DATASET: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+DATASET: MNIST
+DATASET: Open Images Dataset (OOD)
+DATASET: PASCAL VOC
+DATASET: PubMed Central Full-Text API (PMC Full-Text)
+DATASET: Redox-2018-01-001
+DATASET: SBU-2016-002
+DATASET: Stanford CoreNLP Sentiment Treebank (SCORS)
+DATASET: TREC QA 2014 Track (TREC QA 2014)
+EVALMETRIC: Accuracy
+EVALMETRIC: Average Precision (AP)
+EVALMETRIC: Average Recall (AR)
+EVALMETRIC: Average Precision (AP) at Intersection Over Union (IoU) Score 0.5
+EVALMETRIC: Average Precision (AP) at Intersection Over Union (IoU) Score 0.75
+EVALMETRIC: Average Precision (AP) at Intersection Over Union (IoU) Score 0.5:0.75
+LICENSE: Apache License, Version 2.0
+LICENSE: BSD 3-Clause License
+LICENSE: BSD 2-Clause "Simplified" License
+LICENSE: CC0 1.0 Universal
+ONTOLOGY: ACM Computing Classification System (ACM-CCS)
+ONTOLOGY: Dublin Core Metadata Terms (DCMI)
+ONTOLOGY: Gene Ontology (GO)
+ONTOLOGY: IEEE Standard Glossary of Software Engineering Terminology (IEEE-SGL)
+ONTOLOGY: ISO/IEC 9899 Programming Languages
+ONTOLOGY: Medical Subject Headings (MeSH)
+ONTOLOGY: Open Annotation Ontology (OAO)
+ONTOLOGY: Resource Description Framework (RDF)
+ONTOLOGY: Simple Knowledge Organization System (SKOS)
+ONTOLOGY: Virtual International Authority File (VIAF)
+PROGLANG: Python
+PROGLANG: PHP
+PROGLANG: C++
+PROJECT: ACL Anthology
+PROJECT: CoNLL
+PROJECT: EMNLP
+PROJECT: EMNLP-CoNLL
+PROJECT: IWPT
+PROJECT: LREC
+PROJECT: NAACL
+PROJECT: NAACL-HLT
+PROJECT: PASCAL
+PROJECT: SemEval
+PUBLICATION: ACL Anthology
+PUBLICATION: Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)
+PUBLICATION: Proceedings of the 2022 Conference on Computational Natural Language Learning (CoNLL 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (SemEval 2022)
+PUBLICATION: Proceedings of the 2022 Workshop on Semantic Evaluation (Sem

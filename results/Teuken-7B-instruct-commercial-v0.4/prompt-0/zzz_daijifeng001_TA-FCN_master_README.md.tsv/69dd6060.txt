@@ -1,0 +1,42 @@
+```markdown
+# Conferences
+- <CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE>
+- <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE>
+
+# Datasets
+- <DATASET>ImageNet</DATASET>
+- <DATASET>COCO</DATASET>
+
+# Evaluation Metrics
+- <EVALMETRIC>F1 Score</EVALMETRIC>
+- <EVALMETRIC>Precision</EVALMETRIC>
+- <EVALMETRIC>Recall</EVALMETRIC>
+
+# Licenses
+- <LICENSE>MIT License</LICENSE>
+- <LICENSE>Apache License, Version 2.0</LICENSE>
+
+# Ontologies
+- <ONTOLOGY>SNOMED CT</ONTOLOGY>
+- <ONTOLOGY>UML</ONTOLOGY>
+
+# Programming Languages
+- <PROGLANG>Java</PROGLANG>
+- <PROGLANG>Python</PROGLANG>
+
+# Projects
+- <PROJECT>Open Images</PROJECT>
+- <PROJECT>ImageNet Large Scale Visual Recognition Challenge (ILSVRC)</PROJECT>
+
+# Publications
+- <PUBLICATION>Conference on Computer Vision and Pattern Recognition (CVPR)</PUBLICATION>
+- <PUBLICATION>Proceedings of the IEEE</PUBLICATION>
+
+# Software
+- <SOFTWARE>TensorFlow</SOFTWARE>
+- <SOFTWARE>PyTorch</SOFTWARE>
+
+# Workshops
+- <WORKSHOP>International Conference on Machine Learning (ICML)</WORKSHOP>
+- <WORKSHOP>Conference on Neural Information Processing Systems (NeurIPS)</WORKSHOP>
+```

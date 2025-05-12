@@ -1,0 +1,21 @@
+```
+## CONFERENCE: AAAI
+
+### ONTOLOGY: Intelligence Task Ontology
+
+### LICENSE: cc-by-3
+
+### PROJECT: Paper With Code
+
+### PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+
+### WORKSHOP: Thermal Image Super-Resolution Workshop
+
+### DATASET: BookSum Dataset
+
+### EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+
+### SOFTWARE: Protege ontology editor
+
+### LICENSE: cc-by-3
+```

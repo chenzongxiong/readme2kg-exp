@@ -1,0 +1,21 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is one of the premier conferences in the field of machine learning and artificial intelligence.
+
+The <DATASET>ImageNet Large Scale Visual Recognition Challenge</DATASET> (ILSVRC) is a well-known benchmark for object detection and image classification.
+
+The <EVALMETRIC>Mean Average Precision</EVALMETRIC> (mAP) is a popular metric for evaluating object detection performance.
+
+The <LICENSE>Creative Commons Attribution-Share Alike 3.0 Unported</LICENSE> (CC-BY-SA 3.0) license is a free and open-source software license.
+
+The <ONTOLOGY>Semantic Information Framework for Patents (SIFPat)</ONTOLOGY> is a knowledge representation scheme for patent information.
+
+The <PROGLANG>Python programming language</PROGLANG> is a popular programming language for data analysis and machine learning.
+
+The <PROJECT>Paper With Code</PROJECT> initiative is a platform for sharing research papers with accompanying code and data.
+
+The <PUBLICATION>Advances in Neural Information Processing Systems (NeurIPS)</PUBLICATION> is a leading conference in the field of machine learning and artificial intelligence.
+
+The <SOFTWARE>Apache OpenNLP</SOFTWARE> is a widely used open-source library for natural language processing.
+
+The <WORKSHOP>Workshop on Semantic Computing (SemCom)</WORKSHOP> is an annual event focused on the latest research and developments in semantic computing.
+```

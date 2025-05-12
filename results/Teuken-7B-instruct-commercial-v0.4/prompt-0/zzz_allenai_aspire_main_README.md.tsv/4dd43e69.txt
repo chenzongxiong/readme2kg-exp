@@ -1,0 +1,40 @@
+```markdown
+**Task:** You are tasked with performing Named Entity Recognition (NER) on the given text. Follow the guidelines strictly to identify and classify entities into their respective categories. Annotate the entities directly in the original text using XML-style tags. Only return the annotated text in Markdown format—no explanations, introductions, or extra text.
+
+**Guidelines:**
+
+* **Entity Classes:**
+	+ `CONFERENCE`: Conference events.
+	*Definition*:
+	    A formal meeting or gathering focused on a particular field of study or topic.
+	*Example*:
+	    <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>
+	    <CONFERENCE>ISWC 2019</CONFERENCE>
+	    <CONFERENCE>CVPR2023</CONFERENCE> workshop
+	
+	+ `DATASET`: Structured collections of data.
+	*Definition*:
+	    A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.
+	*Example*:
+	    <DATASET>Maules Creek</DATASET>
+	    <DATASET>Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)>
+	
+	+ `EVALMETRIC`: Evaluation metrics for models.
+	*Definition*:
+	    A quantitative measure used to assess the performance and effectiveness of a statistical or machine learning model.
+	*Example*:
+	    The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+
+	+ `LICENSE`: Licensing terms.
+	*Definition*:
+	    Legal terms and conditions for using a particular resource.
+	*Example*:
+	    Available licenses to use: <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE>
+
+	+ `ONTOLOGY`: Semantic frameworks for knowledge representation.
+	*Definition*:
+	    A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.
+	*Example*:
+	    The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is ...
+
+	+ `PROGLANG`: S

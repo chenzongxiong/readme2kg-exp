@@ -1,0 +1,66 @@
+1. **CONFERENCE**: Conference events.
+Definition: A formal meeting or gathering focused on a particular field of study or topic.Example: <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> <CONFERENCE>ISWC 2019</CONFERENCE> <CONFERENCE>CVPR2023</CONFERENCE> workshop
+2. **DATASET**: Structured collections of data.
+Definition: A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.Example: <DATASET>Maules Creek</DATASET> <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip> <DATASET>USTPO MIT</DATASET>
+3. **EVALMETRIC**: Evaluation metrics for models.
+Definition: A quantitative measure used to assess the performance and effectiveness of a statistical or machine learning model.Example: <EVALMETRIC>Precision</EVALMETRIC> <EVALMETRIC>Recall</EVALMETRIC> <EVALMETRIC>F1-Score</EVALMETRIC> <EVALMETRIC>BLEU Score</EVALMETRIC>
+4. **LICENSE**: Licensing terms.
+Definition: Legal terms and conditions for using a particular resource.Example: <LICENSE>cc-by-3</LICENSE> <LICENSE>CC BY-NC 4.0</LICENSE>
+5. **ONTOLOGY**: Semantic frameworks for knowledge representation.
+Definition: A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.Example: <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+6. **PROGLANG**: Programming languages.
+Definition: A formal language used for implementing software.Example: <PROGLANG>Python</PROGLANG> <PROGLANG>PHP</PROGLANG> <PROGLANG>C++</PROGLANG>
+7. **PROJECT**: Scientific or business initiatives.
+Definition: A planned initiative aimed at addressing a research question or achieving a specific goal.Example: <PROJECT>Paper With Code</PROJECT> <https://paperswithcode.com/> <PROJECT>Deep Learning for Recommender Systems</PROJECT>
+8. **PUBLICATION**: Scholarly works.
+Definition: A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.Example: <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+9. **SOFTWARE**: Software tools or programs.
+Definition: Programs or tools designed to perform specific tasks on electronic devices.Example: <SOFTWARE>Protege ontology editor</SOFTWARE>
+10. **WORKSHOP**: Workshop events.
+Definition: An educational or hands-on session focused on a specific subject.Example: Refers to the [Thermal Image Super-Resolution](https://pbvs-workshop.github.io/datasets.html)
+11. **DATASET**: Structured collections of data.
+Definition: A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.Example: The `<DATASET>BookSum Dataset</DATASET>` is a collection of book reviews and ratings.
+12. **ONTOLOGY**: Semantic frameworks for knowledge representation.
+Definition: A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.Example: The `<ONTOLOGY>Semantic Annotation Guidelines</ONTOLOGY>` provides guidelines for semantic annotation.
+13. **PROJECT**: Scientific or business initiatives.
+Definition: A planned initiative aimed at addressing a research question or achieving a specific goal.Example: The `<PROJECT>Collaborative Research Center SFB/Transregio 128</PROJECT>` is a research center focused on advanced technologies.
+14. **PUBLICATION**: Scholarly works.
+Definition: A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.Example: The `<PUBLICATION>Journal of Machine Learning Research</PUBLICATION>` is a leading journal in machine learning research.
+15. **SOFTWARE**: Software tools or programs.
+Definition: Programs or tools designed to perform specific tasks on electronic devices.Example: The `<SOFTWARE>Jupyter Notebook</SOFTWARE>` is a popular tool for data science and machine learning research.
+16. **WORKSHOP**: Workshop events.
+Definition: An educational or hands-on session focused on a specific subject.Example: The `<WORKSHOP>Data Science Workshop</WORKSHOP>` is an event focused on data science concepts and techniques.
+17. **LICENSE**: Licensing terms.
+Definition: Legal terms and conditions for using a particular resource.Example: The `<LICENSE>MIT License</LICENSE>` is a popular open-source software license.
+18. **PROJECT**: Scientific or business initiatives.
+Definition: A planned initiative aimed at addressing a research question or achieving a specific goal.Example: The `<PROJECT>Open-Source Software Project</PROJECT>` is an initiative to develop and maintain open-source software.
+19. **PUBLICATION**: Scholarly works.
+Definition: A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.Example: The `<PUBLICATION>Preprint Server</PUBLICATION>` is a platform for sharing preprints before being published in a journal.
+20. **SOFTWARE**: Software tools or programs.
+Definition: Programs or tools designed to perform specific tasks on electronic devices.Example: The `<SOFTWARE>Software Development Tool</SOFTWARE>` is a tool used for software development and programming.
+21. **WORKSHOP**: Workshop events.
+Definition: An educational or hands-on session focused on a specific subject.Example: The `<WORKSHOP>Artificial Intelligence Workshop</WORKSHOP>` is an event focused on the principles and applications of artificial intelligence.
+22. **DATASET**: Structured collections of data.
+Definition: A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.Example: The `<DATASET>ImageNet</DATASET>` is a large-scale dataset of images for computer vision research.
+23. **ONTOLOGY**: Semantic frameworks for knowledge representation.
+Definition: A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.Example: The `<ONTOLOGY>Resource Description Framework (RDF)</ONTOLOGY>` is a standard for representing and exchanging data on the web.
+24. **PROJECT**: Scientific or business initiatives.
+Definition: A planned initiative aimed at addressing a research question or achieving a specific goal.Example: The `<PROJECT>Data Science Project</PROJECT>` is an initiative focused on developing data science techniques for a specific application.
+25. **PUBLICATION**: Scholarly works.
+Definition: A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.Example: The `<PUBLICATION>Open-Access Journal</PUBLICATION>` is a journal that makes all articles freely available online.
+26. **SOFTWARE**: Software tools or programs.
+Definition: Programs or tools designed to perform specific tasks on electronic devices.Example: The `<SOFTWARE>Natural Language Processing Tool</SOFTWARE>` is a tool used for processing and analyzing natural language text.
+27. **WORKSHOP**: Workshop events.
+Definition: An educational or hands-on session focused on a specific subject.Example: The `<WORKSHOP>Data Visualization Workshop</WORKSHOP>` is an event focused on techniques for visualizing data.
+28. **DATASET**: Structured collections of data.
+Definition: A structured collection of data, organized typically for a specific goal such as analysis, research, or reference.Example: The `<DATASET>Protein Data Bank</DATASET>` is a large-scale dataset of three-dimensional protein structures.
+29. **ONTOLOGY**: Semantic frameworks for knowledge representation.
+Definition: A framework representing knowledge about a domain, including concepts, entities, properties, and relationships.Example: The `<ONTOLOGY>Resource Description Framework (RDF)</ONTOLOGY>` is a standard for representing and exchanging data on the web.
+30. **PROJECT**: Scientific or business initiatives.
+Definition: A planned initiative aimed at addressing a research question or achieving a specific goal.Example: The `<PROJECT>Artificial Intelligence Project</PROJECT>` is an initiative focused on developing and applying artificial intelligence techniques.
+31. **PUBLICATION**: Scholarly works.
+Definition: A creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.Example: The `<PUBLICATION>Open-Source Software Project</PUBLICATION>` is an initiative to develop and maintain open-source software.
+32. **SOFTWARE**: Software tools or programs.
+Definition: Programs or tools designed to perform specific tasks on electronic devices.Example: The `<SOFTWARE>Machine Learning Tool</SOFTWARE>` is a tool used for developing and training machine learning models.
+33. **WORKSHOP**: Workshop events.
+Definition: An educational or hands-on session focused on a specific subject.Example: The `<WORKSHOP>Data Mining Workshop</WORKSHOP>` is an event focused on techniques for discovering patterns

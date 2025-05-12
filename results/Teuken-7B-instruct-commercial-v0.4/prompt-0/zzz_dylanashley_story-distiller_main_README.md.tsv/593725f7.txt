@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: F1 Score
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: SUMO
+PROJECT: SUMO
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Stanford Parser
+WORKSHOP: Workshop on Semantic Representations and Reasoning (SemRep)
+```

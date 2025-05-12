@@ -1,0 +1,19 @@
+## Annotation
+
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: PASCAL VOC
+
+**EVALMETRIC**: Precision
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: Semantic Network for Image Understanding
+
+**PROJECT**: PASCAL VOC
+
+**PUBLICATION**: Proceedings of the IEEE International Conference on Computer Vision
+
+**SOFTWARE**: Deep Learning Framework
+
+**WORKSHOP**: Workshop on Semantic Computing and Knowledge Reasoning

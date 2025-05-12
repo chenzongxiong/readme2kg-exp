@@ -1,0 +1,11 @@
+**CONFERENCE:** International Semantic Web Conference 2019
+*DATASET:** Mauls Creek
+* EVALMETRIC: F1 Score
+* LICENSE: CC BY-NC 4.0
+* ONTOLOGY: Intelligence Task Ontology
+* PROJECT: Paper With Code
+* PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* SOFTWARE: Protege Ontology Editor
+* WORKSHOP: Thermal Image Super-Resolution
+
+The input text contains references to various entities related to the field of knowledge and scientific work. There are conference events mentioned, such as the International Semantic Web Conference 2019, and datasets like Mauls Creek. Evaluation metrics like F1 Score and licensing terms like CC BY-NC 4.0 are also mentioned. Ontologies like the Intelligence Task Ontology and the Panoramic Audiovisual Saliency Detection ontology are mentioned, as well as projects like Paper With Code and publications like No Length Left Behind. Software tools like Protege Ontology Editor and workshops like Thermal Image Super-Resolution are also mentioned.

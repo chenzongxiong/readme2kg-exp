@@ -1,0 +1,53 @@
+Evaluation Datasets
+==================
+
+1. **CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+	*Definition*:
+	A major annual conference on artificial intelligence, featuring a wide range of AI-related topics.
+	*Example*:
+	`<CONFERENCE>IJCAI 2023</CONFERENCE>`
+2. **DATASET**: [Stanford Natural Language Processing (NLP) Datasets](https://nlp.stanford.edu/projects/)
+	*Definition*:
+	A collection of datasets for natural language processing research.
+	*Example*:
+	`<DATASET>Stanford Sentiment Treebank</DATASET>`
+3. **EVALMETRIC**: `F1 Score`
+	*Definition*:
+	A metric used to evaluate the performance of a binary classification model.
+	*Example*:
+	`<EVALMETRIC>F1 Score</EVALMETRIC>`
+4. **LICENSE**: `CC BY-NC 4.0`
+	*Definition*:
+	A Creative Commons license that allows for the redistribution and use of a work, but only for non-commercial purposes and with attribution required.
+	*Example*:
+	`<LICENSE>CC BY-NC 4.0</LICENSE>`
+5. **ONTOLOGY**: [DARPA Agent Markup Language (DAML)](https://www.daml.org/)
+	*Definition*:
+	A standardized markup language for modeling knowledge in the field of artificial intelligence.
+	*Example*:
+	`<ONTOLOGY>DARPA Agent Markup Language</ONTOLOGY>`
+6. **PROGLANG**: `Python`
+	*Definition*:
+	A programming language commonly used for general-purpose programming.
+	*Example*:
+	`<PROGLANG>Python</PROGLANG>`
+7. **PROJECT**: [Open Images Dataset](https://www.openimages.org/)
+	*Definition*:
+	A large-scale dataset of image-level annotations for object detection and classification.
+	*Example*:
+	`<PROJECT>Open Images Dataset</PROJECT>`
+8. **PUBLICATION**: [Proceedings of the IEEE International Conference on Image Processing (ICME)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9288)
+	*Definition*:
+	A collection of papers presented at an annual conference on image processing.
+	*Example*:
+	`<PUBLICATION>IEEE Transactions on Neural Networks and Learning Systems</PUBLICATION>`
+9. **SOFTWARE**: [OpenNMS](https://www.opennms.org/)
+	*Definition*:
+	An open-source network management platform.
+	*Example*:
+	`<SOFTWARE>OpenNMS Spectrum</SOFTWARE>`
+10. **WORKSHOP**: [ICLR Workshops 2023](https://icml.cc/Conferences/2023/Schedule?event=358)
+	*Definition*:
+	A workshop within the annual International Conference on Machine Learning (ICML).
+	*Example*:
+	`<WORKSHOP>ICLR Workshop on Adversarial Robustness in Neural Networks</WORKSHOP>`

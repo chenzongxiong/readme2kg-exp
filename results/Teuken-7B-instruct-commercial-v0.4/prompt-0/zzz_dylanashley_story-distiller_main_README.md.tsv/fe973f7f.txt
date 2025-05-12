@@ -1,0 +1,8 @@
+```
+The <CONFERENCE>International Conference on Computational Linguistics and Language Learning</CONFERENCE> (COLING 2023) took place from August 13th to August 18th, 2023, in Taipei, Taiwan. The conference featured presentations from leading experts in the field of natural language processing and computational linguistics, covering a wide range of topics such as machine learning, corpus linguistics, and computational linguistics. The conference also included workshops, tutorials, and poster sessions.
+```
+
+Output Text:
+```css
+The <CONFERENCE>International Conference on Computational Linguistics and Language Learning</CONFERENCE> (COLING 2023) took place from August 13th to August 18th, 2023, in Taipei, Taiwan. The conference featured presentations from leading experts in the field of natural language processing and computational linguistics, covering a wide range of topics such as machine learning, corpus linguistics, and computational linguistics. The conference also included workshops, tutorials, and poster sessions.
+```

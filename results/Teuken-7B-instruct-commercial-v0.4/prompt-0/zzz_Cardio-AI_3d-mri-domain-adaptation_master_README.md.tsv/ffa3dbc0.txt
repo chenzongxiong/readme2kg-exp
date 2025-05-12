@@ -1,0 +1,13 @@
+```markdown
+# Annotation
+CONFERENCE: International Joint Conference on Neural Networks and Machine Learning (IJCNN 2017)
+# Annotation
+DATASET: IJCNN 2017 Dataset
+EVALMETRIC: Precision
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCNN 2017 Ontology
+PROJECT: IJCNN 2017 Workshop
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: IJCNN 2017 Dataset Visualizer
+WORKSHOP: IJCNN 2017 Workshop on Deep Learning for Signal Processing (DSLP 2017)
+```

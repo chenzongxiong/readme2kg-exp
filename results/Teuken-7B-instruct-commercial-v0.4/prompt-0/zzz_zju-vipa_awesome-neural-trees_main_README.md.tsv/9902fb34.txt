@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet: Large Scale Visual Recognition Challenge
+
+**EVALMETRIC**: **Accuracy**, **Precision**, **Recall**, **F1 Score**, **Mean Average Precision (mAP)**, **Intersection over Union (IoU)**
+
+**LICENSE**: Creative Commons Attribution 4.0 International License
+
+**ONTOLOGY**: Semantic Web Ontology Language (OWL)
+
+**PROJECT**: Semantic Web and Linked Data
+
+**PUBLICATION**: Journal of Machine Learning Research (JMLR)
+
+**SOFTWARE**: **Protege Ontology Editor**
+
+**WORKSHOP**: Workshop on Artificial Intelligence (AI) for Information and Knowledge Management (CIKM)
+```

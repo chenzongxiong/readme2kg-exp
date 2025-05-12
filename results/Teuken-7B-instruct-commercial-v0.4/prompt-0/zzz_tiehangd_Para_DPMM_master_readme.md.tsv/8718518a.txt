@@ -1,0 +1,68 @@
+```
+The <CONFERENCE>Conference on Human Computation and Crowdsourcing</CONFERENCE> is an annual conference focused on the intersection of human cognition and computational resources. It provides a platform for researchers and practitioners to discuss and share their work on the use of human computation and crowdsourcing for solving complex problems.
+
+The <CONFERENCE>Workshop on Human Computation and Crowdsourcing</CONFERENCE> is a one-day event that complements the main conference and provides a more interactive and hands-on experience. It features invited talks, panel discussions, and poster sessions, as well as opportunities for attendees to engage in discussions and network with each other.
+
+The <DATASET>Conference on Human Computation and Crowdsourcing Datasets</DATASET> is a repository of datasets and tools related to human computation and crowdsourcing. It aims to provide a comprehensive and curated collection of resources for researchers and practitioners in the field.
+
+The <DATASET>Conference on Human Computation and Crowdsourcing Metrics</DATASET> is a collection of evaluation metrics and methods specifically designed for evaluating models and systems in human computation and crowdsourcing applications. It provides a standardized framework for assessing the performance and effectiveness of these systems.
+
+The <LICENSE>Conference on Human Computation and Crowdsourcing Licenses</LICENSE> are the legal terms and conditions for using the resources and materials provided by the conference. They specify the rights and obligations of the conference participants and the conference organizers.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology</ONTOLOGY> is a semantic framework that represents knowledge about human computation and crowdsourcing. It provides a structured vocabulary for describing concepts, entities, properties, and relationships in this field.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology Extensions</ONTOLOGY> are additional concepts, entities, properties, and relationships that can be added to the main ontology to cover specific aspects of human computation and crowdsourcing.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology Issues</ONTOLOGY> are problems or challenges related to the development and use of ontologies in human computation and crowdsourcing applications. They may include issues related to ontology engineering, ontology integration, or ontology maintenance.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology Tools</ONTOLOGY> are software tools or programs designed to support the creation, maintenance, and use of ontologies in human computation and crowdsourcing applications. They may include ontology editors, reasoners, or visualization tools.
+
+The <PROJECT>Conference on Human Computation and Crowdsourcing Paper With Code</PROJECT> project aims to promote open science practices in the field by providing a platform for sharing research artifacts, such as code, data, and models, with the community. It encourages researchers to make their work more transparent and reproducible.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Papers With Code</PUBLICATION> are scholarly works that report on research related to human computation and crowdsourcing. They may include journal articles, conference proceedings, or preprints, and are often available through the conference proceedings or open-access repositories.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Preprint Server</PUBLICATION> is a preprint server that provides a platform for researchers to share their work in the field of human computation and crowdsourcing before it is published in a peer-reviewed journal. It aims to promote collaboration, transparency, and rapid dissemination of research findings.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Poster Sessions</PUBLICATION> are sessions dedicated to presenting research posters at the conference. They provide an opportunity for researchers to showcase their work and engage with other attendees.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Presentations</PUBLICATION> are oral or poster presentations that researchers can give at the conference to share their research findings and ideas. They are an opportunity for researchers to present their work to the broader community and receive feedback from other experts in the field.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Tutorials</PUBLICATION> are specialized sessions designed to provide in-depth training or guidance on specific topics related to human computation and crowdsourcing. They aim to help attendees learn new skills or deepen their understanding of existing techniques.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Tutorial Slides</PUBLICATION> are the slides used in the tutorials at the conference. They provide a visual representation of the content covered in the tutorials and can be useful for attendees who missed the session or for those who want to review the material.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Tutorial Materials</PUBLICATION> are the materials used in the tutorials at the conference. They may include slides, handouts, or other resources that attendees can use to follow along with the presentation and engage in the activities.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Tutorial Recordings</PUBLICATION> are the recordings of the tutorials at the conference. They provide an opportunity for attendees who were unable to attend the session or for those who want to review the material at a later time.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Tutorial Presentations</PUBLICATION> are the presentations given in the tutorials at the conference. They provide a visual representation of the content covered in the tutorials and can be useful for attendees who missed the session or for those who want to review the material.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Tutorial Handouts</PUBLICATION> are the handouts provided in the tutorials at the conference. They may include additional materials, such as exercises or examples, that are not covered in the slides or other resources.
+
+The <PUBLICATION>Conference on Human Computation and Crowdsourcing Tutorial Exercises</PUBLICATION> are the exercises given in the tutorials at the conference. They provide an opportunity for attendees to apply the concepts covered in the session and to engage in hands-on activities related to the topic.
+
+The <WORKSHOP>Conference on Human Computation and Crowdsourcing Workshop Title</WORKSHOP> is a hands-on session focused on a specific aspect of human computation and crowdsourcing. It provides attendees with an opportunity to learn practical skills or techniques related to the topic and to engage in discussions with other participants.
+
+The <WORKSHOP>Conference on Human Computation and Crowdsourcing Workshop Materials</WORKSHOP> are the materials used in the workshop, such as slides, handouts, or exercises. They provide attendees with a resource to follow along with the presentation and to review the content after the session.
+
+The <WORKSHOP>Conference on Human Computation and Crowdsourcing Workshop Recordings</WORKSHOP> are the recordings of the workshop sessions. They provide an opportunity for attendees who were unable to attend the session or for those who want to review the material at a later time.
+
+The <WORKSHOP>Conference on Human Computation and Crowdsourcing Workshop Slides</WORKSHOP> are the slides used in the workshop sessions. They provide a visual representation of the content covered in the session and can be useful for attendees who missed the session or for those who want to review the material.
+
+The <WORKSHOP>Conference on Human Computation and Crowdsourcing Workshop Presentations</WORKSHOP> are the presentations given in the workshop sessions. They provide a visual representation of the content covered in the session and can be useful for attendees who missed the session or for those who want to review the material.
+
+The <WORKSHOP>Conference on Human Computation and Crowdsourcing Workshop Handouts</WORKSHOP> are the handouts provided in the workshop sessions. They may include additional materials, such as exercises or examples, that are not covered in the slides or other resources.
+
+The <WORKSHOP>Conference on Human Computation and Crowdsourcing Workshop Exercises</WORKSHOP> are the exercises given in the workshop sessions. They provide an opportunity for attendees to apply the concepts covered in the session and to engage in hands-on activities related to the topic.
+
+The <LICENSE>Conference on Human Computation and Crowdsourcing Licenses</LICENSE> are the legal terms and conditions for using the resources and materials provided by the conference. They specify the rights and obligations of the conference participants and the conference organizers.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology</ONTOLOGY> is a semantic framework that represents knowledge about human computation and crowdsourcing. It provides a structured vocabulary for describing concepts, entities, properties, and relationships in this field.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology Extensions</ONTOLOGY> are additional concepts, entities, properties, and relationships that can be added to the main ontology to cover specific aspects of human computation and crowdsourcing.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology Issues</ONTOLOGY> are problems or challenges related to the development and use of ontologies in human computation and crowdsourcing applications. They may include issues related to ontology engineering, ontology integration, or ontology maintenance.
+
+The <ONTOLOGY>Conference on Human Computation and Crowdsourcing Ontology Tools</ONTOLOGY> are software tools or programs designed to support the creation, maintenance, and use of ontologies in human computation and crowdsourcing applications. They may include ontology editors, reasoners, or visualization tools.
+
+The <PROJECT>Conference on Human Computation and Crowdsourcing Paper With Code</PROJECT> project aims to promote open science practices in the field by providing a platform for sharing research artifacts, such as code, data

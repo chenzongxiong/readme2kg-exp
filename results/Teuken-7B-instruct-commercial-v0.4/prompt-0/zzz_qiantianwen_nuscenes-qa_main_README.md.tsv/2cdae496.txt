@@ -1,0 +1,32 @@
+![DataConstruction](docs/data_construction.png)  ## :fire: News  - `2024.11.01`  CenterPoint feature released
+
+- **Conference**: CenterPoint 2024
+	* Definition: A conference focused on the CenterPoint topic.
+	* Example: <CONFERENCE>CenterPoint 2024</CONFERENCE>
+- **Dataset**: CenterPoint Dataset
+	* Definition: A dataset specifically for the CenterPoint task.
+	* Example: <DATASET>CenterPoint</DATASET>
+- **Evaluation Metric**: CenterPoint Evaluation Metric
+	* Definition: A metric used to evaluate the performance of CenterPoint models.
+	* Example: <EVALMETRIC>CenterPoint Evaluation Metric</EVALMETRIC>
+- **License**: CenterPoint License
+	* Definition: The legal terms for using resources related to CenterPoint.
+	* Example: <LICENSE>CenterPoint License</LICENSE>
+- **Ontology**: CenterPoint Ontology
+	* Definition: A framework representing knowledge about the CenterPoint task.
+	* Example: <ONTOLOGY>CenterPoint Ontology</ONTOLOGY>
+- **Programming Language**: Python
+	* Definition: A programming language commonly used for CenterPoint tasks.
+	* Example: <PROGLANG>Python</PROGLANG>
+- **Project**: CenterPoint Project
+	* Definition: A project aiming to develop CenterPoint models and methods.
+	* Example: <PROJECT>CenterPoint Project</PROJECT>
+- **Publication**: CenterPoint Paper
+	* Definition: A scholarly work related to CenterPoint research.
+	* Example: <PUBLICATION>CenterPoint Paper</PUBLICATION>
+- **Software**: CenterPoint Software
+	* Definition: A software tool specifically designed for CenterPoint tasks.
+	* Example: <SOFTWARE>CenterPoint Software</SOFTWARE>
+- **Workshop**: CenterPoint Workshop
+	* Definition: An educational or hands-on session focused on CenterPoint.
+	* Example: <WORKSHOP>CenterPoint Workshop</WORKSHOP>

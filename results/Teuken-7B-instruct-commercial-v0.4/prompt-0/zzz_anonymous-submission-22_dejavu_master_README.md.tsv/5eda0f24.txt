@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: Stanford Natural Language Processing Workshop
+**EVALMETRIC**: Mean Average Precision
+**LICENSE**: Creative Commons Attribution-NonCommercial 4.0 International
+**ONTOLOGY**: Semantic Network Ontology
+**PROJECT**: SemEval-2018 Task 3
+**PUBLICATION**: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE**: Stanford CoreNLP
+**WORKSHOP**: Workshop on Semantic Evaluation (SemEval)
+```

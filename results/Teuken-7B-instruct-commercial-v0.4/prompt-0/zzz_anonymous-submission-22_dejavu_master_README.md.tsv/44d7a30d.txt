@@ -1,0 +1,13 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2023 Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Project
+PUBLICATION: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI)
+SOFTWARE: IJCAI 2023 Software Tool
+WORKSHOP: IJCAI 2023 Workshop
+```
+
+Note: In the original text, the entities are already tagged using the appropriate classes. This output is provided for reference and to demonstrate the format of the annotated text.

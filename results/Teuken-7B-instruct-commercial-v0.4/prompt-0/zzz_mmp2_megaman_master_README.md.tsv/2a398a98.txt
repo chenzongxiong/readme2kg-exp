@@ -1,0 +1,19 @@
+**Annotated Text in Markdown Format:**
+```markdown
+**Conference****: International Semantic Web Conference 2019**
+*Dataset*: Maules Creek
+*Evaluation metric*: Precision
+*License*: cc-by-3
+*Ontology*: Intelligence Task Ontology
+*Project*: Paper With Code
+*Publication*: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+*Software*: Protege ontology editor
+*Workshop*: PAV-SOD: Panoramic Audiovisual Saliency Detection
+```
+**Guidelines:**
+
+* Follow the guidelines strictly to identify and classify entities into their respective categories.
+* Annotate nested entities separately.
+* Include punctuation marks only if part of the entity.
+* Annotate entities within URLs.
+* Return the original content with entities directly annotated using XML-style tags for their respective classes.

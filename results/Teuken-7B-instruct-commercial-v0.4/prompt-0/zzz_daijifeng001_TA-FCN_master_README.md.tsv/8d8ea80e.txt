@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+DATASET: ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+EVALMETRIC: Mean Average Precision (mAP)
+LICENSE: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+ONTOLOGY: Semantic Ontology for Image Classification (OSIC)
+PROGLANG: Python
+PROJECT: Faster R-CNN
+PUBLICATION: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+SOFTWARE: PyTorch
+WORKSHOP: ImageNet Large Scale Visual Recognition Challenge (ILSVRC) Workshop
+```

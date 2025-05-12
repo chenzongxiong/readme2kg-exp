@@ -1,0 +1,12 @@
+Input Text:
+
+* <CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI 2019)</CONFERENCE>, held in <CITY>Sydney</CITY>, <COUNTRY>Australia</COUNTRY>, from <DATE>July 21 to July 26, 2019</DATE>.
+* <DATASET>MS MARCO</DATASET>, a large-scale machine reading comprehension dataset.
+* <EVALMETRIC>Macro F1 Score</EVALMETRIC>, a measure of precision, recall, and F1 score.
+* <LICENSE>CC BY-NC-SA 4.0</LICENSE>, a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+* <ONTOLOGY>BIBO</ONTOLOGY>, a simple ontology for describing basic information.
+* <PROGLANG>Java</PROGLANG>, a programming language for building Android apps.
+* <PROJECT>Paper With Code</PROJECT>, a resource that provides access to papers with code.
+* <PUBLICATION>ICLR 2022</PUBLICATION>, the conference where the paper was presented.
+* <SOFTWARE>PyKEEN</SOFTWARE>, a library for learning deep representations.
+* <WORKSHOP>Knowledge Graph Workshop (KGW)</WORKSHOP>, a workshop focusing on knowledge graphs and applications.

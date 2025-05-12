@@ -1,0 +1,7 @@
+```markdown
+[WORKSHOP] PAV-SOD: Panoramic Audiovisual Saliency Detection <https://pagans.isr.upsud.fr/PAV-SOD/>
+```
+PAV-SOD: Panoramic Audiovisual Saliency Detection <https://pagans.isr.upsud.fr/PAV-SOD/>
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```

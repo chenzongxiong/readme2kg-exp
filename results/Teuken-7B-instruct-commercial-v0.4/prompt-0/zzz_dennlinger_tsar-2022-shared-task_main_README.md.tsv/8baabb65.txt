@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI-19 Competitions and Tracks
+EVALMETRIC: Detection F1 Score
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: IJCAI-19 Ontology
+PROJECT: IJCAI-19 Competition Tracks
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: IJCAI-19 Competitions and Tracks Tracker
+WORKSHOP: Workshop on Interactive Learning and Computational Intelligence (ICMLCI)
+```

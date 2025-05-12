@@ -1,0 +1,17 @@
+```markdown
+**CONFERENCE**: International Conference on Computational Linguistics
+
+**DATASET**: C4-Healthcare
+
+**EVALMETRIC**: Accuracy
+
+**LICENSE**: Creative Commons Attribution-ShareAlike 4.0 International License
+
+**ONTOLOGY**: Medical Ontology
+
+**PROJECT**: SemEval-2017 Task 7: Multimodal Semantic Analysis
+
+**PUBLICATION**: Proceedings of the Workshop on Semantic Evaluation (SemEval) 2017
+
+**SOFTWARE**: Stanford CoreNLP
+```

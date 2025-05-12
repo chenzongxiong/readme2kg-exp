@@ -1,0 +1,10 @@
+```markdown
+**CONFERENCE**: International Conference on Machine Learning and Information Processing Systems
+**DATASET**: Machine Learning Datasets
+**EVALMETRIC**: Evaluation Metrics
+**LICENSE**: License for using the dataset
+**ONTOLOGY**: Ontology for Knowledge Representation
+**PROJECT**: Machine Learning Projects
+**PUBLICATION**: Scientific Publications
+**SOFTWARE**: Software Tools
+**WORKSHOP**: Workshop on Machine Learning

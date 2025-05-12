@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Conference on Intelligent Tutoring Systems
+DATASET: IST2018 Dataset
+EVALMETRIC: Mean Average Precision (mAP)
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: Intelligent Tutoring System Ontology
+PROJECT: Open-source intelligent tutoring system
+PUBLICATION: Proceedings of the 10th International Conference on Intelligent Tutoring Systems
+SOFTWARE: Open-source intelligent tutoring system software
+WORKSHOP: IST2018 Workshop on Intelligent Learning Systems
+```

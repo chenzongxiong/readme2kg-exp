@@ -1,0 +1,3 @@
+Markdown-format annotated text:
+
+The **Conference** of interest is the **CVPR2023** workshop, where a **WORKSHOP** took place. The **DATASET** used for this event was the **USTPO MIT** dataset, which can be downloaded from the **LICENSE** of CC BY-NC 4.0. The **ONTOLOGY** used for modeling sequences of excessive or insufficient lengths is the **Intelligence Task Ontology**. The **PROJECT** related to this work is the **Paper With Code** project, which can be found at <https://paperswithcode.com/>. The **SOFTWARE** used for exploring and editing ontologies is the **Protege Ontology Editor**.

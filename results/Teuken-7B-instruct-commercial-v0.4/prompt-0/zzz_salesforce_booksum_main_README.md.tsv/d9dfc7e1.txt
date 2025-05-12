@@ -1,0 +1,16 @@
+```
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> took place in Tbilisi, Georgia.
+The <CONFERENCE>ISWC 2019</CONFERENCE> workshop was held in conjunction with the conference.
+The <CONFERENCE>CVPR2023</CONFERENCE> workshop was a part of the conference.
+The <DATASET>Maules Creek</DATASET> dataset can be found at <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>.
+Evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+The <LICENSE>cc-by-3</LICENSE> license is used for the resources.
+The <LICENSE>CC BY-NC 4.0</LICENSE> license is also used for the resources.
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a semantic framework for knowledge representation.
+Programming languages such as Python, PHP, and C++ are used in the project.
+The <PROJECT>Paper With Code</PROJECT> project can be found at <https://paperswithcode.com/>.
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+Software tools or programs such as Protege ontology editor can be used for exploring and editing the resources.
+The <WORKSHOP>PBVS-WORKSHOP</WORKSHOP> workshop was an educational session focused on the subject.
+The <WORKSHOP>pbvs-workshop</WORKSHOP>.github.io datasets can be found at <https://pbvs-workshop.github.io/datasets.html>.
+```

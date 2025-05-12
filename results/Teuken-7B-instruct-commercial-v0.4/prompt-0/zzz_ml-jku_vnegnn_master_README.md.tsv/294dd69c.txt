@@ -1,0 +1,19 @@
+```
+CONFERENCE: International Semantic Web Conference 2019
+DATASET: Maules Creek
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution Workshop
+```
+CONFERENCE: International Semantic Web Conference 2019
+DATASET: Maules Creek
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution Workshop
+```

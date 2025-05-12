@@ -1,0 +1,35 @@
+```
+CONFERENCE: International Semantic Web Conference 2020
+DATASET: SemEval-2020 Task 8
+EVALMETRIC: ROUGE-1, ROUGE-2, ROUGE-L
+LICENSE: CC-BY-4.0
+ONTOLOGY: Semantic Text Processing Ontology
+PROJECT: SemEval-2020 Task 8
+PUBLICATION: Proceedings of the Fifth International Workshop on Semantic Evaluation (SemEval-2020)
+SOFTWARE: MosaicME
+WORKSHOP: Workshop on Machine Learning for Visual and Linguistic Information (VLSI 2020)
+```
+
+```
+CONFERENCE: International Symposium on Mixed and Augmented Reality (ISMAR) 2020
+DATASET: ISMAR 2020 Challenges
+EVALMETRIC: mAECE, ME
+LICENSE: CC-BY-4.0
+ONTOLOGY: Mixed and Augmented Reality Ontology
+PROJECT: ISMAR 2020 Challenges
+PUBLICATION: Proceedings of the 2020 IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2020)
+SOFTWARE: Unity
+WORKSHOP: Workshop on Augmented Reality and Virtual Reality (IEEE VR 2020)
+```
+
+```
+CONFERENCE: International Conference on Web Engineering (ICWE) 2020
+DATASET: ICWE 2020 Workshop on Web Data and Social Network Analysis (WDSN)
+EVALMETRIC: Precision, Recall, F1-Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: Ontology for Web Science
+PROJECT: ICWE 2020 Workshop on Web Data and Social Network Analysis (WDSN)
+PUBLICATION: Proceedings of the 16th International Conference on Web Engineering (ICWE 2020)
+SOFTWARE: Orange
+WORKSHOP: Workshop on Web Science and Technology (WSTech 2020)
+```

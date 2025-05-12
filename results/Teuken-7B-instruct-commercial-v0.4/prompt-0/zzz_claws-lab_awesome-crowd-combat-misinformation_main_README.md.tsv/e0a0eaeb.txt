@@ -1,0 +1,3 @@
+Analysis of tweets in the wake of a rumor outbreak [PAV-SOD: Panoramic Audiovisual Saliency Detection](https://pavics.github.io/pavics_detection/)              | <NAME> |   2017 | Aslib Journal of Information Management                                                                                              | Emerald Group Publishing Ltd
+
+Note: The citation information is included in the annotation to highlight the source of the information. The URL is also included in the citation for the reference.

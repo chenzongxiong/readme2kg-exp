@@ -1,0 +1,11 @@
+```
+CONFERENCE: English shared task category
+DATASET: winning entry
+EVALMETRIC: modifications made
+LICENSE: modifications made
+ONTOLOGY: English shared task category
+PROJECT: English shared task category
+PUBLICATION: modifications made
+SOFTWARE: English shared task category
+WORKSHOP: English shared task category
+```

@@ -1,0 +1,24 @@
+Output Text:
+```
+**CONFERENCE:** International Semantic Web Conference 2019
+**CONFERENCE:** ISWC 2019
+**CONFERENCE:** CVPR2023 workshop
+**DATASET:** Maules Creek
+**DATASET:** USTPO MIT
+**EVALMETRIC:** Precision
+**EVALMETRIC:** Recall
+**EVALMETRIC:** F1-Score
+**EVALMETRIC:** BLEU Score
+**LICENSE:** cc-by-3
+**LICENSE:** CC BY-NC 4.0
+**ONTOLOGY:** Intelligence Task Ontology
+**ONTOLOGY:** OntoNotes 5.0
+**ONTOLOGY:** DBpedia
+**PROJECT:** Paper With Code
+**PROJECT:** semantic-technologies-lab
+**PROJECT:** semantic-technologies
+**PUBLICATION:** No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+**PUBLICATION:** Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE:** Protege ontology editor
+**WORKSHOP:** Thermal Image Super-Resolution
+```

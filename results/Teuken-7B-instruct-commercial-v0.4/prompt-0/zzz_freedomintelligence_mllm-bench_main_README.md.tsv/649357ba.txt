@@ -1,0 +1,35 @@
+Task: Perform Named Entity Recognition (NER) on the given text and annotate the entities directly in the original text using XML-style tags. Follow the guidelines strictly to identify and classify entities into their respective categories. Return the annotated text in Markdown format, no explanations, introductions, or extra text.
+
+Guidelines:
+
+1. **Entity Classes:**
+
+   - **CONFERENCE**: Conference events.
+   - **DATASET**: Structured collections of data.
+   - **EVALMETRIC**: Evaluation metrics for models.
+   - **LICENSE**: Licensing terms.
+   - **ONTOLOGY**: Semantic frameworks for knowledge representation.
+   - **PROGLANG**: Programming languages.
+   - **PROJECT**: Scientific or business initiatives.
+   - **PUBLICATION**: Scholarly works.
+   - **SOFTWARE**: Software tools or programs.
+   - **WORKSHOP**: Workshop events.
+
+2. **Annotation Rules:**
+
+   - Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+   - Use a single-class annotation per entity, based on the context.
+   - Annotate nested entities separately.
+   - Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+   - Annotate entities within URLs (e.g., "llama" in `<https://ai.meta.com/llama>`).
+
+3. **Output Format:**
+
+   - Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+     - `The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.`
+   - Your output should be in Markdown format with all entities tagged as instructed.
+
+Input Text:
+
+</details>  ### Self-Evaluation
+Prepare the data in the format as shown in [data/anchor.json](data/anchor.json) for the NER task. You can use any programming language of your choice to implement this task. Your output should be in Markdown format with all entities tagged as instructed.

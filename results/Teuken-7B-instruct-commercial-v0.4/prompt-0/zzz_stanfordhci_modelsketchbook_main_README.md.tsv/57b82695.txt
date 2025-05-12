@@ -1,0 +1,19 @@
+```python
+class CONFERENCE(str): pass
+class DATASET(str): pass
+class EVALMETRIC(str): pass
+class LICENSE(str): pass
+class ONTOLOGY(str): pass
+class PROGLANG(str): pass
+class PROJECT(str): pass
+class PUBLICATION(str): pass
+class SOFTWARE(str): pass
+class WORKSHOP(str): pass
+
+# Annotate entities in the input text
+text = "It has not yet been tested in a wide variety of development setups, but see our [sample Colab notebook](https://colab.research.google.com/github/StanfordHCI/ModelSketchBook/blob/main/example_nb/23_04_ModelSketchBook_example.ipynb) for a working example.  ## Installation First, you'll need to install this [package](https://pypi.org/project/model-sketch-book/) using PyPI. ``` pip install model_sketch_book ```  ## 1: Basic setup ### Imports Then import the package into a Python notebook (i.e., a Jupyter or Colab notebook). ``` import model_sketch_book as msb ```  ### Set up the sketchbook **Data**.
+
+dataset = msb.SketchBook(name="Dataset", data=["Maules Creek"])
+```
+dataset = msb.SketchBook(name="DATASET", data=["Maules Creek"])
+```

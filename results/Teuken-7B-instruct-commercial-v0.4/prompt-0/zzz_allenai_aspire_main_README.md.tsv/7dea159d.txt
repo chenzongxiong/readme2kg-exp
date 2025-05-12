@@ -1,0 +1,9 @@
+```markdown
+**CONFERENCE**: RELISH 2023
+**DATASET**: RELISH-DB
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Resource Description Framework (RDF)
+**PROJECT**: Linked Data Benchmark Suite (LiDS)
+**PUBLICATION**: 2023
+**WORKSHOP**: Linked Data Benchmark Suite (LiDS) Workshop 2023
+```

@@ -1,0 +1,9 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: PASCAL VOC
+**EVALMETRIC**: Accuracy
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Semantic Sensor Network Ontology
+**PROJECT**: PASCAL VOC
+**PUBLICATION**: Proceedings of the IEEE
+**SOFTWARE**: TensorFlow
+**WORKSHOP**: CVPR Workshop on Deep Learning for Computer Vision

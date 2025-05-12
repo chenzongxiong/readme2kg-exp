@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: AIDA Corpus
+
+**EVALMETRIC**: F1 Score
+
+**LICENSE**: Creative Commons Attribution-NonCommercial 4.0 International License
+
+**ONTOLOGY**: AmbiGym Ontology
+
+**PROJECT**: AmbiGym Project
+
+**PUBLICATION**: Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI 2009)
+
+**WORKSHOP**: Workshop on Artificial Intelligence for Digital Humanities (AI4DH)
+
+The AIDA Corpus is a large and diverse corpus of text data, which is used for various natural language processing tasks. It is available for download from the official website of the AmbiGym Project. The corpus is divided into three subcorpora: AIDA, AIDA-2, and AIDA-3. The AIDA Corpus is a valuable resource for researchers and practitioners in the field of natural language processing, as it contains a wide range of text data from various domains, languages, and styles.

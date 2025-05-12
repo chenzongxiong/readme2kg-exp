@@ -1,0 +1,29 @@
+```markdown
+[WORKSHOP] PAV-SOD: Panoramic Audiovisual Saliency Detection
+
+[PROJECT] PAW: Paper With Code
+
+[PUBLICATION] No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+[ONTOLOGY] Semantic Network of the Public Participation in Scientific Research (PPE)
+
+[LICENSE] https://creativecommons.org/licenses/by-sa/4.0/
+
+[DATASET] LLAMA: Large Movie Dialogue Corpus with Annotated Language Models
+
+[CONFERENCE] International Semantic Web Conference 2019
+
+[CONFERENCE] CVPR2023
+
+[CONFERENCE] UMass Amherst
+
+[SOFTWARE] Protege ontology editor
+
+[SOFTWARE] OntoGraf
+
+[SOFTWARE] OntoBuilder
+
+[SOFTWARE] OntoTool
+
+[WORKSHOP] Thermal Image Super-Resolution Workshop
+```

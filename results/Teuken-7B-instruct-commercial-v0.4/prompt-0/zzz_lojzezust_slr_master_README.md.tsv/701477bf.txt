@@ -1,0 +1,59 @@
+```markdown
+# CONFERENCE: International Semantic Web Conference 2019
+<CONFERENCE>Conference</CONFERENCE> held in <CONFERENCE>2019</CONFERENCE>, focused on <CONFERENCE>Semantic Web</CONFERENCE> and <CONFERENCE>Artificial Intelligence</CONFERENCE> technologies.
+
+# DATASET: Malicious Software Detection
+<DATASET>Dataset</DATASET> featuring <DATASET>Malicious</DATASET> and <DATASET>Benign</DATASET> samples, along with their associated features and labels.
+
+# EVALMETRIC: Precision
+<EVALMETRIC>Precision</EVALMETRIC> measures the accuracy of positive predictions, considering the number of true positives divided by the sum of true positives and false positives.
+The precision of a model can be computed as (TP / TP + FP)
+
+# EVALMETRIC: Recall
+<EVALMETRIC>Recall</EVALMETRIC> measures the fraction of relevant entities that were retrieved by the model, considering the number of true positives divided by the number of true positives and false negatives.
+The recall of a model can be computed as (TP / TP + FN)
+
+# EVALMETRIC: F1-Score
+<EVALMETRIC>F1-Score</EVALMETRIC> is the harmonic mean of precision and recall, providing a balanced measure of both metrics.
+The F1-score can be computed as 2 \* (precision \* recall) / (precision + recall)
+
+# EVALMETRIC: BLEU Score
+<EVALMETRIC>BLEU Score</EVALMETRIC> evaluates the semantic similarity between the model's output and the reference translation.
+The BLEU score ranges from 0 to 1, with higher values indicating better semantic similarity.
+
+# LICENSE: cc-by-3
+<LICENSE>Creative Commons Attribution-ShareAlike 3.0 Unported</LICENSE> license allows users to share and adapt the content, providing attribution and distributing derivative works under the same license.
+
+# ONTOLOGY: Ontology for Semantic Web Application
+<ONTOLOGY>Semantic Application Ontology</ONTOLOGY> defines concepts, entities, properties, and relationships related to semantic web applications.
+
+# PUBLICATION: Paper With Code
+<PUBLICATION>Paper With Code</PUBLICATION> initiative, promoting open-access research and sharing code repositories, data, and models.
+
+# PROJECT: Open-Source Software Framework for Semantic Web
+<PROJECT>Semantic Web Framework</PROJECT> aimed at providing a comprehensive set of tools and resources for developing and deploying semantic web applications.
+
+# WORKSHOP: Workshop on Knowledge Representation and Reasoning
+<WORKSHOP>Knowledge Representation and Reasoning Workshop</WORKSHOP>, focusing on the latest advances and research in the field of knowledge representation and reasoning.
+
+# WORKSHOP: Workshop on Semantic Technologies for Cybersecurity
+<WORKSHOP>Semantic Technologies for Cybersecurity Workshop</WORKSHOP>, covering the application of semantic technologies to enhance cybersecurity and protect against cyber threats.
+
+# SOFTWARE: Ontology Editor for Protege
+<SOFTWARE>Protege Ontology Editor</SOFTWARE>, a popular open-source ontology editor for creating, editing, and visualizing ontologies.
+
+# SOFTWARE: Dataset Management Tool
+<SOFTWARE>Dataset Management Tool</SOFTWARE>, a software tool for efficiently managing and organizing large datasets.
+
+# SOFTWARE: Machine Learning Framework for Python
+<SOFTWARE>Python Machine Learning Framework</SOFTWARE>, a comprehensive set of tools and libraries for implementing and deploying machine learning models in Python.
+
+# SOFTWARE: Natural Language Processing Toolkit
+<SOFTWARE>Natural Language Processing Toolkit</SOFTWARE>, a collection of tools and resources for natural language processing tasks in Python.
+
+# SOFTWARE: Open-Source Image Processing Library
+<SOFTWARE>Open-Source Image Processing Library</SOFTWARE>, a free and open-source library for image processing tasks.
+
+# WORKSHOP: Workshop on Visual Information Retrieval
+<WORKSHOP>Visual Information Retrieval Workshop</WORKSHOP>, focusing on the latest advances and research in the field of visual information retrieval and visual search.
+```

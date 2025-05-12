@@ -1,0 +1,18 @@
+Here's the annotated text:
+```markdown
+The Dataset is widely used for creating ontologies.
+The Evaluate module is responsible for evaluating the model predictions.
+The Predict module loads an experiment config and a pre-trained model, transforms AX CMR into the SAX domain, applies the task network, transforms the predicted mask back into the AX domain, undoes the generator steps, and saves the prediction to disk.
+The Train module inspects the generators, defines an experiment config, loads and injects a task network, builds the graph, and trains a new AX2SAX model.
+```
+In this text, entities are tagged using the classes mentioned in the guidelines:
+
+* CONFERENCE: Conference events
+* DATASET: Structured collections of data
+* EVALMETRIC: Evaluation metrics for models
+* LICENSE: Licensing terms
+* ONTOLOGY: Semantic frameworks for knowledge representation
+* PROJECT: Scientific or business initiatives
+* PUBLICATION: Scholarly works
+* SOFTWARE: Software tools or programs
+* WORKSHOP: Workshop events

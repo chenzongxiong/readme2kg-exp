@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Conference on Machine Learning
+DATASET: A large dataset of single cell RNA-seq data
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: Ontology of single cell RNA sequencing data
+PROJECT: Project of single cell RNA sequencing data analysis
+PUBLICATION: Proceedings of the 37th International Conference on Machine Learning
+SOFTWARE: Para-DPMM
+WORKSHOP: Workshop on Machine Learning for Single Cell RNA-seq Data Analysis
+```

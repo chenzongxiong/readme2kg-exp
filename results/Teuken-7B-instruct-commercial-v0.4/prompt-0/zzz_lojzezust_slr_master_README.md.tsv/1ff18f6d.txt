@@ -1,0 +1,52 @@
+**Annotated Text:**
+```scss
+**Conference:****
+
+- International Semantic Web Conference 2019 (<CONFERENCE>ISWC 2019</CONFERENCE>)
+- ISWC 2019 (<CONFERENCE>ISWC 2019</CONFERENCE>)
+- CVPR2023 workshop (<CONFERENCE>CVPR2023</CONFERENCE> workshop)
+
+**Dataset:****
+
+- Maules Creek (<DATASET>Maules Creek</DATASET>)
+- Download the <DATASET>USTPO MIT</DATASET> dataset from (<DATASET>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</DATASET>)
+
+**Evaluation Metric:****
+
+- Precision
+- Recall
+- F1-Score
+- BLEU Score
+
+**License:****
+
+- cc-by-3
+
+**Ontology:****
+
+- Intelligence Task Ontology
+
+**Programming Language:****
+
+- Python, PHP, C++
+
+**Project:****
+
+- Paper With Code (<PROJECT>Paper With Code</PROJECT>)
+- <PROJECT>https://paperswithcode.com/</PROJECT>
+
+**Publication:****
+
+- No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths (<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>). In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+
+**Software:****
+
+- Protege Ontology Editor (<SOFTWARE>Protege Ontology Editor</SOFTWARE>)
+- <SOFTWARE>Protege ontology editor</SOFTWARE>
+
+**Workshop:****
+
+- Thermal Image Super-Resolution (<WORKSHOP>Thermal Image Super-Resolution Workshop</WORKSHOP>)
+- <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+```
+**Note:** The above annotation assumes that the input text only contains the given task information. If there are other entities in the text, additional annotations would be required.

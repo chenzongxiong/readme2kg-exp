@@ -1,0 +1,3 @@
+Input Text with Annotations:
+
+In addition to synthetic tests, we further conduct proof-of-concept experiments in **Machine Translation** and **Semantic Parsing**, showing the benefits of **meaningful learning** in **applications**.

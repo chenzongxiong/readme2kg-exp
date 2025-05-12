@@ -1,0 +1,11 @@
+```
+CONFERENCE: CSFCube
+DATASET: CSFCube
+EVALMETRIC: F1-Score
+LICENSE: cc-by-3
+ONTOLOGY: Brain Ontology
+PROJECT: CSFCube Project
+PUBLICATION: CSFCube: An Open Access Brain Imaging Data Set
+SOFTWARE: CSFCube software
+WORKSHOP: CSFCube Workshop
+```

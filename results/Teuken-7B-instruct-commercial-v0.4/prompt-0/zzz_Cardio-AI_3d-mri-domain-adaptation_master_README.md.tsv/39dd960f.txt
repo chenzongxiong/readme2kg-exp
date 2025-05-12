@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Conference on Machine Learning (ICML)
+DATASET: CIFAR-10
+EVALMETRIC: Precision
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: Simple Knowledge Organization System (SKOS)
+PROJECT: SemEval-2017 Task 3
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval) 2017
+SOFTWARE: scikit-learn
+WORKSHOP: Workshop on Machine Learning for Healthcare (ML4H)
+```

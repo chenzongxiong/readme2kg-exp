@@ -1,0 +1,13 @@
+```
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+WORKSHOP: Workshop events
+PUBLICATION: Scholarly works
+PROJECT: Scientific or business initiatives
+LICENSE: Licensing terms
+ONTOLOGY: Semantic frameworks for knowledge representation
+CONFERENCE: Conference events
+DATASET: Structured collections of data
+EVALMETRIC: Evaluation metrics for models
+LICENSE: Licensing terms
+SOFTWARE: Software tools or programs
+```

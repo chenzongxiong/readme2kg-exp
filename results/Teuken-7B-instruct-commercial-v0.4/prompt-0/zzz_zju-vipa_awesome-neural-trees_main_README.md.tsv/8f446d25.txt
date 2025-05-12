@@ -1,0 +1,12 @@
+**Entities:**
+
+* Conference: International Semantic Web Conference 2019
+* Data set: International Semantic Web Conference 2019 Dataset
+* License: CC BY-NC 4.0
+* Ontology: Intelligence Task Ontology
+* Project: Paper With Code
+* Publication: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Software: Protege ontology editor
+* Workshop: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+Please annotate the text using the provided guidelines.

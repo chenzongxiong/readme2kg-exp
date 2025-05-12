@@ -1,0 +1,39 @@
+## CONFERENCE: Movie Genre Classification Conference
+Definition: A conference focused on the classification of movies based on their genre.
+Example: <CONFERENCE>ICLR 2023</CONFERENCE> workshop on "Advances in Movie Genre Classification"
+
+## DATASET: Movie Genre Classification Dataset
+Definition: A dataset used for evaluating the performance of models in classifying movies into their respective genres.
+Example: <DATASET>Movie Genre Classification Dataset</DATASET> from Kaggle (<https://www.kaggle.com/abhishekkhandely/movie-genres>)
+
+## EVALMETRIC: Precision
+Definition: A metric used to measure the accuracy of a model's predictions for a specific class compared to the true positives.
+Example: Precision for a model predicting "Action" for the movie "The Matrix" is 0.88.
+
+## LICENSE: Creative Commons Attribution-NonCommercial 4.0 International License
+Definition: A license that allows others to share and adapt the work but only for non-commercial purposes and requires attribution.
+Example: <LICENSE>CC BY-NC 4.0</LICENSE>
+
+## ONtology: Movie Genre Ontology
+Definition: A framework representing knowledge about movie genres, including concepts, entities, properties, and relationships.
+Example: The `<ONTOLOGY>Movie Genre Ontology</ONTOLOGY>` is a structured representation of movie genres, providing a formalization of the domain knowledge.
+
+## PROGLANG: Python
+Definition: A programming language used for developing and implementing machine learning models.
+Example: Python is a popular PROGLANG for developing and training machine learning models for movie genre classification.
+
+## PROJECT: Movie Genre Classification
+Definition: A project aimed at developing and training machine learning models for accurately classifying movies into their respective genres.
+Example: The goal of the <PROJECT>Movie Genre Classification Project</PROJECT> is to develop a state-of-the-art model for classifying movies into their genres.
+
+## PUBLICATION: ICLR 2023
+Definition: A scholarly work published in the proceedings of the International Conference on Learning Representations (ICLR).
+Example: <PUBLICATION>Advances in Movie Genre Classification: Exploring the Limits of Transformer Models</PUBLICATION>. In <PUBLICATION>Proceedings of the 2023 International Conference on Learning Representations</PUBLICATION>
+
+## SOFTWARE: Movie Genre Classification Model
+Definition: A software tool or program designed to classify movies into their respective genres.
+Example: The <SOFTWARE>Movie Genre Classification Model</SOFTWARE> is a deep learning-based model that uses transformers to classify movies into their genres.
+
+## WORKSHOP: Movie Genre Classification Workshop
+Definition: An educational or hands-on session focused on the topic of movie genre classification.
+Example: Refers to the <WORKSHOP>Movie Genre Classification Workshop</WORKSHOP> at the 2023 International Conference on Learning Representations (ICLR).

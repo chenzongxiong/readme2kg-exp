@@ -1,0 +1,4 @@
+```
+## CONFERENCE: PyTorch 2.0!
+PyTorch 2.0 is a major update to PyTorch, bringing performance, flexibility, and wide range of new features. It is built on top of PyTorch 1.x, and is compatible with it. It is recommended to use PyTorch 2.0 for new projects.
+```

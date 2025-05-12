@@ -1,0 +1,56 @@
+Here's the input text with entities annotated in Markdown format:
+```markdown
+**Conference:**
+
+* <CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI) 2023</CONFERENCE>
+* <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS) 2018</CONFERENCE>
+* <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR) 2023</CONFERENCE>
+
+**Dataset:**
+
+* <DATASET>Amazon Reviews</DATASET>
+* <DATASET>Amazon Fine Food Product Reviews</DATASET>
+* <DATASET>Amazon Reviews Dataset</DATASET>
+
+**Evaluation Metric:**
+
+* <EVALMETRIC>Precision</EVALMETRIC>
+* <EVALMETRIC>Recall</EVALMETRIC>
+* <EVALMETRIC>F1-Score</EVALMETRIC>
+* <EVALMETRIC>BLEU Score</EVALMETRIC>
+
+**License:**
+
+* <LICENSE>CC BY-NC 4.0</LICENSE>
+* <LICENSE>CC-BY-3</LICENSE>
+
+**Ontology:**
+
+* <ONTOLOGY>Semantic Information Extraction Ontology</ONTOLOGY>
+* <ONTOLOGY>Semantic Information Extraction Ontology</ONTOLOGY>
+
+**Project:**
+
+* <PROJECT>Paper With Code</PROJECT>
+* <PROJECT>Papers With Code</PROJECT>
+* <PROJECT>Papers With Code</PROJECT>
+
+**Publication:**
+
+* <PUBLICATION>Conference on Neural Information Processing Systems (NeurIPS) 2018</PUBLICATION>
+* <PUBLICATION>Conference on Computer Vision and Pattern Recognition (CVPR) 2023</PUBLICATION>
+* <PUBLICATION>Conference on Neural Information Processing Systems (NeurIPS) 2019</PUBLICATION>
+
+**Software:**
+
+* <SOFTWARE>DeepPavlov</SOFTWARE>
+* <SOFTWARE>TensorTrade</SOFTWARE>
+* <SOFTWARE>TensorTrade</SOFTWARE>
+
+**Workshop:**
+
+* <WORKSHOP>Workshop on Natural Language Processing and Computational Linguistics (NLPCL)</WORKSHOP>
+* <WORKSHOP>Workshop on Knowledge Graph Embeddings and Applications (KGE)</WORKSHOP>
+* <WORKSHOP>Workshop on Semantic Representation Learning (SSL)</WORKSHOP>
+```
+Note that I have used the guidelines provided in the task and included the entire proper name of each entity, with the exception of standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset"). I have also followed the rules for annotation, including including punctuation marks only if part of the entity.

@@ -1,0 +1,20 @@
+```
+## CONFERENCE
+<CONFERENCE>Conference on Intelligent Tutoring Systems 2023</CONFERENCE>
+## DATASET
+<DATASET>USTPO MIT</DATASET>
+## EVALMETRIC
+<EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, <EVALMETRIC>BLEU Score</EVALMETRIC>
+## LICENSE
+<LICENSE>cc-by-3</LICENSE>
+## ONTOLOGY
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+## PROJECT
+<PROJECT>Paper With Code</PROJECT>
+## PUBLICATION
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+## SOFTWARE
+<SOFTWARE>Protege ontology editor</SOFTWARE>
+## WORKSHOP
+<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+```

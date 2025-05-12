@@ -1,0 +1,5 @@
+```
+The <CONFERENCE>International Conference on Computational Linguistics and Educational Technology</CONFERENCE> (<CONFERENCE>CLEF</CONFERENCE> 2023) took place in <CITY>Paris</CITY>, <COUNTRY>France</COUNTRY>.
+
+The <CONFERENCE>Workshop on Natural Language Processing and Cognitive Computing</CONFERENCE> (<CONFERENCE>NLPCC</CONFERENCE> 2019) is organized by the <CONFERENCE>Chinese Association of Natural Language Processing</CONFERENCE> (<CONFERENCE>CANLP</CONFERENCE>).
+```

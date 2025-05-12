@@ -1,0 +1,18 @@
+Output Text:
+```markdown
+**Conference:** International Conference on Computational Linguistics and Chinese Language Processing (CLCNLP2023)
+
+**DataSet:** CLCNLP2023 Dataset
+
+**EVALMETRIC:** Macro F1 Score
+
+**LICENSE:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+**ONTOLOGY:** Chinese Language Processing Ontology
+
+**PROJECT:** CLCNLP2023 Project
+
+**PUBLICATION:** Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)
+
+**SOFTWARE:** CLCNLP2023 Dataset Pre-processing Tool (available at <https://github.com/CLCNLP2023/data_preprocessing>)
+```

@@ -1,0 +1,1 @@
+Download the WIDER FACE dataset from [here](https://shuoyang1213.me/WIDERFACE/). \*2.\*

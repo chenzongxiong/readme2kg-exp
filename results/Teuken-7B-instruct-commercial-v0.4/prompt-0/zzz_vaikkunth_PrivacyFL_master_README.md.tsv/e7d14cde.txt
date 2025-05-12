@@ -1,0 +1,65 @@
+```markdown
+**Task:** You are tasked with performing Named Entity Recognition (NER) on the given text. Follow the guidelines strictly to identify and classify entities into their respective categories. Annotate the entities directly in the original text using XML-style tags. Only return the annotated text in Markdown format—no explanations, introductions, or extra text.
+
+**Guidelines:**
+
+1. **Entity Classes:**
+
+   *CONFERENCE*: Conference events.
+   *DATASET*: Structured collections of data.
+   *EVALMETRIC*: Evaluation metrics for models.
+   *LICENSE*: Licensing terms.
+   *ONTOLOGY*: Semantic frameworks for knowledge representation.
+   *PROGLANG*: Programming languages.
+   *PROJECT*: Scientific or business initiatives.
+   *PUBLICATION*: Scholarly works.
+   *SOFTWARE*: Software tools or programs.
+   *WORKSHOP*: Workshop events.
+
+2. **Annotation Rules:**
+
+   * Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+   * Use a single-class annotation per entity, based on the context.
+   * Annotate nested entities separately.
+   * Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+   * Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+3. **Output Format:**
+
+   * Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+     - `<CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE>`.
+   
+   * Your output should be in Markdown format with all entities tagged as instructed.
+
+
+---
+Input Text:
+
+* <CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE>
+* <DATASET>BookSum Dataset</DATASET>
+* <EVALMETRIC>Precision</EVALMETRIC>
+* <LICENSE>cc-by-3</LICENSE>
+* <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+* <PROJECT>Paper With Code</PROJECT>
+* <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> in <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+* <SOFTWARE>Protege ontology editor</SOFTWARE>
+* <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+
+### Configuring Your Simulation
+
+This library is intended to be modified as needed for your use case. To run the simulation, follow these steps:
+
+1. Create a conda enviroment by running:
+```bash
+conda env create -f environment.yml -n YourEnvironmentName
+```
+2. Activate the new environment:
+```bash
+source activate YourEnvironmentName
+```
+3. To validate correct installation, `cd` to `src` and run:
+```python
+python run_simulation.py
+```
+If you encounter any issues, please let us know so that we can help in getting the simulation up and running.
+```

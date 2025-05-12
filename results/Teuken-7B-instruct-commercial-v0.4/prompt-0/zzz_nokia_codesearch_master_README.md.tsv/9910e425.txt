@@ -1,0 +1,13 @@
+**Annotation:**
+```markdown
+<CONFERENCE>EMNLP 2023</CONFERENCE>
+<CONFERENCE>Conference on Empirical Methods in Natural Language Processing</CONFERENCE>
+<DATASET>EMNLP2023-code-pairs</DATASET>
+<LICENSE>CC BY-NC-SA 4.0</LICENSE>
+<ONTOLOGY>Code Snippet Ontology</ONTOLOGY>
+<PROJECT>CodeSnippets2Vec</PROJECT>
+<PUBLICATION>CodeSnippets2Vec: Learning a Transformer for Code Snippet Representation and Matching</PUBLICATION>
+<SOFTWARE>CodeSnippets2Vec</SOFTWARE>
+```
+**Original Text:**
+It implements retrieval systems for annotated code snippets: pairs of a code snippet and a short natural language description. The system uses a pre-trained transformer model for code snippet representation and matching. It is based on the CodeSnippets2Vec model, which learns a representation and matching for code snippets. The system is evaluated on the EMNLP 2023 code snippets dataset and achieves competitive results.

@@ -1,0 +1,26 @@
+```
+You may only use the scripts shared in this code repository for research purposes.
+```
+**Annotations:**
+
+- `<CONFERENCE>` - Conference events.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<DATASET>` - Structured collections of data.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<EVALMETRIC>` - Evaluation metrics for models.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<LICENSE>` - Licensing terms.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<ONTOLOGY>` - Semantic frameworks for knowledge representation.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<PROGLANG>` - Programming languages.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<PROJECT>` - Scientific or business initiatives.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<PUBLICATION>` - Scholarly works.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<SOFTWARE>` - Software tools or programs.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+- `<WORKSHOP>` - Workshop events.
+	+ `You may only use the scripts shared in this code repository for research purposes.`
+```

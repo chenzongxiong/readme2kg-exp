@@ -1,0 +1,19 @@
+```
+The <CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE> is a leading conference in the field of artificial intelligence.
+
+The <DATASET>IJCAI2022\_IJCAI2022\_001</DATASET> dataset contains the proceedings of the conference IJCAI 2022.
+
+The <EVALMETRIC>Mean Reciprocal Rank (MRR)</EVALMETRIC> is an evaluation metric used to evaluate the performance of retrieval systems in information retrieval.
+
+The <LICENSE>MIT License</LICENSE> is a permissive open-source license.
+
+The <ONTOLOGY>IEEE Ontology for Information Technology</ONTOLOGY> is a standard ontology used in the field of information technology.
+
+The <PROJECT>IJCAI2022\_IJCAI2022\_001\_Full Paper</PROJECT> project aims to provide a comprehensive analysis of the IJCAI2022 dataset.
+
+The <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> contains the papers presented at the IJCAI 2022 conference.
+
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is a popular tool used for creating and editing ontologies.
+
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is a workshop focused on the topic of panoramic audiovisual saliency detection.
+```

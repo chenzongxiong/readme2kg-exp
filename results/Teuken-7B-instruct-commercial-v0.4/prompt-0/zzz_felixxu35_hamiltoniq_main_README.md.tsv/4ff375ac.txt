@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: HamilToniQ
+**DATASET**: QPU benchmarking datasets
+**EVALMETRIC**: Performance metrics for QPUs
+**LICENSE**: CC-BY-3.0
+**ONTOLOGY**: QPU evaluation ontology
+**PROJECT**: QPU benchmarking toolkit
+**PUBLICATION**: "HamilToniQ: A Benchmarking Toolkit for QPUs"
+**SOFTWARE**: HamilToniQ application, Protege ontology editor
+**WORKSHOP**: QPU benchmarking workshop
+```

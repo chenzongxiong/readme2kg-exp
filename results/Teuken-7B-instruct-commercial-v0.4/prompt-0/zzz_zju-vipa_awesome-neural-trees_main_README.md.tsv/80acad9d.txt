@@ -1,0 +1,20 @@
+Output Text:
+```markdown
+**Conference:** IEEE Transactions on Systems, Man, and Cybernetics
+
+**DataSet:** neural implementation of tree classifiers
+
+**Evaluation Metric:** Soft thresholding of entropy net
+
+**License:** cc-by-3
+
+**Ontology:** Neural implementation of tree classifiers
+
+**Programming Language:** MATLAB
+
+**Publication:** IEEE Transactions on Systems, Man, and Cybernetics
+
+**Software:** Soft thresholding of entropy net
+
+**Workshop:** Neural Implementation of Tree Classifiers
+```

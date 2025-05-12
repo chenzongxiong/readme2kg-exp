@@ -1,0 +1,172 @@
+**Annotated Text:**
+```markdown
+**Conference:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**Conference:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**Conference:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine learning task on its dataset for that iteration.
+
+**DATASET:****
+The first is `compute_weights`, which is called every iteration and prompts the client to perform its machine

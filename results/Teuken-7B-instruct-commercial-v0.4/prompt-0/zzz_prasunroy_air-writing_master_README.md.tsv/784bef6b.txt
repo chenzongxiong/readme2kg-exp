@@ -1,0 +1,9 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+* DATASET: Structured collections of data
+* EVALMETRIC: Evaluation metrics for models
+* LICENSE: Licensing terms
+* ONTOLOGY: Intelligence Task Ontology
+* PROJECT: Paper With Code
+* PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+* SOFTWARE: Protege ontology editor
+* WORKSHOP: Thermal Image Super-Resolution Workshop

@@ -1,0 +1,3 @@
+```
+The <CONFERENCE>CVPR2023</CONFERENCE> workshop focused on computer vision and pattern recognition.
+```

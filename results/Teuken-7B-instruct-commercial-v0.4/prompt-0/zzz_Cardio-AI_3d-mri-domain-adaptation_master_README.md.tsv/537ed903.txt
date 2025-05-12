@@ -1,0 +1,1 @@
+The trained model can transform an axial (AX) Cardiovascular Magnetic Resonance (CMR) image into a patient-specific short-axis (SAX) direction.

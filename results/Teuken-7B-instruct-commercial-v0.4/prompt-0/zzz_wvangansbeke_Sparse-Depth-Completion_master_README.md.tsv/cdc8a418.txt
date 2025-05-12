@@ -1,0 +1,12 @@
+```
+CONFERENCE: ICCV 2022
+DATASET: KITTI 2015
+EVALMETRIC: PSNR
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Semantic Web Ontology Language (OWL)
+PROJECT: Monodepth2
+PUBLICATION: Proceedings of the IEEE International Conference on Computer Vision (ICCV)
+SOFTWARE: DeepSpeed
+WORKSHOP: CVPR Workshop on Neural Architecture Search for Computer Vision (NABS)
+```
+Note: The above entities are based on the guidelines provided and the input text.

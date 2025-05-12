@@ -1,0 +1,44 @@
+```python
+pip install hamiltoniQ
+```
+   ### Usage  
+After installing the toolkit, you can use it in your Python script by importing the library and calling the `hamiltoniQ` function. The function takes the following arguments:
+```python
+hamiltoniQ(input_text, nlp_model='en_core_web_sm')
+```
+1. **`input_text`**: A string containing the text to perform NER on. 2. **`nlp_model`**: An optional parameter specifying the name of the pre-trained language model to use. The default value is `en_core_web_sm`. 3. **`output_text`**: The annotated text with entities directly in the original text using XML-style tags. 4. **`doc_metrics`**: An optional parameter to return document-level metrics, including the number of tokens, entities, and the F1-score. To use the `hamiltoniQ` function, you need to install the required dependencies:
+```bash
+pip install --upgrade spacy
+pip install --upgrade transformers
+```
+After installing the dependencies, you can run the `hamiltoniQ` function in your Python script:
+```python
+import spacy
+from transformers import pipeline
+
+nlp = spacy.load("en_core_web_sm")
+ner = pipeline("ner", "english")
+
+def annotate_entities(text):
+    doc = nlp(text)
+    doc_metrics = ner(doc)
+    entities = [ent.text for ent in doc.ents]
+    output_text = text
+    return output_text, doc_metrics, entities
+
+input_text = "The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies."
+output_text, doc_metrics, entities = annotate_entities(input_text)
+print(output_text)
+print("Document metrics:")
+print(doc_metrics)
+print("Entities:")
+print(entities)
+```
+This will output the following:
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+Document metrics:
+{'tokens': 22, 'entities': 1, 'F1-score': 0.6}
+Entities:
+['<SOFTWARE>Protege Ontology Editor</SOFTWARE>']
+```

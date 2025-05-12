@@ -1,0 +1,16 @@
+# Introduction
+This text contains entities related to various fields such as conferences, datasets, evaluation metrics, licenses, ontologies, projects, publications, software, workshops, and works. Here's the NER-annotated version of the text:
+```perl
+## Entities
+CONFERENCE: International Semantic Web Conference 2019
+DATASET: Mauls Creek
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-3, CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROGLANG: Python, PHP, C++
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+```
+Note that we've used the provided guidelines to annotate the entities directly in the original text.

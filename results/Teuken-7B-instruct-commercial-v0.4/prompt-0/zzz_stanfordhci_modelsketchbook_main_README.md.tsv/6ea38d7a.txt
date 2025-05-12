@@ -1,0 +1,14 @@
+```
+## Contributing
+
+Interested in contributing? Great! Here are some steps you can follow:
+
+1. Fork this repository.
+2. Create a new branch for your changes.
+3. Make the changes you'd like to make.
+4. Test your changes.
+5. Commit your changes.
+6. Open a pull request.
+
+Please ensure your changes follow our [code of conduct](CODE_OF_CONDUCT.md) and [contributing guidelines](CONTRIBUTING.md). Thank you for your contribution!
+```

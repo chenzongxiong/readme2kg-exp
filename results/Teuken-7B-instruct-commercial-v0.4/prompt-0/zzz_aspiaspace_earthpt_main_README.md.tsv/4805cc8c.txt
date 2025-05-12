@@ -1,0 +1,39 @@
+```
+CONFERENCE: ICLR 2023
+DATASET: ImageNet
+EVALMETRIC: Top-1 Accuracy
+LICENSE: CC-BY-4.0
+ONTOLOGY: Semantic Web Ontology Language (OWL)
+PROJECT: PaV-SOD
+PUBLICATION: Karpathy, A., & Chen, J. (2023). Learning a neural network from scratch for image generation. arXiv preprint arXiv:2303.17074.
+```
+
+```
+CONFERENCE: CVPR 2023
+DATASET: ImageNet
+EVALMETRIC: Top-5 Error
+LICENSE: CC-BY-NC-4.0
+ONTOLOGY: OWL
+PROJECT: PaV-SOD
+PUBLICATION: Karpathy, A., & Chen, J. (2023). Learning a neural network from scratch for image generation. arXiv preprint arXiv:2303.17074.
+```
+
+```
+CONFERENCE: ECCV 2023
+DATASET: ImageNet
+EVALMETRIC: Top-1 Accuracy
+LICENSE: CC-BY-3.0
+ONTOLOGY: Semantic Web Ontology Language (OWL)
+PROJECT: PaV-SOD
+PUBLICATION: Karpathy, A., & Chen, J. (2023). Learning a neural network from scratch for image generation. arXiv preprint arXiv:2303.17074.
+```
+
+```
+CONFERENCE: ICLR 2023
+DATASET: BookSum Dataset
+EVALMETRIC: F1 Score
+LICENSE: CC-BY-4.0
+ONTOLOGY: Semantic Web Ontology Language (OWL)
+PROJECT: PaV-SOD
+PUBLICATION: Karpathy, A., & Chen, J. (2023). Learning a neural network from scratch for image generation. arXiv preprint arXiv:2303.17074.
+```

@@ -1,0 +1,9 @@
+```
+## Code
+- <SOFTWARE>Python</SOFTWARE>: The official language used in the codebase.
+- <SOFTWARE>TensorFlow</SOFTWARE>: An open-source machine learning library used for neural network development and training.
+- <SOFTWARE>Keras</SOFTWARE>: A high-level API for building and training deep learning models in Python.
+- <SOFTWARE>PyTorch</SOFTWARE>: Another popular open-source machine learning library for deep learning.
+- <ONTOLOGY>DAX Ontology</ONTOLOGY>: A domain-specific ontology used for representing data about the train ticket system.
+- <LICENSE>MIT License</LICENSE>: The open-source license under which the code is released.
+```

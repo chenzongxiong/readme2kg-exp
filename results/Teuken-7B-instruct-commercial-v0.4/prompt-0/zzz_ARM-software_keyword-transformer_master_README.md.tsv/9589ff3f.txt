@@ -1,0 +1,38 @@
+```markdown
+## CONFERENCE: Interspeech 2021
+
+### Publication
+
+Berg, A., O'Connor, M., & Tairum Cruz, M. (2021). Keyword Transformer: A Self-Attention Model for Keyword Spotting. In Proceedings of Interspeech 2021, September 20-24, Maastricht, The Netherlands.
+
+### EVALMETRIC
+
+* Precision
+* Recall
+* F1-Score
+* BLEU Score
+
+### LICENSE
+
+cc-by-3
+
+### ONTOLOGY
+
+Intelligence Task Ontology
+
+### PROJECT
+
+* Paper With Code
+
+### PUBLICATION
+
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+
+### SOFTWARE
+
+* Protege ontology editor
+
+### WORKSHOP
+
+Thermal Image Super-Resolution. Refer to [<https://pbvs-workshop.github.io/datasets.html>](https://pbvs-workshop.github.io/datasets.html) for more information.
+```

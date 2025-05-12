@@ -1,0 +1,9 @@
+The primary goal of this framework is to facilitate dataset documentation, promote transparency, and aid dataset creators and consumers in making informed decisions about the suitability of specific datasets and the limitations they may have. It is designed to provide a standardized format for dataset documentation, which can be easily searched and analyzed.
+
+This framework is based on the Resource Description Framework (RDF), which is a standard for representing and exchanging data on the web. RDF provides a common structure for data exchange, making it easier for different systems to understand and use the data.
+
+The framework also supports the use of ontologies, which are formal representations of knowledge. Ontologies provide a shared vocabulary for describing and categorizing data, making it easier to understand and compare different datasets.
+
+Another important aspect of this framework is its emphasis on openness and accessibility. The framework encourages the use of open licenses and standardized formats, making it easier for anyone to access and use the data.
+
+In summary, the framework is designed to promote transparency and facilitate the use and analysis of data. It provides a standardized format for dataset documentation, supports the use of ontologies, and emphasizes openness and accessibility.

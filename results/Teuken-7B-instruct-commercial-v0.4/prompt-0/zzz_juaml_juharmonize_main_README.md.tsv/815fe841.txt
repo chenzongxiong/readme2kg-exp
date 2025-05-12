@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Neural Networks (IJCNN)
+DATASET: CIFAR-10
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: CIDOC-CRM
+PROJECT: SemEval-2020 Task 7: Multilingual Word Sense Disambiguation
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval) 2020
+SOFTWARE: TensorFlow
+WORKSHOP: Workshop on Machine Learning for Visual Impairment (VLSI)
+URL: <https://github.com/rusty1s/pytorch-geometric>
+```

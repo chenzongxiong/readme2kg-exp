@@ -1,0 +1,1 @@
+. In contrast, `<SOFTWARE>Protege Ontology Editor</SOFTWARE> is a popular tool for creating and editing ontologies.

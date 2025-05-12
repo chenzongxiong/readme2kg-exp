@@ -1,0 +1,100 @@
+```markdown
+<CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCY>
+<DATASET>MNIST dataset</DATASET>, <DATASET>CIFAR-10 dataset</DATASET>, and <DATASET>ImageNet dataset</DATASET>
+<EVALMETRIC>Mean Average Precision (mAP)</EVALMETRIC>, <EVALMETRIC>Mean Recall (mR)</EVALMETRIC>, <EVALMETRIC>Mean F1 Score (mF1)</EVALMETRIC>, and <EVALMETRIC>Mean BLEU Score (mBLEU)</EVALMETRIC>
+<LICENSE>CC BY-NC 4.0</LICENSE>
+<ONTOLOGY>Semantic Scholar Ontology</ONTOLOGY>
+Python programming language</PROGLANG>, PHP programming language</PROGLANG>, and C++ programming language</PROGLANG>
+The <PROJECT>Paper With Code</PROJECT> project (<https://paperswithcode.com/>) aims to promote open-access research and encourage the development of new AI models.
+
+The <PUBLICATION>Conference on Neural Information Processing Systems (NeurIPS)</PUBLICATION> is a premier venue for research in the field of neural networks and machine learning.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <WORKSHOP>Workshop on Semantic Parsing and Reasoning (SemPar)</WORKSHOP> is a premier venue for research on semantic parsing and reasoning, focusing on the development of tools and techniques for understanding the meaning of natural language text.
+
+The <ONTOLOGY>DARPA Mind's Eye Program</ONTOLOGY> is a research program focused on developing artificial intelligence systems that can understand and interpret visual information.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Semantic Parsing and Reasoning (SemPar)</WORKSHOP> is a premier venue for research on semantic parsing and reasoning, focusing on the development of tools and techniques for understanding the meaning of natural language text.
+
+The <ONTOLOGY>DARPA Mind's Eye Program</ONTOLOGY> is a research program focused on developing artificial intelligence systems that can understand and interpret visual information.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Semantic Parsing and Reasoning (SemPar)</WORKSHOP> is a premier venue for research on semantic parsing and reasoning, focusing on the development of tools and techniques for understanding the meaning of natural language text.
+
+The <ONTOLOGY>DARPA Mind's Eye Program</ONTOLOGY> is a research program focused on developing artificial intelligence systems that can understand and interpret visual information.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Semantic Parsing and Reasoning (SemPar)</WORKSHOP> is a premier venue for research on semantic parsing and reasoning, focusing on the development of tools and techniques for understanding the meaning of natural language text.
+
+The <ONTOLOGY>DARPA Mind's Eye Program</ONTOLOGY> is a research program focused on developing artificial intelligence systems that can understand and interpret visual information.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Semantic Parsing and Reasoning (SemPar)</WORKSHOP> is a premier venue for research on semantic parsing and reasoning, focusing on the development of tools and techniques for understanding the meaning of natural language text.
+
+The <ONTOLOGY>DARPA Mind's Eye Program</ONTOLOGY> is a research program focused on developing artificial intelligence systems that can understand and interpret visual information.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Semantic Parsing and Reasoning (SemPar)</WORKSHOP> is a premier venue for research on semantic parsing and reasoning, focusing on the development of tools and techniques for understanding the meaning of natural language text.
+
+The <ONTOLOGY>DARPA Mind's Eye Program</ONTOLOGY> is a research program focused on developing artificial intelligence systems that can understand and interpret visual information.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source software library for numerical computation using data flow graphs and automatic differentiation.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Semantic Parsing and Reasoning (SemPar)</WORKSHOP> is a premier venue for research on semantic parsing and reasoning, focusing on the development of tools and techniques for understanding the meaning of natural language text.
+
+The <ONTOLOGY>DARPA Mind's Eye Program</ONTOLOGY> is a research program focused on developing artificial intelligence systems that can understand and interpret visual information.
+
+The <PROJECT>Paper With Code</PROJECT> project aims to promote open-access research and encourage the development of new AI models.
+
+The <WORKSHOP>Workshop on Knowledge Representation and Reasoning (KRR)</WORKSHOP> is a premier venue for research on knowledge representation and reasoning, focusing on the development of tools and techniques for representing and reasoning about knowledge in various domains.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a

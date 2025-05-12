@@ -1,0 +1,17 @@
+```
+CONFERENCE: Table 2 in our paper.
+
+DATASET: PAV-SOD: Panoramic Audiovisual Saliency Detection.
+
+LICENSE: cc-by-3
+
+ONTOLOGY: Intelligence Task Ontology.
+
+PROJECT: PAV-SOD: Panoramic Audiovisual Saliency Detection.
+
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management.
+
+SOFTWARE: Protege ontology editor.
+
+WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection.
+```

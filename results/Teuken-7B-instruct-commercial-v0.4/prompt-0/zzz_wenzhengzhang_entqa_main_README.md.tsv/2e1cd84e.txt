@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP 2020 Sentiment Analysis Task Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Gene Ontology
+PROGLANG: R
+PROJECT: Machine Learning Crash Course
+PUBLICATION: Proceedings of the 2017 ACM Conference on Interactive, Educational, and Mobile Technologies (IEMML)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Computing and Big Data Analytics (SemBCoDA)
+```

@@ -1,0 +1,190 @@
+```markdown
+<!-- Entities in the input text -->
+
+### Conferences
+
+- International Semantic Web Conference 2019
+- ISWC 2019
+- CVPR2023 workshop
+
+### Datasets
+
+- BookSum Dataset
+- PAV-SOD: Panoramic Audiovisual Saliency Detection
+- USTPO MIT
+
+### Evaluation Metrics
+
+- Precision
+- Recall
+- F1-Score
+- BLEU Score
+
+### Licenses
+
+- cc-by-3
+- CC BY-NC 4.0
+
+### Ontologies
+
+- Intelligence Task Ontology
+- Ontology of the Human Language Technologies Core Ontologies
+- Ontology of the Human Language Technologies Core Vocabulary
+- Ontology of the Human Language Technologies Core Extensions
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core Change Log
+- Ontology of the Human Language Technologies Core

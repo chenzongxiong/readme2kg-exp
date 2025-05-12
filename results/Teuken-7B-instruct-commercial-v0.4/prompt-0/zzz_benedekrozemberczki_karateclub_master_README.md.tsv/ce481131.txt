@@ -1,0 +1,20 @@
+```
+CONFERENCE:Karate Club
+DATASET:Karate Club
+LICENSE:MIT
+ONTOLOGY:Karate Club Ontology
+PROJECT:Karate Club Project
+PUBLICATION:Karate Club Papers
+SOFTWARE:Karate Club Software
+WORKSHOP:Karate Club Workshop
+```
+We are motivated to constantly make Karate Club even better.   --------------------------------------------------------------------------------  **Installation**  Karate Club can be installed with the following pip command.
+```
+pip install karateclub
+```
+You can also install it using the following command.
+```
+pip install karateclub[extras]
+```
+This will install the latest version of the library, including all extra features.
+```

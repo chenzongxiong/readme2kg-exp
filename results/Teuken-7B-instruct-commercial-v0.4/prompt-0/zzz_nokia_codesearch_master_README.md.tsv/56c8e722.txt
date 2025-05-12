@@ -1,0 +1,17 @@
+```
+The International Semantic Web Conference 2019 (<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>)
+International Semantic Web Conference 2019 (<CONFERENCE>ISWC 2019</CONFERENCE>)
+CVPR2023 workshop (<CONFERENCE>CVPR2023</CONFERENCE> workshop)
+Maules Creek (<DATASET>Maules Creek</DATASET>)
+Download the <DATASET>USTPO MIT</DATASET> dataset from (<DATASET>USTPO MIT</DATASET>)
+Evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+cc-by-3 (<LICENSE>cc-by-3</LICENSE>)
+CC BY-NC 4.0 (<LICENSE>CC BY-NC 4.0</LICENSE>)
+Intelligence Task Ontology (<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>)
+Python (<PROGLANG>Python</PROGLANG>), PHP (<PROGLANG>PHP</PROGLANG>), and C++ (<PROGLANG>C++</PROGLANG>)
+Paper With Code (<PROJECT>Paper With Code</PROJECT>)
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths (<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>). In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+Protege ontology editor (<SOFTWARE>Protege ontology editor</SOFTWARE>)
+PAV-SOD: Panoramic Audiovisual Saliency Detection (<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>)
+Thermal Image Super-Resolution (<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop)
+```

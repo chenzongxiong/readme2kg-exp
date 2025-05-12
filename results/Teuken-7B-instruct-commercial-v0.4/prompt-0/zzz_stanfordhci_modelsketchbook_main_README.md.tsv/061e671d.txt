@@ -1,0 +1,11 @@
+```
+CONFERENCE: Compare concepts to each other
+DATASET: None
+EVALMETRIC: None
+LICENSE: None
+ONTOLOGY: None
+PROJECT: None
+PUBLICATION: None
+SOFTWARE: compare\_concepts\_to\_gt
+WORKSHOP: compare\_concepts\_to\_gt widgets
+```

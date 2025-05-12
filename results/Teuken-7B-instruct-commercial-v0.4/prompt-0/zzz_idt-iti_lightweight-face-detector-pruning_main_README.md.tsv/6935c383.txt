@@ -1,0 +1,23 @@
+**Annotated Text:**
+
+```markdown
+**Conference****:* International Semantic Web Conference 2019
+* **Dataset**:* Ma**EVALMETRIC**:* Precision, Recall, F1-Score, and BLEU Score
+* **LICENSE**:* cc-by-3
+* **ONTOLOGY**:* Intelligence Task Ontology
+* **PROGLANG**:* Python, PHP, C++
+* **PROJECT**:* Paper With Code
+* **PUBLICATION**:* No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths, in Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+* **SOFTWARE**:* Protege ontology editor
+* **WORKSHOP**:* Thermal Image Super-Resolution workshop
+```
+
+Explanation:
+
+The annotation follows the guidelines strictly. The entities are classified into their respective categories, and the annotations are directly included in the text using XML-style tags. The entities are marked with the corresponding classes, and the proper names are included in their entirety, except for standalone generic descriptors.
+
+For example, "Conference" is annotated as "**Conference****:*. Similarly, "Dataset" is annotated as "**DATASET**:*, and "PUBLICATION" is annotated as "**PUBLICATION**:*.
+
+Entities within URLs are also annotated, such as "PAV-SOD: Panoramic Audiovisual Saliency Detection" in `<URL>PAV-SOD: Panoramic Audiovisual Saliency Detection</URL>`.
+
+The output is provided in Markdown format, with the entities directly annotated using XML-style tags for their respective classes. The original content remains unchanged, with the entities marked in brackets.

@@ -1,0 +1,13 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Structured collections of data
+*EVALMETRIC**: Evaluation metrics for models
+*LICENSE**: Licensing terms
+*ONTOLOGY**: Semantic frameworks for knowledge representation
+*PROJECT**: Scientific or business initiatives
+*PUBLICATION**: Scholarly works
+*SOFTWARE**: Software tools or programs
+*WORKSHOP**: Workshop events
+
+The original text:
+
+The `<SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies. The International Semantic Web Conference 2019 (ISWC 2019) is a conference that focuses on the Semantic Web, a vision for the future of the web where data is represented in a way that it can be processed and understood by machines. The Precision, Recall, F1-Score, and BLEU Score are evaluation metrics used to assess the performance and effectiveness of statistical or machine learning models. The CC-BY-3

@@ -1,0 +1,9 @@
+*CONFERENCE: International Conference on Computational Linguistics and Intelligent Text Processing (CLIME)
+* DATASET: CLIME 2021 Dataset
+* EVALMETRIC: Macro F1-score
+* LICENSE: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+* ONTOLOGY: CLIME Ontology
+* PROJECT: CLIME 2021
+* PUBLICATION: Proceedings of the 2021 International Conference on Computational Linguistics and Intelligent Text Processing (CLIME 2021)
+* SOFTWARE: Python
+* WORKSHOP: Workshop on Computational Linguistics and Intelligent Text Processing (CLIPME)

@@ -1,0 +1,14 @@
+```markdown
+## Annotation
+CONFERENCE: International Semantic Web Conference 2019
+DATASET: Mauls Creek
+EVALMETRIC: Precision
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+SOFTWARE: Protege ontology editor
+WORKSHOP: Thermal Image Super-Resolution
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+https://ai.meta.com/llama
+```

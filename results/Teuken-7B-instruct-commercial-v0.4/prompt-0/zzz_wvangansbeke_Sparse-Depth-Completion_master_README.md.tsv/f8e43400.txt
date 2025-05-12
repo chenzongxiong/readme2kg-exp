@@ -1,0 +1,40 @@
+Input Text:
+```sql
+The International Semantic Web Conference 2019 (ISWC 2019) is a leading conference in the field of semantic web and Linked Data. It provides a forum for researchers and practitioners to present and discuss the latest advances and trends in the area.
+
+The CVPR2023 workshop focuses on the intersection of computer vision and deep learning, with a focus on the latest developments in the field. It is a highly-anticipated event for researchers and practitioners in the area.
+
+The Mauls Creek Conference Venue is a popular choice for events and meetings. It offers a range of facilities and services to cater to different types of events, including conference rooms, catering services, and accommodation options.
+
+The USTPO MIT dataset is a structured collection of data related to patents from the United States Trade Patent and Office. It is a valuable resource for researchers in the field of artificial intelligence and machine learning.
+
+Evaluation metrics are quantitative measures used to assess the performance and effectiveness of a statistical or machine learning model. Commonly used metrics include precision, recall, F1-score, and BLEU score.
+
+The cc-by-3 license allows users to use, share, and modify the work, provided that the original author and license are credited.
+
+The CC BY-NC 4.0 license allows users to use, share, and modify the work, provided that the original author is credited, and the work is used for non-commercial purposes only.
+
+The Intelligence Task Ontology is a framework representing knowledge about intelligence tasks, including concepts, entities, properties, and relationships.
+
+Python, PHP, and C++ are programming languages used for implementing software.
+
+Paperswithcode is a project that aims to promote open research and foster the exchange of ideas among the research community. It provides a comprehensive database of papers and preprints in various fields of computer science.
+
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths is a scholarly work resulting from a publishing process. It was presented at the 32nd ACM International Conference on Information and Knowledge Management.
+
+Protege ontology editor is a software tool designed to facilitate the creation and manipulation of ontologies. It is widely used in the field of artificial intelligence and knowledge representation.
+```
+Annotated Text:
+```vbnet
+<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>
+<CONFERENCE>ISWC 2019</CONFERENCE>
+<CONFERENCE>CVPR2023</CONFERENCE> workshop
+<DATASET>Maules Creek</DATASET>
+<DATASET>Download the USTPO MIT dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)</DATASET>
+<LICENSE>cc-by-3</LICENSE>
+<LICENSE>CC BY-NC 4.0</LICENSE>
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+<PROJECT>Paperswithcode</PROJECT>
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> in <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<SOFTWARE>Protege ontology editor</SOFTWARE>
+```

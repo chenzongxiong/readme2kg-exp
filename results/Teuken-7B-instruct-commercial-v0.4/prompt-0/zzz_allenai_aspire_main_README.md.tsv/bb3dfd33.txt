@@ -1,0 +1,18 @@
+```scss
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet, CIFAR-10, CIFAR-100
+
+**EVALMETRIC**: Accuracy, F1-score, Precision, Recall, Mean Average Precision (mAP), Equal Error Rate (EER), Kappa coefficient, Confusion matrix, ROC curve, Precision-Recall curve
+
+**LICENSE**: Creative Commons Attribution 4.0 International License
+
+**ONTOLOGY**: Resource Description Framework (RDF)
+
+**PROJECT**: SemEval-2019 Task 3: Semantic Evaluation of Machine Translation
+
+**PUBLICATION**: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
+
+**SOFTWARE**: TensorFlow, PyTorch
+
+**WORKSHOP**: Workshop on Artificial Intelligence and Cognitive Computing

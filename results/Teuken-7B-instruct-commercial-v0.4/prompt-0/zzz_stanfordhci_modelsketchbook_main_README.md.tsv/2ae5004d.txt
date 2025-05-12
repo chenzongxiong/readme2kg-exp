@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: JHU-AIST Breast Cancer Dataset
+EVALMETRIC: Accuracy
+LICENSE: MIT License
+ONTOLOGY: OBO Foundry
+PROJECT: OntoNotes Annotation Project
+PUBLICATION: Artificial Intelligence
+SOFTWARE: Protégé Ontology Editor
+WORKSHOP: Workshop on Ontologies and Semantics (WOS 2023)
+```

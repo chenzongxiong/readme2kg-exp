@@ -1,0 +1,10 @@
+```
+CODE-ONLY: Code-only models are trained on pairs of code snippets and descriptions.
+```
+
+```
+CONFERENCE: Code-only models are trained on pairs of code snippets and descriptions. This approach has been widely used in natural language processing to improve code generation and analysis. Examples of code-only models include sequence-to-sequence models and recurrent neural networks. The use of code-only models has also been applied to other domains such as computer vision and robotics. The benefits of using code-only models include the ability to learn from raw text without the need for structured data and the ability to generate new code from scratch. However, the limitations of code-only models include the lack of context and the potential for poor performance on complex tasks.
+```
+
+The evaluation of code-only models can be challenging due to the lack of ground truth data. However, recent research has proposed various evaluation metrics to assess the performance of code-only models. These metrics include precision, recall, F1-score, and BLEU score. The choice of evaluation metric depends on the specific task and the type of model being evaluated.
+```

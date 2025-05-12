@@ -1,0 +1,24 @@
+```
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> is a notable conference in the field of semantic web technologies.
+
+The <DATASET>Maules Creek</DATASET> dataset is a structured collection of data related to the town of Maules Creek in Australia.
+
+Evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+
+The <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> licenses are available for use.
+
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a framework for representing knowledge about intelligence tasks.
+
+The <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> are popular programming languages.
+
+The <PROJECT>Paper With Code</PROJECT> project is a collection of research papers and their code implementations.
+
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION> is a research paper published in the proceedings of the 32nd ACM International Conference on Information and Knowledge Management.
+
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is a software tool for creating and editing ontologies.
+
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is a workshop focused on panoramic audiovisual saliency detection.
+
+The <DATASET>BookSum Dataset</DATASET> is a dataset of book reviews and ratings, including the reviews and ratings themselves.
+
+The <LICENSE>cc-by-3</LICENSE> is a license that allows others to share and modify the work, provided that the original author is credited.

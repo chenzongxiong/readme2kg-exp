@@ -1,0 +1,1 @@
+The **Music Tracks** are structured using a **Fixed Narrative Template** based on **Machine Learning Model Output**. This template distills each track down to its **Narrative Essence**.

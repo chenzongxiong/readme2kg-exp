@@ -1,0 +1,29 @@
+**Entities and Annotations:**
+
+* <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>
+* <CONFERENCE>ISWC 2019</CONFERENCE>
+* <CONFERENCE>CVPR2023</CONFERENCE> workshop
+* <DATASET>Maules Creek</DATASET>
+* <DATASET>USTPO MIT</DATASET>
+* <EVALMETRIC>Precision</EVALMETRIC>
+* <EVALMETRIC>Recall</EVALMETRIC>
+* <EVALMETRIC>F1-Score</EVALMETRIC>
+* <EVALMETRIC>BLEU Score</EVALMETRIC>
+* <LICENSE>cc-by-3</LICENSE>
+* <LICENSE>CC BY-NC 4.0</LICENSE>
+* <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+* <ONTOLOGY>Ontology of the Web Ontology Language (OWL)</ONTOLOGY>
+* <ONTOLOGY>Semantic Sensor Networks Ontology</ONTOLOGY>
+* <ONTOLOGY>Vocabulary of the Semantic Sensor Network Ontology</ONTOLOGY>
+* <PROJECT>Paper With Code</PROJECT>
+* <PROJECT>Semantic Scholar</PROJECT>
+* <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>
+* <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+* <PUBLICATION>Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN)</PUBLICATION>
+* <PUBLICATION>Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN)</PUBLICATION>
+* <PUBLICATION>Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN)</PUBLICATION>
+* <PUBLICATION>Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN)</PUBLICATION>
+* <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP>
+* <WORKSHOP>Workshop on Semantic Representation and Reasoning (SRR)</WORKSHOP>
+* <WORKSHOP>Workshop on Semantic Representation and Reasoning (SRR)</WORKSHOP>
+* <WORKSHOP>Workshop on Semantic Representation and Reasoning (SRR)</WORKSHOP>

@@ -1,0 +1,14 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Mauls Creek
+* EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+* LICENSE: cc-by-3
+* ONTOLOGY: Intelligence Task Ontology
+* PROJECT: Paper With Code
+* PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* SOFTWARE: Protege ontology editor
+* WORKSHOP: Thermal Image Super-Resolution
+
+The entire proper name is included and nested entities are annotated separately. Punctuation marks are included if part of the entity. URLs are annotated with entities. Here's the annotated text in Markdown format:
+```python
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>, held in Brisbane, Australia, was a remarkable event for researchers in the field of web and semantic technologies. <DATASET>Maules Creek</DATASET>, a dataset used for natural language processing tasks, was discussed in one of the sessions. Evaluation metrics such as <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC> were used to assess the performance of various models. <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> was referenced during the workshop on "PAV-SOD: Panoramic Audiovisual Saliency Detection". <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> licenses were discussed in the context of using resources. <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> were examples of programming languages mentioned in the context of a project. <PROJECT>Paper With Code</PROJECT>, a project hosted at <https://paperswithcode.com/>, was highlighted in a publication titled "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths". <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> was the source of the publication. <SOFTWARE>Protege ontology editor</SOFTWARE>, a software tool for creating ontologies, was used in the context of a workshop on "Thermal Image Super-Resolution".
+```

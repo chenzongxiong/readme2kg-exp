@@ -1,0 +1,11 @@
+```
+CONFERENCE: Speech Commands Workshop 2017
+DATASET: Speech Commands Dataset
+EVALMETRIC: Precision
+LICENSE: cc-by-3
+ONTOLOGY: Speech Commands Ontology
+PROJECT: Speech Commands Dataset
+PUBLICATION: Proceedings of the 1st Workshop on Speech Commands
+SOFTWARE: TensorFlow
+WORKSHOP: Speech Commands Workshop 2017
+```

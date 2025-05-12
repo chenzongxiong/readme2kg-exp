@@ -1,0 +1,13 @@
+```
+## Annotations:
+
+* <CONFERENCE>Conference</CONFERENCE>
+* <DATASET>Dataset</DATASET>
+* <EVALMETRIC>Evaluation Metric</EVALMETRIC>
+* <LICENSE>License</LICENSE>
+* <ONTOLOGY>Ontology</ONTOLOGY>
+* <PROJECT>Project</PROJECT>
+* <PUBLICATION>Publication</PUBLICATION>
+* <SOFTWARE>Software</SOFTWARE>
+* <WORKSHOP>Workshop</WORKSHOP>
+```

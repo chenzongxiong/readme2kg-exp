@@ -1,0 +1,35 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a leading conference in the field of machine learning and artificial intelligence.
+```
+<CONFERENCE>CVPR2023</CONFERENCE> workshop is a highly anticipated event for researchers in computer vision.
+```
+<DATASET>MIT</DATASET> dataset is a large and diverse dataset used for research in natural language processing.
+```
+<EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC> are commonly used evaluation metrics for natural language processing models.
+```
+<LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> are two popular open-source licenses.
+```
+<ONTOLOGY>Semantic Information Extraction Ontology</ONTOLOGY> is a framework for representing knowledge about information extraction.
+```
+<PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> are popular programming languages used for web development.
+```
+<PROJECT>Paper With Code</PROJECT> is a platform where researchers can submit their papers and get feedback from the community.
+```
+<PUBLICATION>Conference Proceedings</PUBLICATION> and <PUBLICATION>Preprint Servers</PUBLICATION> are common venues for publishing research in the field of artificial intelligence.
+```
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> is a research paper.
+```
+<PUBLICATION>Journal Articles</PUBLICATION> and <PUBLICATION>Conference Proceedings</PUBLICATION> are two common venues for publishing scholarly works.
+```
+<PUBLICATION>Conference Proceedings</PUBLICATION> is a popular venue for publishing research in the field of computer vision.
+```
+<PUBLICATION>Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</PUBLICATION> is a leading conference in the field of acoustics, speech, and signal processing.
+```
+<PUBLICATION>Proceedings of the 2022 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</PUBLICATION> is a premier conference in the field of computer vision and pattern recognition.
+```
+<PUBLICATION>Workshops and Conferences</PUBLICATION> are important venues for researchers to present and exchange their work.
+```
+<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> is an educational session focused on the topic of thermal image super-resolution.
+```
+<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is a workshop focused on panoramic audiovisual saliency detection.
+```

@@ -1,0 +1,6 @@
+```
+The EVALMETRIC Precision for this submission is 0.85.
+The EVALMETRIC Recall for this submission is 0.79.
+The EVALMETRIC F1-Score for this submission is 0.82.
+The EVALMETRIC BLEU Score for this submission is 0.45.
+```

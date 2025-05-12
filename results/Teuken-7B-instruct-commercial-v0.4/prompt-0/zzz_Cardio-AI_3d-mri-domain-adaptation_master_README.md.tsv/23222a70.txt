@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE:** CVPR2023
+**DATASET:** CVPR2023 dataset
+**EVALMETRIC:** Precision, Recall, F1-Score, BLEU Score
+**LICENSE:** cc-by-3
+**ONTOLOGY:** Intelligence Task Ontology
+**PROJECT:** Paper With Code
+**PUBLICATION:** Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE:** Protege ontology editor
+**WORKSHOP:** Thermal Image Super-Resolution Workshop
+```

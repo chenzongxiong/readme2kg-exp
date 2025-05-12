@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2023 Dataset
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI-ECAI 2023
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: IJCAI 2023 Ontology editor
+WORKSHOP: IJCAI 2023 Workshop on Machine Learning for Natural Language Processing (MLNLP)
+```

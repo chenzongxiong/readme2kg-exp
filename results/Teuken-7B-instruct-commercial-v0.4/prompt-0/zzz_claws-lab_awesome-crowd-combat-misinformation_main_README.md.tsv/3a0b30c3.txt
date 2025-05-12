@@ -1,0 +1,43 @@
+**Conferences**
+
+* International Semantic Web Conference 2019
+* ISWC 2019
+* CVPR2023 workshop
+**Datasets**
+
+* Maules Creek
+* USTPO MIT dataset (<https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>)
+* Evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+**Licenses**
+
+* cc-by-3
+* CC BY-NC 4.0
+**Ontologies**
+
+* Intelligence Task Ontology
+**Programming languages**
+
+* Python
+* PHP
+* C++
+**Projects**
+
+* Paper With Code project (<https://paperswithcode.com/>)
+* No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**Software**
+
+* Protege ontology editor
+**Workshops**
+
+* Thermal Image Super-Resolution workshop (<https://pbvs-workshop.github.io/datasets.html>)
+**Entities Annotated**
+
+* Conference: International Semantic Web Conference 2019, ISWC 2019, CVPR2023 workshop
+* Dataset: Maules Creek, USTPO MIT dataset (<https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>), Evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+* License: cc-by-3, CC BY-NC 4.0
+* Ontology: Intelligence Task Ontology
+* Programming languages: Python, PHP, C++
+* Project: Paper With Code project (<https://paperswithcode.com/>), No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths, Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+* Software: Protege ontology editor
+* Workshop: Thermal Image Super-Resolution workshop (<https://pbvs-workshop.github.io/datasets.html>)

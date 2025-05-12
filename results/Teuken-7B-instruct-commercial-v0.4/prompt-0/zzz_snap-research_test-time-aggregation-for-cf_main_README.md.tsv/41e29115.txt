@@ -1,0 +1,23 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a premier event in the field of machine learning and artificial intelligence.
+
+The <DATASET>ImageNet Large Scale Visual Recognition Challenge</DATASET> dataset contains over 1.2 million images and is widely used for benchmarking object recognition algorithms.
+
+The <EVALMETRIC>Mean Average Precision</EVALMETRIC> (mAP) is a common evaluation metric used to measure the performance of object detection algorithms.
+
+The <LICENSE>MIT License</LICENSE> is a popular open-source software license that allows for free use, modification, and distribution of the licensed work.
+
+The <ONTOLOGY>Semantic Information Framework for Public Procurement (SIF4PUB)</ONTOLOGY> is an ontology developed to support the exchange of information in the public procurement domain.
+
+The <PROGLANG>Python</PROGLANG> programming language is widely used for data analysis and machine learning tasks.
+
+The <PROJECT>DeepVariant Challenge</PROJECT> is a crowdsourced effort to improve the performance of genomic variant detection algorithms.
+
+The <PUBLICATION>Ma et al. 2018</PUBLICATION>. In <PUBLICATION>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</PUBLICATION>.
+
+The <SOFTWARE>TensorFlow</SOFTWARE> is a popular open-source machine learning library developed by Google.
+
+The <WORKSHOP>Workshop on Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</WORKSHOP> is an educational event focused on enhancing knowledge tracing in sequence models.
+
+The <DATASET>Pascal VOC</DATASET> is a popular dataset for object detection tasks in computer vision.
+```

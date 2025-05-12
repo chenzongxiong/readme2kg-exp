@@ -1,0 +1,2 @@
+**Annotated Text:**
+All ligand protein complexes were put into a different folder. At inference, we combine them by their PDB ID to evaluate the model based on all the binding sites for a given protein. **DATASET**:PDB\_ligand\_complexes

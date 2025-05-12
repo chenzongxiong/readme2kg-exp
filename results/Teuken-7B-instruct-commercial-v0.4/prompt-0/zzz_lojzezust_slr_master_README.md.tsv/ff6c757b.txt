@@ -1,0 +1,14 @@
+Link Datasets Directory and Create an Output Directory
+=======================================================
+
+The first step is to link the datasets directory and create an output directory to store the annotations. This can be done using the following steps:
+
+1. Link the datasets directory:
+```bash
+ln -s datasets data
+```
+2. Create an output directory:
+```bash
+mkdir output
+```
+These steps will link the datasets directory to the data folder and create an output directory named "output" to store the annotations.

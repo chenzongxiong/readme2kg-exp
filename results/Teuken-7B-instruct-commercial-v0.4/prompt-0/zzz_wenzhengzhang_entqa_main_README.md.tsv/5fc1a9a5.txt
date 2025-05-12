@@ -1,0 +1,9 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET**: Stanford Natural Language Processing (NLP) Datasets
+*EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+*LICENSE**: cc-by-3
+*ONTOLOGY**: Semantic Network Ontology
+*PROJECT**: Knowledge Graph Embeddings (KGE) for Knowledge Reasoning
+*PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM)
+*SOFTWARE**: BLINK
+*WORKSHOP**: Thermal Image Super-Resolution Workshop

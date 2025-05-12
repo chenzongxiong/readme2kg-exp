@@ -1,0 +1,10 @@
+```
+CONFERENCE: Configuration model name
+DATASET: trainable parameters
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: bi_lstm_rnn_att trainable parameters
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: bi_lstm_rnn_att trainable parameters
+WORKSHOP: PAV-SOD Panoramic Audiovisual Saliency Detection
+```

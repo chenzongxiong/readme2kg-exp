@@ -1,0 +1,118 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-2**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**KWT-3**: Model name | embedding dim | mlp-dim | heads | depth | #params | V2-12 accuracy | pre-trained | 
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maoles Creek
+*EVALMETRIC: Precision
+*LICENSE: cc-by-3
+*ONTOLOGY: Intelligence Task Ontology
+*PROJECT: Paper With Code
+*PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+*SOFTWARE: Protege ontology editor
+*WORKSHOP: Thermal Image Super-Resolution
+**KWT-1**: Model name |

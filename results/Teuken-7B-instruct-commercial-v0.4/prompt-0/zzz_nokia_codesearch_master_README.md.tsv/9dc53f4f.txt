@@ -1,0 +1,10 @@
+```
+CONFERENCE: so-ds-feb20
+DATASET: Mined from Python Stack Overflow posts related to data science.
+LICENSE: cc-by-3
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege ontology editor
+WORKSHOP: PAV-SOD Panoramic Audiovisual Saliency Detection
+```

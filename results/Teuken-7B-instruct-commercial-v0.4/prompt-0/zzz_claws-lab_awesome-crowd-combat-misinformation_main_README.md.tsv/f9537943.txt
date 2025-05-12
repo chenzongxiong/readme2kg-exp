@@ -1,0 +1,11 @@
+```
+CONFERENCE: The Crowd
+DATASET: The Crowd
+EVALMETRIC: None
+LICENSE: None
+ONTOLOGY: None
+PROJECT: None
+PUBLICATION: None
+SOFTWARE: The Crowd
+WORKSHOP: The Crowd
+```

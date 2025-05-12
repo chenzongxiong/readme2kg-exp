@@ -1,0 +1,13 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: NIST Image Segmentation Benchmark
+EVALMETRIC: Mean Intersection over Union (IoU)
+LICENSE: Apache License, Version 2.0
+ONTOLOGY: Semantic Information Extraction Ontology
+PROJECT: SemEval-2018 Task 3
+PUBLICATION: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Visual Question Answering (VQA) Benchmarks and Baselines
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+```
+Note: This is a sample output generated based on the given guidelines. The actual output may vary depending on the input text and the accuracy of the NER model.

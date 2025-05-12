@@ -1,0 +1,24 @@
+**Annotated Text**
+```markdown
+**CONFERENCE**: Earth Observation Data Science Conference 2023
+**DATASET**: EarthPT-700M
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Earth Observation Data Ontology
+**PROJECT**: Earth Observation Data Science Project
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: train.py
+**WORKSHOP**: Earth Observation Data Science Workshop
+```
+**Notes:**
+
+- The conference is named "Earth Observation Data Science Conference 2023."
+- The dataset is named "EarthPT-700M."
+- The evaluation metric used is "Accuracy."
+- The license for the dataset is "CC BY-NC 4.0."
+- The ontology used is the "Earth Observation Data Ontology."
+- The project is named "Earth Observation Data Science Project."
+- The publication is named "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management."
+- The software is named "train.py."
+- The workshop is named "Earth Observation Data Science Workshop."
+```

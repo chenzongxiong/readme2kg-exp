@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: CIKM
+EVALMETRIC: Precision
+LICENSE: cc-by-3
+ONTOLOGY: CIKM Ontology
+PROJECT: CIKM
+PUBLICATION: Proceedings of the 23rd International Joint Conference on Artificial Intelligence
+SOFTWARE: JATSU Ontology Editor
+WORKSHOP: CIKM Workshop on Computational Intelligence for Knowledge Discovery and Data Mining
+```

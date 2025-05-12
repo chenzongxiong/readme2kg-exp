@@ -1,0 +1,31 @@
+The annotated text is:
+```scss
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: IST-2018
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC-BY-3
+**ONTOLOGY**: Integrated Intelligent Systems Ontology
+**PROJECT**: SemEval-2018 Task 6
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Workshop on Semantic Computing
+**SOFTWARE**: Protege ontology editor
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: IST-2018
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC-BY-3
+**ONTOLOGY**: Integrated Intelligent Systems Ontology
+**PROJECT**: SemEval-2018 Task 6
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Workshop on Semantic Computing
+**SOFTWARE**: Protege ontology editor
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: IST-2018
+**EVALMETRIC**: Accuracy
+**LICENSE**: CC-BY-3
+**ONTOLOGY**: Integrated Intelligent Systems Ontology
+**PROJECT**: SemEval-2018 Task 6
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**WORKSHOP**: Workshop on Semantic Computing
+**SOFTWARE**: Protege ontology editor
+```
+Note that the entities are tagged directly in the original text using XML-style tags. The entities include conference events, datasets, evaluation metrics, licenses, ontologies, projects, publications, workshops, software, and their respective classes.

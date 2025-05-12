@@ -1,0 +1,34 @@
+```
+The <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE> is a major conference focused on the Semantic Web and Linked Data.
+The <CONFERENCE>ISTC2019</CONFERENCE> workshop on "Semantic Web and Linked Data" aims to bring together researchers, practitioners, and students to present and discuss the latest advances and applications in the field.
+The <DATASET>Maules Creek</DATASET> dataset is a collection of text and metadata related to the Maules Creek coal mine in New South Wales, Australia. It can be used for various research and analysis purposes.
+The <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC> are evaluation metrics commonly used to assess the performance of natural language processing models.
+The <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> are licenses that allow for the use and redistribution of the resource.
+The <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is a formal ontology that represents knowledge about intelligence tasks and their components.
+The <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> are programming languages used for implementing software.
+The <PROJECT>Paper With Code</PROJECT> project aims to provide a comprehensive resource for researchers to find and evaluate machine learning models for various NLP tasks.
+The <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>.
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is a software tool used for creating and editing ontologies.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+The <WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> is an educational workshop focused on the development of panoramic audiovisual saliency detection systems.
+The <WORKSHOP>pbvs-workshop</WORKSHOP> is an educational workshop focused on the development of deep learning models for visual question answering.
+```

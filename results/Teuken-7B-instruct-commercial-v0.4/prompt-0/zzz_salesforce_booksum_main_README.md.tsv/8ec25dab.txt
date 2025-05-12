@@ -1,0 +1,14 @@
+**Annotated Text:**
+```scss
+## Entities
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2023)
+DATASET: IJCAI 2023 Competition Data
+EVALMETRIC: F1 Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Project
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: IBM Watson Studio
+WORKSHOP: IJCAI 2023 Workshop on Artificial Intelligence and Social Good (AI+SG)
+```
+Note: The annotations are based on the guidelines provided in the task description.

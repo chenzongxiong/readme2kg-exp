@@ -1,0 +1,37 @@
+**Annotated Text:**
+```markdown
+**Entity Classes:**
+
+* DATASET
+* EVALMETRIC
+* LICENSE
+* ONTOLOGY
+* PROJECT
+* PUBLICATION
+* SOFTWARE
+* WORKSHOP
+
+**Annotation Rules:**
+
+* Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+* Use a single-class annotation per entity, based on the context.
+* Annotate nested entities separately.
+* Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+* Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+Output Format:
+
+* Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+   - `The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.`
+
+**Entities:**
+
+* DATASET: Structured collections of data.
+	+ Evaluation metrics used: <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+* ONTOLOGY: Semantic frameworks for knowledge representation.
+* PROJECT: Scientific or business initiatives.
+* PUBLICATION: Scholarly works.
+* SOFTWARE: Software tools or programs.
+* WORKSHOP: Workshop events.
+```
+In this text, there are no entities to annotate.

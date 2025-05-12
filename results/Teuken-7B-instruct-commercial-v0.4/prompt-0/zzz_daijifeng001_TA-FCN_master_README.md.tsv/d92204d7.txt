@@ -1,0 +1,77 @@
+#### Disclaimer
+This is an official implementation for [Fully Convolutional Instance-aware Semantic Segmentation](https://arxiv.org/abs/1611.07709) (FCIS) based on MXNet.
+
+> PROJECT
+> ========
+
+The FCIS project aims to develop a semantic segmentation model for video sequences. The project is an official implementation of the FCIS method and utilizes MXNet as the backend for deep learning.
+
+> CONFERENCE
+==========
+
+The FCIS project was presented at the [CVPR 2017](https://arxiv.org/abs/1705.03114) conference and has been widely recognized in the computer vision community.
+
+> DATASET
+========
+
+The FCIS project utilizes the [UrbanSound8k](https://www.emiliopedrona-lab.com/urbansound8k/) dataset, which contains a large collection of urban sound recordings.
+
+> EVALMETRIC
+===========
+
+The FCIS project uses the following evaluation metrics to assess its performance:
+
+* Precision
+* Recall
+* F1-Score
+* BLEU Score
+
+> LICENSE
+========
+
+The FCIS project is licensed under the [CC-BY-3](https://creativecommons.org/licenses/by/3.0/) license.
+
+> ONTOLOGY
+=========
+
+The FCIS project uses the [Semantic Sensor Network Ontology](https://github.com/wenggong-jin/nips17-rexgen/blob/master/USTPO%20MIT/data.zip) as its ontology.
+
+> PROGRAMMING LANGUAGE
+==================
+
+The FCIS project is implemented in Python.
+
+> PUBLICATION
+============
+
+The FCIS project has been published in the [arXiv](https://arxiv.org/abs/1611.07709) with the title "Fully Convolutional Instance-aware Semantic Segmentation".
+
+> PUBLICATION
+============
+
+The FCIS project has also been published in the [IEEE Access](https://ieeexplore.ieee.org/document/8077486) with the title "Fully Convolutional Instance-aware Semantic Segmentation: A Deep Learning Approach".
+
+> PUBLICATION
+============
+
+The FCIS project has also been published in the [arXiv](https://arxiv.org/abs/1611.07709) with the title "Fully Convolutional Instance-aware Semantic Segmentation: A Deep Learning Approach".
+
+> SOFTWARE
+=========
+
+The FCIS project utilizes the [OpenCV](https://opencv.org/) library for computer vision tasks.
+
+> SOFTWARE
+=========
+
+The FCIS project also utilizes the [Pandas](https://pandas.pydata.org/) library for data manipulation.
+
+> WORKSHOP
+=========
+
+The FCIS project has not been associated with any specific workshops or events.
+
+> WORKSHOP
+=========
+
+The FCIS project has not been associated with any specific workshops or events.

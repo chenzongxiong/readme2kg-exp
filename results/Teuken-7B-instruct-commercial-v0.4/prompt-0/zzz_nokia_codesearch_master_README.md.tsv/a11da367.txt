@@ -1,0 +1,27 @@
+```markdown
+**CONFERENCE**: International Semantic Web Conference 2019
+*CONFERENCE**: ISWC 2019
+*CONFERENCE**: CVPR2023 workshop
+**DATASET**: Mauls Creek
+*DATASET**: US Patent and Trademark Office (USPTO) dataset
+*DATASET**: USTPO MIT
+*DATASET**: Precision
+*DATASET**: Recall
+*DATASET**: F1-Score
+*DATASET**: BLEU Score
+**EVALMETRIC**: Precision
+*EVALMETRIC**: Recall
+*EVALMETRIC**: F1-Score
+*EVALMETRIC**: BLEU Score
+**LICENSE**: cc-by-3
+*LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Intelligence Task Ontology
+*ONTOLOGY**: Ontology of the Public Administration Domain
+*ONTOLOGY**: Ontology of the Public Administration Domain (Spanish)
+*ONTOLOGY**: Ontology of the Public Administration Domain (Italian)
+*ONTOLOGY**: Ontology of the Public Administration Domain (French)
+*ONTOLOGY**: Ontology of the Public Administration Domain (English)
+*ONTOLOGY**: Ontology of the Public Administration Domain (Portuguese)
+**ONTOLOGY**: Ontology of the Public Administration Domain (Russian)
+*ONTOLOGY**: Ontology of the Public Administration Domain (Chinese)
+```

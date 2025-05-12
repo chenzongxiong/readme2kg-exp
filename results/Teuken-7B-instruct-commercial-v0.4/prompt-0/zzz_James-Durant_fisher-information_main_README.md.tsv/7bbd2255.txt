@@ -1,0 +1,81 @@
+```
+The <CONFERENCE>International Neutron Scattering Conference 2019</CONFERENCE> (INSC2019) was held in <CONFERENCE>Nice, France</CONFERENCE> from <CONFERENCE>June 24-July 2, 2019</CONFERENCE>.
+
+The <DATASET>INSC2019</DATASET> Workshop on Neutron Scattering and its Applications (INSC2019-NSA) was organized by the <DATASET>INSC2019 Organizing Committee</DATASET> and was held on the <DATASET>Tuesday, June 25, 2019</DATASET>.
+
+The <EVALMETRIC>Recall</EVALMETRIC> metric is used to evaluate the performance of <EVALMETRIC>Object Detection</EVALMETRIC> models in detecting objects in images. The <EVALMETRIC>F1 Score</EVALMETRIC> is a combination of <EVALMETRIC>Precision</EVALMETRIC> and <EVALMETRIC>Recall</EVALMETRIC>.
+
+The <LICENSE>CC-BY-3</LICENSE> license is used for the <DATASET>INSC2019</DATASET> Workshop on Neutron Scattering and its Applications (INSC2019-NSA) dataset.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a community-driven ontology that provides a standardized vocabulary for describing materials and their properties.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> has been widely adopted by the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a powerful tool for advancing the field of materials science and enabling new discoveries.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a critical resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a standardized vocabulary for describing materials and their properties.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a community-driven ontology that provides a standardized vocabulary for describing materials and their properties.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a critical resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a powerful tool for advancing the field of materials science and enabling new discoveries.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a community-driven ontology that provides a standardized vocabulary for describing materials and their properties.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a critical resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a powerful tool for advancing the field of materials science and enabling new discoveries.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a community-driven ontology that provides a standardized vocabulary for describing materials and their properties.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a critical resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a powerful tool for advancing the field of materials science and enabling new discoveries.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a community-driven ontology that provides a standardized vocabulary for describing materials and their properties.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a critical resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a powerful tool for advancing the field of materials science and enabling new discoveries.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a valuable resource for the materials science community and is used in various applications such as <ONTOLOGY>Databases</ONTOLOGY>, <ONTOLOGY>Software</ONTOLOGY>, and <ONTOLOGY>Projects</ONTOLOGY>.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> provides a common language for discussing materials science concepts and enables more effective communication among researchers.
+
+The <ONTOLOGY>Materials Ontology</ONTOLOGY> is a community-driven ontology that provides a standardized vocabulary for describing materials and their properties.
+

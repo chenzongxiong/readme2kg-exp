@@ -1,0 +1,11 @@
+```
+CONFERENCE: Para-DPMM Workshop
+DATASET: Para-DPMM Benchmarks
+EVALMETRIC: F1-Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Para-DPMM Ontology
+PROJECT: Para-DPMM Project
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Para-DPMM Toolbox
+WORKSHOP: Para-DPMM Workshop
+```

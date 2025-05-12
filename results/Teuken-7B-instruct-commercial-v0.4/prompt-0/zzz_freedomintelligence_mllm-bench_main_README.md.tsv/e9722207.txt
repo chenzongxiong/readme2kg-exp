@@ -1,0 +1,4 @@
+```markdown
+## Leaderboard
+We present the results of voting using LLaVA-v1.5-13B as anchor.
+```

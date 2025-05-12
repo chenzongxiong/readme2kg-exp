@@ -1,0 +1,11 @@
+```
+CONFERENCE: NeurIPS 2024
+DATASET: USTPO MIT
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-3, CC BY-NC 4.0
+ONTOLOGY: Intelligence Task Ontology
+PROJECT: Paper With Code
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+SOFTWARE: Protege Ontology Editor
+WORKSHOP: Thermal Image Super-Resolution
+```

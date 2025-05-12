@@ -1,0 +1,53 @@
+**Annotated Text:**
+```scss
+**CONFERENCE**: International Semantic Web Conference 2019
+**CONFERENCE**: ISWC 2019
+**CONFERENCE**: CVPR2023 workshop
+**DATASET**: Mauls Creek
+**DATASET**: USTPO MIT
+**EVALMETRIC**: Precision
+**EVALMETRIC**: Recall
+**EVALMETRIC**: F1-Score
+**EVALMETRIC**: BLEU Score
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**ONTOLOGY**: Ontology of the semantic web
+**ONTOLOGY**: Ontology of the semantic web
+**ONTOLOGY**: Ontology of the semantic web
+**PROGLANG**: Python
+**PROGLANG**: PHP
+**PROGLANG**: C++
+**PROJECT**: Paper With Code
+**PROJECT**: paperswithcode.com
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+**WORKSHOP**: pbvs-workshop.github.io/datasets.html
+```
+**CONFERENCE**: International Semantic Web Conference 2019
+**CONFERENCE**: ISWC 2019
+**CONFERENCE**: CVPR2023 workshop
+**DATASET**: Mauls Creek
+**DATASET**: USTPO MIT
+**EVALMETRIC**: Precision
+**EVALMETRIC**: Recall
+**EVALMETRIC**: F1-Score
+**EVALMETRIC**: BLEU Score
+**LICENSE**: cc-by-3
+**ONTOLOGY**: Intelligence Task Ontology
+**ONTOLOGY**: Ontology of the semantic web
+**ONTOLOGY**: Ontology of the semantic web
+**ONTOLOGY**: Ontology of the semantic web
+**ONTOLOGY**: Ontology of the semantic web
+**PROGLANG**: Python
+**PROGLANG**: PHP
+**PROGLANG**: C++
+**PROJECT**: Paper With Code
+**PROJECT**: paperswithcode.com
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Thermal Image Super-Resolution Workshop
+**WORKSHOP**: pbvs-workshop.github.io/datasets.html
+```

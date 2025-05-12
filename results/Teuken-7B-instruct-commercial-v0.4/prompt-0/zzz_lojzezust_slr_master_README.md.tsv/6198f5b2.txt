@@ -1,0 +1,36 @@
+](https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)Download the <DATASET>USTPO MIT</DATASET> dataset from (<URL>https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip</URL>).
+
+Evaluation Metrics Used
+======================
+
+The evaluation metrics used are Precision, Recall, F1-Score, and BLEU Score.
+
+License
+-------
+
+The license for this dataset is cc-by-3.
+
+Ontology
+========
+
+The Ontology used for this dataset is Intelligence Task Ontology.
+
+Programming Languages
+=========================
+
+The Programming languages used for this project are Python, PHP, and C++.
+
+Publication
+============
+
+The publication related to this project is Paper With Code.
+
+Software
+========
+
+The Software used for this project is Protege Ontology Editor.
+
+Workshop
+========
+
+The Workshop related to this project is Thermal Image Super-Resolution.

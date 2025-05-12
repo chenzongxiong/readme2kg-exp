@@ -1,0 +1,9 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+*DATASET**: ImageNet
+*EVALMETRIC**: Accuracy
+*LICENSE**: Creative Commons Attribution-Share Alike
+*ONTOLOGY**: Resource Description Framework (RDF)
+*PROJECT**: Ontology-based Reasoning for Next-generation Web Search
+*PUBLICATION**: Journal of Machine Learning Research (JMLR)
+*SOFTWARE**: Weka
+*WORKSHOP**: Workshop on Semantic Computing (SemComp)

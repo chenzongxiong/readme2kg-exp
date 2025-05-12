@@ -1,0 +1,6 @@
+**Annotated Text:**
+```scss
+# NER Annotated Text
+The **SOFTWARE** **Protege Ontology Editor** is widely used for creating **ONTOLOGY**.
+```
+**Explanation:** The entity class for this text is **SOFTWARE**, as it refers to a specific software tool called **Protege Ontology Editor**. The entity is directly annotated using the appropriate XML-style tag.

@@ -1,0 +1,33 @@
+```python
+import os
+import re
+
+import pandas as pd
+import requests
+
+class NER:
+    def __init__(self):
+        self.data_folder = 'data/'
+
+    def download_dataset(self):
+        # Download the dataset and save it in the 'data' folder
+        pass
+
+    def preprocess_data(self):
+        # Preprocess the data and save it in the 'data' folder
+        pass
+
+    def annotate_entities(self):
+        # Annotate entities in the given text and save it in the 'annotated_text' folder
+        pass
+
+    def main():
+        self = NER()
+        self.download_dataset()
+        self.preprocess_data()
+        self.annotate_entities()
+        print('Done!')
+
+if __name__ == '__main__':
+    NER().main()
+```

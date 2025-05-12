@@ -1,0 +1,43 @@
+Here is the annotated text in Markdown format:
+```markdown
+**Conferences**
+
+* International Semantic Web Conference 2019
+* ISWC 2019
+* CVPR2023 workshop
+**Datasets**
+
+* Mauls Creek
+* US Patent and Trademark Office USTPO MIT dataset
+**Evaluation Metrics**
+
+* Precision
+* Recall
+* F1-Score
+* BLEU Score
+**Licenses**
+
+* CC-BY-3
+* CC-BY-NC 4.0
+**Ontologies**
+
+* Intelligence Task Ontology
+**Programming Languages**
+
+* Python
+* PHP
+* C++
+**Projects**
+
+* Paper With Code
+* <https://paperswithcode.com/>0
+**Publications**
+
+* No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**Software**
+
+* Protege ontology editor
+**Workshops**
+
+* Thermal Image Super-Resolution

@@ -1,0 +1,9 @@
+```
+INTELLIGENCE TASK ONTOLOGY (ITO)
+```
+The **INTELLIGENCE TASK ONTOLOGY (ITO)** is a comprehensive framework designed to structure and classify tasks related to intelligence. It covers various domains, including human intelligence, artificial intelligence, and machine learning. The ITO provides a common language for discussing and analyzing intelligence tasks, making it a valuable resource for researchers and practitioners in these fields.
+
+This ontology is organized into different categories, such as CONFERENCE, DATASET, EVALMETRIC, LICENSE, ONTOLOGY, PROJECT, PUBLICATION, SOFTWARE, and WORKSHOP. Each category has its own specific purpose and significance in the field of intelligence tasks. By using this ontology, researchers can better understand the complexities of intelligence tasks and develop more effective models and strategies for solving these tasks.
+
+The ITO is open to the public and can be accessed on the web at <https://github.com/ijcai/ijcai-20-task-ontology>. It is an essential resource for anyone interested in the study of intelligence tasks and their applications in various domains.
+```

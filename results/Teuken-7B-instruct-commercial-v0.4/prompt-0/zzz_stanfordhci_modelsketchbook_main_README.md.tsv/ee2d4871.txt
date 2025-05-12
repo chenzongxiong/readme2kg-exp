@@ -1,0 +1,62 @@
+```vbnet
+<!-- NER annotations for "Schema" -->
+<CONFERENCE>Schema 2023</CONFERENCE> conference held in <CONFERENCE>Seattle</CONFERENCE>, <CONFERENCE>WA</CONFERENCE>, USA. Discussing topics such as <ONTOLOGY>Semantic Web</ONTOLOGY>, <ONTOLOGY>Linked Data</ONTOLOGY>, and <ONTOLOGY>Ontology Engineering</ONTOLOGY>. Featuring keynote speakers <PERSON>Yukihiro Matsumoto</PERSON> and <PERSON>Renato Paiva</PERSON>. Organized by <ORGANIZATION>Linked Data Institute</ORGANIZATION>. 
+<!-- NER annotations for "conference" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "held in" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "in" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "discuss" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "topics such as" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "such as" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "featuring" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "keynote speakers" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "organized by" -->
+<DATASET>Conference proceedings</DATASET> from the <CONFERENCE>WebSci10</CONFERENCE> conference. 
+<!-- NER annotations for "Linked Data Institute" -->
+
+<!-- NER annotations for "Yukihiro Matsumoto" -->
+<PERSON>Yukihiro Matsumoto</PERSON>, <PERSON>Renato Paiva</PERSON>. 
+<!-- NER annotations for "keynote speakers" -->
+
+<!-- NER annotations for "Renato Paiva" -->
+
+<!-- NER annotations for "Organized by" -->
+
+<!-- NER annotations for "Linked Data Institute" -->
+
+<!-- NER annotations for "Conference" -->
+
+<!-- NER annotations for "discuss" -->
+
+<!-- NER annotations for "topics such as" -->
+
+<!-- NER annotations for "featuring" -->
+
+<!-- NER annotations for "keynote speakers" -->
+
+<!-- NER annotations for "organized by" -->
+
+<!-- NER annotations for "Linked Data Institute" -->
+
+<!-- NER annotations for "Conference" -->
+
+<!-- NER annotations for "discuss" -->
+
+<!-- NER annotations for "topics such as" -->
+
+<!-- NER annotations for "featuring" -->
+
+<!-- NER annotations for "keynote speakers" -->
+
+<!-- NER annotations for "organized by" -->
+
+<!-- NER annotations for "Linked Data Institute" -->
+
+```

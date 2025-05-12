@@ -1,0 +1,23 @@
+Here is the annotated text in Markdown format:
+```markdown
+**Event Instance:**
+
+- **Event Type Label 1:** In trucks and on foot they came to the town of Safwan
+  - **Trigger:** came
+  - **Distance from Trigger:** 7, 6, 12
+  - **Sentence Length:** 12
+
+**Entities:**
+
+- **CONFERENCE:** International Semantic Web Conference 2019
+- **DATASET:** Mauls Creek
+- **EVALMETRIC:** Precision
+- **LICENSE:** cc-by-3
+- **ONTOLOGY:** Intelligence Task Ontology
+- **PROJECT:** Paper With Code
+- **PUBLICATION:** No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+- **SOFTWARE:** Protege ontology editor
+- **WORKSHOP:** Thermal Image Super-Resolution
+- **URL:** <https://ai.meta.com/llama>
+```
+Please note that the entities are directly annotated in the original text using XML-style tags for their respective classes.

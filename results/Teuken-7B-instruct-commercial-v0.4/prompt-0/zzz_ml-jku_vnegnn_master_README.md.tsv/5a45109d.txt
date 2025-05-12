@@ -1,0 +1,12 @@
+```
+The <PUBLICATION>Paper With Code</PUBLICATION> project (<URL>https://paperswithcode.com/</URL>) provides a comprehensive resource for learning deep learning models.
+```
+
+**Guidelines:**
+
+* The input text is formatted using a shield badge.
+* Entities to be annotated are in bold and italics, with their respective classes in parentheses.
+
+Annotated text in Markdown format:
+
+*The <PUBLICATION>Paper With Code</PUBLICATION> project ([<URL>https://paperswithcode.com/</URL>](https://paperswithcode.com/)) provides a comprehensive resource for learning deep learning models.

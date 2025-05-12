@@ -1,0 +1,18 @@
+The original text with entities annotated in XML-style tags:
+```perl
+Note that sometimes the most similar historical failures may have different failure classes to the localization results due to imperfect similarity calculation.
+
+["Note", "that", "sometimes", "the", "most", "similar", "historical", "failures", "may", "have", "different", "failure", "classes", "to", "the", "localization", "results", "due", "to", "imperfect", "similarity", "calculation", "."]
+```
+Explanation of annotations:
+
+1. Conference: International Semantic Web Conference 2019
+* Dataset: US Patent and Trademark Office
+* Evaluation Metric: Precision
+* License: cc-by-3
+* Ontology: Intelligence Task Ontology
+* Project: Paper With Code
+* Publication: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* Software: Protege ontology editor
+* Workshop: Thermal Image Super-Resolution
+1. Note that sometimes the most similar historical failures may have different failure classes to the localization results due to imperfect similarity calculation.

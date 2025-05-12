@@ -1,0 +1,18 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: PASCAL VOC
+
+**EVALMETRIC**: Average Precision (AP)
+
+**LICENSE**: CC BY-NC 4.0
+
+**ONTOLOGY**: IJCAI 2018 Ontology
+
+**PROJECT**: PASCAL VOC
+
+**PUBLICATION**: Proceedings of the IJCAI Conference
+
+**SOFTWARE**: TensorFlow
+
+**WORKSHOP**: IJCAI Workshops

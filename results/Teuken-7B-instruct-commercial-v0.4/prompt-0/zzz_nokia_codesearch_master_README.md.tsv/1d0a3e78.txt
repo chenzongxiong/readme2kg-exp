@@ -1,0 +1,13 @@
+```
+CONFERENCE: Our pretrained models and datasets are hosted on Zenodo.
+DATASET: Zenodo.
+EVALMETRIC: Our pretrained models and datasets are hosted on Zenodo.
+LICENSE: Zenodo.
+ONTOLOGY: Our pretrained models and datasets are hosted on Zenodo.
+PROJECT: Our pretrained models and datasets are hosted on Zenodo.
+PUBLICATION: Our pretrained models and datasets are hosted on Zenodo.
+SOFTWARE: Zenodo.
+WORKSHOP: Our pretrained models and datasets are hosted on Zenodo.
+```
+
+Note: In this example, all entities are annotated with their respective classes, as instructed by the guidelines.

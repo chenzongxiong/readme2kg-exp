@@ -1,0 +1,10 @@
+Here is the annotated text in Markdown format:
+```markdown
+**Conferences**
+* International Semantic Web Conference 2019
+* ISWC 2019
+* CVPR2023 workshop
+**Datasets**
+* Ma**e**s Creek
+**Evaluation Metrics**
+* P

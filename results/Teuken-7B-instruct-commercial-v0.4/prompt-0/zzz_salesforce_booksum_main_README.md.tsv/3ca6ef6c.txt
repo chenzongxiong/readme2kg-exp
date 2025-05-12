@@ -1,0 +1,10 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: SemEval-2020 Task 8: Multilingual NER
+**EVALMETRIC**: F1 Score
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Europeana Data Provider Ontology
+**PROJECT**: Europeana Linking Open Data Cloud
+**PUBLICATION**: Proceedings of the 10th International Workshop on Semantic Evaluation
+**SOFTWARE**: Stanford CoreNLP
+```

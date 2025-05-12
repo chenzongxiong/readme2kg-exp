@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: Stanford CoreNLP 2018 Sentiment Treebank
+
+**EVALMETRIC**: Macro F1-score, Micro F1-score, Precision, Recall, Equal Error Rate (EER), Maximum Error Rate (MER)
+
+**LICENSE**: Creative Commons Attribution 3.0 Unported
+
+**ONTOLOGY**: Semantic Web Ontology Language (OWL)
+
+**PROJECT**: SemEval-2018 Task 1: Stanford Sentiment Treebank Classification
+
+**PUBLICATION**: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP 2019)
+
+**SOFTWARE**: Stanford CoreNLP 2018-04-03
+
+**WORKSHOP**: Workshop on Semantics and Big Data (SBD 2018)

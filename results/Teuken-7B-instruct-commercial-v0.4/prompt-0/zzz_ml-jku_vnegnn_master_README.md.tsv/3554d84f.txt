@@ -1,0 +1,23 @@
+**CONFERENCE**: International Semantic Web Conference 2019
+*DATASET**: Maes Creek
+* LICENSE: cc-by-3
+* ONTOLOGY: Intelligence Task Ontology
+* PROJECT: Paper With Code
+* PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+* SOFTWARE: Protege ontology editor
+* WORKSHOP: Thermal Image Super-Resolution
+
+The original content with entities directly annotated using XML-style tags for their respective classes:
+```python
+<CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>
+<CONFERENCE>ISWC 2019</CONFERENCE>
+<CONFERENCE>CVPR2023</CONFERENCE workshop>
+<DATASET>Maes Creek</DATASET>
+<LICENSE>cc-by-3</LICENSE>
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+<PROJECT>Paper With Code</PROJECT>
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>
+<PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+<SOFTWARE>Protege ontology editor</SOFTWARE>
+<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>
+```

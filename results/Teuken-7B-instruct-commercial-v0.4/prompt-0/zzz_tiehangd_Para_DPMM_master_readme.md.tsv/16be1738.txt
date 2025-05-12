@@ -1,0 +1,8 @@
+```
+Pinto, Antonio; Xiaohui Xie; <PAPERS WITH CODE>PAPER WITH CODE</PAPERS WITH CODE>
+```
+Explanation:
+
+* The input text contains a single proper noun, "Antonio Pinto", and a generic descriptor, "PAPERS WITH CODE", which is excluded from the annotation. The generic descriptor is not part of the entity, so it is not annotated.
+* The entity is a person, so it is annotated as `<PERSON>Antonio Pinto</PERSON>`.
+* The input text also contains a generic descriptor, "PAPER WITH CODE", which is not part of the entity and is not annotated.

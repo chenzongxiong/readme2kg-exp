@@ -1,0 +1,55 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a leading annual conference in the field of machine learning and artificial intelligence.
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is another important conference in the computer vision field.
+The <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE> is a significant conference in the field of machine learning and artificial intelligence.
+The <CONFERENCE>Conference on Information Sciences and Computer Engineering (CISE)</CONFERENCE> is a conference that focuses on the intersection of information sciences and computer engineering.
+The <CONFERENCE>Conference on Computer and Information Technology (CIT)</CONFERENCE> is a conference that covers a wide range of topics in the field of computer and information technology.
+The <CONFERENCE>Conference on Data Science and Intelligent Engineering Systems (DSISE)</CONFERENCE> is a conference that focuses on the application of data science and artificial intelligence in engineering systems.
+The <CONFERENCE>Conference on Intelligent Information Technology and Applications (ICITA)</CONFERENCE> is a conference that covers a broad range of topics in the field of intelligent information technology and applications.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a conference that focuses on the intersection of information management and knowledge representation.
+The <CONFERENCE>Conference on Intelligent Systems, Applications and Public Policy (ISAPP)</CONFERENCE> is a conference that covers a wide range of topics related to intelligent systems and their applications in public policy.
+The <CONFERENCE>Conference on Computer and Communications Security (CCS)</CONFERENCE> is a conference that focuses on the latest advances in computer and communications security.
+The <CONFERENCE>Conference on Digital Government Research (DGRR)</CONFERENCE> is a conference that covers a wide range of topics related to digital government research and development.
+The <CONFERENCE>Conference on Digital Libraries (ICDL)</CONFERENCE> is a conference that focuses on the latest advances in digital libraries and information management.
+The <CONFERENCE>Conference on Digital Preservation (DIP)</CONFERENCE> is a conference that covers a wide range of topics related to digital preservation and archiving.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a conference that focuses on the latest advances in intelligent user interfaces and interaction design.
+The <CONFERENCE>Conference on Knowledge Discovery and Data Mining (KDD)</CONFERENCE> is a conference that covers a wide range of topics related to data mining and knowledge discovery.
+The <CONFERENCE>Conference on Human-Computer Interaction (HCI)</CONFERENCE> is a conference that focuses on the latest advances in human-computer interaction and user experience design.
+The <CONFERENCE>Conference on Information Science (ICoS)</CONFERENCE> is a conference that covers a wide range of topics related to information science and its applications.
+The <CONFERENCE>Conference on Computer Graphics and Interactive Techniques (CGI)</CONFERENCE> is a conference that focuses on the latest advances in computer graphics and interactive techniques.
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is a significant conference in the computer vision field.
+The <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE> is a significant conference in the field of machine learning and artificial intelligence.
+The <CONFERENCE>Conference on Information Sciences and Computer Engineering (CISE)</CONFERENCE> is a conference that focuses on the intersection of information sciences and computer engineering.
+The <CONFERENCE>Conference on Computer and Information Technology (CIT)</CONFERENCE> is a conference that covers a wide range of topics in the field of computer and information technology.
+The <CONFERENCE>Conference on Data Science and Intelligent Engineering Systems (DSISE)</CONFERENCE> is a conference that focuses on the application of data science and artificial intelligence in engineering systems.
+The <CONFERENCE>Conference on Intelligent Information Technology and Applications (ICITA)</CONFERENCE> is a conference that covers a broad range of topics in the field of intelligent information technology and applications.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a conference that focuses on the intersection of information management and knowledge representation.
+The <CONFERENCE>Conference on Intelligent Systems, Applications and Public Policy (ISAPP)</CONFERENCE> is a conference that covers a wide range of topics related to intelligent systems and their applications in public policy.
+The <CONFERENCE>Conference on Computer and Communications Security (CCS)</CONFERENCE> is a conference that focuses on the latest advances in computer and communications security.
+The <CONFERENCE>Conference on Digital Government Research (DGRR)</CONFERENCE> is a conference that covers a wide range of topics related to digital government research and development.
+The <CONFERENCE>Conference on Digital Libraries (ICDL)</CONFERENCE> is a conference that focuses on the latest advances in digital libraries and information management.
+The <CONFERENCE>Conference on Digital Preservation (DIP)</CONFERENCE> is a conference that covers a wide range of topics related to digital preservation and archiving.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a conference that focuses on the latest advances in intelligent user interfaces and interaction design.
+The <CONFERENCE>Conference on Knowledge Discovery and Data Mining (KDD)</CONFERENCE> is a conference that covers a wide range of topics related to data mining and knowledge discovery.
+The <CONFERENCE>Conference on Human-Computer Interaction (HCI)</CONFERENCE> is a conference that focuses on the latest advances in human-computer interaction and user experience design.
+The <CONFERENCE>Conference on Information Science (ICoS)</CONFERENCE> is a conference that covers a wide range of topics related to information science and its applications.
+The <CONFERENCE>Conference on Computer Graphics and Interactive Techniques (CGI)</CONFERENCE> is a conference that focuses on the latest advances in computer graphics and interactive techniques.
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is a significant conference in the computer vision field.
+The <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE> is a significant conference in the field of machine learning and artificial intelligence.
+The <CONFERENCE>Conference on Information Sciences and Computer Engineering (CISE)</CONFERENCE> is a conference that focuses on the intersection of information sciences and computer engineering.
+The <CONFERENCE>Conference on Computer and Information Technology (CIT)</CONFERENCE> is a conference that covers a wide range of topics in the field of computer and information technology.
+The <CONFERENCE>Conference on Data Science and Intelligent Engineering Systems (DSISE)</CONFERENCE> is a conference that focuses on the application of data science and artificial intelligence in engineering systems.
+The <CONFERENCE>Conference on Intelligent Information Technology and Applications (ICITA)</CONFERENCE> is a conference that covers a broad range of topics in the field of intelligent information technology and applications.
+The <CONFERENCE>Conference on Information and Knowledge Management (CIKM)</CONFERENCE> is a conference that focuses on the intersection of information management and knowledge representation.
+The <CONFERENCE>Conference on Intelligent Systems, Applications and Public Policy (ISAPP)</CONFERENCE> is a conference that covers a wide range of topics related to intelligent systems and their applications in public policy.
+The <CONFERENCE>Conference on Computer and Communications Security (CCS)</CONFERENCE> is a conference that focuses on the latest advances in computer and communications security.
+The <CONFERENCE>Conference on Digital Government Research (DGRR)</CONFERENCE> is a conference that covers a wide range of topics related to digital government research and development.
+The <CONFERENCE>Conference on Digital Libraries (ICDL)</CONFERENCE> is a conference that focuses on the latest advances in digital libraries and information management.
+The <CONFERENCE>Conference on Digital Preservation (DIP)</CONFERENCE> is a conference that covers a wide range of topics related to digital preservation and archiving.
+The <CONFERENCE>Conference on Intelligent User Interfaces (IUI)</CONFERENCE> is a conference that focuses on the latest advances in intelligent user interfaces and interaction design.
+The <CONFERENCE>Conference on Knowledge Discovery and Data Mining (KDD)</CONFERENCE> is a conference that covers a wide range of topics related to data mining and knowledge discovery.
+The <CONFERENCE>Conference on Human-Computer Interaction (HCI)</CONFERENCE> is a conference that focuses on the latest advances in human-computer interaction and user experience design.
+The <CONFERENCE>Conference on Information Science (ICoS)</CONFERENCE> is a conference that covers a wide range of topics related to information science and its applications.
+The <CONFERENCE>Conference on Computer Graphics and Interactive Techniques (CGI)</CONFERENCE> is a conference that focuses on the latest advances in computer graphics and interactive techniques.
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is a significant conference in the computer vision field.
+The

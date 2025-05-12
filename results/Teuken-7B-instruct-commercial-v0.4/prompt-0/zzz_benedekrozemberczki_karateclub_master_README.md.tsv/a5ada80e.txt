@@ -1,0 +1,31 @@
+To annotate the text, you can use the following guidelines:
+
+* Use the appropriate annotation classes for the entities mentioned in the text. For example, for the conference names, use `CONFERENCE`; for the evaluation metrics, use `EVALMETRIC`; for the software tools, use `SOFTWARE`; for the publications, use `PUBLICATION`.
+* Use the `<EVALMETRIC>` and `<DATASET>` tags for the evaluation metrics and datasets, respectively.
+* Use the `<ONTOLOGY>` tag for the ontologies.
+* Use the `<WORKSHOP>` tag for the workshops.
+* Use the `<PROJECT>` tag for the projects.
+* Use the `<LICENSE>` tag for the licenses.
+* Use the `<SOFTWARE>` tag for the software tools or programs.
+* Use the `<PROJECT>` tag for the projects.
+* Use the `<WORKSHOP>` tag for the workshops.
+* Use the `<CONFERENCE>` tag for the conferences.
+* Use the `<PUBLICATION>` tag for the publications.
+* Use the `<PROJECT>` tag for the projects.
+* Use the `<LICENSE>` tag for the licenses.
+
+For example, to annotate the text "The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.", you can use the following annotation:
+```perl
+<SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+For the entire text, the annotation would look like:
+```vbnet
+<CONFERENCE>Conference on Neural Information Processing Systems</CONFERENCE> (NeurIPS)
+	* <EVALMETRIC>F1 score</EVALMETRIC>
+	* <DATASET>The MovieLens 100 Movies Dataset</DATASET>
+	* <WORKSHOP>First International Workshop on Machine Learning and Healthcare</WORKSHOP>
+	* <PUBLICATION>Proceedings of the 2013 IEEE International Conference on Data Mining (ICDM)
+	* <PROJECT>The Microsoft Research Semantic Scholarly System</PROJECT>
+	* <LICENSE>MIT License</LICENSE>
+	* <ONTOLOGY>WordNet</ONTOLOGY>
+	* <PROJECT>The Stanford Corel

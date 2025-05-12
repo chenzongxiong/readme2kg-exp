@@ -1,0 +1,12 @@
+```
+The CONFERENCE is the International Semantic Web Conference 2019.
+The WORKSHOP is the Workshop on People-Based Vision for Semantic Objectives (PAV-SOD): Panoramic Audiovisual Saliency Detection.
+The DATASET is the BookSum Dataset.
+The EVALMETRIC is Precision.
+The ONTOLOGY is Intelligence Task Ontology.
+The PROJECT is Paper With Code.
+The PUBLICATION is No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths.
+The SOFTWARE is Protege ontology editor.
+The LICENSE is cc-by-3.
+The CONFERENCE is the CVPR2023 workshop.
+The DATASET is the IST

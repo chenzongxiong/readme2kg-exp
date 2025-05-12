@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: CIKM
+EVALMETRIC: F1 Score
+LICENSE: cc-by-4.0
+ONTOLOGY: Suggested Annotation Ontology
+PROJECT: SemEval-2019 Task 7: Semantic Evaluation of Machine Comprehension
+PUBLICATION: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Scikit-learn
+WORKSHOP: Workshop on Artificial Intelligence for Cybersecurity and Privacy
+```

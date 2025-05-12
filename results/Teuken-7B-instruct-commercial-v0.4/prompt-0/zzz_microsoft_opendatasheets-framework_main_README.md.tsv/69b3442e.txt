@@ -1,0 +1,17 @@
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: IJCAI 2023 Benchmark Dataset
+
+**EVALMETRIC**: Accuracy
+
+**LICENSE**: Creative Commons Attribution-NonCommercial 4.0 International License
+
+**ONTOLOGY**: IJCAI 2023 Ontology
+
+**PROJECT**: IJCAI 2023 Benchmarking Dataset
+
+**PUBLICATION**: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI)
+
+**SOFTWARE**: Aether Data Documentation Tool
+
+**WORKSHOP**: IJCAI 2023 Workshop on Artificial Intelligence and Social Goods

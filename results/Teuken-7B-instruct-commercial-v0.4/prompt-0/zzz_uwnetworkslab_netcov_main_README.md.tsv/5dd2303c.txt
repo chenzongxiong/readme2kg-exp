@@ -1,0 +1,22 @@
+```
+## CONFERENCE
+International Semantic Web Conference 2019
+## DATASET
+Maules Creek
+## EVALMETRIC
+Precision, Recall, F1-Score, BLEU Score
+## LICENSE
+cc-by-3
+## ONTOLOGY
+Intelligence Task Ontology
+## PROJECT
+Paper With Code
+## PUBLICATION
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+## SOFTWARE
+Protege ontology editor
+## WORKSHOP
+PAV-SOD: Panoramic Audiovisual Saliency Detection
+https://ai.meta.com/llama
+```

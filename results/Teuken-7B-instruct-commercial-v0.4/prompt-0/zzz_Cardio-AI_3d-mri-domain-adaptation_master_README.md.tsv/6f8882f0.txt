@@ -1,0 +1,7 @@
+The following is the NER-annotated text in Markdown format:
+```markdown
+**Conference**:** Epub 2011 Sep 9.**
+```
+This text contains a single entity, which is a conference event. The entity has been annotated using the correct XML-style tags, as instructed by the guidelines. The entity is enclosed in the `<CONFERENCE>` tag and is tagged as follows:
+
+* `Epub 2011 Sep 9.` is not an entity and has not been annotated.

@@ -1,0 +1,20 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: Stanford CoreNLP Dataset
+**EVALMETRIC**: F1 Score
+**LICENSE**: CC-BY 4.0
+**ONTOLOGY**: WordNet Ontology
+**PROJECT**: SemEval-2017 Task 3
+**PUBLICATION**: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE**: NLTK Python Library
+**WORKSHOP**: Workshop on Natural Language Processing for Healthcare
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: Stanford CoreNLP Dataset
+**EVALMETRIC**: F1 Score
+**LICENSE**: CC-BY 4.0
+**ONTOLOGY**: WordNet Ontology
+**PROJECT**: SemEval-2017 Task 3
+**PUBLICATION**: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing
+**SOFTWARE**: NLTK Python Library
+**WORKSHOP**: Workshop on Natural Language Processing for Healthcare
+```

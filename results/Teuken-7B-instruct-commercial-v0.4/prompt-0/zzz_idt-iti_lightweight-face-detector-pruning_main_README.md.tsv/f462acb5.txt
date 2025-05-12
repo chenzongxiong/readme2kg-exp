@@ -1,0 +1,9 @@
+**CONFERENCE**: International Conference on Computational Linguistics and Intelligent Text Processing
+**DATASET**: Benchmark Corpus for Evaluating Neural Machine Translation Systems
+**EVALMETRIC**: BLEU Score
+**LICENSE**: Creative Commons Attribution-NonCommercial 4.0 International Public License
+**ONTOLOGY**: Ontology of Conceptual Structures
+**PROJECT**: Knowledge Graph Embeddings for Semantic Parsing
+**PUBLICATION**: Proceedings of the 35th International Conference on Computational Linguistics
+**SOFTWARE**: EResFD: Efficient Recurrent Sequence Formation for Dependency Parsing
+**WORKSHOP**: Workshop on Machine Learning for Natural Language Processing and Computational Linguistics

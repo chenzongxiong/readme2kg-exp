@@ -1,0 +1,2 @@
+## NER Annotated Text in Markdown Format
+Python packages might be missing: cython, opencv-python >= 3.2.0, easydict.

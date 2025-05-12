@@ -1,0 +1,18 @@
+Output Text:
+```css
+CONFERENCE                  : CVPR 2017 spotlight paper
+DATASET                    : FCIS
+LICENSE                    : cc-by-3
+ONTOLOGY                   : Visual Geometry Framework (VGG) ontology
+PROJECT                    : Fast and robust object detection (FCIS)
+PUBLICATION                : Fast and robust object detection (FCIS)
+SOFTWARE                   : Protege ontology editor
+```
+Explanation:
+
+* The input text contains one conference and one dataset. Both are annotated with the appropriate tag: `CONFERENCE` for `CVPR 2017 spotlight paper` and `DATASET` for `FCIS`.
+* The input text also mentions a license, which is `cc-by-3`.
+* The input text refers to an ontology, which is `Visual Geometry Framework (VGG) ontology`.
+* The input text discusses a project, which is `Fast and robust object detection (FCIS)`.
+* The input text cites a publication, which is `Fast and robust object detection (FCIS)`.
+* The input text suggests a software tool, which is `Protege ontology editor`.

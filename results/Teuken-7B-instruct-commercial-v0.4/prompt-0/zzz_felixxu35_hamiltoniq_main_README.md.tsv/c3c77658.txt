@@ -1,0 +1,3 @@
+```
+The <CONFERENCE>Conference on Human Computation and Crowdsourcing</CONFERENCY> is a premier conference focused on the use of human intelligence to solve complex problems.
+```

@@ -1,0 +1,18 @@
+```
+The SOFTWARE Protege Ontology Editor is widely used for creating ontologies.
+The PROJECT Paper With Code is a planned initiative aimed at addressing a research question or achieving a specific goal.
+The PUBLICATION No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths is a creative work resulting from a publishing process, such as a journal article, conference proceeding, or preprint.
+The WORKSHOP PAV-SOD is an educational or hands-on session focused on a specific subject.
+The PROJECT PAV-SOD is a scientific initiative aimed at developing a system for detecting panorama-based salient objects in images.
+The ONTOLOGY Intelligence Task Ontology is a framework representing knowledge about a domain, including concepts, entities, properties, and relationships.
+The LICENSE cc-by-3 is a legal term and condition for using a particular resource.
+The DATASET BookSum Dataset is a structured collection of data organized for a specific goal such as analysis, research, or reference.
+The PROJECT PAO-SOD is a scientific initiative aimed at developing a system for detecting panorama-based salient objects in images.
+The WORKSHOP PAO-SOD is an educational or hands-on session focused on a specific subject.
+The PROJECT PAO-SOD is a scientific initiative aimed at developing a system for detecting panorama-based salient objects in images.
+The WORKSHOP PAO-SOD is an educational or hands-on session focused on a specific subject.
+The PROJECT PAO-SOD is a scientific initiative aimed at developing a system for detecting panorama-based salient objects in images.
+The WORKSHOP PAO-SOD is an educational or hands-on session focused on a specific subject.
+The PROJECT PAO-SOD is a scientific initiative aimed at developing a system for detecting panorama-based salient objects in images.
+The WORKSHOP PAO-SOD is an educational or hands-on session focused on a specific subject.
+```

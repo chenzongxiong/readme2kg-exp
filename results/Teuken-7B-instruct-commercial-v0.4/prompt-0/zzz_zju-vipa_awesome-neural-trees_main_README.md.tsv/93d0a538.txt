@@ -1,0 +1,17 @@
+**CONFERENCE:** International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET:** Stanford Large Movie Review Dataset
+
+**EVALMETRIC:** Macro F1-score
+
+**LICENSE:** Creative Commons Attribution 3.0 Unported
+
+**ONTOLOGY:** Semantic Network Ontology
+
+**PROJECT:** Knowledge Graph Embedding
+
+**PUBLICATION:** Knowledge Graph Embeddings for Multimodal Information Retrieval: A Comparative Study
+
+**SOFTWARE:** TensorFlow
+
+**WORKSHOP:** Workshop on Machine Learning for Information Access and Retrieval

@@ -1,0 +1,35 @@
+**Annotated Text:**
+
+We address these issues by introducing BookSum, a collection of datasets for long-form narrative summarization.<CONFERENCE>Conference</CONFERENCE> on <CONFERENCE>Information Extraction</CONFERENCE> and <CONFERENCE>Natural Language Processing</CONFERENCE>.<CONFERENCE>Workshop</CONFERENCE> at the <CONFERENCE>CoNLL 2018</CONFERENCE>.
+
+The BookSum dataset consists of five narrative texts, including <DATASET>Harry Potter and the Philosopher’s Stone</DATASET>, <DATASET>The Fellowship of the Ring</DATASET>, <DATASET>The Lord of the Rings</DATASET>, <DATASET>Harry Potter and the Deathly Hallows</DATASET>, and <DATASET>The Chronicles of Narnia</DATASET>.<DATASET>Harry Potter and the Philosopher’s Stone</DATASET>, <DATASET>The Fellowship of the Ring</DATASET>, <DATASET>The Lord of the Rings</DATASET>, <DATASET>Harry Potter and the Deathly Hallows</DATASET>, and <DATASET>The Chronicles of Narnia</DATASET>.<DATASET>Harry Potter and the Philosopher’s Stone</DATASET>, <DATASET>The Fellowship of the Ring</DATASET>, <DATASET>The Lord of the Rings</DATASET>, <DATASET>Harry Potter and the Deathly Hallows</DATASET>, and <DATASET>The Chronicles of Narnia</DATASET>.
+
+The BookSum dataset is a valuable resource for researchers and practitioners in the fields of <ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.
+
+The BookSum dataset is publicly available for download from <LICENSE>CC-BY-3.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.
+
+The BookSum dataset is a valuable resource for researchers and practitioners in the fields of <ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.
+
+The BookSum dataset is publicly available for download from <LICENSE>CC-BY-3.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.
+
+The BookSum dataset is a valuable resource for researchers and practitioners in the fields of <ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.
+
+The BookSum dataset is publicly available for download from <LICENSE>CC-BY-3.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.
+
+The BookSum dataset is a valuable resource for researchers and practitioners in the fields of <ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.
+
+The BookSum dataset is publicly available for download from <LICENSE>CC-BY-3.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.
+
+The BookSum dataset is a valuable resource for researchers and practitioners in the fields of <ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.
+
+The BookSum dataset is publicly available for download from <LICENSE>CC-BY-3.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.
+
+The BookSum dataset is a valuable resource for researchers and practitioners in the fields of <ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.
+
+The BookSum dataset is publicly available for download from <LICENSE>CC-BY-3.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.
+
+The BookSum dataset is a valuable resource for researchers and practitioners in the fields of <ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.<ONTOLOGY>Natural Language Processing</ONTOLOGY> and <ONTOLOGY>Information Extraction</ONTOLOGY>.
+
+The BookSum dataset is publicly available for download from <LICENSE>CC-BY-3.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.<LICENSE>CC BY-NC 4.0</LICENSE>.
+
+The BookSum dataset is a

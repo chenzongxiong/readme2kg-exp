@@ -1,0 +1,12 @@
+```
+CONFERENCE: ICMLC
+DATASET: Induce DTs from more valid data filtered by the trained NNs
+EVALMETRIC: An integrated approach of neural network and decision tree to classification
+LICENSE: <LICENSE>cc-by-3</LICENSE>
+ONTOLOGY: None provided
+PROJECT: None provided
+PUBLICATION: <PUBLICATION>An integrated approach of neural network and decision tree to classification</PUBLICATION>. In <PUBLICATION>Proceedings of the 22nd International Conference on Machine Learning</PUBLICATION>
+SOFTWARE: Induce DTs from more valid data filtered by the trained NNs
+WORKSHOP: ICMLC
+```
+Note: In the input text, there are some extra characters that are not relevant to the entities. Please ignore them while generating the Markdown output.

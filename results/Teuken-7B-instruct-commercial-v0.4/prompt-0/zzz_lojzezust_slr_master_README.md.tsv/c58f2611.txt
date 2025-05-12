@@ -1,0 +1,13 @@
+The following is the annotated text based on the guidelines provided:
+```markdown
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2019)
+DATASET: IJCAI-19 Task 3: Machine Reading Comprehension (MRC) Dataset
+EVALMETRIC: F1 Score
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: IJCAI-19 Task 3 Ontology
+PROJECT: IJCAI-19 Task 3: Machine Reading Comprehension (MRC) Project
+PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2019)
+SOFTWARE: Protégé ontology editor
+WORKSHOP: PAV-SOD: Panoramic Audiovisual Saliency Detection Workshop at ECCV 2019
+```
+Note: In this example, there is no need to annotate the text as it is a single sentence.

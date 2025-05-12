@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**      : "Joint Conference on Neural Information Processing Systems (Conference)"
+**DATASET**         : "BookSum Dataset"
+**EVALMETRIC**     : "Precision"
+**LICENSE**        : "CC BY-NC 4.0"
+**ONTOLOGY**       : "Intelligence Task Ontology"
+**PROJECT**        : "PAV-SOD: Panoramic Audiovisual Saliency Detection"
+**PUBLICATION**    : "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths"
+**SOFTWARE**       : "Protege ontology editor"
+**WORKSHOP**       : "PAV-SOD: Panoramic Audiovisual Saliency Detection"
+```

@@ -1,0 +1,20 @@
+```
+## Named Entity Recognition (NER) on the given text
+
+- **CONFERENCE**: Conference events.
+*src/pre_process/pre_proc_cocits.py*: Generate training data for the models reported in the paper.
+- **DATASET**: Structured collections of data.
+*Maules Creek*: A popular vacation destination in North Carolina.
+* **EVALMETRIC**: Evaluation metrics for models.
+* **LICENSE**: Licensing terms.
+- **ONTOLOGY**: Semantic frameworks for knowledge representation.
+* **PROJECT**: Scientific or business initiatives.
+* **PUBLICATION**: Scholarly works.
+* **SOFTWARE**: Software tools or programs.
+
+Annotated Text:
+```python
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+<br>
+```

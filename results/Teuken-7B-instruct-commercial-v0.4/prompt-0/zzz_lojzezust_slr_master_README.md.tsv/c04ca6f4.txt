@@ -1,0 +1,17 @@
+TIP] > Use the `--help` switch for more details on all possible arguments and settings.  #### Step III: Fine-tune model  Fine-tune the initial model on the estimated pseudo-labels from the previous step.
+
+The previous step used the initial model to perform NER on the given text. However, the accuracy of the model can be improved by fine-tuning it on the estimated pseudo-labels obtained from the previous step. Fine-tuning involves updating the model weights using the estimated pseudo-labels as input and the true labels as the target. This process helps the model learn from the correct labels and improve its performance.
+
+To fine-tune the model, use the following command:
+```sql
+python train.py --train_data_path <PATH_TO_TRAIN_DATA> --dev_data_path <PATH_TO_DEV_DATA> --model <MODEL_NAME> --do_train --do_lower_case --learning_rate <LEARNING_RATE> --num_train_epochs <NUM_TRAIN_EPOCHS> --warmup_steps <WARMUP_STEPS> --logging_steps <NUM_TRAIN_STEPS> --save_steps <SAVE_STEPS> --evaluate_during_training --per_device_train_batch_size <PER_DEVICE_TRAIN_BATCH_SIZE> --per_device_eval_batch_size <PER_DEVICE_EVAL_BATCH_SIZE> --gradient_accumulation_steps <GRADIENT_ACCUMULATION_STEPS> --max_seq_length <MAX_SEQ_LENGTH> --doc_stride <DOC_STRIDE> --fp16 <FLOPs> --fp16_opt_level <FLOPs> --adam_beta1 <ADAM_BETA1> --adam_beta2 <ADAM_BETA2> --adam_epsilon <ADAM_EPSILON> --eps <EPSILON> --loss <LOSS> --metric <METRIC> --output_dir <OUTPUT_DIR> --overwrite_output_dir
+```
+Replace `<PATH_TO_TRAIN_DATA>`, `<PATH_TO_DEV_DATA>`, `<MODEL_NAME>`, `<LEARNING_RATE>`, `<NUM_TRAIN_EPOCHS>`, `<WARMUP_STEPS>`, `<PER_DEVICE_TRAIN_BATCH_SIZE>`, `<PER_DEVICE_EVAL_BATCH_SIZE>`, `<GRADIENT_ACCUMULATION_STEPS>`, `<MAX_SEQ_LENGTH>`, `<DOC_STRIDE>`, `<FLOPs>`, `<ADAM_BETA1>`, `<ADAM_BETA2>`, `<ADAM_EPSILON>`, `<EPSILON>`, `<LOSS>`, and `<METRIC>` with the appropriate values for your specific use case.
+
+After fine-tuning, evaluate the model on the development set using the `evaluate.py` script:
+```perl
+python evaluate.py --predictions <PATH_TO_PREDICTIONS_FILE> --gold_labels <PATH_TO_GOLD_LABELS_FILE> --model <MODEL_NAME> --do_predict --max_seq_length <MAX_SEQ_LENGTH> --doc_stride <DOC_STRIDE> --output_prediction_file <OUTPUT_DIR>/predictions.json --output_file <OUTPUT_DIR>/results.json
+```
+Replace `<PATH_TO_PREDICTIONS_FILE>`, `<PATH_TO_GOLD_LABELS_FILE>`, `<MODEL_NAME>`, `<MAX_SEQ_LENGTH>`, `<DOC_STRIDE>`, `<OUTPUT_DIR>`, and `<OUTPUT_PREDICTION_FILE>` and `<OUTPUT_RESULTS_FILE>` with the appropriate values for your specific use case.
+
+The output file `results.json` contains the results of the evaluation, and the output file `predictions.json` contains the predicted NER labels for the entire corpus. You can use these results to further fine-tune the model or to perform other downstream tasks.

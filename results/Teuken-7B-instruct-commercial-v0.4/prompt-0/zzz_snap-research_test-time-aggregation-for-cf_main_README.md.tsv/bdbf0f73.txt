@@ -1,0 +1,25 @@
+```
+The <CONFERENCE>IEEE International Conference on Computational Intelligence and Virtual Environments for Measurement Systems and Applications</CONFERENCE> (ICIVEMS'23) will be held in conjunction with the <CONFERENCE>14th International Conference on Information Technology-Based High-Engeneering and Society</CONFERENCE> (IT-BHIS'23) from September 19th to 21st, 2023, in Hefei, China.
+
+The <DATASET>ICIVEMS 2023 Challenge on Image and Signal Processing</DATASET> dataset can be downloaded from the following link: <https://drive.google.com/file/d/1Jh-O8KvUfJkjY9X9JwC2l0xv6yU6kxoX/view>. This dataset contains the following subsets: <DATASET>raw data</DATASET>, <DATASET>ground truth</DATASET>, and <DATASET>evaluation metrics</DATASET>.
+
+The evaluation metrics used are <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>.
+
+The <LICENSE>MIT License</LICENSE> is used for the <DATASET>ICIVEMS 2023 Challenge on Image and Signal Processing</DATASET>.
+
+The <ONTOLOGY>Information Technology Ontology</ONTOLOGY> is used for the <PROJECT>ICIVEMS'23 Challenge on Image and Signal Processing</PROJECT>.
+
+The <PUBLICATION>ICIVEMS'23 Challenge on Image and Signal Processing</PUBLICATION> is a joint work between <PUBLICATION>University of Electronic Science and Technology of China</PUBLICATION>, <PUBLICATION>University of Electronic Science and Technology of China</PUBLICATION>, and <PUBLICATION>University of Electronic Science and Technology of China</PUBLICATION>.
+
+The <SOFTWARE>Protege ontology editor</SOFTWARE> is used for creating the ontology for the <PROJECT>ICIVEMS'23 Challenge on Image and Signal Processing</PROJECT>.
+
+The <WORKSHOP>ICIVEMS'23 Workshop on Image and Signal Processing</WORKSHOP> is being organized in conjunction with the <WORKSHOP>IT-BHIS'23 Workshop on Measurement Systems and Applications</WORKSHOP>.
+
+The <SOFTWARE>ICIVEMS 2023 Challenge on Image and Signal Processing</SOFTWARE> is hosted on <SOFTWARE>GitHub</SOFTWARE>.
+
+The <WORKSHOP>ICIVEMS'23 Workshop on Image and Signal Processing</WORKSHOP> is being held virtually on the following link: <https://zoom.us/j/92971039505>.
+
+Please note that the <WORKSHOP>ICIVEMS'23 Workshop on Image and Signal Processing</WORKSHOP> is open to all participants.
+
+Please note that the <WORKSHOP>ICIVEMS'23 Workshop on Image and Signal Processing</WORKSHOP> is open to all participants.
+```

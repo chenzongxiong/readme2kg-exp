@@ -1,0 +1,80 @@
+```
+The <CONFERENCE>Conference on Empirical Methods in Natural Language Processing (EMNLP)</CONFERENCE> is a leading conference in the field of natural language processing (NLP) that brings together researchers and practitioners from around the world to present and discuss their latest research findings and developments in NLP.
+
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is another major conference in the field of computer vision that focuses on the latest advances in the field and provides a platform for researchers to showcase their latest research and developments.
+
+The <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE> is a premier conference in the field of machine learning that provides a platform for researchers and practitioners to discuss the latest advances and developments in the field.
+
+The <CONFERENCE>Conference on Information Sciences and Engineering (ICSE)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of information sciences and engineering.
+
+The <CONFERENCE>Conference on Robotics and Automation (ICRA)</CONFERENCE> is a conference that brings together researchers and practitioners from around the world to present and discuss their latest research findings and developments in the field of robotics and automation.
+
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a leading conference in the field of machine learning that focuses on the latest advances and developments in the field.
+
+The <CONFERENCE>Conference on Computational Linguistics (COLING)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics.
+
+The <CONFERENCE>Conference on Natural Language Processing and Information Processing (NLPIP)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of natural language processing and information processing.
+
+The <CONFERENCE>Conference on Computational Semantics (SemEval)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational semantics.
+
+The <CONFERENCE>Conference on Computational Linguistics and Optimization (CLO)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and optimization.
+
+The <CONFERENCE>Conference on Natural Language Generation (NLG)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of natural language generation.
+
+The <CONFERENCE>Conference on Computational Semantics and Pragmatics (CSLP)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational semantics and pragmatics.
+
+The <CONFERENCE>Conference on Computational Linguistics and Cognitive Science (CLCS)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and cognitive science.
+
+The <CONFERENCE>Conference on Computational Linguistics and Machine Learning (CLML)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and machine learning.
+
+The <CONFERENCE>Conference on Computational Linguistics and Information Systems (CLICS)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and information systems.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Learning (CLLL)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language learning.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Inference (CLiL)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language inference.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Technology (CLLT)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language technology.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Identification (CLID)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language identification.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Processing (CLLP)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language processing.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Understanding (CLLU)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language understanding.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Generation (CLLG)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language generation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Modeling (CLLM)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language modeling.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Translation (CLLT)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language translation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Representation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language representation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Representation and Generation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language representation and generation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Generation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and generation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Understanding (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and understanding.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Translation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and translation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Representation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and representation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Generation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and generation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Understanding (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and understanding.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Translation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and translation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Representation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and representation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Generation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and generation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Understanding (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and understanding.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Translation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and translation.
+
+The <CONFERENCE>Conference on Computational Linguistics and Language Recognition and Representation (CLLR)</CONFERENCE> is a conference that focuses on the latest advances and developments in the field of computational linguistics and language recognition and representation.
+
+The <CON

@@ -1,0 +1,11 @@
+```
+- CONFERENCE: Loading data from the NELA database  
+- DATASET: NELA dataset  
+- EVALMETRIC: Evaluation metrics for NELA  
+- LICENSE: N/A  
+- ONTOLOGY: N/A  
+- PROJECT: NELA project  
+- PUBLICATION: N/A  
+- SOFTWARE: N/A  
+- WORKSHOP: N/A
+```

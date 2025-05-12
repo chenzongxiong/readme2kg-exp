@@ -1,0 +1,25 @@
+```
+## Entities
+- CONFERENCE: Meetings or gatherings focused on a field of study or topic.
+- DATASET: Organized collections of data.
+- EVALMETRIC: Metrics for assessing model performance.
+- LICENSE: Legal terms for using resources.
+- ONTOLOGY: Frameworks for knowledge representation.
+- PROGLANG: Programming languages.
+- PROJECT: Initiatives for research or goals.
+- PUBLICATION: Scholarly works.
+- SOFTWARE: Programs or tools.
+- WORKSHOP: Events focused on a specific subject.
+
+## Annotation Rules
+- Include the entire proper name but exclude standalone generic descriptors (e.g., exclude "Dataset" in "BookSum Dataset").
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+- Output Format:
+- Return the original content with entities directly annotated using XML-style tags for their respective classes. Example:
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```

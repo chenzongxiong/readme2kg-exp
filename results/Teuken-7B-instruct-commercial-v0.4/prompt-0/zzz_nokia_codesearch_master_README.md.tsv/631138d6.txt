@@ -1,0 +1,4 @@
+```markdown
+<!-- NER Annotated Text: -->
+The <SOFTWARE>CodeSearchNet</SOFTWARE> library is widely used for searching and ranking documents based on semantic similarity.
+```

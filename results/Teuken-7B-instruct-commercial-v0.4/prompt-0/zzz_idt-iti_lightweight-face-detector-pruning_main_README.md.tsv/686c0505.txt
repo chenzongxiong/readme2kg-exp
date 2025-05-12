@@ -1,0 +1,19 @@
+## NER Annotated Text in Markdown Format
+
+**CONFERENCE:** International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET:** IJCAI-19 Task 3: Machine Reading Comprehension
+
+**EVALMETRIC:** Macro F1-Score
+
+**LICENSE:** CC-BY-3.0
+
+**ONTOLOGY:** IJCAI 2021 Ontology
+
+**PROJECT:** IJCAI-19 Task 3: Machine Reading Comprehension
+
+**PUBLICATION:** Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI)
+
+**SOFTWARE:** Hugging Face Transformers 4.10.3.1
+
+**WORKSHOP:** IJCAI-19 Workshop on Machine Reading Comprehension and Information Extraction (IJCAI-MRC-19)

@@ -1,0 +1,3 @@
+The original text with entities directly annotated using XML-style tags:
+
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.

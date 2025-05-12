@@ -1,0 +1,15 @@
+```
+CONFERENCE: Open Datasheets
+DATASET: Open Datasheets
+EVALMETRIC: None
+LICENSE: None
+ONTOLOGY: None
+PROJECT: None
+PUBLICATION: None
+SOFTWARE: Open Datasheets
+WORKSHOP: None
+```
+
+```
+The <SOFTWARE>Open Datasheets</SOFTWARE> framework is a simple, standardized no-code way to document datasets.
+```

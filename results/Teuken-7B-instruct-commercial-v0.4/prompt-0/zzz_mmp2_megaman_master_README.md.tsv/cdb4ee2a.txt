@@ -1,0 +1,12 @@
+.CONFERENCE International Semantic Web Conference 2019
+.CONFERENCE ISWC 2019
+.CONFERENCE CVPR2023 workshop
+.DATASET Download the U.S. Trademark Patent Office (USPTO) dataset from <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>
+.EVALMETRIC Precision, Recall, F1-Score, and BLEU Score
+.LICENSE cc-by-3, CC BY-NC 4.0
+.ONTOLOGY Intelligence Task Ontology
+.PROGLANG Python, PHP, C++
+.PROJECT Paper With Code <https://paperswithcode.com/>
+.PUBLICATION No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+.SOFTWARE Protege ontology editor
+.WORKSHOP Thermal Image Super-Resolution

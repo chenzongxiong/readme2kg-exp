@@ -1,0 +1,13 @@
+Output Text:
+```less
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI 2019)
+**DATASET**: Stanford Large Movie Review Dataset
+**EVALMETRIC**: Accuracy
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Common Sense Reasoning Ontology
+**PROJECT**: Common Sense Reasoning (CSR) project
+**PUBLICATION**: Proceedings of the 25th International Joint Conference on Artificial Intelligence
+**SOFTWARE**: OpenCyc Ontology Editor
+**WORKSHOP**: Workshop on Common Sense Reasoning (CSR-KDD 2019)
+```
+Note: The entities are directly annotated in the original text using XML-style tags for their respective classes.

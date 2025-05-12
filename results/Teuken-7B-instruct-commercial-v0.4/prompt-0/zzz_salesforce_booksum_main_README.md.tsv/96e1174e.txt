@@ -1,0 +1,11 @@
+```
+CONFERENCE: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+DATASET: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+EVALMETRIC: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+LICENSE: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+ONTOLOGY: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+PROJECT: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+PUBLICATION: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+SOFTWARE: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+WORKSHOP: This is useful to inspect which links are actually unavailable and re-running the data collection scripts for those specific links. 3.
+```

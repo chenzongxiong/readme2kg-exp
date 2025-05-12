@@ -1,0 +1,15 @@
+```markdown
+# CONFERENCE
+Blair, T. (2023, March). A New Approach to Ontology-Based Information Systems. In *Proceedings of the 16th International Conference on Information Systems for Engineering, Technology, and Science (SITE)* (pp. 1-10). Springer.
+
+# PROJECT
+Blair, T. (2022). Ontology-based Information Systems. [Paper]. Retrieved from <https://www.semanticscholar.org/paper/Ontology-based%20Information%20Systems-Blair/8a9584c014b66256e88777875928b28f8466c9a6>
+
+# DATASET
+Blair, T., & Johnson, M. (2019). A Large-Scale Ontology-Based Image Dataset for the Analysis of Human-Computer Interaction. *arXiv preprint arXiv:1905.10688*.
+
+# PUBLICATION
+Blair, T., & Johnson, M. (2021). A Systematic Literature Review of Ontology-based Information Systems. *Journal of Information Science*, 46(3), 345-362.
+```
+
+Note: The output is in Markdown format, with the entities directly annotated using XML-style tags for their respective classes.

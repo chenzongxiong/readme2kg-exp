@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI 2023 Data
+EVALMETRIC: Average Precision (AP)
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Project
+PUBLICATION: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023)
+SOFTWARE: IJCAI 2023 Software
+WORKSHOP: IJCAI 2023 Workshop
+```

@@ -1,0 +1,19 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence (IJCAI)
+
+**DATASET**: ImageNet
+
+**EVALMETRIC**: Top-1 accuracy
+
+**LICENSE**: Creative Commons Attribution-ShareAlike 4.0 International
+
+**ONTOLOGY**: Semantic Web Ontology Language (OWL)
+
+**PROJECT**: SemEval-2017 Task 7: Multilingual Sentiment Analysis
+
+**PUBLICATION**: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP 2017)
+
+**SOFTWARE**: BERT
+
+**WORKSHOP**: Workshop on Semantic Representations and Reasoning (SemRep 2019)
+```

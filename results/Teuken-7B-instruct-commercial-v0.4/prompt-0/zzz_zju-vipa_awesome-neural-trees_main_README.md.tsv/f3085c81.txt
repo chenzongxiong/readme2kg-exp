@@ -1,0 +1,42 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: Stanford Large Network Dataset Collection
+**EVALMETRIC**: F1-Score
+**LICENSE**: Creative Commons Attribution 4.0
+**ONTOLOGY**: Resource Description Framework (RDF)
+**PROGLANG**: Python
+**PROJECT**: Stanford Large Network Dataset Collection
+**PUBLICATION**: Proceedings of the 25th International Conference on Computational Geometry
+**SOFTWARE**: Gephi
+**WORKSHOP**: Workshop on 3D Data Integration and Analytics for Social Good
+**CONFERENCE**: International Conference on Machine Learning
+**DATASET**: ImageNet Large Scale Visual Recognition Challenge
+**EVALMETRIC**: Top-5 Error Rate
+**LICENSE**: Creative Commons Attribution-Share Alike 4.0
+**ONTOLOGY**: Cyc
+**PROGLANG**: Prolog
+**PROJECT**: Stanford Large Network Dataset Collection
+**PUBLICATION**: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+**SOFTWARE**: OpenCV
+**WORKSHOP**: Workshop on Deep Learning for Computer Vision
+**CONFERENCE**: Conference on Computer Vision and Pattern Recognition
+**DATASET**: PASCAL VOC
+**EVALMETRIC**: Average Precision
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0
+**ONTOLOGY**: Cyc
+**PROGLANG**: Prolog
+**PROJECT**: Stanford Large Network Dataset Collection
+**PUBLICATION**: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+**SOFTWARE**: OpenCV
+**WORKSHOP**: Workshop on Deep Learning for Computer Vision
+**CONFERENCE**: Conference on Computer Vision and Pattern Recognition
+**DATASET**: PASCAL VOC
+**EVALMETRIC**: Average Precision
+**LICENSE**: Creative Commons Attribution-Share Alike 3.0
+**ONTOLOGY**: Cyc
+**PROGLANG**: Prolog
+**PROJECT**: Stanford Large Network Dataset Collection
+**PUBLICATION**: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+**SOFTWARE**: OpenCV
+**WORKSHOP**: Workshop on Deep Learning for Computer Vision
+```

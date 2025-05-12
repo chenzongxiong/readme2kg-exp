@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP
+EVALMETRIC: ROUGE-1, ROUGE-2, ROUGE-L
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: SNOMED CT
+PROJECT: SemEval-2020 Task 8
+PUBLICATION: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Semantic Analysis and Reasoning (STAR)
+```

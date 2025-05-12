@@ -1,0 +1,25 @@
+```
+CONFERENCE: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+WORKSHOP: Thermal Image Super-Resolution
+LICENSE: cc-by-3
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+ONTOLOGY: Intelligence Task Ontology
+SOFTWARE: Protege Ontology Editor
+DATASET: BookSum Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-nc 4.0
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+ONTOLOGY: Intelligence Task Ontology
+SOFTWARE: Protege Ontology Editor
+DATASET: BookSum Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+LICENSE: cc-by-sa 4.0
+PROJECT: Paper With Code
+PUBLICATION: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+ONTOLOGY: Intelligence Task Ontology
+SOFTWARE: Protege Ontology Editor
+DATASET: BookSum Dataset
+EVALMETRIC: Precision, Recall, F1-Score, BLEU Score
+```

@@ -1,0 +1,18 @@
+Output Text:
+```markdown
+**Conference**         : International Semantic Web Conference 2021
+**Dataset**            : WikiText-103
+**EVALMETRIC**       : Precision
+**LICENSE**          : CC BY-NC 4.0
+**ONTOLOGY**          : OBO Foundry
+**PROJECT**           : SemEval-2021 Task 3
+**PUBLICATION**      : Proceedings of the 3rd Workshop on Semantic Evaluation (SemEval 2021)
+**SOFTWARE**          : Stanford CoreNLP
+**WORKSHOP**          : SemEval-2021 Task 3: SemEval 2021 Workshop
+**DATASET**           : SemEval-2021 Task 3 Dataset
+**CONFERENCE**        : SemEval-2021 Task 3
+**LICENSE**          : CC BY-NC-SA 4.0
+**ONTOLOGY**          : SKOS
+**PROJECT**           : SemEval-2021 Task 3
+**PUBLICATION**      : Proceedings of the 3rd Workshop on Semantic Evaluation (SemEval 2021)
+```

@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Conference on Computational Science and Engineering
+DATASET: UCI Machine Learning Repository
+EVALMETRIC: Accuracy
+LICENSE: Creative Commons Attribution-Share Alike 4.0 International
+ONTOLOGY: Ontology for Computational Science and Engineering
+PROJECT: Quantitative Understanding of Machine Learning for Real-time Decision Making
+PUBLICATION: Proceedings of the 2nd International Conference on Computational Science and Engineering
+SOFTWARE: TensorFlow
+WORKSHOP: Workshop on Machine Learning for Real-time Decision Making
+```

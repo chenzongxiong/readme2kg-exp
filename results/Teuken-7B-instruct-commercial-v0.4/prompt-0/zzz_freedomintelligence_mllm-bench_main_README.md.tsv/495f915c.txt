@@ -1,0 +1,18 @@
+```
+The Conference is the International Joint Conference on Neural Networks (IJCNN 2022).
+The Workshop refers to the Workshop on Adversarial Robustness in Deep Learning (ADL 2022).
+The Project is the Neural Architecture Search for Adversarial Robustness using Imitation Learning (NASA-RoADL 2022).
+The License is the Apache License 2.0.
+The Ontology is the IJCAI-2022 Ontology.
+The Evaluation Metric is the Precision.
+The Software is the TensorFlow 2.6.
+The Workshop refers to the Workshop on Adversarial Robustness in Deep Learning (ADL 2022).
+The Project is the Neural Architecture Search for Adversarial Robustness using Imitation Learning (NASA-RoADL 2022).
+The Software is the TensorFlow 2.6.
+The Workshop refers to the Workshop on Adversarial Robustness in Deep Learning (ADL 2022).
+The Project is the Neural Architecture Search for Adversarial Robustness using Imitation Learning (NASA-RoADL 2022).
+The Software is the TensorFlow 2.6.
+The Workshop refers to the Workshop on Adversarial Robustness in Deep Learning (ADL 2022).
+The Project is the Neural Architecture Search for Adversarial Robustness using Imitation Learning (NASA-RoADL 2022).
+The Software is the TensorFlow 2.6.
+```

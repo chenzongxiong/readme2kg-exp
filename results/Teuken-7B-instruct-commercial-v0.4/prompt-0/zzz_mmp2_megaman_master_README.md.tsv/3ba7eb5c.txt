@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: Stanford Large Movie Review Dataset
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Intelligence Task Ontology
+**PROJECT**: Paper With Code
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: Thermal Image Super-Resolution
+```

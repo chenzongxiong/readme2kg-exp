@@ -1,0 +1,26 @@
+Demo: <DEMO>Conference</DEMO>, <CONFERENCE>International Semantic Web Conference 2019</CONFERENCE>, <CONFERENCE>ISWC 2019</CONFERENCE>, <CONFERENCE>CVPR2023</CONFERENCE> workshop
+
+DATASET: <DATASET>Maules Creek</DATASET>
+Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip)
+
+EVALMETRIC: <EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC>
+
+LICENSE: <LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE>
+
+ONTOLOGY: <ONTOLOGY>Intelligence Task Ontology</ONTOLOGY>
+The Intelligence Task Ontology (ITO) is a framework for understanding the complexities of intelligence tasks and their associated processes. It provides a structured representation of the knowledge and concepts related to intelligence tasks, including the tasks themselves, the actors involved, the contexts in which they are performed, and the resources required. The ITO is designed to be used as a common vocabulary for sharing and integrating information about intelligence tasks across different domains and communities.
+
+PROGLANG: <PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG>
+Python, PHP, and C++ are programming languages that are widely used in various domains, including web development, server-side scripting, and system programming. They are known for their ease of use, flexibility, and powerful libraries, making them popular choices for developers.
+
+PROJECT: <PROJECT>Paper With Code</PROJECT> project (https://<PROJECT>paperswithcode</PROJECT>.com/)
+The Paper With Code project is an initiative aimed at promoting the use of machine learning models in research and development. It provides a platform for researchers to share their work, collaborate with others, and receive feedback on their models. The project also offers a range of tools and resources to help researchers improve the performance and reliability of their models.
+
+PUBLICATION: <PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION>
+No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths is a research paper published in the Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. The paper presents a novel approach to modeling sequences of excessive or insufficient lengths, which is a common problem in many domains, such as natural language processing, speech recognition, and computer vision. The paper proposes a new method for improving the accuracy of these models by incorporating length-based information into the knowledge tracing process.
+
+SOFTWARE: <SOFTWARE>Protege ontology editor</SOFTWARE>
+Protege is a widely used ontology editor that enables users to create and edit ontologies. It is a powerful tool for designing and maintaining knowledge representation systems, such as ontologies and taxonomies. Protege provides a range of features, including a user-friendly interface, a rich set of tools, and support for multiple ontology languages. It is widely used by researchers, developers, and domain experts to build and maintain ontologies for various applications.
+
+WORKSHOP: <WORKSHOP>Thermal Image Super-Resolution</WORKSHOP>. In <WORKSHOP>PBVS-Workshop</WORKSHOP>.github.io/datasets.html
+The Thermal Image Super-Resolution workshop is an educational event focused on the topic of super-resolution in thermal images. The workshop provides a hands-on opportunity for participants to learn about the latest research and techniques in this field. The workshop is organized by the Probabilistic Visual Reasoning and Semantics (PBVS) research group, and it offers a range of resources and tools to help participants explore and analyze the data provided. The workshop is open to researchers, developers, and students with an interest in the field of computer vision and machine learning.

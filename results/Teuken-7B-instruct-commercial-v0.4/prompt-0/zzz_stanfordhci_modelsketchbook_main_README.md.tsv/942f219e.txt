@@ -1,0 +1,11 @@
+```
+CONFERENCE: Ground Truth
+DATASET: Ground Truth
+EVALMETRIC: Ground Truth
+LICENSE: Ground Truth
+ONTOLOGY: Ground Truth
+PROJECT: Ground Truth
+PUBLICATION: Ground Truth
+SOFTWARE: Ground Truth
+WORKSHOP: Ground Truth
+```

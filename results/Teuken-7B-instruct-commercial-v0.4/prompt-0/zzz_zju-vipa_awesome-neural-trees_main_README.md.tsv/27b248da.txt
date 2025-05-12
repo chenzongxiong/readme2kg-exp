@@ -1,0 +1,6 @@
+The following is the annotated text with entities directly tagged using XML-style tags:
+```markdown
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+They are perceived implicit combinations of NNs and DTs, because NNs and DTs still operate on their  own paradigms and no hybrid model is produced.  #### 1.1 DTs as Structural Priors of NNs.
+```
+In the original text, there are no entities that require annotation.

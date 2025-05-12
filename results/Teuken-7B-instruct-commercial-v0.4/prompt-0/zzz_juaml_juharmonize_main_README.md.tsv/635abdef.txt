@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence
+DATASET: NIST 2022 ImageNet Large Scale Visual Recognition Challenge
+EVALMETRIC: Top-5 Error Rate
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Semantic Sensor Network Ontology
+PROJECT: SemEval-2020 Task 8: Visual Question Answering
+PUBLICATION: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing
+SOFTWARE: TensorFlow 2.5
+WORKSHOP: Workshop on Machine Learning for Visual and Audio Information Fusion
+```

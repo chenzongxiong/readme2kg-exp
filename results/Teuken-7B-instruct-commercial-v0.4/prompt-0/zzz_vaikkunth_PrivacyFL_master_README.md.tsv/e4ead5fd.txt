@@ -1,0 +1,5 @@
+## CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+
+### EVALMETRIC: F1-Score
+
+The F1-score is a measure of precision and recall for a binary classification model. In this case, the F1-score measures the balance between precision and recall for the classification of the entity.

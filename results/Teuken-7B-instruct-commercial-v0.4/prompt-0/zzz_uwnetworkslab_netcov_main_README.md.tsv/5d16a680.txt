@@ -1,0 +1,22 @@
+```
+# Pause coverage tracking to avoid over-estimation
+bf.cov.pause()
+# Add tested information using NetCov API
+tested = bf.q.routes(nodes="edge-0000").answer().frame()[tested]
+bf.cov.resume()
+# Filter RIB entries to test
+tested = bf.q.routes(nodes="edge-0000").answer().frame()[tested]["Network"] == "0.0.0.0/0"].head(1)
+# Add tested route to coverage trace
+bf.cov.add_tested_routes(tested)
+```
+**Annotation:**
+
+* CONF: Conference
+* DATASET: Structured collection of data
+* EVALMETRIC: Evaluation metric
+* LICENSE: Licensing terms
+* ONTOLOGY: Semantic framework for knowledge representation
+* PROJECT: Scientific or business initiative
+* PUBLICATION: Scholarly works
+* SOFTWARE: Software tool or program
+* WORKSHOP: Workshop

@@ -1,0 +1,29 @@
+**Annotation:**
+```
+CONFERENCE: Subsequently, the process engages in quantum circuit compilation, employing a specific strategy designed to optimize the execution of quantum circuits on the identified QPUs.
+DATASET: Quantum Machine Learning with IBM Quantum Hardware and Qiskit.
+LICENSE: IBM Q Experience License.
+ONTOLOGY: Quantum Circuit Compilation Ontology.
+PROJECT: Quantum Circuit Compilation for IBM Q Experience.
+PUBLICATION: Quantum Circuit Compilation on IBM Q Experience.
+SOFTWARE: Qiskit, IBM Quantum Experience, IBM QX.
+WORKSHOP: Quantum Machine Learning with IBM Quantum Hardware and Qiskit.
+```
+Output in Markdown format:
+```
+The **CONFERENCE** Subsequently, the process engages in quantum circuit compilation, employing a specific strategy designed to optimize the execution of quantum circuits on the identified QPUs.
+
+The **DATASET** Quantum Machine Learning with IBM Quantum Hardware and Qiskit.
+
+The **LICENSE** IBM Q Experience License.
+
+The **ONTOLOGY** Quantum Circuit Compilation Ontology.
+
+The **PROJECT** Quantum Circuit Compilation for IBM Q Experience.
+
+The **PUBLICATION** Quantum Circuit Compilation on IBM Q Experience.
+
+The **SOFTWARE** Qiskit, IBM Quantum Experience, IBM QX.
+
+The **WORKSHOP** Quantum Machine Learning with IBM Quantum Hardware and Qiskit.
+```

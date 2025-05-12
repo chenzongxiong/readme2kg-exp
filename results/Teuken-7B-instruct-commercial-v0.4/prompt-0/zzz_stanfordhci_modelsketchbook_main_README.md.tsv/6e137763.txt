@@ -1,0 +1,15 @@
+```
+CONFERENCE: International Conference on Human-Computer Interaction
+DATASET: Human-Computer Interaction Dataset
+EVALMETRIC: Average Precision
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: Human-Computer Interaction Ontology
+PROJECT: Model Sketching for Interactive Design
+PUBLICATION: Proceedings of the 35th Annual ACM Conference on Human Factors in Computing Systems
+SOFTWARE: Model Sketching Tool
+WORKSHOP: Model Sketching for Human-Computer Interaction Workshop
+```
+
+```
+The <DATASET>Stanford HCI</DATASET> dataset is widely used for human-computer interaction research.
+```

@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP POS Tagger
+EVALMETRIC: Macro F1 Score
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: DBpedia Ontology
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL 2021)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Machine Learning for Natural Language Processing (MLNLT)
+```

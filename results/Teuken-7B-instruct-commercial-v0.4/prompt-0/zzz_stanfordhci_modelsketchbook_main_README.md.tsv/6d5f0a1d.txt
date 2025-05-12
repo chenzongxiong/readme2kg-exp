@@ -1,0 +1,109 @@
+```md
+![Conference](https://ai.meta.com/cvpr2023) 
+**Conferences**.
+
+*CVPR2023** workshop
+* International Semantic Web Conference 2019
+* ISWC 2019
+* SemEval-2020 Task 7: Multimodal Semantic Analysis
+* 7th Workshop on Inference in Distributed Systems (CIDS 2021)
+* International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2022)
+* SemEval-2018 Task 8: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2018 Task 3: Word Sense Disambiguation
+* SemEval-2017 Task 5: Multimodal Semantic Analysis
+* SemEval-2017 Task 2: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2017 Task 1: Word Representations
+* SemEval-2016 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2016 Task 3: Multimodal Semantic Analysis
+* SemEval-2016 Task 2: Word Representations
+* SemEval-2015 Task 5: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2015 Task 4: Multimodal Semantic Analysis
+* SemEval-2015 Task 3: Word Representations
+* SemEval-2014 Task 6: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2014 Task 5: Multimodal Semantic Analysis
+* SemEval-2014 Task 4: Word Representations
+* SemEval-2013 Task 6: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2013 Task 5: Multimodal Semantic Analysis
+* SemEval-2013 Task 4: Word Representations
+* SemEval-2012 Task 5: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2012 Task 4: Multimodal Semantic Analysis
+* SemEval-2012 Task 3: Word Representations
+* SemEval-2011 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2011 Task 3: Multimodal Semantic Analysis
+* SemEval-2011 Task 2: Word Representations
+* SemEval-2010 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2010 Task 3: Multimodal Semantic Analysis
+* SemEval-2010 Task 2: Word Representations
+* SemEval-2009 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2009 Task 3: Multimodal Semantic Analysis
+* SemEval-2009 Task 2: Word Representations
+* SemEval-2008 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2008 Task 3: Multimodal Semantic Analysis
+* SemEval-2008 Task 2: Word Representations
+* SemEval-2007 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2007 Task 3: Multimodal Semantic Analysis
+* SemEval-2007 Task 2: Word Representations
+* SemEval-2006 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2006 Task 3: Multimodal Semantic Analysis
+* SemEval-2006 Task 2: Word Representations
+* SemEval-2005 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2005 Task 3: Multimodal Semantic Analysis
+* SemEval-2005 Task 2: Word Representations
+* SemEval-2004 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2004 Task 3: Multimodal Semantic Analysis
+* SemEval-2004 Task 2: Word Representations
+* SemEval-2003 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2003 Task 3: Multimodal Semantic Analysis
+* SemEval-2003 Task 2: Word Representations
+* SemEval-2002 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2002 Task 3: Multimodal Semantic Analysis
+* SemEval-2002 Task 2: Word Representations
+* SemEval-2001 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2001 Task 3: Multimodal Semantic Analysis
+* SemEval-2001 Task 2: Word Representations
+* SemEval-2000 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-2000 Task 3: Multimodal Semantic Analysis
+* SemEval-2000 Task 2: Word Representations
+* SemEval-1999 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1999 Task 3: Multimodal Semantic Analysis
+* SemEval-1999 Task 2: Word Representations
+* SemEval-1998 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1998 Task 3: Multimodal Semantic Analysis
+* SemEval-1998 Task 2: Word Representations
+* SemEval-1997 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1997 Task 3: Multimodal Semantic Analysis
+* SemEval-1997 Task 2: Word Representations
+* SemEval-1996 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1996 Task 3: Multimodal Semantic Analysis
+* SemEval-1996 Task 2: Word Representations
+* SemEval-1995 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1995 Task 3: Multimodal Semantic Analysis
+* SemEval-1995 Task 2: Word Representations
+* SemEval-1994 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1994 Task 3: Multimodal Semantic Analysis
+* SemEval-1994 Task 2: Word Representations
+* SemEval-1993 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1993 Task 3: Multimodal Semantic Analysis
+* SemEval-1993 Task 2: Word Representations
+* SemEval-1992 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1992 Task 3: Multimodal Semantic Analysis
+* SemEval-1992 Task 2: Word Representations
+* SemEval-1991 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1991 Task 3: Multimodal Semantic Analysis
+* SemEval-1991 Task 2: Word Representations
+* SemEval-1990 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1990 Task 3: Multimodal Semantic Analysis
+* SemEval-1990 Task 2: Word Representations
+* SemEval-1989 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1989 Task 3: Multimodal Semantic Analysis
+* SemEval-1989 Task 2: Word Representations
+* SemEval-1988 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1988 Task 3: Multimodal Semantic Analysis
+* SemEval-1988 Task 2: Word Representations
+* SemEval-1987 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1987 Task 3: Multimodal Semantic Analysis
+* SemEval-1987 Task 2: Word Representations
+* SemEval-1986 Task 4: Noise-Contrastive Estimation for Semantic Analysis
+* SemEval-1986 Task 3: Multimodal Semantic Analysis
+* SemEval-1986 Task 2: Word Representations
+* SemE

@@ -1,0 +1,11 @@
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: ACL Anthology
+**EVALMETRIC**: Macro-averaged F1-score
+**LICENSE**: CC-BY-3
+**ONTOLOGY**: Semantic Network for Artificial Intelligence
+**PROJECT**: Frames for Information Extraction
+**PUBLICATION**: Proceedings of the 32nd International Conference on Machine Learning
+**SOFTWARE**: OBO Foundry Ontology Editor
+**WORKSHOP**: Workshop on Semantic Evaluation and Reasoning
+```

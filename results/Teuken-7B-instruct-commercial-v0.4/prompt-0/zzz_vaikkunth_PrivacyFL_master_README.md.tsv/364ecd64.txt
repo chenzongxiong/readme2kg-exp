@@ -1,0 +1,50 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE> is a leading annual conference in the field of machine learning and artificial intelligence.
+
+The <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE> is another important event in the field of computer vision.
+
+The <DATASET>ImageNet Large Scale Visual Recognition Challenge (ILSVRC)</DATASET> dataset is a gold standard benchmark for object detection and image classification.
+
+The <DATASET>CIFAR-10</DATASET> and <DATASET>CIFAR-100</DATASET> datasets are popular datasets used for training and evaluating deep learning models.
+
+The <DATASET>ImageNet</DATASET> is a large-scale visual recognition benchmark dataset containing over 14 million images from 1,000 object categories.
+
+The <DATASET>COCO (Common Objects in Context)</DATASET> dataset is a large-scale object detection dataset containing images and annotations of over 80 object categories in various contexts.
+
+The <DATASET>PASCAL VOC</DATASET> dataset is a smaller object detection dataset containing images and annotations of 20 object categories.
+
+The <DATASET>ImageNet-Aligned Datasets (ImageNet-A)</DATASET> is a dataset that contains aligned images and annotations from the ImageNet dataset.
+
+The <DATASET>ImageNet-C</DATASET> dataset is a subset of the ImageNet dataset containing only images that are also present in the COCO dataset.
+
+The <DATASET>ImageNet-C-Aligned</DATASET> dataset is a subset of the ImageNet-A dataset that contains aligned images and annotations.
+
+The <DATASET>ImageNet-C-Aligned-16G</DATASET> dataset is a subset of the ImageNet-C-Aligned dataset containing only the first 16 GB of images.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G dataset that contains only images with contrast limited to a specific range.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast dataset that contains only images with contrast limited to a specific range and without the COCO cat class.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat dataset that contains only images with contrast limited to a specific range, without the COCO cat or dog classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, or person classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, or vehicle classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, or any animal classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, or any object classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject-NoPerson</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal-NoObject dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, object, or any person classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal-NoObject-NoPerson dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, object, person, or any vehicle classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, object, person, vehicle, or any vehicle classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle-NoAnimal</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, object, person, vehicle, animal, or any animal classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle-NoVehicle-NoPerson</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle-NoVehicle dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, object, person, vehicle, animal, vehicle, or any person classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle-NoVehicle-NoVehicle-NoAnimal</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle-NoVehicle-NoVehicle dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, object, person, vehicle, animal, vehicle, person, or any animal classes.
+
+The <DATASET>ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle-NoVehicle-NoVehicle-NoVehicle-NoPerson</DATASET> dataset is a subset of the ImageNet-C-Aligned-16G-NoContrast-NoCat-NoDog-NoPerson-NoVehicle-NoVehicle-NoAnimal-NoObject-NoPerson-NoVehicle-NoVehicle-NoVehicle-NoVehicle-NoVehicle dataset that contains only images with contrast limited to a specific range, without the COCO cat, dog, person, vehicle, animal, object, person, vehicle, animal, person, vehicle, animal,

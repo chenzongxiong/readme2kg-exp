@@ -1,0 +1,5 @@
+**Annotated Text:**
+```
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+```
+Note that entities are directly annotated in the original text using XML-style tags for their respective classes. In this case, there is only one entity mentioned, "Protege Ontology Editor," which is classified as a "SOFTWARE."

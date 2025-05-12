@@ -1,0 +1,5 @@
+Here's the annotated text in Markdown format:
+```markdown
+If you notice anything unexpected, please open an [issue](https://github.com/benedekrozemberczki/karateclub/issues) and let us know.
+```
+This text is a simple example, so there are no entities to annotate.

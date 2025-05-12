@@ -1,0 +1,14 @@
+**Conferences:**
+
+* <CONFERENCE>Awesome Neural Tree Papers</CONFERENCE>: Selected papers and possible corresponding codes in our review paper "A Survey of Neural Trees" [[arXiv Version]](https://arxiv.org/abs/2209.03415)
+* <CONFERENCE>Conference on Neural Information Processing Systems (NeurIPS)</CONFERENCE>: A prominent annual conference in the field of machine learning, artificial intelligence, and neural networks.
+* <CONFERENCE>International Joint Conference on Artificial Intelligence (IJCAI)</CONFERENCE>: An important conference in the field of artificial intelligence, covering various subfields.
+* <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE>: A leading conference in the field of machine learning, covering a broad range of topics.
+* <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE>: A top conference in computer vision and pattern recognition, featuring cutting-edge research.
+* <CONFERENCE>Conference on Information Sciences and Data Engineering (CISDE)</CONFERENCE>: A conference focusing on the intersection of information sciences and data engineering.
+* <CONFERENCE>Conference on Neural Information Processing Systems (NIPS)</CONFERENCE>: A prominent conference in the field of neural information processing systems, featuring the latest research.
+* <CONFERENCE>Conference on Machine Learning (ICML)</CONFERENCE>: A leading conference in the field of machine learning, featuring a broad range of topics.
+* <CONFERENCE>Conference on Computer Vision and Pattern Recognition (CVPR)</CONFERENCE>: A top conference in computer vision and pattern recognition, featuring cutting-edge research.
+* <CONFERENCE>Conference on Information Sciences and Data Engineering (CISDE)</CONFERENCE>: A conference focusing on the intersection of information sciences and data engineering.
+
+Data

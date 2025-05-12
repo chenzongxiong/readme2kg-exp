@@ -1,0 +1,10 @@
+```
+## Named Entity Recognition (NER) on the provided text
+## ------------------------------------------------
+## Input Text:
+## The <SOFTWARE>Protege Ontology Editor</SOFTWARE> is widely used for creating ontologies.
+## ------------------------------------------------
+## Output Format:
+## The **SOFTWARE** Protege Ontology Editor is widely used for creating ontologies.
+## ------------------------------------------------
+```

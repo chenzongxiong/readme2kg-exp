@@ -1,0 +1,23 @@
+**Annotated Text:**
+```markdown
+**CONFERENCE**: International Joint Conference on Artificial Intelligence
+**DATASET**: Stanford Natural Language Processing Workshop
+**EVALMETRIC**: Precision, Recall, F1-Score, BLEU Score
+**LICENSE**: CC BY-NC 4.0
+**ONTOLOGY**: Semantic Network Ontology
+**PROJECT**: No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+**PUBLICATION**: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management
+**SOFTWARE**: Protege ontology editor
+**WORKSHOP**: BookSum Dataset
+```
+**Annotation Rules:**
+- Use the full proper name of the entity, excluding standalone generic descriptors.
+- Use a single-class annotation per entity, based on the context.
+- Annotate nested entities separately.
+- Include punctuation marks only if part of the entity (e.g., titles with ":" in "PAV-SOD: Panoramic Audiovisual Saliency Detection").
+- Annotate entities within URLs (e.g., "llama" in `https://ai.meta.com/llama`).
+
+---
+
+**Input Text:**
+Traditional harmonization methods like ComBat, while widely used, often struggle with data leakage, leading to compromised model performance.

@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: IJCAI-19 Workshop on Artificial Intelligence for Healthcare
+EVALMETRIC: Mean Average Precision (mAP)
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+ONTOLOGY: IJCAI 2023 Ontology
+PROJECT: IJCAI 2023 Workshop on Artificial Intelligence for Healthcare
+PUBLICATION: Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI 2023)
+SOFTWARE: IJCAI 2023 Ontology editor
+WORKSHOP: IJCAI 2023 Workshop on Artificial Intelligence for Healthcare
+```

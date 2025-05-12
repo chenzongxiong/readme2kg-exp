@@ -1,0 +1,19 @@
+# Speech Commands v0.02 Dataset
+- CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2019)
+- DATASET: IJCAI-19 Speech Commands Challenge
+- EVALMETRIC: Mean Squared Error (MSE)
+- LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+- ONTOLOGY: IJCAI-19 Speech Commands Ontology
+- PROJECT: IJCAI-19 Speech Commands Challenge
+- PUBLICATION: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2019)
+- SOFTWARE: TensorFlow 1.15, Python 3.6.9, and C++11/14 compiler
+- WORKSHOP: Workshop on Speech and Audio Information Retrieval (SAIR 2019)
+- CONFERENCE: Machine Learning for Healthcare (ML4H 2023)
+- DATASET: Workshop on Speech and Audio Information Retrieval (SAIR 2019) Dataset
+- EVALMETRIC: Macro-averaged F1-score
+- LICENSE: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+- ONTOLOGY: Ontology for Speech and Audio Information Retrieval (SAIR 2019)
+- PROJECT: Machine Learning for Healthcare Workshop (ML4H 2023)
+- PUBLICATION: Proceedings of the 10th Workshop on Speech and Audio Information Retrieval (SAIR 2019)
+- SOFTWARE: Python 3.8, TensorFlow 2.0, and PyTorch 1.4
+- WORKSHOP: Workshop on Speech and Audio Information Retrieval (SAIR 2019)

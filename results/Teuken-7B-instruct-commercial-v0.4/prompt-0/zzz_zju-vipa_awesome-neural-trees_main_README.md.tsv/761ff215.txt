@@ -1,0 +1,12 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP Annotation
+EVALMETRIC: Macro F1 score
+LICENSE: CC BY-NC 3.0
+ONTOLOGY: DBpedia ontology
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the Workshop on Semantic Evaluation (SemEval)
+SOFTWARE: Stanford CoreNLP
+```
+Note: The punctuation marks are included as part of the entities.
+```

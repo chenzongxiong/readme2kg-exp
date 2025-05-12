@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford 20 Newsgroup Dataset
+EVALMETRIC: F1-Score
+LICENSE: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+ONTOLOGY: Foundational Model of Data (FMoD)
+PROJECT: TensorFlow
+PUBLICATION: Proceedings of the 34th International Conference on Machine Learning (ICML 2017)
+SOFTWARE: TensorFlow
+WORKSHOP: Workshop on AI and Cultural Heritage (AI4CH)
+```

@@ -1,0 +1,5 @@
+```markdown
+# Original Text
+
+First, follow the README in each repository to reproduce the original reported results as baseline (c.f. [1](https://github.com/yandexdatascience/praktikum2023/blob/main/README.md) for the main repository and [2](https://github.com/yandexdatascience/praktikum2023/blob/main/projects/02-clustering/README.md) for the specific project). Then, use the provided code for each project to perform the tasks (c.f. [3](https://github.com/yandexdatascience/praktikum2023/blob/main/projects/01-knn/README.md) for the first project and [4](https://github.com/yandexdatascience/praktikum2023/blob/main/projects/03-feature-selection/README.md) for the second project).
+```

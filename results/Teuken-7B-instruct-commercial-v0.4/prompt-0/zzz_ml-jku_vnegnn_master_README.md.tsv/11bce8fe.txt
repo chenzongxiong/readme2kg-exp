@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford Large Movie Review Dataset
+EVALMETRIC: Average Perplexity
+LICENSE: CC BY-NC 4.0
+ONTOLOGY: CIDOC CRM
+PROJECT: Open Images Dataset
+PUBLICATION: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+SOFTWARE: TensorFlow
+WORKSHOP: Workshop on Visual Question Answering (VQA)
+```

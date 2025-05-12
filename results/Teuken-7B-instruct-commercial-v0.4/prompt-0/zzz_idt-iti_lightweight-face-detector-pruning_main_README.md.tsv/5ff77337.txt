@@ -1,0 +1,3 @@
+```
+The <SOFTWARE>Pruning with Geometric Median (FPGM) algorithm</SOFTWARE> is widely used for pruning in deep learning models.
+```

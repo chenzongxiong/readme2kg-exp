@@ -1,0 +1,26 @@
+.CONFERENCE{International Semantic Web Conference 2019}0
+.CONFERENCE{ISWC 2019}1
+.CONFERENCE{CVPR2023}2
+
+.DATASET{Maules Creek}3
+Download the <DATASET>USTPO MIT</DATASET> dataset from <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>5
+
+.EVALMETRIC{Precision}6
+.EVALMETRIC{Recall}7
+.EVALMETRIC{F1-Score}8
+.EVALMETRIC{BLEU Score}9
+
+.LICENSE{cc-by-3}11
+.LICENSE{CC BY-NC 4.0}12
+
+.ONTOLOGY{Intelligence Task Ontology}14
+The Intelligence Task Ontology is a tool for understanding and managing intelligence tasks.
+
+.PROGLANG{Python}16
+.PROGLANG{PHP}17
+.PROGLANG{C++}18
+
+.PROJECT{Paper With Code}19
+.PROJECT{Conference}20
+.PROJECT{Workshop}21
+.PROJECT{Public

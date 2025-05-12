@@ -1,0 +1,96 @@
+```markdown
+**Conference:****
+
+- CONFERENCE: International Conference on Web and Social Media (ICWSM)
+  - Definition: A premier conference dedicated to the latest research and developments in the field of web and social media.
+  - Example: <CONFERENCE>ICWSM 2022</CONFERENCE>
+- CONFERENCE: Workshop on Social Media Analytics (SOMA)
+  - Definition: A workshop focused on advancing the state-of-the-art in social media analytics research.
+  - Example: <CONFERENCE>SOMA 2018</CONFERENCE>
+
+**Dataset:****
+
+- DATASET: UCI Machine Learning Repository
+  - Definition: A repository containing a wide range of well-known datasets for various machine learning tasks.
+  - Example: <DATASET>Banknote Authentication</DATASET>
+- DATASET: Kaggle Datasets
+  - Definition: A platform for data scientists to share and analyze datasets.
+  - Example: <DATASET>MNIST Handwritten Digit Dataset</DATASET>
+
+**Evaluation Metric:****
+
+- EVALMETRIC: Precision
+  - Definition: A measure of the accuracy of a classification model, indicating the fraction of true positives among the total number of positive predictions.
+  - Example: The evaluation metric used is Precision.
+- EVALMETRIC: Recall
+  - Definition: A measure of the completeness of a classification model, indicating the fraction of true positives among the total number of actual positives in the test dataset.
+  - Example: The evaluation metric used is Recall.
+- EVALMETRIC: F1-Score
+  - Definition: A harmonic mean of precision and recall, providing a balanced measure of a classification model's performance.
+  - Example: The evaluation metric used is F1-Score.
+- EVALMETRIC: BLEU Score
+  - Definition: A metric for evaluating the similarity of a machine translation model's output to a reference translation.
+  - Example: The evaluation metric used is BLEU Score.
+
+**License:****
+
+- LICENSE: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  - Definition: A license that allows others to distribute, remix, tweak, and build upon your work, even commercially, as long as they provide attribution and share your contributions under the same license.
+  - Example: The license used is CC BY-SA 4.0.
+- LICENSE: MIT License
+  - Definition: A license that allows for free use, modification, and distribution of a work, without requiring attribution or inclusion of a license for derived works.
+  - Example: The license used is MIT License.
+
+**Ontology:****
+
+- ONTOLOGY: Resource Description Framework (RDF)
+  - Definition: A standard model for data interchange on the web, providing a common framework for representing and exchanging information.
+  - Example: The ontology used is RDF.
+- ONTOLOGY: Ontology Interchange Ontology (OIO)
+  - Definition: A standardized vocabulary for representing ontologies and their relationships, providing a common language for ontology exchange and interoperability.
+  - Example: The ontology used is OIO.
+
+**Programming Language:****
+
+- PROGRAMMING LANGUAGE: Python
+  - Definition: A high-level programming language used for general-purpose programming, known for its simplicity and versatility.
+  - Example: The programming language used is Python.
+- PROGRAMMING LANGUAGE: JavaScript
+  - Definition: A high-level, interpreted programming language used for web development and client-side scripting.
+  - Example: The programming language used is JavaScript.
+
+**Publication:****
+
+- PUBLICATION: Research Paper
+  - Definition: A scholarly work presenting original research findings, methods, or insights.
+  - Example: A <PUBLICATION>on the topic of natural language processing</PUBLICATION>.
+- PUBLICATION: Journal Article
+  - Definition: A published article in a scholarly journal, containing research findings and contributions to a specific field of study.
+  - Example: A <PUBLICATION>on the topic of machine learning</PUBLICATION> published in a reputable journal.
+- PUBLICATION: Preprint
+  - Definition: An unpeer-reviewed research paper shared before official publication to facilitate collaboration and discussion within the scientific community.
+  - Example: A <PUBLICATION>on the topic of computer vision</PUBLICATION> shared as a preprint on arXiv.
+- PUBLICATION: Conference Proceedings
+  - Definition: A collection of papers presented at a conference, often published as a book or a journal issue.
+  - Example: A <PUBLICATION>on the topic of artificial intelligence</PUBLICATION> presented at the International Joint Conference on Artificial Intelligence (IJCAI).
+- PUBLICATION: Book
+  - Definition: A comprehensive, authoritative work on a specific subject, often written by multiple authors.
+  - Example: A <PUBLICATION>on the topic of data science</PUBLICATION>.
+
+**Software:****
+
+- SOFTWARE: TensorFlow
+  - Definition: A popular open-source library and framework for numerical computation using data flow graphs and automatic differentiation.
+  - Example: The software used is TensorFlow.
+- SOFTWARE: PyTorch
+  - Definition: A popular open-source machine learning library based on the Torch library, supporting both Python and Lua.
+  - Example: The software used is PyTorch.
+- SOFTWARE: Scikit-learn
+  - Definition: A Python library for machine learning, providing a wide range of supervised and unsupervised learning algorithms.
+  - Example: The software used is Scikit-learn.
+
+**Workshop:****
+
+- WORKSHOP: Workshop on Natural Language Processing (NLP)
+  - Definition: A specialized event focused on advancing research and development in the field of natural language processing.
+  - Example: A <WORKSHOP>on the topic of sentiment analysis</WORKSHOP>.

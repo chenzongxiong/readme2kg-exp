@@ -1,0 +1,3 @@
+```
+The PROJECT "Install SLR" aims to develop a solution for <ONTOLOGY>Software Licensing</ONTOLOGY>.
+```

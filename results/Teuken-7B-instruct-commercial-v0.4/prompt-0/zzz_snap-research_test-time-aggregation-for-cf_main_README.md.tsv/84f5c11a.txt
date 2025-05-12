@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI)
+DATASET: Stanford CoreNLP 2018 POS Tags
+EVALMETRIC: Macro F1 Score
+LICENSE: CC BY-NC-SA
+ONTOLOGY: WordNet
+PROJECT: Stanford CoreNLP
+PUBLICATION: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+SOFTWARE: Stanford CoreNLP
+WORKSHOP: Workshop on Natural Language Processing for Information Retrieval (NLPIR)
+```

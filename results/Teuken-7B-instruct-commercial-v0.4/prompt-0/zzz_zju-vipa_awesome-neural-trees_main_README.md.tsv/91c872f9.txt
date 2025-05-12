@@ -1,0 +1,11 @@
+```
+CONFERENCE: International Joint Conference on Neural Networks
+DATASET: CIFAR-10
+EVALMETRIC: Accuracy
+LICENSE: CC BY-NC-SA 4.0
+ONTOLOGY: Gene Ontology
+PROJECT: OntoSphere
+PUBLICATION: Journal of Systems and Computer Engineering
+SOFTWARE: Cytoscape
+WORKSHOP: Semantic Web and Linked Open Data in Healthcare Workshop
+```

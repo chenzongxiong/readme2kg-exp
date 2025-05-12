@@ -1,0 +1,3 @@
+```
+The <DATASET>USPTO MIT</DATASET> dataset is available for download at <https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip>.
+```

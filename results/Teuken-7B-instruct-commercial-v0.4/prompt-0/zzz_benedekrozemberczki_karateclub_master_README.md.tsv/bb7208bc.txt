@@ -1,0 +1,19 @@
+```
+The <CONFERENCE>International Conference on Computational Linguistics and Chinese Language Processing</CONFERENCE> (CLCNLP 2021) was held in November 2021 in Hangzhou, China.
+
+The <DATASET>CLCNLP2021-SST2-zh</DATASET> dataset is a part of the larger <DATASET>CLCNLP2021-C10K</DATASET> dataset, which contains 10,000 Chinese sentences.
+
+The <EVALMETRIC>BLEU Score</EVALMETRIC> is used to evaluate the machine translation performance of the model.
+
+The <LICENSE>MIT</LICENSE> is the license used for the <DATASET>CLCNLP2021-SST2-zh</DATASET> dataset.
+
+The <ONTOLOGY>CLCNLP2021 Ontology</ONTOLOGY> is a knowledge representation for the conference.
+
+The <PROJECT>CLCNLP2021 Project</PROJECT> aims to develop a comprehensive Chinese-to-English machine translation system.
+
+The <PUBLICATION>Proceedings of the 7th Workshop on Computational Linguistics in The Chinese Language (CLCNLP 2021)</PUBLICATION> contains the research papers related to the conference.
+
+The <SOFTWARE>Protege Ontology Editor</SOFTWARE> can be used to edit the ontologies created in the conference.
+
+The <WORKSHOP>CLCNLP2021 Workshop on Machine Translation for Chinese</WORKSHOP> is an educational session focused on machine translation for Chinese.
+```

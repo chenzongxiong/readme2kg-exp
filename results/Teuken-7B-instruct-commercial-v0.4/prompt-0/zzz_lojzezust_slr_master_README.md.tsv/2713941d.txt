@@ -1,0 +1,15 @@
+**Entities:**
+
+CONFERENCE: International Joint Conference on Artificial Intelligence (IJCAI 2022)
+DATASET: Unlabeled Semantic Segmentation Dataset (Unlabeled Semantic Segmentation Dataset)
+EVALMETRIC: Average Precision (AP)
+LICENSE: Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)
+ONTOLOGY: Marine Vessel Ontology (MV-ontology)
+PROGLANG: Python
+PROJECT: Scaffolding Learning Regime (SLR) for Maritime Obstacle Detection
+PUBLICATION: International Journal of Computer Vision (IJCV)
+SOFTWARE: OpenCV (Open Source Computer Vision Library)
+WORKSHOP: Workshop on Computer Vision for Maritime Applications (CV-MAR)
+
+**Annotated Text:**
+January 2022: Preliminary version presented at WACV 2022.  About SLR  Scaffolding Learning Regime (SLR) is a method for training semantic segmentation models for maritime obstacle detection using only weak annotations (obstacle bounding boxes and water-edge poly-line).

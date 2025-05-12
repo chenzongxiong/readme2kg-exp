@@ -1,0 +1,43 @@
+Here is the annotated text in Markdown format:
+```scss
+**CONFERENCE** - International Semantic Web Conference 2019
+**DATASET** - Mauls Creek
+**EVALMETRIC** - Precision, Recall, F1-Score, BLEU Score
+**LICENSE** - cc-by-3
+**ONTOLOGY** - Intelligence Task Ontology
+**PROGLANG** - Python, PHP, C++
+**PROJECT** - Paper With Code
+**PUBLICATION** - No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths
+**SOFTWARE** - Protege ontology editor
+**WORKSHOP** - Thermal Image Super-Resolution
+**CONFERENCE** - PAV-SOD: Panoramic Audiovisual Saliency Detection
+**DATASET** - IST-2023
+**EVALMETRIC** - Precision, Recall, F1-Score, BLEU Score
+**LICENSE** - BSD-3
+**ONTOLOGY** - Semantic Information Network for COVID-19 (SINCORON) Ontology
+**PROGLANG** - Python
+**PROJECT** - COVID-19 Ontology Repository
+**PUBLICATION** - COVID-19 Ontology Repository
+**SOFTWARE** - BioASICS
+**WORKSHOP** - Workshop on BioASICS: Building AI Systems on Bio-inspired Architectures
+**CONFERENCE** - ECML-PKDD
+**DATASET** - MNIST
+**EVALMETRIC** - Precision, Recall, F1-Score
+**LICENSE** - cc-by-3
+**ONTOLOGY** - Ontology for Data Quality (ODQAO)
+**PROGLANG** - Python
+**PROJECT** - ODQAO: Ontology for Data Quality
+**PUBLICATION** - ODQAO: Ontology for Data Quality
+**SOFTWARE** - Protege ontology editor
+**WORKSHOP** - Workshop on ODQAO: Ontology for Data Quality
+**CONFERENCE** - ECCV
+**DATASET** - ImageNet
+**EVALMETRIC** - Top-1 Accuracy, Top-5 Accuracy
+**LICENSE** - cc-by-3
+**ONTOLOGY** - Ontology for ImageNet Benchmark (Inetd-Ontology)
+**PROGLANG** - Python
+**PROJECT** - Inetd-Ontology
+**PUBLICATION** - Inetd-Ontology: An Ontology for the ImageNet Large Scale Visual Recognition Challenge
+**SOFTWARE** - Protege ontology editor
+**WORKSHOP** - Workshop on Inetd-Ontology: An Ontology for the ImageNet Large Scale Visual Recognition Challenge
+```

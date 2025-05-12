@@ -1,0 +1,51 @@
+```
+The <CONFERENCE>Conference on Neural Information Processing Systems (Conference)</CONFERENCE> will be held in 2023.
+```
+<CONFERENCE>NIPS 2023</CONFERENCE> workshop on "Advances in Deep Learning for Natural Language Processing" is being organized.
+```
+<DATASET>Download the <DATASET>USTPO MIT</DATASET> dataset from (https://github.com/wenggong-jin/nips17-rexgen/blob/master/USPTO/data.zip) for research purposes.
+```
+<EVALMETRIC>Precision</EVALMETRIC>, <EVALMETRIC>Recall</EVALMETRIC>, <EVALMETRIC>F1-Score</EVALMETRIC>, and <EVALMETRIC>BLEU Score</EVALMETRIC> are used for evaluation.
+```
+<LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> are the available licenses to use.
+```
+<ONTOLOGY>Ontology for the Semantic Analysis of Public Opinion</ONTOLOGY> is used for modeling and analyzing opinions.
+```
+<PROGLANG>Python</PROGLANG>, <PROGLANG>PHP</PROGLANG>, and <PROGLANG>C++</PROGLANG> are programming languages.
+```
+<PROJECT>Paper With Code</PROJECT> project (<https://paperswithcode.com/>) for the task.
+```
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> is a scholarly work.
+```
+<SOFTWARE>Protege ontology editor</SOFTWARE> is a software tool for exploring and editing ontologies.
+```
+<WORKSHOP>Thermal Image Super-Resolution</WORKSHOP> workshop is an educational session focused on thermal image super-resolution.
+```
+<DATASET>PAV-SOD: Panoramic Audiovisual Saliency Detection</DATASET> is a dataset used for the task.
+```
+<LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> are the available licenses to use.
+```
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is used for modeling intelligence tasks.
+```
+<PROJECT>Paper With Code</PROJECT> project (<https://paperswithcode.com/>) for the task.
+```
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> is a scholarly work.
+```
+<SOFTWARE>Protege ontology editor</SOFTWARE> is a software tool for exploring and editing ontologies.
+```
+<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> workshop is an educational session focused on panoramic audiovisual saliency detection.
+```
+<DATASET>PAV-SOD: Panoramic Audiovisual Saliency Detection</DATASET> is a dataset used for the task.
+```
+<LICENSE>cc-by-3</LICENSE> and <LICENSE>CC BY-NC 4.0</LICENSE> are the available licenses to use.
+```
+<ONTOLOGY>Intelligence Task Ontology</ONTOLOGY> is used for modeling intelligence tasks.
+```
+<PROJECT>Paper With Code</PROJECT> project (<https://paperswithcode.com/>) for the task.
+```
+<PUBLICATION>No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths</PUBLICATION>. In <PUBLICATION>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</PUBLICATION> is a scholarly work.
+```
+<SOFTWARE>Protege ontology editor</SOFTWARE> is a software tool for exploring and editing ontologies.
+```
+<WORKSHOP>PAV-SOD: Panoramic Audiovisual Saliency Detection</WORKSHOP> workshop is an educational session focused on panoramic audiovisual saliency detection.
+```

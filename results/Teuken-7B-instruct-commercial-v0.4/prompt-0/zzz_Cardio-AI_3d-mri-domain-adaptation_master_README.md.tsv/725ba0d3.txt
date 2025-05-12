@@ -1,0 +1,3 @@
+The text contains only one entity, which is named "Hussain, Z." The entity is annotated as follows:
+
+`<PERSON>Hussain, Z.</PERSON>`

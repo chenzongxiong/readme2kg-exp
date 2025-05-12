@@ -1,0 +1,17 @@
+```
+<CONFERENCE>Conference on Human Computation and Crowdsourcing</CONFERENCE>
+International conference focused on exploring the use of human computation and crowdsourcing for solving complex problems.
+```
+
+**Guidelines:**
+
+- Entity Classes:
+	+ CONFERENCE: Conference events.
+	*Definition*:
+	A formal meeting or gathering focused on a particular field of study or topic.
+	*Example*:
+	`<CONFERENCE>Conference on Human Computation and Crowdsourcing</CONFERENCE>`
+	`<CONFERENCE>International Conference on Human Computation and Crowdsourcing</CONFERENCE>`
+	`<CONFERENCE>Conference on Human Computation and Crowdsourcing</CONFERENCE>`
+- Output:
+<CONFERENCE>Conference on Human Computation and Crowdsourcing</CONFERENCE>
