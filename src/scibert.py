@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any, List, Literal, Optional, Tuple
 
 # Third-party
-import evaluate
+# import evaluate
 import numpy as np
 import pandas as pd
 from termcolor import colored
@@ -23,14 +23,14 @@ from tqdm import tqdm
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoModelForTokenClassification, get_cosine_schedule_with_warmup, AutoTokenizer, DataCollatorForTokenClassification
-# from seqeval.metrics import classification_report
+from seqeval.metrics import classification_report
 from sklearn.metrics import accuracy_score
 
 from base_predictor import BasePredictor, LABELS
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-seqeval = evaluate.load('seqeval')
-import ipdb; ipdb.set_trace()
+# seqeval = evaluate.load('seqeval')
+# import ipdb; ipdb.set_trace()
 
 IGNORE_LABEL = -100
 
@@ -45,8 +45,7 @@ label2id['O'] = IGNORE_LABEL
 id2label = {i: l for i, l in enumerate(label_set)}
 id2label[IGNORE_LABEL] = 'O'
 
-device = 'cpu'
-
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 def tokenize_and_preserve_labels(tokens, labels, tokenizer):
     tokenized_tokens = []
@@ -76,7 +75,7 @@ class dataset(Dataset):
         tokens = self.all_tokens[index]
         labels = self.all_labels[index]
 
-        tokenized_tokens, labels = tokenize_and_preserve_labels(tokens, labels, self.tokenizer)
+        tokenized_tokens, tokenized_labels = tokenize_and_preserve_labels(tokens, labels, self.tokenizer)
         # step 2: add special tokens (and corresponding labels)
         tokenized_tokens = ["<s> "] + tokenized_tokens + [" </s>"] # add special tokens of Roberta
         labels.insert(0, "O") # add outside label for [CLS] token
@@ -86,21 +85,20 @@ class dataset(Dataset):
         maxlen = self.max_len
 
         if (len(tokenized_tokens) > maxlen):
-          # truncate
-          tokenized_tokens = tokenized_tokens[:maxlen]
-          labels = labels[:maxlen]
+            # truncate
+            tokenized_tokens = tokenized_tokens[:maxlen]
+            tokenized_labels = tokenized_labels[:maxlen]
         else:
-          # pad
-          tokenized_tokens = tokenized_tokens + ['<pad>'for _ in range(maxlen - len(tokenized_tokens))]
-          labels = labels + ["O" for _ in range(maxlen - len(labels))]
+            # pad
+            tokenized_tokens = tokenized_tokens + ['<pad>'for _ in range(maxlen - len(tokenized_tokens))]
+            tokenized_labels = tokenized_labels + ["O" for _ in range(maxlen - len(tokenized_labels))]
 
         # step 4: obtain the attention mask
         attn_mask = [1 if tok != '<pad>' else 0 for tok in tokenized_tokens] #modifié selon https://huggingface.co/docs/transformers/v4.21.1/en/model_doc/camembert
 
         # step 5: convert tokens to input ids
         ids = self.tokenizer.convert_tokens_to_ids(tokenized_tokens)
-
-        label_ids = [label2id[label] for label in labels]
+        label_ids = [label2id[label] for label in tokenized_labels]
         # the following line is deprecated
         #label_ids = [label if label != 0 else -100 for label in label_ids]
 
@@ -139,7 +137,11 @@ def build_dataset(folder: Path, tokenizer: Any):
                 continue
 
             _, _, token, _, label = parts
-            label = 'O' if label == '_' else f'I-{label}'
+            if label in LABELS:
+                label = f'I-{label}'
+            else:
+                label = 'O'
+
             label = label.split('[')[0]
             tokens.append(token)
             labels.append(label)
@@ -197,7 +199,7 @@ def train(model, train_loader, optimizer, scheduler=None):
 
         tmp_tr_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
         tr_accuracy += tmp_tr_accuracy
-
+        MAX_GRAD_NORM = 10
         # gradient clipping
         torch.nn.utils.clip_grad_norm_(
             parameters=model.parameters(), max_norm=MAX_GRAD_NORM
@@ -275,7 +277,7 @@ def valid(model, validation_loader):
 
     return labels, predictions
 
-def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, trainset_num, report_type):
+def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, report_type):
     test_reports = []
     for res in test_results:
         report = classification_report([res['labels']], [res['predictions']], output_dict=True)
@@ -288,7 +290,7 @@ def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, trains
     df_test_reports = pd.DataFrame(test_reports)
     if '/' in model_name:
         model_name =  model_name.split('/')[1]
-    test_report_name = 'finetuning_results/'+report_type+'_'+ model_name + '_' + str(LEARNING_RATE) + '_16_' + str(EPOCHS) + '.csv'
+    test_report_name = './'+report_type+'_'+ model_name + '_' + str(LEARNING_RATE) + '_16_' + str(EPOCHS) + '.csv'
     df_test_reports.to_csv(test_report_name, mode='a', header=not os.path.exists(test_report_name),index=False)
 
 
@@ -359,7 +361,6 @@ def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, trains
 #             print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, trainset_num, 'generalizability')
 
 
-
 def main(args):
     MAX_LEN = 256
     train_params = {
@@ -387,14 +388,9 @@ def main(args):
     # for token, label in zip(tokenizer.convert_ids_to_tokens(train_set[0]["ids"][:50]), train_set[0]["targets"][:50]):
     #     print('{0:15}  {1}'.format(token, id2label[label.item()]))
 
-    # ids = train_set[0]["ids"].unsqueeze(0)
-    # mask = train_set[0]["mask"].unsqueeze(0)
-    # targets = train_set[0]["targets"].unsqueeze(0)
-    # import ipdb; ipdb.set_trace()
-
     logging.info("TRAIN Dataset: {}".format(len(train_set)))
     #train_params['batch_size'] =  int( trainsetsize / 32) if (trainsetsize < 1024) else 16
-    EPOCHS = 5#3#20
+    EPOCHS = 100#3#20
     LEARNING_RATE = 5e-5 #1e-05
     train_loader = DataLoader(train_set, **train_params)
     num_training_steps = int(len(train_loader) / train_params['batch_size'] * EPOCHS)
@@ -406,15 +402,18 @@ def main(args):
                                                             num_labels=len(id2label),
                                                             id2label=id2label,
                                                             label2id=label2id)
-    # model.to(device)
+    model.to(device)
     optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
     #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
+    val_results = []
     for epoch in range(EPOCHS):
         print(f"Training epoch: {epoch + 1}")
         train(model, train_loader, optimizer)
         #valid(model, validation_loader)
         #valid(model, test_gen_loader)
     labels, predictions = valid(model, valid_loader)
+    val_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
+    print_reports_to_csv(val_results, args.model, LEARNING_RATE, EPOCHS, 'validation')
     # val_results = []
     # test_results = []
     # val_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})

@@ -78,7 +78,7 @@ class MistralV3Predictor(BasePredictor):
             max_new_tokens=2048,
             eos_token_id=terminators,
             do_sample=True,
-            temperature=0.6,
+            temperature=0.,
             top_p=0.9,
             pad_token_id=self.tokenizer.eos_token_id
         )
