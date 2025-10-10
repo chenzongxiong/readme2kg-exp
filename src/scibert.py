@@ -15,35 +15,52 @@ from pathlib import Path
 from typing import Any, List, Literal, Optional, Tuple
 
 # Third-party
+import evaluate
 import numpy as np
 import pandas as pd
 from termcolor import colored
 from tqdm import tqdm
 import torch
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoModelForTokenClassification, get_cosine_schedule_with_warmup, AutoTokenizer
+from transformers import AutoModelForTokenClassification, get_cosine_schedule_with_warmup, AutoTokenizer, DataCollatorForTokenClassification
+# from seqeval.metrics import classification_report
+from sklearn.metrics import accuracy_score
 
 from base_predictor import BasePredictor, LABELS
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+seqeval = evaluate.load('seqeval')
+import ipdb; ipdb.set_trace()
 
 IGNORE_LABEL = -100
 
+label_set = []
+for label in LABELS:
+    label_set.append(f'B-{label}')
+    label_set.append(f'I-{label}')
+label_set.append('O')
+
+label2id = {l: i for i, l in enumerate(label_set)}
+label2id['O'] = IGNORE_LABEL
+id2label = {i: l for i, l in enumerate(label_set)}
+id2label[IGNORE_LABEL] = 'O'
+
+device = 'cpu'
+
 
 def tokenize_and_preserve_labels(tokens, labels, tokenizer):
-    tokenized_sentence = []
-    labels = []
+    tokenized_tokens = []
+    tokenized_labels = []
     for token, label in zip(tokens, labels):
         tokenized_word = tokenizer.tokenize(token)
         n_subwords = len(tokenized_word)
         # Add the tokenized word to the final tokenized word list
-        tokenized_sentence.extend(tokenized_word)
+        tokenized_tokens.extend(tokenized_word)
 
         # Add the same label to the new list of labels `n_subwords` times
-        labels.extend([label] * n_subwords)
+        tokenized_labels.extend([label] * n_subwords)
 
-    return tokenized_sentence, labels
+    return tokenized_tokens, tokenized_labels
 
 
 class dataset(Dataset):
@@ -54,46 +71,36 @@ class dataset(Dataset):
         self.max_len = max_len
 
         # Build word-level dataset
-        label_set = []
-        for label in LABELS:
-            label_set.append(f'B-{label}')
-            label_set.append(f'I-{label}')
-        label_set.append('O')
-
-        self.id2label = {i: l for i, l in enumerate(label_set)}
-        self.id2label['O'] = IGNORE_LABEL
-        self.label2id = {l: i for i, l in self.id2label.items()}
-
     def __getitem__(self, index):
         # step 1: tokenize (and adapt corresponding labels)
         tokens = self.all_tokens[index]
         labels = self.all_labels[index]
-        tokenized_sentence, labels = tokenize_and_preserve_labels(tokens, labels, self.tokenizer)
 
+        tokenized_tokens, labels = tokenize_and_preserve_labels(tokens, labels, self.tokenizer)
         # step 2: add special tokens (and corresponding labels)
-        tokenized_sentence = ["<s> "] + tokenized_sentence + [" </s>"] # add special tokens of Roberta
+        tokenized_tokens = ["<s> "] + tokenized_tokens + [" </s>"] # add special tokens of Roberta
         labels.insert(0, "O") # add outside label for [CLS] token
         labels.append("O") # add outside label for [SEP] token
 
         # step 3: truncating/padding
         maxlen = self.max_len
 
-        if (len(tokenized_sentence) > maxlen):
+        if (len(tokenized_tokens) > maxlen):
           # truncate
-          tokenized_sentence = tokenized_sentence[:maxlen]
+          tokenized_tokens = tokenized_tokens[:maxlen]
           labels = labels[:maxlen]
         else:
           # pad
-          tokenized_sentence = tokenized_sentence + ['<pad>'for _ in range(maxlen - len(tokenized_sentence))]
+          tokenized_tokens = tokenized_tokens + ['<pad>'for _ in range(maxlen - len(tokenized_tokens))]
           labels = labels + ["O" for _ in range(maxlen - len(labels))]
 
         # step 4: obtain the attention mask
-        attn_mask = [1 if tok != '<pad>' else 0 for tok in tokenized_sentence] #modifié selon https://huggingface.co/docs/transformers/v4.21.1/en/model_doc/camembert
+        attn_mask = [1 if tok != '<pad>' else 0 for tok in tokenized_tokens] #modifié selon https://huggingface.co/docs/transformers/v4.21.1/en/model_doc/camembert
 
         # step 5: convert tokens to input ids
-        ids = self.tokenizer.convert_tokens_to_ids(tokenized_sentence)
+        ids = self.tokenizer.convert_tokens_to_ids(tokenized_tokens)
 
-        label_ids = [self.label2id[label] for label in labels]
+        label_ids = [label2id[label] for label in labels]
         # the following line is deprecated
         #label_ids = [label if label != 0 else -100 for label in label_ids]
 
@@ -106,6 +113,12 @@ class dataset(Dataset):
 
     def __len__(self):
         return len(self.all_tokens)
+
+    def sentence(self, idx):
+        return ' '.join(self.all_tokens[idx])
+
+    def label(self, idx):
+        return ' '.join(self.all_labels[idx])
 
 
 def build_dataset(folder: Path, tokenizer: Any):
@@ -138,30 +151,275 @@ def build_dataset(folder: Path, tokenizer: Any):
         all_tokens.append(tokens)
         all_labels.append(labels)
 
-    # data = {"tokens": all_tokens, "ner_tags": all_labels, 'id2label': id2label, 'label2id': label2id}
-    # tokenized_sentence = []
-    # labels = []
-    # for tokens, labels in zip(all_tokens, all_labels):
-    #     for token, label in zip(tokens, labels):
-    #         tokenized_word = tokenizer.tokenize(token)
-    #         n_subwords = len(tokenized_word)
-    #         # Add the tokenized word to the final tokenized word list
-    #         tokenized_sentence.extend(tokenized_word)
-
-    #         # Add the same label to the new list of labels `n_subwords` times
-    #         labels.extend([label] * n_subwords)
-
-    # import ipdb; ipdb.set_trace()
     ds = dataset(all_tokens, all_labels, tokenizer, max_len=256)
     return ds
 
 
+# Defining the training function on the 80% of the dataset for tuning the bert model
+def train(model, train_loader, optimizer, scheduler=None):
+    tr_loss, tr_accuracy = 0, 0
+    nb_tr_examples, nb_tr_steps = 0, 0
+    tr_preds, tr_labels = [], []
+    # put model in training mode
+    model.train()
+
+    for idx, batch in enumerate(train_loader):
+
+        ids = batch['ids'].to(device, dtype = torch.long)
+        mask = batch['mask'].to(device, dtype = torch.long)
+        targets = batch['targets'].to(device, dtype = torch.long)
+
+        outputs = model(input_ids=ids, attention_mask=mask, labels=targets)
+        loss, tr_logits = outputs.loss, outputs.logits
+        '''
+        loss, tr_logits  = model(input_ids=ids, attention_mask=mask, labels=targets)#temporary modification for transformer 3'''
+
+        tr_loss += loss.item()
+
+        nb_tr_steps += 1
+        nb_tr_examples += targets.size(0)
+
+        #if idx % 100==0:
+        #    loss_step = tr_loss/nb_tr_steps
+        #    print(f"Training loss per 100 training steps: {loss_step}")
+
+        # compute training accuracy
+        flattened_targets = targets.view(-1) # shape (batch_size * seq_len,)
+        active_logits = tr_logits.view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
+        flattened_predictions = torch.argmax(active_logits, axis=1) # shape (batch_size * seq_len,)
+        # now, use mask to determine where we should compare predictions with targets (includes [CLS] and [SEP] token predictions)
+        active_accuracy = mask.view(-1) == 1 # active accuracy is also of shape (batch_size * seq_len,)
+        targets = torch.masked_select(flattened_targets, active_accuracy)
+        predictions = torch.masked_select(flattened_predictions, active_accuracy)
+
+        tr_preds.extend(predictions)
+        tr_labels.extend(targets)
+
+        tmp_tr_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
+        tr_accuracy += tmp_tr_accuracy
+
+        # gradient clipping
+        torch.nn.utils.clip_grad_norm_(
+            parameters=model.parameters(), max_norm=MAX_GRAD_NORM
+        )
+
+        # backward pass
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        #scheduler.step()
+
+    epoch_loss = tr_loss / nb_tr_steps
+    tr_accuracy = tr_accuracy / nb_tr_steps
+    #print(f"Trained {nb_tr_steps} steps")
+    print(f"Training loss epoch: {epoch_loss}")
+    print(f"Training accuracy epoch: {tr_accuracy}")
+
+
+def valid(model, validation_loader):
+    # put model in evaluation mode
+    model.eval()
+
+    eval_loss, eval_accuracy = 0, 0
+    nb_eval_examples, nb_eval_steps = 0, 0
+    eval_preds, eval_labels = [], []
+
+    with torch.no_grad():
+        for idx, batch in enumerate(validation_loader):
+
+            ids = batch['ids'].to(device, dtype = torch.long)
+            mask = batch['mask'].to(device, dtype = torch.long)
+            targets = batch['targets'].to(device, dtype = torch.long)
+
+
+            outputs = model(input_ids=ids, attention_mask=mask, labels=targets)
+            loss, eval_logits = outputs.loss, outputs.logits
+
+            eval_loss += loss.item()
+
+            nb_eval_steps += 1
+            nb_eval_examples += targets.size(0)
+
+            #if idx % 100==0:
+            #    loss_step = eval_loss/nb_eval_steps
+            #    print(f"Validation loss per 100 evaluation steps: {loss_step}")
+
+            # compute evaluation accuracy
+            flattened_targets = targets.view(-1) # shape (batch_size * seq_len,)
+            active_logits = eval_logits.view(-1, model.num_labels) # shape (batch_size * seq_len, num_labels)
+            flattened_predictions = torch.argmax(active_logits, axis=1) # shape (batch_size * seq_len,)
+            # now, use mask to determine where we should compare predictions with targets (includes [CLS] and [SEP] token predictions)
+            active_accuracy = mask.view(-1) == 1 # active accuracy is also of shape (batch_size * seq_len,)
+            targets = torch.masked_select(flattened_targets, active_accuracy)
+            predictions = torch.masked_select(flattened_predictions, active_accuracy)
+
+            eval_labels.extend(targets)
+            eval_preds.extend(predictions)
+
+            tmp_eval_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
+            eval_accuracy += tmp_eval_accuracy
+
+    #print(eval_labels)
+    #print(eval_preds)
+
+    labels = [id2label[id.item()] for id in eval_labels]
+    predictions = [id2label[id.item()] for id in eval_preds]
+
+    #print(labels)
+    #print(predictions)
+
+    eval_loss = eval_loss / nb_eval_steps
+    eval_accuracy = eval_accuracy / nb_eval_steps
+    print(f"Validation Loss: {eval_loss}")
+    print(f"Validation Accuracy: {eval_accuracy}")
+
+    return labels, predictions
+
+def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, trainset_num, report_type):
+    test_reports = []
+    for res in test_results:
+        report = classification_report([res['labels']], [res['predictions']], output_dict=True)
+        flattened_report = {str(k+'_'+v_k) : v_v for k,v in report.items() for v_k, v_v in v.items()  }
+        # flattened_report['trainset_size'] = res['trainset_size']
+        # flattened_report['trainset_num'] = trainset_num
+        flattened_report['model'] = res['model']
+        test_reports.append(flattened_report)
+
+    df_test_reports = pd.DataFrame(test_reports)
+    if '/' in model_name:
+        model_name =  model_name.split('/')[1]
+    test_report_name = 'finetuning_results/'+report_type+'_'+ model_name + '_' + str(LEARNING_RATE) + '_16_' + str(EPOCHS) + '.csv'
+    df_test_reports.to_csv(test_report_name, mode='a', header=not os.path.exists(test_report_name),index=False)
+
+
+# def run():
+#     train_params = {'batch_size': TRAIN_BATCH_SIZE,
+#                     'shuffle': True,
+#                 'num_workers': 0
+#                 }
+
+#     val_params = {'batch_size': VALID_BATCH_SIZE,
+#                     'shuffle': True,
+#                     'num_workers': 0
+#                  }
+#     for trainset_num in range(2,11):
+#         train_file_name = 'data/10-fold/train_499_'+str(trainset_num)+'.csv'#'data/train.csv'
+#         val_file_name = 'data/10-fold/val_499_'+str(trainset_num)+'.csv'#'data/val.csv'
+#         for model_name in ['allenai/scibert_scivocab_uncased']:
+#             tokenizer = AutoTokenizer.from_pretrained(model_name, from_tf=False, model_max_length=MAX_LEN)
+#             test_generalizability_set = dataset(pd.read_csv('data/test_GPT+labels.csv'), tokenizer, MAX_LEN)
+#             validation_set = dataset(pd.read_csv(val_file_name), tokenizer, MAX_LEN)
+#             df_training_set = pd.read_csv(train_file_name)
+
+#             val_results = []
+#             test_results = []
+
+#             validation_loader = DataLoader(validation_set, **val_params)
+#             test_gen_loader = DataLoader(test_generalizability_set, **val_params)
+
+#             for trainsetsize in [2048]:  #[64,128,256,512,1024,2048,4096,8192,11401] are already done
+#                 training_set = dataset(df_training_set[:trainsetsize], tokenizer, MAX_LEN)
+
+#                 print("TRAIN Dataset: {}".format(training_set.data.shape))
+#                 #train_params['batch_size'] =  int( trainsetsize / 32) if (trainsetsize < 1024) else 16
+#                 train_loader = DataLoader(training_set, **train_params)
+
+
+#                 num_training_steps = int(train_loader.dataset.len / train_params['batch_size'] * EPOCHS)
+#                 print(f'tranining steps: {num_training_steps+1}')
+
+#                 #Shrey uses TF model
+#                 model = AutoModelForTokenClassification.from_pretrained(model_name,
+#                                                                         from_tf=False,
+#                                                                         num_labels=len(id2label),
+#                                                                         id2label=id2label,
+#                                                                         label2id=label2id)
+#                 model.to(device)
+
+#                 optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
+#                 #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
+#                 for epoch in range(EPOCHS):
+#                 #for epoch in range(flex_epoch_nb):
+#                     print(f"Training epoch: {epoch + 1}")
+#                     train(model, train_loader, optimizer)
+#                     #valid(model, validation_loader)
+#                     #valid(model, test_gen_loader)
+#                 labels, predictions = valid(model, validation_loader)
+#                 val_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})
+
+#                 #test generalizablity
+#                 labels, predictions = valid(model, test_gen_loader)
+#                 test_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})
+#                 ner_model_name = 'ner_model/'+model_name+ '_ft_' + str(EPOCHS) + 'ep_train_size_'+str(trainsetsize) + '_trainset_'+str(trainset_num)
+#                 model.save_pretrained(ner_model_name)
+#                 tokenizer.save_pretrained(ner_model_name)
+#                 # gpt_aligned_eval(model, tokenizer, ner_model_name) # too slow!
+
+#             print_reports_to_csv(val_results, model_name, LEARNING_RATE, EPOCHS, trainset_num, 'validation')
+#             print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, trainset_num, 'generalizability')
+
+
+
 def main(args):
     MAX_LEN = 256
+    train_params = {
+        'batch_size': 16,
+        'shuffle': True,
+        'num_workers': 0
+    }
+    val_params = {
+        'batch_size': 16,
+        'shuffle': True,
+        'num_workers': 0
+    }
+
     train_folder = Path("./data/train")
     tokenizer = AutoTokenizer.from_pretrained(args.model, from_tf=False, model_max_length=MAX_LEN)
-    ds = build_dataset(train_folder, tokenizer)
-    import ipdb; ipdb.set_trace()
+    train_set = build_dataset(Path("data/train"), tokenizer)
+    valid_set = build_dataset(Path("data/val"), tokenizer)
+    test_set = build_dataset(Path("data/test_labeled"), tokenizer)
+
+    train_loader = DataLoader(train_set, **train_params)
+    valid_loader = DataLoader(valid_set, **train_params)
+    test_loader = DataLoader(test_set, **train_params)
+
+    # print the first 50 tokens and corresponding labels
+    # for token, label in zip(tokenizer.convert_ids_to_tokens(train_set[0]["ids"][:50]), train_set[0]["targets"][:50]):
+    #     print('{0:15}  {1}'.format(token, id2label[label.item()]))
+
+    # ids = train_set[0]["ids"].unsqueeze(0)
+    # mask = train_set[0]["mask"].unsqueeze(0)
+    # targets = train_set[0]["targets"].unsqueeze(0)
+    # import ipdb; ipdb.set_trace()
+
+    logging.info("TRAIN Dataset: {}".format(len(train_set)))
+    #train_params['batch_size'] =  int( trainsetsize / 32) if (trainsetsize < 1024) else 16
+    EPOCHS = 5#3#20
+    LEARNING_RATE = 5e-5 #1e-05
+    train_loader = DataLoader(train_set, **train_params)
+    num_training_steps = int(len(train_loader) / train_params['batch_size'] * EPOCHS)
+    print(f'tranining steps: {num_training_steps+1}')
+
+    #Shrey uses TF model
+    model = AutoModelForTokenClassification.from_pretrained(args.model,
+                                                            from_tf=False,
+                                                            num_labels=len(id2label),
+                                                            id2label=id2label,
+                                                            label2id=label2id)
+    # model.to(device)
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
+    #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
+    for epoch in range(EPOCHS):
+        print(f"Training epoch: {epoch + 1}")
+        train(model, train_loader, optimizer)
+        #valid(model, validation_loader)
+        #valid(model, test_gen_loader)
+    labels, predictions = valid(model, valid_loader)
+    # val_results = []
+    # test_results = []
+    # val_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})
+
+
 
 if __name__ == '__main__':
     import argparse
@@ -172,77 +430,3 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     main(args)
-
-
-# if __name__ == "__main__":
-#     paths = Path(".").glob("*.conll")
-
-#     ap = argparse.ArgumentParser()
-#     ap.add_argument("--train", type=Path, required=False)
-#     ap.add_argument("--valid", type=Path)
-#     ap.add_argument("--test", type=Path)
-
-#     ap.add_argument("--output_dir", type=Path, required=False)
-#     ap.add_argument("--epochs", type=int, default=3)
-#     ap.add_argument("--batch_size", type=int, default=8)
-#     ap.add_argument("--lr", type=float, default=5e-5)
-#     ap.add_argument("--max_length", type=int, default=256)
-#     args = ap.parse_args()
-
-    # TRAIN_BATCH_SIZE = 16
-    # VALID_BATCH_SIZE = 16
-    # EPOCHS = 5#3#20
-    # LEARNING_RATE = 5e-5 #1e-05
-    # MAX_GRAD_NORM = 10
-    # MAX_LEN = 256
-
-
-    # phase = 'train'
-    # base_path = Path(f'data/{phase}')
-    # file_paths = sorted([x for x in base_path.rglob('*.tsv')])
-    # data = build_dataset(paths, tokenizer)
-    # import ipdb; ipdb.set_trace()
-
-    # # model_name = args.model
-
-    # # dataset = build_dataset(paths)
-    # # import ipdb; ipdb.set_trace()
-
-    # label_set = []
-    # for label in LABELS:
-    #     label_set.append(f'B-{label}')
-    #     label_set.append(f'I-{label}')
-    # label_set.append('O')
-
-    # id2label = {i: l for i, l in enumerate(label_set)}
-    # id2label['O'] = IGNORE_LABEL
-    # label2id = {l: i for i, l in id2label.items()}
-
-    # # Convert string labels to ids when present during alignment
-
-    # model = AutoModelForTokenClassification.from_pretrained(
-    #     model_name,
-    #     num_labels=len(label_set),
-    #     id2label=id2label,
-    #     label2id=label2id,
-    # )
-
-    # data_collator = DataCollatorForTokenClassification(tokenizer)
-
-
-    # training_args = TrainingArguments(
-    #     output_dir=str(args.output_dir),
-    #     evaluation_strategy="epoch",
-    #     save_strategy="epoch",
-    #     learning_rate=args.lr,
-    #     per_device_train_batch_size=args.batch_size,
-    #     per_device_eval_batch_size=args.batch_size,
-    #     num_train_epochs=args.epochs,
-    #     weight_decay=0.01,
-    #     logging_steps=50,
-    #     report_to=[], # disable wandb by default
-    #     load_best_model_at_end=True,
-    #     metric_for_best_model="f1",
-    #     greater_is_better=True,
-    #     seed=42,
-    # )
