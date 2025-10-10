@@ -115,16 +115,30 @@ def get_spans(tag_list):
         i += 1
     return spans
 
-def compute_metrics_exact(y_true_, y_pred_):
+
+def compute_metrics_exact(y_true_, y_pred_, label):
     if any(isinstance(s, list) for s in y_true_):
         y_true = [item for sublist in y_true_ for item in sublist]
         y_pred = [item for sublist in y_pred_ for item in sublist]
 
-    x_i = [i for i in range(len(y_true)-1) if y_true[i] == 'O' and 'I-' in y_true[i+1]]
-    y_i = [i for i in range(len(y_pred)-1) if y_pred[i] == 'O' and 'I-' in y_pred[i+1]]
-    if len(x_i) > 0 or len(y_i) > 0:
-        print('BUG')
-        import ipdb; ipdb.set_trace()
+        # for i, sublist in enumerate(y_true_):
+        #     for j in range(len(sublist)-1):
+        #         if sublist[j] == 'O' and 'I-' in sublist[j+1]:
+        #             print(f"BUG (true): i: {i}, j: {j}, {label}")
+        #             import ipdb; ipdb.set_trace()
+
+        # for i, sublist in enumerate(y_pred_):
+        #     for j in range(len(sublist)-1):
+        #         if sublist[j] == 'O' and 'I-' in sublist[j+1]:
+        #             print(f"BUG (pred): i: {i}, j: {j}, {label}")
+        #             import ipdb; ipdb.set_trace()
+
+
+    # x_i = [i for i in range(len(y_true)-1) if y_true[i] == 'O' and 'I-' in y_true[i+1]]
+    # y_i = [i for i in range(len(y_pred)-1) if y_pred[i] == 'O' and 'I-' in y_pred[i+1]]
+    # if len(x_i) > 0 or len(y_i) > 0:
+    #     print(f'BUG, {label}')
+    #     import ipdb; ipdb.set_trace()
 
     spans_true = get_spans(y_true)
     spans_pred = get_spans(y_pred)
@@ -180,7 +194,7 @@ def compute_metrics_exact(y_true_, y_pred_):
         'f1': f1
     }
 
-def compute_metrics_partial(y_true, y_pred):
+def compute_metrics_partial(y_true, y_pred, label):
     if any(isinstance(s, list) for s in y_true):
         y_true = [item for sublist in y_true for item in sublist]
         y_pred = [item for sublist in y_pred for item in sublist]
@@ -270,7 +284,13 @@ if __name__ == "__main__":
     pred_dir = Path(args.prediction_dir)
     mode = args.mode
 
-    ref_file_names = sorted([x for x in ref_dir.rglob('*.tsv')])
+    ref_file_names = sorted([x for x in ref_dir.rglob('*.tsv')
+                             if 'daijifeng' not in str(x) and 'ai4finance' not in str(x)
+                             and 'andi611' not in str(x)
+                             ])
+    for i, f in enumerate(ref_file_names):
+        print(f"{i} -> {str(f)}")
+
     if len(ref_file_names) == 0:
         raise Exception("ERROR: No reference files found, configuration error?")
 
@@ -324,9 +344,9 @@ if __name__ == "__main__":
         ref_bio_tags_list = label_to_ref_bio_tags_list[label]
         pred_bio_tags_list = label_to_pred_bio_tags_list[label]
         if mode == 'exact':
-            metrics = compute_metrics_exact(ref_bio_tags_list, pred_bio_tags_list)
+            metrics = compute_metrics_exact(ref_bio_tags_list, pred_bio_tags_list, label)
         elif mode == 'partial':
-            metrics = compute_metrics_partial(ref_bio_tags_list, pred_bio_tags_list)
+            metrics = compute_metrics_partial(ref_bio_tags_list, pred_bio_tags_list, label)
         label_to_metrics[label] = metrics
 
     overall = calculate_macro_micro_weighted_metrics(label_to_metrics)
