@@ -27,6 +27,7 @@ from seqeval.metrics import classification_report
 from sklearn.metrics import accuracy_score
 
 from base_predictor import BasePredictor, LABELS
+from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 # seqeval = evaluate.load('seqeval')
@@ -119,7 +120,7 @@ class dataset(Dataset):
         return ' '.join(self.all_labels[idx])
 
 
-def build_dataset(folder: Path, tokenizer: Any):
+def build_dataset_word(folder: Path, tokenizer: Any):
     all_tokens = []
     all_labels = []
     file_paths = sorted([x for x in folder.rglob('*.tsv')])
@@ -156,6 +157,37 @@ def build_dataset(folder: Path, tokenizer: Any):
     ds = dataset(all_tokens, all_labels, tokenizer, max_len=256)
     return ds
 
+def build_dataset_char(folder: Path, tokenizer: Any):
+    file_paths = sorted([x for x in folder.rglob('*.tsv')])
+
+    all_tokens = []
+    all_labels = []
+    max_len = 0
+    for file in file_paths:
+        doc = webanno_tsv_read_file(file)
+
+        for annotation in doc.annotations:
+            sentences = doc.annotation_sentences(annotation)
+            # tokens = []
+            for sentence in sentences:
+                labels = ['O'] * len(sentence.text)
+                max_len = max(max_len, len(labels))
+                tokens = doc.sentence_tokens(sentence)
+                anno_tokens = [token for token in annotation.tokens if token.sentence_idx == sentence.idx]
+                start_char = anno_tokens[0].start - tokens[0].start
+                end_char = anno_tokens[-1].end - tokens[0].start
+                try:
+                    labels[start_char] = f'B-{annotation.label}'
+                except:
+                    import ipdb; ipdb.set_trace()
+                for idx in range(start_char + 1, end_char):
+                    labels[idx] = f'I-{annotation.label}'
+
+                all_tokens.append(list(sentence.text))
+                all_labels.append(labels)
+
+    ds = dataset(all_tokens, all_labels, tokenizer, max_len=512)
+    return ds
 
 # Defining the training function on the 80% of the dataset for tuning the bert model
 def train(model, train_loader, optimizer, scheduler=None):
@@ -228,11 +260,9 @@ def valid(model, validation_loader):
 
     with torch.no_grad():
         for idx, batch in enumerate(validation_loader):
-
             ids = batch['ids'].to(device, dtype = torch.long)
             mask = batch['mask'].to(device, dtype = torch.long)
             targets = batch['targets'].to(device, dtype = torch.long)
-
 
             outputs = model(input_ids=ids, attention_mask=mask, labels=targets)
             loss, eval_logits = outputs.loss, outputs.logits
@@ -277,88 +307,21 @@ def valid(model, validation_loader):
 
     return labels, predictions
 
-def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, report_type):
-    test_reports = []
-    for res in test_results:
-        report = classification_report([res['labels']], [res['predictions']], output_dict=True)
-        flattened_report = {str(k+'_'+v_k) : v_v for k,v in report.items() for v_k, v_v in v.items()  }
-        # flattened_report['trainset_size'] = res['trainset_size']
-        # flattened_report['trainset_num'] = trainset_num
-        flattened_report['model'] = res['model']
-        test_reports.append(flattened_report)
+# def print_reports_to_csv(results, model_name, LEARNING_RATE, EPOCHS, report_type):
+#     test_reports = []
+#     for res in results:
+#         report = classification_report([res['labels']], [res['predictions']], output_dict=True)
+#         flattened_report = {str(k+'_'+v_k) : v_v for k,v in report.items() for v_k, v_v in v.items()  }
+#         # flattened_report['trainset_size'] = res['trainset_size']
+#         # flattened_report['trainset_num'] = trainset_num
+#         flattened_report['model'] = res['model']
+#         test_reports.append(flattened_report)
 
-    df_test_reports = pd.DataFrame(test_reports)
-    if '/' in model_name:
-        model_name =  model_name.split('/')[1]
-    test_report_name = './'+report_type+'_'+ model_name + '_' + str(LEARNING_RATE) + '_16_' + str(EPOCHS) + '.csv'
-    df_test_reports.to_csv(test_report_name, mode='a', header=not os.path.exists(test_report_name),index=False)
-
-
-# def run():
-#     train_params = {'batch_size': TRAIN_BATCH_SIZE,
-#                     'shuffle': True,
-#                 'num_workers': 0
-#                 }
-
-#     val_params = {'batch_size': VALID_BATCH_SIZE,
-#                     'shuffle': True,
-#                     'num_workers': 0
-#                  }
-#     for trainset_num in range(2,11):
-#         train_file_name = 'data/10-fold/train_499_'+str(trainset_num)+'.csv'#'data/train.csv'
-#         val_file_name = 'data/10-fold/val_499_'+str(trainset_num)+'.csv'#'data/val.csv'
-#         for model_name in ['allenai/scibert_scivocab_uncased']:
-#             tokenizer = AutoTokenizer.from_pretrained(model_name, from_tf=False, model_max_length=MAX_LEN)
-#             test_generalizability_set = dataset(pd.read_csv('data/test_GPT+labels.csv'), tokenizer, MAX_LEN)
-#             validation_set = dataset(pd.read_csv(val_file_name), tokenizer, MAX_LEN)
-#             df_training_set = pd.read_csv(train_file_name)
-
-#             val_results = []
-#             test_results = []
-
-#             validation_loader = DataLoader(validation_set, **val_params)
-#             test_gen_loader = DataLoader(test_generalizability_set, **val_params)
-
-#             for trainsetsize in [2048]:  #[64,128,256,512,1024,2048,4096,8192,11401] are already done
-#                 training_set = dataset(df_training_set[:trainsetsize], tokenizer, MAX_LEN)
-
-#                 print("TRAIN Dataset: {}".format(training_set.data.shape))
-#                 #train_params['batch_size'] =  int( trainsetsize / 32) if (trainsetsize < 1024) else 16
-#                 train_loader = DataLoader(training_set, **train_params)
-
-
-#                 num_training_steps = int(train_loader.dataset.len / train_params['batch_size'] * EPOCHS)
-#                 print(f'tranining steps: {num_training_steps+1}')
-
-#                 #Shrey uses TF model
-#                 model = AutoModelForTokenClassification.from_pretrained(model_name,
-#                                                                         from_tf=False,
-#                                                                         num_labels=len(id2label),
-#                                                                         id2label=id2label,
-#                                                                         label2id=label2id)
-#                 model.to(device)
-
-#                 optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
-#                 #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
-#                 for epoch in range(EPOCHS):
-#                 #for epoch in range(flex_epoch_nb):
-#                     print(f"Training epoch: {epoch + 1}")
-#                     train(model, train_loader, optimizer)
-#                     #valid(model, validation_loader)
-#                     #valid(model, test_gen_loader)
-#                 labels, predictions = valid(model, validation_loader)
-#                 val_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})
-
-#                 #test generalizablity
-#                 labels, predictions = valid(model, test_gen_loader)
-#                 test_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})
-#                 ner_model_name = 'ner_model/'+model_name+ '_ft_' + str(EPOCHS) + 'ep_train_size_'+str(trainsetsize) + '_trainset_'+str(trainset_num)
-#                 model.save_pretrained(ner_model_name)
-#                 tokenizer.save_pretrained(ner_model_name)
-#                 # gpt_aligned_eval(model, tokenizer, ner_model_name) # too slow!
-
-#             print_reports_to_csv(val_results, model_name, LEARNING_RATE, EPOCHS, trainset_num, 'validation')
-#             print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, trainset_num, 'generalizability')
+#     df_test_reports = pd.DataFrame(test_reports)
+#     if '/' in model_name:
+#         model_name =  model_name.split('/')[1]
+#     test_report_name = './'+report_type+'_'+ model_name + '_' + str(LEARNING_RATE) + '_16_' + str(EPOCHS) + '.csv'
+#     df_test_reports.to_csv(test_report_name, mode='a', header=not os.path.exists(test_report_name),index=False)
 
 
 def main(args):
@@ -376,6 +339,7 @@ def main(args):
 
     train_folder = Path("./data/train")
     tokenizer = AutoTokenizer.from_pretrained(args.model, from_tf=False, model_max_length=MAX_LEN)
+    build_dataset = build_dataset_word if args.mode == 'word' else build_dataset_char
     train_set = build_dataset(Path("data/train"), tokenizer)
     valid_set = build_dataset(Path("data/val"), tokenizer)
     test_set = build_dataset(Path("data/test_labeled"), tokenizer)
@@ -390,11 +354,11 @@ def main(args):
 
     logging.info("TRAIN Dataset: {}".format(len(train_set)))
     #train_params['batch_size'] =  int( trainsetsize / 32) if (trainsetsize < 1024) else 16
-    EPOCHS = 100#3#20
+    # EPOCHS = 1 #3#20
     LEARNING_RATE = 5e-5 #1e-05
     train_loader = DataLoader(train_set, **train_params)
-    num_training_steps = int(len(train_loader) / train_params['batch_size'] * EPOCHS)
-    print(f'tranining steps: {num_training_steps+1}')
+    # num_training_steps = int(len(train_loader) / train_params['batch_size'] * EPOCHS)
+    # print(f'tranining steps: {num_training_steps+1}')
 
     #Shrey uses TF model
     model = AutoModelForTokenClassification.from_pretrained(args.model,
@@ -405,15 +369,23 @@ def main(args):
     model.to(device)
     optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
     #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
-    val_results = []
-    for epoch in range(EPOCHS):
+    for epoch in range(args.epoch):
         print(f"Training epoch: {epoch + 1}")
         train(model, train_loader, optimizer)
         #valid(model, validation_loader)
         #valid(model, test_gen_loader)
-    labels, predictions = valid(model, valid_loader)
-    val_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
-    print_reports_to_csv(val_results, args.model, LEARNING_RATE, EPOCHS, 'validation')
+
+    labels, predictions = valid(model, test_loader)
+    save_path = Path(f"./results/{args.model}/{args.mode}/test_labeled/result.json")
+    save_path.parent.mkdir(parents=True, exist_ok=True)
+    result = {"truth": labels, "pred": predictions}
+    save_path.write_text(json.dumps(result))
+
+    # val_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
+    # test_results = []
+    # test_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
+    # print_reports_to_csv(test_results, args.model, LEARNING_RATE, EPOCHS, 'test')
+
     # val_results = []
     # test_results = []
     # val_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})
@@ -424,6 +396,8 @@ if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="allenai/scibert_scivocab_uncased")
+    parser.add_argument("--epoch", type=int, default=1)
+    parser.add_argument('--mode', type=str, default='word')
     parser.add_argument("--debug", action="store_true")
 
     args = parser.parse_args()
