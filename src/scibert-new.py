@@ -30,22 +30,10 @@ from base_predictor import BasePredictor, LABELS
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-# seqeval = evaluate.load('seqeval')
-# import ipdb; ipdb.set_trace()
 
-IGNORE_LABEL = -100
 
-label_set = []
-for label in LABELS:
-    label_set.append(f'B-{label}')
-    label_set.append(f'I-{label}')
-label_set.append('O')
-
-label2id = {l: i for i, l in enumerate(label_set)}
-label2id['O'] = IGNORE_LABEL
-id2label = {i: l for i, l in enumerate(label_set)}
-id2label[IGNORE_LABEL] = 'O'
-
+label2id = None
+id2label = None
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 def tokenize_and_preserve_labels(tokens, labels, tokenizer):
@@ -78,10 +66,9 @@ class dataset(Dataset):
 
         tokenized_tokens, tokenized_labels = tokenize_and_preserve_labels(tokens, labels, self.tokenizer)
         # step 2: add special tokens (and corresponding labels)
-        tokenized_tokens = ["<s> "] + tokenized_tokens + [" </s>"] # add special tokens of Roberta
+        tokenized_tokens = [self.tokenizer.cls_token] + tokenized_tokens + [self.tokenizer.sep_token] # add special tokens of Roberta
         tokenized_labels.insert(0, "O") # add outside label for [CLS] token
         tokenized_labels.append("O") # add outside label for [SEP] token
-
         # step 3: truncating/padding
         maxlen = self.max_len
 
@@ -91,11 +78,11 @@ class dataset(Dataset):
             tokenized_labels = tokenized_labels[:maxlen]
         else:
             # pad
-            tokenized_tokens = tokenized_tokens + ['<pad>'for _ in range(maxlen - len(tokenized_tokens))]
+            tokenized_tokens = tokenized_tokens + [self.tokenizer.pad_token for _ in range(maxlen - len(tokenized_tokens))]
             tokenized_labels = tokenized_labels + ["O" for _ in range(maxlen - len(tokenized_labels))]
 
         # step 4: obtain the attention mask
-        attn_mask = [1 if tok != '<pad>' else 0 for tok in tokenized_tokens] #modifié selon https://huggingface.co/docs/transformers/v4.21.1/en/model_doc/camembert
+        attn_mask = [1 if tok != self.tokenizer.pad_token else 0 for tok in tokenized_tokens] #modifié selon https://huggingface.co/docs/transformers/v4.21.1/en/model_doc/camembert
 
         # step 5: convert tokens to input ids
         ids = self.tokenizer.convert_tokens_to_ids(tokenized_tokens)
@@ -253,7 +240,7 @@ def train(model, train_loader, optimizer, scheduler=None):
         active_accuracy = mask.view(-1) == 1 # active accuracy is also of shape (batch_size * seq_len,)
         targets = torch.masked_select(flattened_targets, active_accuracy)
         predictions = torch.masked_select(flattened_predictions, active_accuracy)
-
+        # import ipdb; ipdb.set_trace()
         tr_preds.extend(predictions)
         tr_labels.extend(targets)
         tmp_tr_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
@@ -352,14 +339,25 @@ def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, report
 
 
 def main(args):
+    label_set = []
+    for label in [args.target_label]:
+        label_set.append(f'B-{label}')
+        label_set.append(f'I-{label}')
+    label_set.append('O')
+    global label2id
+    global id2label
+    label2id = {l: i for i, l in enumerate(label_set)}
+    id2label = {i: l for l, i in label2id.items()}
+
     MAX_LEN = 256
+    batch_size = 16
     train_params = {
-        'batch_size': 16,
+        'batch_size': batch_size,
         'shuffle': True,
         'num_workers': 0
     }
     val_params = {
-        'batch_size': 16,
+        'batch_size': batch_size,
         'shuffle': True,
         'num_workers': 0
     }
@@ -390,7 +388,6 @@ def main(args):
                                                             num_labels=len(id2label),
                                                             id2label=id2label,
                                                             label2id=label2id)
-
     model.to(device)
     optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
     #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
@@ -400,8 +397,13 @@ def main(args):
         #valid(model, validation_loader)
         #valid(model, test_gen_loader)
 
+    ner_model_name = Path(f'ner_model/{args.model}_ft_{args.epoch}_{args.target_label}')
+    ner_model_name.parent.mkdir(parents=True, exist_ok=True)
+    model.save_pretrained(ner_model_name)
+    tokenizer.save_pretrained(ner_model_name)
+
     labels, predictions = valid(model, test_loader)
-    save_path = Path(f"./results/{args.model}/{args.mode}/test_labeled/result.json")
+    save_path = Path(f"./results/{args.model}/{args.mode}/test_labeled/result_{args.target_label}.json")
     save_path.parent.mkdir(parents=True, exist_ok=True)
     result = {"truth": labels, "pred": predictions}
     save_path.write_text(json.dumps(result))
