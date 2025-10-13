@@ -79,8 +79,8 @@ class dataset(Dataset):
         tokenized_tokens, tokenized_labels = tokenize_and_preserve_labels(tokens, labels, self.tokenizer)
         # step 2: add special tokens (and corresponding labels)
         tokenized_tokens = ["<s> "] + tokenized_tokens + [" </s>"] # add special tokens of Roberta
-        labels.insert(0, "O") # add outside label for [CLS] token
-        labels.append("O") # add outside label for [SEP] token
+        tokenized_labels.insert(0, "O") # add outside label for [CLS] token
+        tokenized_labels.append("O") # add outside label for [SEP] token
 
         # step 3: truncating/padding
         maxlen = self.max_len
@@ -165,30 +165,57 @@ def build_dataset_char(folder: Path, tokenizer: Any, target_label: str):
     max_len = 0
     for file in file_paths:
         doc = webanno_tsv_read_file(file)
-
+        anno_tokens = []
         for annotation in doc.annotations:
             if annotation.label != target_label:
                 continue
 
-            sentences = doc.annotation_sentences(annotation)
-            for sentence in sentences:
-                labels = []
-                tokens = []
-                sent_tokens = doc.sentence_tokens(sentence)
-                for token in sent_tokens:
-                    tokens.append(token.text)
-                    if token in annotation.tokens:
-                        labels.append(f'I-{annotation.label}')
-                    else:
-                        labels.append('O')
+            anno_tokens += annotation.tokens
+        if len(anno_tokens) == 0:
+            continue
 
-                for idx in range(len(labels) - 1):
-                    if labels[idx] == 'O' and labels[idx+1] == f'I-{annotation.label}':
-                        labels[idx] = f'B-{annotation.label}'
+        for sentence in doc.sentences:
+            labels = []
+            tokens = []
+            sent_tokens = doc.sentence_tokens(sentence)
+            annotated = False
+            for token in sent_tokens:
+                tokens.append(token.text)
+                if token in anno_tokens:
+                    labels.append(f'I-{target_label}')
+                    annotated = True
+                else:
+                    labels.append('O')
+
+            if len(tokens) != len(labels):
+                raise Exception("tokens and labels are mismatched")
+
+            for idx in range(len(labels) - 1):
+                if labels[idx] == 'O' and labels[idx+1] == f'I-{target_label}':
+                    labels[idx+1] = f'B-{target_label}'
+
+            if annotated is True:
                 all_tokens.append(tokens)
                 all_labels.append(labels)
 
-    ds = dataset(all_tokens, all_labels, tokenizer, max_len=512)
+            # for token, label in zip(all_tokens[0][:30], all_labels[0][:30]):
+            #     logging.info('{0:15}  {1}'.format(token, label))
+
+    # logging.info('------------------------------------------------------------')
+    # for token, label in zip(all_tokens[0][:50], all_labels[0][:50]):
+    #     logging.info('{0:15}  {1}'.format(token, label))
+    ds = dataset(all_tokens, all_labels, tokenizer, max_len=256)
+    # logging.info the first 50 tokens and corresponding labels
+    # logging.info('------------------------------------------------------------')
+    # for token, label in zip(all_tokens[0][:50], all_labels[0][:50]):
+    #     logging.info('{0:15}  {1}'.format(token, label))
+
+    # for token, label in zip(tokenizer.convert_ids_to_tokens(ds[0]["ids"][:50]), ds[0]["targets"][:50]):
+    #     logging.info('{0:15}  {1}'.format(token, id2label[label.item()]))
+    # logging.info('------------------------------------------------------------')
+    # for token, label in zip(all_tokens[0][:50], all_labels[0][:50]):
+    #     logging.info('{0:15}  {1}'.format(token, label))
+
     return ds
 
 # Defining the training function on the 80% of the dataset for tuning the bert model
@@ -207,8 +234,7 @@ def train(model, train_loader, optimizer, scheduler=None):
 
         outputs = model(input_ids=ids, attention_mask=mask, labels=targets)
         loss, tr_logits = outputs.loss, outputs.logits
-        '''
-        loss, tr_logits  = model(input_ids=ids, attention_mask=mask, labels=targets)#temporary modification for transformer 3'''
+        ''' loss, tr_logits  = model(input_ids=ids, attention_mask=mask, labels=targets)#temporary modification for transformer 3'''
 
         tr_loss += loss.item()
 
@@ -230,7 +256,6 @@ def train(model, train_loader, optimizer, scheduler=None):
 
         tr_preds.extend(predictions)
         tr_labels.extend(targets)
-
         tmp_tr_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
         tr_accuracy += tmp_tr_accuracy
         MAX_GRAD_NORM = 10
@@ -350,9 +375,6 @@ def main(args):
     valid_loader = DataLoader(valid_set, **train_params)
     test_loader = DataLoader(test_set, **train_params)
 
-    # logging.info the first 50 tokens and corresponding labels
-    # for token, label in zip(tokenizer.convert_ids_to_tokens(train_set[0]["ids"][:50]), train_set[0]["targets"][:50]):
-    #     logging.info('{0:15}  {1}'.format(token, id2label[label.item()]))
 
     logging.info("TRAIN Dataset: {}".format(len(train_set)))
     #train_params['batch_size'] =  int( trainsetsize / 32) if (trainsetsize < 1024) else 16
