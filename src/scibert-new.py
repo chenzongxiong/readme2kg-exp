@@ -27,6 +27,7 @@ from seqeval.metrics import classification_report
 from sklearn.metrics import accuracy_score
 
 from base_predictor import BasePredictor, LABELS
+from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 # seqeval = evaluate.load('seqeval')
@@ -119,7 +120,7 @@ class dataset(Dataset):
         return ' '.join(self.all_labels[idx])
 
 
-def build_dataset(folder: Path, tokenizer: Any):
+def build_dataset_word(folder: Path, tokenizer: Any, target_label: str):
     all_tokens = []
     all_labels = []
     file_paths = sorted([x for x in folder.rglob('*.tsv')])
@@ -156,6 +157,39 @@ def build_dataset(folder: Path, tokenizer: Any):
     ds = dataset(all_tokens, all_labels, tokenizer, max_len=256)
     return ds
 
+def build_dataset_char(folder: Path, tokenizer: Any, target_label: str):
+    file_paths = sorted([x for x in folder.rglob('*.tsv')])
+
+    all_tokens = []
+    all_labels = []
+    max_len = 0
+    for file in file_paths:
+        doc = webanno_tsv_read_file(file)
+
+        for annotation in doc.annotations:
+            if annotation.label != target_label:
+                continue
+
+            sentences = doc.annotation_sentences(annotation)
+            for sentence in sentences:
+                labels = []
+                tokens = []
+                sent_tokens = doc.sentence_tokens(sentence)
+                for token in sent_tokens:
+                    tokens.append(token.text)
+                    if token in annotation.tokens:
+                        labels.append(f'I-{annotation.label}')
+                    else:
+                        labels.append('O')
+
+                for idx in range(len(labels) - 1):
+                    if labels[idx] == 'O' and labels[idx+1] == f'I-{annotation.label}':
+                        labels[idx] = f'B-{annotation.label}'
+                all_tokens.append(tokens)
+                all_labels.append(labels)
+
+    ds = dataset(all_tokens, all_labels, tokenizer, max_len=512)
+    return ds
 
 # Defining the training function on the 80% of the dataset for tuning the bert model
 def train(model, train_loader, optimizer, scheduler=None):
@@ -183,7 +217,7 @@ def train(model, train_loader, optimizer, scheduler=None):
 
         #if idx % 100==0:
         #    loss_step = tr_loss/nb_tr_steps
-        #    print(f"Training loss per 100 training steps: {loss_step}")
+        #    logging.info(f"Training loss per 100 training steps: {loss_step}")
 
         # compute training accuracy
         flattened_targets = targets.view(-1) # shape (batch_size * seq_len,)
@@ -213,9 +247,9 @@ def train(model, train_loader, optimizer, scheduler=None):
 
     epoch_loss = tr_loss / nb_tr_steps
     tr_accuracy = tr_accuracy / nb_tr_steps
-    #print(f"Trained {nb_tr_steps} steps")
-    print(f"Training loss epoch: {epoch_loss}")
-    print(f"Training accuracy epoch: {tr_accuracy}")
+    #logging.info(f"Trained {nb_tr_steps} steps")
+    logging.info(f"Training loss epoch: {epoch_loss}")
+    logging.info(f"Training accuracy epoch: {tr_accuracy}")
 
 
 def valid(model, validation_loader):
@@ -228,11 +262,9 @@ def valid(model, validation_loader):
 
     with torch.no_grad():
         for idx, batch in enumerate(validation_loader):
-
             ids = batch['ids'].to(device, dtype = torch.long)
             mask = batch['mask'].to(device, dtype = torch.long)
             targets = batch['targets'].to(device, dtype = torch.long)
-
 
             outputs = model(input_ids=ids, attention_mask=mask, labels=targets)
             loss, eval_logits = outputs.loss, outputs.logits
@@ -244,7 +276,7 @@ def valid(model, validation_loader):
 
             #if idx % 100==0:
             #    loss_step = eval_loss/nb_eval_steps
-            #    print(f"Validation loss per 100 evaluation steps: {loss_step}")
+            #    logging.info(f"Validation loss per 100 evaluation steps: {loss_step}")
 
             # compute evaluation accuracy
             flattened_targets = targets.view(-1) # shape (batch_size * seq_len,)
@@ -261,38 +293,37 @@ def valid(model, validation_loader):
             tmp_eval_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
             eval_accuracy += tmp_eval_accuracy
 
-    #print(eval_labels)
-    #print(eval_preds)
+    #logging.info(eval_labels)
+    #logging.info(eval_preds)
 
     labels = [id2label[id.item()] for id in eval_labels]
     predictions = [id2label[id.item()] for id in eval_preds]
 
-    #print(labels)
-    #print(predictions)
+    #logging.info(labels)
+    #logging.info(predictions)
 
     eval_loss = eval_loss / nb_eval_steps
     eval_accuracy = eval_accuracy / nb_eval_steps
-    print(f"Validation Loss: {eval_loss}")
-    print(f"Validation Accuracy: {eval_accuracy}")
+    logging.info(f"Validation Loss: {eval_loss}")
+    logging.info(f"Validation Accuracy: {eval_accuracy}")
 
     return labels, predictions
+
 
 def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, report_type):
     test_reports = []
     for res in test_results:
         report = classification_report([res['labels']], [res['predictions']], output_dict=True)
         flattened_report = {str(k+'_'+v_k) : v_v for k,v in report.items() for v_k, v_v in v.items()  }
-        # flattened_report['trainset_size'] = res['trainset_size']
-        # flattened_report['trainset_num'] = trainset_num
         flattened_report['model'] = res['model']
         test_reports.append(flattened_report)
 
     df_test_reports = pd.DataFrame(test_reports)
     if '/' in model_name:
         model_name =  model_name.split('/')[1]
-    test_report_name = './'+report_type+'_'+ model_name + '_' + str(LEARNING_RATE) + '_16_' + str(EPOCHS) + '.csv'
+    test_report_name = Path(f'./results/finetuning_results/{report_type}_{model_name}_{LEARNING_RATE}_16_{EPOCHS}.csv')
+    test_report_name.parent.mkdir(parents=True, exist_ok=True)
     df_test_reports.to_csv(test_report_name, mode='a', header=not os.path.exists(test_report_name),index=False)
-
 
 
 def main(args):
@@ -310,25 +341,26 @@ def main(args):
 
     train_folder = Path("./data/train")
     tokenizer = AutoTokenizer.from_pretrained(args.model, from_tf=False, model_max_length=MAX_LEN)
-    train_set = build_dataset(Path("data/train"), tokenizer)
-    valid_set = build_dataset(Path("data/val"), tokenizer)
-    test_set = build_dataset(Path("data/test_labeled"), tokenizer)
-
+    # build_dataset = build_dataset_word if args.mode == 'word' else build_dataset_char
+    build_dataset = build_dataset_char
+    train_set = build_dataset(Path("data/train"), tokenizer, args.target_label)
+    valid_set = build_dataset(Path("data/val"), tokenizer, args.target_label)
+    test_set = build_dataset(Path("data/test_labeled"), tokenizer, args.target_label)
     train_loader = DataLoader(train_set, **train_params)
     valid_loader = DataLoader(valid_set, **train_params)
     test_loader = DataLoader(test_set, **train_params)
 
-    # print the first 50 tokens and corresponding labels
+    # logging.info the first 50 tokens and corresponding labels
     # for token, label in zip(tokenizer.convert_ids_to_tokens(train_set[0]["ids"][:50]), train_set[0]["targets"][:50]):
-    #     print('{0:15}  {1}'.format(token, id2label[label.item()]))
+    #     logging.info('{0:15}  {1}'.format(token, id2label[label.item()]))
 
     logging.info("TRAIN Dataset: {}".format(len(train_set)))
     #train_params['batch_size'] =  int( trainsetsize / 32) if (trainsetsize < 1024) else 16
-    EPOCHS = 100#3#20
+    # EPOCHS = 1 #3#20
     LEARNING_RATE = 5e-5 #1e-05
     train_loader = DataLoader(train_set, **train_params)
-    num_training_steps = int(len(train_loader) / train_params['batch_size'] * EPOCHS)
-    print(f'tranining steps: {num_training_steps+1}')
+    # num_training_steps = int(len(train_loader) / train_params['batch_size'] * EPOCHS)
+    # logging.info(f'tranining steps: {num_training_steps+1}')
 
     #Shrey uses TF model
     model = AutoModelForTokenClassification.from_pretrained(args.model,
@@ -336,28 +368,34 @@ def main(args):
                                                             num_labels=len(id2label),
                                                             id2label=id2label,
                                                             label2id=label2id)
+
     model.to(device)
     optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
     #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
-    val_results = []
-    for epoch in range(EPOCHS):
-        print(f"Training epoch: {epoch + 1}")
+    for epoch in range(args.epoch):
+        logging.info(f"Training epoch: {epoch + 1}")
         train(model, train_loader, optimizer)
         #valid(model, validation_loader)
         #valid(model, test_gen_loader)
-    labels, predictions = valid(model, valid_loader)
-    val_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
-    print_reports_to_csv(val_results, args.model, LEARNING_RATE, EPOCHS, 'validation')
-    # val_results = []
-    # test_results = []
-    # val_results.append({'trainset_size': trainsetsize, 'model': model_name, 'labels': labels, 'predictions': predictions})
 
+    labels, predictions = valid(model, test_loader)
+    save_path = Path(f"./results/{args.model}/{args.mode}/test_labeled/result.json")
+    save_path.parent.mkdir(parents=True, exist_ok=True)
+    result = {"truth": labels, "pred": predictions}
+    save_path.write_text(json.dumps(result))
+
+    test_results = []
+    test_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
+    print_reports_to_csv(test_results, args.model, LEARNING_RATE, args.epoch, 'test')
 
 
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="allenai/scibert_scivocab_uncased")
+    parser.add_argument("--epoch", type=int, default=1)
+    parser.add_argument('--mode', type=str, default='word')
+    parser.add_argument('--target_label', type=str, default='DATASET')
     parser.add_argument("--debug", action="store_true")
 
     args = parser.parse_args()
