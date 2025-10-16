@@ -94,7 +94,7 @@ class dataset(Dataset):
             'ids': torch.tensor(ids, dtype=torch.long),
             'mask': torch.tensor(attn_mask, dtype=torch.long),
             #'token_type_ids': torch.tensor(token_ids, dtype=torch.long),
-            'targets': torch.tensor(label_ids, dtype=torch.long)
+            'targets': torch.tensor(label_ids, dtype=torch.long),
         }
 
     def __len__(self):
@@ -264,19 +264,24 @@ def train(model, train_loader, optimizer, scheduler=None):
     logging.info(f"Training accuracy epoch: {tr_accuracy}")
 
 
-def valid(model, validation_loader):
+def valid(model, validation_loader, tokenizer):
     # put model in evaluation mode
     model.eval()
 
     eval_loss, eval_accuracy = 0, 0
     nb_eval_examples, nb_eval_steps = 0, 0
     eval_preds, eval_labels = [], []
-
+    eval_tokens = []
     with torch.no_grad():
         for idx, batch in enumerate(validation_loader):
+            import ipdb; ipdb.set_trace()
             ids = batch['ids'].to(device, dtype = torch.long)
             mask = batch['mask'].to(device, dtype = torch.long)
             targets = batch['targets'].to(device, dtype = torch.long)
+
+            ids = ids.view(1, -1)
+            mask = mask.view(1, -1)
+            targets = targets.view(1, -1)
 
             outputs = model(input_ids=ids, attention_mask=mask, labels=targets)
             loss, eval_logits = outputs.loss, outputs.logits
@@ -301,7 +306,10 @@ def valid(model, validation_loader):
 
             eval_labels.extend(targets)
             eval_preds.extend(predictions)
+            import ipdb; ipdb.set_trace()
+            tokenized_tokens = tokenizer.convert_ids_to_tokens(ids)
 
+            eval_tokens.extend(tokenized_tokens)
             tmp_eval_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
             eval_accuracy += tmp_eval_accuracy
 
@@ -310,7 +318,7 @@ def valid(model, validation_loader):
 
     labels = [id2label[id.item()] for id in eval_labels]
     predictions = [id2label[id.item()] for id in eval_preds]
-
+    import ipdb; ipdb.set_trace()
     #logging.info(labels)
     #logging.info(predictions)
 
@@ -357,8 +365,8 @@ def main(args):
         'num_workers': 0
     }
     val_params = {
-        'batch_size': batch_size,
-        'shuffle': True,
+        'batch_size': 1,
+        'shuffle': False,
         'num_workers': 0
     }
 
@@ -370,8 +378,8 @@ def main(args):
     valid_set = build_dataset(Path("data/val"), tokenizer, args.target_label)
     test_set = build_dataset(Path("data/test_labeled"), tokenizer, args.target_label)
     train_loader = DataLoader(train_set, **train_params)
-    valid_loader = DataLoader(valid_set, **train_params)
-    test_loader = DataLoader(test_set, **train_params)
+    valid_loader = DataLoader(valid_set, **val_params)
+    test_loader = DataLoader(test_set, **val_params)
 
 
     logging.info("TRAIN Dataset: {}".format(len(train_set)))
@@ -383,26 +391,32 @@ def main(args):
     # logging.info(f'tranining steps: {num_training_steps+1}')
 
     #Shrey uses TF model
-    model = AutoModelForTokenClassification.from_pretrained(args.model,
-                                                            from_tf=False,
-                                                            num_labels=len(id2label),
-                                                            id2label=id2label,
-                                                            label2id=label2id)
-    model.to(device)
-    optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
-    #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
-    for epoch in range(args.epoch):
-        logging.info(f"Training epoch: {epoch + 1}")
-        train(model, train_loader, optimizer)
-        #valid(model, validation_loader)
-        #valid(model, test_gen_loader)
-
     ner_model_name = Path(f'ner_model/{args.model}_ft_{args.epoch}_{args.target_label}')
     ner_model_name.parent.mkdir(parents=True, exist_ok=True)
-    model.save_pretrained(ner_model_name)
-    tokenizer.save_pretrained(ner_model_name)
+    if (ner_model_name / "model.safetensors").exists():
+        tokenizer = AutoTokenizer.from_pretrained(ner_model_name)
+        model = AutoModelForTokenClassification.from_pretrained(ner_model_name)
+    else:
+        model = AutoModelForTokenClassification.from_pretrained(args.model,
+                                                                from_tf=False,
+                                                                num_labels=len(id2label),
+                                                                id2label=id2label,
+                                                                label2id=label2id)
+        model.to(device)
+        optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
+        for epoch in range(args.epoch):
+            logging.info(f"Training epoch: {epoch + 1}")
+            train(model, train_loader, optimizer)
+            #valid(model, validation_loader)
+            #valid(model, test_gen_loader)
 
-    labels, predictions = valid(model, test_loader)
+        model.save_pretrained(ner_model_name)
+        tokenizer.save_pretrained(ner_model_name)
+
+    model.to(device)
+    #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
+    # labels, predictions = valid(model, test_loader, tokenizer)
+    labels, predictions = valid(model, test_set, tokenizer)
     save_path = Path(f"./results/{args.model}/{args.mode}/test_labeled/result_{args.target_label}.json")
     save_path.parent.mkdir(parents=True, exist_ok=True)
     result = {"truth": labels, "pred": predictions}
@@ -410,7 +424,7 @@ def main(args):
 
     test_results = []
     test_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
-    print_reports_to_csv(test_results, args.model, LEARNING_RATE, args.epoch, 'test')
+    print_reports_to_csv(test_results, args.model, LEARNING_RATE, args.epoch, f'test-{args.target_label}')
 
 
 if __name__ == '__main__':
