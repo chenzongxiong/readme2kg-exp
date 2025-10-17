@@ -367,11 +367,9 @@ def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, report
     import json
     test_reports = []
     for res in test_results:
-        report1 = classification_report([res['labels']], [res['predictions']], output_dict=True)
+        # report1 = classification_report([res['labels']], [res['predictions']], mode='partial', output_dict=True)
+        report1 = compute_metrics_partial(res['labels'], res['predictions'], '')
         report2 = classification_report([res['labels']], [res['predictions']], mode='strict', output_dict=True)
-        for k, v in report1.items():
-            for kk, vv in v.items():
-                report1[k][kk] = float(vv)
 
         for k, v in report2.items():
             for kk, vv in v.items():

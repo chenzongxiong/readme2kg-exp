@@ -27,30 +27,13 @@
       }
     },
     "partial": {
-      "CONFERENCE": {
-        "f1-score": 0.908256880733945,
-        "precision": 0.9,
-        "recall": 0.9166666666666666,
-        "support": 108.0
-      },
-      "macro avg": {
-        "f1-score": 0.908256880733945,
-        "precision": 0.9,
-        "recall": 0.9166666666666666,
-        "support": 108.0
-      },
-      "micro avg": {
-        "f1-score": 0.908256880733945,
-        "precision": 0.9,
-        "recall": 0.9166666666666666,
-        "support": 108.0
-      },
-      "weighted avg": {
-        "f1-score": 0.908256880733945,
-        "precision": 0.9,
-        "recall": 0.9166666666666666,
-        "support": 108.0
-      }
+      "FN": 11,
+      "FP": 65,
+      "TN": 27635,
+      "TP": 1419,
+      "f1": 0.9739190116678106,
+      "precision": 0.956199460916442,
+      "recall": 0.9923076923076923
     }
   }
 ]

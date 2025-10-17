@@ -27,30 +27,13 @@
       }
     },
     "partial": {
-      "WORKSHOP": {
-        "f1-score": 0.7222222222222223,
-        "precision": 0.65,
-        "recall": 0.8125,
-        "support": 32.0
-      },
-      "macro avg": {
-        "f1-score": 0.7222222222222223,
-        "precision": 0.65,
-        "recall": 0.8125,
-        "support": 32.0
-      },
-      "micro avg": {
-        "f1-score": 0.7222222222222223,
-        "precision": 0.65,
-        "recall": 0.8125,
-        "support": 32.0
-      },
-      "weighted avg": {
-        "f1-score": 0.7222222222222223,
-        "precision": 0.65,
-        "recall": 0.8125,
-        "support": 32.0
-      }
+      "FN": 72,
+      "FP": 84,
+      "TN": 6166,
+      "TP": 304,
+      "f1": 0.7958115183246073,
+      "precision": 0.7835051546391752,
+      "recall": 0.8085106382978723
     }
   }
 ]

@@ -27,30 +27,13 @@
       }
     },
     "partial": {
-      "ONTOLOGY": {
-        "f1-score": 0.25,
-        "precision": 0.25,
-        "recall": 0.25,
-        "support": 8.0
-      },
-      "macro avg": {
-        "f1-score": 0.25,
-        "precision": 0.25,
-        "recall": 0.25,
-        "support": 8.0
-      },
-      "micro avg": {
-        "f1-score": 0.25,
-        "precision": 0.25,
-        "recall": 0.25,
-        "support": 8.0
-      },
-      "weighted avg": {
-        "f1-score": 0.25,
-        "precision": 0.25,
-        "recall": 0.25,
-        "support": 8.0
-      }
+      "FN": 3,
+      "FP": 56,
+      "TN": 2353,
+      "TP": 52,
+      "f1": 0.6380368098159509,
+      "precision": 0.48148148148148145,
+      "recall": 0.9454545454545454
     }
   }
 ]
