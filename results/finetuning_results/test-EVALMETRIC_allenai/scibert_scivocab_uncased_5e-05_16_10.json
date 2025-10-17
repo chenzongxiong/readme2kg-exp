@@ -1,0 +1,56 @@
+[
+  {
+    "exact": {
+      "EVALMETRIC": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      },
+      "macro avg": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      },
+      "micro avg": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      },
+      "weighted avg": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      }
+    },
+    "partial": {
+      "EVALMETRIC": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      },
+      "macro avg": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      },
+      "micro avg": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      },
+      "weighted avg": {
+        "f1-score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 81.0
+      }
+    }
+  }
+]

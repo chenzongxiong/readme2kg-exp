@@ -28,6 +28,7 @@ from sklearn.metrics import accuracy_score
 
 from base_predictor import BasePredictor, LABELS
 from webanno_tsv import webanno_tsv_read_file, Document, Annotation, Token
+from compute_metrics import compute_metrics_exact, compute_metrics_partial, flatten
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -264,7 +265,7 @@ def train(model, train_loader, optimizer, scheduler=None):
     logging.info(f"Training accuracy epoch: {tr_accuracy}")
 
 
-def valid(model, validation_loader, tokenizer):
+def valid(model, validation_loader, tokenizer, target_label):
     # put model in evaluation mode
     model.eval()
 
@@ -272,9 +273,10 @@ def valid(model, validation_loader, tokenizer):
     nb_eval_examples, nb_eval_steps = 0, 0
     eval_preds, eval_labels = [], []
     eval_tokens = []
+    all_char_level_preds = []
+    all_char_level_labels = []
     with torch.no_grad():
         for idx, batch in enumerate(validation_loader):
-            import ipdb; ipdb.set_trace()
             ids = batch['ids'].to(device, dtype = torch.long)
             mask = batch['mask'].to(device, dtype = torch.long)
             targets = batch['targets'].to(device, dtype = torch.long)
@@ -306,8 +308,34 @@ def valid(model, validation_loader, tokenizer):
 
             eval_labels.extend(targets)
             eval_preds.extend(predictions)
-            import ipdb; ipdb.set_trace()
-            tokenized_tokens = tokenizer.convert_ids_to_tokens(ids)
+            tokenized_tokens = tokenizer.convert_ids_to_tokens(torch.masked_select(ids, active_accuracy).cpu())
+            tokenized_labels = [id2label[label.item()] for label in targets.cpu()]
+            tokenized_preds = [id2label[label.item()] for label in predictions.cpu()]
+            tokenized_tokens = tokenized_tokens[1:-1]
+            tokenized_labels = tokenized_labels[1:-1]
+            tokenized_preds  = tokenized_preds[1:-1]
+            char_level_preds = []
+            char_level_labels = []
+            for token, pred, label in zip(tokenized_tokens, tokenized_preds, tokenized_labels):
+                if target_label in pred:
+                    char_level_preds.extend([f'I-{target_label}'] * len(token))
+                else:
+                    char_level_preds.extend(['O'] * len(token))
+
+                if target_label in label:
+                    char_level_labels.extend([f'I-{target_label}'] * len(token))
+                else:
+                    char_level_labels.extend(['O'] * len(token))
+
+            for idx in range(len(char_level_preds)-1):
+                if char_level_preds[idx] == 'O' and char_level_preds[idx+1] == f'I-{target_label}':
+                    char_level_preds[idx+1] = f'B-{target_label}'
+
+                if char_level_labels[idx] == 'O' and char_level_labels[idx+1] == f'I-{target_label}':
+                    char_level_labels[idx+1] = f'B-{target_label}'
+
+            all_char_level_preds.append(char_level_preds)
+            all_char_level_labels.append(char_level_labels)
 
             eval_tokens.extend(tokenized_tokens)
             tmp_eval_accuracy = accuracy_score(targets.cpu().numpy(), predictions.cpu().numpy())
@@ -318,7 +346,6 @@ def valid(model, validation_loader, tokenizer):
 
     labels = [id2label[id.item()] for id in eval_labels]
     predictions = [id2label[id.item()] for id in eval_preds]
-    import ipdb; ipdb.set_trace()
     #logging.info(labels)
     #logging.info(predictions)
 
@@ -326,24 +353,36 @@ def valid(model, validation_loader, tokenizer):
     eval_accuracy = eval_accuracy / nb_eval_steps
     logging.info(f"Validation Loss: {eval_loss}")
     logging.info(f"Validation Accuracy: {eval_accuracy}")
+    # ret = compute_metrics_exact(all_char_level_labels, all_char_level_preds, target_label)
+    # logging.info(f"Exact: {ret}")
+    ret = compute_metrics_partial(all_char_level_labels, all_char_level_preds, target_label)
+    logging.info(f"{target_label} Partial: {ret}")
 
-    return labels, predictions
+    # return labels, predictions
+    return flatten(all_char_level_labels), flatten(all_char_level_preds)
+    # return all_char_level_labels, all_char_level_preds
 
 
 def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, report_type):
+    import json
     test_reports = []
     for res in test_results:
-        report = classification_report([res['labels']], [res['predictions']], output_dict=True)
-        flattened_report = {str(k+'_'+v_k) : v_v for k,v in report.items() for v_k, v_v in v.items()  }
-        flattened_report['model'] = res['model']
-        test_reports.append(flattened_report)
+        report1 = classification_report([res['labels']], [res['predictions']], output_dict=True)
+        report2 = classification_report([res['labels']], [res['predictions']], mode='strict', output_dict=True)
+        for k, v in report1.items():
+            for kk, vv in v.items():
+                report1[k][kk] = float(vv)
 
-    df_test_reports = pd.DataFrame(test_reports)
-    if '/' in model_name:
-        model_name =  model_name.split('/')[1]
-    test_report_name = Path(f'./results/finetuning_results/{report_type}_{model_name}_{LEARNING_RATE}_16_{EPOCHS}.csv')
+        for k, v in report2.items():
+            for kk, vv in v.items():
+                report2[k][kk] = float(vv)
+
+        test_reports.append({"partial": report1, "exact": report2})
+
+    test_report_name = Path(f'./results/finetuning_results/{report_type}_{model_name}_{LEARNING_RATE}_16_{EPOCHS}.json')
     test_report_name.parent.mkdir(parents=True, exist_ok=True)
-    df_test_reports.to_csv(test_report_name, mode='a', header=not os.path.exists(test_report_name),index=False)
+    test_report_name.write_text(json.dumps(test_reports, sort_keys=True, indent=2))
+    logging.info(f"save results to path: {test_report_name}")
 
 
 def main(args):
@@ -416,11 +455,11 @@ def main(args):
     model.to(device)
     #scheduler = get_cosine_schedule_with_warmup(optimizer = optimizer, num_warmup_steps = 50, num_training_steps=num_training_steps)
     # labels, predictions = valid(model, test_loader, tokenizer)
-    labels, predictions = valid(model, test_set, tokenizer)
-    save_path = Path(f"./results/{args.model}/{args.mode}/test_labeled/result_{args.target_label}.json")
-    save_path.parent.mkdir(parents=True, exist_ok=True)
-    result = {"truth": labels, "pred": predictions}
-    save_path.write_text(json.dumps(result))
+    labels, predictions = valid(model, test_set, tokenizer, target_label=args.target_label)
+    # save_path = Path(f"./results/{args.model}/{args.mode}/test_labeled/result_{args.target_label}.json")
+    # save_path.parent.mkdir(parents=True, exist_ok=True)
+    # result = {"truth": labels, "pred": predictions}
+    # save_path.write_text(json.dumps(result))
 
     test_results = []
     test_results.append({ 'model': args.model, 'labels': labels, 'predictions': predictions})
