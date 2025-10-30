@@ -327,12 +327,18 @@ def valid(model, validation_loader, tokenizer, target_label):
                 else:
                     char_level_labels.extend(['O'] * len(token))
 
-            for idx in range(len(char_level_preds)-1):
-                if char_level_preds[idx] == 'O' and char_level_preds[idx+1] == f'I-{target_label}':
-                    char_level_preds[idx+1] = f'B-{target_label}'
+            for idx in range(1, len(char_level_preds)):
+                if char_level_preds[idx-1] == 'O' and char_level_preds[idx] == f'I-{target_label}':
+                    char_level_preds[idx] = f'B-{target_label}'
 
-                if char_level_labels[idx] == 'O' and char_level_labels[idx+1] == f'I-{target_label}':
-                    char_level_labels[idx+1] = f'B-{target_label}'
+                if char_level_labels[idx-1] == 'O' and char_level_labels[idx] == f'I-{target_label}':
+                    char_level_labels[idx] = f'B-{target_label}'
+
+            if char_level_preds[0] == f'I-{target_label}':
+                char_level_preds[0] = f'B-{target_label}'
+
+            if char_level_labels[0] == f'I-{target_label}':
+                char_level_labels[0] = f'B-{target_label}'
 
             all_char_level_preds.append(char_level_preds)
             all_char_level_labels.append(char_level_labels)
@@ -343,6 +349,15 @@ def valid(model, validation_loader, tokenizer, target_label):
 
     #logging.info(eval_labels)
     #logging.info(eval_preds)
+
+    # x, y = flatten(all_char_level_labels), flatten(all_char_level_preds)
+    # for idx in range(1, len(x)):
+    #     if x[idx-1] == 'O' and x[idx] == f'I-{target_label}':
+    #         import ipdb; ipdb.set_trace()
+
+    # for idx in range(1, len(y)):
+    #     if y[idx-1] == 'O' and y[idx] == f'I-{target_label}':
+    #         import ipdb; ipdb.set_trace()
 
     labels = [id2label[id.item()] for id in eval_labels]
     predictions = [id2label[id.item()] for id in eval_preds]
@@ -357,7 +372,14 @@ def valid(model, validation_loader, tokenizer, target_label):
     # logging.info(f"Exact: {ret}")
     ret = compute_metrics_partial(all_char_level_labels, all_char_level_preds, target_label)
     logging.info(f"{target_label} Partial: {ret}")
+    ret = compute_metrics_exact(all_char_level_labels, all_char_level_preds, target_label)
+    logging.info(f"{target_label} Exact: {ret}")
+    # ret = classification_report([labels], [predictions], mode='strict', output_dict=True)
+    # for k, v in ret.items():
+    #     for kk, vv in v.items():
+    #         ret[k][kk] = float(vv)
 
+    # logging.info(f"{target_label} Exact: {ret}")
     # return labels, predictions
     return flatten(all_char_level_labels), flatten(all_char_level_preds)
     # return all_char_level_labels, all_char_level_preds
@@ -369,13 +391,14 @@ def print_reports_to_csv(test_results, model_name, LEARNING_RATE, EPOCHS, report
     for res in test_results:
         # report1 = classification_report([res['labels']], [res['predictions']], mode='partial', output_dict=True)
         report1 = compute_metrics_partial(res['labels'], res['predictions'], '')
-        report2 = classification_report([res['labels']], [res['predictions']], mode='strict', output_dict=True)
+        report2 = compute_metrics_exact(res['labels'], res['predictions'], '')
 
-        for k, v in report2.items():
+        report3 = classification_report([res['labels']], [res['predictions']], mode='strict', output_dict=True)
+        for k, v in report3.items():
             for kk, vv in v.items():
-                report2[k][kk] = float(vv)
+                report3[k][kk] = float(vv)
 
-        test_reports.append({"partial": report1, "exact": report2})
+        test_reports.append({"partial": report1, "exact": report2, "exact2": report3})
 
     test_report_name = Path(f'./results/finetuning_results/{report_type}_{model_name}_{LEARNING_RATE}_16_{EPOCHS}.json')
     test_report_name.parent.mkdir(parents=True, exist_ok=True)

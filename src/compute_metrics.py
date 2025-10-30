@@ -120,7 +120,9 @@ def compute_metrics_exact(y_true_, y_pred_, label):
     if any(isinstance(s, list) for s in y_true_):
         y_true = [item for sublist in y_true_ for item in sublist]
         y_pred = [item for sublist in y_pred_ for item in sublist]
-
+    else:
+        y_true = y_true_
+        y_pred = y_pred_
         # for i, sublist in enumerate(y_true_):
         #     for j in range(len(sublist)-1):
         #         if sublist[j] == 'O' and 'I-' in sublist[j+1]:

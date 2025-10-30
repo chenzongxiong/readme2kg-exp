@@ -1,6 +1,15 @@
 [
   {
     "exact": {
+      "FN": 380,
+      "FP": 0,
+      "TN": 6246,
+      "TP": 0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "exact2": {
       "WORKSHOP": {
         "f1-score": 0.0,
         "precision": 0.0,
