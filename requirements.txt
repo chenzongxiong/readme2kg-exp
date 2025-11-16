@@ -11,3 +11,4 @@ torch
 ipdb
 google-generativeai
 datasets
+sentence_transformers

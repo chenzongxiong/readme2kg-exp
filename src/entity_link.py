@@ -151,11 +151,13 @@ def semantic_matching(nerdme_df: pd.DataFrame, canonical_entities: List[str], *,
     if not cfg.model:
         model = st.SentenceTransformer('all-MiniLM-L6-v2')
         model = model.to(device)
+    else:
+        model = cfg.model
 
     detected_entities = nerdme_df['entity_text'].tolist()
     detected_emb = model.encode(detected_entities, convert_to_tensor=True)
     canonical_emb = model.encode(canonical_entities, convert_to_tensor=True)
-    cosine_scores = st.util.cos_sim(detected_emb, canonical_emb)
+    cosine_scores = st.util.cos_sim(detected_emb, canonical_emb).cpu()
     results = []
     for i, row in tqdm(nerdme_df.iterrows(), desc='Linking (semantic)'):
         ent = row['entity_text']
@@ -201,26 +203,26 @@ def finetune_matching(nerdme_df_train: pd.DataFrame, nerdme_df: pd.DataFrame, ca
     model = st.SentenceTransformer('all-MiniLM-L6-v2')
     model = model.to(device)
 
-    import ipdb; ipdb.set_trace()
     train_dataloader = DataLoader(train_examples, batch_size=32)
     train_loss = st.losses.MultipleNegativesRankingLoss(model)
 
-    num_epochs = 3
+    num_epochs = 10
     warmup_steps = int(len(train_dataloader) * num_epochs * 0.1)
-    output_path = "./finetuned_minilm_nerdme_pwc"
-
+    model_path = Path(f"./finetuned_minilm_nerdme_pwc_{num_epochs}")
     # ==================================================
     # 4. Train
     # ==================================================
-    model.fit(
-        train_objectives=[(train_dataloader, train_loss)],
-        epochs=num_epochs,
-        warmup_steps=warmup_steps,
-        output_path=output_path
-    )
-    print(f"Model saved to {output_path}")
+    if not model_path.exists():
+        model.fit(
+            train_objectives=[(train_dataloader, train_loss)],
+            epochs=num_epochs,
+            warmup_steps=warmup_steps,
+            output_path=str(model_path)
+        )
+        logging.info(f"Model saved to {model_path}")
+    model = st.SentenceTransformer(str(model_path))
     cfg.model = model
-    semantic_matching(nerdme_df, canonical_entities, cfg)
+    return semantic_matching(nerdme_df, canonical_entities, cfg=cfg)
 
 
 def load_pwc_dataset():
@@ -380,7 +382,6 @@ def main(args):
     if gold_nerdme_path.exists():
         # pure_nerdme_path = Path(f'results/entity-linking/nerdme/{args.target_label}.csv')
         # pure_nerdme_df = pd.read_csv(pure_nerdme_path)
-
         # nerdme_df['gold_name'] = nerdme_df['entity_text'].apply(lambda x: x.lower())
         # nerdme_df.to_csv(gold_nerdme_path, index=False)
         nerdme_df = pd.read_csv(gold_nerdme_path)
@@ -398,7 +399,7 @@ def main(args):
     nerdme_df = nerdme_df_shuffled.iloc[split_idx:]
     nerdme_df_train = nerdme_df_train.reset_index(drop=True)
     nerdme_df = nerdme_df.reset_index(drop=True)
-
+    logging.info(f'Train: {len(nerdme_df_train)}, Test: {len(nerdme_df)}')
     if platform == 'pwc':
         pwc_df = load_pwc_dataset()
         canonical_entities = pwc_df["canonical_name"].str.lower().tolist()
@@ -406,22 +407,25 @@ def main(args):
         zenodo_df = load_zenodo_dataset(nerdme_df)
 
     # 3) Run keyword based linking
-    # kw_pred = keyword_matching(nerdme_df, canonical_entities)
-    # kw_result = evaluate_linking(kw_pred)
-    # logging.info(f"Keyword result:\n{json.dumps(kw_result, indent=2)}")
-    # # 4) Run semantic linking
-    # sem_pred = semantic_matching(nerdme_df, canonical_entities)
-    # sem_result = evaluate_linking(sem_pred)
-    # logging.info(f"Semantic result:\n{json.dumps(sem_result, indent=2)}")
+    kw_pred = keyword_matching(nerdme_df, canonical_entities)
+    kw_result = evaluate_linking(kw_pred)
+    logging.info(f"Keyword result:\n{json.dumps(kw_result, indent=2)}")
+    # 4) Run semantic linking
+    sem_pred = semantic_matching(nerdme_df, canonical_entities)
+    sem_result = evaluate_linking(sem_pred)
+    logging.info(f"Semantic result:\n{json.dumps(sem_result, indent=2)}")
     # 5) Run finetuned semantic linking
-    ft_result = finetune_matching(nerdme_df_train, nerdme_df, canonical_entities)
-    # overall_result = {
-    #     'keyword': kw_result,
-    #     'semantic': sem_result,
-    # }
+    ft_pred = finetune_matching(nerdme_df_train, nerdme_df, canonical_entities)
+    ft_result = evaluate_linking(ft_pred)
+    logging.info(f"Finetuned result:\n{json.dumps(ft_result, indent=2)}")
 
-    # save_path = Path(f'results/entity-linking/{platform}_{args.target_label.lower()}.json')
-    # save_path.write_text(json.dumps(overall_result, indent=2))
+    overall_result = {
+        'keyword': kw_result,
+        'semantic': sem_result,
+        'finetine': ft_result,
+    }
+    save_path = Path(f'results/entity-linking/{platform}_{args.target_label.lower()}.json')
+    save_path.write_text(json.dumps(overall_result, indent=2))
 
 
 if __name__ == '__main__':
