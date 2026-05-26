@@ -74,9 +74,11 @@ def fetch_zenodo_records(query, max_records = 200):
         title = md.get("title", "")
         doi = md.get("doi", "")
         resource_type = md.get("resource_type", {}).get("type", "")
+        import ipdb; ipdb.set_trace()
         all_items.append({
             "canonical_id": str(h.get("id", "")),
             "name": title.strip(),
+            "gold_name": query,
             "type": resource_type.lower(),
             "aliases": title.lower(),
             "homepage": h.get("links", {}).get("html", ""),
@@ -251,26 +253,30 @@ def load_pwc_dataset():
     df["canonical_id"] = df.index.astype(int)
     return df
 
-def load_zenodo_dataset(entities_to_query: List[str], target_label: str):
-    # detected_entities = nerdme_df['entity_text'].tolist()
-    # entities_to_query = []
-    # specials = ['/', '-', '|', '_', '+', '=', '>', '<']
-    # for entity in detected_entities:
-    #     entity = entity.lower()
-    #     if '(' in entity:
-    #         entity = entity.replace('(', '')
-    #     if ')' in entity:
-    #         entity = entity.replace(')', '')
+def load_zenodo_dataset(nerdme_df: pd.DataFrame, target_label: str):
+    detected_entities = nerdme_df[nerdme_df['gold_name'] != 'NIL']['gold_name'].unique().tolist()
+    entities_to_query = []
+    specials = ['-', '|', '_', '+', '=', '>', '<']
+    for entity in detected_entities:
+        entity = entity.lower()
+        if '(' in entity:
+            entity = entity.replace('(', '')
+        if ')' in entity:
+            entity = entity.replace(')', '')
 
-    #     for sp in specials:
-    #         if sp in entity:
-    #             entity = entity.replace(sp, ' ')
+        if '/' in entity:
+            entity = entity.split('/')[-1]
 
-    #     if entity in entities_to_query:
-    #         continue
-    #     entity = normalize_spaces(entity)
-    #     entities_to_query.append(entity)
-    # logging.info(f"NERDME unique entities: {len(entities_to_query)}")
+        for sp in specials:
+            if sp in entity:
+                entity = entity.replace(sp, ' ')
+
+        if entity in entities_to_query:
+            continue
+        entity = normalize_spaces(entity)
+        entities_to_query.append(entity)
+    logging.info(f"NERDME unique entities: {len(entities_to_query)}")
+
     all_items = []
     save_path = Path(f"results/entity-linking/zenodo/{target_label}.csv")
     ckpt_path = Path(f'results/entity-linking/zenodo/ckpt_{target_label.lower()}.txt')
@@ -285,6 +291,7 @@ def load_zenodo_dataset(entities_to_query: List[str], target_label: str):
         saved_idx = 0
 
     last_saved_item_cnt = 0
+
     for idx, query in enumerate(entities_to_query):
         if idx <= saved_idx:
             continue
@@ -302,7 +309,7 @@ def load_zenodo_dataset(entities_to_query: List[str], target_label: str):
         time.sleep(0.3)
 
     df = pd.DataFrame(all_items)
-
+    import ipdb; ipdb.set_trace()
     return df
 
 def load_nerdme_mentions(file: Path):
@@ -365,7 +372,7 @@ def evaluate_linking(df: pd.DataFrame, gold_col: str = 'gold_name'):
 
 def main(args):
     # Prepare NERdME entity
-    platform = 'pwc'
+    platform = 'zenodo'
     files = [x for x in Path("data/train").rglob("*.tsv")] + [x for x in Path("data/val").rglob("*.tsv")] + [x for x in Path("data/test_labeled/").rglob("*.tsv")]
     for target_label in LABELS:
         save_path = Path(f'results/entity-linking/nerdme/{target_label}.csv')
@@ -376,8 +383,7 @@ def main(args):
         logging.info(f"✅ Extracted {len(df)} {target_label} entities → {save_path}")
         df.to_csv(save_path, index=False)
 
-    gold_nerdme_path = Path(f'results/entity-linking/nerdme/{args.target_label}_GOLD_PwC.csv')
-
+    gold_nerdme_path = Path(f'results/entity-linking/nerdme/{args.target_label}_GOLD_{platform}.csv')
     # Attach gold if available; otherwise default NIL
     if gold_nerdme_path.exists():
         # pure_nerdme_path = Path(f'results/entity-linking/nerdme/{args.target_label}.csv')
@@ -404,8 +410,8 @@ def main(args):
         pwc_df = load_pwc_dataset()
         canonical_entities = pwc_df["canonical_name"].str.lower().tolist()
     elif platform == 'zenodo':
-        zenodo_df = load_zenodo_dataset(nerdme_df)
-
+        zenodo_df = load_zenodo_dataset(nerdme_df, args.target_label)
+        import ipdb; ipdb.set_trace()
     # 3) Run keyword based linking
     kw_pred = keyword_matching(nerdme_df, canonical_entities)
     kw_result = evaluate_linking(kw_pred)
@@ -434,7 +440,8 @@ if __name__ == '__main__':
     parser.add_argument("--path", type=str, required=False)
     parser.add_argument("--target_label", type=str, required=False, default='DATASET')
     parser.add_argument("--topk", type=int, required=False, default=5)
-    parser.add_argument("--method", type=str, choices=['keyword', 'semantic'])
+    # parser.add_argument("--method", type=str, choices=['keyword', 'semantic'])
+    parser.add_argument("--platform", type=str, choices=['pwc', 'zenodo'])
     args = parser.parse_args()
 
     main(args)
