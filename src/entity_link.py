@@ -74,7 +74,6 @@ def fetch_zenodo_records(query, max_records = 200):
         title = md.get("title", "")
         doi = md.get("doi", "")
         resource_type = md.get("resource_type", {}).get("type", "")
-        import ipdb; ipdb.set_trace()
         all_items.append({
             "canonical_id": str(h.get("id", "")),
             "name": title.strip(),
@@ -309,7 +308,6 @@ def load_zenodo_dataset(nerdme_df: pd.DataFrame, target_label: str):
         time.sleep(0.3)
 
     df = pd.DataFrame(all_items)
-    import ipdb; ipdb.set_trace()
     return df
 
 def load_nerdme_mentions(file: Path):
@@ -319,7 +317,7 @@ def load_nerdme_mentions(file: Path):
     Optionally:
         - gold_pwc_name or gold_pwc_id (for evaluation, if you have it)
     """
-    df = pd.read_csv(path)
+    df = pd.read_csv(file)
     # Basic cleaning
     df["entity_text"] = df["entity_text"].astype(str).str.strip()
     return df
@@ -372,7 +370,8 @@ def evaluate_linking(df: pd.DataFrame, gold_col: str = 'gold_name'):
 
 def main(args):
     # Prepare NERdME entity
-    platform = 'zenodo'
+    # platform = 'zenodo'
+    platform = args.platform
     files = [x for x in Path("data/train").rglob("*.tsv")] + [x for x in Path("data/val").rglob("*.tsv")] + [x for x in Path("data/test_labeled/").rglob("*.tsv")]
     for target_label in LABELS:
         save_path = Path(f'results/entity-linking/nerdme/{target_label}.csv')
@@ -410,8 +409,9 @@ def main(args):
         pwc_df = load_pwc_dataset()
         canonical_entities = pwc_df["canonical_name"].str.lower().tolist()
     elif platform == 'zenodo':
-        zenodo_df = load_zenodo_dataset(nerdme_df, args.target_label)
-        import ipdb; ipdb.set_trace()
+        # zenodo_df = load_zenodo_dataset(nerdme_df, args.target_label)
+        # canonical_entities = zenodo_df["name"].str.lower().tolist()
+    import ipdb; ipdb.set_trace()
     # 3) Run keyword based linking
     kw_pred = keyword_matching(nerdme_df, canonical_entities)
     kw_result = evaluate_linking(kw_pred)
@@ -421,14 +421,14 @@ def main(args):
     sem_result = evaluate_linking(sem_pred)
     logging.info(f"Semantic result:\n{json.dumps(sem_result, indent=2)}")
     # 5) Run finetuned semantic linking
-    ft_pred = finetune_matching(nerdme_df_train, nerdme_df, canonical_entities)
-    ft_result = evaluate_linking(ft_pred)
-    logging.info(f"Finetuned result:\n{json.dumps(ft_result, indent=2)}")
+    # ft_pred = finetune_matching(nerdme_df_train, nerdme_df, canonical_entities)
+    # ft_result = evaluate_linking(ft_pred)
+    # logging.info(f"Finetuned result:\n{json.dumps(ft_result, indent=2)}")
 
     overall_result = {
         'keyword': kw_result,
         'semantic': sem_result,
-        'finetine': ft_result,
+        # 'finetine': ft_result,
     }
     save_path = Path(f'results/entity-linking/{platform}_{args.target_label.lower()}.json')
     save_path.write_text(json.dumps(overall_result, indent=2))

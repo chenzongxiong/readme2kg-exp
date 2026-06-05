@@ -157,7 +157,7 @@ def main(args):
     #     df.to_csv(output_csv)
 
     target_label = args.target_label
-    gold_path = Path('./results/entity-linking/nerdme') / f'{target_label}_gold.csv'
+    gold_path = Path('./results/entity-linking/nerdme') / f'{target_label}_gold.csv.bak'
 
     nerdme_entity_path = Path(f'./results/entity-linking/nerdme/{target_label}.csv')
     nerdme_df = pd.read_csv(nerdme_entity_path)
@@ -174,8 +174,6 @@ def main(args):
     all_items = []
     queried_set = set()
     ckpt_path = Path('./results/entity-linking/zenodo/.ckpt')
-    import ipdb; ipdb.set_trace()
-
 
 
     # if ckpt_path.exists():
@@ -235,8 +233,8 @@ def main(args):
     zenodo_df = pd.read_csv(zenodo_entity_path)
     zenodo_df = zenodo_df[zenodo_df.type == 'Dataset']
     logging.info(f"zenodo_df: dataset: {len(zenodo_df)}")
-    # canonical_entities = zenodo_df['gold_name'].tolist()
-    canonical_entities = zenodo_df['name'].tolist()
+    canonical_entities = zenodo_df['gold_name'].tolist()
+    # canonical_entities = zenodo_df['name'].tolist()
     THRESH = 0.7  # your current threshold on RapidFuzz (0..100). Tune on a dev set.
     TOPK = args.topk     # for optional Hits@k/MRR
     BATCH = 256
